@@ -9,7 +9,9 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'speakers' => File.join(SOURCE, "_speakers"),
   'post_ext' => "md",
+  'speaker_ext' => "yml",
   'theme_package_version' => "0.1.0"
 }
 
@@ -22,7 +24,8 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :posts => "_posts",
+      :speakers => "_speakers"
     }
     
     def self.base
@@ -39,6 +42,39 @@ module JB
   
   end #Path
 end #JB
+
+# Usage: rake speaker first="First Name" last="Last Name"
+desc "Create a new speaker in #{CONFIG['speakers']}"
+task :speaker do
+  abort("rake aborted: '#{CONFIG['speakers']}' directory not found.") unless FileTest.directory?(CONFIG['speakers'])
+  first = ENV["first"] || "first"
+  last = ENV["last"] || "last"
+  completeName = first+' '+last
+  slug = completeName.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue Exception => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  filename = File.join(CONFIG['speakers'], "#{slug}.#{CONFIG['speaker_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  
+  puts "Creating new speaker: #{filename}"
+  open(filename, 'w') do |speaker|
+    speaker.puts "bio: "
+    speaker.puts "name: #{first} #{last}"
+    speaker.puts "github: "
+    speaker.puts "twitter: "
+    speaker.puts "website: " 
+    speaker.puts "email: "
+    speaker.puts "gravatar: tochanger@nantesjug.org" 
+    speaker.puts "image: "
+    speaker.puts "  url: "
+  end
+end # task :speaker
 
 # Usage: rake post title="A Title" [date="2012-02-09"]
 desc "Begin a new post in #{CONFIG['posts']}"
