@@ -1,0 +1,28 @@
+active: true
+bio:
+  Tug has dabbled in cross-layer wireless network routing algorithms as a PhD student at ASU
+  and co-authored several papers during his time there. His development experience includes
+  several widely-integrated and PCI-compliant e-commerce platforms, a handful of data
+  protection/encryption suites, and a significant amount of work for one of the world’s
+  largest public-facing Certificate Authorities in addition to several other projects.
+
+
+  Tug is currently employed as an infrastructural engineer at Square in San Francisco.
+github: tgrall
+image:
+  url: /images/Tug-grall.jpg
+  title: Tug grall
+  alt: Tug grall
+layout: profile
+linkedin: cgrall480
+name: Tug grall
+role: Co-Founder
+short:
+  <a href="/team/tug-grall">Tug</a> co-founded Flatterline, a
+  <a href="/">Ruby on Rails development company</a> in 2009.
+  He has extensive experience in security, algorithms, e-commerce and infrastructure engineering.
+  He's currently employed as an infrastructural engineer at Square in San Francisco.
+twitter: tgrall
+type: alumni
+website: tugdualgrall.com
+    

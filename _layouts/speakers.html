@@ -1,0 +1,28 @@
+---
+layout: page
+title: Les Speakers
+---
+
+<div id="team-page">
+
+
+	<ul class="thumbnails">
+      {% for person in page.speakers %}
+	  <li class="span3">
+	    <a href="/speakers/{{ person[0] }}" class="thumbnail">
+			{% if person[1].gravatar %}
+			  <img src="{{ person[1].gravatar | to_gravatar }}" title="{{ page.speaker.name }}" alt="{{ page.speaker.name }}" width="150" />
+			{% else %}
+				{% if person[1].image %}
+			  		<img src="{{ person[1].image.url }}" title="{{ person[1].name }}" alt="{{ person[1].name }}" width="150" />
+				{% endif %}
+			{% endif %}		
+	      	<p align="center">{{ person[1].name }}</p>
+	    </a>
+	  </li>
+      {% endfor %}
+	</ul>
+
+
+
+</div>
