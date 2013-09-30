@@ -1,3 +1,13 @@
-<any ng-repeat="event in events">
+<h2 class="text-center">Prochaines soirées</h2>
+<br>
+
+<any ng-repeat="event in nextEvents">
+  <ng-include src="'views/event.html'"></ng-include>
+</any>
+
+<h2 class="text-center">Soirées passées</h2>
+<br>
+
+<any ng-repeat="event in previousEvents">
   <ng-include src="'views/event.html'"></ng-include>
 </any>
