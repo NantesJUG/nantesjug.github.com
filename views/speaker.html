@@ -1,0 +1,29 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    {{speaker.name}}
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-4 col-md-3 col-lg-2">
+        <img ng-show="speaker.gravatar" gravatar-src="speaker.gravatar" gravatar-size="150">
+        <img ng-hide="speaker.gravatar" src="/images/879aa61d.gravatar-duke.jpg" class="img-responsive" width="150px">
+      </div>
+      <div class="col-sm-10 col-md-9 col-lg-10">
+        <p>{{speaker.bio}}</p>
+
+        <div class="social social-twitter" ng-show="speaker.twitter">
+          <a href="http://twitter.com/{{speaker.twitter}}" target="_blank">
+            <span>@{{speaker.twitter}}</span>
+          </a>
+        </div>
+
+        <div class="social social-gplus" ng-show="speaker.gplus">
+          <a href="http://plus.google.com/{{speaker.gplus}}" target="_blank">
+            <span>+{{speaker.name}}</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

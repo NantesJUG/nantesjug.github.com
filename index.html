@@ -1,0 +1,148 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Nantes JUG</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/88145f53.main.css">
+</head>
+<body ng-app="nantesjugApp">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.min.js"></script>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="jug-page container">
+
+  <div class="row">
+
+    <!-- Menu for device XS -->
+    <div class="jug-leftbar-xs col-xs-12 hidden-sm hidden-md hidden-lg">
+      <div class="navbar navbar-default navbar-fixed-top text-center" role="navigation">
+        <ul class="jug-menu nav nav-pills" ng-controller="MenuCtrl">
+          <li ng-class="{ active: isActive('/')}"><a href="/#/">Accueil</a></li>
+          <li ng-class="{ active: isActive('/events')}"><a href="/#/events">Soirées</a></li>
+          <li ng-class="{ active: isActive('/speakers')}"><a href="/#/speakers">Speakers</a></li>
+          <li ng-class="{ active: isActive('/infos')}"><a href="/#/infos">Infos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sidebar for device SM, MD -->
+    <div class="jug-leftbar hidden-xs col-sm-2 col-md-2 col-lg-2">
+
+      <a href="/#/">
+        <img src="images/8b094cc0.logo-nantesjug.gif" alt="NantesJUG" class="img-responsive">
+      </a>
+
+      <h3 class="text-muted">Nantes JUG</h3>
+      <ul class="jug-menu nav nav-pills nav-stacked" ng-controller="MenuCtrl">
+        <li ng-class="{ active: isActive('/')}"><a href="/#/">Accueil</a></li>
+        <li ng-class="{ active: isActive('/events')}"><a href="/#/events">Soirées</a></li>
+        <li ng-class="{ active: isActive('/speakers')}"><a href="/#/speakers">Speakers</a></li>
+        <li ng-class="{ active: isActive('/infos')}"><a href="/#/infos">Infos</a></li>
+      </ul>
+      <div class="jug-promo">
+        <h3>Devoxx.Be</h3>
+        <p><em>Du 11 au 15 nov. 2013</em></p>
+        <a href="https://regbe.devoxx.com" target="_blank" rel="nofollow">
+          <img alt="Inscription : https://regbe.devoxx.com" src="https://sites.google.com/site/nantesjug/_/rsrc/1379888473706/config/devoxx_banner.gif" class="img-responsive">
+          <p><i>&gt;&gt; S'inscrire</i></p>
+        </a>
+      </div>
+
+      <div class="jug-sponsors">
+        <h3>Sponsors</h3>
+        <a href="http://zenika.com/" target="_blank" rel="nofollow">
+          <img src="/images/9f1f7246.logo-zenika.jpg" alt="Zenika" class="img-responsive">
+        </a>
+        <a href="http://couchbase.com" target="_blank" rel="nofollow">
+          <img src="/images/4d47f484.logo-couchbase.png" alt="Couchbase" class="img-responsive">
+        </a>
+        <a href="http://netapsys.fr" target="_blank" rel="nofollow">
+          <img src="/images/730a6408.logo-netapsys.jpg" alt="Netapsys" class="img-responsive">
+        </a>
+      </div>
+    </div>
+
+    <!-- Content page -->
+    <div class="jug-page col-xs-12 col-sm-10 col-md-10 col-lg-10" ng-view=""></div>
+
+
+    <!-- Promo and sponsors for device XS -->
+    <div class="jug-leftbar-xs col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+      <div class="jug-promo">
+        <h3>Devoxx.Be</h3>
+        <p><em>Du 11 au 15 nov. 2013</em></p>
+        <a href="https://regbe.devoxx.com" target="_blank" rel="nofollow">
+          <img alt="Inscription : https://regbe.devoxx.com" src="https://sites.google.com/site/nantesjug/_/rsrc/1379888473706/config/devoxx_banner.gif" class="img-responsive">
+          <p><i>&gt;&gt; S'inscrire</i></p>
+        </a>
+      </div>
+
+      <div class="jug-sponsors">
+        <h3>Sponsors</h3>
+        <a href="http://zenika.com/" target="_blank" rel="nofollow">
+          <img src="/images/9f1f7246.logo-zenika.jpg" alt="Zenika" class="img-responsive">
+        </a>
+        <a href="http://couchbase.com" target="_blank" rel="nofollow">
+          <img src="/images/4d47f484.logo-couchbase.png" alt="Couchbase" class="img-responsive">
+        </a>
+        <a href="http://netapsys.fr" target="_blank" rel="nofollow">
+          <img src="/images/730a6408.logo-netapsys.jpg" alt="Netapsys" class="img-responsive">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="jug-footer text-center">
+    <em>Pour être informé des prochaines soirées du Nantes JUG, inscrivez-vous à la <a href="http://groups.google.com/group/nantesjug" target="_blank">mailing list</a>.</em>
+  </div>
+
+</div>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+
+<script src="scripts/07c00745.plugins.js"></script>
+
+<script src="scripts/44d57113.modules.js"></script>
+
+<script src="scripts/c70d9615.scripts.js"></script>
+
+</body>
+</html>
