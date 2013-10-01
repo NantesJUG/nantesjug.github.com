@@ -1,0 +1,29 @@
+application: nantes-jug
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /bower_components
+  static_dir: bower_components
+
+- url: /styles
+  static_dir: styles
+
+- url: /scripts
+  static_dir: scripts
+
+- url: /images
+  static_dir: images
+
+- url: /views
+  static_dir: views
