@@ -9,7 +9,7 @@
         <img ng-hide="speaker.gravatar" src="/images/gravatar-duke.jpg" class="img-responsive" width="150px">
       </div>
       <div class="col-sm-10 col-md-9 col-lg-10">
-        <p>{{speaker.bio}}</p>
+        <p ng-bind-html-unsafe='speaker.bio'></p>
 
         <div class="social social-twitter" ng-show="speaker.twitter">
           <a href="http://twitter.com/{{speaker.twitter}}" target="_blank">
