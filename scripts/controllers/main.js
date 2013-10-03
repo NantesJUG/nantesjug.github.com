@@ -8,7 +8,6 @@ angular.module('nantesjugApp')
     })
     .controller('MainCtrl', function ($scope) {
       $scope.event = nj.getNextEvent();
-      debugger;
       $scope.today = nj.getToday();
 
       var eventDetailledView = {};

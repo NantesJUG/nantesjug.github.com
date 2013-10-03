@@ -25,7 +25,6 @@ var nj = function () {
     },
     getNextEvents: function () {
       var today = that.getToday();
-      debugger;
       return _.filter(events, function(event){ return event.date > today; });
     },
     getPreviousEvents: function () {
@@ -52,9 +51,7 @@ var nj = function () {
 
   var fulfillEvent = function (event) {
     //Replace place id by place object
-    debugger;
     event.place = that.getPlace(event.place);
-    debugger;
     //Complete Subject
     _.each(event.subjects, function(subject){ fulfillSubject(subject); });
   };
