@@ -172,7 +172,7 @@ var njSpeakers = [
   {
     id: 'tugdual_grall',
     name: 'Tugdual Grall',
-    bio: 'Happy geek and slow triathlete. Developer of @resultri. @NantesJUG Leader. Technical Evangelist @couchbase about.me/tugdual',
+    bio: 'Happy geek and slow triathlete. Developer of @resultri. @NantesJUG Leader. Technical Evangelist @couchbase about.me/tugdual. Et il est beau',
     gravatar: 'tugdual@gmail.com',
     photo: null,
     twitter: 'tgrall‎',
