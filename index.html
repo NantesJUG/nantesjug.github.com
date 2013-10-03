@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="styles/15171bb9.main.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body ng-app="nantesjugApp">
 <!--[if lt IE 7]>
@@ -22,8 +22,8 @@
 <![endif]-->
 
 <!--[if lt IE 9]>
-<script src="bower_components/es5-shim/es5-shim.js"></script>
-<script src="bower_components/json3/lib/json3.min.js"></script>
+<script src="scripts/deps/es5-shim.min.js"></script>
+<script src="scripts/deps/json3.min.js"></script>
 <![endif]-->
 
 <!-- Add your site or application content here -->
@@ -35,10 +35,10 @@
     <div class="jug-leftbar-xs col-xs-12 hidden-sm hidden-md hidden-lg">
       <div class="navbar navbar-default navbar-fixed-top text-center" role="navigation">
         <ul class="jug-menu nav nav-pills" ng-controller="MenuCtrl">
-          <li ng-class="{ active: isActive('/')}"><a href="/#/">Accueil</a></li>
-          <li ng-class="{ active: isActive('/events')}"><a href="/#/events">Soirées</a></li>
-          <li ng-class="{ active: isActive('/speakers')}"><a href="/#/speakers">Speakers</a></li>
-          <li ng-class="{ active: isActive('/infos')}"><a href="/#/infos">Infos</a></li>
+          <li ng-class="{ active: isActive('/')}"><a href="#/">Accueil</a></li>
+          <li ng-class="{ active: isActive('/events')}"><a href="#/events">Soirées</a></li>
+          <li ng-class="{ active: isActive('/speakers')}"><a href="#/speakers">Speakers</a></li>
+          <li ng-class="{ active: isActive('/infos')}"><a href="#/infos">Infos</a></li>
         </ul>
       </div>
     </div>
@@ -46,16 +46,16 @@
     <!-- Sidebar for device SM, MD -->
     <div class="jug-leftbar hidden-xs col-sm-2 col-md-2 col-lg-2">
 
-      <a href="/#/">
-        <img src="images/8b094cc0.logo-nantesjug.gif" alt="NantesJUG" class="img-responsive">
+      <a href="#/">
+        <img src="images/logo-nantesjug.gif" alt="NantesJUG" class="img-responsive">
       </a>
 
       <h3 class="text-muted">Nantes JUG</h3>
       <ul class="jug-menu nav nav-pills nav-stacked" ng-controller="MenuCtrl">
-        <li ng-class="{ active: isActive('/')}"><a href="/#/">Accueil</a></li>
-        <li ng-class="{ active: isActive('/events')}"><a href="/#/events">Soirées</a></li>
-        <li ng-class="{ active: isActive('/speakers')}"><a href="/#/speakers">Speakers</a></li>
-        <li ng-class="{ active: isActive('/infos')}"><a href="/#/infos">Infos</a></li>
+        <li ng-class="{ active: isActive('/')}"><a href="#/">Accueil</a></li>
+        <li ng-class="{ active: isActive('/events')}"><a href="#/events">Soirées</a></li>
+        <li ng-class="{ active: isActive('/speakers')}"><a href="#/speakers">Speakers</a></li>
+        <li ng-class="{ active: isActive('/infos')}"><a href="#/infos">Infos</a></li>
       </ul>
       <ng-include src="'views/sponsors.html'"></ng-include>
     </div>
@@ -95,19 +95,42 @@
     ga('send', 'pageview');
 </script>
 
+<!-- dev/offline dependencies -->
+<!--
+<script src="scripts/deps/jquery.js"></script>
+<script src="scripts/deps/bootstrap.js"></script>
+<script src="scripts/deps/angular.js"></script>
+<script src="scripts/deps/underscore.js"></script>
+<script src="scripts/deps/md5.js"></script>
+<script src="scripts/deps/angular-gravatar.js"></script>
+<script src="scripts/deps/angular-locale_fr-fr.js"></script>
+<script src="scripts/deps/angular-resource.min.js"></script>
+<script src="scripts/deps/angular-cookies.min.js"></script>
+<script src="scripts/deps/angular-sanitize.js"></script>
+-->
+
+<!-- dependencies -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="bower_components/underscore/underscore.js"></script>
-<script src="bower_components/angular/angular.js"></script>
-
-<script src="scripts/07c00745.plugins.js"></script>
-
-<script src="scripts/44d57113.modules.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script src="scripts/deps/underscore.min.js"></script>
+<script src="scripts/deps/md5.js"></script>
+<script src="scripts/deps/angular-gravatar.js"></script>
+<script src="scripts/deps/angular-locale_fr-fr.js"></script>
+<script src="scripts/deps/angular-resource.min.js"></script>
+<script src="scripts/deps/angular-cookies.min.js"></script>
+<script src="scripts/deps/angular-sanitize.js"></script>
 
 <!-- data -->
 
-<script src="scripts/3cae7a0c.data.js"></script>
+<script src="scripts/data/places.js"></script>
+<script src="scripts/data/speakers.js"></script>
+<script src="scripts/data/events.js"></script>
 
-<script src="scripts/afbcb3a9.scripts.js"></script>
+<!-- app -->
+<script src="scripts/app.js"></script>
+<script src="scripts/module-nj.js"></script>
+<script src="scripts/controllers/main.js"></script>
 
 </body>
 </html>

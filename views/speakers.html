@@ -6,7 +6,7 @@
     <div class="jug-speakers-item col-xs-6 col-sm-4 col-md-3" ng-repeat="speaker in speakers | orderBy:'name' | filter: {name: searchText}">
       <a href="/#/speakers/{{speaker.id}}" class="thumbnail">
         <img ng-show="speaker.gravatar" gravatar-src="speaker.gravatar" gravatar-size="150">
-        <img ng-hide="speaker.gravatar" src="/images/879aa61d.gravatar-duke.jpg" alt="No avatar" class="img-responsive">
+        <img ng-hide="speaker.gravatar" src="/images/gravatar-duke.jpg" alt="No avatar" class="img-responsive">
         <p align="center">{{speaker.name}}</p>
       </a>
     </div>
