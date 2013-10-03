@@ -13,12 +13,14 @@
   <div class="panel-body">
 
     <div class="jug-event-location col-xs-6 col-sm-6 col-md-6 col-lg-6" ng-show="event.date > today || eventDetailledView[event.id]">
-      <p>
-        <a href="{{event.place.maps}}" target="_blank">
-          <img src="/images/location.jpg" alt="Lieu">
-          <span>{{event.place.name}} - {{event.place.address}}</span>
-        </a>
-      </p>
+      <a href="{{event.place.maps}}" target="_blank">
+        <img src="/images/location.jpg" alt="Lieu">
+        <address>
+        {{event.place.name}} <br/>
+        {{event.place.address}}
+        {{event.place.city}}
+        </address>
+      </a>
     </div>
 
     <div class="jug-event-registration col-xs-6 col-sm-6 col-md-6 col-lg-6" ng-show="event.date > today">
