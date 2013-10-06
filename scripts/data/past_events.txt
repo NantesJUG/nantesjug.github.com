@@ -1,0 +1,289 @@
+
+==========================
+==========================
+
+mercredi, 18 mai 2011
+Soirée "Du fait maison vers les technos standards"
+
+Mai 2011 : "Du fait maison vers les technos standards : Spring Batch, Recherche textuelle avec Lucene"
+Comme de nombreuses entreprises et DSI, Sigma a construit aux débuts des années 2000 son framework maison pour structurer ses développements J2EE. Aujourd\'hui, les composants sur étagère disponibles sur le marché sont positionnés en remplacement progressif.
+
+Au cours de la conférence, Guillaume, Yann et David retraceront rapidement l\'historique Java de la société puis notre retour d\'expérience sur la mise en oeuvre de deux de ces briques :
+Spring Batch : structuration des développements et apis pour les  traitements de masse.
+Lucene : moteur de recherche full text open source de référence.
+
+Nos Speakers : Guillaume Thoonsen, David Launay, Yann Pichot
+
+==========================
+==========================
+
+jeudi, 7 avril 2011
+Soirée Annotations
+
+==========================
+==========================
+
+jeudi, 31 mars 2011
+Soirée Play! Framework par Guillaume Bort
+
+
+Mars 2011 : "Play! Framework"
+Play! est un framework Java Web nouvelle génération et sans compromis: il apporte toute l\'agilité et la productivité des frameworks basés sur les langages dynamiques dont Java n\'avais jamais pu profiter. Contrairement a de nombreux frameworks Java qui ne sont que des tentatives de masquer des technologies trop complexes telles que JSF ou EJB, Play! s\'attaque aux problèmes du développement Web avec Java de manière totalement novatrice et rompt définitivement avec les pratiques avérées non viables du monde JEE.
+
+Créé par des développeurs Web pour des développeurs Web, Play! offre un environnement de très haute productivité grâce à un cycle de développement hyper optimisé sans phase de compilation! ni phase de déploiement!. Tout ceci associé à des rapports d\'erreurs d\'une perfection inédite allant même jusqu\'à une proposition de résolution du problème. En s\'appuyant complétement sur le langage Java, il permet de profiter de la richesse de son ecosystème ainsi que de ses outils de développement et d\'optimisation les plus modernes
+
+Notre Speaker : Guillaume Bort
+
+
+==========================
+==========================
+
+jeudi, 3 mars 2011
+Soirée Bonita
+
+Fevrier 2011 : "Bonita Open Solution: why, what, how?"
+Développez vos applications avec Bonita Open Solution
+
+Le BPM (Business Process Management) a le vent en poupe mais les solutions propriétaires des éditeurs historiques ont la réputation d\'être coûteuses et complexes à mettre en oeuvre. Bonita Open Solution constitue une alternative Open-Source qui se veut simple à mettre en oeuvre. Cette présentation aura pour objectif de montrer comment l\'utiliser pour développer rapidement une application autour d\'un processus métier.
+
+Les concepts de base du BPM seront abordés à travers la modélisation d\'un processus avec la notation BPMN 2.0 (Business Process Modeling Notation). Ce processus servira de base pour montrer le développement de connecteurs (permettant de s\'interfacer avec les applications existantes du système d\'information) et le développement de formulaires permettant la génération d\'une application Web dédiée. La démonstration portera aussi sur l\'utilisation de l\'API pour manipuler les processus.
+
+Bonita Open Solution :
+BOS est une solution de BPM (Business Process Management) sous licence Open-Source (GPL) qui traite les problématiques du domaine de manière concrète et pragmatique. Elle cible particulièrement les équipes projets responsables du développement et de la mise en place d\'applications orientées processus dans un système d\'information.
+D\'un point de vue technique, BOS est développé en Java et s\'appuie sur des technologies comme GWT, Hibernate, Eclipse RCP, Birt, Jasper ou Groovy.
+
+Notre Speaker : Rodrigue Le Gall
+
+
+==========================
+==========================
+
+
+Janvier 2011 : "Grails : Framework de développement rapide d\'applications Web"
+Grails est un framework open source basé sur le langage Groovy et utilisant les technologies standards des applications JavaEE (Hibernate, Spring). Il s\'agit d\'un framework très productif, et Manuel Boillod nous présentera les clés de ce succès :
+
+Le langage Groovy
+Les principes de base de Grails
+L\'architecture générale et les plugins
+Les fonctionnalités majeures
+Notre Speaker : Manuel Boillod
+
+
+==========================
+==========================
+
+
+Novembre 2010 : Soirée Flex & RIA
+
+Durant cette soirée, nous discuterons de RIA:
+
+de Flash, de Flex, d\'HTML5
+d\'application multi-écrans: desktop, tablette, téléphone, télévision
+des solutions offertes par Adobe dans ce domaine :
+nous verrons comment les technologies Adobe permettent aux développeurs et architectes de construire des applications internet riches et multi-écrans, tout en faisant fructifier leurs anciens investissements, notamment sur les technologies Java/JEE (EJB3, Spring, Hibernate JPA, Maven...)
+Cette présentation a été assurée par
+
+Francois Le Droff  architecte chez Adobe France. Les slides: Cliquez-ici
+
+==========================
+==========================
+
+
+Octobre 2010 : Soirée CAMEL
+
+Camel est un framework qui facilite la mise en oeuvre de solution d\'intégration : Comment faire parler un chat avec un chien, ou piloter la machine à café en java.
+Cette présentation s\'attache à partir d\'exemples pratiques, mais sans café à illustrer l\'utilisation que nous en avons faite depuis 2 ans dans nos projets.
+
+Cette presentation sera assurée par Jean-Baptiste Defard, Directeur Technique de Netapsys
+
+
+
+Les slides : Cliquez-ici
+
+
+
+==========================
+==========================
+
+
+Mai 2010 : Soirée JAVA Performance
+
+Dans cette présentation consacrée aux performances des applications Java/JavaEE, Stéphane Routhiau a abordé les principales problématiques que vous pouvez être amené à rencontrer de l\'architecture au déploiement. Pas d\'outil miracle ici, mais simplement une méthodologie et des nombreux conseils pour connaitre les points durs qui devront faire l\'objet d\'une attention toute particulière. Parmi les thématiques abordées, on retrouve : load-balancing, clustering, haute-disponibilité, l\'influence de la qualité, la gestion de ressources, synchronisation et réentrance, les différentes JVM, les serveurs d\'applications et les tests de charge.
+Les slides : Cliquez-ici
+
+
+==========================
+==========================
+
+
+
+Décembre 2009 : Soirée ACCELEO et Open-source
+
+Première mi-temps
+Yvan LUSSAUD nous présentera le projet open-source Acceleo, pas de « bla bla, ni de bleuf » il nous fera voir comment utiliser concrètement un moteur de génération de code associé à la démarche MDA (Model Driven Architecture).
+
+Yvan est comiteur sur ce projet, et aussi comiteur sur le projet Eclipse… vous savez le truc violet et gris devant lequel beaucoup de développeurs perdent leurs cheveux J
+
+Seconde mi-temps
+
+L\'open-source c\'est génial ! Mais qu\'est-ce qui ce cache derrière ? Qui soutient les projets, qui finance, comment çà marche ?
+
+Nous recevrons Mikaël Barbero d\'OBEO qui interviendra pour parler du business model d\'Obeo au dessus d\'Eclipse Modeling et d\'Acceleo.
+
+Mikaël est commiteur de la fondation Eclipse, et est un expert des projets de migration d\'applications qui est un des principaux moyens de financement des activités OBEO. Il donnera une explication sur le côté "hybrid" de leur business model qui joue sur plusieurs aspects suivant le contexte (édition, service, expertise, etc ...), et comment OBEO vit et finance la boite en ayant autant de contribution opensource...
+
+
+==========================
+==========================
+
+
+
+Octobre 2009 : Soirée Méthode Agile/Scrum
+Nous vous avons proposé en ce mois d\'octobre, de découvrir par le biais de retours d\'experience, la méthode Agile Scrum. Que vous soyez developpeur, architecte, responsable d\'équipe vous découvrirez les bénéfices de cette méthode. Nous discuterons également des outils et méthodes qui permettent d\'améliorer la qualité et la productivité de vos développements( TDD, PairProgramming, TotalCommander,  TeamCity, Eclipse + Mylyn, …). Nous avons le plaisir d\'accueillir pour cette présentation Dimitri Baeli, responsable Qualité&Process chez eXo paltform, qui vient de presenter ces sujets aux conferences AgileTour 2009 Marseille, et http://agileee.org/.
+
+==========================
+==========================
+
+
+Septembre 2009 :  Les Grilles de données mémoire (exemple : Oracle Coherence), une nouvelle brique d\'infrastructure aux performances extrêmes.
+
+Durant cette présentation, Christophe Pruvost (Solution Architect & Ingenieur Avant Vente Oracle France) nous a présenté les bénéfices des caches distribués en mémoire sur votre architecture JEE :
+- Extreme Transaction
+- Protection de source de données (SGBD, Web Services)
+- Association symbiotique avec les framework de Mapping relationnels (ex : Hibernate) et les serveurs JEE (Coherence Web Session Management)
+
+Démo et retours d\'expérience d\'une année riche en POC chez les plus grands clients français...
+
+
+==========================
+==========================
+
+
+Juin 2009 : Spring WEBFLOW / TELOSYS
+Les deux présentations lors de cette rencontre nous permettrons de voir :
+SPRING WEBFlow, le MVC2 troisième génération
+TELOSYS : Constructeur d\'applications WEB 2.0
+Sébastien ROUL nous présentera ainsi SPRING Webflow, le controleur MVC de Springsource :
+Concepts
+Démos
+Retours d\'expérience
+Voir les slides de la présentation
+
+Laurent GUERIN nous présentera TELOSYS, le framework open-source de construction d\'application WEB 2.0.
+Motivations et objectifs
+Architecture générale
+Roadmap
+
+
+==========================
+==========================
+
+
+Avril 2009 : Jazz : La nouvelle plateforme de développement collaboratif
+
+Durant cette présentation, Eric Charbonnier Software IT Architect chez IBM, nous présentera le projet Jazz.net et tout particulièrement :
+Motivations et objectifs
+Architecture générale
+Les principes clés
+L\'Ecosystem Jazz
+Roadmap
+
+==========================
+==========================
+
+
+Mars 2009 : GlassFish v3, en route pour Java EE 6 et le développement Java indolore!
+
+
+Durant cette présentation, Alexis Moussine-Pouchkine de SUN, nous présentera JavaEE 6 sur GlassFish v3.
+GlassFish v3 Prelude, disponible depuis peu, propose un environnement modulaire, extensible, standard et léger. Cette présentation couvrira en détails ces différents qualificatifs.
+
+Pour les amateurs d\'acronymes, on peut citer:
+Java EE 6
+OSGi
+HK2
+JSP/Servlet/JSF
+JPA
+JAX-RS/Jersey
+JRuby
+Grails
+Metro
+EJB 3.1
+Embedded
+Les Slides de la rencontre : GlassFishJavaEE-NantesJUG.pdf
+
+Quelques photos de la rencontres :
+
+
+==========================
+==========================
+
+
+Janvier 2009 : Les portails d\'entreprise /  eXo Platform par Tugdual Grall
+
+Durant cette session Tugdual Grall, responsable stratégie produit chez eXo Platform, présentera les sujets suivants:
+- Portail d\'entreprises:
+- nouveaux besoins /  nouveaux outils
+- quoi de neuf pour les développeurs
+- retour d\'experience
+- eXo Platform
+- présentation du projet open source et de la société
+- l\'offre eXo
+- Discussion ouverte/Q&A
+
+Les Slides de la rencontre: Les Portails d\'entreprise
+
+==========================
+==========================
+
+
+Décembre 2008 : Introduction à Adobe Flex par Olivier Staigre (Softeam Ouest)
+
+La présentation propose un panorama de la technologie Adobe Flex vu parl\'oeil d\'un architecte Java. En particulier, le projecteur sera braqué sur les possibilités d\'interconnexion d\'une application Flex avec une technologie serveur de type java EE (EJB mais aussi spring framework etc.). Une introduction à BlazeDS, le projet open-source qui rend cette intégration possible, sera présentée.
+
+
+==========================
+==========================
+
+
+Novembre 2008 : Apache MAVEN, mise en oeuvre en entreprise par Arnaud L\'HERITIER et Olivier JACOB
+
+Le programme de cette session :
+Pourquoi Maven ? Un peu d\'archéologie pour retrouver les besoins qui ont conduit à la création du projet,
+Maven, les concepts Une revue plus ou moins détaillée en fonction de l\'audience sur les fonctionnalités et concepts de l\'outils,
+Maven, dans l\'entreprise Pourquoi ? Quels apports ? Comment ?
+10 moyens de faire échouer son projet avec Maven ? Et oui il est si simple de mal l\'utiliser,
+Démonstration En fonction du temps qu\'il nous restera pour montrer son utilisation à travers eclipse et son plugin m2eclipse.
+Les slides de la rencontre en PDF : Maven, mise en oeuvre en entreprise
+
+
+==========================
+==========================
+
+
+
+Octobre 2008 - Introduction aux Langages Dynamiques par Tugdual Grall & Redwenne Haddou
+
+Le programme:
+Introduction
+Java et Les Langages Dynamiques /  Scripts
+Groovy
+Developpement d\'Applications Web (Ruby On Rails, Grails)
+Les slides de la rencontre en PDF : Langages Dynamiques: Introduction
+
+==========================
+==========================
+
+
+Septembre 2008 - L\'intégration continue par Jean-Baptiste DEFARD
+
+Le programme :
+Présentation du JUG de NANTES
+Quels sont les outils qu\'il est possible d\'utiliser : Maven, Hudson, CruiseControl, Sonar
+Quelles sont les étapes importantes de sa mise en oeuvre : L\'infrastructure
+Comment çà marche au quotidien : Mylyn, Jira, TRAC, les tests, un métierqui change
+Quels retours d\'expérience ? Retour sur un an d\'utilisation.
+
+Les slides de la rencontre en PDF : http://sites.google.com/site/nantesjug/les-rencontres-passees/20080911-NANTES-JUG-v1.1.pdf?attredirects=0
+
+Quelques photos  et un grand merci à Jean-Baptiste o:)

@@ -454,5 +454,34 @@ var njSpeakers = [
     website: null,
     email: null,
     url: null
+  },
+  {
+    id: 'antoine_sabot_durand',
+    name: 'Antoine Sabot-Durand',
+    bio: '<p>Consultant et architecte chez Ippon Technologies, Antoine Sabot-Durand a acquis une expertise sur Java EE et plus particulièrement sur EJB 3.X et CDI. Il est l\'auteur de quelques articles ayant alimenté le débat sur les standards et les choix technologiques sur les développements Java comme "Les rendez-vous manqués de Spring" (http:// blog.ippon.fr/2010/03/30/les-rendez-vous-manques-de-spring/) ou plus récemment "La guerre de Java n\'aura pas lieu" (http://blog.ippon.fr/2010/11/08/la-guerre-de-java-naura-pas-lieu/)</p>' +
+        '<p>Il est également Technical Leader sur le module Seam Social du projet Open Source Seam 3 : http://seamframework.org/Seam3/SocialModule et membre de l\'expert group sur CDI 1.1 : http://jcp.org/en/jsr/summary?id=346.</p>',
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: null,
+    url: null
+  },
+  {
+    id: 'gregory_boissinot',
+    name: 'Grégory Boissinot',
+    bio: '<p>Grégory est consultant Zenika, un cabinet d\'architecture informatique spécialisé dans le conseil et la réalisation de solutions basées sur les nouvelles technologies.</p>' +
+        '<p>Il est un spécialiste des différents outils de build et des problématiques d\'intégration continue qu\'il a mis en place à grande échelle. Il possède une expérience industrielle grand compte de ces problématiques et contribue activement à la communauté Open Source dans ce domaine en étant l\'un des principaux commiteurs Jenkins/Hudson.</p>' +
+        '<p>Evangéliste Gradle, Grégory est convaincu de l\'apport de cet outil de build à la réussite des projets!</p>',
+    gravatar: 'gregory.boissinot@zenika.com',
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'gregory.boissinot@zenika.com',
+    url: null
   }
 ];
