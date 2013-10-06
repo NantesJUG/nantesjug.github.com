@@ -69,7 +69,7 @@ var njEvents = [
         type: 'talk',
         intro: null,
         abstract: '<p>Prendre un tableau et un papier pour modéliser ses données, c\'est ce que nous faisons régulièrement. Cependant à chaque fois nous devons traduire notre modèle en MCD pour l\'insérer dans un SGBD. La promesse des bases de données orientées  graphe c\'est d\'être veleda ready ! Plus besoin de convertir notre modèle.</p>' +
-            '<p>Lors de cette présentation nous vous parlerons de Neo4j, une base données NoSQL orientée graph écrite en java, ainsi que des concepts qui gravitent autour.</p>' + 
+            '<p>Lors de cette présentation nous vous parlerons de Neo4j, une base données NoSQL orientée graph écrite en java, ainsi que des concepts qui gravitent autour.</p>' +
             '<p>On vous montrera comment réaliser un système de recommandation simple et efficace basé sur les données de github.</p>',
         speakers: ['benoit_simard']
       }
@@ -89,11 +89,11 @@ var njEvents = [
         type: 'talk',
         intro: null,
         abstract: '<p>Dans sa présentation Christophe va nous expliquer pourquoi et comment l’ancien détracteur de JavaScript est devenu un fan du langage et, en orientant sa présentation vers des développeurs Java comme lui, essayer de nous faire regarder JavaScript sous un autre angle, à apprécier ses forces, à mieux comprendre ses faiblesses et à nous donner envie de s’y essayer.</p>' +
-            '<p>La présentation sera structurée en deux parties :</p>' + 
-            '<p><b>JavaScript pour le développeur Java</b></p>' + 
-            '<p>Au cours de cette présentation nous balayerons les caractéristiques de JavaScript du point de vue du développeur Java en appuyant notamment sur les différences entre les deux langages et ce qui peut se transformer en piège pour le développeur qui aurait juger inutile d’apprendre JavaScript.</p>' + 
-            '<p><b>La caisse d’outils du développeur JavaScript</b></p>' + 
-            '<p>Au secours, votre chef a vu dans DSI-01-MAG-INFORMATIQUE que l’avenir est au application Web et il veut maintenant que tous vos projets soient en JavaScript. Vous paniquez parce que la dernière fois que vous avez fait du JavaScript, c’était à la faculté dans un éditeur de texte et vous débugguiez en affichant des boites de dialogue.</p>' + 
+            '<p>La présentation sera structurée en deux parties :</p>' +
+            '<p><b>JavaScript pour le développeur Java</b></p>' +
+            '<p>Au cours de cette présentation nous balayerons les caractéristiques de JavaScript du point de vue du développeur Java en appuyant notamment sur les différences entre les deux langages et ce qui peut se transformer en piège pour le développeur qui aurait juger inutile d’apprendre JavaScript.</p>' +
+            '<p><b>La caisse d’outils du développeur JavaScript</b></p>' +
+            '<p>Au secours, votre chef a vu dans DSI-01-MAG-INFORMATIQUE que l’avenir est au application Web et il veut maintenant que tous vos projets soient en JavaScript. Vous paniquez parce que la dernière fois que vous avez fait du JavaScript, c’était à la faculté dans un éditeur de texte et vous débugguiez en affichant des boites de dialogue.</p>' +
             '<p>Au cours de cette présentation, nous verrons que l’écosystème JavaScript a évolué et que vous disposez maintenant de frameworks complets gérant vos couches de présentation, vos test, vos dépendances et même le backend de vos applications. Nous verrons aussi que l’outillage a progressé et que nous pouvons maintenant faire du débuggage comme dans nos application Java, de l’intégration continue et même de l’audit de qualité !</p>',
         speakers: ['christophe_jollivet']
       }
@@ -190,7 +190,7 @@ var njEvents = [
         type: 'talk',
         intro: null,
         abstract: '<p>Dart est un nouveau langage de programmation pour développer des applications web. Créé par Google et ouvert au grand public en octobre 2011, c’est un langage orienté-objet avec une syntaxe familière que l’on soit développeur Java ou développeur JavaScript. Ses deux objectifs ? Performance et facilité d’utilisation.</p>' +
-				'<p>Dans cette présentation, nous verrons quels sont les objectifs de Google en introduisant ce nouveau langage. Nous irons au coeur de celui-ci en présentant les différentes spécificités, typage optionnel, les Isolates comme modèle de concurrence, les différents mode d’exécution, la gestion du DOM... Enfin, nous discuterons des échéances à venir pour savoir si Dart saura s’imposer ou non en tant que langage d’avenir pour le web.</p>',
+            '<p>Dans cette présentation, nous verrons quels sont les objectifs de Google en introduisant ce nouveau langage. Nous irons au coeur de celui-ci en présentant les différentes spécificités, typage optionnel, les Isolates comme modèle de concurrence, les différents mode d’exécution, la gestion du DOM... Enfin, nous discuterons des échéances à venir pour savoir si Dart saura s’imposer ou non en tant que langage d’avenir pour le web.</p>',
         speakers: ['julien_vey']
       }
     ]
