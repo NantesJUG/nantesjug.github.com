@@ -1,14 +1,6 @@
-$iconSpritePath: "../images/glyphicons-halflings.png";
-$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
-
-@import "sass-bootstrap/lib/bootstrap";
-
 /* Put your CSS here */
 html, body {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 20px 5px;
 }
 
 body {
@@ -22,7 +14,7 @@ body {
 
 a:link {text-decoration:none;}
 
-// SOCIAL ICONS
+/* SOCIAL ICONS */
 
 .social {
      background-repeat:no-repeat;
@@ -42,14 +34,14 @@ a:link {text-decoration:none;}
 .social-github {
   background-image: url('../images/social/github.png');
 }
-// PAGES
+/* PAGES */
 
 .jug-leftbar-xs .navbar {
      min-height: 10px;
    }
 .jug-leftbar-xs .nav {
-  margin: 0px auto;
-  padding: 5px 0px;
+  margin: 0 auto;
+  padding: 5px 0;
   display: inline-block;
 }
 .jug-leftbar-xs img {
@@ -113,7 +105,7 @@ a:link {text-decoration:none;}
   cursor: pointer;
 }
 .jug-sponsors a {
-  margin: 20px 0px;
+  margin: 20px 0;
   display: block;
 }
 .jug-speakers > div {
