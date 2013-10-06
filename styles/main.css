@@ -19,13 +19,12 @@ a:link {text-decoration:none;}
 .social {
   background-repeat: no-repeat;
   background-size: 25px;
-  line-height: 1.9;
   display: inline-block;
   width: 25px;
   height: 25px;
   margin-left: 5px;
+  vertical-align: middle;
 }
-
 .social-twitter {
   background-image: url('../images/social/twitter-bird.png');
 }

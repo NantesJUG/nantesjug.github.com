@@ -17,14 +17,20 @@ Nous nous retrouvons le deuxième mercredi de chaque mois pour discuter d'un th�
 La participation est LIBRE & GRATUITE.
 </p>
 <p>
-  <div class="social social-twitter">
-    <a href="http://twitter.com/nantesjug" target="_blank">
-      <span>@nantesjug</span>
-    </a>
-  </div>
+  <a ng-href="http://twitter.com/nantesjug" target="_blank">
+    <span class="social social-twitter" data-toggle="tooltip" title="@nantesjug"></span>
+  </a>
+  Suivez-nous sur twitter
+  <a ng-href="http://twitter.com/nantesjug" target="_blank">
+    @nantesjug
+  </a>
 </p>
 
 <h2 class="text-center">Prochaine soirée</h2>
 <br>
 
 <ng-include src="'views/event.html'"></ng-include>
+
+<script type="text/javascript">
+  $('.social').tooltip();
+</script>
