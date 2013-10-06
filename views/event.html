@@ -50,7 +50,10 @@
           <em>
             Speakers :
             <span class="jug-event-speaker" ng-repeat="speaker in subject.speakers">
-              <a href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
+              <any ng:switch="$index != 0"> - </any>
+              <a href="#/speakers/{{speaker.id}}">
+                {{speaker.name}}
+              </a>
             </span>
           </em>
         </p>

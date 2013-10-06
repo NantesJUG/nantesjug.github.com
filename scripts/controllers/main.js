@@ -38,8 +38,7 @@ angular.module('nantesjugApp')
       };
     })
     .controller('EventCtrl', function ($scope, $routeParams) {
-      var eventId = parseInt($routeParams.eventId, 10);
-      $scope.event = nj.getEvent(eventId);
+      $scope.event = nj.getEvent($routeParams.eventId);
       $scope.today = nj.getToday();
 
       var eventDetailledView = {};
@@ -58,6 +57,8 @@ angular.module('nantesjugApp')
     })
     .controller('SpeakerCtrl', function ($scope, $routeParams) {
       var speaker = nj.getSpeaker($routeParams.speakerId);
+      var subjects = nj.getSpeakerSubjects($routeParams.speakerId);
       $scope.speaker = speaker;
+      $scope.subjects = subjects;
     })
 ;

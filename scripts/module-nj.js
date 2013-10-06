@@ -6,9 +6,12 @@ var nj = function () {
   var events = njEvents;
   var speakers = njSpeakers;
   var places = njPlaces;
+  /** subjects are initialized at the end of this function */
+  var subjects = [];
 
   // Public functions
 
+  //noinspection JSUnusedGlobalSymbols
   var that = {
     getToday: function () {
       var d = new Date();
@@ -40,6 +43,9 @@ var nj = function () {
     getSpeaker: function (speakerId) {
       return _.find(speakers, function(speaker){ return speaker.id === speakerId; });
     },
+    getSpeakerSubjects: function (speakerId) {
+      return _.filter(subjects, function(subject){ return subject.speaker === speakerId; });
+    },
     getPlace: function (placeId) {
       return _.find(places, function(place){ return place.id === placeId; });
     }
@@ -63,6 +69,19 @@ var nj = function () {
 
   //Fulfill each events
   _.each(events, function(event){ fulfillEvent(event) });
+
+  //Extract subjects of each speaker
+  _.each(events, function(event){
+    _.each(event.subjects, function(subject){
+      _.each(subject.speakers, function(speaker){
+        subjects.push({
+          speaker: speaker.id,
+          subject: subject,
+          event: event
+        });
+      });
+    });
+  });
 
   //Returns publics methods
   return that;
