@@ -117,7 +117,7 @@ var njEvents = [
         speakers: ['sebastien_prunier', 'jerome_creignou']
       },
       {
-        title: 'Traçabilité d\'une architecture distribuée avec NodeJS et MongoDB & Retour sur Code Story 2013',
+        title: 'Traçabilité d\'une architecture distribuée avec NodeJS et MongoDB',
         length: '1 h 30',
         type: 'talk',
         intro: null,

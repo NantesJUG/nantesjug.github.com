@@ -175,7 +175,7 @@ var njSpeakers = [
     bio: 'Happy geek and slow triathlete. Developer of @resultri. @NantesJUG Leader. Technical Evangelist @couchbase about.me/tugdual. Et il est beau',
     gravatar: 'tugdual@gmail.com',
     photo: null,
-    twitter: 'tgrall‎',
+    twitter: 'tgrall',
     gplus: null,
     github: 'tgrall',
     website: null,
