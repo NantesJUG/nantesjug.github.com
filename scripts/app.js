@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('nantesjugApp', ['ui.gravatar'])
+angular.module('nantesjugApp', ['ui.gravatar', 'angulartics', 'angulartics.google.analytics'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
