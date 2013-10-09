@@ -264,9 +264,12 @@ a.navbar-brand {
 .speakers_data {
   float: left;
 }
+.jug-speakers .speaker_photo {
+  margin: 5px auto;
+}
 .speaker_photo {
-  float: left;
   margin: 0 20px 25px 0;
+  width: 150px;
 }
 /*****RESEAUX SOCIAUX*****/
 .btn-twitter {
