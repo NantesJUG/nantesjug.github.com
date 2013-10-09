@@ -13,7 +13,9 @@ var njEvents = [
         length: '20 min',
         type: 'quickie',
         intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
-        speakers: ['sebastien_prunier']
+        speakers: ['sebastien_prunier'],
+        abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
+            '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
       },
       {
         title: 'Les "Cloud Patterns"',
@@ -57,12 +59,20 @@ var njEvents = [
   },
   {
     id: '2013_05_14',
-    title: 'Soirée NoSQL : Base de Données Graph avec Neo4J',
+    title: 'Neo4J & SoapUI',
     date: new Date(2013, 4, 14),//month begin at 0
     time: '19',
     register: '',
     place: 'cantine',
     subjects: [
+      {
+        title: 'Découverte de \'SoapUI\'',
+        length: '30 min',
+        type: 'quickie',
+        intro: 'par Antony Guilloteau',
+        abstract: '<p>Autour d\'une petite application train tweet, une session de live coding pour démontrer l\'utilité de SoapUI dans les développements de type SOA : shoot, mock & test..</p>',
+        speakers: ['antony_guilloteau']
+      },
       {
         title: 'Soirée NoSQL : Base de Données Graph avec Neo4J',
         length: '1 h 30',
@@ -101,7 +111,7 @@ var njEvents = [
   },
   {
     id: '2013_03_18',
-    title: 'Traçabilité d\'une architecture distribuée avec NodeJS et MongoDB & Retour sur Code Story 2013',
+    title: 'Traçabilité d\'une architecture distribuée & Code Story 2013',
     date: new Date(2013, 2, 18),//month begin at 0
     time: '19',
     register: '',
@@ -170,7 +180,7 @@ var njEvents = [
   },
   {
     id: '2013_01_16',
-    title: 'Soirée Langage et Framework: Dart & Clojure',
+    title: 'Soirée Langage et Framework : Dart & Clojure',
     date: new Date(2013, 0, 16),//month begin at 0
     time: '19',
     register: '',
@@ -233,7 +243,7 @@ var njEvents = [
   },
   {
     id: '2012_11_07',
-    title: 'OpenShift: Enjoy the benefits of cloud computing as a developer',
+    title: 'OpenShift',
     date: new Date(2012, 10, 7),//month begin at 0
     time: '19',
     register: '',
@@ -376,7 +386,7 @@ var njEvents = [
   },
   {
     id: '2012_02_09',
-    title: 'Application versioning et rolling upgrade en haute disponibilité, avec Glassfish',
+    title: 'Application versioning et rolling upgrade',
     date: new Date(2012, 1, 9),//month begin at 0
     time: '19',
     register: '',
@@ -396,7 +406,7 @@ var njEvents = [
   },
   {
     id: '2012_01_12',
-    title: 'Introduction aux DSL (Domain Specific Languages) en Groovy',
+    title: 'Introduction aux DSL en Groovy',
     date: new Date(2012, 0, 12),//month begin at 0
     time: '19',
     register: '',
