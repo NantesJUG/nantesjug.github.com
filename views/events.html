@@ -1,13 +1,9 @@
-<h2 class="text-center">Prochaines soirées</h2>
-<br>
+<input type="search" class="form-control jug-search" placeholder="Rechercher une soirée" autofocus="" ng-model="searchText">
 
-<any ng-repeat="event in nextEvents">
+<any ng-repeat="event in nextEvents | filter:searchText">
   <ng-include src="'views/event.html'"></ng-include>
 </any>
 
-<h2 class="text-center">Soirées passées</h2>
-<br>
-
-<any ng-repeat="event in previousEvents">
+<any ng-repeat="event in previousEvents | filter:searchText">
   <ng-include src="'views/event.html'"></ng-include>
 </any>

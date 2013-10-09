@@ -8,14 +8,15 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <title>Nantes JUG</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <meta charset="utf-8">
+  <title>Nantes JAVA User Group</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body ng-app="nantesjugApp">
 <!--[if lt IE 7]>
@@ -27,66 +28,106 @@
 <script src="scripts/deps/json3.min.js"></script>
 <![endif]-->
 
-<!-- Add your site or application content here -->
-<div class="jug-page container">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="MenuCtrl">
+  <div class="container">
+    <div class="navbar-header">
+
+      <!-- Responsive menu -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Default menu -->
+      <!--<div class="java_logo">-->
+      <span class="navbar-brand java_logo hidden-xs"><span></span></span>
+
+      <a href="./index.html#" class="navbar-brand">Nantes <abbr title="Java User Group">JUG</abbr></a>
+      <!--</div>-->
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li ng-class="{ active: isActive('/events')}"><a ng-href="#/events">Soirées</a></li>
+        <li ng-class="{ active: isActive('/speakers')}"><a ng-href="#/speakers">Speakers</a></li>
+        <li ng-class="{ active: isActive('/infos')}"><a ng-href="#/infos">Infos</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
 
   <div class="row">
-
-    <!-- Menu for device XS -->
-    <div class="jug-leftbar-xs col-xs-12 hidden-sm hidden-md hidden-lg">
-      <div class="navbar navbar-default navbar-fixed-top text-center" role="navigation">
-        <ul class="jug-menu nav nav-pills" ng-controller="MenuCtrl">
-          <li ng-class="{ active: isActive('/')}"><a href="#/">Accueil</a></li>
-          <li ng-class="{ active: isActive('/events')}"><a href="#/events">Soirées</a></li>
-          <li ng-class="{ active: isActive('/speakers')}"><a href="#/speakers">Speakers</a></li>
-          <li ng-class="{ active: isActive('/infos')}"><a href="#/infos">Infos</a></li>
-        </ul>
-      </div>
+    <div class="jug-logo pull-right">
+      <img class="img-responsive" src="images/site/logo_jug.png" alt="Nantes Java User Group">
     </div>
+  </div>
 
-    <!-- Sidebar for device SM, MD -->
-    <div class="jug-leftbar hidden-xs col-sm-2 col-md-2 col-lg-2">
+  <div ng-view=""></div>
 
-      <a href="#/">
-        <img src="images/logo-nantesjug.gif" alt="NantesJUG" class="img-responsive">
+</div><!--/.container-->
+
+<section>
+  <div class="container">
+  <div class="row">
+
+    <h1 class="sponsors">Sponsors</h1>
+
+    <!--<div class="col-xs-12 col-sm-4" >-->
+      <a href="http://zenika.com/" target="_blank" title="Zenika">
+        <img class="col-xs-12 col-sm-4" src="images/sponsors/zenika.png" alt="Zenika" title="Zenika">
       </a>
+    <!--</div>-->
 
-      <h3 class="text-muted">Nantes JUG</h3>
-      <ul class="jug-menu nav nav-pills nav-stacked" ng-controller="MenuCtrl">
-        <li ng-class="{ active: isActive('/')}"><a href="#/">Accueil</a></li>
-        <li ng-class="{ active: isActive('/events')}"><a href="#/events">Soirées</a></li>
-        <li ng-class="{ active: isActive('/speakers')}"><a href="#/speakers">Speakers</a></li>
-        <li ng-class="{ active: isActive('/infos')}"><a href="#/infos">Infos</a></li>
-      </ul>
-      <ng-include src="'views/sponsors.html'"></ng-include>
-    </div>
+    <!--<div class="col-xs-12 col-sm-4" >-->
+      <a href="http://www.couchbase.com/" target="_blank" title="Couchbase">
+        <img class="col-xs-12 col-sm-4" src="images/sponsors/couchbase.png" alt="Couchbase" title="Couchbase">
+      </a>
+    <!--</div>-->
 
-    <!-- Content page -->
-    <div class="jug-page col-xs-12 col-sm-10 col-md-10 col-lg-10" ng-view=""></div>
+    <!--<div class="col-xs-12 col-sm-4" >-->
+      <a href="http://www.netapsys.fr/" target="_blank" title="Netapsys">
+        <img class="col-xs-12 col-sm-4" src="images/sponsors/netapsys.png" alt="Netapsys" title="Netapsys">
+      </a>
+    <!--</div>-->
 
-
-    <!-- Promo and sponsors for device XS -->
-    <div class="jug-leftbar-xs col-xs-12 hidden-sm hidden-md hidden-lg text-center">
-      <ng-include src="'views/sponsors.html'"></ng-include>
-    </div>
+    <div class="clear"></div>
   </div>
-
-  <!-- Footer -->
-  <div class="jug-footer text-center">
-    <em>Pour être informé des prochaines soirées du Nantes JUG, inscrivez-vous à la <a href="http://groups.google.com/group/nantesjug" target="_blank">mailing list</a>.</em>
   </div>
+</section>
 
-</div>
+<footer>
+  <p>
+    Pour être informé des prochaines soirées du Nantes JUG, inscrivez-vous à la
+    <a href="https://groups.google.com/forum/#!forum/nantesjug" target="_blank">
+      mailing list
+    </a>.
+  </p>
+
+  <p>
+    Suivez-nous sur <a class="btn-twitter" title="@nantesjug" href="https://twitter.com/nantesjug" target="_blank">@nantesjug</a>
+  </p>
+</footer>
+
 
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-44651024-1', 'nantesjug.github.io');
-//  ga('send', 'pageview');
+  //  ga('send', 'pageview');
 
 </script>
 

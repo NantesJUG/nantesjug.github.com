@@ -21,6 +21,7 @@ angular.module('nantesjugApp')
       $scope.today = nj.getToday();
       $scope.nextEvents = nj.getNextEvents();
       $scope.previousEvents = nj.getPreviousEvents();
+      $scope.searchText = '';
 
       //Events detailled view
       var eventDetailledView = {};
