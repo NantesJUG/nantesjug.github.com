@@ -25,7 +25,7 @@ var nj = function () {
       return events;
     },
     getNextEvent: function () {
-      return _.first(that.getNextEvents());
+      return _.last(that.getNextEvents());
     },
     getNextEvents: function () {
       var today = that.getToday();
