@@ -18,7 +18,7 @@
           <h1>{{event.title}}</h1>
 
           <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à {{event.time}}h</h2>
-          <a class="inscription" ng-href="{{event.register}}" ng-show="event.date > today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
+          <a class="inscription" ng-href="{{event.register}}" ng-show="event.date >= today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
 
           <div class="jug-subject" ng-repeat="subject in event.subjects">
 
@@ -74,7 +74,7 @@
         </div>
       </div>
 
-      <a class="inscription" ng-href="{{event.register}}" ng-show="event.date > today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
+      <a class="inscription" ng-href="{{event.register}}" ng-show="event.date >= today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
     </div>
   </div>
 </div>
