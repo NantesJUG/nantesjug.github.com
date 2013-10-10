@@ -18,6 +18,7 @@ var nj = function () {
       d.setHours(0);
       d.setMinutes(0);
       d.setSeconds(0);
+      d.setMilliseconds(0);
       return d;
     },
     getEvents: function () {
@@ -28,11 +29,11 @@ var nj = function () {
     },
     getNextEvents: function () {
       var today = that.getToday();
-      return _.filter(events, function(event){ return event.date > today; });
+      return _.filter(events, function(event){ return event.date >= today; });
     },
     getPreviousEvents: function () {
       var today = that.getToday();
-      return _.filter(events, function(event){ return event.date <= today; });
+      return _.filter(events, function(event){ return event.date < today; });
     },
     getEvent: function (eventId) {
       return _.find(events, function(event){ return event.id === eventId; });
