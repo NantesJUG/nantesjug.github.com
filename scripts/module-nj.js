@@ -38,11 +38,17 @@ var nj = function () {
     getEvent: function (eventId) {
       return _.find(events, function(event){ return event.id === eventId; });
     },
+    getEventPlaceUrl : function(event){
+      return event ? '/images/places/map-' + event.place.id + '.png' : null;
+    },
     getSpeakers: function () {
       return speakers;
     },
     getSpeaker: function (speakerId) {
       return _.find(speakers, function(speaker){ return speaker.id === speakerId; });
+    },
+    getSpeakerPhotoUrl: function (speaker){
+      return speaker.photo ? '/images/speakers/' + speaker.id +'.' + speaker.photo : null;
     },
     getSpeakerSubjects: function (speakerId) {
       return _.filter(subjects, function(subject){ return subject.speaker === speakerId; });

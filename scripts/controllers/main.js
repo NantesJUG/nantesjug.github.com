@@ -11,17 +11,19 @@ angular.module('nantesjugApp')
       $scope.today = nj.getToday();
 
       var eventDetailledView = {};
-      if ($scope.event !== null) {
+      if (typeof $scope.event !== 'undefined') {
         eventDetailledView[$scope.event.id] = true;
       }
       $scope.eventDetailledView = eventDetailledView;
       $scope.eventToggleViewDisabled = true;
+      $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
     })
     .controller('EventsCtrl', function ($scope) {
       $scope.today = nj.getToday();
       $scope.nextEvents = nj.getNextEvents();
       $scope.previousEvents = nj.getPreviousEvents();
       $scope.searchText = '';
+      $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
 
       //Events detailled view
       var eventDetailledView = {};
@@ -55,11 +57,14 @@ angular.module('nantesjugApp')
     .controller('SpeakersCtrl', function ($scope) {
       $scope.speakers = nj.getSpeakers();
       $scope.searchText = '';
+      $scope.getSpeakerPhotoUrl = nj.getSpeakerPhotoUrl;
+
     })
     .controller('SpeakerCtrl', function ($scope, $routeParams) {
       var speaker = nj.getSpeaker($routeParams.speakerId);
       var subjects = nj.getSpeakerSubjects($routeParams.speakerId);
       $scope.speaker = speaker;
       $scope.subjects = subjects;
+      $scope.getSpeakerPhotoUrl = nj.getSpeakerPhotoUrl;
     })
 ;
