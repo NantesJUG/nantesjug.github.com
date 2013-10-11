@@ -10,11 +10,6 @@ h1 {
   margin: 0 0 20px 0;
   font-family: 'Raleway', sans-serif;
 }
-h1.sponsors {
-  color:#9b9b9b;
-  margin:0 0 20px 0;
-  text-align: center;
-}
 h2 {
   margin: 20px 0 20px 0;
   color: #333;
@@ -70,11 +65,35 @@ section img {
   margin-left: auto;
   margin-right: auto;
 }
-/*section div {*/
-  /*width: 960px;*/
-  /*text-align: center;*/
-  /*margin: 0 auto;*/
-/*}*/
+section h1 {
+  color:#9b9b9b;
+  margin:0 0 20px 0;
+  text-align: center;
+}
+/* xs */
+@media (max-width: 767px) {
+  section img {
+    height: 78px;
+  }
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  section img {
+    width: 100%;
+  }
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  section img {
+    width: 100%;
+  }
+}
+/* lg */
+@media (min-width: 1200px) {
+  section img {
+    width: 80%;
+  }
+}
 /*****LAYOUT*****/
 .jug-logo img {
   float: left;
@@ -111,7 +130,10 @@ section img {
 @media (min-width: 1200px) {
   .jug-logo {
     width: 200px;
-    height: 100px;
+    height: 90px;
+  }
+  .jug-logo img {
+    margin-top: -45px;
   }
 }
 .span3 {
