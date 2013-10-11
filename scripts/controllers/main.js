@@ -43,6 +43,7 @@ angular.module('nantesjugApp')
     .controller('EventCtrl', function ($scope, $routeParams) {
       $scope.event = nj.getEvent($routeParams.eventId);
       $scope.today = nj.getToday();
+      $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
 
       var eventDetailledView = {};
       eventDetailledView[$scope.event.id] = true;
