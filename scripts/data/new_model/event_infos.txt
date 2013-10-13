@@ -1,0 +1,18 @@
+-----------------------------
+//Subject
+title:
+length:
+abstract:
+
+// Speaker required
+name:
+bio:
+
+// Speaker optional
+gravatar email:   (If no gravatar, join a photo)
+twitter id:
+google plus id:   (Go to your g+ profil, and copy ID from URL: https://plus.google.com/u/0/118411837237007699175/posts)
+github id:
+your website url:
+your email:
+-----------------------------
