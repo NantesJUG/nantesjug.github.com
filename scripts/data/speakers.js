@@ -10,8 +10,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'sebastien.prunier@gmail.com',
-    url: null
+    email: 'sebastien.prunier@gmail.com'
   },
   {
     id: 'manuel_boillod',
@@ -23,8 +22,7 @@ var njSpeakers = [
     gplus: '118411837237007699175',
     github: null,
     website: null,
-    email: 'boillodmanuel@gmail.com',
-    url: null
+    email: 'boillodmanuel@gmail.com'
   },
   {
     id: 'nicolas_deloof',
@@ -36,8 +34,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'nicolas.deloof@gmail.com',
-    url: null
+    email: 'nicolas.deloof@gmail.com'
   },
   {
     id: 'quentin_adam',
@@ -49,8 +46,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'quentin.adam@clever-cloud.com',
-    url: null
+    email: 'quentin.adam@clever-cloud.com'
   },
   {
     id: 'guillaume_degre',
@@ -62,8 +58,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'guillaume@open-linking.com',
-    url: null
+    email: 'guillaume@open-linking.com'
   },
   {
     id: 'antony_guilloteau',
@@ -75,8 +70,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'antony.guilloteau@gmail.com',
-    url: null
+    email: 'antony.guilloteau@gmail.com'
   },
   {
     id: 'benoit_simard',
@@ -88,8 +82,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'contact@bsimard.com',
-    url: null
+    email: 'contact@bsimard.com'
   },
   {
     id: 'christophe_jollivet',
@@ -101,8 +94,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'jerome_creignou',
@@ -114,8 +106,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'jerome.creignou@gmail.com',
-    url: null
+    email: 'jerome.creignou@gmail.com'
   },
   {
     id: 'julien_vey',
@@ -127,8 +118,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'vey.julien@gmail.com',
-    url: null
+    email: 'vey.julien@gmail.com'
   },
   {
     id: 'cedric_pineau',
@@ -140,8 +130,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'cedric.pineau@gmail.com',
-    url: null
+    email: 'cedric.pineau@gmail.com'
   },
   {
     id: 'david_pilato',
@@ -153,8 +142,7 @@ var njSpeakers = [
     gplus: null,
     github: 'dadoonet',
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'emmanuel_bernard',
@@ -166,8 +154,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'tugdual_grall',
@@ -179,8 +166,7 @@ var njSpeakers = [
     gplus: null,
     github: 'tgrall',
     website: null,
-    email: 'tugdual@gmail.com',
-    url: null
+    email: 'tugdual@gmail.com'
   },
   {
     id: 'julien_ruchaud',
@@ -192,8 +178,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'julien.ruchaud@debux.org',
-    url: null
+    email: 'julien.ruchaud@debux.org'
   },
   {
     id: 'peter_moskovits',
@@ -205,8 +190,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'benjamin_poussin',
@@ -218,8 +202,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'poussin@codelutin.com',
-    url: null
+    email: 'poussin@codelutin.com'
   },
   {
     id: 'cedric_champeau',
@@ -231,8 +214,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'cedric.champeau@gmail.com',
-    url: null
+    email: 'cedric.champeau@gmail.com'
   },
   {
     id: 'stephane_epardaud',
@@ -244,8 +226,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'stephane.epardaud@gmail.com',
-    url: null
+    email: 'stephane.epardaud@gmail.com'
   },
   {
     id: 'marek_jelen',
@@ -257,8 +238,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'sebastien_roul',
@@ -270,8 +250,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'sebastien.roul@netapsys.fr',
-    url: null
+    email: 'sebastien.roul@netapsys.fr'
   },
   {
     id: 'eric_charbonnier',
@@ -283,8 +262,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'dimitri_baeli',
@@ -296,8 +274,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'julien_dubois',
@@ -309,8 +286,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'jean_baptiste_defard',
@@ -322,8 +298,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'didier_girard',
@@ -335,8 +310,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'redwene_haddou',
@@ -348,8 +322,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'arnaud_heritier',
@@ -361,8 +334,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: 'http://blog.aheritier.net',
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'olivier_jacob',
@@ -374,8 +346,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'guillaume_laforge',
@@ -387,8 +358,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'francois_le_droff',
@@ -400,8 +370,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'rodrigue_le_gall',
@@ -413,8 +382,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'alexis_moussine_pouchkine',
@@ -426,8 +394,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'alexis.mp@gmail.com',
-    url: null
+    email: 'alexis.mp@gmail.com'
   },
   {
     id: 'marian_muller',
@@ -439,8 +406,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'christophe_pruvost',
@@ -452,8 +418,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'antoine_sabot_durand',
@@ -466,8 +431,7 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: null,
-    url: null
+    email: null
   },
   {
     id: 'gregory_boissinot',
@@ -481,7 +445,6 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: 'gregory.boissinot@zenika.com',
-    url: null
+    email: 'gregory.boissinot@zenika.com'
   }
 ];
