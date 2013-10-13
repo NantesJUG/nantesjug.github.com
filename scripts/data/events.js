@@ -23,7 +23,7 @@ var njEvents = [
         type: 'talk',
 //        intro: 'from SQL to NoSQL in less than one hour!',
         abstract: '',
-        speakers: null
+        speakers: ['jose_paumard']
       }
     ]
   },  {

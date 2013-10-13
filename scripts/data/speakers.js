@@ -446,5 +446,17 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'gregory.boissinot@zenika.com'
+  },
+  {
+    id: 'jose_paumard',
+    name: 'José Paumard',
+    bio: '',
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: null
   }
 ];
