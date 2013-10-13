@@ -25,11 +25,16 @@ var nj = function () {
       return events;
     },
     getNextEvent: function () {
-      return _.last(that.getNextEvents());
+      return _.first(that.getNextEvents());
+    },
+    getNextNextEvents: function () {
+      var nextEvents = that.getNextEvents();
+      return _.last(nextEvents, Math.max(nextEvents.length - 1, 0));
     },
     getNextEvents: function () {
       var today = that.getToday();
-      return _.filter(events, function(event){ return event.date >= today; });
+      var nextEvents =  _.filter(events, function(event){ return event.date >= today; });
+      return _.sortBy(nextEvents, function(event) { return event.date; });
     },
     getPreviousEvents: function () {
       var today = that.getToday();
@@ -39,7 +44,7 @@ var nj = function () {
       return _.find(events, function(event){ return event.id === eventId; });
     },
     getEventPlaceUrl : function(event){
-      return event ? '/images/places/map-' + event.place.id + '.png' : null;
+      return typeof event !== 'undefined' && typeof event.place !== 'undefined' ? '/images/places/map-' + event.place.id + '.png' : null;
     },
     getSpeakers: function () {
       return speakers;
@@ -48,7 +53,7 @@ var nj = function () {
       return _.find(speakers, function(speaker){ return speaker.id === speakerId; });
     },
     getSpeakerPhotoUrl: function (speaker){
-      return speaker.photo ? '/images/speakers/' + speaker.id +'.' + speaker.photo : null;
+      return typeof speaker  !== 'undefined' && typeof speaker.photo  !== 'undefined' ? '/images/speakers/' + speaker.id +'.' + speaker.photo : null;
     },
     getSpeakerSubjects: function (speakerId) {
       return _.filter(subjects, function(subject){ return subject.speaker === speakerId; });

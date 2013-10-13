@@ -24,13 +24,11 @@ h2 span {
 }
 h3 {
   line-height: 1;
-  color: #ef2b35;
   font-size: 15px;
   font-weight: bold;
 }
 h4 {
   font-size: 13px;
-  color: #ef2b35;
 }
 .clear {
   clear: left;

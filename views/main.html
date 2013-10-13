@@ -1,1 +1,17 @@
 <ng-include src="'views/event.html'"></ng-include>
+
+<div class="row" ng-show="nextNextEvents">
+  <div class="col-md-12">
+    <div class="well">
+      <h2>Autres événements</h2>
+      <h3>Jug de Nantes</h3>
+      <ul>
+        <li ng-repeat="event in nextNextEvents">
+          <a ng-href="#/events/{{event.id}}">
+            {{event.date | date:'longDate'}} - {{event.title}}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
