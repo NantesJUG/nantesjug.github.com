@@ -363,6 +363,10 @@ footer {
   display: inline-block;
   float: left;
 }
+.jug-event-location address {
+  margin-top: 7px
+}
+
 .jug-event-location address:after {
   clear: both;
 }
