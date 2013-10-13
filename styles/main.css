@@ -35,10 +35,6 @@ h4 {
 .clear {
   clear: left;
 }
-iframe {
-  float: right;
-  margin: 0 30px 0 0;
-}
 ul {
   margin: 0 0 0 50px;
   list-style-image: url('../images/site/puce.png');
@@ -139,27 +135,12 @@ section h1 {
 .span3 {
   width: 190px !important;
 }
-
-/*.navbar-brand {*/
-  /*width: 150px;*/
-  /*margin: 0 50px 0 60px !important;*/
-/*}*/
 a.navbar-brand {
   color: #373737 !important;
   font-size: 20px;
   font-weight: 200;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-/*.navbar {*/
-  /*background: url('../images/site/bg_nav.png') repeat-x;*/
-/*}*/
-/*.navbar-inverse .nav .active > a {*/
-  /*background-color: #ef2b35;*/
-/*}*/
-
-
-
-
 .page-header {
   border:none !important;
 }
@@ -272,8 +253,16 @@ a.navbar-brand {
   display: block;
   margin: 0 0 20px 0;
 }
+.inscription-missing {
+  display: block;
+  margin: 0 0 20px 0;
+  color: #ef2b35;
+}
 .soiree_description {
   margin: 35px 0 0 0;
+}
+.jug-short-description {
+  margin: 0 0 20px 0;
 }
 .img-polaroid {
   padding: 4px;
@@ -332,25 +321,7 @@ footer {
   text-align: center;
   background-color: #333;
 }
-
-/* Put your CSS here */
-/*html, body {*/
-  /*margin: 20px 5px;*/
-/*}*/
-
-/*body {*/
-  /*background: #fafafa;*/
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  /*color: #333;*/
-/*}*/
-/*.nav > li > a {*/
-  /*padding: 5px 15px;*/
-/*}*/
-
-/*a:link {text-decoration:none;}*/
-
- /*SOCIAL ICONS */
-
+/*****SOCIAL*****/
 .social {
   background-repeat: no-repeat;
   background-size: 40px;
@@ -370,45 +341,6 @@ footer {
   background-image: url('../images/social/github.png');
 }
 /* PAGES */
-
-/*.jug-leftbar-xs .navbar {*/
-     /*min-height: 10px;*/
-   /*}*/
-/*.jug-leftbar-xs .nav {*/
-  /*margin: 0 auto;*/
-  /*padding: 5px 0;*/
-  /*display: inline-block;*/
-/*}*/
-/*.jug-leftbar-xs img {*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-/*}*/
-/*.jug-page {*/
-  /*background: white;*/
-  /*padding: 20px;*/
-  /*border-radius: 10px;*/
-/*}*/
-/*@media (max-width: 767px) {*/
-  /*.jug-page{*/
-    /*padding-left: 10px;*/
-    /*padding-right: 10px;*/
-  /*}*/
-/*}*/
-/*.jug-promo img {*/
-  /*margin-bottom: 10px;*/
-/*}*/
-
-/*.jug-event-infos {*/
-  /*margin-bottom: 20px;*/
-/*}*/
-/*.jug-event-subjects {*/
-  /*list-style: none;*/
-  /*padding-left: 5px;*/
-/*}*/
-/*.jug-event-subject {*/
-  /*margin-top: 10px;*/
-  /*margin-bottom: 10px;*/
-/*}*/
 .jug-event-subject span.label, .jug-speaker-subjects span.label{
   margin-right: 15px;
 }
@@ -421,16 +353,6 @@ footer {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
-/*.jug-event-subject-title {*/
-  /*font-weight: bold;*/
-/*}*/
-/*.jug-event-registration img {*/
-  /*width: 30px;*/
-/*}*/
-/*.jug-event-registration span {*/
-  /*margin-left: 20px;*/
-/*}*/
 .jug-event-location img {
   display: inline-block;
   float: left;
@@ -448,10 +370,6 @@ footer {
   text-decoration: none;
   color: #696969;
 }
-
-/*.jug-event-show-detail {*/
-  /*cursor: pointer;*/
-/*}*/
 .jug-speakers > div {
   margin-bottom: 20px;
 }
@@ -464,7 +382,3 @@ footer {
     padding-right: 2px;
   }
 }
-/*.jug-sponsors a {*/
-  /*margin: 20px 0;*/
-  /*display: block;*/
-/*}*/
