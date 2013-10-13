@@ -1,6 +1,67 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2013_12_04',
+    title: 'Java 8',
+    date: new Date(2013, 11, 4),//month begin at 0
+    time: '19',
+    register: null, //'https://guestlistapp.com/events/190722',
+    place: null,//'epsi',
+    subjects: [
+      {
+        title: 'Sujet à confirmer',
+        length: '20 min',
+        type: 'quickie'
+//        intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
+//        speakers: ['sebastien_prunier'],
+//        abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
+//            '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
+      },
+      {
+        title: 'Java 8',
+        length: '1 h 30',
+        type: 'talk',
+//        intro: 'from SQL to NoSQL in less than one hour!',
+        abstract: '',
+        speakers: null
+      }
+    ]
+  },  {
+    id: '2013_11_05',
+    title: 'Elastify your app',
+    date: new Date(2013, 10, 5),//month begin at 0
+    time: '19',
+    register: null, //'https://guestlistapp.com/events/190722',
+    place: null,//'epsi',
+    subjects: [
+      {
+        title: 'Sujet à confirmer',
+        length: '20 min',
+        type: 'quickie'
+//        intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
+//        speakers: ['sebastien_prunier'],
+//        abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
+//            '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
+      },
+      {
+        title: 'Elastify your app',
+        length: '1 h 30',
+        type: 'talk',
+        intro: 'from SQL to NoSQL in less than one hour!',
+        abstract: '<p>During this "live coding" talk, Tugdual and David will move an old-fashion full SQL application to the NoSQL world.</p>' +
+            '<p>Using CouchBase and Elasticsearch, they will show all gains you can have with this new architecture: Easyness & Elasticity (scalablity)</p>' +
+            '<p>Following points will be covered:' +
+            '<ul>' +
+            '<li>Document Oriented Model</li>' +
+            '<li>JSon</li>' +
+            '<li>REST</li>' +
+            '<li>Caching / Memcache</li>' +
+            '<li>Filters and Facets</li>' +
+            '</ul></p>',
+        speakers: ['david_pilato', 'tugdual_grall']
+      }
+    ]
+  },  {
     id: '2013_10_10',
     title: 'Cloud Pattern',
     date: new Date(2013, 9, 10),//month begin at 0
