@@ -135,7 +135,9 @@ var njSpeakers = [
   {
     id: 'david_pilato',
     name: 'David Pilato',
-    bio: 'David Pilato est développeur senior, chef de projet et directeur technique chez IDEO Technologies, avec un intérêt tout particulier pour le monde NoSQL et en particulier le moteur de recherche Elasticsearch, dont il anime la communauté française. Fidèle des JUG, il a donné une conférence sur le sujet lors de la première édition de Devoxx France en avril 2012. Il a implémenté un certain nombre de plugins pour l\'écosystème Elasticsearch (Rivers RSS, FileSystem et DropBox, Factories Spring). Il a également implémenté Elasticsearch pour plusieurs projets, dont une importante administration française. Il est le co-auteur du projet open-source [Scrutmydocs.org](http://www.scrutmydocs.org/) basé sur Elasticsearch qui permet de disposer d\'un moteur de recherche “à la google” des documents de vos disques durs.',
+    bio: '<p>David Pilato est "technical advocate" chez <a href="http://elasticsearch.com/" target="_blank">Elasticsearch.com</a>, après avoir passé les deux dernières années à promouvoir le projet open-source Elasticsearch, dont il anime la communauté française. Fidèle des JUG, il a donné une conférence sur le sujet lors de la première édition de Devoxx France en avril 2012 et sillonne désormais les routes de France pour partager sa passion. Il a implémenté un certain nombre de plugins pour l\'écosystème Elasticsearch (Rivers RSS, FileSystem et DropBox, Factories Spring).</p>' +
+        '<p>Il a également implémenté Elasticsearch pour plusieurs projets, dont une importante administration française. Il est le co-auteur du projet open-source <a href="http://www.scrutmydocs.org/" target="_blank">[Scrutmydocs.org]</a> basé sur Elasticsearch qui permet de disposer d\'un moteur de recherche "à la google" des documents de vos disques durs.</p>' +
+        '<p>@dadoonet et @ElasticsearchFR sur Twitter</p>',
     gravatar: 'david@pilato.fr',
     photo: null,
     twitter: 'dadoonet',

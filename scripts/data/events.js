@@ -27,9 +27,9 @@ var njEvents = [
       }
     ]
   },  {
-    id: '2013_11_05',
+    id: '2013_11_04',
     title: 'Elastify your app',
-    date: new Date(2013, 10, 5),//month begin at 0
+    date: new Date(2013, 10, 4),//month begin at 0
     time: '19',
     register: null, //'https://guestlistapp.com/events/190722',
     place: null,//'epsi',
