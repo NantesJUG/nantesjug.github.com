@@ -44,7 +44,7 @@ var nj = function () {
       return _.find(events, function(event){ return event.id === eventId; });
     },
     getEventPlaceUrl : function(event){
-      return typeof event !== 'undefined' && typeof event.place !== 'undefined' ? '/images/places/map-' + event.place.id + '.png' : null;
+      return typeof event !== 'undefined' && typeof event.place !== 'undefined' && event.place !== null ? '/images/places/map-' + event.place.id + '.png' : null;
     },
     getSpeakers: function () {
       return speakers;
@@ -53,7 +53,7 @@ var nj = function () {
       return _.find(speakers, function(speaker){ return speaker.id === speakerId; });
     },
     getSpeakerPhotoUrl: function (speaker){
-      return typeof speaker  !== 'undefined' && typeof speaker.photo  !== 'undefined' ? '/images/speakers/' + speaker.id +'.' + speaker.photo : null;
+      return typeof speaker  !== 'undefined' && typeof speaker.photo  !== 'undefined' && speaker.photo !== null ? '/images/speakers/' + speaker.id +'.' + speaker.photo : null;
     },
     getSpeakerSubjects: function (speakerId) {
       return _.filter(subjects, function(subject){ return subject.speaker === speakerId; });
