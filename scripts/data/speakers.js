@@ -468,7 +468,7 @@ var njSpeakers = [
     gravatar:   'hx4.5@free.fr',
     twitter: 'mercury_wood',
     gplus:   '106541715561602552217',
-    github: null,
+    github: 'hgwood',
     website: 'elevatedabstractions.wordpress.com',
     email: 'hx4.5@free.fr'
   }
