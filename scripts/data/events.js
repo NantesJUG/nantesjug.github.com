@@ -31,7 +31,7 @@ var njEvents = [
     title: 'Du SQL au NoSQL en moins d\'une heure',
     date: new Date(2013, 10, 4),//month begin at 0
     time: '19',
-    register: null, //'https://guestlistapp.com/events/190722',
+    register: 'http://guestli.st/206877', 
     place: null,//'epsi',
     subjects: [
       {
