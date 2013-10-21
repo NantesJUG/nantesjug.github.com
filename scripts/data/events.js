@@ -46,8 +46,7 @@ var njEvents = [
         type: 'talk',
         intro: 'from SQL to NoSQL in less than one hour!',
         abstract:  'Au cours de cette session "live coding", Tugdual et David reprendront une application full SQL "à papa" pour la réécrire en NoSQL en 60 minutes.<br/>'
-+'En s'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>'
-
++'En s\'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>'
 +'<ul><li>la facilité de mise en place (productivité)</li>'
 +'<li>l\'élasticité (scalabilité)</li></ul>'
 +'Les thèmes abordés seront :'
