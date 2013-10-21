@@ -41,7 +41,7 @@ var njEvents = [
 //        intro: ''
       },
       {
-        title: 'Elastifiez votre application : du SQL au NoSQL en moins d'une heure',
+        title: 'Elastifiez votre application : du SQL au NoSQL en moins d\'une heure',
         length: '1 h 30',
         type: 'talk',
         intro: 'from SQL to NoSQL in less than one hour!',
