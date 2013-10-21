@@ -28,7 +28,7 @@ var njEvents = [
     ]
   },  {
     id: '2013_11_04',
-    title: 'Elastify your app',
+    title: 'Elastifiez votre application : du SQL au NoSQL en moins d'une heure',
     date: new Date(2013, 10, 4),//month begin at 0
     time: '19',
     register: null, //'https://guestlistapp.com/events/190722',
@@ -38,26 +38,26 @@ var njEvents = [
         title: 'Sujet à confirmer',
         length: '20 min',
         type: 'quickie'
-//        intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
-//        speakers: ['sebastien_prunier'],
-//        abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
-//            '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
+//        intro: ''
       },
       {
-        title: 'Elastify your app',
+        title: 'Elastifiez votre application : du SQL au NoSQL en moins d'une heure',
         length: '1 h 30',
         type: 'talk',
         intro: 'from SQL to NoSQL in less than one hour!',
-        abstract: '<p>During this "live coding" talk, Tugdual and David will move an old-fashion full SQL application to the NoSQL world.</p>' +
-            '<p>Using CouchBase and Elasticsearch, they will show all gains you can have with this new architecture: Easyness & Elasticity (scalablity)</p>' +
-            '<p>Following points will be covered:' +
-            '<ul>' +
-            '<li>Document Oriented Model</li>' +
-            '<li>JSon</li>' +
-            '<li>REST</li>' +
-            '<li>Caching / Memcache</li>' +
-            '<li>Filters and Facets</li>' +
-            '</ul></p>',
+        abstract:  'Au cours de cette session "live coding", Tugdual et David reprendront une application full SQL "à papa" pour la réécrire en NoSQL en 60 minutes.<br/>'
++'En s'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>'
+
++'<ul><li>la facilité de mise en place (productivité)</li>'
++'<li>l\'élasticité (scalabilité)</li></ul>'
++'Les thèmes abordés seront :'
++'<ul><li>Approche document</li>'
++'<li>JSon</li>'
++'<li>REST</li>'
++'<li>Cache / Memcached</li>'
++'<li>Filtres et Facettes</li></ul>'
++'Notre plan diabolique est de vous convertir au NoSQL à tel point que vous ne puissiez faire autrement que de le mettre chez vous (et chez vos amis) !<br><br>'
++'Devoxx preview ;) ',
         speakers: ['david_pilato', 'tugdual_grall']
       }
     ]
