@@ -35,10 +35,13 @@ var njEvents = [
     place: null,//'epsi',
     subjects: [
       {
-        title: 'Sujet à confirmer',
+        title: 'Amélioration de la qualité du code par restriction du langage',
         length: '20 min',
-        type: 'quickie'
-//        intro: ''
+        type: 'quickie',
+        intro: null,
+        speakers: ['hugo_wood'],
+        abstract: '<p>Lorsque que beaucoup de possibilités s\'offrent à nous, il est difficile de prendre une décision sans expérience.</p>' +
+            '<p>Au vu de la piètre qualité générale du code dans l\'industrie, ne serait-il pas intéressant pas de restreindre la flexibilité des langages de programmation afin de "guider" les développeurs n\'ayant pas encore acquis cette expérience ? Je vais présenter quelques fonctionnalités des langages orientés classe dont la difficulté d\'utilisation, la dangerosité, ou l\'inutilité ne sont selon moi pas assez abordées dans la formation du programmeur.</p>'
       },
       {
         title: 'Elastifiez votre application : du SQL au NoSQL en moins d\'une heure',

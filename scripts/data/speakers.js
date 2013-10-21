@@ -460,5 +460,16 @@ var njSpeakers = [
     github: null,
     website: null,
     email: null
+  },
+  {
+    id: 'hugo_wood',
+    name: 'Hugo Wood',
+    bio: 'Programmeur autodidacte depuis 10 ans, petit nouveau dans l\'industrie, je suis développeur chez Sopra Group.',
+    gravatar:   'hx4.5@free.fr',
+    twitter: 'mercury_wood',
+    gplus:   '106541715561602552217',
+    github: null,
+    website: 'elevatedabstractions.wordpress.com',
+    email: 'hx4.5@free.fr'
   }
 ];
