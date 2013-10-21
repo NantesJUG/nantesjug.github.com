@@ -33,8 +33,7 @@ var nj = function () {
     },
     getNextEvents: function () {
       var today = that.getToday();
-      var nextEvents =  _.filter(events, function(event){ return event.date >= today; });
-      return _.sortBy(nextEvents, function(event) { return event.date; });
+      return _.filter(events, function(event){ return event.date >= today; });
     },
     getPreviousEvents: function () {
       var today = that.getToday();
@@ -94,6 +93,9 @@ var nj = function () {
       });
     });
   });
+
+  //Sort events
+  events = _.sortBy(events, function(event) { return event.date; });
 
   //Returns publics methods
   return that;

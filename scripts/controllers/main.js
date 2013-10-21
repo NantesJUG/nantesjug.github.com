@@ -21,8 +21,8 @@ angular.module('nantesjugApp')
     })
     .controller('EventsCtrl', function ($scope) {
       $scope.today = nj.getToday();
-      $scope.nextEvents = nj.getNextEvents();
-      $scope.previousEvents = nj.getPreviousEvents();
+      $scope.nextEvents = nj.getNextEvents().reverse();
+      $scope.previousEvents = nj.getPreviousEvents().reverse();
       $scope.searchText = '';
       $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
 
