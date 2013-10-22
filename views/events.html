@@ -1,9 +1,9 @@
 <input type="search" class="form-control jug-search" placeholder="Rechercher une soirée" autofocus="" ng-model="searchText">
 
-<any ng-repeat="event in nextEvents | filter:searchText">
+<div ng-repeat="event in nextEvents | filter:searchText">
   <ng-include src="'views/event.html'"></ng-include>
-</any>
+</div>
 
-<any ng-repeat="event in previousEvents | filter:searchText">
+<div ng-repeat="event in previousEvents | filter:searchText">
   <ng-include src="'views/event.html'"></ng-include>
-</any>
+</div>
