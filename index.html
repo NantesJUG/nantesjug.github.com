@@ -164,12 +164,16 @@
 <!-- AddThis Smart Layers BEGIN -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52556183099b79ef"></script>
 <script type="text/javascript">
-  addthis.layers({
-    'theme' : 'transparent',
-    'share' : {
-      'position': 'left',
-      'services': 'facebook,twitter,google_plusone_share,linkedin,gmail,more',
-      'mobile': false
+  jQuery(document).ready(function($) {
+    if (typeof(addthis) != 'undefined') {
+      addthis.layers({
+        'theme' : 'transparent',
+        'share' : {
+          'position': 'left',
+          'services': 'facebook,twitter,google_plusone_share,linkedin,gmail,more',
+          'mobile': false
+        }
+      });
     }
   });
 </script>
