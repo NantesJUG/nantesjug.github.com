@@ -1,23 +1,24 @@
 <div class="well">
-  <h1 id="speaker">
+
+  <h1 id="speaker" ng-init="tooltip()">
     {{speaker.name}}
+    
     <!-- Socials -->
     <span class="pull-right">
-      <a ng-href="http://twitter.com/{{speaker.twitter}}" target="_blank"><span class="social social-twitter" ng-show="speaker.twitter" data-toggle="tooltip" title="@{{speaker.twitter}}"></span></a>
-      <a ng-href="http://plus.google.com/{{speaker.gplus}}" target="_blank"><span class="social social-gplus" ng-show="speaker.gplus" data-toggle="tooltip" title="+{{speaker.name}}"></span></a>
-      <a ng-href="http://github.com/{{speaker.github}}" target="_blank"><span class="social social-github" ng-show="speaker.github" data-toggle="tooltip" title="{{speaker.github}}"></span></a>
+      <a ng-if="speaker.twitter" ng-href="http://twitter.com/{{speaker.twitter}}" target="_blank"><span class="social social-twitter" data-toggle="tooltip" title="@{{speaker.twitter}}"></span></a>
+      <a ng-if="speaker.gplus" ng-href="http://plus.google.com/{{speaker.gplus}}" target="_blank"><span class="social social-gplus" data-toggle="tooltip" title="+{{speaker.name}}"></span></a>
+      <a ng-if="speaker.github" ng-href="http://github.com/{{speaker.github}}" target="_blank"><span class="social social-github" data-toggle="tooltip" title="{{speaker.github}}"></span></a>
     </span>
   </h1>
 
   <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-      <img ng-show="speaker.gravatar && !speaker.photo" gravatar-src="speaker.gravatar" class="img-polaroid speaker_photo" gravatar-size="150" alt="{{speaker.name}}" />
-      <img ng-show="!speaker.gravatar && !speaker.photo" src="/images/gravatar-duke.jpg" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
-      <img ng-show="speaker.photo" ng-src="{{getSpeakerPhotoUrl(speaker)}}" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
+      <img ng-if="speaker.gravatar && !speaker.photo" gravatar-src="speaker.gravatar" class="img-polaroid speaker_photo" gravatar-size="150" alt="{{speaker.name}}" />
+      <img ng-if="!speaker.gravatar && !speaker.photo" src="/images/gravatar-duke.jpg" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
+      <img ng-if="speaker.photo" ng-src="{{getSpeakerPhotoUrl(speaker)}}" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
-      <p ng-bind-html-unsafe='speaker.bio'></p>
-
+      <p ng-bind-html-unsafe="speaker.bio"></p>
       <div ng-show="subjects" class="jug-speaker-subjects">
         <strong>Sujets</strong>
         <ul>
@@ -34,5 +35,7 @@
 </div>
 
 <script type="text/javascript">
-  $('.social').tooltip();
+  $(document).on('speakerLoaded', function() {
+    $('.social').tooltip();
+  });
 </script>

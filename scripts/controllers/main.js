@@ -62,11 +62,14 @@ angular.module('nantesjugApp')
       $scope.getSpeakerPhotoUrl = nj.getSpeakerPhotoUrl;
 
     })
-    .controller('SpeakerCtrl', function ($scope, $routeParams) {
+    .controller('SpeakerCtrl', function ($scope, $routeParams, $timeout) {
       var speaker = nj.getSpeaker($routeParams.speakerId);
       var subjects = nj.getSpeakerSubjects($routeParams.speakerId);
       $scope.speaker = speaker;
       $scope.subjects = subjects;
       $scope.getSpeakerPhotoUrl = nj.getSpeakerPhotoUrl;
+      $timeout(function(){
+        $(document).trigger('speakerLoaded');
+      }, 0);
     })
 ;
