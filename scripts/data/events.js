@@ -32,7 +32,7 @@ var njEvents = [
     date: new Date(2013, 10, 4),//month begin at 0
     time: '19',
     register: 'http://guestli.st/206877', 
-    place: null,//'epsi',
+    place: 'epsi',
     subjects: [
       {
         title: 'Amélioration de la qualité du code par restriction du langage',
