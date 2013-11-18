@@ -305,7 +305,7 @@ var njSpeakers = [
   {
     id: 'didier_girard',
     name: 'Didier Girard',
-    bio: 'Didier Girard est à la tête de la Direction Innovation et des Nouvelles Technologies de SFEIR où il définit la stratégie technologique de l\'entreprise tout en assurant des missions d\'architecture pour des grands comptes. Il est Docteur en Informatique de l\'Ecole Normale Supérieure de Lyon, architecte J2EE, il utilise Java coté serveur depuis 1997. Créateur du site portail http://www.application-servers.com et de http://www.ongwt.com, il anime régulièrement des conférences sur des sujets comme l\'industrialisation des développements, le client riche, Eclipse, les services web, l\'architecture J2EE… Didier Girard a été Directeur Technique de IMPROVE après avoir passé 4 ans chez Atos.',
+    bio: 'Didier Girard est à la tête de la Direction Innovation et des Nouvelles Technologies de SFEIR où il définit la stratégie technologique de l\'entreprise tout en assurant des missions d\'architecture pour des grands comptes. Il est Docteur en Informatique de l\'Ecole Normale Supérieure de Lyon, architecte J2EE, il utilise Java coté serveur depuis 1997. Créateur du site portail <a href="http://www.application-servers.com" target="_blank">http://www.application-servers.com</a> et de <a href="http://www.ongwt.com" target="_blank">http://www.ongwt.com</a>, il anime régulièrement des conférences sur des sujets comme l\'industrialisation des développements, le client riche, Eclipse, les services web, l\'architecture J2EE… Didier Girard a été Directeur Technique de IMPROVE après avoir passé 4 ans chez Atos.',
     gravatar: 'didier.girard@gmail.com',
     photo: null,
     twitter: null,
@@ -329,7 +329,7 @@ var njSpeakers = [
   {
     id: 'arnaud_heritier',
     name: 'Arnaud Héritier',
-    bio: 'Arnaud Héritier est architecte senior. Il a dix années d\'expériences professionnelles acquises au sein d\'éditeurs de logiciels, de sociétés de services et de cabinets de conseil. Il rejoint eXo Platform en Juillet 2009 en tant que Software Factory Manager. Il y est responsable des méthodes et outils utilisés pour développer et livrer les produits. Il participe à divers projets open-source depuis plusieurs années. Sa contribution principale est pour le projet Apache Maven qu\'il a rejoint en 2004 et dont il fait parti du comité de direction (PMC). Il est régulièrement speaker dans des conférences ou JUGs, et est le co-auteur du livre Apache Maven aux éditions Pearson. Il est diplômé d\'un DESS en génie des logiciels applicatifs à l\'université de Jussieu, Paris VI. Son Blog: http://blog.aheritier.net',
+    bio: 'Arnaud Héritier est architecte senior. Il a dix années d\'expériences professionnelles acquises au sein d\'éditeurs de logiciels, de sociétés de services et de cabinets de conseil. Il rejoint eXo Platform en Juillet 2009 en tant que Software Factory Manager. Il y est responsable des méthodes et outils utilisés pour développer et livrer les produits. Il participe à divers projets open-source depuis plusieurs années. Sa contribution principale est pour le projet Apache Maven qu\'il a rejoint en 2004 et dont il fait parti du comité de direction (PMC). Il est régulièrement speaker dans des conférences ou JUGs, et est le co-auteur du livre Apache Maven aux éditions Pearson. Il est diplômé d\'un DESS en génie des logiciels applicatifs à l\'université de Jussieu, Paris VI. Son Blog: <a href="http://blog.aheritier.net" target="_blank">http://blog.aheritier.net</a>',
     gravatar: 'aheritier@gmail.com',
     photo: null,
     twitter: null,
@@ -353,7 +353,7 @@ var njSpeakers = [
   {
     id: 'guillaume_laforge',
     name: 'Guillaume Laforge',
-    bio: 'Guillaume est le chef de projet de Groovy, un langage dynamique pour la JVM. Il a rejoint SpringSource France suite au rachat de sa société G2One qui proposait des services professionnels autour de Groovy et Grails (formation, support, conseil).  Il est également le Spec Lead de JSR-241, le Java Specification Request qui standardise le langage Groovy au sein du Java Community Process. Enfin, Guillaume est le co-auteur du livre "Groovy in Action" aux éditions Manning. Son Blog : http://www.springsource.com/blog/329  ou http://glaforge.free.fr/weblog',
+    bio: 'Guillaume est le chef de projet de Groovy, un langage dynamique pour la JVM. Il a rejoint SpringSource France suite au rachat de sa société G2One qui proposait des services professionnels autour de Groovy et Grails (formation, support, conseil).  Il est également le Spec Lead de JSR-241, le Java Specification Request qui standardise le langage Groovy au sein du Java Community Process. Enfin, Guillaume est le co-auteur du livre "Groovy in Action" aux éditions Manning. Son Blog : <a href="http://www.springsource.com/blog/329" target="_blank">http://www.springsource.com/blog/329</a>  ou <a href="http://glaforge.free.fr/weblog" target="_blank">http://glaforge.free.fr/weblog</a>',
     gravatar: 'glaforge@gmail.com',
     photo: null,
     twitter: null,
@@ -365,7 +365,7 @@ var njSpeakers = [
   {
     id: 'francois_le_droff',
     name: 'Francois Le Droff',
-    bio: 'Brestois d\'origine, Parisien d\'adoption, François est architecte technique chez Adobe France depuis 2007, après 9 ans d\'expérience dans le développement d\'applications Web principalement enJava/JavaEE. Acteur et contributeur de la communauté open source (qsos, xradar, fna), François est membre de l\'OSSGTP, et du ParisJUG. Son Blog: http://droff.com',
+    bio: 'Brestois d\'origine, Parisien d\'adoption, François est architecte technique chez Adobe France depuis 2007, après 9 ans d\'expérience dans le développement d\'applications Web principalement enJava/JavaEE. Acteur et contributeur de la communauté open source (qsos, xradar, fna), François est membre de l\'OSSGTP, et du ParisJUG. Son Blog: <a href="http://droff.com" target="_blank">http://droff.com</a>',
     gravatar: 'francois.le.droff@gmail.com',
     photo: null,
     twitter: null,
@@ -389,7 +389,7 @@ var njSpeakers = [
   {
     id: 'alexis_moussine_pouchkine',
     name: 'Alexis Moussine-Pouchkine',
-    bio: 'Alexis Moussine-Pouchkine aime le bon vin et les architectures Java. Chez Sun Microsystems, il tient le rôle d\'ambassadeur du projet Iibre GlassFish, un serveur d\'application Java EE de nouvelle génération. Ceci lui permet de rencontrer lors de réunions ou de conférences de nombreux développeurs Java et autres utilisateurs de technologies libres. Il participe à plusieurs communautés open source, traduit en français des ouvrages techniques autour de Java ou XML et possède néanmoins une vie en dehors de Java ! Son blog: http://blogs.sun.com/alexismp',
+    bio: 'Alexis Moussine-Pouchkine aime le bon vin et les architectures Java. Chez Sun Microsystems, il tient le rôle d\'ambassadeur du projet Iibre GlassFish, un serveur d\'application Java EE de nouvelle génération. Ceci lui permet de rencontrer lors de réunions ou de conférences de nombreux développeurs Java et autres utilisateurs de technologies libres. Il participe à plusieurs communautés open source, traduit en français des ouvrages techniques autour de Java ou XML et possède néanmoins une vie en dehors de Java ! Son blog: <a href="http://blogs.sun.com/alexismp" target="_blank">http://blogs.sun.com/alexismp</a>',
     gravatar: 'alexis.mp@gmail.com',
     photo: null,
     twitter: null,
@@ -425,8 +425,8 @@ var njSpeakers = [
   {
     id: 'antoine_sabot_durand',
     name: 'Antoine Sabot-Durand',
-    bio: '<p>Consultant et architecte chez Ippon Technologies, Antoine Sabot-Durand a acquis une expertise sur Java EE et plus particulièrement sur EJB 3.X et CDI. Il est l\'auteur de quelques articles ayant alimenté le débat sur les standards et les choix technologiques sur les développements Java comme "Les rendez-vous manqués de Spring" (http:// blog.ippon.fr/2010/03/30/les-rendez-vous-manques-de-spring/) ou plus récemment "La guerre de Java n\'aura pas lieu" (http://blog.ippon.fr/2010/11/08/la-guerre-de-java-naura-pas-lieu/)</p>' +
-        '<p>Il est également Technical Leader sur le module Seam Social du projet Open Source Seam 3 : http://seamframework.org/Seam3/SocialModule et membre de l\'expert group sur CDI 1.1 : http://jcp.org/en/jsr/summary?id=346.</p>',
+    bio: '<p>Consultant et architecte chez Ippon Technologies, Antoine Sabot-Durand a acquis une expertise sur Java EE et plus particulièrement sur EJB 3.X et CDI. Il est l\'auteur de quelques articles ayant alimenté le débat sur les standards et les choix technologiques sur les développements Java comme <a href="http:// blog.ippon.fr/2010/03/30/les-rendez-vous-manques-de-spring" target="_blank">"Les rendez-vous manqués de Spring"</a> ou plus récemment "La guerre de Java n\'aura pas lieu" (http://blog.ippon.fr/2010/11/08/la-guerre-de-java-naura-pas-lieu/)</p>' +
+        '<p>Il est également Technical Leader sur le module Seam Social du projet <a href="http://seamframework.org/Seam3/SocialModule" target="_blank">Open Source Seam 3</a> et membre de l\'expert group sur <a href="http://jcp.org/en/jsr/summary?id=346" target="_blank">CDI 1.1</a>.</p>',
     gravatar: null,
     photo: 'jpg',
     twitter: null,
@@ -452,14 +452,14 @@ var njSpeakers = [
   {
     id: 'jose_paumard',
     name: 'José Paumard',
-    bio: '',
-    gravatar: null,
+    bio: '<p>José est maître de conférences à l\'institut Galilée (Université Paris 13), et docteur en mathématiques appliquées de l\'ENS de Cachan. Il découvre le langage Java en 1995, et enseigne les technologies Java / Java EE en DESS, M2 et 3ème année ingénieur depuis 1998. Il intervient également régulièrement auprès d\'entreprises, sous forme d\'aide à projet et à l\'architecture, d\'expertise, et de formation.</p><p>Durant 10 ans, José a travaillé sur plusieurs projets en archéologie et histoire du proche orient ancien. Il a co-dirigé le projet MAVI, soutenu par le <a href="http://www.museum-achemenet.college-de-france.fr" target="_blank">collège de France</a>, et publié <a href="http://www.openmelodie.org" target="_blank">Open melodie</a>, une plateforme open source qui sert d\'outil de back office pour le MAVI.</p><p>Il s\'occupe de "Java le soir", un <a href="http://blog.paumard.org" target="_blank">blog technique sur la technologie Java</a>, dont l\'objet est de publier son cours (environ 750 pages) et différents articles techniques, bien sûr en accès libre.</p><p>Il est membre du Paris Java User Group et co-organisateur de Devoxx France. Il prend enfin la parole régulièrement lors de conférences, devant des audiences très diverses : étudiants, chercheurs (mathématique, informatique, sciences humaines), ingénieurs, grand public, Java User Groups.</p>',
+    gravatar: 'jose.paumard@gmail.com',
     photo: null,
-    twitter: null,
+    twitter: 'JosePaumard',
     gplus: null,
     github: null,
-    website: null,
-    email: null
+    website: 'http://blog.paumard.org',
+    email: 'jose.paumard@gmail.com'
   },
   {
     id: 'hugo_wood',
