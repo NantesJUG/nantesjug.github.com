@@ -27,5 +27,12 @@ var njPlaces = [
     address: '1 Rue Charron',
     city: '44800 Saint-Herblain',
     maps: 'http://goo.gl/maps/YbjKy'
+  },
+  {
+    id: 'epitech',
+    name: 'Epitech',
+    address: '16-18 Rue Flandres Dunkerque',
+    city: '44100 Nantes',
+    maps: 'http://goo.gl/maps/DCQ1a'
   }
 ];
