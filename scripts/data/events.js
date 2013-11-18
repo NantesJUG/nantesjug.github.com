@@ -2,7 +2,7 @@
 var njEvents = [
   {
     id: '2013_12_04',
-    title: 'Java 8',
+    title: 'Java 8 : Lambdas, Streams et Collectors',
     date: new Date(2013, 11, 4),//month begin at 0
     time: '19',
     register: null, //'https://guestlistapp.com/events/190722',
