@@ -338,6 +338,9 @@ footer {
 .social-github {
   background-image: url('../images/social/github.png');
 }
+.social-website {
+  background-image: url('../images/social/rss.png');
+}
 /* PAGES */
 .jug-event-subject span.label, .jug-speaker-subjects span.label{
   margin-right: 15px;
