@@ -9,13 +9,12 @@ var njEvents = [
     place: 'epitech',
     subjects: [
       {
-        title: 'Sujet à confirmer',
+        title: 'Grails dans les tranchées',
         length: '20 min',
-        type: 'quickie'
-//        intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
-//        speakers: ['sebastien_prunier'],
-//        abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
-//            '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
+        type: 'quickie',
+        intro: null,
+        speakers: ['dominique_jocal'],
+        abstract: '<p>Après 2 ans et demi de développements et déploiements d’applications backoffice et front-office B2B bâties sur technologie Grails, nous présentons les patterns, configs et libs retenues, et nous débattrons de l’impact de ces nouveaux stack pour les devs critiques en entreprise.</p>'
       },
       {
         title: 'Java 8 : Lambdas, Streams et Collectors',

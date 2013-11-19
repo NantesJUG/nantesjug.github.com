@@ -466,10 +466,23 @@ var njSpeakers = [
     name: 'Hugo Wood',
     bio: 'Programmeur autodidacte depuis 10 ans, petit nouveau dans l\'industrie, je suis développeur chez Sopra Group.',
     gravatar:   'hx4.5@free.fr',
+    photo: null,
     twitter: 'mercury_wood',
     gplus:   '106541715561602552217',
     github: 'hgwood',
     website: 'elevatedabstractions.wordpress.com',
     email: 'hx4.5@free.fr'
+  },
+  {
+    id: 'dominique_jocal',
+    name: 'Dominique Jocal',
+    bio: 'Développeur et architecte logiciel, responsable de deux domaines applicafifs chez CBP Solutions, courtier de gestion en assurance à Nantes.',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'djocal',
+    gplus:   '+DominiqueJocal',
+    github: null,
+    website: 'http://journaldudoj.blogspot.fr',
+    email: 'djocal@gmail.com'
   }
 ];
