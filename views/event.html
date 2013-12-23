@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-7 jug-short-description">
 
-          <h1>{{event.title}}</h1>
+          <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
 
           <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à {{event.time}}h</h2>
 
