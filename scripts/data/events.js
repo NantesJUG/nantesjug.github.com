@@ -1,6 +1,33 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_01_20',
+    title: 'Soyons RESTful avec RESTX',
+    date: new Date(2014, 0, 20),//month begin at 0
+    time: '19',
+    register: null, //'https://guestlistapp.com/events/218334',
+    place: null,
+    subjects: [
+      {
+        title: 'JParsec',
+        length: '20 min',
+        type: 'quickie',
+        intro: null,
+        speakers: ['arnaud_bailly'],
+        abstract: ''
+      },
+      {
+        title: 'Soyons RESTful avec RESTX',
+        length: '1 h 30',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Le monde du web est en pleine ébullition, on voit de plus en plus de JS sur le frontend avec des frameworks comme Angular ou Backbone qui finissent même pas séduire les développeurs Java que nous sommes.</p>' +
+            '<p>Mais pour le serveur, le monde Java garde quand même l\'avantage avec son typage, sa maintenabilité et ses performances. Et pour faire communiquer les deux, rien de mieux que des services REST !<br/>Dans cette session, je vous propose donc quelques révisions sur les principes des services REST, pour voir ensuite au travers de nombreuses démos comment RESTX, un outil open source, innovant et made in France peut vous aider à construire, documenter et tester l\'API REST idéale pour vos applications web de demain.</p>' +
+            '<p>Pour plus d\'infos sur RESTX, jetez un oeil à <a href="http://restx.io/" target="_blank">restx.io</a></p>',
+        speakers: ['xavier_hanin']
+      }
+    ]
+  }, {
     id: '2013_12_04',
     title: 'Java 8 : Lambdas, Streams et Collectors',
     date: new Date(2013, 11, 4),//month begin at 0

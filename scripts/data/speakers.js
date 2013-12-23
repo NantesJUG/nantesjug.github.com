@@ -484,5 +484,31 @@ var njSpeakers = [
     github: null,
     website: 'http://journaldudoj.blogspot.fr',
     email: 'djocal@gmail.com'
+  },
+  {
+    id: 'xavier_hanin',
+    name: 'Xavier Hanin',
+    bio: 'Après de nombreuses péripéties en tant qu\'indépendant ou créateur de société, Xavier est actuellement architecte principal et responsable de l\'agence de Bordeaux chez 4sh France, société de service spécialisée dans l\'accompagnement des éditeurs de logiciels.<br/>Passionné par le développement en particulier Java et Web, il se disperse souvent notamment dans les projets open source (il est notamment créateur d\'Apache Ivy et plus récemment de restx.io).<br/>Il partage volontiers sa passion en tant qu\'enseignant à l\'ENSEIRB MATMECA, fondateur du BordeauxJUG, ainsi que lors de conférences comme ApacheCon, JavaZone ou Devoxx ou plus simplement autour d\'un verre.<br/>Vous pouvez le suivre sur twitter: @xavierhanin',
+    gravatar: 'xavier.hanin@gmail.com',
+    photo: null,
+    twitter: 'xavierhanin',
+    gplus:   '100425521960258565700',
+    github: null,
+    website: null,
+    email: 'xavier.hanin@gmail.com'
+  },
+  {
+    id: 'arnaud_bailly',
+    name: 'Arnaud Bailly',
+    bio: '',
+    gravatar: 'arnaud.oqube@gmail.com',
+    photo: null,
+    twitter: 'abailly',
+    gplus:   '112406461403845424685',
+    github: null,
+    website: null,
+    email: 'arnaud.oqube@gmail.com'
   }
 ];
+
+//Test gravatar : http://www.neoseeker.com/tools/gravatar_tester.php
