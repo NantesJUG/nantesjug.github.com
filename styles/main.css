@@ -3,6 +3,7 @@ body {
   color: #696969;
   padding: 60px 0 0 0;
   background: url('../images/site/wordle.png') repeat-x;
+  background-position-y: 40px;
 }
 h1 {
   color: #ef2b35;
