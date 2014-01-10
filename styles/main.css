@@ -67,26 +67,50 @@ section h1 {
 }
 /* xs */
 @media (max-width: 767px) {
-  section img {
+  .sponsors img {
     height: 78px;
+  }
+  .partners img {
+    height: 45px;
+  }
+  .partners .partner-big img {
+    height: 80px;
   }
 }
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-  section img {
+  .sponsors img {
     width: 100%;
+  }
+  .partners img {
+    height: 55px;
+  }
+  .partners .partner-big img {
+    height: 110px;
   }
 }
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-  section img {
+  .sponsors img {
     width: 100%;
+  }
+  .partners img {
+    height: 70px;
+  }
+  .partners .partner-big img {
+    height: 140px;
   }
 }
 /* lg */
 @media (min-width: 1200px) {
-  section img {
+  .sponsors img {
     width: 80%;
+  }
+  .partners img {
+    height: 75px;
+  }
+  .partners .partner-big img {
+    height: 150px;
   }
 }
 /*****LAYOUT*****/
@@ -246,6 +270,17 @@ a.navbar-brand {
 }
 .sidebar-nav {
   padding: 0;
+}
+.partners-title {
+  display: block;
+  margin: 0 0 20px 0;
+  color: #ef2b35;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sponsors, .partners {
+  margin-bottom: 20px;
 }
 /*****SOIREE*****/
 .inscription {
