@@ -509,6 +509,34 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'arnaud.oqube@gmail.com'
+  },
+  {
+    id: 'jerome_leleu',
+    name: 'Jérôme Leleu',
+    bio: '<p>13 ans d\'expérience dans le développement principalement sur du J2E.</p>' +
+        '<p>Comme architecte chez SFR, je travaille depuis 2009 sur le SSO CAS des sites sfr.fr. Je suis actuellement responsable de l\'architecture identité et selfcare.</p>' +
+        '<p>Profil technique passionné, je suis committer sur le projet CAS et intéressé par tous les protocoles/librairies de sécurité, notamment avec la création de ma librairie <a href="https://github.com/leleuj/pac4j" target="_blank">pac4j</a>.</p>',
+    gravatar: null,
+    photo: 'gif',
+    twitter: 'leleuj',
+    gplus:   null,
+    github: 'leleuj',
+    website: null,
+    email: null
+  },
+  {
+    id: 'maxime_greau',
+    name: 'Maxime Gréau',
+    bio: '<p></p>' +
+        '<p></p>' +
+        '<p></p>',
+    gravatar: 'greaumaxime@gmail.com',
+    photo: null,
+    twitter: 'mgreau',
+    gplus:   null,
+    github: null,
+    website: 'http://mgreau.com',
+    email: 'greaumaxime@gmail.com'
   }
 ];
 
