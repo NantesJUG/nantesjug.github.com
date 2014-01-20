@@ -393,6 +393,9 @@ footer {
 .doc-slides {
   background-image: url('../images/doc/slides.png');
 }
+.doc-github {
+  background-image: url('../images/doc/github.png');
+}
 /* PAGES */
 .jug-event-subject span.label, .jug-speaker-subjects span.label{
   margin-right: 15px;
