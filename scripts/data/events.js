@@ -14,7 +14,12 @@ var njEvents = [
         type: 'quickie',
         intro: null,
         speakers: ['arnaud_bailly'],
-        abstract: '<p><a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a> est une simple bibliothèque, inspirée d\'Haskell, qui permet d\'écrire des grammaires directement en Java au moyen de combinateurs fonctionnels. Une telle grammaire devient testable, incrémentale, composable ce qui permet de développer plus vite et de manière plus fiable des mini-langages.Cette présentation est une introduction pratique à l\'écriture d\'interpréteurs de langages avec <a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a>.</p>'
+        abstract: '<p><a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a> est une simple bibliothèque, inspirée d\'Haskell, qui permet d\'écrire des grammaires directement en Java au moyen de combinateurs fonctionnels. Une telle grammaire devient testable, incrémentale, composable ce qui permet de développer plus vite et de manière plus fiable des mini-langages.Cette présentation est une introduction pratique à l\'écriture d\'interpréteurs de langages avec <a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a>.</p>',
+        docs: [{
+          name: 'Les slides (sources)',
+          url: 'https://github.com/abailly/jparsec/tree/master/parsing-made-easy',
+          type: 'github'
+        }]
       },
       {
         title: 'Soyons RESTful avec RESTX',
