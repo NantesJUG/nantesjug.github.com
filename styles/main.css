@@ -390,6 +390,9 @@ footer {
 .doc-slideshare {
   background-image: url('../images/doc/slideshare.png');
 }
+.doc-slides {
+  background-image: url('../images/doc/slides.png');
+}
 /* PAGES */
 .jug-event-subject span.label, .jug-speaker-subjects span.label{
   margin-right: 15px;
