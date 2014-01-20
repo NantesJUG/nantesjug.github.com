@@ -36,6 +36,7 @@ var njPlaces = [
     address: '16-18 Rue Flandres Dunkerque',
     city: '44100 Nantes',
     maps: 'http://goo.gl/maps/DCQ1a',
+    twitter: 'EPITECHNantes',
     capacity: 130
   }
 ];
