@@ -288,8 +288,6 @@ a.navbar-brand {
   margin: 0 0 20px 0;
 }
 .inscription-missing {
-  display: block;
-  margin: 0 0 20px 0;
   color: #ef2b35;
 }
 .soiree_description {
@@ -425,6 +423,9 @@ footer {
 .jug-event-location a, .jug-event-location a:hover, .jug-event-location a:visited {
   text-decoration: none;
   color: #696969;
+}
+.jug-event-detail {
+  margin-bottom: 20px;
 }
 .jug-speakers > div {
   margin-bottom: 20px;
