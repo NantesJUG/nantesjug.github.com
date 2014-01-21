@@ -1,6 +1,58 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_02_17',
+    title: 'SSO & Travail collaboratif en temps réél',
+    date: new Date(2014, 1, 17),//month begin at 0
+    time: '19',
+    register: null,
+    place: 'epsi',
+    subjects: [
+      {
+        title: 'CAS, un SSO Web open source',
+        length: '45 min',
+        type: 'talk',
+        intro: null,
+        speakers: ['jerome_leleu'],
+        abstract: '<p>Présentation de ce qu\'est un SSO et de leur utilisation</p>' +
+            '<p>Histoire de CAS, architecture et fonctionnement :' +
+            '<ul>' +
+            '<li>client + serveur, protocole</li>' +
+            '<li>services registry (applications raccordées au SSO)</li>' +
+            '<li>authentication handler (méthodes d\'authentification)</li>' +
+            '<li>attribute repository (récupération des attributs de l\'utilisateur)</li>' +
+            '<li>tickets registry (stockage des tickets)</li>' +
+            '<li>logout</li>' +
+            '<li>différents clients existants : Jasig CAS, Spring Security, Shiro, mod_cas</li>' +
+            '<li>intégration avec d\'autres protocoles : SAML, OpenId, OAuth</li>' +
+            '</ul>' +
+            '</p>' +
+            '<p>Focus sur certaines problématiques vues chez SFR (look&feel, performance, intégration)</li>' +
+            '</ul>' +
+            '</p>',
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      },
+      {
+        title: 'Travail collaboratif en temps-réel : quand WebSocket rencontre Asciidoctor...',
+        length: '1 h 00',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Ecrire de la documentation technique est primordial à la réussite d\'un projet. Afin d\'être efficace et d\'en finir avec les pertes de temps dues à l\'utilisation des Word, Open Office et consort, le projet Asciidoctor a vu le jour en 2012. Il est de plus en plus utilisé du fait de sa simplicité, sa rapidité et ses possibilités.</p>' +
+            '<p>Parallèlement, mi 2013 la nouvelle spécification Java EE  était officiellement annoncée avec 4 nouvelles JSR dont la JSR 356 : Java API for WebSocket 1.0. Ce nouveau standard (couplé à JSON-P et JAX-RS) permet aux applications Java EE 7 de s\'interfacer très facilement avec les applications HTML5.</p>' +
+            '<p>Dans cette conférence vous verrez comment il devient enfin intéressant d\'écrire de la documentation technique en équipe grâce à la mise en oeuvre des technologies Java EE 7 / HTML 5 et Asciidoctor (+ du AngularJS). Cet ensemble de technologie sera utilisé pour créer un éditeur de travail collaboratif en temps réel. En tant que spectateur actif, vous pourrez participer à la démonstration avec d\'autres membres de l\'assemblée.</p>',
+        speakers: ['maxime_greau'],
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      }
+    ]
+  },{
     id: '2014_01_20',
     title: 'Soyons RESTful avec RESTX',
     date: new Date(2014, 0, 20),//month begin at 0
