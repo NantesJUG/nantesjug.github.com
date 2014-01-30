@@ -26,6 +26,9 @@ angular.module('nantesjugApp', ['ui.gravatar', 'angulartics', 'angulartics.googl
       .when('/infos', {
         templateUrl: 'views/infos.html'
       })
+      .when('/devoxx4kids', {
+        templateUrl: 'views/devoxx4kids.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
