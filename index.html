@@ -48,10 +48,16 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li ng-class="{ active: isActive('/events')}"><a ng-href="#/events">Soirées</a></li>
-        <li ng-class="{ active: isActive('/speakers')}"><a ng-href="#/speakers">Speakers</a></li>
-        <li ng-class="{ active: isActive('/infos')}"><a ng-href="#/infos">Infos</a></li>
-        <li ng-class="{ active: isActive('/infos')}"><a ng-href="#/devoxx4kids">Devoxx4Kids</a></li>
+        <li ng-class="{ active: urlStartsWith('/events')}"><a ng-href="#/events">Soirées</a></li>
+        <li ng-class="{ active: urlStartsWith('/speakers')}"><a ng-href="#/speakers">Speakers</a></li>
+        <li ng-class="{ active: urlIs('/infos')}"><a ng-href="#/infos">Infos</a></li>
+        <li ng-class="{ active: urlStartsWith('/specials')}" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">Événements <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li ng-class="{ active: urlIs('/specials/devoxx4kids')}"><a ng-href="#/specials/devoxx4kids">Devoxx4Kids</a></li>
+            <li ng-class="{ active: urlIs('/specials/devparty')}"><a ng-href="#/specials/devparty">DevParty</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
 

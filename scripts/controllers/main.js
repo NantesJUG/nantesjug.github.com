@@ -2,8 +2,11 @@
 
 angular.module('nantesjugApp')
     .controller('MenuCtrl', function ($scope, $location) {
-      $scope.isActive = function (viewLocation) {
-        return viewLocation === $location.path();
+      $scope.urlIs = function (viewLocation) {
+        return $location.path() === viewLocation;
+      };
+      $scope.urlStartsWith = function (viewLocation) {
+        return $location.path().indexOf(viewLocation) === 0;
       };
     })
     .controller('MainCtrl', function ($scope) {
