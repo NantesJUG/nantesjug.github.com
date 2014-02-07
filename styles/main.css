@@ -104,10 +104,12 @@ section h1 {
 /* lg */
 @media (min-width: 1200px) {
   .sponsors img {
-    width: 80%;
+    width: 100%;
   }
   .partners img {
-    height: 75px;
+    height: 65px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .partners .partner-big img {
     height: 150px;
@@ -277,6 +279,13 @@ a.navbar-brand {
   color: #ef2b35;
   font-weight: bold;
   text-align: center;
+}
+
+img.sponsors-type {
+  display: inline;
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .sponsors, .partners {
