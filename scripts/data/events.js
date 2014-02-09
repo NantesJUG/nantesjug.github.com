@@ -2,7 +2,7 @@
 var njEvents = [
   {
     id: '2014_02_17',
-    title: 'SSO & Travail collaboratif en temps réél',
+    title: 'Gros projet en JAVA & AngularJS / Travail collaboratif en temps réél',
     date: new Date(2014, 1, 17),//month begin at 0
     time: '19',
     register: null,
