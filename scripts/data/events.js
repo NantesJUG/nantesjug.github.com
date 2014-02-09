@@ -9,25 +9,21 @@ var njEvents = [
     place: 'epsi',
     subjects: [
       {
-        title: 'CAS, un SSO Web open source',
+        title: "Retour d'experience gros projet : JAVA / AngularJS" ,
         length: '45 min',
         type: 'talk',
         intro: null,
-        speakers: ['jerome_leleu'],
-        abstract: '<p>Présentation de ce qu\'est un SSO et de leur utilisation</p>' +
-            '<p>Histoire de CAS, architecture et fonctionnement :' +
+        speakers: ['sebastien_roul','medy_belmokhtar'],
+        abstract: '<p>Comment une équipe Java attaque un projet avec de l\'Angular</p>' +
+            '<p>Retour sur d\'experience sur un gros projet :' +
             '<ul>' +
-            '<li>client + serveur, protocole</li>' +
-            '<li>services registry (applications raccordées au SSO)</li>' +
-            '<li>authentication handler (méthodes d\'authentification)</li>' +
-            '<li>attribute repository (récupération des attributs de l\'utilisateur)</li>' +
-            '<li>tickets registry (stockage des tickets)</li>' +
-            '<li>logout</li>' +
-            '<li>différents clients existants : Jasig CAS, Spring Security, Shiro, mod_cas</li>' +
-            '<li>intégration avec d\'autres protocoles : SAML, OpenId, OAuth</li>' +
+            '<li>Comment organiser l\'équipes</li>' +
+            '<li>Les pièges dans lesquels nous sommes tombés</li>' +
+            '<li>Le choc de deux cultures... ou pas !</li>' +
+            '<li>Les clés de succès que nous avons trouvé</li>' +
             '</ul>' +
             '</p>' +
-            '<p>Focus sur certaines problématiques vues chez SFR (look&feel, performance, intégration)</li>' +
+            '<p>Focus sur le vécu d\'une équipe qui est passée en 6 mois à un projet multi-langages. </li>' +
             '</ul>' +
             '</p>',
         docs: [{
