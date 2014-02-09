@@ -243,9 +243,21 @@ var njSpeakers = [
     email: null
   },
   {
+    id: 'medy_belmokhtar',
+    name: 'Médy BELMOKHTAR',
+    bio: 'Passionné des technos JS, il réalise chez NETAPSYS l\'évangélisation et l\'intégration de projets autour du framework ANGULAR-JS' ,
+    gravatar: 'medy.belmokhtar@netapsys.fr',
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'medy.belmokhtar@netapsys.fr'
+  },
+  {
     id: 'sebastien_roul',
     name: 'Sébastien Roul',
-    bio: 'Sébastien est titulaire d\'un DESS Génie Logiciel et Génie Informatique. Après 10 ans de mission chez différents clients (APAV, Gaz de France, Brittany Ferries, Université Catholique…), il rejoint Netapsys en février 2006 en qualité de chef de projet technique. Il intervient en AMOA et AMOE et conçoit des applications Clients/Serveurs – Inter/Extra/Intranet. Il intègre fin 2007 la direction technique de la société et prend la direction de Netapsys Atlantique en avril 2008.',
+    bio: '20 ans de développement, depuis VB 1.0 - mon métier : Construire et maintenir des logiciels.',
     gravatar: 'sebastien.roul@netapsys.fr',
     photo: null,
     twitter: null,
