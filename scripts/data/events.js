@@ -9,12 +9,12 @@ var njEvents = [
     place: 'epsi',
     subjects: [
       {
-        title: "Retour d'experience gros projet : JAVA / AngularJS" ,
+        title: "Vécu - Gros projet en JAVA & AngularJS" ,
         length: '45 min',
         type: 'talk',
         intro: null,
         speakers: ['sebastien_roul','medy_belmokhtar'],
-        abstract: '<p>Comment une équipe Java attaque un projet avec de l\'Angular</p>' +
+        abstract: '<p>Comment une équipe Java attaque un projet avec de l\'Angular : Cette sale bête qui fait des miracles :o)</p>' +
             '<p>Retour sur d\'experience sur un gros projet :' +
             '<ul>' +
             '<li>Comment organiser l\'équipes</li>' +
