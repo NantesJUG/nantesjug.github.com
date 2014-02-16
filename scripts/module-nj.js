@@ -75,11 +75,11 @@ var nj = function () {
 
   var fulfillSubject = function (subject) {
     //Replace speaker id by speaker object
-    subject.speakers = _.map(subject.speakers, function(speakerId){ return that.getSpeaker(speakerId) });
+    subject.speakers = _.map(subject.speakers, function(speakerId){ return that.getSpeaker(speakerId); });
   };
 
   //Fulfill each events
-  _.each(events, function(event){ fulfillEvent(event) });
+  _.each(events, function(event){ fulfillEvent(event); });
 
   //Extract subjects of each speaker
   _.each(events, function(event){

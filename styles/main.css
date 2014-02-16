@@ -188,7 +188,7 @@ a.navbar-brand {
 /*****NAVIGATION*****/
 .java_logo {
   width: 60px;
-  padding-top: 0px;
+  padding-top: 0;
   margin-right: 30px;
 }
 .java_logo span {
@@ -408,7 +408,7 @@ footer {
   margin-right: 15px;
 }
 .jug-speaker-subjects ul {
-  margin-left: 0px;
+  margin-left: 0;
   padding-left: 20px;
 }
 .jug-speaker-subjects li {

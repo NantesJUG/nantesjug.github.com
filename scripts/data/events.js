@@ -9,7 +9,7 @@ var njEvents = [
     place: 'epsi',
     subjects: [
       {
-        title: "Vécu - Gros projet en JAVA & AngularJS" ,
+        title: 'Vécu - Gros projet en JAVA & AngularJS' ,
         length: '45 min',
         type: 'talk',
         intro: null,
@@ -120,7 +120,7 @@ var njEvents = [
     title: 'Du SQL au NoSQL en moins d\'une heure',
     date: new Date(2013, 10, 4),//month begin at 0
     time: '19',
-    register: 'http://guestli.st/206877', 
+    register: 'http://guestli.st/206877',
     place: 'epsi',
     subjects: [
       {
@@ -137,18 +137,18 @@ var njEvents = [
         length: '1 h 30',
         type: 'talk',
         intro: '',
-        abstract:  'Au cours de cette session "live coding", Tugdual et David reprendront une application full SQL "à papa" pour la réécrire en NoSQL en 60 minutes.<br/>'
-			+'En s\'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>'
-			+'<ul><li>la facilité de mise en place (productivité)</li>'
-			+'<li>l\'élasticité (scalabilité)</li></ul>'
-			+'Les thèmes abordés seront :'
-			+'<ul><li>Approche document</li>'
-			+'<li>JSon</li>'
-			+'<li>REST</li>'
-			+'<li>Cache / Memcached</li>'
-			+'<li>Filtres et Facettes</li></ul>'
-			+'Notre plan diabolique est de vous convertir au NoSQL à tel point que vous ne puissiez faire autrement que de le mettre chez vous (et chez vos amis) !<br><br>'
-			+'Devoxx preview ;) ',
+        abstract:  'Au cours de cette session "live coding", Tugdual et David reprendront une application full SQL "à papa" pour la réécrire en NoSQL en 60 minutes.<br/>' +
+          'En s\'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>' +
+          '<ul><li>la facilité de mise en place (productivité)</li>' +
+          '<li>l\'élasticité (scalabilité)</li></ul>' +
+          'Les thèmes abordés seront :' +
+          '<ul><li>Approche document</li>' +
+          '<li>JSon</li>' +
+          '<li>REST</li>' +
+          '<li>Cache / Memcached</li>' +
+          '<li>Filtres et Facettes</li></ul>' +
+          'Notre plan diabolique est de vous convertir au NoSQL à tel point que vous ne puissiez faire autrement que de le mettre chez vous (et chez vos amis) !<br><br>' +
+           'Devoxx preview ;) ',
         speakers: ['david_pilato', 'tugdual_grall']
       }
     ]
