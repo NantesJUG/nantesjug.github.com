@@ -1,0 +1,103 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="slide">
+            <div class="row slide-page-fixed-header">
+            </div>
+            <div class="row slide-page-fixed-content well lifted">
+
+                <div class="jug-logo-no-layout pull-right text-center">
+                    <img class="img-responsive" src="images/site/logo_jug.png" alt="Nantes Java User Group">
+                </div>
+
+                <div class="col-md-12 valign text-center">
+                    <div>
+                        <span class="jug-subject" ng-repeat="subject in event.subjects">
+
+                            <h2>{{subject.title}}</h2>
+
+                            <p ng-if="subject.speakers">
+                                <span ng-repeat="speaker in subject.speakers">
+                                  <span ng-if="$index != 0"> - </span>
+                                  {{speaker.name}}
+                                </span>
+                            </p>
+
+                        <br />
+
+                        </span>
+
+                        <br />
+
+                        <span class="slide-page-fixed-content-date">Le {{event.date | date:'longDate'}} à {{event.time}}h - {{event.place.name}}</span>
+
+                    </div>
+                </div>
+
+                <div class="slide-page-fixed-content-twitter">
+                    <strong>@nantesjug</strong>
+                </div>
+            </div>
+
+            <div class="slide-page-fixed-bottom">
+
+                <div class="row sponsors">
+
+                    <!--<h1>Sponsors Gold&lt;!&ndash; <img class="sponsors-type" src="images/sponsors/gold_sponsor.png" alt="Sponsors Gold"/>&ndash;&gt;</h1>-->
+
+                    <div class="col-xs-12 col-sm-3" >
+                        <a href="http://zenika.com/" target="_blank" title="Zenika">
+                            <img src="images/sponsors/zenika.png" alt="Zenika" title="Zenika">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3" >
+                        <a href="http://www.netapsys.fr/" target="_blank" title="Netapsys">
+                            <img src="images/sponsors/netapsys.png" alt="Netapsys" title="Netapsys">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3" >
+                        <a href="http://serli.com/" target="_blank" title="Serli">
+                            <img src="images/sponsors/serli.png" alt="Serli" title="Serli">
+                        </a>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3" >
+                        <a href="http://www.softeam.fr/" target="_blank" title="Softeam">
+                            <img src="images/sponsors/softeam.png" alt="Softeam" title="Softeam">
+                        </a>
+                    </div>
+                </div>
+                <div class="row sponsors sponsors-silver">
+                    <div class="col-xs-12 col-sm-2 col-sm-offset-1" >
+                        <a href="http://kosmos.com/" target="_blank" title="Kosmos">
+                            <img src="images/sponsors/kosmos.png" alt="Kosmos" title="Kosmos">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-2" >
+                        <a href="http://www.epitech.eu/" target="_blank" title="Epitech Nantes">
+                            <img src="images/sponsors/epitech.png" alt="Epitech Nantes" title="Epitech Nantes">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-2" >
+                        <a href="http://www.epsi.fr/" target="_blank" title="EPSI Nantes">
+                            <img src="images/sponsors/epsi.png" alt="EPSI Nantes" title="EPSI Nantes">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-2" >
+                        <a href="http://www.jetbrains.com/" target="_blank" title="JetBrains">
+                            <img src="images/sponsors/jetbrains.png" alt="JetBrains" title="JetBrains">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-2" >
+                        <a href="http://cantine.atlantic2.org/" target="_blank" title="La Cantine">
+                            <img src="images/sponsors/cantine.png" alt="La Cantine" title="La Cantine">
+                        </a>
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+        </div>
+    </div>
+</div>
+

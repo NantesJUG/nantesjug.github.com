@@ -43,7 +43,7 @@ module.exports = function (grunt) {
           '{,*/}*.html',
           'styles/{,*/}*.css',
           'scripts/{,*/}*.js',
-          'images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          'images/{,*/}*.{png,jpg,jpeg,gif,webp,svg,ico}'
         ]
       }
     },
@@ -60,7 +60,6 @@ module.exports = function (grunt) {
         options: {
           open: true,
           base: [
-            '.tmp',
             '.'
           ]
         }
@@ -69,7 +68,6 @@ module.exports = function (grunt) {
         options: {
           port: 9001,
           base: [
-            '.tmp',
             'test',
             '.'
           ]

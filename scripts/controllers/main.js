@@ -2,11 +2,28 @@
 
 angular.module('nantesjugApp')
     .controller('MenuCtrl', function ($scope, $location) {
-      $scope.urlIs = function (viewLocation) {
+      var urlIs = function (viewLocation) {
         return $location.path() === viewLocation;
       };
-      $scope.urlStartsWith = function (viewLocation) {
+      var urlStartsWith = function (viewLocation) {
         return $location.path().indexOf(viewLocation) === 0;
+      };
+      var urlMatch = function (viewLocation) {
+        return new RegExp(viewLocation.replace(/\//g, '\\/')).test($location.path());
+      };
+
+      $scope.urlIs = urlIs;
+
+      $scope.urlStartsWith = urlStartsWith;
+
+      $scope.urlMatch = urlMatch;
+
+      $scope.showLayout = function() {
+        return !urlMatch('/events/.*/slide');
+      };
+
+      $scope.showSponsors = function() {
+        return !urlIs('/sponsors');
       };
     })
     .controller('MainCtrl', function ($scope) {
