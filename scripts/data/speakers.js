@@ -244,7 +244,7 @@ var njSpeakers = [
   },
   {
     id: 'medy_belmokhtar',
-    name: 'Médy BELMOKHTAR',
+    name: 'Médy Belmokhtar',
     bio: 'Passionné des technos JS, il réalise chez NETAPSYS l\'évangélisation et l\'intégration de projets autour du framework ANGULAR-JS' ,
     gravatar: 'medy.belmokhtar@netapsys.fr',
     photo: null,
