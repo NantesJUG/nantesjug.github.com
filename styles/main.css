@@ -609,3 +609,18 @@ footer {
     padding-right: 2px;
   }
 }
+footer .subscribe {
+    margin-bottom: 10px;
+}
+footer .subscribe form {
+    text-align:center;
+    display: inline-block;
+}
+footer .subscribe input {
+    height: 20px;
+    width: 150px;
+}
+footer .twitter .btn-twitter {
+    padding: 7px 7px 7px 35px;
+    background-position-y: 7px;
+}
