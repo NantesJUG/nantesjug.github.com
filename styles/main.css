@@ -186,6 +186,7 @@ section h1, .sponsors-page h1 {
   }
   .sponsors-silver img, .partners img {
     height: 45px;
+    margin-bottom: 20px;
   }
   .partners .partner-big img {
     height: 80px;
