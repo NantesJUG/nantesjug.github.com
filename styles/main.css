@@ -612,11 +612,11 @@ footer {
 footer .subscribe {
     margin-bottom: 10px;
 }
-footer .subscribe form {
+footer .subscribe form, .container .subscribe form {
     text-align:center;
     display: inline-block;
 }
-footer .subscribe input {
+footer .subscribe input, .container .subscribe input {
     height: 20px;
     width: 150px;
 }
