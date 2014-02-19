@@ -1,6 +1,44 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_03_17',
+    title: '',
+    date: new Date(2014, 2, 17),//month begin at 0
+    time: '19',
+    register: null,
+    place: 'epitech',
+    subjects: [
+      {
+        title: 'Sujet à venir' ,
+        length: '30 min',
+        type: 'quickie',
+        intro: null,
+        speakers: null,
+        abstract: '<p></p>',
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      },
+      {
+        title: 'Du Legacy Au Cloud en Moins d\'Une Heure',
+        length: '1 h 00',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Il est de plus en plus simple de développer des applications web de zéro, pour les héberger sur le cloud. Mais est-ce aussi simple quand on part de code existant ? Les techniques adaptées à un projet tout neuf sont-elles utilisables de la même façon ?</p>' +
+            '<p>Nous verrons qu’il est possible de partir d’une application legacy, de lui ajouter des fonctionnalités et de la déployer en continu sur le cloud en moins d’une heure.</p>' +
+            '<p>Cette session de live coding sera l’occasion de découvrir des techniques de refactoring, de développement piloté par les tests, de test et d’inspection continue. Et ce, en tentant à chaque étape de faire les choses les plus simples possibles.</p>',
+        speakers: ['david_gageot'],
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      }
+    ]
+  },
+  {
     id: '2014_02_17',
     title: 'Gros projet en JAVA & AngularJS / Travail collaboratif en temps réél',
     date: new Date(2014, 1, 17),//month begin at 0
