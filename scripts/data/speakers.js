@@ -563,6 +563,18 @@ var njSpeakers = [
     github: 'dgageot',
     website: 'http://blog.javabien.net/',
     email: 'dgageot@gmail.com'
+  },
+  {
+    id: 'pierre_reliquet',
+    name: 'Pierre Reliquet',
+    bio: '<p>Pierre Reliquet est consultant au sein de Zenika et formateur AngularJS. Il s\'intéresse, particulièrement, à la stack web dont les rapides évolutions forcent les développeurs à se remettre sans cesse en question.</p>',
+    gravatar: 'pierre.reliquet@gmail.com',
+    photo: null,
+    twitter: 'preliquet',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'pierre.reliquet@gmail.com '
   }
 ];
 
