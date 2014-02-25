@@ -2,7 +2,7 @@
 var njEvents = [
   {
     id: '2014_03_17',
-    title: '',
+    title: 'Du Legacy Au Cloud en Moins d\'Une Heure',
     date: new Date(2014, 2, 17),//month begin at 0
     time: '19',
     register: null,
