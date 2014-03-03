@@ -15,8 +15,8 @@ var njEvents = [
         intro: null,
         speakers: ['pierre_reliquet'],
         abstract: '<p>AngularJS n\'est plus seul! Il possède désormais un concurrent de premier choix car soutenu par ... Google!</p>' +
-                  '<p>Il vous est donc désormais possible de rassurer vos DSI en argumentant que vous n\'allez pas coder votre front en JS, que vous allez utiliser un langage "réellement" typé et qu\'en plus vous aurez les fonctionnalités d\'Angular (2-way binding, filtres...)! Ce concurrent c\'est AngularDart qui est, en réalité, plus qu\'un simple portage d\'AngularJS pour Dart.</p>' +
-                  '<p>Ce quickie a pour but de vous présenter rapidement comment, lorsque Dart rencontre Angular, les choses peuvent devenir rapidement plaisante et puissante.</p>',
+                  '<p>Il vous est donc désormais possible de rassurer vos DSI en argumentant que vous n\'allez pas coder votre front en JS, que vous allez utiliser un langage "réellement" typé [ressemblant à java] et qu\'en plus vous aurez les fonctionnalités d\'Angular (2-way binding, filtres...)! Ce concurrent c\'est AngularDart qui est, en réalité, plus qu\'un simple portage d\'AngularJS pour Dart.</p>' +
+                  '<p>Ce quickie a pour but de vous présenter rapidement comment, lorsque Dart rencontre Angular, les choses peuvent devenir rapidement plaisantes et puissantes.</p>',
         docs: [{
 //          name: '',
 //          url: '',
