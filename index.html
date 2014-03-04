@@ -40,7 +40,7 @@
 <script src="scripts/deps/json3.min.js"></script>
 <![endif]-->
 
-<div class="navbar navbar-default navbar-fixed-top layout" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top layout" ng-if="showLayout()" role="navigation">
   <div class="container">
     <div class="navbar-header">
 
@@ -79,7 +79,7 @@
 
 <div class="container">
 
-  <div class="row layout">
+  <div class="row layout" ng-if="showLayout()">
     <div class="jug-logo pull-right">
       <img class="img-responsive" src="images/site/logo_jug.png" alt="Nantes Java User Group">
     </div>
@@ -89,13 +89,14 @@
 
 </div><!--/.container-->
 
-<section class="layout">
+<section class="layout" ng-if="showLayout()">
     <div class="container">
-        <ng-include src="'views/templates/sponsors.html'"></ng-include>
+        <ng-include src="'views/templates/sponsors.html'" ng-if="showSponsors()"></ng-include>
+        <ng-include src="'views/templates/partners.html'"></ng-include>
     </div>
 </section>
 
-<footer class="layout">
+<footer class="layout" ng-if="showLayout()">
   <div class="subscribe">
     Pour être informé des prochaines soirées du Nantes JUG, inscrivez-vous à la
     <a href="https://groups.google.com/forum/#!forum/nantesjug" target="_blank">mailing list</a> :
