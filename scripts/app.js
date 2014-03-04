@@ -15,8 +15,20 @@ angular.module('nantesjugApp', ['ui.gravatar', 'angulartics', 'angulartics.googl
             templateUrl: 'views/event.html',
             controller: 'EventCtrl'
           })
+          .when('/events/:eventId/info', {
+            templateUrl: 'views/info/info.html',
+            controller: 'EventCtrl'
+          })
           .when('/events/:eventId/slide', {
-            templateUrl: 'views/slide.html',
+            templateUrl: 'views/info/slide.html',
+            controller: 'EventCtrl'
+          })
+          .when('/events/:eventId/mail', {
+            templateUrl: 'views/info/mail.html',
+            controller: 'EventCtrl'
+          })
+          .when('/events/:eventId/affiche', {
+            templateUrl: 'views/info/affiche.html',
             controller: 'EventCtrl'
           })
           .when('/speakers', {

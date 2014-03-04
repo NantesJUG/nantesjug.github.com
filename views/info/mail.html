@@ -1,0 +1,96 @@
+<div class="row" ng-if="event">
+  <div class="col-md-12">
+    <div class="well">
+      <div class="row">
+        <div class="col-md-7 jug-short-description">
+
+          <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
+
+          <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à {{event.time}}h</h2>
+
+          <span class="inscription">
+            <span ng-if="!event.register && event.date >= today" >&gt;&gt;&gt; Lien d'inscription à venir (restez connecté avec la <a href="https://groups.google.com/forum/#!forum/nantesjug" target="_blank">mailing list</a>)</span>
+            <a ng-href="{{event.register}}" ng-if="event.register && event.date >= today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
+          </span>
+
+          <div class="jug-subject" ng-repeat="subject in event.subjects">
+
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+              <span class="label label_info">{{subject.type}}</span>
+            </div>
+
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+              <p>
+                <strong>{{subject.title}}</strong> {{subject.intro}}
+              </p>
+
+              <p>
+                Durée : {{subject.length}}
+              </p>
+
+              <p ng-if="subject.speakers">
+                Speakers :
+                <span ng-repeat="speaker in subject.speakers">
+                  <span ng-if="$index != 0"> - </span>
+                  <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
+                </span>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="jug-event-location">
+            <a ng-href="{{event.place.maps}}" target="_blank">
+              <img src="/images/location.png" alt="Lieu">
+              <address ng-if="event.place">
+                <strong>{{event.place.name}}</strong> <br/>
+                {{event.place.address}}
+                {{event.place.city}}
+              </address>
+              <address class="jug-event-missing" ng-if="!event.place">
+                <strong>Lieu à confirmer</strong>
+              </address>
+            </a>
+          </div>
+          <a ng-href="{{event.place.maps}}" ng-if="event.place" target="_blank">
+            <img ng-src="{{getEventPlaceUrl(event)}}" ng-class="{'hidden-xs': event.date < today, 'hidden-sm': event.date < today}" alt="{{event.place.name}}" class="img-polaroid img-responsive"/>
+          </a>
+
+          <div class="clearfix"></div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <!-- SUBJECT-->
+        <div ng-repeat="subject in event.subjects" class="col-md-12 jug-event-detail">
+          <p ng-if="subject.abstract"><strong>{{subject.title}}</strong></p>
+          <p ng-bind-html-unsafe="subject.abstract"></p>
+          <p ng-if="subject.speakers">
+            Speakers :
+                <span ng-repeat="speaker in subject.speakers">
+                  <span ng-if="$index != 0"> - </span>
+                  <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
+                </span>
+          </p>
+          <!-- DOCS -->
+          <p ng-if="subject.docs">
+            <span ng-repeat="doc in subject.docs">
+              <span ng-if="$index != 0"> - </span>
+              <a ng-href="{{doc.url}}" title="{{doc.name}}" target="_blank">
+                {{doc.name}}
+                <span ng-if="doc.type == 'slideshare'" class="doc doc-slideshare" data-toggle="tooltip" title="{{doc.name}}"></span>
+                <span ng-if="doc.type == 'slides'" class="doc doc-slides" data-toggle="tooltip" title="{{doc.name}}"></span>
+                <span ng-if="doc.type == 'github'" class="doc doc-github" data-toggle="tooltip" title="{{doc.name}}"></span>
+              </a>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <a class="inscription" ng-href="{{event.register}}" ng-if="event.register && event.date >= today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
+    </div>
+  </div>
+</div>
