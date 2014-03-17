@@ -18,9 +18,9 @@ var njEvents = [
                   '<p>Il vous est donc désormais possible de rassurer vos DSI en argumentant que vous n\'allez pas coder votre front en JS, que vous allez utiliser un langage "réellement" typé [ressemblant à java] et qu\'en plus vous aurez les fonctionnalités d\'Angular (2-way binding, filtres...)! Ce concurrent c\'est AngularDart qui est, en réalité, plus qu\'un simple portage d\'AngularJS pour Dart.</p>' +
                   '<p>Ce quickie a pour but de vous présenter rapidement comment, lorsque Dart rencontre Angular, les choses peuvent devenir rapidement plaisantes et puissantes.</p>',
         docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
+          name: 'Les sources du projet Angular Dart',
+          url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
+          type: 'github'
         }]
       },
       {
@@ -67,9 +67,9 @@ var njEvents = [
             '</ul>' +
             '</p>',
         docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
+          name: 'La vidéo de la soirée',
+          url: 'http://youtu.be/Rgbcjb_rVIM',
+          type: 'youtube'
         }]
       },
       {
@@ -82,9 +82,9 @@ var njEvents = [
             '<p>Dans cette conférence vous verrez comment il devient enfin intéressant d\'écrire de la documentation technique en équipe grâce à la mise en oeuvre des technologies Java EE 7 / HTML 5 et Asciidoctor (+ du AngularJS). Cet ensemble de technologie sera utilisé pour créer un éditeur de travail collaboratif en temps réel. En tant que spectateur actif, vous pourrez participer à la démonstration avec d\'autres membres de l\'assemblée.</p>',
         speakers: ['maxime_greau'],
         docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
+          name: 'La vidéo de la soirée',
+          url: 'http://youtu.be/2XJo3UmT80U',
+          type: 'youtube'
         }]
       }
     ]

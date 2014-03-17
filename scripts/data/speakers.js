@@ -572,7 +572,7 @@ var njSpeakers = [
     photo: null,
     twitter: 'preliquet',
     gplus:   null,
-    github: null,
+    github: 'PierreReliquet',
     website: null,
     email: 'pierre.reliquet@gmail.com '
   }
