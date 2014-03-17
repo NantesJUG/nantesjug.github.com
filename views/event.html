@@ -97,9 +97,7 @@
               <span ng-if="$index != 0"> - </span>
               <a ng-href="{{doc.url}}" title="{{doc.name}}" target="_blank">
                 {{doc.name}}
-                <span ng-if="doc.type == 'slideshare'" class="doc doc-slideshare" data-toggle="tooltip" title="{{doc.name}}"></span>
-                <span ng-if="doc.type == 'slides'" class="doc doc-slides" data-toggle="tooltip" title="{{doc.name}}"></span>
-                <span ng-if="doc.type == 'github'" class="doc doc-github" data-toggle="tooltip" title="{{doc.name}}"></span>
+                <span ng-class="'doc-' + doc.type" class="doc" data-toggle="tooltip" title="{{doc.name}}"></span>
               </a>
             </span>
           </p>
