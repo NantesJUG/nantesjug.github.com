@@ -1,60 +1,70 @@
 'use strict';
 
-angular.module('nantesjugApp', ['ui.gravatar', 'angulartics', 'angulartics.google.analytics'])
-    .config(function ($routeProvider) {
-      $routeProvider
-          .when('/', {
+angular.module('nantesjugApp', ['ui.router', 'ui.gravatar', 'angulartics', 'angulartics.google.analytics'])
+    .config(function ($stateProvider, $urlRouterProvider) {
+
+      $stateProvider
+          .state('home', {
+            url: '/',
             templateUrl: 'views/main.html',
             controller: 'MainCtrl'
           })
-          .when('/events', {
+          .state('events', {
+            url: '/events',
             templateUrl: 'views/events.html',
             controller: 'EventsCtrl'
           })
-          .when('/events/:eventId', {
+          .state('event', {
+            url: '/events/:eventId',
             templateUrl: 'views/event.html',
             controller: 'EventCtrl'
           })
-          .when('/events/:eventId/info', {
+          .state('event_info', {
+            url: '/events/:eventId/info',
             templateUrl: 'views/info/info.html',
             controller: 'EventCtrl'
           })
-          .when('/events/:eventId/slide', {
+          .state('event_slide', {
+            url: '/events/:eventId/slide',
             templateUrl: 'views/info/slide.html',
             controller: 'EventCtrl'
           })
-          .when('/events/:eventId/mail', {
+          .state('event_mail', {
+            url: '/events/:eventId/mail',
             templateUrl: 'views/info/mail.html',
             controller: 'EventCtrl'
           })
-          .when('/events/:eventId/affiche', {
+          .state('event_affiche', {
+            url: '/events/:eventId/affiche',
             templateUrl: 'views/info/affiche.html',
             controller: 'EventCtrl'
           })
-          .when('/speakers', {
+          .state('speakers', {
+            url: '/speakers',
             templateUrl: 'views/speakers.html',
             controller: 'SpeakersCtrl'
           })
-          .when('/speakers/:speakerId', {
+          .state('speaker', {
+            url: '/speakers/:speakerId',
             templateUrl: 'views/speaker.html',
             controller: 'SpeakerCtrl'
           })
-          .when('/sponsors', {
+          .state('sponsors', {
+            url: '/sponsors',
             templateUrl: 'views/sponsors.html'
           })
-          .when('/infos', {
+          .state('infos', {
+            url: '/infos',
             templateUrl: 'views/infos.html'
           })
-          .when('/devoxx4kids', {
-            redirectTo: '/specials/devoxx4kids'
-          })
-          .when('/specials/devoxx4kids', {
+          .state('specials_devoxx4kids', {
+            url: '/specials/devoxx4kids',
             templateUrl: 'views/specials/devoxx4kids.html'
           })
-          .when('/specials/devparty', {
+          .state('specials_devparty', {
+            url: '/specials/devparty',
             templateUrl: 'views/specials/devparty.html'
-          })
-          .otherwise({
-            redirectTo: '/'
           });
+      $urlRouterProvider.when('/devoxx4kids', '/specials/devoxx4kids');
+      $urlRouterProvider.otherwise('/');
     });
