@@ -71,6 +71,12 @@
             <li ng-class="{ active: urlIs('/specials/devparty')}"><a ng-href="#/specials/devparty">DevParty</a></li>
           </ul>
         </li>
+      <li ng-class="{ active: urlStartsWith('/tools')}" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown">Outils <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li ng-class="{ active: urlIs('/tools/draw')}"><a ng-href="#/tools/draw">Tirage au sort</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
 

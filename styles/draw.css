@@ -1,0 +1,37 @@
+.drawLists{
+    margin-bottom: 20px;
+}
+.editable{
+    min-height: 100px;
+    width: 100%;
+}
+.editable-alert{
+    color: red;
+    display: block;
+    margin-top: -20px;
+}
+.board-what{
+    padding: 10px 0 0 0;
+}
+.board-value{
+    color: rgb(66, 139, 25);
+    height: 32px;
+    overflow: hidden;
+}
+.board-value.board-who-canceled   {
+    color: rgb(160, 52, 52);
+}
+.board .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.draw-buttons button {
+    margin-bottom: 5px;
+}
+
+/* xs */
+@media (max-width: 767px) {
+    .draw-buttons {
+        text-align: center;
+    }
+}

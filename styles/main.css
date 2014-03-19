@@ -51,7 +51,13 @@ a {
   color: #ef2b35;
   text-decoration: none;
 }
-
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav>li>a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
 .hide-layout .layout, .hide-layout .addthis-smartlayers {
     display: none;
 }
