@@ -38,6 +38,8 @@
     "njSpeakers": false,
     "njPlaces": false,
     "nj": false,
-    "_": false
+    "_": false,
+    "$": false,
+    "DepartureBoard": false
   }
 }
