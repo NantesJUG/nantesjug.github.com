@@ -58,7 +58,7 @@ a {
         padding-right: 5px;
     }
 }
-.hide-layout .layout, .hide-layout .addthis-smartlayers {
+.hide-layout .layout, .hide-layout {
     display: none;
 }
 
