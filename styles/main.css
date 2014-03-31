@@ -185,6 +185,13 @@ section h1, .sponsors-page h1 {
     display: block;
 }
 
+footer .line2 {
+    line-height: 50px;
+}
+.coffee-nantes {
+    height: 50px;
+}
+
 /* xs */
 @media (max-width: 767px) {
   .sponsors img {
@@ -245,6 +252,12 @@ section h1, .sponsors-page h1 {
   .slide .sponsors-silver img, .slide .partners img {
     width: 70px;
   }
+  footer .twitter {
+    text-align: right;
+  }
+  footer .coffee{
+    text-align: left;
+  }
 }
 /* lg */
 @media (min-width: 1200px) {
@@ -270,6 +283,12 @@ section h1, .sponsors-page h1 {
   }
   .slide .sponsors-silver img, .slide .partners img {
     width: 100px;
+  }
+  footer .twitter {
+    text-align: right;
+  }
+  footer .coffee{
+    text-align: left;
   }
 }
 /*****LAYOUT*****/
