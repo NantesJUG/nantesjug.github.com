@@ -6,7 +6,7 @@ var njEvents = [
     date: new Date(2014, 3, 14),//month begin at 0
     time: '19',
     register: 'http://guestli.st/245676',
-    place: null,
+    place: 'epitech',
     subjects: [
       {
         title: 'Write Java Apps Faster Using SaaS Developer Environments',
