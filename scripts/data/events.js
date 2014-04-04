@@ -1,6 +1,50 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_04_14',
+    title: 'Soirée Tools: Developper Efficacement',
+    date: new Date(2014, 3, 14),//month begin at 0
+    time: '19',
+    register: 'http://guestli.st/245676',
+    place: null,
+    subjects: [
+      {
+        title: 'Write Java Apps Faster Using SaaS Developer Environments',
+        length: '45 min',
+        type: 'talk',
+        intro: null,
+        speakers: ['tyler_jewell', 'stevan_lemeur'],
+        abstract: "<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p> "+
+				  "<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p> "+
+				  "<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p> "+
+				  "<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p> " ,
+        docs: [{
+          // name: 'Les sources du projet Angular Dart',
+          // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
+          // type: 'github'
+        }]
+      },
+      {
+        title: 'Faites un « départ lancé » sur les technos Angular JS, Spring MVC, JPA, REST/HATEOAS',
+        length: '1 h 00',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Présentation du principe de « Development Accelerator » avec un générateur de code simple et pragmatique.</p>"+
+			   	  "<p>Démos :  génération de deux types d’applications immédiatement utilisables :"+
+				  "<ul>"+
+				  "  <li>services RESTful avec Spring Data Rest / HATEOAS</li>"+
+				  "  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>"+
+				  "<ul></p>",		
+        speakers: ['laurent_guerin', 'benoit_wilcox', 'ludovic_chaboud' ],
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      }
+    ]
+  },
+  {
     id: '2014_03_17',
     title: 'Du Legacy Au Cloud en Moins d\'Une Heure',
     date: new Date(2014, 2, 17),//month begin at 0

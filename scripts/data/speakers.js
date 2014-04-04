@@ -575,7 +575,83 @@ var njSpeakers = [
     github: 'PierreReliquet',
     website: null,
     email: 'pierre.reliquet@gmail.com '
-  }
+ },
+ {
+    id: 'tyler_jewell',
+    name: 'Tyler Jewell',
+    bio: '<p>Tyler Jewell is CEO of Codenvy, the cloud development environment, and a venture partner with Toba Capital where he focuses on investments on businesses related to middleware and application development. Tyler sits on the board of WSO2 and has made investments in ZeroTurnaround, InfoQ and AppHarbor.</p>',
+    gravatar: null,
+    photo: 'jpeg',
+    twitter: 'TylerJewell',
+    gplus:   null,
+    github: 'TylerJewell',
+    website: null,
+    email: 'tyler@codenvy.com'
+},
+ {
+    id: 'stevan_lemeur',
+    name: 'Stevan Lemeur',
+    bio: '<p>Stévan Le Meur is a Product Manager at Codenvy. With a background as a developer, he is driven by the belief that great applications should be built in exceptional development environments. He brings this passion to his work on the Codenvy IDE, where his attention to detail is put to good use in creating great developer experiences.</p>',
+    gravatar: null,
+    photo: 'jpeg',
+    twitter: 'stevanLM',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'stevan.lemeur@gmail.com'
+},
+ {
+    id: 'laurent_guerin',
+    name: 'Laurent Guerin',
+    bio: "Specialized in Java and Web technologies with over 20 years of experience in the areas of databases, object development, code generation and project management."+
+		 "<ul>"+
+		 "<li>Senior Consultant</li>"+
+		 "<li>Java expert</li>"+
+		 "<li>Skill group manager</li>"+
+		 "<li>Technical evangelist</li>"+
+		 "<li>Part time professor ( University of Nantes )</li>"+
+		 "<li>OW2 member</li>"+
+		 "<li>Telosys project leader</li>"+
+		 "<li>Lecturer (Devoxx, MDDay, Open World Forum, … )</li>"+
+		 "<li>Certified Scrum Master</li>"+
+		 "</ul>",
+    gravatar: null,
+    photo: 'png',
+    twitter: 'ltguerin',
+    gplus:   null,
+    github: 'l-gu',
+    website: 'http://labs.sogeti.com/author/laurent-guerin/‎',
+    email: 'laurent.guerin@sogeti.com'
+},
+ {
+    id: 'benoit_wilcox',
+    name: 'Benoit Wilcox',
+    bio:  "<p>Benoit Wilcox has been working in IT for 12 years, occupying different positions such as developer, integrator, technical manager and architect, dealing with a large range of technologies which has given him a rich and heterogeneous culture (Java, .Net, functional languages, scrum master, SIG).</p> "+
+	 	  "<p>For 3 years he’s been focused on Agile methods integration in companies, aiming at accompanying people and projects all along their transformation towards agile methods and to ensure the agile architecture of a project.</p> "+
+		  "<p>Besides his role as an applicative architect, his expertise also reaches the Scrum and XP methods and, in more technical terms, all developments lead by tests and behaviors (TDD, BDD) as well as ongoing integration.</p> "+
+		  "<p>Benoit is passionate about his work. He contributes to several projects i.e., Telosys Tools, Virtual Brown Paper and runs a personal blog around development and agile.</p> ",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'WilcoxBenoit‎',
+    gplus:   null,
+    github: 'bewilcox',
+    website: 'http://labs.sogeti.com/benoit-wilcox/',
+    email: 'benoit.wilcox@sogeti.com'
+},
+ {
+    id: 'ludovic_chaboud',
+    name: 'Ludovic Chaboud',
+    bio: '<p>Architecte Java/Web chez Sogeti, commiter sur le projet Telosys Tools pour la partie AngularJS, Spring MVC, JPA</p>',
+    gravatar: 'ludo1026@free.fr',
+    photo: null,
+    twitter: 'ludovicchaboud',
+    gplus:   null,
+    github: 'ludo1026',
+    website: 'http://blog2dev.blogspot.fr/',
+    email: 'ludo1026@free.fr'
+}
+
 ];
+
 
 //Test gravatar : http://www.neoseeker.com/tools/gravatar_tester.php
