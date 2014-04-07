@@ -590,7 +590,7 @@ var njSpeakers = [
 },
  {
     id: 'stevan_lemeur',
-    name: 'Stevan Lemeur',
+    name: 'Stévan Le Meur',
     bio: '<p>Stévan Le Meur is a Product Manager at Codenvy. With a background as a developer, he is driven by the belief that great applications should be built in exceptional development environments. He brings this passion to his work on the Codenvy IDE, where his attention to detail is put to good use in creating great developer experiences.</p>',
     gravatar: null,
     photo: 'jpeg',
@@ -632,7 +632,7 @@ var njSpeakers = [
 		  "<p>Benoit is passionate about his work. He contributes to several projects i.e., Telosys Tools, Virtual Brown Paper and runs a personal blog around development and agile.</p> ",
     gravatar: null,
     photo: 'jpg',
-    twitter: 'WilcoxBenoit‎',
+    twitter: 'WilcoxBenoit',
     gplus:   null,
     github: 'bewilcox',
     website: 'http://labs.sogeti.com/benoit-wilcox/',
