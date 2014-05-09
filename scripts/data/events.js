@@ -1,8 +1,46 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_05_20',
+    title: 'Devoxx Fr & Gradle',
+    date: new Date(2014, 4, 20),//month begin at 0
+    time: '19',
+    register: null,//'http://guestli.st/245676',
+    place: 'epsi',
+    subjects: [
+      {
+        title: 'Devoxx France 2014',
+        length: '30 min',
+        type: 'quickie',
+        intro: null,
+        speakers: [],
+        abstract: "<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.'</p> " ,
+        docs: [{
+          // name: 'Les sources du projet Angular Dart',
+          // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
+          // type: 'github'
+        }]
+      },
+      {
+        title: 'Gradle ne fait pas que remplacer Maven',
+        length: '1 h 30',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Il faut que vous le sachiez, Gradle ne fait pas que remplacer Maven. Il répond à d\'autres problématiques : conventions d\'entreprise, intégration continue, DevOps, parallélisme, gestion avancée des dépendances, " +
+          "variantes de build déclarative, compilation incrémentale, projets polyglottes, artéfacts multiples...</p>"+
+            "<p>Dans cette session, vous apprendrez pourquoi on ne peut pas réduire Gradle à un Maven sans XML ou un Ant sous stéroïdes. Vous verrez qu\'écrire une build sera plus jamais une punition. Pire, ça pourrait devenir un plaisir !",
+        speakers: ['cedric_champeau' ],
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      }
+    ]
+  },
+  {
     id: '2014_04_14',
-    title: 'Soirée Tools: Developper Efficacement',
+    title: 'Soirée Tools : Developper Efficacement',
     date: new Date(2014, 3, 14),//month begin at 0
     time: '19',
     register: 'http://guestli.st/245676',
@@ -15,9 +53,9 @@ var njEvents = [
         intro: null,
         speakers: ['tyler_jewell', 'stevan_lemeur'],
         abstract: "<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p> "+
-				  "<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p> "+
-				  "<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p> "+
-				  "<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p> " ,
+          "<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p> "+
+          "<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p> "+
+          "<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p> " ,
         docs: [{
           // name: 'Les sources du projet Angular Dart',
           // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',

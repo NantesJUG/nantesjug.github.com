@@ -209,13 +209,13 @@ var njSpeakers = [
   {
     id: 'cedric_champeau',
     name: 'Cédric Champeau',
-    bio: 'Cédric Champeau est senior software developer chez SpringSource, une division de VMware, où il travaille sur le développement du langage Groovy. Avant de rejoindre SpringSource, Cédric a travaillé 10 ans à Nantes chez un éditeur logiciel, e-manation/Lingway au développement de solutions de traitement automatique de la langue. Il y développe notamment un moteur d\'extraction de données textuelles à destination de linguistes. C\'est dans ce cadre qu\'il découvre le langage Groovy et commence à participer, d\'abord en tant que contributeur puis committer. Titulaire d\'un diplôme d\'ingénieur en informatique de Polytech\'Nantes, il est avant tout un développeur passionné depuis ses premières expériences de programmation sur Amstrad PC-1512 puis CPC 6128...',
+    bio: 'Cédric Champeau est committer sur Groovy Core. Il a rejoint Pivotal afin de participer au développement du langage après avoir passé plusieurs années à l\'exploiter de manière industrielle chez un éditeur logiciel, Lingway, dans de multiples contextes (TALN, DSL, scripting, workflows, ...). Il a notamment développé le type checker et le compilateur statique qui ont fait leur apparition dans Groovy 2.',
     gravatar: 'cedric.champeau@gmail.com',
     photo: null,
-    twitter: null,
+    twitter: 'CedricChampeau',
     gplus: null,
     github: null,
-    website: null,
+    website: 'http://melix.github.io/blog',
     email: 'cedric.champeau@gmail.com'
   },
   {
