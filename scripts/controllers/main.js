@@ -19,7 +19,7 @@ angular.module('nantesjugApp')
       $scope.urlMatch = urlMatch;
 
       $scope.showLayout = function() {
-        return !urlMatch('/events/.*/slide');
+        return !urlMatch('/events/.*/slide') && !urlMatch('/events/.*/mail');
       };
 
       $scope.showSponsors = function() {

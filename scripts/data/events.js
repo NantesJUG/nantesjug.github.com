@@ -26,10 +26,10 @@ var njEvents = [
         length: '1 h 30',
         type: 'talk',
         intro: null,
-        abstract: "<p>Il faut que vous le sachiez, Gradle ne fait pas que remplacer Maven. Il répond à d\'autres problématiques : conventions d\'entreprise, intégration continue, DevOps, parallélisme, gestion avancée des dépendances, " +
-          "variantes de build déclarative, compilation incrémentale, projets polyglottes, artéfacts multiples...</p>"+
-            "<p>Dans cette session, vous apprendrez pourquoi on ne peut pas réduire Gradle à un Maven sans XML ou un Ant sous stéroïdes. Vous verrez qu\'écrire une build sera plus jamais une punition. Pire, ça pourrait devenir un plaisir !",
-        speakers: ['cedric_champeau' ],
+        abstract: '<p>Il faut que vous le sachiez, Gradle ne fait pas que remplacer Maven. Il répond à d\'autres problématiques : conventions d\'entreprise, intégration continue, DevOps, parallélisme, gestion avancée des dépendances, ' +
+          'variantes de build déclarative, compilation incrémentale, projets polyglottes, artéfacts multiples...</p>' +
+            '<p>Dans cette session, vous apprendrez pourquoi on ne peut pas réduire Gradle à un Maven sans XML ou un Ant sous stéroïdes. Vous verrez qu\'écrire une build sera plus jamais une punition. Pire, ça pourrait devenir un plaisir !',
+        speakers: ['cedric_champeau'],
         docs: [{
 //          name: '',
 //          url: '',
@@ -52,10 +52,10 @@ var njEvents = [
         type: 'talk',
         intro: null,
         speakers: ['tyler_jewell', 'stevan_lemeur'],
-        abstract: "<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p> "+
-          "<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p> "+
-          "<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p> "+
-          "<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p> " ,
+        abstract: '<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p>' +
+          '<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p>' +
+          '<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p>' +
+          '<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p>' ,
         docs: [{
           // name: 'Les sources du projet Angular Dart',
           // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
@@ -67,12 +67,12 @@ var njEvents = [
         length: '1 h 00',
         type: 'talk',
         intro: null,
-        abstract: "<p>Présentation du principe de « Development Accelerator » avec un générateur de code simple et pragmatique.</p>"+
-			   	  "<p>Démos :  génération de deux types d’applications immédiatement utilisables :"+
-				  "<ul>"+
-				  "  <li>services RESTful avec Spring Data Rest / HATEOAS</li>"+
-				  "  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>"+
-				  "<ul></p>",		
+        abstract: '<p>Présentation du principe de « Development Accelerator » avec un générateur de code simple et pragmatique.</p>'+
+            '<p>Démos :  génération de deux types d’applications immédiatement utilisables :'+
+          '<ul>'+
+          '  <li>services RESTful avec Spring Data Rest / HATEOAS</li>'+
+          '  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>'+
+          '<ul></p>',   
         speakers: ['laurent_guerin', 'benoit_wilcox', 'ludovic_chaboud' ],
         docs: [{
 //          name: '',
