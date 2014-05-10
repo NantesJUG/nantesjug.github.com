@@ -649,6 +649,31 @@ var njSpeakers = [
     github: 'ludo1026',
     website: 'http://blog2dev.blogspot.fr/',
     email: 'ludo1026@free.fr'
+},
+ {
+    id: 'thibaud_raison',
+    name: 'Thibaud Raison',
+    bio: '<p>Thibaud est freelance depuis 2014.</p>' +
+        'Depuis 20 ans, développeur et architecte logiciel (Java, Oracle), dans le domaine de la monétique, du transport, dans l\'édition de logiciels, en R&D, ... à Grenoble, Valence ou Nantes.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'ThibaudRaison',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'thibaud.raison@gmail.com'
+},
+ {
+    id: 'pierre_cosson',
+    name: 'Pierre Cosson',
+    bio: '<p>Pierre Cosson est développeur, chef de projet technique et formateur chez Kosmos éditeur d\'une solution CMS spécialisé dans l\’Éducation (Universités et Grandes Écoles).</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'pierre.cosson@gmail.com'
 }
 
 ];

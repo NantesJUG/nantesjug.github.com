@@ -13,7 +13,7 @@ var njEvents = [
         length: '30 min',
         type: 'quickie',
         intro: null,
-        speakers: [],
+        speakers: ['thibaud_raison', 'pierre_cosson'],
         abstract: "<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.'</p> " ,
         docs: [{
           // name: 'Les sources du projet Angular Dart',
