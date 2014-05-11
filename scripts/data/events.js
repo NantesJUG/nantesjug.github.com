@@ -5,7 +5,7 @@ var njEvents = [
     title: 'Devoxx Fr & Gradle',
     date: new Date(2014, 4, 20),//month begin at 0
     time: '19',
-    register: null,//'http://guestli.st/245676',
+    register: 'http://guestli.st/254883',
     place: 'epsi',
     subjects: [
       {
