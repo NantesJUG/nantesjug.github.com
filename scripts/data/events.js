@@ -14,7 +14,7 @@ var njEvents = [
         type: 'quickie',
         intro: null,
         speakers: ['thibaud_raison', 'pierre_cosson'],
-        abstract: "<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.'</p> " ,
+        abstract: "<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> " ,
         docs: [{
           // name: 'Les sources du projet Angular Dart',
           // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
