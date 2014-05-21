@@ -16,9 +16,13 @@ var njEvents = [
         speakers: ['thibaud_raison', 'pierre_cosson'],
         abstract: "<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> " ,
         docs: [{
-          // name: 'Les sources du projet Angular Dart',
-          // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
-          // type: 'github'
+          name: 'Support de présentation (PDF)',
+          url: '/ressources/PRES_CR_Devoxx_France_2014.pdf',
+          type: 'slides'
+        },{
+          name: 'Ensemble de liens vers des Slideshare/Git/Blog Devoxx 2014 (PDF)',
+          url: '/ressources/SRC_CR-Devoxx2014.pdf',
+          //type: 'src'
         }]
       },
       {
