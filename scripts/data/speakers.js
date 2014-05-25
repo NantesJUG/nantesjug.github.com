@@ -85,6 +85,30 @@ var njSpeakers = [
     email: 'contact@bsimard.com'
   },
   {
+    id: 'damien_raude_morvan',
+    name: 'Damien Raude-Morvan',
+    bio: 'Damien occupe le poste de responsable technique au sein de la startup nantaise <a href="http://www.dictanova.com/">Dictanova</a>. Il a 10 ans d’expérience dans le développement de logiciels informatiques complexes. Il a travaillé pour le compte de plusieurs grandes entreprises françaises dans le cadre de missions d’expertises, d’encadrement d’équipes de développement ou d’architecture logicielle. <p>Il est également impliqué dans la communauté des logiciels libres, notamment via le projet <a href="https://www.debian.org/">Debian GNU/Linux</a> et intervient en tant qu’enseignant vacataire à l’<a href="http://www.sciences-techniques.univ-nantes.fr/">Université de Nantes</a></p>',
+    gravatar: 'drazzib@drazzib.com',
+    photo: null,
+    twitter: 'drazzib',
+    gplus: 'DamienRaudeMorvan',
+    github: 'drazzib',
+    website: 'http://www.drazzib.com',
+    email: 'damien@raude-morvan.com'
+  },
+  {
+    id: 'cedric_fauvet',
+    name: 'Cédric Fauvet',
+    bio: 'Pendant plus de 8 ans, Cédric a travaillé en tant que consultant expert d’intégration de données (ETI Extract, Datastage, Talend, PDI...). Il a ensuite travaillé pour la startup française Talend en tant que consultant avant-vente, puis pour la startup américaine Pentaho en tant que responsable avant-vente France pour y être ensuite promu Business Developer du bureau Français. Aujourd’hui en poste chez Neotechnology, il organise le GraphDatabase meetup de Paris.',
+    gravatar: null,
+    photo: null,
+    twitter: 'CedricFauvet',
+    gplus: null,
+    github: null,
+    website: 'http://www.neotechnology.com/',
+    email: 'cedric.fauvet@neotechnology.com'
+  },
+  {
     id: 'christophe_jollivet',
     name: 'Christophe Jollivet',
     bio: 'Développeur chez Apside et leader du JUG de Tours, Christophe Jollivet était, comme beaucoup d\'entre nous, très réfractaire à JavaScript et faisait tout pour l\'éviter. Et pourtant, après se être décidé à re-apprendre le langage et comprendre l\'écosystème JavaScript actuel, il passe une bonne partie de son temps personnel à coder en JavaScript.',
