@@ -359,7 +359,12 @@ var njEvents = [
         abstract: '<p>Prendre un tableau et un papier pour modéliser ses données, c\'est ce que nous faisons régulièrement. Cependant à chaque fois nous devons traduire notre modèle en MCD pour l\'insérer dans un SGBD. La promesse des bases de données orientées  graphe c\'est d\'être veleda ready ! Plus besoin de convertir notre modèle.</p>' +
             '<p>Lors de cette présentation nous vous parlerons de Neo4j, une base données NoSQL orientée graph écrite en java, ainsi que des concepts qui gravitent autour.</p>' +
             '<p>On vous montrera comment réaliser un système de recommandation simple et efficace basé sur les données de github.</p>',
-        speakers: ['benoit_simard']
+        speakers: ['benoit_simard', 'damien_raude_morvan', 'cedric_fauvet'],
+        docs: [{
+          name: 'Support de présentation (HTML)',
+          url: 'http://hype.logisima.com/prez/view/5561322/Neo4j%20-%20JUG%20Nantes',
+          type: 'slides'
+        }]
       }
     ]
   },
