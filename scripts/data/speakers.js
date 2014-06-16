@@ -87,7 +87,7 @@ var njSpeakers = [
   {
     id: 'damien_raude_morvan',
     name: 'Damien Raude-Morvan',
-    bio: 'Damien occupe le poste de responsable technique au sein de la startup nantaise <a href="http://www.dictanova.com/">Dictanova</a>. Il a 10 ans d’expérience dans le développement de logiciels informatiques complexes. Il a travaillé pour le compte de plusieurs grandes entreprises françaises dans le cadre de missions d’expertises, d’encadrement d’équipes de développement ou d’architecture logicielle. <p>Il est également impliqué dans la communauté des logiciels libres, notamment via le projet <a href="https://www.debian.org/">Debian GNU/Linux</a> et intervient en tant qu’enseignant vacataire à l’<a href="http://www.sciences-techniques.univ-nantes.fr/">Université de Nantes</a></p>',
+    bio: 'Damien occupe le poste de responsable technique au sein de la startup nantaise <a href="http://www.dictanova.com/" target="_blank">Dictanova</a>. Il a 10 ans d’expérience dans le développement de logiciels informatiques complexes. Il a travaillé pour le compte de plusieurs grandes entreprises françaises dans le cadre de missions d’expertises, d’encadrement d’équipes de développement ou d’architecture logicielle. <p>Il est également impliqué dans la communauté des logiciels libres, notamment via le projet <a href="https://www.debian.org/" target="_blank">Debian GNU/Linux</a> et intervient en tant qu’enseignant vacataire à l’<a href="http://www.sciences-techniques.univ-nantes.fr/" target="_blank">Université de Nantes</a></p>',
     gravatar: 'drazzib@drazzib.com',
     photo: null,
     twitter: 'drazzib',
