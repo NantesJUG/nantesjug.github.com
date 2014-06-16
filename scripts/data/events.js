@@ -1,6 +1,43 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_06_30',
+    title: 'Flyway & Patterns de cache  ',
+    date: new Date(2014, 5, 30),//month begin at 0
+    time: '19',
+    register: null, //'http://guestli.st/???',
+    place: 'epitech',
+    subjects: [
+      {
+        title: 'Comment planner avec Flyway',
+        length: '30 min',
+        type: 'quickie',
+        intro: null,
+        speakers: ['ludovic_praud'],
+        abstract: '<p>Pour avoir l\'esprit tranquille avec vos migrations SQL en DEV ou en PROD, voici un petit retour d\'expérience de 2 ans d\'utilisation quotidienne de Flyway.</p> ',
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      },
+      {
+        title: 'Les Patterns de Cache',
+        length: '1 h 30',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Comment diminuer le temps de traitement d’un batch ? Le temps d’exécution d\'une requête ? Le cache est un des outils du développeur pour résoudre ses problématiques quotidiennes et les concepts qui gravitent autour sont nombreux.</p>' +
+            '<p>Si les mots Cache Aside, Write-Behind, Read-Through ne vous sont pas familiers, cela fait pourtant parti des architectures qu’il est facile à mettre en place et qui dans certains contextes peuvent diminuer de manière drastique la durée d’un batch ou d’une requête.</p>' +
+            '<p>Nous aborderons également les différents moyens de scaler horizontalement et verticalement le cache (réplication, miroir, partitionnement) en nous appuyant sur différentes librairies existantes (GemFire, Coherence, Terracotta, Ehcache, Infinispan, Hazelcast) mais également NoSQL et plus généralement les In Memory Data Grid (IMDG)</p>',
+        speakers: ['mathilde_lemee'],
+        docs: [{
+//          name: '',
+//          url: '',
+//          type: ''
+        }]
+      }
+    ]
+  },{
     id: '2014_05_20',
     title: 'Devoxx Fr & Gradle',
     date: new Date(2014, 4, 20),//month begin at 0

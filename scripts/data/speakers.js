@@ -698,6 +698,36 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'pierre.cosson@gmail.com'
+},
+{
+    id: 'ludovic_praud',
+    name: 'Ludovic Praud',
+    bio: '<p>Ludovic a commencé sur Paris pour le compte de grandes usines ;-) (Energie et banque).</p>' +
+        '<p>Aujourd\'hui, il se qualifierait d\'artisan Java/Web.</p>' +
+        '<p>Il développe à Nantes depuis 2008 des applications Web pour des startups assez différentes : vote électronique, e-commerce, SaaS de paiement électronique et application WebTV.</p>' +
+        '<p>Ludovic s\'intéresse aux projets Guava, Play et Spring en contribuant de temps en temps à leur bug tracker et à leur mailing list :-p</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'ludovic.praud@gmail.com'
+},
+{
+    id: 'mathilde_lemee',
+    name: 'Mathilde Lemée',
+    bio: '<p>Après 2 ans à travailler pour Terracotta, Mathilde Lemée est désormais consultante freelance.</p>' +
+        '<p>Elle a cofondé les <a href="http://www.duchess-france.org/" target="_blank">Duchess France</a> pour connecter et rendre visible les femmes travaillant dans le monde Java. En 2012 elle a organisé de nombreux évènements (Hadoop, Mahout, Mockito, Cache …). Elle blog sur <a href="http://java-freelance.fr" target="_blank">java-freelance.fr</a> sur les performances, les meilleures pratiques et les tests.</p>' +
+        '<p>Elle contribue régulièrement à des projets open source et a créé FluentLenium, un surcouche de Selenium pour fournir une api fluide comme le font des projets comme Play!2.</p>' +
+        '<p>Elle intervient aussi régulièrement dans des conférences Java en Europe (Paris JUG, Devoxx France, Mix-it, Softshake) et édite un jeux mobile éducatif (<a href="http://aetys.fr" target="_blank">Aetys.fr</a>) pour IPad/iPhone et Android.</p>',
+    gravatar: 'mathilde.lemee@yahoo.fr',
+    photo: null,
+    twitter: 'MathildeLemee',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'mathilde.lemee@yahoo.fr'
 }
 
 ];
