@@ -16,13 +16,13 @@ var njEvents = [
         speakers: ['thibaud_raison', 'pierre_cosson'],
         abstract: '<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> ',
         docs: [{
-          name: 'Support de présentation (PDF)',
-          url: '/ressources/PRES_CR_Devoxx_France_2014.pdf',
-          type: 'slides'
+          name: 'Support de présentation',
+          url: 'https://drive.google.com/file/d/0BzLO1XLmywLJS1Q4alIxeFRxTTA/edit?usp=sharing',
+          type: 'drive'
         },{
-          name: 'Ensemble de liens vers des Slideshare/Git/Blog Devoxx 2014 (PDF)',
-          url: '/ressources/SRC_CR-Devoxx2014.pdf',
-          //type: 'src'
+          name: 'Listing ressources Devoxx 2014',
+          url: 'https://drive.google.com/file/d/0BzLO1XLmywLJbWczVU55RGFFMEE/edit?usp=sharing',
+          type: 'drive'
         }]
       },
       {
