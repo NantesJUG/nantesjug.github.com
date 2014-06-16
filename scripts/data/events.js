@@ -322,7 +322,12 @@ var njEvents = [
         intro: null,
         abstract: '<p>Vous réalisez des développements web (sites, applicatifs ...) et vous cherchez à optimiser leur visibilité dans les moteurs de recherches ? Alors cette conférence s\'adresse à vous !</p>' +
             '<p>Durant 1h, nous allons dresser les grandes recommandations SEO à prendre en compte lorsque l\'on développe pour le web, les standards mais surtout les pratiques émergentes : balisage sémantique, performances, analyse des erreurs, crawl des robots ... illustrés au travers de cas pratiques. L\'objectif : vous donner les bons réflexes pour intégrer les pré-requis du SEO dès la phase de conception du projet afin de gagner en temps et donc en rentabilité.</p>',
-        speakers: ['guillaume_degre']
+        speakers: ['guillaume_degre'],
+        docs: [{
+          name: 'Support de présentation',
+          url: 'https://drive.google.com/file/d/0BzLO1XLmywLJUFUyTmtEbEpVNm8/edit?usp=sharing',
+          type: 'drive'
+        }]
       },
       {
         title: 'How to Scale?',

@@ -586,6 +586,9 @@ footer {
 .doc-slides {
   background-image: url('../images/doc/slides.png');
 }
+.doc-drive {
+  background-image: url('../images/doc/drive.png');
+}
 .doc-github {
   background-image: url('../images/doc/github.png');
 }
