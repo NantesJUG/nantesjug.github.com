@@ -14,7 +14,7 @@ var njEvents = [
         type: 'quickie',
         intro: null,
         speakers: ['thibaud_raison', 'pierre_cosson'],
-        abstract: "<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> " ,
+        abstract: '<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> ',
         docs: [{
           name: 'Support de présentation (PDF)',
           url: '/ressources/PRES_CR_Devoxx_France_2014.pdf',
@@ -76,7 +76,7 @@ var njEvents = [
           '<ul>'+
           '  <li>services RESTful avec Spring Data Rest / HATEOAS</li>'+
           '  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>'+
-          '<ul></p>',   
+          '<ul></p>',
         speakers: ['laurent_guerin', 'benoit_wilcox', 'ludovic_chaboud' ],
         docs: [{
 //          name: '',
