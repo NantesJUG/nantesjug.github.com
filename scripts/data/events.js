@@ -368,7 +368,7 @@ var njEvents = [
         docs: [{
           name: 'Support de présentation (HTML)',
           url: 'http://hype.logisima.com/prez/view/5561322/Neo4j%20-%20JUG%20Nantes',
-          type: 'slides'
+          type: 'slid-es'
         }]
       }
     ]
