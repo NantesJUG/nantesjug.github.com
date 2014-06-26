@@ -24,7 +24,7 @@
         <strong>Sujets</strong>
         <ul>
           <li ng-repeat="subject in subjects | orderBy: '!event.date'">
-            <span class="label label-info">{{subject.subject.type}}</span>
+            <span class="label label-info label-large">{{subject.subject.type}}</span>
             <a ng-href="#/events/{{subject.event.id}}">
               {{subject.event.date | date:'shortDate'}} - {{subject.subject.title}}
             </a>

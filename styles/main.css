@@ -351,12 +351,13 @@ a.navbar-brand {
 .page-header {
   border:none !important;
 }
-.label {
+.label-large {
   display: inline-block;
   font-size: 100%;
   width: 70px;
 }
-.label_info {
+
+.label-info {
   color:#fff;
   font-weight: bold;
   text-align: center;
