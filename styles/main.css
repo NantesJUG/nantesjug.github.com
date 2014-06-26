@@ -369,6 +369,11 @@ a.navbar-brand {
   width: 70px;
 }
 
+.label-time {
+    top: -2px;
+    position: relative;
+}
+
 .label-info {
   color:#fff;
   font-weight: bold;

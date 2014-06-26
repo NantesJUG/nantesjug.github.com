@@ -12,6 +12,7 @@ var njEvents = [
       {
         title: 'Comment planner avec Flyway',
         length: '30 min',
+        time: '20h',
         type: 'quickie',
         intro: null,
         speakers: ['ludovic_praud'],
@@ -25,6 +26,7 @@ var njEvents = [
       {
         title: 'Les Patterns de Cache',
         length: '1 h 30',
+        time: '20h30',
         type: 'talk',
         intro: null,
         abstract: '<p>Comment diminuer le temps de traitement d’un batch ? Le temps d’exécution d\'une requête ? Le cache est un des outils du développeur pour résoudre ses problématiques quotidiennes et les concepts qui gravitent autour sont nombreux.</p>' +

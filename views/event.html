@@ -37,6 +37,7 @@
 
             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
               <p>
+                <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
                 <strong>{{subject.title}}</strong> {{subject.intro}}
               </p>
 
@@ -82,8 +83,11 @@
       <div class="row">
         <!-- SUBJECT-->
         <div ng-repeat="subject in event.subjects" class="col-md-12 jug-event-detail">
-          <p ng-if="subject.abstract"><strong>{{subject.title}}</strong></p>
-          <p ng-bind-html-unsafe="subject.abstract"></p>
+          <p>
+              <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
+              <strong>{{subject.title}}</strong>
+          </p>
+          <p ng-if="subject.abstract" ng-bind-html-unsafe="subject.abstract"></p>
           <p ng-if="subject.speakers">
             Speakers :
                 <span ng-repeat="speaker in subject.speakers">
