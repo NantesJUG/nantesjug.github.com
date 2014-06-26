@@ -19,12 +19,24 @@ h2 {
   font-size: 18px;
   font-weight: bold;
 }
-h2 span {
-  font-size:15px;
-  display: block;
-  margin:-20px 0 0 0;
-  font-weight: normal;
+h2 span.old-time {
+  position:relative;
 }
+
+h2 span.old-time:before {
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: -2px;
+    right: -2px;
+    border-top: 2px solid red;
+    -webkit-transform:rotate(-12deg);
+    -moz-transform:rotate(-12deg);
+    -ms-transform:rotate(-12deg);
+    -o-transform:rotate(-12deg);
+    transform:rotate(-12deg);
+}
+
 h3 {
   line-height: 1;
   font-size: 15px;

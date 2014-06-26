@@ -4,7 +4,8 @@ var njEvents = [
     id: '2014_06_30',
     title: 'Flyway & Patterns de cache  ',
     date: new Date(2014, 5, 30),//month begin at 0
-    time: '19',
+    time: '20',
+    old_time: '19',
     register: 'http://guestli.st/265998',
     place: 'epitech',
     subjects: [
