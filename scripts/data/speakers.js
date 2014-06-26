@@ -728,6 +728,20 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'mathilde.lemee@yahoo.fr'
+},
+{
+    id: 'didier_deschamps',
+    name: 'Didier Deschamps',
+    bio: '<p>Didier est un footballeur puis entraîneur français de renommée internationale. Il a évolué au poste de milieu de terrain dans plusieurs grands clubs européens, notamment au FC Nantes, et en équipe de France.</p>' +
+        '<p>Après sa retraite de joueur, il va occuper la fonction d\'entraîneur de football dans différents clubs : l\'OM , l\'AS Monaco et la Juventus de Turin.</p>' +
+        '<p>Depuis le 8 juillet 2012, Didier Deschamps assume le poste de sélectionneur de l\'équipe de France.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus:   null,
+    github: null,
+    website: null,
+    email: null
 }
 
 ];

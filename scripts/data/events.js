@@ -10,6 +10,15 @@ var njEvents = [
     place: 'epitech',
     subjects: [
       {
+        title: 'France - Nigéria',
+        length: '90 min',
+        type: 'foot',
+        time: '18h',
+        intro: null,
+        speakers: ['didier_deschamps'],
+        abstract: '<p>Huitième de finale de la coupe du monde.</p> '
+      },
+      {
         title: 'Comment planner avec Flyway',
         length: '30 min',
         time: '20h',
@@ -17,11 +26,9 @@ var njEvents = [
         intro: null,
         speakers: ['ludovic_praud'],
         abstract: '<p>Pour avoir l\'esprit tranquille avec vos migrations SQL en DEV ou en PROD, voici un petit retour d\'expérience de 2 ans d\'utilisation quotidienne de Flyway.</p> ',
-        docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
-        }]
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
       },
       {
         title: 'Les Patterns de Cache',
@@ -33,11 +40,9 @@ var njEvents = [
             '<p>Si les mots Cache Aside, Write-Behind, Read-Through ne vous sont pas familiers, cela fait pourtant parti des architectures qu’il est facile à mettre en place et qui dans certains contextes peuvent diminuer de manière drastique la durée d’un batch ou d’une requête.</p>' +
             '<p>Nous aborderons également les différents moyens de scaler horizontalement et verticalement le cache (réplication, miroir, partitionnement) en nous appuyant sur différentes librairies existantes (GemFire, Coherence, Terracotta, Ehcache, Infinispan, Hazelcast) mais également NoSQL et plus généralement les In Memory Data Grid (IMDG)</p>',
         speakers: ['mathilde_lemee'],
-        docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
-        }]
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
       }
     ]
   },{
@@ -74,11 +79,9 @@ var njEvents = [
           'variantes de build déclarative, compilation incrémentale, projets polyglottes, artéfacts multiples...</p>' +
             '<p>Dans cette session, vous apprendrez pourquoi on ne peut pas réduire Gradle à un Maven sans XML ou un Ant sous stéroïdes. Vous verrez qu\'écrire une build sera plus jamais une punition. Pire, ça pourrait devenir un plaisir !',
         speakers: ['cedric_champeau'],
-        docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
-        }]
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
       }
     ]
   },
@@ -100,11 +103,9 @@ var njEvents = [
           '<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p>' +
           '<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p>' +
           '<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p>' ,
-        docs: [{
-          // name: 'Les sources du projet Angular Dart',
-          // url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
-          // type: 'github'
-        }]
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
       },
       {
         title: 'Faites un « départ lancé » sur les technos Angular JS, Spring MVC, JPA, REST/HATEOAS',
@@ -118,11 +119,9 @@ var njEvents = [
           '  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>'+
           '<ul></p>',
         speakers: ['laurent_guerin', 'benoit_wilcox', 'ludovic_chaboud' ],
-        docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
-        }]
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
       }
     ]
   },
@@ -158,11 +157,9 @@ var njEvents = [
             '<p>Nous verrons qu’il est possible de partir d’une application legacy, de lui ajouter des fonctionnalités et de la déployer en continu sur le cloud en moins d’une heure.</p>' +
             '<p>Cette session de live coding sera l’occasion de découvrir des techniques de refactoring, de développement piloté par les tests, de test et d’inspection continue. Et ce, en tentant à chaque étape de faire les choses les plus simples possibles.</p>',
         speakers: ['david_gageot'],
-        docs: [{
-//          name: '',
-//          url: '',
-//          type: ''
-        }]
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
       }
     ]
   },
