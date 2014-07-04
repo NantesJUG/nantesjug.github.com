@@ -27,7 +27,7 @@ var njEvents = [
         speakers: ['ludovic_praud'],
         abstract: '<p>Pour avoir l\'esprit tranquille avec vos migrations SQL en DEV ou en PROD, voici un petit retour d\'expérience de 2 ans d\'utilisation quotidienne de Flyway.</p> ',
         docs: [
-//          {name: '', url: '', type: ''}
+          {name: 'Support de présentation', url: 'https://drive.google.com/file/d/0B41V8oJXwyYhb1pTeHpsQzNsRmhYd3ZPMEhsVHduTm9tSXBr/edit?usp=sharing', type: 'drive'}
         ]
       },
       {
