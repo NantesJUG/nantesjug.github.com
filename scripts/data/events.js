@@ -1,6 +1,43 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_09_29',
+    title: 'Metrics & Docker  ',
+    date: new Date(2014, 8, 29),//month begin at 0
+    time: '19',
+    register: null,
+    place: 'epitech',
+    subjects: [
+      {
+        title: 'Codehale Metrics',
+        length: '30 min',
+        time: '19h',
+        type: 'quickie',
+        intro: null,
+        speakers: ['damien_raude_morvan'],
+        abstract: '<p>En 2014, un développeur Java est plutôt habitué à évaluer la "qualité" de son code - avec SonarQube ou des processus de peer review.</p>' +
+            '<p>Mais lorsqu\'on lui parle de la "production", il est souvent désarmé : les métriques qu\'on lui propose ne correspondent à rien de connu et il n\'a pas assez d\'informations pour guider ses améliorations.</p>' +
+            '<p>Dans ce quicky, j’essaierais de vous présenter la solution que j\'utilise : le framework Codehale Metrics.</p>' +
+            '<p>Ce dernier vise à permettre au développeur de créer des indicateurs techniques ou fonctionnels. Il propose de nombreux choix d\'intégration avec vos frameworks préférés et permet un export des métriques dans de nombreux formats.</p>',
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
+      },
+      {
+        title: 'Lucy in the sky with docker',
+        length: '1 h 30',
+        time: '19h30',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>On parle beaucoup de Docker en ce moment. Je vais tenter de vous expliquer comment fonctionne Docker comme j’aurais aimé qu’on me l’explique.</p>' +
+            '<p>Nous allons apprendre à prendre en main Docker pour construire une application web Java 8 et la déployer sur la Google Cloud Platform.</p>',
+        speakers: ['david_gageot'],
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
+      }
+    ]
+  },  {
     id: '2014_06_30',
     title: 'Flyway & Patterns de cache  ',
     date: new Date(2014, 5, 30),//month begin at 0
