@@ -5,7 +5,7 @@ var njEvents = [
     title: 'Metrics & Docker  ',
     date: new Date(2014, 8, 29),//month begin at 0
     time: '19',
-    register: http://guestli.st/286752,
+    register: 'http://guestli.st/286752',
     place: 'epitech',
     subjects: [
       {
