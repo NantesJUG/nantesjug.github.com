@@ -598,6 +598,9 @@ footer {
   margin-left: 5px;
   vertical-align: middle;
 }
+.doc-html {
+  background-image: url('../images/doc/html.png');
+}
 .doc-slideshare {
   background-image: url('../images/doc/slideshare.png');
 }

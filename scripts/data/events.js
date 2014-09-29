@@ -20,7 +20,7 @@ var njEvents = [
             '<p>Dans ce quicky, j’essaierais de vous présenter la solution que j\'utilise : le framework Codehale Metrics.</p>' +
             '<p>Ce dernier vise à permettre au développeur de créer des indicateurs techniques ou fonctionnels. Il propose de nombreux choix d\'intégration avec vos frameworks préférés et permet un export des métriques dans de nombreux formats.</p>',
         docs: [
-//          {name: '', url: '', type: ''}
+          {name: 'Support de présentation', url: 'http://www.drazzib.com/projects/docs/metrics/#/', type: 'html'}
         ]
       },
       {
