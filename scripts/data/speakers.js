@@ -15,7 +15,9 @@ var njSpeakers = [
   {
     id: 'manuel_boillod',
     name: 'Manuel Boillod',
-    bio: 'Manuel Boillod est consultant Java et responsable de l\'agence Zenika Nantes. Ses diverses expériences, pour des grands comptes ou pour des startups, lui ont permis d\'appréhender de nombreux framework et librairies Java au niveau des technologies serveur, clientes, du système d\'information en général et plus récemment autour du cloud-computing. Il est d\'ailleurs formateur sur plusieurs technos dont Spring, Hibernate, Grails ou Wicket.',
+    bio: '<p>Manuel Boillod est architecte et responsable de développements au sein des équipes R&D Restlet.</p>' +
+	'<p>Ses diverses expériences pour des grands comptes ou pour des startups et dans le service, lui ont permis d\'appréhender de nombreuses technologies : Java, Javascript, Web, NoSQL…</p>' + 
+	'<p>Manuel est également leader du Nantes JUG (nantesjug.org) et aime échanger autour des projets et technologies innovantes.</p>',
     gravatar: 'boillodmanuel@gmail.com',
     photo: null,
     twitter: 'mboillod',
