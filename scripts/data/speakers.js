@@ -15,9 +15,9 @@ var njSpeakers = [
   {
     id: 'manuel_boillod',
     name: 'Manuel Boillod',
-    bio: '<p>Manuel Boillod est architecte et responsable de développements au sein des équipes R&D Restlet.</p>' +
+    bio: '<p>Manuel Boillod est architecte et responsable de développements au sein des équipes R&D <a href="http://restlet.com/" target="_blank">Restlet</a>.</p>' +
 	'<p>Ses diverses expériences pour des grands comptes ou pour des startups et dans le service, lui ont permis d\'appréhender de nombreuses technologies : Java, Javascript, Web, NoSQL…</p>' + 
-	'<p>Manuel est également leader du Nantes JUG (nantesjug.org) et aime échanger autour des projets et technologies innovantes.</p>',
+	'<p>Manuel est également leader du <a href="http://nantesjug.org/" target="_blank">Nantes JUG</a> et aime échanger autour des projets et technologies innovantes.</p>',
     gravatar: 'boillodmanuel@gmail.com',
     photo: null,
     twitter: 'mboillod',
