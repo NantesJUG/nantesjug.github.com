@@ -2,10 +2,10 @@
 var njEvents = [
   {
     id: '2014_10_27',
-    title: 'Une fille dans mon équipe & ...',
+    title: 'Java Embarqué / Internet des Objects avec IS2T  --  Une fille dans mon équipe',
     date: new Date(2014, 9, 27),//month begin at 0
     time: '19',
-    register: null,
+    register: 'http://guestli.st/293664',
     place: 'cantine',
     subjects: [
       {
@@ -22,14 +22,14 @@ var njEvents = [
         ]
       },
       {
-        title: '',
+        title: 'Java Embarqué / Internet des Objects avec IS2T',
         length: '1 h 30',
         time: '19h30',
         type: 'talk',
         intro: null,
-        abstract: '<p></p>' +
+        abstract: '<p>Java Embarqué / Internet des Objects avec IS2T</p>' +
             '<p></p>',
-        speakers: [],
+        speakers: ['fred_rivard'],
         docs: [
 //          {name: '', url: '', type: ''}
         ]

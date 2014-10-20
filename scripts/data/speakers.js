@@ -1,6 +1,18 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id : "fred_rivard",
+    name : "Fred Rivard",
+    bio : "With its dual competency, business and technology, Fred turns technologies assets into business reality within embedded systems. Prior to founding IS2T, Fred has been part at OTI/IBM of the Java compiler team, the J9 Java virtual machine team, and the pervasive embedded team.<br/><br/>MBA, PhD in computer science",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'FredRivard_IS2T',
+    gplus: null,
+    github: null,
+    website: 'http://www.is2t.com/',
+    email: 'fred.rivard@is2t.com'
+  },
+  {
     id: 'sebastien_prunier',
     name: 'Sébastien Prunier',
     bio: '"Je suis Développeur chez SERLI, spécialisé dans les technologies Java, Cloud et NoSQL (MongoDB, Couchbase). Je m\'intéresse plus récemment au langage Javascript, côté client (Angular.js) et côté serveur (Node.js) . Je fais aussi quelques contributions autour de la solution BPM Bonita. Vous pouvez me croiser dans différentes conférences : JUGs, Devoxx France, JugSummerCamp, BreizhCamp, Google Dev Fest ..."',
@@ -16,7 +28,7 @@ var njSpeakers = [
     id: 'manuel_boillod',
     name: 'Manuel Boillod',
     bio: '<p>Manuel Boillod est architecte et responsable de développements au sein des équipes R&D <a href="http://restlet.com/" target="_blank">Restlet</a>.</p>' +
-	'<p>Ses diverses expériences pour des grands comptes ou pour des startups et dans le service, lui ont permis d\'appréhender de nombreuses technologies : Java, Javascript, Web, NoSQL…</p>' + 
+	'<p>Ses diverses expériences pour des grands comptes ou pour des startups et dans le service, lui ont permis d\'appréhender de nombreuses technologies : Java, Javascript, Web, NoSQL…</p>' +
 	'<p>Manuel est également leader du <a href="http://nantesjug.org/" target="_blank">Nantes JUG</a> et aime échanger autour des projets et technologies innovantes.</p>',
     gravatar: 'boillodmanuel@gmail.com',
     photo: null,
@@ -757,7 +769,7 @@ var njSpeakers = [
     gplus:   null,
     github: 'cbossard',
     website: null,
-    email: null 
+    email: null
 },
 {
     id: 'jean_palies',
@@ -769,7 +781,7 @@ var njSpeakers = [
     gplus:   null,
     github: null,
     website: null,
-    email: null 
+    email: null
 }
 
 ];
