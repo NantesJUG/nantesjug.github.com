@@ -1,6 +1,41 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_10_27',
+    title: 'Une fille dans mon équipe & ...',
+    date: new Date(2014, 9, 27),//month begin at 0
+    time: '19',
+    register: null,
+    place: 'cantine',
+    subjects: [
+      {
+        title: 'Une fille dans mon équipe',
+        length: '30 min',
+        time: '19h',
+        type: 'quickie',
+        intro: null,
+        speakers: ['cecilia_bossard', 'jean_palies'],
+        abstract: '<p>Actuellement, 20% des postes dans le domaine de l\'IT sont occupés par des femmes, et la tendance ne va pas en s\'arrangeant. Pourquoi ce désintérêt ?</p>' +
+        	'<p>Le groupe Women In Technology vous propose de revenir sur ce sujet et de présenter son approche pour essayer d’inverser la tendance.</p>',
+        docs: [
+//               {name: '', url: '', type: ''}
+        ]
+      },
+      {
+        title: '',
+        length: '1 h 30',
+        time: '19h30',
+        type: 'talk',
+        intro: null,
+        abstract: '<p></p>' +
+            '<p></p>',
+        speakers: [],
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
+      }
+    ]
+  }, {
     id: '2014_09_29',
     title: 'Metrics & Docker  ',
     date: new Date(2014, 8, 29),//month begin at 0
