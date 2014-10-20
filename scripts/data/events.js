@@ -27,7 +27,7 @@ var njEvents = [
         time: '19h30',
         type: 'talk',
         intro: null,
-        abstract: '<p>Java Embarqué / Internet des Objects avec IS2T</p>' +
+        abstract: '<p>A travers une présentation de la plateforme d\'exécution embarquée MicroEJ, la société IS2T parlera du Java dans le monde des objets intelligents ou comment l\'usage de Java permet d\'accélérer la conception d\'un logiciel dans l\'embarqué contraint et d\'en réduire les coûts.  </p>' +
             '<p></p>',
         speakers: ['fred_rivard'],
         docs: [
