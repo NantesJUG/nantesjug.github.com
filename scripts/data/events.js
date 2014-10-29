@@ -1,6 +1,29 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_11_17',
+    title: 'Stresser vos applications web avec Gatling',
+    date: new Date(2014, 10, 17),//month begin at 0
+    time: '19',
+    register: null,
+    place: 'epsi',
+    subjects: [
+      {
+        title: 'Stresser vos applications web avec Gatling',
+        length: '1 h 30',
+        time: '19h30',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Vous vous posez les questions :<ul><li>Mon application web (quelque soit la technologie) tient-elle la charge ?</li><li>Jusqu'à combien d'utilisateurs mon application a des temps de réponse acceptable ?</li></ul></p>" +
+            "<p><a href='http://gatling.io/'>Gatling</a> va vous aider à y répondre.<ul><li>La philosophie de l'outil, en quoi il se distingue de ses concurrents</li><li>Une démonstration de son utilisation avec une application concrète</li></ul></p>",
+        speakers: ['rossi_oddet'],
+        docs: [
+//          {name: '', url: '', type: ''}
+        ]
+      }
+    ]
+  },  
+  {
     id: '2014_10_27',
     title: 'Java Embarqué / Internet des Objects avec IS2T  --  Une fille dans mon équipe',
     date: new Date(2014, 9, 27),//month begin at 0
