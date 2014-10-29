@@ -5,7 +5,7 @@ var njEvents = [
     title: 'Stresser vos applications web avec Gatling',
     date: new Date(2014, 10, 17),//month begin at 0
     time: '19',
-    register: null,
+    register: 'http://guestli.st/296148',
     place: 'epsi',
     subjects: [
       {
