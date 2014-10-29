@@ -1,6 +1,18 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id : "rossi_oddet",
+    name : "Rossi Oddet",
+    bio : "<ul><li>Développeur Java & Web à Nantes chez SQLI</li><li>Co-organisateur des conférences JCertif en Afrique</li><li>Enthousiaste de l'écosystème des langages alternatifs de la JVM (Groovy, Scala, etc.)</li></ul>",
+    gravatar: "rossi.oddet@gmail.com",
+    photo: null,
+    twitter: 'rossioddet',
+    gplus: null,
+    github: null,
+    website: 'http://blog.roddet.com',
+    email: 'rossi.oddet@gmail.com'
+  },
+  {
     id : "fred_rivard",
     name : "Fred Rivard",
     bio : "With its dual competency, business and technology, Fred turns technologies assets into business reality within embedded systems. Prior to founding IS2T, Fred has been part at OTI/IBM of the Java compiler team, the J9 Java virtual machine team, and the pervasive embedded team.<br/><br/>MBA, PhD in computer science",
