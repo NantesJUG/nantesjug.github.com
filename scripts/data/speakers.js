@@ -770,6 +770,19 @@ var njSpeakers = [
     email: null
 },
 {
+    id: 'jean-francois-garreau',
+    name: 'Jean-François Garreau',
+    bio: '<p>Consultant IT chez @SQLI et Leader du @GDGNantes. Jean-François est développeur depuis maintenant 10 ans. Il a toujours évolué dans un monde java et a découvert Android en 2009 avec la version 1.1. Depuis, il continue de suivre les évolutions de la plateforme. </p>' +
+        '<p>Depuis maintenant an et demi il a commencé à s\'intéresser plus en profondeur au Web avec des sujets comme AngularJS / WebRTC / WebSockets.</p>',
+    gravatar: 'jean.francois.garreau@gmail.com',
+    photo: null,
+    twitter: 'jefBinomed',
+    gplus:   '+JeanFrancoisGarreau',
+    github: 'jefBinomed',
+    website: null,
+    email: null
+},
+{
     id: 'cecilia_bossard',
     name: 'Cécilia Bossard',
     bio: '<p>Cécilia a un but : aider les équipes à produire des logiciels utiles aux utilisateurs finaux. Pour cela, elle les accompagne en intégrant les équipes de développement ou en les assistant dans leur transition agile.</p>' +

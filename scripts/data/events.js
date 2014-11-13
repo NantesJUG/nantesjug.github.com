@@ -9,6 +9,18 @@ var njEvents = [
     place: 'epsi',
     subjects: [
       {
+        title: 'Les backstages de Devfest 2014',
+        length: '30 min',
+        time: '19h',
+        type: 'quickie',
+        intro: null,
+        speakers: ['jean-francois-garreau'],
+        abstract: null,
+        docs: [
+//               {name: '', url: '', type: ''}
+        ]
+      },
+      {
         title: 'Stresser vos applications web avec Gatling',
         length: '1 h 30',
         time: '19h30',
@@ -22,7 +34,7 @@ var njEvents = [
         ]
       }
     ]
-  },  
+  },
   {
     id: '2014_10_27',
     title: 'Java Embarqué / Internet des Objects avec IS2T  --  Une fille dans mon équipe',
