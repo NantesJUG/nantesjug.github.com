@@ -1,6 +1,33 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2014_12_15',
+    title: 'Le BigData NoBullShit: Cas d’utilisation chez Dictanova et Cityzen Data',
+    date: new Date(2014, 11, 15),//month begin at 0
+    time: '19',
+    register: 'http://guestli.st/301611',
+    place: 'epitech',
+    subjects: [
+      {
+        title: 'Le BigData NoBullShit: Cas d’utilisation chez Dictanova et Cityzen Data',
+        length: '2 h',
+        time: '19h',
+        type: 'talk',
+        intro: null,
+        speakers: ['damien_raude_morvan', 'david_morin'],
+        abstract: "<p>Il y a 2 ans, la mode était de faire du Big Data, désormais il faut faire du Smart Data... Mais concrètement, à quoi est-ce que cela peut bien servir ?</p>"
+        		+ "<p>A travers les expériences de deux entreprises, Dictanova (Damien Raude-Morvan) et de Cityzen Data (David Morin), nous essayerons de vous présenter des exemples concrets d’utilisations du Big Data et répondre par exemple aux questions suivantes :</p>"
+        		+ "<ul><li>Quelle infrastructure mettre en place pour gérer de gros volumes de données ? Quels sont les écueils à éviter ? Les offres de type XaaS sont-elles pertinentes ?</li>"
+        		+ "<li>Comment passer du simple &quot;hello world&quot; en Map/Reduce à un véritable traitement métier ? Comme modéliser un enchaînement de jobs avec Oozie ? Comme obtenir des primitives de plus haut niveau que Map/Reduce ? Cascading, Spark, Tez ?</li>"
+				+ "<li>Une fois les données stockées, comment effectuer de l’analyse sur ces dernières ? Comment utiliser des langages de requêtage comme Pig ?</li>"
+				+ "<li>Comment gérer le changement dans son modèle de données ? Modèle de données avec Avro ? Avec Parquet ou encore Thrift ?</li>"
+				+ "<li>Comment assurer la supervision de jobs en production sur un cluster Hadoop ?</li></ul>",
+        docs: [
+//               {name: '', url: '', type: ''}
+        ]
+      }
+    ]
+  },{
     id: '2014_11_17',
     title: 'Stresser vos applications web avec Gatling',
     date: new Date(2014, 10, 17),//month begin at 0

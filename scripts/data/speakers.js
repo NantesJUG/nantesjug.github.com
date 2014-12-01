@@ -807,6 +807,18 @@ var njSpeakers = [
     github: null,
     website: null,
     email: null
+},
+{
+    id: 'david_morin',
+    name: 'David Morin',
+    bio: '<p></p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'davAtBzh',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: null
 }
 
 ];
