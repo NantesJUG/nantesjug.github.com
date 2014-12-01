@@ -811,7 +811,7 @@ var njSpeakers = [
 {
     id: 'david_morin',
     name: 'David Morin',
-    bio: '<p></p>',
+    bio: '<p>Développeur Java avant tout, David s\'intéresse à tout ce qui tourne autour de la JVM avec un vif intérêt pour les aspects performance et scalabilité. Il découvre Hadoop en 2011 et se passionne pour son écosystème dynamique. Il a notamment travaillé sur la mise en place de la solution Big Data basée sur Hadoop au sein du Crédit Mutuel Arkea. Aujourd\'hui, David travaille pour Cityzen Data, une start-up fournissant une plateforme scalable, sécurisée et éthique pour les données issues de capteurs.</p>',
     gravatar: null,
     photo: 'jpg',
     twitter: 'davAtBzh',
