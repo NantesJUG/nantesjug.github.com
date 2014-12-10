@@ -211,13 +211,13 @@ var njSpeakers = [
   {
     id: 'tugdual_grall',
     name: 'Tugdual Grall',
-    bio: 'Happy geek and slow triathlete. Developer of @resultri. @NantesJUG Leader. Technical Evangelist @couchbase about.me/tugdual. Et il est beau',
+    bio: "Tug est Technical Evangelist chez MongoDB, et un développeur passionné! Il travaille actuellement avec les communautés de développeurs en Europe pour faciliter l’adoption du NosQL/MongoDB. Avant de rejoindre MongoDB, Tug a travaillé chez Couchbase (Technical Evangelist) , eXo Platform (CTO) et Oracle (Product Manager/Developer OracleAS JavaEE).<br/><br/>Tug a participé à de nombreuses conférences DevoxxFR, FOSDEM, Google I/O, JavaOne et de nombreux meetups/groupes utilisateurs. Tugdual est co-fondateur du @NantesJUG. Lorsqu’il a le temps, il maintient un blog http://tugdualgrall.blogspot.com et une application déployée sur Google App Engine  http://www.resultri.com. Vous pouvez le suivre sur twitter.",
     gravatar: 'tugdual@gmail.com',
     photo: null,
     twitter: 'tgrall',
-    gplus: null,
+    gplus: 'https://plus.google.com/+TugdualGrall/posts',
     github: 'tgrall',
-    website: null,
+    website: 'http://blog.grallandco.com',
     email: 'tugdual@gmail.com'
   },
   {
