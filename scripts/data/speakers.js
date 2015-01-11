@@ -819,6 +819,18 @@ var njSpeakers = [
     github: null,
     website: null,
     email: null
+},
+{
+    id: 'thierry_wasylcszenko',
+    name: 'Thierry WASYLCZENKO',
+    bio: '<p>Thierry est développeur Java depuis plusieurs années chez General Electric Healthcare en France et se passionne pour le polyglottisme, l\'architecture des projets, JavaFX et les nouveaux outils qui facilitent la vie d\'un développeur. Il est également auteur pour RebelLabs de ZeroTurnaround et l\'un des leader de l\'ElsassJUG, le JUG de Strasbourg en France. Suivez le sur LinkedIn ou sur Twitter @twasyl.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'twasyl',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: null
 }
 
 ];
