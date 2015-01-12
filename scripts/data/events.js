@@ -1,6 +1,29 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2015_01_27',
+    title: 'JavaFX 8 & friends',
+    date: new Date(2015, 0, 27),//month begin at 0
+    time: '19',
+    register: 'http://guestli.st/306156',
+    place: 'netapsys',
+    subjects: [
+      {
+        title: 'JavaFX 8 & friends',
+        length: '2 h',
+        time: '19h',
+        type: 'talk',
+        intro: null,
+        speakers: ['thierry_wasylcszenko'],
+        abstract: "<p>JavaFX ... Aux conférences, on en fait l'éloge. Oracle le présente comme le successeur de Swing (alors que les dev ont abandonné Swing). Mais dans la vraie vie ça donne quoi? Cette technologie peut-elle vraiment redonner un coup de jeune au développement lourd en Java? Concurrencer les technos web phares du moment? Et honnêtement ça vaut le coup?</p>"
+        		+ "<p>Alors découvrons ou redécouvrons JavaFX 8 et comment l'intégrer ou le faire interagir avec des technologies comme OSGi, LeapMotion, Vert.x, JavaScript & friends.</p>"
+        		+ "<p>Alors plutôt que de vous dire que c'est bien, je vous proposerai un rex avec utilisation dans la vraie vie.</p>",
+        docs: [
+//               {name: '', url: '', type: ''}
+        ]
+      }
+    ]
+  }, {
     id: '2014_12_15',
     title: 'Le BigData NoBullShit: Cas d’utilisation chez Dictanova et Cityzen Data',
     date: new Date(2014, 11, 15),//month begin at 0

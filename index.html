@@ -12,8 +12,6 @@
   <title>Nantes JAVA User Group</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="styles/main.css">
@@ -85,26 +83,13 @@
 
 
 <div class="container">
+	<div class="row layout" ng-if="showLayout()">
+		<div class="jug-logo pull-right">
+			<img class="img-responsive" src="images/site/logo-rond-bleu-transparent.png" alt="Nantes Java User Group">
+		</div>
+	</div>
 
-  <div class="row layout" ng-if="showLayout()">
-    <div class="jug-logo pull-right">
-      <img class="img-responsive" src="images/site/logo_jug.png" alt="Nantes Java User Group">
-    </div>
-
-    <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-    <a href="http://regbe.devoxx.com/public#DV14" target="_blank" title="Devoxx 2014">
-        <img src="images/sponsors/devoxx-be-2014.gif" alt="Devoxx 2014" title="Devoxx 2014" class="img-responsive">
-    </a>
-    </div>
-  </div>
-
-
-  </div>
-
-
-
-  <div ui-view></div>
+	<div ui-view></div>
 
 </div><!--/.container-->
 
