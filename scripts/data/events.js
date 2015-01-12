@@ -2,16 +2,28 @@
 var njEvents = [
   {
     id: '2015_01_27',
-    title: 'JavaFX 8 & friends',
+    title: 'JavaFX 8 & friends - MongoDB Pub/Sub',
     date: new Date(2015, 0, 27),//month begin at 0
     time: '19',
     register: 'http://guestli.st/306156',
     place: 'netapsys',
     subjects: [
+        {
+          title: 'Pub/Sub avec MongoDB',
+          length: '30 min',
+          time: '19h',
+          type: 'quickie',
+          intro: null,
+          speakers: ['tugdual_grall'],
+          abstract: "Venez découvrir comment créer un système pub/sub de messages/notifications avec MongoDB.<br/>Durant ce quickie nous utiliserons : des capped collections, tailable cursors, Java, Node, WebSocket/Socket.io, .... pour créer une application de notification en temps réel.",
+          docs: [
+  //               {name: '', url: '', type: ''}
+          ]
+        },		
       {
         title: 'JavaFX 8 & friends',
-        length: '2 h',
-        time: '19h',
+        length: '1h30',
+        time: '19h30',
         type: 'talk',
         intro: null,
         speakers: ['thierry_wasylcszenko'],
