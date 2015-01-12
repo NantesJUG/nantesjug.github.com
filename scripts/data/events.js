@@ -2,7 +2,7 @@
 var njEvents = [
   {
     id: '2015_01_27',
-    title: 'JavaFX 8 & friends - MongoDB Pub/Sub',
+    title: 'JavaFX.forReal() - MongoDB Pub/Sub',
     date: new Date(2015, 0, 27),//month begin at 0
     time: '19',
     register: 'http://guestli.st/306156',
@@ -21,15 +21,13 @@ var njEvents = [
           ]
         },		
       {
-        title: 'JavaFX 8 & friends',
+        title: 'JavaFX.forReal()',
         length: '1h30',
         time: '19h30',
         type: 'talk',
         intro: null,
         speakers: ['thierry_wasylcszenko'],
-        abstract: "<p>JavaFX ... Aux conférences, on en fait l'éloge. Oracle le présente comme le successeur de Swing (alors que les dev ont abandonné Swing). Mais dans la vraie vie ça donne quoi? Cette technologie peut-elle vraiment redonner un coup de jeune au développement lourd en Java? Concurrencer les technos web phares du moment? Et honnêtement ça vaut le coup?</p>"
-        		+ "<p>Alors découvrons ou redécouvrons JavaFX 8 et comment l'intégrer ou le faire interagir avec des technologies comme OSGi, LeapMotion, Vert.x, JavaScript & friends.</p>"
-        		+ "<p>Alors plutôt que de vous dire que c'est bien, je vous proposerai un rex avec utilisation dans la vraie vie.</p>",
+        abstract: '<p><b>En reve:</b><br/>JavaFX (8) ... le buzz word d\'Oracle, en terme de développement de clients lourds, qui le présente comme le successeur de Swing. Tout est faisable facilement en JavaFX.</p><p><b>Dans la vraie vie:</b><br/>Mais “Swing c\'est mort”, “quelqu\'un fait-il encore du desktop?”, "y a-t-il sérieusement des gens qui utilisent JavaFX?”, “l\'avenir c\'est du web 2.0 (et au-delà) avec du *JS”, “moi je ne fais que du web”.<br/>Ces remarques vous semblent-elles familières? Cette session est faite pour vous car JavaFX répondra sans doute à toutes ces interrogations mais aussi à vos besoins.<br/>Cessons de (trop) rêver, soyons pragmatiques et revenons à la réalité. Est-il possible de réaliser des applications JavaFX complexes, pas uniquement un Bonjour Monde, et pourquoi ne pas coupler cela à du Vertx, asciidoctor, LeapMotion, JavaScript, OSGi & friends?<br/>JavaFX peut-il concurrencer le web de demain voire en être complémentaire? JavaFX peut-il répondre à vos besoins?<br/>Découvrons-le ensemble lors de cette session orientée REX. Ce n\'est pas toujours aussi simple que l\'on pourrait se l\'imaginer bien que ce soit la réalité.</p>',
         docs: [
 //               {name: '', url: '', type: ''}
         ]
