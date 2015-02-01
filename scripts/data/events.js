@@ -28,9 +28,11 @@ var njEvents = [
         intro: null,
         speakers: ['thierry_wasylcszenko'],
         abstract: '<p><b>En reve:</b><br/>JavaFX (8) ... le buzz word d\'Oracle, en terme de développement de clients lourds, qui le présente comme le successeur de Swing. Tout est faisable facilement en JavaFX.</p><p><b>Dans la vraie vie:</b><br/>Mais “Swing c\'est mort”, “quelqu\'un fait-il encore du desktop?”, "y a-t-il sérieusement des gens qui utilisent JavaFX?”, “l\'avenir c\'est du web 2.0 (et au-delà) avec du *JS”, “moi je ne fais que du web”.<br/>Ces remarques vous semblent-elles familières? Cette session est faite pour vous car JavaFX répondra sans doute à toutes ces interrogations mais aussi à vos besoins.<br/>Cessons de (trop) rêver, soyons pragmatiques et revenons à la réalité. Est-il possible de réaliser des applications JavaFX complexes, pas uniquement un Bonjour Monde, et pourquoi ne pas coupler cela à du Vertx, asciidoctor, LeapMotion, JavaScript, OSGi & friends?<br/>JavaFX peut-il concurrencer le web de demain voire en être complémentaire? JavaFX peut-il répondre à vos besoins?<br/>Découvrons-le ensemble lors de cette session orientée REX. Ce n\'est pas toujours aussi simple que l\'on pourrait se l\'imaginer bien que ce soit la réalité.</p>',
-        docs: [
-//               {name: '', url: '', type: ''}
-        ]
+        docs: [{
+          name: 'Les slides',
+          url: 'http://fr.slideshare.net/twasyl/javafxforreal',
+          type: 'slideshare'
+        }]
       }
     ]
   }, {
