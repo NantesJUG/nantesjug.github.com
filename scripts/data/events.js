@@ -1,5 +1,40 @@
 /*jshint unused: false */
 var njEvents = [
+{
+  id: '2015_02_16',
+  title: 'Soirée Search Lucene/Solr - Rex Chef',
+  date: new Date(2015, 1, 16),//month begin at 0
+  time: '19',
+  register: null,
+  place: 'epitech',
+  subjects: [
+  {
+    title: "Retour d'experience Chef",
+    length: '30 min',
+    time: '19h',
+    type: 'quickie',
+    intro: null,
+    speakers: null,
+    abstract: "Retour d'experience autour de <a href='https://www.chef.io'>Chef</a>",
+    docs: [
+//               {name: '', url: '', type: ''}
+    ]
+  },
+    {
+      title: 'Soirée Search Lucene/Solr',
+      length: '1h30',
+      time: '19h30',
+      type: 'talk',
+      intro: null,
+      speakers: ['olivier_tavard'],
+      abstract: "<p>Découvrez les outils open source de Search qui ont déjà convaincu de nombreuses entreprises, et qui est proposé par la fondation Apache: Lucene / Solr.</p>"+
+"<p>Dans la première partie de soirée, histoire de savoir de quoi on parle, Olivier vous présentera les projets Lucene et Solr, leurs composants, leur architecture, leurs features, et on saupoudrera tout ça de scalabilité avec SolrCloud (avec démo).</p>"+
+"<p>En deuxième partie de soirée, Olivier vous présentera l’écosystème (ou du moins une partie) qui gravite autour de Lucene /Solr: ManifoldCF qui permet de gérer les connexions aux sources de données (avec démo d’indexation de contenu et recherche en live grâce à Datafari) et Hadoop, car il faut bien parler de Big Data, et parce que Solr devient un des outils de référence pour faire du search sur Hadoop.</p>"+
+"Avec tout ça vous aurez dans vos bagages de quoi gérer des Big projets avec du Big search dedans.</p>",
+      docs: []
+    }
+  ]
+},
   {
     id: '2015_01_27',
     title: 'JavaFX.forReal() - MongoDB Pub/Sub',
@@ -19,7 +54,7 @@ var njEvents = [
           docs: [
   //               {name: '', url: '', type: ''}
           ]
-        },		
+        },
       {
         title: 'JavaFX.forReal()',
         length: '1h30',

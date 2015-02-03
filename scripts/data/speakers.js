@@ -1,6 +1,18 @@
 /*jshint unused: false */
 var njSpeakers = [
-  {
+{
+  id : "olivier_tavard",
+  name : "Olivier Tavard",
+  bio : "<p>Olivier Tavard, est cofondateur et développeur au sein de la société France Labs, une startup innovante née fin 2011 à Sophia-Antipolis. La société est centrée sur les moteurs de recherche open source pour entreprise, notamment Apache Lucene/Solr et Elasticsearch.</p><p>Olivier a plusieurs années d’expérience dans les moteurs de recherche Lucene, Solr et Datafari. Enfin Olivier s’occupe de la R&D de la société, et travaille au développement de Datafari, le moteur de recherche open source pour entreprise de France Labs.</p>",
+  gravatar: null,
+  photo: "jpg",
+  twitter: null,
+  gplus: null,
+  github: null,
+  website: 'http://www.francelabs.com/',
+  email: 'olivier.tavard@francelabs.com'
+},
+{
     id : "rossi_oddet",
     name : "Rossi Oddet",
     bio : "<ul><li>Développeur Java & Web à Nantes chez SQLI</li><li>Co-organisateur des conférences JCertif en Afrique</li><li>Enthousiaste de l'écosystème des langages alternatifs de la JVM (Groovy, Scala, etc.)</li></ul>",
