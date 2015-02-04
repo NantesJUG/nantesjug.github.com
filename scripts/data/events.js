@@ -51,9 +51,11 @@ var njEvents = [
           intro: null,
           speakers: ['tugdual_grall'],
           abstract: "Venez découvrir comment créer un système pub/sub de messages/notifications avec MongoDB.<br/>Durant ce quickie nous utiliserons : des capped collections, tailable cursors, Java, Node, WebSocket/Socket.io, .... pour créer une application de notification en temps réel.",
-          docs: [
-  //               {name: '', url: '', type: ''}
-          ]
+          docs: [{
+            name: 'La vidéo de la soirée',
+            url: 'http://youtu.be/ezZkiQLb7BE',
+            type: 'youtube'
+	  }]
         },
       {
         title: 'JavaFX.forReal()',
@@ -67,6 +69,10 @@ var njEvents = [
           name: 'Les slides',
           url: 'http://fr.slideshare.net/twasyl/javafxforreal',
           type: 'slideshare'
+        }, {
+          name: 'La vidéo de la soirée',
+          url: 'http://youtu.be/c011LBQRWbs',
+          type: 'youtube'
         }]
       }
     ]
