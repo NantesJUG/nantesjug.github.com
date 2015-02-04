@@ -5,7 +5,7 @@ var njEvents = [
   title: 'Soirée Search Lucene/Solr - Rex Chef',
   date: new Date(2015, 1, 16),//month begin at 0
   time: '19',
-  register: null,
+  register: 'https://guestlistapp.com/events/310620',
   place: 'epitech',
   subjects: [
   {
