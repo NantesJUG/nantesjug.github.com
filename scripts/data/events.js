@@ -9,13 +9,14 @@ var njEvents = [
   place: 'epitech',
   subjects: [
   {
-    title: "Retour d'experience Chef",
+    title: "Chef, oui Chef !",
     length: '30 min',
     time: '19h',
     type: 'quickie',
     intro: null,
     speakers: null,
-    abstract: "Retour d'experience autour de <a href='https://www.chef.io'>Chef</a>",
+    abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre."
+          +   "<p>par François Kha <a href='twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
     docs: [
 //               {name: '', url: '', type: ''}
     ]
