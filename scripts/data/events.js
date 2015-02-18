@@ -32,7 +32,13 @@ var njEvents = [
 "<p>Dans la première partie de soirée, histoire de savoir de quoi on parle, Olivier vous présentera les projets Lucene et Solr, leurs composants, leur architecture, leurs features, et on saupoudrera tout ça de scalabilité avec SolrCloud (avec démo).</p>"+
 "<p>En deuxième partie de soirée, Olivier vous présentera l’écosystème (ou du moins une partie) qui gravite autour de Lucene /Solr: ManifoldCF qui permet de gérer les connexions aux sources de données (avec démo d’indexation de contenu et recherche en live grâce à Datafari) et Hadoop, car il faut bien parler de Big Data, et parce que Solr devient un des outils de référence pour faire du search sur Hadoop.</p>"+
 "Avec tout ça vous aurez dans vos bagages de quoi gérer des Big projets avec du Big search dedans.</p>",
-      docs: []
+      docs: [
+      	{
+      	  name: 'Les slides', 
+      	  url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug', 
+      	  type: 'slideshare'
+      	}
+      ]
     }
   ]
 },
