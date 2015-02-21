@@ -1,0 +1,16 @@
+<span class="inscription">
+    <span ng-if="!event.register && event.date >= today" >
+        <a class="btn btn-jug" ng-href="#" disabled title="S&#39;inscrire" target="_blank">
+            <span class="glyphicon glyphicon-check" aria-hidden="true"></span> S'inscrire
+        </a>
+        Bientôt disponible (restez connecté avec la <a href="https://groups.google.com/forum/#!forum/nantesjug" target="_blank">mailing list</a>)
+    </span>
+    <span ng-if="event.register && event.date >= today">
+        <a class="btn btn-jug" ng-href="{{event.register}}" title="S&#39;inscrire" target="_blank">
+            <span class="glyphicon glyphicon-check" aria-hidden="true"></span> S'inscrire à la soirée
+        </a>
+        <a class="link-jug" ng-href="http://www.google.com/calendar/event?action=TEMPLATE&text={{event.gcal.title}}&dates={{event.gcal.date}}&details=&location={{event.gcal.location}}" title="S&#39;inscrire" target="_blank">
+            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Ajouter dans google calendar
+        </a>
+    </span>
+</span>

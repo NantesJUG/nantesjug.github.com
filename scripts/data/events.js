@@ -2,7 +2,7 @@
 var njEvents = [
 {
   id: '2015_03_11',
-  title: 'Soirée Cassandra & GAE',
+  title: 'Soirée Cassandra / GAE',
   date: new Date(2015, 2, 11),//month begin at 0
   time: '19',
   register: 'https://guestlistapp.com/events/312915',

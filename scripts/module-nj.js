@@ -64,6 +64,10 @@ var nj = function () {
 
   // Private functions
 
+  var toGcalDate = function (date) {
+    return date.toISOString().replace(/[:-]/g, '').replace(/\.000Z/g, 'Z');
+  };
+
   //Fulfill events by replace id by full object (places, speakers)
 
   var fulfillEvent = function (event) {
@@ -71,6 +75,17 @@ var nj = function () {
     event.place = that.getPlace(event.place);
     //Complete Subject
     _.each(event.subjects, function(subject){ fulfillSubject(subject); });
+    //Complete google calendar info
+    var from=new Date(event.date);
+    from.setHours(parseInt(event.time, 10));
+    var to=new Date(event.date);
+    to.setHours(parseInt(event.time, 10) + 2);
+    event.gcal = {
+      title: encodeURI(event.title),
+      date: toGcalDate(from)+'/'+toGcalDate(to),
+      location: encodeURI(event.place.name + ' ' + event.place.address + ' ' + event.place.city)
+    };
+
   };
 
   var fulfillSubject = function (subject) {

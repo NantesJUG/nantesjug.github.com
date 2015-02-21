@@ -363,10 +363,61 @@ a.navbar-brand {
 .page-header {
   border:none !important;
 }
-.label-large {
-  display: inline-block;
-  font-size: 100%;
-  width: 70px;
+.link-jug {
+  color: #0074bd;
+}
+.link-jug:hover,
+.link-jug:focus,
+.link-jug.focus,
+.link-jug:active,
+.link-jug.active, {
+  color: #00619E;
+}
+.btn-jug {
+  color: #fff;
+  background-color: #0074bd;
+  border-color: #2e6da4;
+}
+.btn-jug:hover,
+.btn-jug:focus,
+.btn-jug.focus,
+.btn-jug:active,
+.btn-jug.active,
+.open > .dropdown-toggle.btn-jug {
+    color: #fff;
+    background-color: #00619E;
+    border-color: #204d74;
+}
+.btn-jug.disabled,
+.btn-jug[disabled],
+fieldset[disabled] .btn-jug,
+.btn-jug.disabled:hover,
+.btn-jug[disabled]:hover,
+fieldset[disabled] .btn-jug:hover,
+.btn-jug.disabled:focus,
+.btn-jug[disabled]:focus,
+fieldset[disabled] .btn-jug:focus,
+.btn-jug.disabled.focus,
+.btn-jug[disabled].focus,
+fieldset[disabled] .btn-jug.focus,
+.btn-jug.disabled:active,
+.btn-jug[disabled]:active,
+fieldset[disabled] .btn-jug:active,
+.btn-jug.disabled.active,
+.btn-jug[disabled].active,
+fieldset[disabled] .btn-jug.active {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.label-talk-type {
+    display: inline-block;
+    font-size: 100%;
+    width: 70px;
+    background-color: #c0c0c0;
+}
+.label-talk-type[href]:hover,
+.label-talk-type[href]:focus {
+    background-color: #c0c0c0;
 }
 
 .label-time {
@@ -498,7 +549,11 @@ img.sponsors-type {
 /*****SOIREE*****/
 .inscription {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+.inscription .link-jug {
+    margin-left: 10px;
 }
 .inscription-missing {
   color: #ef2b35;
@@ -629,20 +684,23 @@ footer {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.jug-event-location img {
+.jug-event-location {
+    margin-bottom: 20px;
+}
+.jug-event-location-address img {
   display: inline-block;
   float: left;
   width: 40px;
   margin-right: 20px;
 }
-.jug-event-location address {
+.jug-event-location-address address {
   margin-top: 7px
 }
 
-.jug-event-location address:after {
+.jug-event-location-address address:after {
   clear: both;
 }
-.jug-event-location a, .jug-event-location a:hover, .jug-event-location a:visited {
+.jug-event-location-address a, .jug-event-location-address a:hover, .jug-event-location-address a:visited {
   text-decoration: none;
   color: #696969;
 }

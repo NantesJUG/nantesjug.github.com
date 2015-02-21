@@ -24,21 +24,18 @@
   <div class="col-md-12">
     <div class="well">
       <div class="row">
-        <div class="col-md-7 jug-short-description">
+        <div class="col-xs-12 col-md-7 jug-short-description">
 
           <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
 
           <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{event.old_time}}h</span> {{event.time}}h</h2>
 
-          <span class="inscription">
-            <span ng-if="!event.register && event.date >= today" >&gt;&gt;&gt; Lien d'inscription à venir (restez connecté avec la <a href="https://groups.google.com/forum/#!forum/nantesjug" target="_blank">mailing list</a>)</span>
-            <a ng-href="{{event.register}}" ng-if="event.register && event.date >= today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
-          </span>
+          <ng-include src="'views/templates/register.html'"></ng-include>
 
           <div class="jug-subject" ng-repeat="subject in event.subjects">
 
             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-              <span class="label label-info label-large">{{subject.type}}</span>
+              <span class="label label-talk-type">{{subject.type}}</span>
             </div>
 
             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
@@ -63,8 +60,8 @@
           </div>
         </div>
 
-        <div class="col-md-5">
-          <div class="jug-event-location">
+        <div class="col-xs-12 col-md-5 jug-event-location">
+          <div class="jug-event-location-address">
             <a ng-href="{{event.place.maps}}" target="_blank">
               <img src="/images/location.png" alt="Lieu">
               <address ng-if="event.place">
@@ -114,7 +111,8 @@
         </div>
       </div>
 
-      <a class="inscription" ng-href="{{event.register}}" ng-if="event.register && event.date >= today" title="S&#39;inscrire" target="_blank">&gt;&gt;&gt; S'inscrire</a>
+      <ng-include src="'views/templates/register.html'"></ng-include>
+
     </div>
   </div>
 </div>
