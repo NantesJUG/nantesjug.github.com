@@ -1,3 +1,7 @@
+//
+// Google form for speaker: http://bit.do/nantesjug-speaker
+//
+
 /*jshint unused: false */
 var njSpeakers = [
 {
