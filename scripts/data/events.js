@@ -18,7 +18,7 @@ var njEvents = [
     abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre."
           +   "<p>par François Kha <a href='twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
     docs: [
-//               {name: '', url: '', type: ''}
+               {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube'}
     ]
   },
     {
@@ -37,7 +37,8 @@ var njEvents = [
       	  name: 'Les slides', 
       	  url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug', 
       	  type: 'slideshare'
-      	}
+      	},
+        {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube'}
       ]
     }
   ]
