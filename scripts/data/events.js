@@ -64,7 +64,7 @@ var njEvents = [
     intro: null,
     speakers: null,
     abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre."
-          +   "<p>par François Kha <a href='twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
+          +   "<p>par François Kha <a href='http://twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
     docs: [
                {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube'}
     ]
