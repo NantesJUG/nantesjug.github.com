@@ -847,6 +847,18 @@ var njSpeakers = [
     github: null,
     website: null,
     email: null
+},
+{
+    id: 'duyhai_doan',
+    name: 'DuyHai Doan',
+    bio: '<p>DuyHai Doan is a Cassandra technical advocate. He spends his time between technical presentations/meetups on Cassandra, coding on open source projects to support the community and helping all companies using Cassandra to make their project successful. Previously he was working as a freelance Java/Cassandra consultant.</p>',
+    gravatar: null,
+    photo: 'png',
+    twitter: 'doanduyhai',
+    gplus:   null,
+    github: null,
+    website: null,
+    email: 'duy_hai.doan@datastax.com'
 }
 
 ];

@@ -1,6 +1,54 @@
 /*jshint unused: false */
 var njEvents = [
 {
+  id: '2015_03_11',
+  title: 'Soirée Cassandra & GAE',
+  date: new Date(2015, 2, 11),//month begin at 0
+  time: '19',
+  register: 'https://guestlistapp.com/events/312915',
+  place: 'epitech',
+  subjects: [
+      {
+        title: "Introduction à GAE",
+        length: '30 min',
+        time: '19h',
+        type: 'quickie',
+        intro: null,
+        speakers: null,
+        abstract: "<p>Introduction à GAE par Rémi Picard</p>",
+        docs: [
+            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+        ]
+      },
+      {
+          title: 'Introduction to Cassandra',
+          length: '1h00',
+          time: '19h30',
+          type: 'talk',
+          intro: null,
+          speakers: ['duyhai_doan'],
+          abstract: "<p>In this session, we’ll introduce Apache Cassandra, highlight its architecture, consistency and replication model to explain how the database can provide linear scalability, high availability and consistent performance.</p>" +
+                  "<p>There will be a quick overview of the Cassandra data model, query language and tooling for developers.</p>" +
+                  "<p>Sujet en français</p>",
+          docs: [
+              //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+          ]
+      },
+      {
+          title: 'Cassandra nice use-cases and worst anti-patterns seen in production',
+          length: '30 min',
+          time: '20h30',
+          type: 'talk',
+          intro: null,
+          speakers: ['duyhai_doan'],
+          abstract: "<p>For this session, we'll show some best practices, dig into some nice use-cases seen in production but also the worst anti-patterns to avoid. There will be an interactive demo.</p>" +
+                    "<p>Sujet en français</p>",
+          docs: [
+              //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+          ]
+      }
+  ]
+},{
   id: '2015_02_16',
   title: 'Soirée Search Lucene/Solr - Rex Chef',
   date: new Date(2015, 1, 16),//month begin at 0
