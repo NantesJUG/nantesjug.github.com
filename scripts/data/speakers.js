@@ -868,7 +868,7 @@ var njSpeakers = [
       '<p>Au cours de son évolution chez Sopra Steria, et après plusieurs mois de développement et maintenance d\'applications, il découvre les problématiques de qualité (process, tests), d\'intégration continue (Jenkins, Sonar) et d\'exploitation (Shell, Linux).</p>' +
       '<p>En perso, Rémi s’intéresse aux nouvelles tendances du Web en parcourant divers tutoriels, lectures (livres, revue Programmez!) et depuis peu en assistant aux conférences de la JUG de Nantes.</p>',
     gravatar: null,
-    photo: null,
+    photo: 'jpg',
     twitter: null,
     gplus: null,
     github: null,
