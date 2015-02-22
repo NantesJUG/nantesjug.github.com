@@ -9,13 +9,14 @@ var njEvents = [
   place: 'epitech',
   subjects: [
       {
-        title: "Introduction à GAE",
+        title: "Google App Engine, déployer plus vite que son ombre !",
         length: '30 min',
         time: '19h',
         type: 'quickie',
         intro: null,
         speakers: ['remi_picard'],
-        abstract: "<p>Introduction à GAE par Rémi Picard</p>",
+        abstract: "<p>\"Cloud\" par çi, \"Solutions PaaS\" par là. Mais quel est donc le sens de ces termes si présents ces dernières années ? Pourquoi tant de succès ? Et le développeur dans tout ça ?</p>" +
+          "<p>Si vous vous posez toutes ces questions, venez assister à une présentation de la solution Google App Engine. Celle-ci sera illustrée par une démonstration du déploiement sur le Cloud d'un site Java JEE.</p>",
         docs: [
             //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
         ]
