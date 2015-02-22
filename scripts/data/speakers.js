@@ -859,6 +859,33 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'duy_hai.doan@datastax.com'
+},
+{
+    id: 'remi_picard',
+    name: 'Rémi Picard',
+    bio: '<p>Référent technique au sein du groupe Sopra Steria, Rémi travaille sur des projets JavaEE et PHP pour des sociétés de services et du secteur public.</p>' +
+      '<p>Etudiant, c\'est en suivant un tutoriel du ""Site du Zéro"" sur le C++/Qt, qu\'il découvre tardivement la programmation. Il se passionne alors tout particulièrement pour les technologies Web.</p>' +
+      '<p>Au cours de son évolution chez Sopra Steria, et après plusieurs mois de développement et maintenance d\'applications, il découvre les problématiques de qualité (process, tests), d\'intégration continue (Jenkins, Sonar) et d\'exploitation (Shell, Linux).</p>' +
+      '<p>En perso, Rémi s’intéresse aux nouvelles tendances du Web en parcourant divers tutoriels, lectures (livres, revue Programmez!) et depuis peu en assistant aux conférences de la JUG de Nantes.</p>',
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: 'http://remi-picard.appspot.com',
+    email: 'picard.remi@gmail.com'
+},
+{
+  id: 'francois_kha',
+  name: 'François Kha',
+  bio: '<p>Développeur chez CBP, courtier de gestion en assurance à Nantes. François s\'intéresse aux pratiques de déploiement continu.</p>',
+  gravatar: 'francois.kha@gmail.com',
+  photo: null,
+  twitter: 'fanchok',
+  gplus: null,
+  github: null,
+  website: null,
+  email: 'francois.kha@gmail.com'
 }
 
 ];

@@ -14,7 +14,7 @@ var njEvents = [
         time: '19h',
         type: 'quickie',
         intro: null,
-        speakers: null,
+        speakers: ['remi_picard'],
         abstract: "<p>Introduction à GAE par Rémi Picard</p>",
         docs: [
             //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
@@ -62,7 +62,7 @@ var njEvents = [
     time: '19h',
     type: 'quickie',
     intro: null,
-    speakers: null,
+    speakers: ['francois_kha'],
     abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre."
           +   "<p>par François Kha <a href='http://twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
     docs: [
