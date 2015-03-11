@@ -48,6 +48,12 @@ var njEvents = [
               //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
           ]
       }
+  ],
+  docs: [
+    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+    {name: 'Slides d\'intro', url: 'https://docs.google.com/presentation/d/1bOwzcFsAskoVdozoo-ClgLSxK4IDJhlUpPz_hSTl2_Y/edit?usp=sharing', type: 'drive'},
+    {name: 'Restlet', url: 'https://docs.google.com/presentation/d/1PGf2fQMqm4G8ozkW8uLtaZToUM216nK7k0aC6_8_fYw/edit?usp=sharing', type: 'drive'},
+    {name: 'Zenika', url: 'https://docs.google.com/presentation/d/1ndb-d18uvE6Z5I_OrwzTcXCSTUrPTIC9sqNMuEPrSsM/edit?usp=sharing', type: 'drive'}
   ]
 },{
   id: '2015_02_16',
@@ -67,8 +73,7 @@ var njEvents = [
     abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre."
           +   "<p>par François Kha <a href='http://twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
     docs: [
-            {name: 'Les slides', url: 'http://fr.slideshare.net/francoiskha/20150216-quickie-chef-au-jug-nantes', type: 'slideshare'},
-            {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube'}
+            {name: 'Les slides', url: 'http://fr.slideshare.net/francoiskha/20150216-quickie-chef-au-jug-nantes', type: 'slideshare'}
     ]
   },
     {
@@ -87,11 +92,13 @@ var njEvents = [
       	  name: 'Les slides', 
       	  url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug', 
       	  type: 'slideshare'
-      	},
-        {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube'}
+      	}
       ]
     }
-  ]
+  ],
+    docs: [
+      {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube'}
+    ]
 },
   {
     id: '2015_01_27',

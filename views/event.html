@@ -104,12 +104,26 @@
             <span ng-repeat="doc in subject.docs">
               <span ng-if="$index != 0"> - </span>
               <a ng-href="{{doc.url}}" title="{{doc.name}}" target="_blank">
-                {{doc.name}}
                 <span ng-class="'doc-' + doc.type" class="doc" data-toggle="tooltip" title="{{doc.name}}"></span>
+                {{doc.name}}
               </a>
             </span>
           </p>
         </div>
+      </div>
+
+      <!-- DOCS -->
+      <div ng-if="event.docs" class="jug-event-doc">
+        <p>
+          <span class="label label-default label-link">Autres docs</span>
+        </p>
+        <span ng-repeat="doc in event.docs">
+          <span ng-if="$index != 0"> - </span>
+          <a ng-href="{{doc.url}}" title="{{doc.name}}" target="_blank">
+              <span ng-class="'doc-' + doc.type" class="doc" data-toggle="tooltip" title="{{doc.name}}"></span>
+              {{doc.name}}
+          </a>
+        </span>
       </div>
 
       <ng-include src="'views/templates/register.html'"></ng-include>

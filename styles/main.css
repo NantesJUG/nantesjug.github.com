@@ -63,6 +63,10 @@ a {
   color: #ef2b35;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: none;
+}
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
     .nav>li>a {
@@ -425,6 +429,12 @@ fieldset[disabled] .btn-jug.active {
     position: relative;
 }
 
+.label-link {
+    top: -2px;
+    position: relative;
+    background-color: #B0B0B0;
+}
+
 .label-info {
   color:#fff;
   font-weight: bold;
@@ -705,6 +715,10 @@ footer {
   color: #696969;
 }
 .jug-event-detail {
+  margin-bottom: 20px;
+}
+
+.jug-event-doc {
   margin-bottom: 20px;
 }
 .jug-speakers > div {
