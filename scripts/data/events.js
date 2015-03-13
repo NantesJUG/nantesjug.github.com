@@ -32,7 +32,7 @@ var njEvents = [
                   "<p>There will be a quick overview of the Cassandra data model, query language and tooling for developers.</p>" +
                   "<p>Sujet en français</p>",
           docs: [
-              //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+              {name: 'Les slides', url: 'http://www.slideshare.net/doanduyhai/cassandra-introduction-nantesjug', type: 'slideshare'}
           ]
       },
       {
@@ -45,7 +45,7 @@ var njEvents = [
           abstract: "<p>For this session, we'll show some best practices, dig into some nice use-cases seen in production but also the worst anti-patterns to avoid. There will be an interactive demo.</p>" +
                     "<p>Sujet en français</p>",
           docs: [
-              //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+              {name: 'Les slides sur Killrchat', url: 'http://fr.slideshare.net/doanduyhai/killrchat-presentation', type: 'slideshare'}
           ]
       }
   ],
