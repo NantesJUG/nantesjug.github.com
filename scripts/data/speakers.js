@@ -886,6 +886,18 @@ var njSpeakers = [
   github: null,
   website: null,
   email: 'francois.kha@gmail.com'
+},
+{
+  id: 'renan_michaud',
+  name: 'Renan Michaud',
+  bio: '<p>Leader Technique chez VSC Technologies, je m\'occupe notamment d\'aider les équipes de développement de Nantes dans la démarche DevOps et dans la fourniture d\'outils permettant d\'améliorer la démarche Agile au sein des projets.</p>',
+  gravatar: 'renan.michaud@gmail.com',
+  photo: null,
+  twitter: 'renanmichaud',
+  gplus: null,
+  github: null,
+  website: null,
+  email: 'renan.michaud@gmail.com'
 }
 
 ];

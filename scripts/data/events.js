@@ -1,6 +1,48 @@
 /*jshint unused: false */
 var njEvents = [
 {
+  id: '2015_04_16',
+  title: 'Soirée Invoke Dynamite / BDD',
+  date: new Date(2015, 3, 16), //month begin at 0
+  time: '19',
+  register: 'https://guestlistapp.com/events/312915',
+  place: null,
+  subjects: [
+      {
+        title: "BDD & Cucumber: Feature first",
+        length: '30 min',
+        time: '19h',
+        type: 'quickie',
+        intro: null,
+        speakers: ['renan_michaud'],
+        abstract:
+        "<p>Imaginez un projet d’envergure mené en SCRUM avec un backlog constitué d’une multitude d’US plus ou moins organisées. Pensez-vous que ce Backlog ayant l’emprunte forte de la vie courante du BUILD puisse constituer votre référentiel fonctionnel ?" +
+        " Non. L'approche BDD permet d'établir ce référentiel et d'en automatiser la vérification." +
+        " Avec Cucumber, je vous propose de voir comment effectuer cette automatisation autant sur les web services que sur les IHM du poste de développement à la production !.</p>",
+        docs: [
+            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+        ]
+      },
+    {
+      title: 'Let\'s invoke dynamite',
+      length: '1h30',
+      time: '19h30',
+      type: 'talk',
+      intro: null,
+      speakers: ['antoine_sabot_durand'],
+      abstract: "<p>Si l'arrivée d'InvokeDynamic dans Java 7 a marqué un tournant pour la création de langages basés sur la JVM, cette fonctionnalité est restée confidentielle dans l'univers des développeurs de frameworks Java et de Java EE.</p>" +
+      "<p>Dans cette présentation nous reviendrons sur les particularités d'InvokeDynamic et sur sa mise en oeuvre en Java.</p>" +
+      "<p>Ensuite nous verrons comment remplacer le mécanisme de Proxy utilisé dans CDI par des appels InvokeDynamic.</p>" +
+      "<p>Enfin nous expliquerons comment la généralisation d'invokeDynamic pourrait marquer la mort des conteneurs et la fin de Java EE tel que nous le connaissons.</p>",
+      docs: [
+        //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+      ]
+    }
+  ],
+  docs: [
+    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+  ]
+},{
   id: '2015_03_11',
   title: 'Soirée Cassandra / GAE',
   date: new Date(2015, 2, 11),//month begin at 0

@@ -83,7 +83,7 @@ var nj = function () {
     event.gcal = {
       title: encodeURI(event.title),
       date: toGcalDate(from)+'/'+toGcalDate(to),
-      location: encodeURI(event.place.name + ' ' + event.place.address + ' ' + event.place.city)
+      location: event.place ? encodeURI(event.place.name + ' ' + event.place.address + ' ' + event.place.city) : ''
     };
 
   };
