@@ -6,7 +6,7 @@ var njEvents = [
   date: new Date(2015, 3, 16), //month begin at 0
   time: '19',
   register: 'https://guestlistapp.com/events/312915',
-  place: null,
+  place: 'netapsys',
   subjects: [
       {
         title: "BDD & Cucumber: Feature first",
