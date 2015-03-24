@@ -5,7 +5,7 @@ var njEvents = [
   title: 'Soirée Invoke Dynamite / BDD',
   date: new Date(2015, 3, 16), //month begin at 0
   time: '19',
-  register: 'https://guestlistapp.com/events/312915',
+  register: 'https://guestlistapp.com/events/317631',
   place: 'netapsys',
   subjects: [
       {
