@@ -503,8 +503,7 @@ var njSpeakers = [
   {
     id: 'antoine_sabot_durand',
     name: 'Antoine Sabot-Durand',
-    bio: '<p>Consultant et architecte chez Ippon Technologies, Antoine Sabot-Durand a acquis une expertise sur Java EE et plus particulièrement sur EJB 3.X et CDI. Il est l\'auteur de quelques articles ayant alimenté le débat sur les standards et les choix technologiques sur les développements Java comme <a href="http:// blog.ippon.fr/2010/03/30/les-rendez-vous-manques-de-spring" target="_blank">"Les rendez-vous manqués de Spring"</a> ou plus récemment "La guerre de Java n\'aura pas lieu" (http://blog.ippon.fr/2010/11/08/la-guerre-de-java-naura-pas-lieu/)</p>' +
-        '<p>Il est également Technical Leader sur le module Seam Social du projet <a href="http://seamframework.org/Seam3/SocialModule" target="_blank">Open Source Seam 3</a> et membre de l\'expert group sur <a href="http://jcp.org/en/jsr/summary?id=346" target="_blank">CDI 1.1</a>.</p>',
+    bio: 'Après avoir travaillé pendant plus de 15 ans dans différentes société de service en informatique, Antoine est aujourd’hui employé chez Red Hat ou il co-dirige la spécification CDI et est en charge du développement de l’éco-système CDI. Il est également tech lead sur le projet Agorava permettant de développer des applications clientes des principaux réseaux sociaux.',
     gravatar: null,
     photo: 'jpg',
     twitter: null,
