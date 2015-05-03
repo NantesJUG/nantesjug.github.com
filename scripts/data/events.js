@@ -1,6 +1,65 @@
 /*jshint unused: false */
 var njEvents = [
-{
+  {
+    id: '2015_05_11',
+    title: 'Soirée Quickies',
+    date: new Date(2015, 4, 11), //month begin at 0
+    time: '19',
+    register: 'https://guestlistapp.com/events/324039',
+    place: 'epitech',
+    subjects: [
+      {
+        title: "Java 8 en pratique",
+        length: '30 min',
+        time: '19h',
+        type: 'quickie',
+        intro: null,
+        speakers: ['gabriel_landais'],
+        abstract:
+        "<p>Quelques exemples de réécriture de code legacy avec les nouvelles API Java 8.</p>",
+        docs: [
+          //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+        ]
+      },
+      {
+        title: 'Gitflow In Action',
+        length: '30 min',
+        time: '19h30',
+        type: 'quickie',
+        intro: null,
+        speakers: ['cecilia_bossard'],
+        abstract: "<p>Vous cherchez un modèle de gestion des branches pour Git facile et pratique à utiliser ? Vous souhaitez avoir un workflow simple et agile pour gérer vos versions ?</p>" +
+        "<p>Venez jeter un oeil à GitFlow !</p>" +
+        "<p>Je vous présenterai ce workflow qui nous a permis de mieux organiser nos versions et de remplacer SVN par Git sans regret.</p>",
+        docs: [
+          //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+        ]
+      },
+      {
+        title: 'Tips and tricks for clean relational db schemas',
+        length: '45 min',
+        time: '20h',
+        type: 'quickie',
+        intro: null,
+        speakers: ['clement_delafargue'],
+        abstract: "<p>It can be usual for software developers to let the ORM take care of the database schema. In many cases it's a bad idea as it makes the data stored in your database brittle and hard to use confidently. I'll show a few tricks which will help you cleanly store and query data by using your database engine to its full power.</p>" +
+          "<p>In some cases, using an ORM brings more problems than solutions. I'll explore these cases (they are more common than you think) and how to use the freedom given by having complete control over your schema and your queries:" +
+          "<ul>" +
+            "<li>indexes</li>" +
+            "<li>semantic data types</li>" +
+            "<li>query composition</li>" +
+            "<li>window functions</li>" +
+          "</ul>" +
+          "<p>I'll show how to still be efficient and concise when going this path (with Jooq / Slick / Anorm)</p>",
+        docs: [
+          //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+        ]
+      }
+    ],
+    docs: [
+      //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+    ]
+  },{
   id: '2015_04_16',
   title: 'Soirée Invoke Dynamite / BDD',
   date: new Date(2015, 3, 16), //month begin at 0

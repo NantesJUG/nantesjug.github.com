@@ -897,6 +897,32 @@ var njSpeakers = [
   github: null,
   website: null,
   email: 'renan.michaud@gmail.com'
+},
+{
+  id: 'gabriel_landais',
+  name: 'Gabriel Landais',
+  bio: '<p>Lead développeur Java/SIG chez Capgemini, après être passé par de nombreuses autres entreprises.</p>',
+  gravatar: null,
+  photo: 'jpg',
+  twitter: null,
+  gplus: null,
+  github: null,
+  website: null,
+  email: 'gabriel.landais@gmail.com'
+},
+{
+  id: 'clement_delafargue',
+  name: 'Clément Delafargue',
+  bio: "<p>Clément Delafargue est consultant indépendant. Il travaille dans le web depuis 2002. Il est particulièrement intéressé par la programmation fonctionnelle.</p>" +
+    "<p>Passionné par la technique et le développement, il a co-fondé en 2009 Eklaweb, une entreprise de développement sur mesure. Dans ce cadre, il a assemblé une équipe d’ingénieurs et les a formés à la programmation fonctionnelle. Il est désormais consultant indépendant et collabore avec différentes startups dont Clever-Cloud et Sounderbox.</p>" +
+    "<p>En parallèle de son activité professionnelle, il donne des cours de développement, de FP et de CI à l’École Centrale de Nantes et à l’IMIE. Il a créé le Nantes FP, y donne des conférences et fait partie de scala.io</p>",
+  gravatar: null,
+  photo: 'jpg',
+  twitter: null,
+  gplus: null,
+  github: null,
+  website: 'http://clement.delafargue.name',
+  email: null
 }
 
 ];
