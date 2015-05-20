@@ -777,7 +777,7 @@ var njSpeakers = [
         '<p>Après sa retraite de joueur, il va occuper la fonction d\'entraîneur de football dans différents clubs : l\'OM , l\'AS Monaco et la Juventus de Turin.</p>' +
         '<p>Depuis le 8 juillet 2012, Didier Deschamps assume le poste de sélectionneur de l\'équipe de France.</p>',
     gravatar: null,
-    photo: 'jpg',
+    photo: 'jpgser',
     twitter: null,
     gplus:   null,
     github: null,
@@ -918,11 +918,11 @@ var njSpeakers = [
     "<p>En parallèle de son activité professionnelle, il donne des cours de développement, de FP et de CI à l’École Centrale de Nantes et à l’IMIE. Il a créé le Nantes FP, y donne des conférences et fait partie de scala.io</p>",
   gravatar: null,
   photo: 'jpg',
-  twitter: null,
+  twitter: 'clementd',
   gplus: null,
-  github: null,
-  website: 'http://clement.delafargue.name',
-  email: null
+  github: 'divarvel',
+  website: 'http://cltdl.fr/blog',
+  email: 'clement@delafargue.name'
 }
 
 ];

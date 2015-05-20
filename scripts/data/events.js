@@ -32,7 +32,7 @@ var njEvents = [
         "<p>Venez jeter un oeil à GitFlow !</p>" +
         "<p>Je vous présenterai ce workflow qui nous a permis de mieux organiser nos versions et de remplacer SVN par Git sans regret.</p>",
         docs: [
-          //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+          {name: 'Slides', url: 'http://www.slideshare.net/cecilia_bossard/git-flow-in-action', type: 'slideshare'}
         ]
       },
       {
@@ -57,7 +57,7 @@ var njEvents = [
       }
     ],
     docs: [
-      //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+      {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=i4NcsrtZWOA', type: 'youtube'},
     ]
   },{
   id: '2015_04_16',
@@ -190,8 +190,8 @@ var njEvents = [
 "Avec tout ça vous aurez dans vos bagages de quoi gérer des Big projets avec du Big search dedans.</p>",
       docs: [
       	{
-      	  name: 'Les slides', 
-      	  url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug', 
+      	  name: 'Les slides',
+      	  url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug',
       	  type: 'slideshare'
       	}
       ]
