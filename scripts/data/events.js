@@ -1,6 +1,34 @@
 /*jshint unused: false */
 var njEvents = [
   {
+	  id: '2015_06_22',
+	  title: 'L\'expérience utilisateur est importante pour nous',
+	  date: new Date(2015, 5, 22), //month begin at 0
+	  time: '19',
+	  register: '',
+	  place: '',
+	  subjects: [
+	      {
+	        title: "L\'expérience utilisateur est importante pour nous	",
+	        length: '45 min',
+	        time: '19h',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['florence_herrou'],
+	        abstract:
+	        "<p>L'expérience utilisateur est une discipline peu connue et encore très négligée en France, en particulier lors de la conception d'applications métier. " +
+	        "Pourtant, une bonne ergonomie améliore la productivité et facilite l'adoption par les usagers. Dans beaucoup de projets, en particulier en mode agile, " +
+	        "le développeur participe à la définition de l'interface et des fonctionnalités.</p>" +
+	        "<p>Cette conférence le sensibilisera à l'importance de l'expérience utilisateur et lui donnera quelques clés pour savoir comment l'améliorer.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
     id: '2015_05_11',
     title: 'Soirée Quickies',
     date: new Date(2015, 4, 11), //month begin at 0

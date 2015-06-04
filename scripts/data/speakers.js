@@ -923,8 +923,19 @@ var njSpeakers = [
   github: 'divarvel',
   website: 'http://cltdl.fr/blog',
   email: 'clement@delafargue.name'
+},
+{
+	id: 'florence_herrou',
+	name: 'Florence Herrou',
+	bio: '<p>D\'une formation initiale sur le comportement animal, je suis passée en devenant informaticienne au comportement bien plus étrange et déroutant des clients et parfois des utilisateurs. Consultante pour la société Ippon technologies à Nantes depuis 2007, j\'ai pendant ces années effectué de nombreuses (et variées) missions de développement - comprenant souvent des conseils et de l\'accompagnement du client pour créer une application utilisable.</p>',
+	gravatar: null,
+	photo: 'jpg',
+	twitter: null,
+	gplus: null,
+	github: null,
+	website: 'http://blog.ippon.fr/author/florence_herrou/',
+	email: 'fherrou@ippon.fr'
 }
-
 ];
 
 
