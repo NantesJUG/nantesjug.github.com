@@ -2,14 +2,14 @@
 var njEvents = [
   {
 	  id: '2015_06_22',
-	  title: 'L\'expérience utilisateur est importante pour nous',
+	  title: 'Soirée sur l\'importance de l\'UX & sur Meteor.js',
 	  date: new Date(2015, 5, 22), //month begin at 0
 	  time: '19',
 	  register: '',
 	  place: '',
 	  subjects: [
 	      {
-	        title: "L\'expérience utilisateur est importante pour nous	",
+	        title: "L\'expérience utilisateur est importante pour nous",
 	        length: '45 min',
 	        time: '19h',
 	        type: 'talk',
@@ -20,6 +20,20 @@ var njEvents = [
 	        "Pourtant, une bonne ergonomie améliore la productivité et facilite l'adoption par les usagers. Dans beaucoup de projets, en particulier en mode agile, " +
 	        "le développeur participe à la définition de l'interface et des fonctionnalités.</p>" +
 	        "<p>Cette conférence le sensibilisera à l'importance de l'expérience utilisateur et lui donnera quelques clés pour savoir comment l'améliorer.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Full Stack Reactivity avec Meteor.js",
+	        length: '45 min',
+	        time: '19h45',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['anthonny_querouil'],
+	        abstract:
+	        "<p>Vous souhaitez créer des applications réactives et virer vos spinners ? Vous cherchez un environnement de développement javascript efficace ?</p>" +
+	        "<p>Meteor.js est fait pour vous !</p>" +
+	        "<p>Je vous présenterai cet outil et ce qui gravite autour.</p>",
 	        docs: [
 	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
 	        ]
