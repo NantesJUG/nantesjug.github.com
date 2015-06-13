@@ -935,6 +935,17 @@ var njSpeakers = [
 	github: null,
 	website: 'http://blog.ippon.fr/author/florence_herrou/',
 	email: 'fherrou@ippon.fr'
+},{
+    id: 'anthonny_quérouil',
+    name: 'Anthonny Quérouil',
+    bio: '<p>Le jour, je suis développeur indépendant et j’interviens sur les problématiques backend et frontend en utilisant notamment Java et Javascript.</p><p></p><p>Le soir, je contribue à plusieurs projets open sources autour de l’outil Asciidoctor, et je développe HubPress, un outil de blogging basé sur GitHub Pages.</p>',
+    gravatar: 'anthonny.querouil@gmail.com',
+    photo: null,
+    twitter: 'anthonny_q',
+    gplus: null,
+    github: 'https://github.com/anthonny',
+    website: 'http://anthonnyquerouil.fr',
+    email: 'anthonny.querouil@gmail.com'
 }
 ];
 
