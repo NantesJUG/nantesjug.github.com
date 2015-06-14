@@ -21,7 +21,8 @@ var njPlaces = [
     name: 'Netapsys',
     address: '17 Rue Sanlecque',
     city: '44000 Nantes',
-    capacity: 'http://goo.gl/maps/Ctujp'
+    capacity: 'http://goo.gl/maps/Ctujp',
+    capacity: 50
   },
   {
     id: 'sup_info',
@@ -38,5 +39,14 @@ var njPlaces = [
     maps: 'http://goo.gl/maps/DCQ1a',
     twitter: 'EPITECHNantes',
     capacity: 130
+  },
+  {
+    id: 'hub_creatic',
+    name: 'Hub Creatic',
+    address: '6 Rue Rose Dieng-Kuntz',
+    city: '44300 Nantes',
+    maps: 'https://goo.gl/maps/ySfUp',
+    twitter: 'hubcreatic',
+    capacity: 80
   }
 ];

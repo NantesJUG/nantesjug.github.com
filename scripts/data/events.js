@@ -2,14 +2,14 @@
 var njEvents = [
   {
 	  id: '2015_06_22',
-	  title: 'Soirée sur l\'importance de l\'UX & sur Meteor.js',
+	  title: "Soirée sur l'importance de l'UX & sur Meteor.js",
 	  date: new Date(2015, 5, 22), //month begin at 0
 	  time: '19',
-	  register: '',
-	  place: '',
+	  register: 'https://guestlistapp.com/events/333678',
+	  place: 'hub_creatic',
 	  subjects: [
 	      {
-	        title: "L\'expérience utilisateur est importante pour nous",
+	        title: "L'expérience utilisateur est importante pour nous",
 	        length: '45 min',
 	        time: '19h',
 	        type: 'talk',
