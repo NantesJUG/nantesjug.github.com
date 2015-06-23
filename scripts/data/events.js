@@ -35,7 +35,15 @@ var njEvents = [
 	        "<p>Meteor.js est fait pour vous !</p>" +
 	        "<p>Je vous présenterai cet outil et ce qui gravite autour.</p>",
 	        docs: [
-	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	            {
+		        name: 'Les slides',
+		        url: 'http://anthonny.github.io/decks/full-stack-reactivity-avec-meteorjs/',
+		        type: 'html'
+		    },{
+		        name: 'Les sources de Tweetiments',
+		        url: 'https://github.com/anthonny/tweetiments',
+		        type: 'github'
+		    }
 	        ]
 	      }
 	  ],
