@@ -1,6 +1,34 @@
 /*jshint unused: false */
 var njEvents = [
   {
+	  id: '2015_09_24',
+	  title: "Restitution du Hackathon des communautés nantaises de développeurs",
+	  date: new Date(2015, 8, 24), //month begin at 0
+	  time: '19',
+	  register: 'https://guestlistapp.com/events/341355',
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: "Restitution du Hackathon des communautés nantaises de développeurs",
+	        length: '2h',
+	        time: '19h',
+	        type: 'talk',
+	        intro: null,
+	        speakers: [],
+	        abstract:
+	        "<p>Le NantesJUG organise un événement dans le cadre de la Digital Week 2015, le <a href=\"http://www.nantesdigitalweek.com/evenement-2015/hackathon-des-communautes-nantaises-de-developpeurs/\">\"Hackathon des communautés nantaises de développeurs\".</a></p>" +
+	        "<p>Ce hackathon a pour objectif de réunir les différentes communautés de développeurs nantais autour d'un sujet à base d'Open Data de la ville de Nantes. Chaque communauté doit créer une équipe afin de participer.</p>" +
+	        "<p>Le sujet sera communiqué à chaque équipe au début de la Digital Week, le 17/09. Elles auront alors une semaine pour relever le défi.</p>" +
+	        "<p>Lors de la soirée, un jury, composé de membres des différentes communautés, désignera l'équipe gagnante.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
 	  id: '2015_06_22',
 	  title: "Soirée sur l'importance de l'UX & sur Meteor.js",
 	  date: new Date(2015, 5, 22), //month begin at 0
