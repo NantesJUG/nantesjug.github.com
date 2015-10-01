@@ -1,6 +1,48 @@
 /*jshint unused: false */
 var njEvents = [
   {
+	  id: '2015_10_13',
+	  title: "Soirée Reconnaissance d'écriture et Github",
+	  date: new Date(2015, 9, 13), //month begin at 0
+	  time: '19',
+	  register: 'http://guestli.st/346224',
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: "Ajoutez de la reconnaissance d'écriture à votre webapp grâce à Polymer",
+	        length: '30 min',
+	        time: '19h',
+	        type: 'quickie',
+	        intro: null,
+	        speakers: ['pierre_alban_dewitte'],
+	        abstract:
+	        	"<p>MyScript construit une technologie de reconnaissance d'écriture depuis plus de 15 ans. Nous avons récemment ajouté à notre portfolio un composant Polymer permettant d'intégrer très facilement de la reconnaissance d'écriture dans votre webapp.</p>"
+	        	+ "<p>Ce quickie sera d'abord l’occasion de comprendre comment fonctionne la reconnaissance d'écriture grâce au machine learning avec une illustration au travers de plusieurs démonstrations.</p>"
+	        	+ "<p>Ensuite nous expliquerons l'anatomie du composant Polymer de reconnaissance puis lors d'une séance de codage en direct nous intégrerons de la reconnaissance d'expression mathématique dans une webapp.<br><br></p>"
+	        	+ "<p>Venez avec votre téléphone, tablette ou ordinateur portable pour observer Polymer en action.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Stratégies de collaboration avec Git & GitHub",
+	        length: '1h30',
+	        time: '19h30',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['alain_helaili'],
+	        abstract:
+	        	"<p>De nombreuses équipes se contentent de remplacer leur gestionnaire de code source par Git sans vraiment revoir leur mode de collaboration ni exploiter ses possibilités.</p>"
+	        	+ "<p>Il n'y a pas mieux pour se récupérer les contraintes du changement et aucun de ses bénéfices. L'objectif de cette présentation est de passer en revue différents workflows basés sur Git et GitHub, en y incluant des stratégies de code review et des exemples d'outils tiers.</p>"
+	        	+ "<p>Enfin, on verra comment le workflow humain peut se prolonger par un déploiement automatisé bien que pas forcément continu.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  }, {
 	  id: '2015_09_24',
 	  title: "Restitution du Hackathon des communautés nantaises de développeurs",
 	  date: new Date(2015, 8, 24), //month begin at 0
