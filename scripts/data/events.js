@@ -2,7 +2,7 @@
 var njEvents = [
   {
 	  id: '2015_10_13',
-	  title: "Soirée Reconnaissance d'écriture et Github",
+	  title: "Soirée Reconnaissance d'écriture et GitHub",
 	  date: new Date(2015, 9, 13), //month begin at 0
 	  time: '19',
 	  register: 'http://guestli.st/346224',
