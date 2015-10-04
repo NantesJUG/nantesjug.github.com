@@ -196,10 +196,6 @@ section h1, .sponsors-page h1 {
   margin:0 0 20px 0;
   text-align: center;
 }
-.sponsors img {
-    margin: auto;
-    display: block;
-}
 
 footer .line2 {
     line-height: 50px;
@@ -210,10 +206,7 @@ footer .line2 {
 
 /* xs */
 @media (max-width: 767px) {
-  .sponsors img {
-    height: 78px;
-  }
-  .sponsors-silver img, .partners img {
+  .partners img {
     height: 45px;
     margin-bottom: 20px;
   }
@@ -229,10 +222,7 @@ footer .line2 {
 }
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-  .sponsors img {
-    width: 100%;
-  }
-  .sponsors-silver img, .partners img {
+  .partners img {
     width: 125px;
   }
   .partners .partner-big img {
@@ -247,20 +237,11 @@ footer .line2 {
 }
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .sponsors img {
-    width: 100%;
-  }
-  .sponsors-silver img, .partners img {
+  .partners img {
     width: 160px;
   }
   .partners .partner-big img {
     width: 460px;
-  }
-  .sponsors-page .sponsors img {
-    width: 300px;
-  }
-  .sponsors-page .sponsors-silver img {
-    width: 200px;
   }
   .slide .sponsors img {
     width: 100%;
@@ -277,22 +258,13 @@ footer .line2 {
 }
 /* lg */
 @media (min-width: 1200px) {
-  .sponsors img {
-    width: 100%;
-  }
-  .sponsors-silver img, .partners img {
+  .partners img {
     width: 150px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
   .partners .partner-big img {
     width: 500px;
-  }
-  .sponsors-page .sponsors img {
-    width: 350px;
-  }
-  .sponsors-page .sponsors-silver img {
-    width: 250px;
   }
   .slide .sponsors img {
     width: 80%;
