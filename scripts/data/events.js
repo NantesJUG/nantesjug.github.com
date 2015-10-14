@@ -22,6 +22,7 @@ var njEvents = [
 	        	+ "<p>Venez avec votre téléphone, tablette ou ordinateur portable pour observer Polymer en action.</p>",
 	        docs: [
 	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=gUfYJ5CgCA4', type: 'youtube'}
 	        ]
 	      }, {
 	        title: "Stratégies de collaboration avec Git & GitHub",
@@ -36,6 +37,7 @@ var njEvents = [
 	        	+ "<p>Enfin, on verra comment le workflow humain peut se prolonger par un déploiement automatisé bien que pas forcément continu.</p>",
 	        docs: [
 	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=CUsZYzvrKog', type: 'youtube'}
 	        ]
 	      }
 	  ],
