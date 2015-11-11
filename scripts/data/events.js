@@ -1,6 +1,50 @@
 /*jshint unused: false */
 var njEvents = [
   {
+	  id: '2015_11_23',
+	  title: "",
+	  date: new Date(2015, 10, 23), //month begin at 0
+	  time: '19',
+	  register: '',
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: "REX docker sur la mise d'une forge logicielle et ALM",
+	        length: '20 min',
+	        time: '19h',
+	        type: 'quickie',
+	        intro: null,
+	        speakers: ['guillaume_membre'],
+	        abstract:
+	        	"<p>Un petit REX sur la mise en place de Docker pour construire une plateforme de forge logicielle et ALM.</p>"
+				+ "<p>L'idée n'est pas de re-présenter Docker mais plutot ce qui a bien "
+				+ "marché et moins bien sur le déploiement d'une forge logicielle que "
+				+ "j'ai mis en place pour un de mes clients, les difficultés à créér des "
+				+ "images, la facilité à customiser les existantes, le temps passé par "
+				+ "rapport à l'installation directe sur la machine hote...</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Monoliths et Microservices",
+	        length: '1h30 min',
+	        time: '19h30',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['steve_sfartz'],
+	        abstract:
+	        	"<p>Monoliths et Microservices : buzz worlds 2015, il est temps de vous faire un avis sur le sujet.</p>"
+	        	+ "<p>Venez découvrir les microservices, et les outils disponibles pour démarrer. "
+	        	+" Illustrations avec la stack Netflix, quelques retours d'expérience, et une démo de la Gateway Programmatique Kong.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  }, {
 	  id: '2015_10_13',
 	  title: "Soirée Reconnaissance d'écriture et GitHub",
 	  date: new Date(2015, 9, 13), //month begin at 0

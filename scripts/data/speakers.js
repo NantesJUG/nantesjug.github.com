@@ -968,6 +968,28 @@ var njSpeakers = [
 	github: 'https://github.com/padewitte/',
 	website: 'http://padewitte.tumblr.com/',
 	email: 'padewitte@gmail.com'
+}, {
+	id: 'guillaume_membre',
+	name: 'Guillaume Membré',
+	bio: '<p>Developpeur passionné, j\'ai travaille depuis plus de 10 ans dans le monde Java et aime expérimenter des nouvelles technos.</p>',
+	gravatar: null,
+	photo: null,
+	twitter: 'https://twitter.com/guillaumemembre',
+	gplus: null,
+	github: null,
+	website: 'www.monbook.tech',
+	email: 'coliss86@yahoo.fr'
+}, {
+	id: 'steve_sfartz',
+	name: 'Stève Sfartz',
+	bio: '<p>Développeur NeXT à ses premières heures, Stève a vu naître Java, évangélisé les architectures .Net, lancé le Cloud Microsoft Azure, créé le SaaS Kosmos "Education Numérique" et monté la plateforme Restlet APISpark.</p><p>Aujourd\'hui, Stève intervient sur les programmes de transformation digitale des grandes DSI, et conseille les startups dans la structuration de leur R&D. Son dada : les architectures distribuées; interopérabilité, performances et résilience.</p>',
+	gravatar: null,
+	photo: 'png',
+	twitter: '@stevesfartz',
+	gplus: null,
+	github: null,
+	website: null,
+	email: ''
 }
 ];
 
