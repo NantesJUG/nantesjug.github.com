@@ -2,10 +2,10 @@
 var njEvents = [
   {
 	  id: '2015_11_23',
-	  title: "",
+	  title: "REX docker puis Monoliths et Microservices",
 	  date: new Date(2015, 10, 23), //month begin at 0
 	  time: '19',
-	  register: '',
+	  register: 'http://guestli.st/350382',
 	  place: 'epitech',
 	  subjects: [
 	      {
