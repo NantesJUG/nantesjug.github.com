@@ -33,7 +33,7 @@ var njEvents = [
 	        intro: null,
 	        speakers: ['steve_sfartz'],
 	        abstract:
-	        	"<p>Monoliths et Microservices : buzz worlds 2015, il est temps de vous faire un avis sur le sujet.</p>"
+	        	"<p>Monoliths et Microservices : buzz words 2015, il est temps de vous faire un avis sur le sujet.</p>"
 	        	+ "<p>Venez découvrir les microservices, et les outils disponibles pour démarrer. "
 	        	+" Illustrations avec la stack Netflix, quelques retours d'expérience, et une démo de la Gateway Programmatique Kong.</p>",
 	        docs: [
