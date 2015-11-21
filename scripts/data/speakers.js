@@ -977,7 +977,7 @@ var njSpeakers = [
 	twitter: 'guillaumemembre',
 	gplus: null,
 	github: null,
-	website: 'www.monbook.tech',
+	website: 'http://www.monbook.tech',
 	email: 'coliss86@yahoo.fr'
 }, {
 	id: 'steve_sfartz',
