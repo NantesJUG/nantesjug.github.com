@@ -943,7 +943,7 @@ var njSpeakers = [
     photo: null,
     twitter: 'anthonny_q',
     gplus: null,
-    github: 'https://github.com/anthonny',
+    github: 'anthonny',
     website: 'http://anthonnyquerouil.fr',
     email: 'anthonny.querouil@gmail.com'
 }, {
@@ -952,7 +952,7 @@ var njSpeakers = [
 	bio: '<p>L\'un des deux Octocats Français! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j\'ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0 mais je reste à l\'affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce.</p>',
 	gravatar: 'helaili@github.com',
 	photo: null,
-	twitter: '@alainhelaili',
+	twitter: 'alainhelaili',
 	gplus: null,
 	github: 'helaili',
 	website: null,
@@ -963,9 +963,9 @@ var njSpeakers = [
 	bio: '<p>Leader de l\'équipe cloud à MyScript leader dans la reconnaissance d\'écriture. Je suis passionné de développement. De l\'OS à l\'UI j\'aime comprendre et assembler les API pour construire de nouvelles applications. J\'anime la communauté MongoDB à Nantes.</p>',
 	gravatar: null,
 	photo: 'jpg',
-	twitter: 'https://twitter.com/padewitte',
+	twitter: 'padewitte',
 	gplus: null,
-	github: 'https://github.com/padewitte/',
+	github: 'padewitte',
 	website: 'http://padewitte.tumblr.com/',
 	email: 'padewitte@gmail.com'
 }, {
@@ -974,7 +974,7 @@ var njSpeakers = [
 	bio: '<p>Developpeur passionné, j\'ai travaille depuis plus de 10 ans dans le monde Java et aime expérimenter des nouvelles technos.</p>',
 	gravatar: null,
 	photo: null,
-	twitter: 'https://twitter.com/guillaumemembre',
+	twitter: 'guillaumemembre',
 	gplus: null,
 	github: null,
 	website: 'www.monbook.tech',
@@ -985,7 +985,7 @@ var njSpeakers = [
 	bio: '<p>Développeur NeXT à ses premières heures, Stève a vu naître Java, évangélisé les architectures .Net, lancé le Cloud Microsoft Azure, créé le SaaS Kosmos "Education Numérique" et monté la plateforme Restlet APISpark.</p><p>Aujourd\'hui, Stève intervient sur les programmes de transformation digitale des grandes DSI, et conseille les startups dans la structuration de leur R&D. Son dada : les architectures distribuées; interopérabilité, performances et résilience.</p>',
 	gravatar: null,
 	photo: 'png',
-	twitter: '@stevesfartz',
+	twitter: 'stevesfartz',
 	gplus: null,
 	github: null,
 	website: null,
