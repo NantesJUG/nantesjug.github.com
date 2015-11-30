@@ -347,7 +347,7 @@ var njSpeakers = [
   {
     id: 'dimitri_baeli',
     name: 'Dimitri Baeli',
-    bio: 'Dimitri Baeli est en charge de la gestion de la qualité des produits eXo et des pratiques de développement, domaines sur lesquels il s\'est concentré depuis son intégration en 2008 en tant que directeur de l\'utilisabilité. Grâce à ses activités, eXo a généralisé la méthodologie de développement agile Scrum, a amélioré les processus de release et de support et a créé des équipes dédiées à la qualité des builds et des releases. Dimitri est arrivé chez eXo avec 10 années d\'expériences à développer des interfaces hommes machines pour des vendeurs français: Datox (Gestion de contenus web pour les medias), Dotvision (3D et réseaux M2M), Almonde (logiciels pour les banques) et Prima-Solutions (logiciels d\'assurance et modelage UML). Dimitri détient un DEA en interfaces Hommes-Machines de l\'université de Grenoble et un master en sciences de l\'École Nationale Supérieure d\'Informatique et de Mathématiques de Grenoble (ENSIMAG), une des meilleures écoles d\'ingénieur française..',
+    bio: 'Dimitri BAELI baigne dans l\'univers Java depuis plus de 10 ans, sa passion pour les usines logicielles, l\'organisation des développements, et les méthodes agiles ne l\'empêche pas de mettre les mains dans le cambouis et développer des outils utiles aux développeurs.',
     gravatar: 'dbaeli@gmail.com',
     photo: 'jpg',
     twitter: null,

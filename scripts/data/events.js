@@ -1,6 +1,51 @@
 /*jshint unused: false */
 var njEvents = [
   {
+	  id: '2015_12_15',
+	  title: "Livrer chaque jour ce qui est prêt & Continuous Merge avec Git",
+	  date: new Date(2015, 11, 15), //month begin at 0
+	  time: '19',
+	  register: '',
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: "Livrer chaque jour ce qui est prêt",
+	        length: '1h',
+	        time: '19h',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['dimitri_baeli'],
+	        abstract:
+	        	"<p>C\'est une aventure très enrichissante de passer d\'une organisation de type \"éditeur logiciel\" (Cycle Plan/Dev/Recette/Prod) " +
+	        	"avec une release par mois à une organisation non moins solide de type \"Continuous Delivery\" avec une mise en production par jour de " +
+	        	"\"ce qui est prêt\". C\'est pourquoi nous vous proposons de découvrir les moyens techniques et organisationnels en pratique chez LesFurets.com " +
+	        	"pour garantir la qualité tout en diminuant le \"Time To Market\" : déploiement par les devs, travail en feature branches avec un merge continu, " +
+	        	"itérations avec le business, monitoring de prod pour tous, ...</p>" + 
+	        	"<p>Organisation du travail, principes directeurs et pistes à suivre.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Continuous Merge avec Git",
+	        length: '1h',
+	        time: '19h30',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['dimitri_baeli'],
+	        abstract:
+	        	"<p>Partage du fonctionnement de l\'outillage Git chez LesFurets.com. Le \"merge continu\" étend notre intégration continue pour nous permettre" +
+	        	" de gérer au quotidien plus d’une cinquantaine de branches de développement. Détection des conflits, intégration, qualité... " +
+	        	"Venez découvrir comment nous livrons 5 à 20 branches de code en production chaque jour !</p>" + 
+	        	"<p>Présentation beaucoup plus détaillée de notre organisation du code en GIT (feature branching & merge continu)</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
 	  id: '2015_11_23',
 	  title: "REX docker puis Monoliths et Microservices",
 	  date: new Date(2015, 10, 23), //month begin at 0
