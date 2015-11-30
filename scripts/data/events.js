@@ -28,7 +28,7 @@ var njEvents = [
 	      }, {
 	        title: "Continuous Merge avec Git",
 	        length: '1h',
-	        time: '19h30',
+	        time: '20h',
 	        type: 'talk',
 	        intro: null,
 	        speakers: ['dimitri_baeli'],
