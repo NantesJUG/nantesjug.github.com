@@ -23,7 +23,7 @@ var njEvents = [
 				+ "images, la facilité à customiser les existantes, le temps passé par "
 				+ "rapport à l'installation directe sur la machine hote...</p>",
 	        docs: [
-	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
 	        ]
 	      }, {
 	        title: "Monoliths et Microservices",
@@ -37,7 +37,7 @@ var njEvents = [
 	        	+ "<p>Venez découvrir les microservices, et les outils disponibles pour démarrer. "
 	        	+" Illustrations avec la stack Netflix, quelques retours d'expérience, et une démo de la Gateway Programmatique Kong.</p>",
 	        docs: [
-	            //{name: 'Vidéo de la soirée', url: '', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
 	        ]
 	      }
 	  ],
