@@ -5,7 +5,7 @@ var njEvents = [
 	  title: "Livrer chaque jour ce qui est prêt & Continuous Merge avec Git",
 	  date: new Date(2015, 11, 15), //month begin at 0
 	  time: '19',
-	  register: '',
+	  register: 'http://guestli.st/398028',
 	  place: 'epitech',
 	  subjects: [
 	      {
