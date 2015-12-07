@@ -971,9 +971,9 @@ var njSpeakers = [
 }, {
 	id: 'guillaume_membre',
 	name: 'Guillaume Membré',
-	bio: '<p>Developpeur passionné, j\'ai travaille depuis plus de 10 ans dans le monde Java et aime expérimenter des nouvelles technos.</p>',
+	bio: '<p>D&eacute;veloppeur passionn&eacute;, je travaille depuis plus de 10 ans dans le monde Java et aime exp&eacute;rimenter des nouvelles technos.</p>',
 	gravatar: null,
-	photo: null,
+	photo: 'guillaume_membre.jpg',
 	twitter: 'guillaumemembre',
 	gplus: null,
 	github: null,
