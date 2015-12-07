@@ -777,7 +777,7 @@ var njSpeakers = [
         '<p>Après sa retraite de joueur, il va occuper la fonction d\'entraîneur de football dans différents clubs : l\'OM , l\'AS Monaco et la Juventus de Turin.</p>' +
         '<p>Depuis le 8 juillet 2012, Didier Deschamps assume le poste de sélectionneur de l\'équipe de France.</p>',
     gravatar: null,
-    photo: 'jpgser',
+    photo: 'jpg',
     twitter: null,
     gplus:   null,
     github: null,
