@@ -973,7 +973,7 @@ var njSpeakers = [
 	name: 'Guillaume Membré',
 	bio: '<p>D&eacute;veloppeur passionn&eacute;, je travaille depuis plus de 10 ans dans le monde Java et aime exp&eacute;rimenter des nouvelles technos.</p>',
 	gravatar: null,
-	photo: 'guillaume_membre.jpg',
+	photo: 'jpg',
 	twitter: 'guillaumemembre',
 	gplus: null,
 	github: null,
