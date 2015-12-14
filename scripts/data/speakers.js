@@ -990,6 +990,17 @@ var njSpeakers = [
 	github: null,
 	website: null,
 	email: ''
+}, {
+	id: 'geoffrey_berard',
+	name: 'Geoffrey Berard',
+	bio: '<p>Ingénieur R&D ches Les Furets.</p>',
+	gravatar: null,
+	photo: 'jpg',
+	twitter: 'geofberard',
+	gplus: null,
+	github: null,
+	website: null,
+	email: ''
 }
 ];
 

@@ -14,7 +14,7 @@ var njEvents = [
 	        time: '19h',
 	        type: 'talk',
 	        intro: null,
-	        speakers: ['dimitri_baeli'],
+	        speakers: ['dimitri_baeli', 'geoffrey_berard'],
 	        abstract:
 	        	"<p>C\'est une aventure très enrichissante de passer d\'une organisation de type \"éditeur logiciel\" (Cycle Plan/Dev/Recette/Prod) " +
 	        	"avec une release par mois à une organisation non moins solide de type \"Continuous Delivery\" avec une mise en production par jour de " +
@@ -31,7 +31,7 @@ var njEvents = [
 	        time: '20h',
 	        type: 'talk',
 	        intro: null,
-	        speakers: ['dimitri_baeli'],
+	        speakers: ['dimitri_baeli', 'geoffrey_berard'],
 	        abstract:
 	        	"<p>Partage du fonctionnement de l\'outillage Git chez LesFurets.com. Le \"merge continu\" étend notre intégration continue pour nous permettre" +
 	        	" de gérer au quotidien plus d’une cinquantaine de branches de développement. Détection des conflits, intégration, qualité... " +
