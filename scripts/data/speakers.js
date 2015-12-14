@@ -777,7 +777,7 @@ var njSpeakers = [
         '<p>Après sa retraite de joueur, il va occuper la fonction d\'entraîneur de football dans différents clubs : l\'OM , l\'AS Monaco et la Juventus de Turin.</p>' +
         '<p>Depuis le 8 juillet 2012, Didier Deschamps assume le poste de sélectionneur de l\'équipe de France.</p>',
     gravatar: null,
-    photo: 'jpgser',
+    photo: 'jpg',
     twitter: null,
     gplus:   null,
     github: null,
@@ -971,9 +971,9 @@ var njSpeakers = [
 }, {
 	id: 'guillaume_membre',
 	name: 'Guillaume Membré',
-	bio: '<p>Developpeur passionné, j\'ai travaille depuis plus de 10 ans dans le monde Java et aime expérimenter des nouvelles technos.</p>',
+	bio: '<p>D&eacute;veloppeur passionn&eacute;, je travaille depuis plus de 10 ans dans le monde Java et aime exp&eacute;rimenter des nouvelles technos.</p>',
 	gravatar: null,
-	photo: null,
+	photo: 'jpg',
 	twitter: 'guillaumemembre',
 	gplus: null,
 	github: null,
