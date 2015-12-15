@@ -68,14 +68,14 @@ var njSpeakers = [
   },
   {
     id: 'nicolas_deloof',
-    name: 'Nicolas Deloof',
-    bio: '"I\'ve been a Java Architect for 14 years in French IT Services companies. Techno-addict and open-source developer, I joined the Apache Maven team in 2007, focussing on Google Web Toolkit plugin, and later the Jenkins community. With many relations in French Java community, I created BreizhJUG in 2008, Java User Group in Rennes, France. I later founded the BreizhCamp 2 days conference. I have spoken on various conferences about Maven, Continuous Integration and Software Factory. I joined CloudBees to contribute an awesome project : run Java in the cloud, from source code to production."',
+    name: 'Nicolas De Loof',
+    bio: '<p>Hacker at CloudBees</p>',
     gravatar: 'nicolas.deloof@gmail.com',
     photo: null,
     twitter: 'ndeloof',
     gplus: null,
-    github: null,
-    website: null,
+    github: 'ndeloof',
+    website: 'http://blog.loof.fr',
     email: 'nicolas.deloof@gmail.com'
   },
   {
