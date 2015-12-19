@@ -2,7 +2,7 @@
 var njEvents = [
   {
 	  id: '2016_01_19',
-	  title: "Livrer chaque jour ce qui est prêt & Continuous Merge avec Git",
+	  title: "Orchestrating a Continuous Delivery Pipeline with Jenkins and Docker",
 	  date: new Date(2016, 0, 19), //month begin at 0
 	  time: '19',
 	  register: null,
