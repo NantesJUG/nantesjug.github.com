@@ -1,6 +1,44 @@
 /*jshint unused: false */
 var njEvents = [
   {
+	  id: '2016_01_19',
+	  title: "Orchestrating a Continuous Delivery Pipeline with Jenkins and Docker",
+	  date: new Date(2016, 0, 19), //month begin at 0
+	  time: '19',
+	  register: null,
+	  place: 'hub_creatic',
+	  subjects: [
+	      {
+	        title: "Coming soon",
+          length: '30 min',
+	        time: '19h',
+	        type: 'quickie',
+	        intro: null,
+	        speakers: [],
+	        abstract: null,
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Orchestrating a Continuous Delivery Pipeline with Jenkins and Docker",
+	        length: '1h',
+	        time: '19h30',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['nicolas_deloof'],
+	        abstract:
+            "<p>le \"Continuous Delivery\" est un sacré buzz word, et \"Docker\" encore plus, mais les blog que j'ai pu lire sur sujet ne proposent qu'un pipeline naif et minimaliste : compile, test, push docker image, et voilà.</p>" +
+            "<p>En 2015 Jenkins adresse clairement plus que de l'Integration Continue, et avec le support récent du workflow plugin nous pouvons orchestrer avec un DSL des pipelines de grande complexité. L'integration avec Docker lui donne encore plus de puissance.</p>" +
+            "<p>Pendant cette session, je vais construire un pipeline de CD from scratch pour montrer l'utilisation du workflow et sa flexibilité, ainsi que le support de Docker.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
 	  id: '2015_12_15',
 	  title: "Livrer chaque jour ce qui est prêt & Continuous Merge avec Git",
 	  date: new Date(2015, 11, 15), //month begin at 0
@@ -14,13 +52,13 @@ var njEvents = [
 	        time: '19h',
 	        type: 'talk',
 	        intro: null,
-	        speakers: ['dimitri_baeli'],
+	        speakers: ['dimitri_baeli', 'geoffrey_berard'],
 	        abstract:
 	        	"<p>C\'est une aventure très enrichissante de passer d\'une organisation de type \"éditeur logiciel\" (Cycle Plan/Dev/Recette/Prod) " +
 	        	"avec une release par mois à une organisation non moins solide de type \"Continuous Delivery\" avec une mise en production par jour de " +
 	        	"\"ce qui est prêt\". C\'est pourquoi nous vous proposons de découvrir les moyens techniques et organisationnels en pratique chez LesFurets.com " +
 	        	"pour garantir la qualité tout en diminuant le \"Time To Market\" : déploiement par les devs, travail en feature branches avec un merge continu, " +
-	        	"itérations avec le business, monitoring de prod pour tous, ...</p>" + 
+	        	"itérations avec le business, monitoring de prod pour tous, ...</p>" +
 	        	"<p>Organisation du travail, principes directeurs et pistes à suivre.</p>",
 	        docs: [
 	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
@@ -31,11 +69,11 @@ var njEvents = [
 	        time: '20h',
 	        type: 'talk',
 	        intro: null,
-	        speakers: ['dimitri_baeli'],
+	        speakers: ['dimitri_baeli', 'geoffrey_berard'],
 	        abstract:
 	        	"<p>Partage du fonctionnement de l\'outillage Git chez LesFurets.com. Le \"merge continu\" étend notre intégration continue pour nous permettre" +
 	        	" de gérer au quotidien plus d’une cinquantaine de branches de développement. Détection des conflits, intégration, qualité... " +
-	        	"Venez découvrir comment nous livrons 5 à 20 branches de code en production chaque jour !</p>" + 
+	        	"Venez découvrir comment nous livrons 5 à 20 branches de code en production chaque jour !</p>" +
 	        	"<p>Présentation beaucoup plus détaillée de notre organisation du code en GIT (feature branching & merge continu)</p>",
 	        docs: [
 	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
