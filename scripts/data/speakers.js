@@ -1007,7 +1007,7 @@ var njSpeakers = [
     name: "Laurent Maillet",
     bio: "<p>Consultant pour l’agence Zenika Nantes, j'interviens sur des missions de conception et réalisation d'applications Java et Web, de mise en place de socle technique et d’intégration continue. Je suis également formateur, entre autres, sur Javascript et Angular.</p>",
     gravatar: null,
-    photo: "https://pbs.twimg.com/profile_images/591212963563962368/juZVUTvj.png",
+    photo: "png",
     twitter: "nebounet",
     gplus: null,
     github: "Nebulis",

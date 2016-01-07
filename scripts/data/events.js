@@ -9,13 +9,15 @@ var njEvents = [
 	  place: 'hub_creatic',
 	  subjects: [
 	      {
-	        title: "Coming soon",
-          length: '30 min',
+	        title: "What\'s new in Java 9",
+            length: '30 min',
 	        time: '19h',
 	        type: 'quickie',
 	        intro: null,
-	        speakers: [],
-	        abstract: null,
+	        speakers: ['laurent_maillet'],
+	        abstract: "Java 8 est sorti depuis près de deux ans. "+
+	 				  "Alors qu\'Oracle avait avancé un rythme de release de version majeurs tous les deux ans, qu\'en est-il réellement ? "+
+					  "Java 9 s\'annonce-t-il aussi riche que l\'a pu être son prédécesseur ? Je vous propose un tour d'horizon de l\'avancée de Java 9 et de ces nouveautés.",
 	        docs: [
 	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
 	        ]
