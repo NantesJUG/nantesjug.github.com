@@ -541,7 +541,7 @@ var njSpeakers = [
   {
     id: 'hugo_wood',
     name: 'Hugo Wood',
-    bio: 'Programmeur autodidacte depuis 10 ans, petit nouveau dans l\'industrie, je suis développeur chez Sopra Group.',
+    bio: 'Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n\'ai de cesse d\'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J\'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m\'accaparent: je suis consultant et formateur chez Zenika. Enfin, j\'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c\'est Python 3.',
     gravatar:   'hx4.5@free.fr',
     photo: null,
     twitter: 'mercury_wood',
