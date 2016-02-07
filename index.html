@@ -84,11 +84,21 @@
 
 
 <div class="container">
+
+	<!-- Devoxx france  banner-->
+    <div class="col-xs-12 col-sm-4 col-sm-offset-3" ng-if="showLayout()">
+ 	        <a href="http://www.devoxx.fr" target="_blank" title="Devoxx France 2016">
+ 	            <img src="images/specials/devoxx-france-2016.png" alt="Devoxx Freance 2016" title="Devoxx Freance 2016" width="450"><br/><br/>
+ 	        </a>
+     </div>
+	<!-- / Devoxx france  banner-->
+	
 	<div class="row layout" ng-if="showLayout()">
 		<div class="jug-logo pull-right">
 			<img class="img-responsive" src="images/site/logo-rond-bleu-transparent.png" alt="Nantes Java User Group">
 		</div>
 	</div>
+
 
 	<div ui-view></div>
 
