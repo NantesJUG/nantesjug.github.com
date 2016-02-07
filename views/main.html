@@ -4,13 +4,29 @@
 <div class="row" ng-show="nextNextEvents">
   <div class="col-md-12">
     <div class="well">
-      <h2>Autres événements</h2>
-      <h3>Jug de Nantes</h3>
+      <h2>Prochaines Soirées</h2>
       <ul>
-        <li ng-repeat="event in nextNextEvents">
-          <a ng-href="#/events/{{event.id}}">
-            {{event.date | date:'longDate'}} - {{event.title}}
-          </a>
+        <li ng-repeat="event in nextNextEvents" style="list-style: none">
+          <h1>
+            <a ng-href="#/events/{{event.id}}">{{event.title}}</a>
+          </h1>
+          <h2 class="soiree_date">
+            Le {{event.date | date:'longDate'}} à {{event.time}}h à {{event.place.name}}
+          </h2>
+          <div class="jug-subject hidden-xs hidden-sm" ng-repeat="subject in event.subjects">
+
+          <p>
+            <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
+            <strong>{{subject.title}}</strong> {{subject.intro}}
+            <span ng-if="subject.speakers">
+            (
+            <span ng-repeat="speaker in subject.speakers">
+              <span ng-if="$index != 0"> - </span>
+              <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
+            </span>
+            )
+            </span>
+          </p>
         </li>
       </ul>
     </div>
