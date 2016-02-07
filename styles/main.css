@@ -7,6 +7,11 @@ body {
   background: url('../images/site/wordle.png') repeat-x;
   background-position-y: 40px;
 }
+
+.container {
+  position: relative;
+}
+
 h1 {
   color: #ef2b35;
   font-weight: 300;
@@ -286,21 +291,20 @@ footer .line2 {
     position: relative;
     z-index: 1050;
 }
-.jug-logo img {
-  float: left;
-  margin: -40px 10px 20px 0;
-  position: relative;
+.jug-logo {
+  position: absolute;
+  right: 0;
+  top: -40px;
   z-index: 1050;
 }
+
 /* xs */
 @media (max-width: 767px) {
   .jug-logo {
     width: 50px;
     height: 5px;
-  }
-  .jug-logo img {
-    margin-left: -70px;
-    margin-top: -52px;
+    top: -52px;
+    right: 70px;
   }
 }
 /* sm */
@@ -322,9 +326,7 @@ footer .line2 {
   .jug-logo {
     width: 200px;
     height: 90px;
-  }
-  .jug-logo img {
-    margin-top: -45px;
+    top: -45px;
   }
 }
 .span3 {
