@@ -1013,6 +1013,47 @@ var njSpeakers = [
     github: "Nebulis",
     website: null,
     email: "nebounet@gmail.com"
+},
+{
+    id: 'guillaume_blondeau',
+    name: 'Guillaume Blondeau',
+    bio: '<p>Guillaume est "Technical Detective" chez <a href="https://restlet.com" target="_blank">Restlet</a> où il touche à tout, du dev front à l\'automatisation d\'infrastructure. </p>' +
+        '<p>Il aime surtout résoudre des problèmes et s\'amuser à découvrir des technos sympas qui simplifient la vie.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'guiblondeau',
+    gplus: null,
+    github: 'guiblondeau',
+    website: null,
+    email: 'blondeau.gui@gmail.com'
+},
+{
+    id: 'mathieu_ancelin',
+    name: 'Mathieu Ancelin',
+    bio: '<p>Mathieu ANCELIN est développeur à SERLI, spécialisé dans la programmation web et les frameworks web modernes avec un bon background autour des technologies Scala/Java.</p>' +
+      '<p>Mathieu est impliqué dans plusieurs projets open-source et en lead également quelques un comme ReactiveCouchbase.</p>' +
+        '<p>Il fait partie de l\'équipe du Poitou-Charentes JUG.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'trevorreznik',
+    gplus: null,
+    github: 'mathieuancelin',
+    website: 'http://reactivecouchbase.org/',
+    email: 'mathieu.ancelin@gmail.com'
+},
+{
+    id: 'clement_escoffier',
+    name: 'Clement Escoffier',
+    bio: '<p>Qui suis-je ? Bonne question.<br> J\'ai été chercheur à l’université de Grenoble, architecte chez Axway, directeur de l\'innovation dans une boite allemande.... <br>Actuellement je suis core developer sur vert.x, et je travaille pour Red Hat.</p>' +
+      '<p>J\’ai touché à beaucoup de domaines: OSGi, mobile, continuous delivery, devops, HTML5… Mon but ? Fournir des outils, des méthodes pour rendre le développement plus efficace mais également plus agréable et plus fun. </p>' +
+      '<p>Je suis un contributeur actif sur de nombreux projets Open Source comme Apache Felix, iPOJO, Wisdom Framework et bien évidement vert.x.</p>',
+    gravatar: 'clement.escoffier@gmail.com',
+    photo: null,
+    twitter: 'clementplop',
+    gplus: null,
+    github: 'cescoffier',
+    website: 'http://escoffier.me',
+    email: 'clement@apache.org'
 }
 ];
 

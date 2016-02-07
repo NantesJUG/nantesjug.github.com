@@ -1,6 +1,117 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2016_03_02',
+	  title: "Vert.X",
+	  date: new Date(2016, 2, 2), //month begin at 0
+	  time: '19',
+	  register: null,
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: "Vert.x - Sprechen vous reactive fanta'stico ?",
+          length: '1h30 min',
+	        time: '19h',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['clement_escoffier'],
+	        abstract:
+            "<p>Vous devez bâtir une application qui passe à l’échelle, à base de micro-services ou plus classique, tolérante aux pannes, mais vous ne savez pas par ou commencer ? La seule chose dont vous avez besoin est un fichier jar et d’une machine virtuelle java.</p>" +
+            "<p>Vert.x 3 est une librairie pour créer des systèmes réactifs s’exécutant sur une machine virtuelle Java. Vert.x 3 offre une nouvelle manière d’implémenter des applications concurrentes,scalables et tolérantes aux fautes. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuées en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon.  Vert.x 3 permet également d’intégrer des applications \"non-vert.x\" tel que node.js, .NET ou C.</p>" +
+            "<p>Cette présentation introduit les concepts clés de Vert.x and comment vous pouvez utiliser Vert.x dans votre prochain projet. Cette session explique les systèmes réactifs, la programmation réactive (attention c’est pas la meme chose), comment le modèle de programmation asynchrone proposé par Vert.x vous permet de construire facilement des applications concurrentes et pourquoi c’est fait ainsi. Nous verrons également le passage a l’échelle, la tolérance aux pannes, les perfs, le monitoring et les composants clés de l’éco-système Vert.x…</p>",            
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
+    id: '2016_02_25',
+	  title: "Infrastructure automation & React",
+	  date: new Date(2016, 1, 25), //month begin at 0
+	  time: '19',
+	  register: null,
+	  place: 'hub_creatic',
+	  subjects: [
+	      {
+	        title: "Why do you need to automate your infrastructure?",
+          length: '40 min',
+	        time: '19h',
+	        type: 'quickie',
+	        intro: null,
+	        speakers: ['guillaume_blondeau'],
+	        abstract: '<p>Dans cette présentation je ferai un retour d\'expérience sur la gestion d\'infrastructure.</p>' +
+          '<p>Nous verrons comment nous sommes passés d\'une application hébergée sur Amazon Web Services (AWS) et gérée "à la main" à une solution complétement automatisée, du provisionnement au déploiement.</p>' +
+          '<p>Ce sera l\'occasion de parler des problématiques, des solutions et de présenter <a href="http://www.ansible.com/" target="_blank">Ansible</a>, l\'outil d\'automatisation que nous avons utilisé.</p>',
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Let's React",
+	        length: '1h20',
+	        time: '19h40',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['mathieu_ancelin'],
+	        abstract:
+            '<p>React est une librairie JavaScript développée par Facebook pour créer facilement des interfaces graphiques. La particularité de React vient de son modèle de programmation orienté composant et de sa façon de décrire les vues de ces composants. Contrairement à d\'autres librairies, ici pas de templates et de pseudo code, React permet d\'utiliser la pleine expressivité de JavaScript et de bénéficier de tout l\'écosystème Javascript et de toutes les features du langage, notamment tous les goodies apportés par ES2015.</p>' +
+            '<p>Durant cette session orientée live coding, nous verrons comment utiliser React pour créer des composants graphiques dans le cadre d\'applications web et d\'applications mobiles natives grâce à React Native.</p>',
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
+	  id: '2015_12_15',
+	  title: "Livrer chaque jour ce qui est prêt & Continuous Merge avec Git",
+	  date: new Date(2015, 11, 15), //month begin at 0
+	  time: '19',
+	  register: 'http://guestli.st/398028',
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: "Livrer chaque jour ce qui est prêt",
+	        length: '1h',
+	        time: '19h',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['dimitri_baeli', 'geoffrey_berard'],
+	        abstract:
+	        	"<p>C\'est une aventure très enrichissante de passer d\'une organisation de type \"éditeur logiciel\" (Cycle Plan/Dev/Recette/Prod) " +
+	        	"avec une release par mois à une organisation non moins solide de type \"Continuous Delivery\" avec une mise en production par jour de " +
+	        	"\"ce qui est prêt\". C\'est pourquoi nous vous proposons de découvrir les moyens techniques et organisationnels en pratique chez LesFurets.com " +
+	        	"pour garantir la qualité tout en diminuant le \"Time To Market\" : déploiement par les devs, travail en feature branches avec un merge continu, " +
+	        	"itérations avec le business, monitoring de prod pour tous, ...</p>" +
+	        	"<p>Organisation du travail, principes directeurs et pistes à suivre.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }, {
+	        title: "Continuous Merge avec Git",
+	        length: '1h',
+	        time: '20h',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['dimitri_baeli', 'geoffrey_berard'],
+	        abstract:
+	        	"<p>Partage du fonctionnement de l\'outillage Git chez LesFurets.com. Le \"merge continu\" étend notre intégration continue pour nous permettre" +
+	        	" de gérer au quotidien plus d’une cinquantaine de branches de développement. Détection des conflits, intégration, qualité... " +
+	        	"Venez découvrir comment nous livrons 5 à 20 branches de code en production chaque jour !</p>" +
+	        	"<p>Présentation beaucoup plus détaillée de notre organisation du code en GIT (feature branching & merge continu)</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
 	  id: '2016_01_19',
 	  title: "Orchestrating a Continuous Delivery Pipeline with Jenkins and Docker",
 	  date: new Date(2016, 0, 19), //month begin at 0
