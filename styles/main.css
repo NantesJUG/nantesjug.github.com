@@ -8,6 +8,23 @@ body {
   background-position-y: 40px;
 }
 
+@media print {
+  body {
+    padding-top: 5px;
+  }
+
+  .sponsors div {
+    width: 25%;
+  }
+  .sponsors-silver div {
+    width: 16.66666667%;
+  }
+
+  footer {
+    display: none;
+  }
+}
+footer{margin-bottom: 1000px;}
 .container {
   position: relative;
 }
@@ -329,6 +346,20 @@ footer .line2 {
     top: -45px;
   }
 }
+
+@media print {
+  .jug-logo {
+    position: relative;
+    float: right;
+    right: 0;
+    top: 0;
+  }
+  .jug-logo img {
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+}
+
 .span3 {
   width: 190px !important;
 }

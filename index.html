@@ -81,13 +81,15 @@
 
   </div>
 </div>
-
-
 <div class="container">
 
   <div class="row layout" ng-if="showLayout()">
-    <div class="jug-logo">
-      <img class="img-responsive" src="images/site/logo-rond-bleu-transparent.png" alt="Nantes Java User Group">
+
+    <div class="col-xs-12">
+      <span class="visible-print" style="font-size: xx-large;">Nantes JUG</span>
+      <div class="jug-logo">
+        <img class="img-responsive" src="images/site/logo-rond-bleu-transparent.png" alt="Nantes Java User Group">
+      </div>
     </div>
 
     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 hidden-print">
@@ -110,7 +112,7 @@
 
 <footer class="layout" ng-if="showLayout()">
   <div class="container">
-    <div class="subscribe">
+    <div class="subscribe hidden-print">
       Pour être informé des prochaines soirées du Nantes JUG, inscrivez-vous à la
       <a href="https://groups.google.com/forum/#!forum/nantesjug" target="_blank">mailing list</a> :
       <form action="http://groups.google.com/group/nantesjug/boxsubscribe" target="_blank">
@@ -118,18 +120,17 @@
       </form>
     </div>
     <div class="row line2">
-        <div class="col-sm-12 col-md-6 twitter">
-            Suivez-nous sur <a class="btn-twitter" title="@nantesjug" href="https://twitter.com/nantesjug" target="_blank">@nantesjug</a>
-        </div>
-        <div class="col-sm-12 col-md-6 coffee">
-            <a href="http://www.coffeeshopnantes.fr/" target="_blank" title="92.5 Coffee">92.5 Coffee</a> - Fournisseur officiel de café
-            <a href="http://www.coffeeshopnantes.fr/" target="_blank" title="92.5 Coffee">
-                <img class="coffee-nantes" src="images/sponsors/coffee_nantes.png" alt="92.5 Coffee" title="92.5 Coffee">
-            </a>
-        </div>
+      <div class="col-sm-12 col-md-6 twitter">
+          Suivez-nous sur <a class="btn-twitter" title="@nantesjug" href="https://twitter.com/nantesjug" target="_blank">@nantesjug</a>
+      </div>
+      <div class="col-sm-12 col-md-6 coffee">
+        <a href="http://www.coffeeshopnantes.fr/" target="_blank" title="92.5 Coffee">92.5 Coffee</a> - Fournisseur officiel de café
+        <a href="http://www.coffeeshopnantes.fr/" target="_blank" title="92.5 Coffee">
+          <img class="coffee-nantes" src="images/sponsors/coffee_nantes.png" alt="92.5 Coffee" title="92.5 Coffee">
+        </a>
+      </div>
     </div>
   </div>
-
 </footer>
 
 <!-- dev/offline dependencies -->

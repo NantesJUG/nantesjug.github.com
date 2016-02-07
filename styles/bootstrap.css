@@ -1,6 +1,6 @@
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+ * Copyright 2011-2016 [object Object]
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -193,21 +193,9 @@ th {
   *,
   *:before,
   *:after {
-    color: #000 !important;
     text-shadow: none !important;
-    background: transparent !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
   }
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
@@ -215,8 +203,6 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
-
     page-break-inside: avoid;
   }
   thead {
@@ -225,9 +211,6 @@ th {
   tr,
   img {
     page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
   }
   p,
   h2,
@@ -239,29 +222,11 @@ th {
   h3 {
     page-break-after: avoid;
   }
-  select {
-    background: #fff !important;
-  }
   .navbar {
     display: none;
   }
-  .btn > .caret,
-  .dropup > .btn > .caret {
-    border-top-color: #000 !important;
-  }
-  .label {
-    border: 1px solid #000;
-  }
   .table {
     border-collapse: collapse !important;
-  }
-  .table td,
-  .table th {
-    background-color: #fff !important;
-  }
-  .table-bordered th,
-  .table-bordered td {
-    border: 1px solid #ddd !important;
   }
 }
 @font-face {
