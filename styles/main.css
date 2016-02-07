@@ -542,6 +542,9 @@ img.sponsors-type {
 .inscription-missing {
   color: #ef2b35;
 }
+.soiree_date {
+  margin-top: 0;
+}
 .soiree_description {
   margin: 35px 0 0 0;
 }

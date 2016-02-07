@@ -1,5 +1,5 @@
 <div class="row" ng-if="!event">
-  <div class="col-md-12">
+  <div class="col-xs-12">
     <div class="well">
       <div class="text-center">
          <!-- At work -->
@@ -22,24 +22,23 @@
 </div>
 
 <div class="row" ng-if="event">
-  <div class="col-md-12">
+  <div class="col-xs-12">
     <div class="well">
+      <div>
+        <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
+      </div>
+
       <div class="row">
-        <div class="col-xs-12 col-md-7 jug-short-description">
-
-          <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
-
+        <div class="col-md-7 jug-short-description">
           <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{event.old_time}}h</span> {{event.time}}h</h2>
-
           <ng-include src="'views/templates/register.html'"></ng-include>
+          <div class="jug-subject hidden-xs hidden-sm" ng-repeat="subject in event.subjects">
 
-          <div class="jug-subject" ng-repeat="subject in event.subjects">
-
-            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <div class="col-md-2 col-lg-2">
               <span class="label label-talk-type">{{subject.type}}</span>
             </div>
 
-            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            <div class="col-md-10 col-lg-10">
               <p>
                 <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
                 <strong>{{subject.title}}</strong> {{subject.intro}}
@@ -61,7 +60,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-md-5 jug-event-location">
+        <div class="col-md-5 jug-event-location">
           <div class="jug-event-location-address">
             <a ng-href="{{event.place.maps}}" target="_blank">
               <img src="/images/location.png" alt="Lieu">
@@ -75,18 +74,18 @@
               </address>
             </a>
           </div>
-          <a ng-href="{{event.place.maps}}" ng-if="event.place" target="_blank">
-            <img ng-src="{{getEventPlaceUrl(event)}}" ng-class="{'hidden-xs': event.date < today, 'hidden-sm': event.date < today}" alt="{{event.place.name}}" class="img-polaroid img-responsive"/>
-          </a>
-
-          <div class="clearfix"></div>
+          <div class="hidden-xs hidden-sm">
+            <a ng-href="{{event.place.maps}}" ng-if="event.place" target="_blank">
+              <img ng-src="{{getEventPlaceUrl(event)}}" alt="{{event.place.name}}" class="img-polaroid img-responsive"/>
+            </a>
+          </div>
         </div>
 
       </div>
 
       <div class="row">
         <!-- SUBJECT-->
-        <div ng-repeat="subject in event.subjects" class="col-md-12 jug-event-detail">
+        <div ng-repeat="subject in event.subjects" class="col-xs-12 jug-event-detail">
           <p>
               <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
               <strong>{{subject.title}}</strong>
