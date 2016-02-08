@@ -5,7 +5,7 @@ var njEvents = [
 	  title: "Vert.X",
 	  date: new Date(2016, 2, 2), //month begin at 0
 	  time: '19',
-	  register: null,
+	  register: 'http://guestli.st/404760',
 	  place: 'epitech',
 	  subjects: [
 	      {
@@ -32,7 +32,7 @@ var njEvents = [
 	  title: "Infrastructure automation & React",
 	  date: new Date(2016, 1, 25), //month begin at 0
 	  time: '19',
-	  register: null,
+	  register: 'http://guestli.st/404751',
 	  place: 'hub_creatic',
 	  subjects: [
 	      {
