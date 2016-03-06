@@ -5,7 +5,7 @@ var njEvents = [
 	  title: "Soirée Sécurité des applications Java",
 	  date: new Date(2016, 2, 17), //month begin at 0
 	  time: '19',
-	  register: null,
+	  register: 'http://guestli.st/409116',
 	  place: 'epitech',
 	  subjects: [
 	      {
