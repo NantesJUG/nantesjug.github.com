@@ -1074,7 +1074,7 @@ var njSpeakers = [
     bio: '<p>Consultant en sécurité informatique (pentesteur) reconverti dans l\'éducation. Actuellement Directeur Pédagodique Adjoint à l\'EPITECH Nantes, en charge du module Sécurité Web au niveau national.</p>',
     gravatar: null,
     photo: null,
-    twitter: '@marclebrun',
+    twitter: 'marclebrun',
     gplus: null,
     github: null,
     website: null,
