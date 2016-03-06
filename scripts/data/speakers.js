@@ -56,8 +56,8 @@ var njSpeakers = [
     id: 'manuel_boillod',
     name: 'Manuel Boillod',
     bio: '<p>Manuel Boillod est architecte et responsable de développements au sein des équipes R&D <a href="http://restlet.com/" target="_blank">Restlet</a>.</p>' +
-	'<p>Ses diverses expériences pour des grands comptes ou pour des startups et dans le service, lui ont permis d\'appréhender de nombreuses technologies : Java, Javascript, Web, NoSQL…</p>' +
-	'<p>Manuel est également leader du <a href="http://nantesjug.org/" target="_blank">Nantes JUG</a> et aime échanger autour des projets et technologies innovantes.</p>',
+    '<p>Ses diverses expériences pour des grands comptes ou pour des startups et dans le service, lui ont permis d\'appréhender de nombreuses technologies : Java, Javascript, Web, NoSQL…</p>' +
+    '<p>Manuel est également leader du <a href="http://nantesjug.org/" target="_blank">Nantes JUG</a> et aime échanger autour des projets et technologies innovantes.</p>',
     gravatar: 'boillodmanuel@gmail.com',
     photo: null,
     twitter: 'mboillod',
@@ -669,17 +669,17 @@ var njSpeakers = [
     id: 'laurent_guerin',
     name: 'Laurent Guerin',
     bio: "Specialized in Java and Web technologies with over 20 years of experience in the areas of databases, object development, code generation and project management."+
-		 "<ul>"+
-		 "<li>Senior Consultant</li>"+
-		 "<li>Java expert</li>"+
-		 "<li>Skill group manager</li>"+
-		 "<li>Technical evangelist</li>"+
-		 "<li>Part time professor ( University of Nantes )</li>"+
-		 "<li>OW2 member</li>"+
-		 "<li>Telosys project leader</li>"+
-		 "<li>Lecturer (Devoxx, MDDay, Open World Forum, … )</li>"+
-		 "<li>Certified Scrum Master</li>"+
-		 "</ul>",
+         "<ul>"+
+         "<li>Senior Consultant</li>"+
+         "<li>Java expert</li>"+
+         "<li>Skill group manager</li>"+
+         "<li>Technical evangelist</li>"+
+         "<li>Part time professor ( University of Nantes )</li>"+
+         "<li>OW2 member</li>"+
+         "<li>Telosys project leader</li>"+
+         "<li>Lecturer (Devoxx, MDDay, Open World Forum, … )</li>"+
+         "<li>Certified Scrum Master</li>"+
+         "</ul>",
     gravatar: null,
     photo: 'jpg',
     twitter: 'ltguerin',
@@ -692,9 +692,9 @@ var njSpeakers = [
     id: 'benoit_wilcox',
     name: 'Benoit Wilcox',
     bio:  "<p>Benoit Wilcox has been working in IT for 12 years, occupying different positions such as developer, integrator, technical manager and architect, dealing with a large range of technologies which has given him a rich and heterogeneous culture (Java, .Net, functional languages, scrum master, SIG).</p> "+
-	 	  "<p>For 3 years he’s been focused on Agile methods integration in companies, aiming at accompanying people and projects all along their transformation towards agile methods and to ensure the agile architecture of a project.</p> "+
-		  "<p>Besides his role as an applicative architect, his expertise also reaches the Scrum and XP methods and, in more technical terms, all developments lead by tests and behaviors (TDD, BDD) as well as ongoing integration.</p> "+
-		  "<p>Benoit is passionate about his work. He contributes to several projects i.e., Telosys Tools, Virtual Brown Paper and runs a personal blog around development and agile.</p> ",
+           "<p>For 3 years he’s been focused on Agile methods integration in companies, aiming at accompanying people and projects all along their transformation towards agile methods and to ensure the agile architecture of a project.</p> "+
+          "<p>Besides his role as an applicative architect, his expertise also reaches the Scrum and XP methods and, in more technical terms, all developments lead by tests and behaviors (TDD, BDD) as well as ongoing integration.</p> "+
+          "<p>Benoit is passionate about his work. He contributes to several projects i.e., Telosys Tools, Virtual Brown Paper and runs a personal blog around development and agile.</p> ",
     gravatar: null,
     photo: 'jpg',
     twitter: 'WilcoxBenoit',
@@ -925,16 +925,16 @@ var njSpeakers = [
   email: 'clement@delafargue.name'
 },
 {
-	id: 'florence_herrou',
-	name: 'Florence Herrou',
-	bio: '<p>D\'une formation initiale sur le comportement animal, je suis passée en devenant informaticienne au comportement bien plus étrange et déroutant des clients et parfois des utilisateurs. Consultante pour la société Ippon technologies à Nantes depuis 2007, j\'ai pendant ces années effectué de nombreuses (et variées) missions de développement - comprenant souvent des conseils et de l\'accompagnement du client pour créer une application utilisable.</p>',
-	gravatar: null,
-	photo: 'jpg',
-	twitter: null,
-	gplus: null,
-	github: null,
-	website: 'http://blog.ippon.fr/author/florence_herrou/',
-	email: 'fherrou@ippon.fr'
+    id: 'florence_herrou',
+    name: 'Florence Herrou',
+    bio: '<p>D\'une formation initiale sur le comportement animal, je suis passée en devenant informaticienne au comportement bien plus étrange et déroutant des clients et parfois des utilisateurs. Consultante pour la société Ippon technologies à Nantes depuis 2007, j\'ai pendant ces années effectué de nombreuses (et variées) missions de développement - comprenant souvent des conseils et de l\'accompagnement du client pour créer une application utilisable.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: 'http://blog.ippon.fr/author/florence_herrou/',
+    email: 'fherrou@ippon.fr'
 },{
     id: 'anthonny_querouil',
     name: 'Anthonny Quérouil',
@@ -947,60 +947,60 @@ var njSpeakers = [
     website: 'http://anthonnyquerouil.fr',
     email: 'anthonny.querouil@gmail.com'
 }, {
-	id: 'alain_helaili',
-	name: 'Alain Hélaïli',
-	bio: '<p>L\'un des deux Octocats Français! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j\'ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0 mais je reste à l\'affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce.</p>',
-	gravatar: 'helaili@github.com',
-	photo: null,
-	twitter: 'alainhelaili',
-	gplus: null,
-	github: 'helaili',
-	website: null,
-	email: 'helaili@github.com'
+    id: 'alain_helaili',
+    name: 'Alain Hélaïli',
+    bio: '<p>L\'un des deux Octocats Français! Arrivé chez GitHub après être passé chez MongoDB, dynaTrace et BEA, j\'ai démarré Linux avec le kernel 0.9 et Java avec le JDK 1.0 mais je reste à l\'affut des nouveautés technologiques et toujours curieux de la manière dont elles sont utilisées par les membres de mon espèce.</p>',
+    gravatar: 'helaili@github.com',
+    photo: null,
+    twitter: 'alainhelaili',
+    gplus: null,
+    github: 'helaili',
+    website: null,
+    email: 'helaili@github.com'
 }, {
-	id: 'pierre_alban_dewitte',
-	name: 'Pierre-Alban Dewitte',
-	bio: '<p>Leader de l\'équipe cloud à MyScript leader dans la reconnaissance d\'écriture. Je suis passionné de développement. De l\'OS à l\'UI j\'aime comprendre et assembler les API pour construire de nouvelles applications. J\'anime la communauté MongoDB à Nantes.</p>',
-	gravatar: null,
-	photo: 'jpg',
-	twitter: 'padewitte',
-	gplus: null,
-	github: 'padewitte',
-	website: 'http://padewitte.tumblr.com/',
-	email: 'padewitte@gmail.com'
+    id: 'pierre_alban_dewitte',
+    name: 'Pierre-Alban Dewitte',
+    bio: '<p>Leader de l\'équipe cloud à MyScript leader dans la reconnaissance d\'écriture. Je suis passionné de développement. De l\'OS à l\'UI j\'aime comprendre et assembler les API pour construire de nouvelles applications. J\'anime la communauté MongoDB à Nantes.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'padewitte',
+    gplus: null,
+    github: 'padewitte',
+    website: 'http://padewitte.tumblr.com/',
+    email: 'padewitte@gmail.com'
 }, {
-	id: 'guillaume_membre',
-	name: 'Guillaume Membré',
-	bio: '<p>D&eacute;veloppeur passionn&eacute;, je travaille depuis plus de 10 ans dans le monde Java et aime exp&eacute;rimenter des nouvelles technos.</p>',
-	gravatar: null,
-	photo: 'jpg',
-	twitter: 'guillaumemembre',
-	gplus: null,
-	github: null,
-	website: 'http://www.monbook.tech',
-	email: 'coliss86@yahoo.fr'
+    id: 'guillaume_membre',
+    name: 'Guillaume Membré',
+    bio: '<p>D&eacute;veloppeur passionn&eacute;, je travaille depuis plus de 10 ans dans le monde Java et aime exp&eacute;rimenter des nouvelles technos.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'guillaumemembre',
+    gplus: null,
+    github: null,
+    website: 'http://www.monbook.tech',
+    email: 'coliss86@yahoo.fr'
 }, {
-	id: 'steve_sfartz',
-	name: 'Stève Sfartz',
-	bio: '<p>Développeur NeXT à ses premières heures, Stève a vu naître Java, évangélisé les architectures .Net, lancé le Cloud Microsoft Azure, créé le SaaS Kosmos "Education Numérique" et monté la plateforme Restlet APISpark.</p><p>Aujourd\'hui, Stève intervient sur les programmes de transformation digitale des grandes DSI, et conseille les startups dans la structuration de leur R&D. Son dada : les architectures distribuées; interopérabilité, performances et résilience.</p>',
-	gravatar: null,
-	photo: 'png',
-	twitter: 'stevesfartz',
-	gplus: null,
-	github: null,
-	website: null,
-	email: ''
+    id: 'steve_sfartz',
+    name: 'Stève Sfartz',
+    bio: '<p>Développeur NeXT à ses premières heures, Stève a vu naître Java, évangélisé les architectures .Net, lancé le Cloud Microsoft Azure, créé le SaaS Kosmos "Education Numérique" et monté la plateforme Restlet APISpark.</p><p>Aujourd\'hui, Stève intervient sur les programmes de transformation digitale des grandes DSI, et conseille les startups dans la structuration de leur R&D. Son dada : les architectures distribuées; interopérabilité, performances et résilience.</p>',
+    gravatar: null,
+    photo: 'png',
+    twitter: 'stevesfartz',
+    gplus: null,
+    github: null,
+    website: null,
+    email: ''
 }, {
-	id: 'geoffrey_berard',
-	name: 'Geoffrey Berard',
-	bio: '<p>Ingénieur R&D ches Les Furets.</p>',
-	gravatar: null,
-	photo: 'jpg',
-	twitter: 'geofberard',
-	gplus: null,
-	github: null,
-	website: null,
-	email: ''
+    id: 'geoffrey_berard',
+    name: 'Geoffrey Berard',
+    bio: '<p>Ingénieur R&D ches Les Furets.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'geofberard',
+    gplus: null,
+    github: null,
+    website: null,
+    email: ''
 } ,
 {
     id: "laurent_maillet",
@@ -1054,6 +1054,31 @@ var njSpeakers = [
     github: 'cescoffier',
     website: 'http://escoffier.me',
     email: 'clement@apache.org'
+}, 
+{
+    id: 'sebastien_gioria',
+    name: 'Sebastien Gioria',
+    bio: '<p>Sébastien Gioria est Expert en Sécurité des Systèmes d’Informations, Chapter Leader de l’OWASP pour la France (http://www.owasp.fr), membre du OWASP Global Education Committee et Expert Judiciaire. Il a une expérience de plus de 15 ans dans la sécurité des Systèmesd’Informations au sein de postes techniques ou à responsabilité dans des banques, assurances, telecoms.</p>' 
+	    + '<p>Sébastien gère la liaison entre l’OWASP et le comité ISO, colead les projets OWASP-SonarQube, et OWASP-CSRFGuard  et il a présenté divers sujets autour de la sécurité du Code dans des conférences en France ou à l’étranger.</p>',
+    gravatar: null,
+    photo: null,
+    twitter: 'spoint',
+    gplus: null,
+    github: 'spoint42',
+    website: 'http://blog.appsec.fr',
+    email: 'sebastien.gioria@owasp.org'
+}, 
+{
+    id: 'marc_lebrun',
+    name: 'Marc Lebrun',
+    bio: '<p>Consultant en sécurité informatique (pentesteur) reconverti dans l\'éducation. Actuellement Directeur Pédagodique Adjoint à l\'EPITECH Nantes, en charge du module Sécurité Web au niveau national.</p>',
+    gravatar: null,
+    photo: null,
+    twitter: '@marclebrun',
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'marc.lebrun.mailbox@gmail.com'
 }
 ];
 

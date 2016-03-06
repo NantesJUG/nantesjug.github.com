@@ -1,6 +1,46 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2016_03_17',
+	  title: "Soirée Sécurité des applications Java",
+	  date: new Date(2016, 2, 17), //month begin at 0
+	  time: '19',
+	  register: null,
+	  place: 'epitech',
+	  subjects: [
+	      {
+	        title: 'REX: Audit de sécurité d\'applications Java',
+	        length: '20min',
+	        time: '19h00',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['marc_lebrun'],
+	        abstract: '<p>Retour d\'expérience, du point du vue du consultant, sur les audits de sécurité portant sur des applications Java:</p>' +
+	        	'<ul>' +
+	        	'<li>Types d\'applications rencontrées,</li>' +
+	        	'<li>Méthodologie,</li>' +
+	        	'<li>Exemples de failles.</li>' +
+	        	'</ul>',
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }, {
+	        title: 'Secure Coding Live !',
+	        length: '1h',
+	        time: '19h30',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['sebastien_gioria'],
+	        abstract: '<p>Lors de cette session nous prendrons une application de type shopping Card et appliquerons les bonnes pratiques de secure Coding Java dessus pour la rendre plus resistante aux différentes attaques Web. </p>',
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	  ]
+  },{
     id: '2016_03_02',
 	  title: "Vert.X",
 	  date: new Date(2016, 2, 2), //month begin at 0
