@@ -674,6 +674,9 @@ footer {
 .doc-html {
   background-image: url('../images/doc/html.png');
 }
+.doc-pdf {
+  background-image: url('../images/doc/pdf.png');
+}
 .doc-slideshare {
   background-image: url('../images/doc/slideshare.png');
 }

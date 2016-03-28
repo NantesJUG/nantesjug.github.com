@@ -1,6 +1,46 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2016_04_12',
+	  title: "Code in the cloud with Eclipse Che & Kill the REST with the Falcor",
+	  date: new Date(2016, 3, 12), //month begin at 0
+	  time: '19',
+	  register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/229939263/',
+	  place: 'hub_creatic',
+	  subjects: [
+	      {
+          title: 'Code in the cloud with Eclipse Che: the Next-Gen Eclipse IDE',
+	        length: '45min',
+	        time: '19h00',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['stevan_le_meur', 'florent_benoit'],
+          abstract: "<p>Cette session présentera les nouveautés du projet Eclipse Che et la façon dont les workspaces ont été redéfinis afin d'être portables et facilement mis à la disposition des développeurs.</p>" +
+            "<p>La première démo, montrera comment créer un workspace basé sur un ensemble de machines Docker, comment l’utiliser pour développer des applications Java ainsi que quelques fonctionnalités de l’IDE (debugger, refactoring, ...).</p>" +
+            "<p>Nous vous montrerons également comment nous utilisons Che pour développer Che et vous ferons notre retour d\'expérience lorsqu\'il est intégré à des outils tels que JIRA, Jenkins et GitHub.</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }, {
+	        title: 'Kill all the REST with the Falcor',
+	        length: '45min',
+	        time: '19h45',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['hugo_wood'],
+	        abstract: "<p>Tout comme Facebook, Netflix a présenté sa propre technologie qui pourrait sonner le glas des API REST, Falcor.<br>" +
+            "Elle déclare avoir réduit la taille de son code serveur de 90% grâce à un unique end-point qui sert toutes les données. Deux entreprises de cette envergure qui implémentent ainsi des concepts très proches, cela mérite que l'on s'y intéresse.</p>" +
+            "<p>Après vous avoir expliqué le pourquoi et le comment, je vous propose que l'on explore ce que l'on peut construire avec Falcor.<br>" +
+            "Et si on développait une API pour développer des API ? (Leonardo Dicaprio ne fera pas d'apparition lors de cette conférence.)</p>",
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkWkhfdi1oYkJrTWs/view?usp=sharing', type: 'pdf'}
+	  ]
+  }, {
     id: '2016_03_17',
 	  title: "Soirée Sécurité des applications Java",
 	  date: new Date(2016, 2, 17), //month begin at 0
@@ -58,7 +98,7 @@ var njEvents = [
 	        abstract:
             "<p>Vous devez bâtir une application qui passe à l’échelle, à base de micro-services ou plus classique, tolérante aux pannes, mais vous ne savez pas par ou commencer ? La seule chose dont vous avez besoin est un fichier jar et d’une machine virtuelle java.</p>" +
             "<p>Vert.x 3 est une librairie pour créer des systèmes réactifs s’exécutant sur une machine virtuelle Java. Vert.x 3 offre une nouvelle manière d’implémenter des applications concurrentes,scalables et tolérantes aux fautes. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuées en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon.  Vert.x 3 permet également d’intégrer des applications \"non-vert.x\" tel que node.js, .NET ou C.</p>" +
-            "<p>Cette présentation introduit les concepts clés de Vert.x and comment vous pouvez utiliser Vert.x dans votre prochain projet. Cette session explique les systèmes réactifs, la programmation réactive (attention c’est pas la meme chose), comment le modèle de programmation asynchrone proposé par Vert.x vous permet de construire facilement des applications concurrentes et pourquoi c’est fait ainsi. Nous verrons également le passage a l’échelle, la tolérance aux pannes, les perfs, le monitoring et les composants clés de l’éco-système Vert.x…</p>",            
+            "<p>Cette présentation introduit les concepts clés de Vert.x and comment vous pouvez utiliser Vert.x dans votre prochain projet. Cette session explique les systèmes réactifs, la programmation réactive (attention c’est pas la meme chose), comment le modèle de programmation asynchrone proposé par Vert.x vous permet de construire facilement des applications concurrentes et pourquoi c’est fait ainsi. Nous verrons également le passage a l’échelle, la tolérance aux pannes, les perfs, le monitoring et les composants clés de l’éco-système Vert.x…</p>",
 	        docs: [
 	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
 	        ]
@@ -878,7 +918,7 @@ var njEvents = [
         length: '45 min',
         type: 'talk',
         intro: null,
-        speakers: ['tyler_jewell', 'stevan_lemeur'],
+        speakers: ['tyler_jewell', 'stevan_le_meur'],
         abstract: '<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p>' +
           '<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p>' +
           '<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p>' +

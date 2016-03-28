@@ -547,7 +547,7 @@ var njSpeakers = [
     twitter: 'mercury_wood',
     gplus:   '106541715561602552217',
     github: 'hgwood',
-    website: 'elevatedabstractions.wordpress.com',
+    website: 'https://github.com/hgwood/blog',
     email: 'hx4.5@free.fr'
   },
   {
@@ -653,19 +653,34 @@ var njSpeakers = [
     website: null,
     email: 'tyler@codenvy.com'
 },
- {
-    id: 'stevan_lemeur',
+{
+    id: 'stevan_le_meur',
     name: 'Stévan Le Meur',
-    bio: '<p>Stévan Le Meur is a Product Manager at Codenvy. With a background as a developer, he is driven by the belief that great applications should be built in exceptional development environments. He brings this passion to his work on the Codenvy IDE, where his attention to detail is put to good use in creating great developer experiences.</p>',
-    gravatar: null,
-    photo: 'jpg',
-    twitter: 'stevanLM',
-    gplus:   null,
+    bio: '<p>Stévan Le Meur is Product Manager at Codenvy. With a background as a developer, he is driven by the belief that great applications should be built in exceptional development environments. He brings this passion to his work on the Codenvy Developer Environment Cloud, where his attention to detail is put to good use.</p>',
+    gravatar: 'slemeur@codenvy.com',
+    photo: null,
+    twitter: 'stevanlm',
+    gplus: null,
+    github: null,
+    website: 'https://eclipse.org/che',
+    email: 'slemeur@codenvy.com'
+},
+{
+    id: 'florent_benoit',
+    name: 'Florent Benoit',
+    bio: "<p>Florent Benoit is working at Codenvy. He's working on the SaaS developer environment Codenvy by bringing support of JavaScript technologies like AngularJS, Grunt, bower, gulp.js and Yeoman.<p>" +
+        "<p>He's also contributing to the CLI tool used to manage Codenvy projects, build or run applications.</p>" +
+        "<p>Florent is also a member of Java EE specification including Java EE 8 and CDI 2.0.</p>" +
+        "<p>Florent is an Eclipse committer on Eclipse Che project</p>",
+    gravatar: 'fbenoit@codenvy.com',
+    photo: null,
+    twitter: 'florentbenoit',
+    gplus: null,
     github: null,
     website: null,
-    email: 'stevan.lemeur@gmail.com'
+    email: 'fbenoit@codenvy.com'
 },
- {
+{
     id: 'laurent_guerin',
     name: 'Laurent Guerin',
     bio: "Specialized in Java and Web technologies with over 20 years of experience in the areas of databases, object development, code generation and project management."+
@@ -1054,11 +1069,11 @@ var njSpeakers = [
     github: 'cescoffier',
     website: 'http://escoffier.me',
     email: 'clement@apache.org'
-}, 
+},
 {
     id: 'sebastien_gioria',
     name: 'Sebastien Gioria',
-    bio: '<p>Sébastien Gioria est Expert en Sécurité des Systèmes d’Informations, Chapter Leader de l’OWASP pour la France (http://www.owasp.fr), membre du OWASP Global Education Committee et Expert Judiciaire. Il a une expérience de plus de 15 ans dans la sécurité des Systèmesd’Informations au sein de postes techniques ou à responsabilité dans des banques, assurances, telecoms.</p>' 
+    bio: '<p>Sébastien Gioria est Expert en Sécurité des Systèmes d’Informations, Chapter Leader de l’OWASP pour la France (http://www.owasp.fr), membre du OWASP Global Education Committee et Expert Judiciaire. Il a une expérience de plus de 15 ans dans la sécurité des Systèmesd’Informations au sein de postes techniques ou à responsabilité dans des banques, assurances, telecoms.</p>'
 	    + '<p>Sébastien gère la liaison entre l’OWASP et le comité ISO, colead les projets OWASP-SonarQube, et OWASP-CSRFGuard  et il a présenté divers sujets autour de la sécurité du Code dans des conférences en France ou à l’étranger.</p>',
     gravatar: null,
     photo: null,
@@ -1067,7 +1082,7 @@ var njSpeakers = [
     github: 'spoint42',
     website: 'http://blog.appsec.fr',
     email: 'sebastien.gioria@owasp.org'
-}, 
+},
 {
     id: 'marc_lebrun',
     name: 'Marc Lebrun',
