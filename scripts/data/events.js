@@ -78,7 +78,7 @@ var njEvents = [
 	      }
 	  ],
 	  docs: [
-	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	    {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=grqesqXEAFo', type: 'youtube'}
 	  ]
   },{
     id: '2016_03_02',
@@ -100,7 +100,7 @@ var njEvents = [
             "<p>Vert.x 3 est une librairie pour créer des systèmes réactifs s’exécutant sur une machine virtuelle Java. Vert.x 3 offre une nouvelle manière d’implémenter des applications concurrentes,scalables et tolérantes aux fautes. Avec vert.x 3 vous pouvez développer des applications « micro-services » distribuées en Java, mais aussi en JavaScript, Groovy, Ruby et Ceylon.  Vert.x 3 permet également d’intégrer des applications \"non-vert.x\" tel que node.js, .NET ou C.</p>" +
             "<p>Cette présentation introduit les concepts clés de Vert.x and comment vous pouvez utiliser Vert.x dans votre prochain projet. Cette session explique les systèmes réactifs, la programmation réactive (attention c’est pas la meme chose), comment le modèle de programmation asynchrone proposé par Vert.x vous permet de construire facilement des applications concurrentes et pourquoi c’est fait ainsi. Nous verrons également le passage a l’échelle, la tolérance aux pannes, les perfs, le monitoring et les composants clés de l’éco-système Vert.x…</p>",
 	        docs: [
-	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=KeZAf0fIOGA', type: 'youtube'}
 	        ]
 	      }
 	  ],
@@ -139,12 +139,12 @@ var njEvents = [
             '<p>React est une librairie JavaScript développée par Facebook pour créer facilement des interfaces graphiques. La particularité de React vient de son modèle de programmation orienté composant et de sa façon de décrire les vues de ces composants. Contrairement à d\'autres librairies, ici pas de templates et de pseudo code, React permet d\'utiliser la pleine expressivité de JavaScript et de bénéficier de tout l\'écosystème Javascript et de toutes les features du langage, notamment tous les goodies apportés par ES2015.</p>' +
             '<p>Durant cette session orientée live coding, nous verrons comment utiliser React pour créer des composants graphiques dans le cadre d\'applications web et d\'applications mobiles natives grâce à React Native.</p>',
 	        docs: [
-	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
+	            //{name: 'Vidéo de la présentation', url: '', type: 'youtube'}
 	        ]
 	      }
 	  ],
 	  docs: [
-	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	    {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=QZOtyKtp5Vg', type: 'youtube'}
 	  ]
   },{
 	  id: '2016_01_19',
@@ -165,7 +165,7 @@ var njEvents = [
 	 				  "Alors qu\'Oracle avait avancé un rythme de release de version majeurs tous les deux ans, qu\'en est-il réellement ? "+
 					  "Java 9 s\'annonce-t-il aussi riche que l\'a pu être son prédécesseur ? Je vous propose un tour d'horizon de l\'avancée de Java 9 et de ces nouveautés.",
 	        docs: [
-	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=XX2OLBdyJ1s', type: 'youtube'}
 	        ]
 	      }, {
 	        title: "Orchestrating a Continuous Delivery Pipeline with Jenkins and Docker",
@@ -179,7 +179,7 @@ var njEvents = [
             "<p>En 2015 Jenkins adresse clairement plus que de l'Integration Continue, et avec le support récent du workflow plugin nous pouvons orchestrer avec un DSL des pipelines de grande complexité. L'integration avec Docker lui donne encore plus de puissance.</p>" +
             "<p>Pendant cette session, je vais construire un pipeline de CD from scratch pour montrer l'utilisation du workflow et sa flexibilité, ainsi que le support de Docker.</p>",
 	        docs: [
-	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=5LnL1HYmLwY', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=o26DbcN11Hw', type: 'youtube'}
 	        ]
 	      }
 	  ],
@@ -229,7 +229,7 @@ var njEvents = [
 	      }
 	  ],
 	  docs: [
-	    //{name: 'Vidéo de la soirée', url: '', type: 'youtube'},
+	    {name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=V37UJ7_V22s', type: 'youtube'},
 	  ]
   },{
 	  id: '2015_11_23',
