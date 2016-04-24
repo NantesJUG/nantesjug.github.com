@@ -6,7 +6,7 @@ var njEvents = [
 	  date: new Date(2016, 4, 10), //month begin at 0
 	  time: '19',
 	  register: null,
-	  place: 'hub_creatic',
+	  place: 'epitech',
 	  subjects: [
 	      {
           title: 'DDD, P&A, ES, CQRS, ETC',
