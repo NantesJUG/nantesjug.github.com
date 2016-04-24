@@ -1,6 +1,35 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2016_05_10',
+	  title: "DDD, P&A, ES, CQRS, ETC",
+	  date: new Date(2016, 4, 10), //month begin at 0
+	  time: '19',
+	  register: null,
+	  place: 'hub_creatic',
+	  subjects: [
+	      {
+          title: 'DDD, P&A, ES, CQRS, ETC',
+	        length: '1h30',
+	        time: '19h00',
+	        type: 'talk',
+	        intro: null,
+	        speakers: ['arnaud_bailly', 'cedric_pineau'],
+          abstract: '<p>Parce que nous sommes tous des « fashion victims », parce que vous savez déjà que vous ne saurez pas résister aux sirènes des micro-services, parce vous peinez déjà à justifier l\'approche « full reactive » dont vous rêvez pour ce projet qui doit démarrer, nous vous proposons de prendre un peu de recul et de discuter, pour une fois, d\'architecture logicielle (et de moissonner au passage quelques nouvelles munitions pour votre prochaine « buzzword battle »).</p>' +
+            '<p>Le « Domain-Driven Design » est un cadre conceptuel pour le développement de logiciels qui met l\'accent sur l\'expression directe des concepts du métier  sous forme de code, dans le but de diminuer la friction entre experts métiers et informaticiens.</p>' +
+            '<p>L\'architecture « Ports And Adapters » est une démarche de structuration du code qui vise à isoler la logique métier des détails techniques de son implémentation.</p>' +
+            '<p>« Event Sourcing » désigne un principe d\'architecture, décrit par Martin Fowler, qui met au centre du monde les événements transformant l\'état d\'un système. L\'état n\'est alors rien d\'autre que la suite des événements l\'ayant produit à partir d\'un état initial connu et précisément défini.</p>' +
+            '<p>Le principe de « Command Query Responsibility Separation » ou CQRS est un prolongement naturel de l\'Event Sourcing où l\'on introduit une séparation complète des schémas de données en écriture et en lecture.</p>' +
+            '<p>Cette présentation est un retour sur nos expériences dans la mise en œuvre de systèmes logiciels basés sur ces démarches de conception et d\'architecture. Nous voulons montrer quels sont les principes de ces architectures, quels en sont les avantages tant techniques que métiers dans des cas d\'utilisation concrets et comment les mettre en œuvre quels que soient les environnements techniques. </p>',
+	        docs: [
+	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	        ]
+	      }
+	  ],
+	  docs: [
+	    //{name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkWkhfdi1oYkJrTWs/view?usp=sharing', type: 'pdf'}
+	  ]
+  }, {
     id: '2016_04_12',
 	  title: "Code in the cloud with Eclipse Che & Kill the REST with the Falcor",
 	  date: new Date(2016, 3, 12), //month begin at 0

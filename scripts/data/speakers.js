@@ -189,13 +189,14 @@ var njSpeakers = [
   {
     id: 'cedric_pineau',
     name: 'Cédric Pineau',
-    bio: 'Développeur puis architecte sur les technos Java/JEE depuis 12 ans, Cédric travaille aujourd\'hui au sein d\'Anteo Consulting, le pôle conseil de Sodifrance. Enthousiasmé par ce langage (Clojure) qui se trouve à la croisée de ses trois principaux centres d\'intérêts - le libre, la JVM, et la programmation fonctionnelle - il a animé plusieurs sessions sur ce sujet sous différents formats, à devoxx, au breizhcamp, dans les JUG ou tout récemment sur les ondes (http://lescastcodeurs.com/2012/12/31/les-cast-codeurs-podcast-episode-70-interview-sur-clojure-avec-christophe-grand-et-cedric-pineau/).',
+    bio: '<p>Directeur de la technologie chez Taelys.</p>' +
+      '<p>Enthousiasmé par la programmation fonctionnelle, entravé par mon quotidien de javaiste, passionné par les réflexions autour des architectures logicielles, interpellé par la qualité de ce que l\'on produit, intéressé par les questions de performance, amusé par les modes qui rythment notre métier..</p>',
     gravatar: null,
     photo: null,
-    twitter: null,
+    twitter: 'cedricpineau',
     gplus: null,
     github: null,
-    website: null,
+    website: 'http://www.taelys.com',
     email: 'cedric.pineau@gmail.com'
   },
   {
