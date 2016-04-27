@@ -27,7 +27,7 @@ var njEvents = [
 	      }
 	  ],
 	  docs: [
-	    //{name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkWkhfdi1oYkJrTWs/view?usp=sharing', type: 'pdf'}
+	    {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkcEFocG02MTQ4UFU/view?usp=sharing', type: 'pdf'}
 	  ]
   }, {
     id: '2016_04_12',
