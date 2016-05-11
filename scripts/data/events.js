@@ -22,7 +22,8 @@ var njEvents = [
             '<p>Le principe de « Command Query Responsibility Separation » ou CQRS est un prolongement naturel de l\'Event Sourcing où l\'on introduit une séparation complète des schémas de données en écriture et en lecture.</p>' +
             '<p>Cette présentation est un retour sur nos expériences dans la mise en œuvre de systèmes logiciels basés sur ces démarches de conception et d\'architecture. Nous voulons montrer quels sont les principes de ces architectures, quels en sont les avantages tant techniques que métiers dans des cas d\'utilisation concrets et comment les mettre en œuvre quels que soient les environnements techniques. </p>',
 	        docs: [
-	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=bCMPs9xXrZM', type: 'youtube'},
+	            {name: 'Slides de la présentation', url: 'https://drive.google.com/file/d/0B0aGd3KiW4gVNElNTDczZ0NTYjg/view?usp=sharing', type: 'pdf'}
 	        ]
 	      }
 	  ],
