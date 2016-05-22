@@ -4,7 +4,7 @@ var njEvents = [{
     title: "GraphQL, HTTP2 et Kill mutants !",
     date: new Date(2016, 5, 14), //month begin at 0
     time: '19',
-    register: '',
+    register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/231323461/',
     place: 'epitech',
     subjects: [ {
         title: 'Fetch your datas with GraphQL',
