@@ -1095,6 +1095,39 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'marc.lebrun.mailbox@gmail.com'
+},{
+    id: 'eric_briand',
+    name: 'Eric Briand',
+    bio: '<p>Eric développeur Java/J2EE full-stack chez Zenika Nantes. Il aime travailler sur toutes les couches d\'une application web, de la base de données jusqu\'au front en utilisant aussi bien des technologies qui ont fait leur preuve mais aussi des technologies de pointe. Très intéressé par les technologies Cloud (PAAS & IAAS), il a déjà animé plusieurs ateliers autour de ce sujet et est formateur officiel Docker.</p>',
+    gravatar: 'eric.briand@zenika.com',
+    photo: null,
+    twitter: 'eric_briand',
+    gplus: null,
+    github: 'ebriand',
+    website: null,
+    email: 'eric.briand@zenika.com'
+},{
+    id: 'julien_landure',
+    name: 'Julien Landuré',
+    bio: '<p>CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d\'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.</p>',
+    gravatar: 'julien.landure@gmail.com',
+    photo: null,
+    twitter: 'jlandure',
+    gplus: '+julienlanduré',
+    github: 'jlandure',
+    website: null,
+    email: 'julien.landure@gmail.com'
+},{
+    id: 'antoine_cellier',
+    name: 'Antoine Cellier',
+    bio: '<p>Consultant chez Zenika Nantes. J\'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'antoinecellier3',
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'antoine.cellier@zenika.com'
 }
 ];
 
