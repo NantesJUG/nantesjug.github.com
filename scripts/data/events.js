@@ -7,7 +7,7 @@ var njEvents = [{
     register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/231323461/',
     place: 'epitech',
     subjects: [ {
-        title: 'Fetch your datas with GraphQL',
+        title: 'Fetch your data with GraphQL',
         length: '15min',
         time: '19h00',
         type: 'quickie',
