@@ -48,5 +48,13 @@ var njPlaces = [
     maps: 'https://goo.gl/maps/ySfUp',
     twitter: 'hubcreatic',
     capacity: 80
-  }
+  },
+  {
+	    id: 'insula',
+	    name: 'Insula',
+	    address: '47 rue de la Tour d\'Auvergne',
+	    city: '44000 Nantes',
+	    maps: 'https://goo.gl/maps/kF6xeKsUBZU2',
+	    capacity: 100
+	  }
 ];
