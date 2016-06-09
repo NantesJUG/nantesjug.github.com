@@ -21,6 +21,26 @@ var njEvents = [{
     ]
   },{
     id: '2016_06_14',
+    title: "Meet & Greet",
+    date: new Date(2016, 5, 23), //month begin at 0
+    time: '19',
+    register: '',
+    place: 'insula',
+    subjects: [ {
+        title: 'Cocktail, petits fours et bla bla bla :-)',
+        length: '4h',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: [],
+        abstract: '<p>Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée.',
+        docs: [
+        ]
+    }],
+    docs: [
+    ]
+  },{
+    id: '2016_06_14',
     title: "GraphQL, HTTP2 et Kill mutants !",
     date: new Date(2016, 5, 14), //month begin at 0
     time: '19',
