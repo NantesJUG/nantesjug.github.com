@@ -4,7 +4,7 @@ var njEvents = [{
     title: "Meet & Greet",
     date: new Date(2016, 5, 23), //month begin at 0
     time: '19',
-    register: '',
+    register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/231793731/',
     place: 'insula',
     subjects: [ {
         title: 'Cocktail, petits fours et bla bla bla :-)',
@@ -18,26 +18,7 @@ var njEvents = [{
         ]
     }],
     docs: [
-    ]
-  },{
-    id: '2016_06_14',
-    title: "Meet & Greet",
-    date: new Date(2016, 5, 23), //month begin at 0
-    time: '19',
-    register: '',
-    place: 'insula',
-    subjects: [ {
-        title: 'Cocktail, petits fours et bla bla bla :-)',
-        length: '4h',
-        time: '19h00',
-        type: 'talk',
-        intro: null,
-        speakers: [],
-        abstract: '<p>Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée.',
-        docs: [
-        ]
-    }],
-    docs: [
+        {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B1KMBvIq23BMb1haZFFjSHdFOXc/view', type:'pdf'}
     ]
   },{
     id: '2016_06_14',
