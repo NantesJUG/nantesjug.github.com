@@ -1122,7 +1122,7 @@ var njSpeakers = [
     name: 'Antoine Cellier',
     bio: '<p>Consultant chez Zenika Nantes. J\'interviens sur des missions de réalisation autour des technos front et back tel que AngularJS, ReactJS et Spring.</p>',
     gravatar: null,
-    photo: 'jpg',
+    photo: null,
     twitter: 'antoinecellier3',
     gplus: null,
     github: null,
