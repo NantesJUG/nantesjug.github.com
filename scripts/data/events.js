@@ -10,10 +10,15 @@ var njEvents = [{
         title: 'Cocktail, petits fours et bla bla bla :-)',
         length: '4h',
         time: '19h00',
-        type: 'talk',
-        intro: null,
+        type: 'cocktail',
+        intro: 'Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée. ' +
+        'Ce sera l\'occasion de parler technique, cuisine, vacances ou foot autour d\'un (ou plusieurs) verre et petits fours.',
         speakers: [],
-        abstract: '<p>Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée.',
+        abstract:
+        '<p>Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée.</p>' +
+        '<p>Ce sera l\'occasion de parler technique, cuisine, vacances ou foot autour d\'un (ou plusieurs) verre et petits fours.<br>' +
+        'Merci à nos sponsors qui ont permis l\'organisation de cette soirée gratuite.</p>'
+        ,
         docs: [
         ]
     }],
