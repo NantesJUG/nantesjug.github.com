@@ -1,6 +1,79 @@
 /*jshint unused: false */
-var njEvents = [
-  {
+var njEvents = [{
+    id: '2016_06_23',
+    title: "Meet & Greet",
+    date: new Date(2016, 5, 23), //month begin at 0
+    time: '19',
+    register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/231793731/',
+    place: 'insula',
+    subjects: [ {
+        title: 'Cocktail, petits fours et bla bla bla :-)',
+        length: '4h',
+        time: '19h00',
+        type: 'cocktail',
+        intro: 'Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée. ' +
+        'Ce sera l\'occasion de parler technique, cuisine, vacances ou foot autour d\'un (ou plusieurs) verre et petits fours.',
+        speakers: [],
+        abstract:
+        '<p>Petite soirée pour discuter, échanger et vous souhaitez de bonnes vacances avant la rentrée.</p>' +
+        '<p>Ce sera l\'occasion de parler technique, cuisine, vacances ou foot autour d\'un (ou plusieurs) verre et petits fours.<br>' +
+        'Merci à nos sponsors qui ont permis l\'organisation de cette soirée gratuite.</p>'
+        ,
+        docs: [
+        ]
+    }],
+    docs: [
+        {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B1KMBvIq23BMb1haZFFjSHdFOXc/view', type:'pdf'}
+    ]
+  },{
+    id: '2016_06_14',
+    title: "GraphQL, HTTP2 et Kill mutants !",
+    date: new Date(2016, 5, 14), //month begin at 0
+    time: '19',
+    register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/231323461/',
+    place: 'epitech',
+    subjects: [ {
+        title: 'Fetch your data with GraphQL',
+        length: '15min',
+        time: '19h00',
+        type: 'quickie',
+        intro: null,
+        speakers: ['antoine_cellier'],
+        abstract: '<p>GraphQL est une spécification proposée par Facebook permettant d’accéder à un schéma de données issue de sources tel que des bases de données ou des services tiers, de mettre en place un typage fort et de structurer des données. Au cours de ce talk, nous allons voir comment interroger et modifier des données grâce à l\'implémentation Javascript de GraphQL.</p>',
+        docs: [
+//	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=bCMPs9xXrZM', type: 'youtube'},
+//	            {name: 'Slides de la présentation', url: 'https://drive.google.com/file/d/0B0aGd3KiW4gVNElNTDczZ0NTYjg/view?usp=sharing', type: 'pdf'}
+        ]
+    }, {
+        title: 'HTTP2 : ce qui va changer !',
+        length: '20min',
+        time: '19h30',
+        type: 'quickie',
+        intro: null,
+        speakers: ['julien_landure'],
+        abstract: '<p>HTTP1 est omniprésent en 2016 et HTTP2 est pourtant ""sorti"" le 15 mai 2015. Qu\'est-ce qu\'on y gagne, nous développeurs ? Les principes d\'optimisation Web seront-ils toujours d\'actualités ? Venez découvrir HTTP2, le futur protocole du Web !</p>',
+        docs: [
+//	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=bCMPs9xXrZM', type: 'youtube'},
+//	            {name: 'Slides de la présentation', url: 'https://drive.google.com/file/d/0B0aGd3KiW4gVNElNTDczZ0NTYjg/view?usp=sharing', type: 'pdf'}
+        ]
+    }, {
+        title: 'Kill mutants, save your code!',
+        length: '30min',
+        time: '20h00',
+        type: 'quickie',
+        intro: null,
+        speakers: ['eric_briand'],
+        abstract: '<p>Les mutants attaquent et ils en veulent à votre code ! Ils exploitent chaque faille de votre couverture de code et l’expose au grand jour ! Mais grâce à PIT, vous allez pouvoir y remedier très vite et contrecarrer cette invasion ! Vos tests unitaires seront challengés et évoluerons pour devenir plus pertinents. Les mutants n’auront qu’à bien se tenir !</p>'
+            + '<p>Lors de cette session, nous parlerons des principes du mutation testing et montrerons son application directe avec PIT, framework de mutation testing Java. Nous utiliserons des tests unitaires plus ou moins pertinents pour etudier la manière dont les mutations mettent en évidence et ciblent les carences des tests.</p>',
+        docs: [
+//	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=bCMPs9xXrZM', type: 'youtube'},
+//	            {name: 'Slides de la présentation', url: 'https://drive.google.com/file/d/0B0aGd3KiW4gVNElNTDczZ0NTYjg/view?usp=sharing', type: 'pdf'}
+        ]
+    }],
+    docs: [
+//	    {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkcEFocG02MTQ4UFU/view?usp=sharing', type: 'pdf'}
+    ]
+  },{
     id: '2016_05_10',
 	  title: "DDD, P&A, ES, CQRS, ETC",
 	  date: new Date(2016, 4, 10), //month begin at 0
@@ -22,12 +95,13 @@ var njEvents = [
             '<p>Le principe de « Command Query Responsibility Separation » ou CQRS est un prolongement naturel de l\'Event Sourcing où l\'on introduit une séparation complète des schémas de données en écriture et en lecture.</p>' +
             '<p>Cette présentation est un retour sur nos expériences dans la mise en œuvre de systèmes logiciels basés sur ces démarches de conception et d\'architecture. Nous voulons montrer quels sont les principes de ces architectures, quels en sont les avantages tant techniques que métiers dans des cas d\'utilisation concrets et comment les mettre en œuvre quels que soient les environnements techniques. </p>',
 	        docs: [
-	            //{name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=YzfZsEAgNHc', type: 'youtube'}
+	            {name: 'Vidéo de la présentation', url: 'https://www.youtube.com/watch?v=bCMPs9xXrZM', type: 'youtube'},
+	            {name: 'Slides de la présentation', url: 'https://drive.google.com/file/d/0B0aGd3KiW4gVNElNTDczZ0NTYjg/view?usp=sharing', type: 'pdf'}
 	        ]
 	      }
 	  ],
 	  docs: [
-	    //{name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkWkhfdi1oYkJrTWs/view?usp=sharing', type: 'pdf'}
+	    {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B9mpGdJWcahkcEFocG02MTQ4UFU/view?usp=sharing', type: 'pdf'}
 	  ]
   }, {
     id: '2016_04_12',

@@ -9,7 +9,7 @@
         <li ng-repeat="event in nextNextEvents" style="list-style: none">
           <h1>
             <a ng-href="#/events/{{event.id}}">{{event.title}}</a>
-  ./  </h1>
+          </h1>
           <h2 class="soiree_date">
             Le {{event.date | date:'longDate'}} à {{event.time}}h à {{event.place.name}}
           </h2>
