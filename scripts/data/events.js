@@ -1,5 +1,29 @@
 /*jshint unused: false */
 var njEvents = [{
+    id: '2016_09_28',
+    title: "",
+    date: new Date(2016, 8, 28), //month begin at 0
+    time: '19',
+    register: '',
+    place: 'epitech',
+    subjects: [ {
+        title: 'SonarLint et SonarQube pour détecter les bugs, code smells et vulnérabilités',
+        length: '4h',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['freddy_mallet'],
+        abstract: '<p>Durant cette présentation, Freddy montrera comment totalement intégrer SonarLint et SonarQube dans une chaine de développement'
+        	+ ' pour détecter en continue les problèmes de fiabilité, maintenabilité et sécurité.'
+        	+ ' La présentation s\'appuiera sur des exemples de code source Java, JavaScript, C# et C. </p>'
+        ,
+        docs: [
+        ]
+    }],
+    docs: [
+//        {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B1KMBvIq23BMb1haZFFjSHdFOXc/view', type:'pdf'}
+    ]
+  },{
     id: '2016_06_23',
     title: "Meet & Greet",
     date: new Date(2016, 5, 23), //month begin at 0

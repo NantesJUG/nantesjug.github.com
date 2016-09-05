@@ -1075,7 +1075,7 @@ var njSpeakers = [
     id: 'sebastien_gioria',
     name: 'Sebastien Gioria',
     bio: '<p>Sébastien Gioria est Expert en Sécurité des Systèmes d’Informations, Chapter Leader de l’OWASP pour la France (http://www.owasp.fr), membre du OWASP Global Education Committee et Expert Judiciaire. Il a une expérience de plus de 15 ans dans la sécurité des Systèmesd’Informations au sein de postes techniques ou à responsabilité dans des banques, assurances, telecoms.</p>'
-	    + '<p>Sébastien gère la liaison entre l’OWASP et le comité ISO, colead les projets OWASP-SonarQube, et OWASP-CSRFGuard  et il a présenté divers sujets autour de la sécurité du Code dans des conférences en France ou à l’étranger.</p>',
+        + '<p>Sébastien gère la liaison entre l’OWASP et le comité ISO, colead les projets OWASP-SonarQube, et OWASP-CSRFGuard  et il a présenté divers sujets autour de la sécurité du Code dans des conférences en France ou à l’étranger.</p>',
     gravatar: null,
     photo: null,
     twitter: 'spoint',
@@ -1128,7 +1128,18 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'antoine.cellier@zenika.com'
-}
+}, {
+    id: 'freddy_mallet',
+    name: 'Freddy Mallet',
+    bio: '<p>Freddy est le créateur de la plateforme SonarQube, le co-fondateur de la société SonarSource et il anime les développements produits au sein de SonarSource. </p>',
+    gravatar: 'freddy.mallet@gmail.com',
+    photo: null,
+    twitter: 'freddymallet',
+    gplus: null,
+    github: 'fmallet',
+    website: 'http://www.sonarsource.com',
+    email: 'freddy.mallet@gmail.com'
+    }
 ];
 
 
