@@ -1,7 +1,7 @@
 /*jshint unused: false */
 var njEvents = [{
     id: '2016_09_28',
-    title: "",
+    title: "Soirée Sonar",
     date: new Date(2016, 8, 28), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/233885243/',
