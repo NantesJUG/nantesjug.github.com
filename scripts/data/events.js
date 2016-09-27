@@ -8,7 +8,7 @@ var njEvents = [{
     place: 'epitech',
     subjects: [ {
         title: 'SonarLint et SonarQube pour détecter les bugs, code smells et vulnérabilités',
-        length: '4h',
+        length: '2h',
         time: '19h00',
         type: 'talk',
         intro: null,
