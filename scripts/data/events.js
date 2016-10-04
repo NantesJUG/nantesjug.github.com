@@ -1,5 +1,30 @@
 /*jshint unused: false */
 var njEvents = [{
+  id: '2016_10_19',
+  title: "Dev' Party 16",
+  date: new Date(2016, 9, 19), //month begin at 0
+  time: '19',
+  register: 'http://www.meetup.com/fr-FR/GDG-Nantes/events/233996882/',
+  place: 'epitech',
+  subjects: [ {
+      title: 'Dev\' Party',
+      length: '4h',
+      time: '19h00',
+      type: 'fun',
+      intro: null,
+      speakers: null,
+      abstract: '<p>Sous forme d\'un tournoi "Clash of Code" fourni par Codingame, vous coderez sur différentes épreuves : puzzle, rapidité, moins de ligne de code...'
+        + '<br>Co-organisé avec le NantesJUG, cette soirée sera aggrémentée avec pizza, boissons et bien sûr des lots à gagner.'
+        + ' <p>N\'oubliez pas votre laptop pour participer !</p>'
+        + ' <p>INSCRIPTION sur le meetup du GDG > <a href="http://www.meetup.com/fr-FR/GDG-Nantes/events/233996882/" target="_blank">ICI</a></p>'
+      ,
+      docs: [
+      ]
+  }],
+  docs: [
+//        {name: 'Affiche de la soirée', url: 'https://drive.google.com/file/d/0B1KMBvIq23BMb1haZFFjSHdFOXc/view', type:'pdf'}
+  ]
+},{
     id: '2016_09_28',
     title: "Soirée Sonar",
     date: new Date(2016, 8, 28), //month begin at 0
