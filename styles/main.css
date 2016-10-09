@@ -89,6 +89,9 @@ a {
 a:hover {
   text-decoration: none;
 }
+a:focus {
+  text-decoration: none;
+}
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
     .nav>li>a {
@@ -761,12 +764,14 @@ footer .twitter .btn-twitter {
 }
 
 .submit-talk {
-  background-color: #1176ba;
   line-height: 20px;
-  padding: 10px;
-  margin: 20px 0 0 0;
-  border-radius: 4px;
+  margin: 20px 0 7px 0;
+  text-align: center;
 }
 .submit-talk a {
-  color: #f9af48;
+  color: #1176ba;
+  background-color: #fff;
+  border: 1px solid #1176ba;
+  border-radius: 4px;
+  padding: 10px 20px;
 }
