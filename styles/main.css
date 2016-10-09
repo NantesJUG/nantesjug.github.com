@@ -759,3 +759,14 @@ footer .twitter .btn-twitter {
     padding: 7px 7px 7px 35px;
     background-position-y: 7px;
 }
+
+.submit-talk {
+  background-color: #1176ba;
+  line-height: 20px;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  border-radius: 4px;
+}
+.submit-talk a {
+  color: #f9af48;
+}
