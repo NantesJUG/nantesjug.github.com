@@ -30,7 +30,7 @@ var njEvents = [{
     date: new Date(2016, 8, 28), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/233885243/',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [ {
         title: 'SonarLint et SonarQube pour détecter les bugs, code smells et vulnérabilités',
         length: '2h',
@@ -80,7 +80,7 @@ var njEvents = [{
     date: new Date(2016, 5, 14), //month begin at 0
     time: '19',
     register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/231323461/',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [ {
         title: 'Fetch your data with GraphQL',
         length: '15min',
@@ -128,7 +128,7 @@ var njEvents = [{
 	  date: new Date(2016, 4, 10), //month begin at 0
 	  time: '19',
 	  register: 'http://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/230696969/',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
           title: 'DDD, P&A, ES, CQRS, ETC',
@@ -198,7 +198,7 @@ var njEvents = [{
 	  date: new Date(2016, 2, 17), //month begin at 0
 	  time: '19',
 	  register: 'http://guestli.st/409116',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
 	        title: 'REX: Audit de sécurité d\'applications Java',
@@ -238,7 +238,7 @@ var njEvents = [{
 	  date: new Date(2016, 2, 2), //month begin at 0
 	  time: '19',
 	  register: 'http://guestli.st/404760',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
 	        title: "Vert.x - Sprechen vous reactive fanta'stico ?",
@@ -344,7 +344,7 @@ var njEvents = [{
 	  date: new Date(2015, 11, 15), //month begin at 0
 	  time: '19',
 	  register: 'http://guestli.st/398028',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
 	        title: "Livrer chaque jour ce qui est prêt",
@@ -389,7 +389,7 @@ var njEvents = [{
 	  date: new Date(2015, 10, 23), //month begin at 0
 	  time: '19',
 	  register: 'http://guestli.st/350382',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
 	        title: "REX docker sur la mise d'une forge logicielle et ALM",
@@ -433,7 +433,7 @@ var njEvents = [{
 	  date: new Date(2015, 9, 13), //month begin at 0
 	  time: '19',
 	  register: 'http://guestli.st/346224',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
 	        title: "Ajoutez de la reconnaissance d'écriture à votre webapp grâce à Polymer",
@@ -477,7 +477,7 @@ var njEvents = [{
 	  date: new Date(2015, 8, 24), //month begin at 0
 	  time: '19',
 	  register: 'https://guestlistapp.com/events/341355',
-	  place: 'epitech',
+	  place: 'eartsup',
 	  subjects: [
 	      {
 	        title: "Restitution du Hackathon des communautés nantaises de développeurs",
@@ -555,7 +555,7 @@ var njEvents = [{
     date: new Date(2015, 4, 11), //month begin at 0
     time: '19',
     register: 'https://guestlistapp.com/events/324039',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: "Java 8 en pratique",
@@ -656,7 +656,7 @@ var njEvents = [{
   date: new Date(2015, 2, 11),//month begin at 0
   time: '19',
   register: 'https://guestlistapp.com/events/312915',
-  place: 'epitech',
+  place: 'eartsup',
   subjects: [
       {
         title: "Google App Engine, déployer plus vite que son ombre !",
@@ -711,7 +711,7 @@ var njEvents = [{
   date: new Date(2015, 1, 16),//month begin at 0
   time: '19',
   register: 'https://guestlistapp.com/events/310620',
-  place: 'epitech',
+  place: 'eartsup',
   subjects: [
   {
     title: "Chef, oui Chef !",
@@ -797,7 +797,7 @@ var njEvents = [{
     date: new Date(2014, 11, 15),//month begin at 0
     time: '19',
     register: 'http://guestli.st/301611',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'Le BigData NoBullShit: Cas d’utilisation chez Dictanova et Cityzen Data',
@@ -896,7 +896,7 @@ var njEvents = [{
     date: new Date(2014, 8, 29),//month begin at 0
     time: '19',
     register: 'http://guestli.st/286752',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'Codehale Metrics',
@@ -934,7 +934,7 @@ var njEvents = [{
     time: '20',
     old_time: '19',
     register: 'http://guestli.st/265998',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'France - Nigéria',
@@ -1018,7 +1018,7 @@ var njEvents = [{
     date: new Date(2014, 3, 14),//month begin at 0
     time: '19',
     register: 'http://guestli.st/245676',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'Write Java Apps Faster Using SaaS Developer Environments',
@@ -1058,7 +1058,7 @@ var njEvents = [{
     date: new Date(2014, 2, 17),//month begin at 0
     time: '19',
     register: 'http://guestlistapp.com/events/234840',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'Dart, c\'est aussi Angular',
@@ -1144,7 +1144,7 @@ var njEvents = [{
     date: new Date(2014, 0, 20),//month begin at 0
     time: '19',
     register: 'https://guestlistapp.com/events/218334',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'JParsec',
@@ -1181,7 +1181,7 @@ var njEvents = [{
     date: new Date(2013, 11, 4),//month begin at 0
     time: '19',
     register: 'http://guestli.st/212961',
-    place: 'epitech',
+    place: 'eartsup',
     subjects: [
       {
         title: 'Grails dans les tranchées',

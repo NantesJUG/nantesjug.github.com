@@ -32,13 +32,22 @@ var njPlaces = [
     capacity: 'http://goo.gl/maps/YbjKy'
   },
   {
-    id: 'epitech',
-    name: 'Epitech',
+    id: 'eartsup',
+    name: 'e-artsup / Epitech',
     address: '16-18 Rue Flandres Dunkerque',
-    city: '44100 Nantes',
-    maps: 'http://goo.gl/maps/DCQ1a',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/tjQxgmswrVD2',
     twitter: 'EPITECHNantes',
     capacity: 130
+  },
+  {
+    id: 'epitech',
+    name: 'Epitech',
+    address: '5 Rue d\'Alger',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/yRLvMRkNuzj',
+    twitter: 'EPITECHNantes',
+    capacity: 80
   },
   {
     id: 'hub_creatic',
