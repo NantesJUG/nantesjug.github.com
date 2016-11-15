@@ -1,5 +1,30 @@
 /*jshint unused: false */
-var njEvents = [{
+var njEvents = [
+  {
+    id: '2016_11_30',
+    title: "Démystifier ElasticSearch",
+    date: new Date(2016, 10, 30), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/235607237',
+    place: 'eartsup',
+    subjects: [ {
+        title: 'Démystifier ElasticSearch',
+        length: '1h30',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['maxime_odye'],
+        abstract: "<p>ElasticSearch est une solution de moteur de recherche utilisée par beaucoup, comprise par peu. Surcouche de l'inévitable Apache Lucene, ElasticSearch en efface la complexité pour y ajouter des interfaces \"user-friendly\". ElasticSearch est une solution Out-of-the-box étonnante, s'adaptant à l'applicatif et aux besoins sans action de l'utilisateur. Force ou faiblesse ? "
+          + "<br>Comprendre ce qu'il se passe sous le capot est essentiel pour réaliser des applications performantes et pertinentes. Analyse de texte, types de recherche et clusterisation. Autant d'outils qui méritent d'être appréhendés et compris. ElasticSearch est une brique importante de la stack ELK (ElasticSearch, Logstash, Kibana). Comprendre ce que l'on indexe dans notre moteur et comment nous l'interrogeons est nécessaire pour une restitution pertinente dans Kibana."
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }],
+    docs: [
+          {name: 'Affiche de la soirée', url: ' https://drive.google.com/uc?export=download&id=0B9mpGdJWcahkclNrMG5nRUxob0k', type:'pdf'}
+    ]
+  },{
   id: '2016_10_19',
   title: "Dev' Party 16",
   date: new Date(2016, 9, 19), //month begin at 0

@@ -1139,7 +1139,23 @@ var njSpeakers = [
     github: 'fmallet',
     website: 'http://www.sonarsource.com',
     email: 'freddy.mallet@gmail.com'
-    }
+}, {
+    id: 'maxime_odye',
+    name: 'Maxime Odye',
+    bio: '<p>' +
+        'Maxime, consultant back-end chez Zenika Rennes. Passionné techniquement, j\'aime découvrir et re-découvrir les différentes technologies gravitant autour de l\'écosystème Java. ' +
+        'Amateur des différentes communautés (Jug, BreizhCamp, AgileTour), j\'estime que le partage technique, et non technique, dans le secteur de l\'Informatique est quelque chose d\'extraordinaire. ' +
+        '<br>Découverte, progression et approfondissement, l\'enrichissement personnel est grand et essentiel pour nous faire tous progresser. ' +
+        '<br>Je suis formateur ElasticSearch et ELK (ElasticSearch, Logstash, Kibana).' +
+        '</p>',
+    gravatar: '',
+    photo: 'jpg',
+    twitter: 'MaxOdye',
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'maxime.odye@zenika.com'
+}
 ];
 
 
