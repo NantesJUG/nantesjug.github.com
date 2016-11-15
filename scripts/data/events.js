@@ -5,7 +5,7 @@ var njEvents = [
     title: "Soirée Quickies",
     date: new Date(2016, 11, 14), //month begin at 0
     time: '19',
-    register: null,
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/235607836/',
     place: 'insula',
     subjects: [ {
         title: 'Soirée Quickies",',
