@@ -41,7 +41,7 @@
             <div class="col-md-10 col-lg-10">
               <p>
                 <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
-                <strong>{{subject.title}}</strong> {{subject.intro}}
+                <strong>{{subject.title}}</strong> <span ng-bind-html-unsafe="subject.intro"></span>
               </p>
 
               <p>

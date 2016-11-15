@@ -17,7 +17,7 @@
 
           <p>
             <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
-            <strong>{{subject.title}}</strong> {{subject.intro}}
+            <strong>{{subject.title}}</strong> <span ng-bind-html-unsafe="subject.intro"></span>
             <span ng-if="subject.speakers">
             (
             <span ng-repeat="speaker in subject.speakers">

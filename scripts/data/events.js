@@ -1,6 +1,30 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2016_10_14',
+    title: "Soirée Quickies",
+    date: new Date(2016, 11, 14), //month begin at 0
+    time: '19',
+    register: null,
+    place: 'insula',
+    subjects: [ {
+        title: 'Soirée Quickies",',
+        length: '2h00',
+        time: '19h00',
+        type: 'quickie',
+        intro: "Programme à venir... Venez <a href=\"http://bit.ly/nantesjug-sujet\" target=\"_blank\">tenter l'expérience</a> !",
+        speakers: null,
+        abstract: "<p>"
+          + "Programme à venir... Venez <a href=\"http://bit.ly/nantesjug-sujet\" target=\"_blank\">tenter l'expérience</a> !"
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }],
+    docs: [
+          {name: 'Affiche de la soirée', url: ' https://drive.google.com/uc?export=download&id=0B9mpGdJWcahkclNrMG5nRUxob0k', type:'pdf'}
+    ]
+  },{
     id: '2016_11_30',
     title: "Démystifier ElasticSearch",
     date: new Date(2016, 10, 30), //month begin at 0
