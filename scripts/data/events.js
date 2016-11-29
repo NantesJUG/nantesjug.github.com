@@ -92,7 +92,7 @@ var njEvents = [
         ]
     }],
     docs: [
-          {name: 'Affiche de la soirée', url: ' https://drive.google.com/uc?export=download&id=0B9mpGdJWcahkclNrMG5nRUxob0k', type:'pdf'}
+          //{name: 'Affiche de la soirée', url: '', type:'pdf'}
     ]
   },{
     id: '2016_11_30',
