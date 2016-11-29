@@ -1155,6 +1155,73 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'maxime.odye@zenika.com'
+}, {
+    id: 'yann_danthu',
+    name: 'Yann Danthu',
+    bio: '<p>' +
+        'Freelance java web developer' +
+        '</p>',
+    gravatar: '',
+    photo: 'jpg',
+    twitter: 'YannDanthu',
+    gplus: null,
+    github: 'YannDanthu',
+    website: 'http://yann.danthu.com/',
+    email: 'yann@danthu.com'
+}, {
+    id: 'matthieu_gioani',
+    name: 'Matthieu Gioani',
+    bio: '<p>' +
+        'Matthieu Gioani, consultant, designer &amp; facilitateur, accompagne les équipes projet et les managers sur les problématiques de design, d’émergence des besoins et d’innovation depuis plus de 6 ans.' +
+        '</p>',
+    gravatar: '',
+    photo: 'jpg',
+    twitter: 'Matt_Gio',
+    gplus: null,
+    github: null,
+    website: 'http://www.design-en-entreprise.fr/',
+    email: 'Matthieu.Gioani@gmail.com'
+}, {
+    id: 'eric_bernardeau',
+    name: 'Eric Bernardeau',
+    bio: '<p>' +
+        '' +
+        '</p>',
+    gravatar: '',
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: 'http://www.doyoubuzz.com/eric-bernardeau',
+    email: 'eric.bernardeau@gmail.com'
+}, {
+    id: 'adrien_pessu',
+    name: 'Adrien Pessu',
+    bio: '<p>' +
+        '' +
+        '</p>',
+    gravatar: '',
+    photo: 'jpg',
+    twitter: 'adrien_pe',
+    gplus: null,
+    github: 'adrienpessu',
+    website: 'http://www.doyoubuzz.com/eric-bernardeau',
+    email: 'a.pessu@gmail.com'
+}, {
+    id: 'yvonnick_frin',
+    name: 'Yvonnick Frin',
+    bio: "<p>" +
+        "Yvonnick est développeur javascript chez Zenika Nantes. Curieux et passionné, il aime découvrir les dernières technologies du Web.<br>" +
+        "Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React.<br>" +
+        "Social, il écume les meetups nantais en quête de nouveautés." +
+        "</p>",
+    gravatar: '',
+    photo: 'jpg',
+    twitter: 'YvonnickFrin',
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'yvonnick.frin@zenika.com'
 }
 ];
 

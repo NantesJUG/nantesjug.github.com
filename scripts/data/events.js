@@ -8,14 +8,84 @@ var njEvents = [
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/235607836/',
     place: 'insula',
     subjects: [ {
-        title: 'Soirée Quickies",',
-        length: '2h00',
+        title: "Devoxx Belgique, c'était il y'a 2 semaines déjà",
+        length: '0h15',
         time: '19h00',
         type: 'quickie',
-        intro: "Programme à venir... Venez <a href=\"http://bit.ly/nantesjug-sujet\" target=\"_blank\">tenter l'expérience</a> !",
-        speakers: null,
+        intro: null,
+        speakers: ['yann_danthu'],
         abstract: "<p>"
-          + "Programme à venir... Venez <a href=\"http://bit.ly/nantesjug-sujet\" target=\"_blank\">tenter l'expérience</a> !"
+          + "Retour sur devoxx belgique !"
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }, {
+        title: "Google Design Sprint : à quoi ça sert et pourquoi il faut essayer",
+        length: '0h15',
+        time: '19h15',
+        type: 'quickie',
+        intro: null,
+        speakers: ['matthieu_gioani'],
+        abstract: "<p>"
+          + "Le Google Design Sprint est une approche de prototypage d'un service ou d'un business en 5 jours qui permet d'avancer rapidement et de lever des hypothèses sur une idée.<br>" 
+          + "Venez découvrir ce qui fait le succès des Google Design Sprints !"
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }, /*{
+        title: "IaaS, CaaS, PaaS, FaaS... c'est quoi la différence ?",
+        length: '0h15',
+        time: '19h30',
+        type: 'quickie',
+        intro: null,
+        speakers: ['julien_landure'],
+        abstract: "<p>"
+          + "Au travers de ce talk, nous expliquerons les différentes plateformes disponibles pour réaliser une application 'cloud' en 2017. !"
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }, */ {
+        title: "DropWizard",
+        length: '0h15',
+        time: '19h30',
+        type: 'quickie',
+        intro: null,
+        speakers: ['adrien_pessu'],
+        abstract: "<p>"
+          + "Présentation du framework REST léger et performant. Présentation générale du framework sur slides, puis démos avec un micro service." 
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }, { 
+        title: "IT News!",
+        length: '0h15',
+        time: '19h45',
+        type: 'quickie',
+        intro: null,
+        speakers: ['eric_bernardeau'],
+        abstract: "<p>"
+          + "Que s'est-il passé dans le monde IT ?<br>" 
+          + "Voici les news !"
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }, { 
+        title: "Webcomponents the state of the art",
+        length: '0h15',
+        time: '20h00',
+        type: 'quickie',
+        intro: null,
+        speakers: ['yvonnick_frin'],
+        abstract: "<p>"
+          + "Quoi les webcomponents !? Ce truc-là, on en entend parler depuis des années et chacun en a sa propre interprétation.<br>"
+          + "Et puis, c’est pas vraiment réutilisable car il faut se traîner le framework associé à chaque fois !</p>"
+          + "<p>La spécification W3C est passée en working draft, Chrome et Opéra la supporte déjà entièrement.<br>"
+          + "Profitons-en pour faire un état de l’art sur ce concept de composant standard pour le Web ! " 
           + "</p>"
         ,
         docs: [
