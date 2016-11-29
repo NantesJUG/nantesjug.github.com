@@ -15,18 +15,19 @@
           </h2>
           <div class="jug-subject hidden-xs hidden-sm" ng-repeat="subject in event.subjects">
 
-          <p>
-            <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
-            <strong>{{subject.title}}</strong> <span ng-bind-html-unsafe="subject.intro"></span>
-            <span ng-if="subject.speakers">
-            (
-            <span ng-repeat="speaker in subject.speakers">
-              <span ng-if="$index != 0"> - </span>
-              <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
-            </span>
-            )
-            </span>
-          </p>
+            <p>
+              <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
+              <strong>{{subject.title}}</strong> <span ng-bind-html-unsafe="subject.intro"></span>
+              <span ng-if="subject.speakers">
+              (
+              <span ng-repeat="speaker in subject.speakers">
+                <span ng-if="$index != 0"> - </span>
+                <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
+              </span>
+              )
+              </span>
+            </p>
+          </div>
           <ng-include src="'views/templates/register.html'"></ng-include>
         </li>
       </ul>
