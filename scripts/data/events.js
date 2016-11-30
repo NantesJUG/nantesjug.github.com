@@ -48,14 +48,15 @@ var njEvents = [
         docs: [
         ]
     }, */ {
-        title: "DropWizard",
+        title: "DropWizard for the rest of us",
         length: '0h15',
         time: '19h30',
         type: 'quickie',
         intro: null,
         speakers: ['adrien_pessu'],
         abstract: "<p>"
-          + "Présentation du framework REST léger et performant. Présentation générale du framework sur slides, puis démos avec un micro service." 
+          + "Avec l'essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST.<br>"
+          + "Je vous présenterai la simplicité de mise en place d'un microservice REST, ainsi que les possibilités du framework légé et robuste qu'est DropWizard." 
           + "</p>"
         ,
         docs: [
