@@ -1197,9 +1197,10 @@ var njSpeakers = [
 }, {
     id: 'adrien_pessu',
     name: 'Adrien Pessu',
-    bio: '<p>' +
-        '' +
-        '</p>',
+    bio: '<p>'
+        + "Adrien est passionné de développement, en particulier Java et Web. Il a évolué en société de services pendant plusieurs années avant de rejoindre Keendoo, éditeur logiciel dans l'agroalimentaire.<br>"
+        + "Vous pourrez aussi le croiser dans certains meetups tech et agile."
+        + '</p>',
     gravatar: '',
     photo: 'jpg',
     twitter: 'adrien_pe',
@@ -1219,7 +1220,7 @@ var njSpeakers = [
     photo: 'jpg',
     twitter: 'YvonnickFrin',
     gplus: null,
-    github: null,
+    github: 'frinyvonnick',
     website: null,
     email: 'yvonnick.frin@zenika.com'
 }
