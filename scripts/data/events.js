@@ -56,7 +56,7 @@ var njEvents = [
         speakers: ['adrien_pessu'],
         abstract: "<p>"
           + "Avec l'essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST.<br>"
-          + "Je vous présenterai la simplicité de mise en place d'un microservice REST, ainsi que les possibilités du framework légé et robuste qu'est DropWizard." 
+          + "Je vous présenterai la simplicité de mise en place d'un microservice REST, ainsi que les possibilités du framework léger et robuste qu'est DropWizard." 
           + "</p>"
         ,
         docs: [
