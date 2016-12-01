@@ -8,14 +8,15 @@ var njEvents = [
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/235607836/',
     place: 'insula',
     subjects: [ {
-        title: "Devoxx Belgique, c'était il y'a 2 semaines déjà",
+        title: "Retour sur Devoxx Belgique 2016",
         length: '0h15',
         time: '19h00',
         type: 'quickie',
         intro: null,
         speakers: ['yann_danthu'],
         abstract: "<p>"
-          + "Retour sur devoxx belgique !"
+          + "Devoxx.be c'est sur 5 jours dont 2 jours University et 3 jours de conférences.<br>"
+          + "Je vous propose un petit retour sur mes 3 jours de conférence de Devoxx.be 2016, histoire de vous donnez envie d'aller y faire un tour ;)"
           + "</p>"
         ,
         docs: [
@@ -34,20 +35,7 @@ var njEvents = [
         ,
         docs: [
         ]
-    }, /*{
-        title: "IaaS, CaaS, PaaS, FaaS... c'est quoi la différence ?",
-        length: '0h15',
-        time: '19h30',
-        type: 'quickie',
-        intro: null,
-        speakers: ['julien_landure'],
-        abstract: "<p>"
-          + "Au travers de ce talk, nous expliquerons les différentes plateformes disponibles pour réaliser une application 'cloud' en 2017. !"
-          + "</p>"
-        ,
-        docs: [
-        ]
-    }, */ {
+    }, {
         title: "DropWizard for the rest of us",
         length: '0h15',
         time: '19h30',
@@ -87,6 +75,19 @@ var njEvents = [
           + "Et puis, c’est pas vraiment réutilisable car il faut se traîner le framework associé à chaque fois !</p>"
           + "<p>La spécification W3C est passée en working draft, Chrome et Opéra la supporte déjà entièrement.<br>"
           + "Profitons-en pour faire un état de l’art sur ce concept de composant standard pour le Web ! " 
+          + "</p>"
+        ,
+        docs: [
+        ]
+    }, { 
+        title: "Keycloak, une solution simple pour sécuriser vos applications",
+        length: '0h20',
+        time: '20h15',
+        type: 'quickie',
+        intro: null,
+        speakers: ['cyril_vrillaud'],
+        abstract: "<p>"
+          + "Un quicky de 20mins sur Keycloak (http://www.keycloak.org) une solution de sécurisation des applications (front, API, fédération d’utilisateurs…), qui prendrait la forme d’une démo d'un POC illustrant un use case de Voyages-sncf.com."
           + "</p>"
         ,
         docs: [

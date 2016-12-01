@@ -1159,7 +1159,7 @@ var njSpeakers = [
     id: 'yann_danthu',
     name: 'Yann Danthu',
     bio: '<p>' +
-        'Freelance java web developer' +
+        'Développeur, en couple avec Java depuis 1999, mais je dois avouer que je lui fais quelques infidélités avec Javascript ces derniers temps.' +
         '</p>',
     gravatar: '',
     photo: 'jpg',
@@ -1223,6 +1223,17 @@ var njSpeakers = [
     github: 'frinyvonnick',
     website: null,
     email: 'yvonnick.frin@zenika.com'
+}, {
+    id: 'cyril_vrillaud',
+    name: 'Cyril Vrillaud',
+    bio: "<p>Manager d'une équipe de delivery à Nantes pour Voyages-sncf.com, je suis également architecte transverse et travaille sur l'avenir du SI ecommerce.</p>",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'cvrillaud@voyages-sncf.com'
 }
 ];
 
