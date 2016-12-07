@@ -50,15 +50,15 @@ var njEvents = [
         docs: [
         ]
     }, { 
-        title: "IT News!",
+        title: "2017: Java 9 et autres outils!",
         length: '0h15',
         time: '19h45',
         type: 'quickie',
         intro: null,
         speakers: ['eric_bernardeau'],
         abstract: "<p>"
-          + "Que s'est-il passé dans le monde IT ?<br>" 
-          + "Voici les news !"
+          + "En 2017, nous devrions avoir Java 9 qui va entraîner pas mal de changement dans nos outils.<br>"
+          + "Ce quickie est l'occasion de présenter les modifications / roadmap de ces outils qui sortiront en 2017, comme par exemple spring 5." 
           + "</p>"
         ,
         docs: [
