@@ -4,7 +4,18 @@
 
 /*jshint unused: false */
 var njSpeakers = [
-{
+  {
+    id : "youen_chene",
+    name : "Youen Chéné",
+    bio : "<p>CTO chez <a href='http://www.saagie.com' target='_blank'>Saagie</a>.</p><p>Passionné d'informatique et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG, Devoxx4Kids et de [Codeurs en Seine](http://www.codeursenseine.com).</p><p>J'ai fait 7 ans de prestation et de consulting en région parisienne, je suis passé développeur-manager chez Masternaut et je suis maintenant CTO chez Saagie, une plateforme big data prête à l'emploi.</p>",
+    gravatar: "youen.chene@gadz.org",
+    photo: "jpg",
+    twitter: "youen_chene",
+    gplus: null,
+    github: "youenchene",
+    website: 'http://www.saagie.com',
+    email: 'youen.chene@gadz.org'
+  },{
   id : "olivier_tavard",
   name : "Olivier Tavard",
   bio : "<p>Olivier Tavard, est cofondateur et développeur au sein de la société France Labs, une startup innovante née fin 2011 à Sophia-Antipolis. La société est centrée sur les moteurs de recherche open source pour entreprise, notamment Apache Lucene/Solr et Elasticsearch.</p><p>Olivier a plusieurs années d’expérience dans les moteurs de recherche Lucene, Solr et Datafari. Enfin Olivier s’occupe de la R&D de la société, et travaille au développement de Datafari, le moteur de recherche open source pour entreprise de France Labs.</p>",

@@ -1,6 +1,41 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_01_18',
+    title: "I'm a CTO Bitch & Kanban from the startup warfare",
+    date: new Date(2017, 0, 18), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/236606281/',
+    place: 'hub_creatic',
+    subjects: [
+      {
+        title: "I'm a CTO Bitch"  ,
+        length: '0h40',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['youen_chene'],
+        abstract: "<p>CTO, je suis un CTO, enfin! … Entre la course technologique, le juridique, la levée de fonds, le recrutement, le management, la gestion de la roadmap, les comités d’administration, les avant ventes et les 30 mn de code hebdomadaire, ce talk aidera les développeurs à mieux comprendre les CTOs et aux futurs CTOs à mieux appréhender ce nouveau role. </p>"
+        ,
+        docs: [
+        ]
+      },
+      {
+        title: "Kanban from the startup warfare"  ,
+        length: '0h30',
+        time: '19h40',
+        type: 'talk',
+        intro: null,
+        speakers: ['youen_chene'],
+        abstract: "<p>Nous verrons comment l'équipe produit de Saagie s'est organisé autour de l'approche Kanban pour répondre à ce système fortement contraint. Nous partagerons aussi les erreurs et les leçons apprises.</p>"
+                 +"<p>La présentation sera agrémentée d'un parallélisme avec un empire qui a eu une croissance de startup : l'empire mongol.</p>"
+        ,
+        docs: [
+        ]
+      }
+  ]
+  },
+  {
     id: '2016_10_14',
     title: "Soirée Quickies",
     date: new Date(2016, 11, 14), //month begin at 0
@@ -29,7 +64,7 @@ var njEvents = [
         intro: null,
         speakers: ['matthieu_gioani'],
         abstract: "<p>"
-          + "Le Google Design Sprint est une approche de prototypage d'un service ou d'un business en 5 jours qui permet d'avancer rapidement et de lever des hypothèses sur une idée.<br>" 
+          + "Le Google Design Sprint est une approche de prototypage d'un service ou d'un business en 5 jours qui permet d'avancer rapidement et de lever des hypothèses sur une idée.<br>"
           + "Venez découvrir ce qui fait le succès des Google Design Sprints !"
           + "</p>"
         ,
@@ -44,12 +79,12 @@ var njEvents = [
         speakers: ['adrien_pessu'],
         abstract: "<p>"
           + "Avec l'essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST.<br>"
-          + "Je vous présenterai la simplicité de mise en place d'un microservice REST, ainsi que les possibilités du framework léger et robuste qu'est DropWizard." 
+          + "Je vous présenterai la simplicité de mise en place d'un microservice REST, ainsi que les possibilités du framework léger et robuste qu'est DropWizard."
           + "</p>"
         ,
         docs: [
         ]
-    }, { 
+    }, {
         title: "2017: Java 9 et autres outils!",
         length: '0h15',
         time: '19h45',
@@ -58,12 +93,12 @@ var njEvents = [
         speakers: ['eric_bernardeau'],
         abstract: "<p>"
           + "En 2017, nous devrions avoir Java 9 qui va entraîner pas mal de changement dans nos outils.<br>"
-          + "Ce quickie est l'occasion de présenter les modifications / roadmap de ces outils qui sortiront en 2017, comme par exemple spring 5." 
+          + "Ce quickie est l'occasion de présenter les modifications / roadmap de ces outils qui sortiront en 2017, comme par exemple spring 5."
           + "</p>"
         ,
         docs: [
         ]
-    }, { 
+    }, {
         title: "Webcomponents the state of the art",
         length: '0h15',
         time: '20h00',
@@ -74,12 +109,12 @@ var njEvents = [
           + "Quoi les webcomponents !? Ce truc-là, on en entend parler depuis des années et chacun en a sa propre interprétation.<br>"
           + "Et puis, c’est pas vraiment réutilisable car il faut se traîner le framework associé à chaque fois !</p>"
           + "<p>La spécification W3C est passée en working draft, Chrome et Opéra la supporte déjà entièrement.<br>"
-          + "Profitons-en pour faire un état de l’art sur ce concept de composant standard pour le Web ! " 
+          + "Profitons-en pour faire un état de l’art sur ce concept de composant standard pour le Web ! "
           + "</p>"
         ,
         docs: [
         ]
-    }, { 
+    }, {
         title: "Keycloak, une solution simple pour sécuriser vos applications",
         length: '0h20',
         time: '20h15',
