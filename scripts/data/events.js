@@ -33,7 +33,11 @@ var njEvents = [
         docs: [
         ]
       }
-  ]
+	       
+  ],
+    docs: [
+      {name: 'Affiche de la soirée', url: 'https://drive.google.com/open?id=0BzLO1XLmywLJS1A5cm1kOFBhakk', type:'pdf'}
+    ]
   }, {
     id: '2017_01_18',
     title: "I'm a CTO Bitch & Kanban from the startup warfare",
@@ -117,6 +121,8 @@ var njEvents = [
           + "</p>"
         ,
         docs: [
+		{name: 'slides', url: 'https://adrienpessu.github.io/prez/prez-DropWizard-quickie', type:'html'},
+		{name: 'projet', url: 'https://github.com/adrienpessu/dropwizard-demos-quickies', type:'github'}	
         ]
     }, {
         title: "2017: Java 9 et autres outils!",
