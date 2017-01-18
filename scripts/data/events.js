@@ -5,7 +5,7 @@ var njEvents = [
     title: "Soirée RxJava, Spring 5, Ratpack et Couchbase",
     date: new Date(2017, 1, 01), //month begin at 0
     time: '19',
-    register: '',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237022612/',
     place: 'eartsup',
     subjects: [{
         title: "Applications web reactives avec Spring 5 et Reactor 3",
