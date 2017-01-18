@@ -1,6 +1,40 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_02_01',
+    title: "Soirée RxJava, Spring 5, Ratpack et Couchbase",
+    date: new Date(2017, 1, 01), //month begin at 0
+    time: '19',
+    register: '',
+    place: 'eartsup',
+    subjects: [{
+        title: "Applications web reactives avec Spring 5 et Reactor 3",
+        length: '40min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['simon_basle'],
+        abstract: "<p>Dans cette présentation nous découvrirons Reactor 3, une librairie réactive alternative à RxJava mais proche de celle-ci. " +
+        		"Nous verrons comment Spring 5 va mettre l\'accent sur la programmation réactive avec Reactor comme base. Nous comparerons ensuite " +
+        		"Reactor avec RxJava 1 et RxJava 2, ce qui sera l\'occasion de se focaliser (comme la librairie) sur un contexte Java 8, la spécification " +
+        		"Reactive Streams et le concept de backpressure.</p>",
+        docs: [
+        ]
+      }, {
+        title: "A practical RxJava example with Ratpack and Couchbase",
+        length: '50min',
+        time: '19h50',
+        type: 'talk',
+        intro: null,
+        speakers: ['laurent_doguin'],
+        abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
+        		"<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
+        		"<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
+        docs: [
+        ]
+      }
+  ]
+  }, {
     id: '2017_01_18',
     title: "I'm a CTO Bitch & Kanban from the startup warfare",
     date: new Date(2017, 0, 18), //month begin at 0

@@ -1245,8 +1245,29 @@ var njSpeakers = [
     github: null,
     website: null,
     email: 'cvrillaud@voyages-sncf.com'
-}
-];
+}, {
+    id: 'simon_basle',
+    name: 'Simon Basle',
+    bio: "<p>Simon est Software Engineer chez Pivotal dans l'équipe Spring / Reactor, après avoir passé quelques années en SSII puis chez Couchbase (où il contribuait au driver Java, basé sur RxJava). Passionné de dev depuis toujours, Simon s'intéresse tout particulièrement à la programmation réactive ces dernières années.</p>",
+    gravatar: 'sbasle@pivotal.io',
+    photo: null,
+    twitter: 'simonbasle',
+    gplus: null,
+    github: 'simonbasle',
+    website: null,
+    email: 'simon.basle@gmail.com'
+}, {
+    id: 'laurent_doguin',
+    name: 'Laurent Doguin',
+    bio: "<p>Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown. Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.</p>",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'ldoguin',
+    gplus: null,
+    github: 'ldoguin',
+    website: null,
+    email: 'laurent.doguin@couchbase.com'
+}];
 
 
 //Test gravatar : http://www.neoseeker.com/tools/gravatar_tester.php
