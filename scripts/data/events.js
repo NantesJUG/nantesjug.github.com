@@ -8,9 +8,21 @@ var njEvents = [
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237022612/',
     place: 'eartsup',
     subjects: [{
+	title: "A practical RxJava example with Ratpack and Couchbase",
+        length: '50min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['laurent_doguin'],
+        abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
+        		"<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
+        		"<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
+        docs: [
+        ]
+      }, {
         title: "Applications web reactives avec Spring 5 et Reactor 3",
         length: '40min',
-        time: '19h00',
+        time: '20h00',
         type: 'talk',
         intro: null,
         speakers: ['simon_basle'],
@@ -18,18 +30,6 @@ var njEvents = [
         		"Nous verrons comment Spring 5 va mettre l\'accent sur la programmation réactive avec Reactor comme base. Nous comparerons ensuite " +
         		"Reactor avec RxJava 1 et RxJava 2, ce qui sera l\'occasion de se focaliser (comme la librairie) sur un contexte Java 8, la spécification " +
         		"Reactive Streams et le concept de backpressure.</p>",
-        docs: [
-        ]
-      }, {
-        title: "A practical RxJava example with Ratpack and Couchbase",
-        length: '50min',
-        time: '19h50',
-        type: 'talk',
-        intro: null,
-        speakers: ['laurent_doguin'],
-        abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
-        		"<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
-        		"<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
         docs: [
         ]
       }
