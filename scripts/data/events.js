@@ -34,7 +34,7 @@ var njEvents = [
         ]
       }
 	       
-  ],
+    ],
     docs: [
       {name: 'Affiche de la soirée', url: 'https://drive.google.com/open?id=0BzLO1XLmywLJS1A5cm1kOFBhakk', type:'pdf'}
     ]
