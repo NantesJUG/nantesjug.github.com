@@ -71,7 +71,10 @@ var njEvents = [
         docs: [
         ]
       }
-  ]
+    ],
+    docs: [
+      {name: 'slides', url: 'https://drive.google.com/open?id=0B4KTOFlyLP1xd1NtZzdTd0pDUTg', type:'pdf'},
+    ]
   },
   {
     id: '2016_10_14',
