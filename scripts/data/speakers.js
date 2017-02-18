@@ -5,6 +5,30 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id : "jean_pascal_thiery",
+    name : "Jean-Pascal Thiery",
+    bio : "<p>Java Craftsman et agiliste pratiquant.</p><p>Jean-Pascal a arpenté les voies de l'intégration continue jusqu'à intégrer la mouvance DevOps. Il aime : Java, Docker, Mesos, et la qualité des livrables. Il n'aime pas : les phrases qui commence par \"Normalement, ...\".</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "jpthiery",
+    gplus: null,
+    github: "jpthiery",
+    website: "https://kodokojo.io",
+    email: "jpthiery@kodokojo.io"
+  },
+  {
+    id : "antoine_le_taxin",
+    name : "Antoine Le Taxin",
+    bio : "<p>Développeur fullstack, afición du javascript de la première heure, Antoine suit avec passion les évolutions de l’écosystème : de Backbone à React en passant par Angular et Node, bon nombre de frameworks JS lui sont passés sous les doigts.</p>",
+    gravatar: null,
+    photo: "png",
+    twitter: "ModuloM",
+    gplus: null,
+    github: "ModuloM",
+    website: "https://kodokojo.io",
+    email: "aletaxin@kodokojo.io"
+  },
+  {
     id : "youen_chene",
     name : "Youen Chéné",
     bio : "<p>CTO chez <a href='http://www.saagie.com' target='_blank'>Saagie</a>.</p><p>Passionné d'informatique et de programmation depuis le CE2 (génération MO5/TO7), je suis un des activistes au sein du Normandy JUG, Devoxx4Kids et de [Codeurs en Seine](http://www.codeursenseine.com).</p><p>J'ai fait 7 ans de prestation et de consulting en région parisienne, je suis passé développeur-manager chez Masternaut et je suis maintenant CTO chez Saagie, une plateforme big data prête à l'emploi.</p>",
@@ -15,19 +39,20 @@ var njSpeakers = [
     github: "youenchene",
     website: 'http://www.saagie.com',
     email: 'youen.chene@gadz.org'
-  },{
-  id : "olivier_tavard",
-  name : "Olivier Tavard",
-  bio : "<p>Olivier Tavard, est cofondateur et développeur au sein de la société France Labs, une startup innovante née fin 2011 à Sophia-Antipolis. La société est centrée sur les moteurs de recherche open source pour entreprise, notamment Apache Lucene/Solr et Elasticsearch.</p><p>Olivier a plusieurs années d’expérience dans les moteurs de recherche Lucene, Solr et Datafari. Enfin Olivier s’occupe de la R&D de la société, et travaille au développement de Datafari, le moteur de recherche open source pour entreprise de France Labs.</p>",
-  gravatar: null,
-  photo: "jpg",
-  twitter: null,
-  gplus: null,
-  github: null,
-  website: 'http://www.francelabs.com/',
-  email: 'olivier.tavard@francelabs.com'
-},
-{
+  },
+  {
+    id : "olivier_tavard",
+    name : "Olivier Tavard",
+    bio : "<p>Olivier Tavard, est cofondateur et développeur au sein de la société France Labs, une startup innovante née fin 2011 à Sophia-Antipolis. La société est centrée sur les moteurs de recherche open source pour entreprise, notamment Apache Lucene/Solr et Elasticsearch.</p><p>Olivier a plusieurs années d’expérience dans les moteurs de recherche Lucene, Solr et Datafari. Enfin Olivier s’occupe de la R&D de la société, et travaille au développement de Datafari, le moteur de recherche open source pour entreprise de France Labs.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: 'http://www.francelabs.com/',
+    email: 'olivier.tavard@francelabs.com'
+  },
+  {
     id : "rossi_oddet",
     name : "Rossi Oddet",
     bio : "<ul><li>Développeur Java & Web à Nantes chez SQLI</li><li>Co-organisateur des conférences JCertif en Afrique</li><li>Enthousiaste de l'écosystème des langages alternatifs de la JVM (Groovy, Scala, etc.)</li></ul>",

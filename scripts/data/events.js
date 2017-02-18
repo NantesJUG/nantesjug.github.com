@@ -1,42 +1,31 @@
 /*jshint unused: false */
 var njEvents = [
   {
-    id: '2017_02_01',
-    title: "Soirée RxJava, Spring 5, Ratpack et Couchbase",
-    date: new Date(2017, 1, 01), //month begin at 0
+    id: '2017_02_21',
+    title: "Soirée Kodo Kojo",
+    date: new Date(2017, 1, 21), //month begin at 0
     time: '19',
-    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237022612/',
-    place: 'eartsup',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237810951/',
+    place: 'dojo',
     subjects: [{
-	title: "A practical RxJava example with Ratpack and Couchbase",
-        length: '50min',
+        title: "Du Docker dans mon workflow de dev",
+        length: '45min',
         time: '19h00',
         type: 'talk',
         intro: null,
-        speakers: ['laurent_doguin'],
-        abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
-        		"<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
-        		"<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
-        docs: [
-        ]
-      }, {
-        title: "Applications web reactives avec Spring 5 et Reactor 3",
-        length: '40min',
-        time: '20h00',
-        type: 'talk',
-        intro: null,
-        speakers: ['simon_basle'],
-        abstract: "<p>Dans cette présentation nous découvrirons Reactor 3, une librairie réactive alternative à RxJava mais proche de celle-ci. " +
-        		"Nous verrons comment Spring 5 va mettre l\'accent sur la programmation réactive avec Reactor comme base. Nous comparerons ensuite " +
-        		"Reactor avec RxJava 1 et RxJava 2, ce qui sera l\'occasion de se focaliser (comme la librairie) sur un contexte Java 8, la spécification " +
-        		"Reactive Streams et le concept de backpressure.</p>",
+        speakers: ['jean_pascal_thiery', 'antoine_le_taxin'],
+        abstract: "<p>Kodo Kojo est une solution Open source qui permet de fournir une usine logicielle en 3 clics qui inclut : la gestion de la sécurité, la configuration, le monitoring et la gestion des utilisateurs sur chacune des briques de l'usine.</p>" +
+        		"<p>Kodo Kojo s'appuie sur Mesos/Marathon/Docker pour lancer ses services ainsi que les briques qui constituent chaque usine logicielle. Nous proposons de vous présenter les solutions que nous avons mises en place pour tester et construire notre projet qui se compose d'une stack technique assez conséquente. Nous répondrons notamment aux questions suivantes :" +
+            "<ul><li>Comment tester mon service de pilotage par API de Gitlab/Jenkins/Nexus ?</li>" +
+            "<li>Comment tester l'UI sans avoir à installer Java, Maven, Meso, Marathon, Node, Npm,  HaProxy, ...</li>" +
+            "<li>Comment automatiser tous ces tests ?</li>" +
+            "<li>Comment partager nos livrables simplement ?</li></ul>" +
+            "</p>",
         docs: [
         ]
       }
-	       
     ],
     docs: [
-      {name: 'Affiche de la soirée', url: 'https://drive.google.com/open?id=0BzLO1XLmywLJS1A5cm1kOFBhakk', type:'pdf'}
     ]
   }, {
     id: '2017_01_18',
@@ -125,7 +114,7 @@ var njEvents = [
         ,
         docs: [
 		{name: 'slides', url: 'https://adrienpessu.github.io/prez/prez-DropWizard-quickie', type:'html'},
-		{name: 'projet', url: 'https://github.com/adrienpessu/dropwizard-demos-quickies', type:'github'}	
+		{name: 'projet', url: 'https://github.com/adrienpessu/dropwizard-demos-quickies', type:'github'}
         ]
     }, {
         title: "2017: Java 9 et autres outils!",
