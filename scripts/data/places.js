@@ -6,7 +6,7 @@ var njPlaces = [
     address: '26 Boulevard de Stalingrad',
     city: '44000 Nantes',
     maps: 'https://goo.gl/maps/YMT6a7v6gSo',
-    capacity: 50
+    capacity: 30
   },
   {
     id: 'epsi',
