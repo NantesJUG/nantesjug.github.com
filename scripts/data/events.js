@@ -4,13 +4,13 @@ var njEvents = [
     id: '2017_02_21',
     title: "Soirée Kodo Kojo",
     date: new Date(2017, 1, 21), //month begin at 0
-    time: '19',
+    time: '19h30',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237810951/',
     place: 'dojo',
     subjects: [{
         title: "Du Docker dans mon workflow de dev",
         length: '45min',
-        time: '19h00',
+        time: '19h30',
         type: 'talk',
         intro: null,
         speakers: ['jean_pascal_thiery', 'antoine_le_taxin'],
