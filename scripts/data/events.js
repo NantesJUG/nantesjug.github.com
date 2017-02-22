@@ -3,7 +3,7 @@ var njEvents = [
   {
     id: '2017_03_01',
     title: "Gestion de conf & Angular 2",
-    date: new Date(2017, 3, 1), //month begin at 0
+    date: new Date(2017, 2, 1), //month begin at 0
     time: '19h00',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237897768/',
     place: 'hub_creatic',
