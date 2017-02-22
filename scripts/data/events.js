@@ -1,6 +1,42 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_03_01',
+    title: "Gestion de conf & Angular 2",
+    date: new Date(2017, 3, 1), //month begin at 0
+    time: '19h00',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237897768/',
+    place: 'hub_creatic',
+    subjects: [{
+        title: "Gestion de configuration avec Hespérides",
+        length: '45min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['emeric_martineau'],
+        abstract: "<p>Le système d'information de Voyages-Sncf.com ce sont des centaines d'applications.<br>" +
+            "Elles sont en Java, en PHP, en Python, en Ruby, en NodeJS... Autant de technologies qui ont leurs préférences au niveau du format de configuration (XML, YAML, INI...).<br>" +
+            "Dans ce contexte, il faut un outil qui permet de gérer n'importe quel format de fichiers (excepté binaire) en étant totalement décorrélé de la technologie, le tout le plus simplement possible tout en proposant de gérer des environnements différents.<br>" +
+            "Cet outil doit être accessible à tous pour faciliter la vie de tous les collaborateurs : des développeurs, aux testeurs en passant par le support, sans oublier la production.<br>" +
+            "En plus il est OpenSource !</p>",
+        docs: [
+        ]
+      }, {
+        title: "Et si on refaisait le site du NantesJug en Angular 2 ?",
+        length: '45min',
+        time: '19h45',
+        type: 'talk',
+        intro: null,
+        speakers: ['anthonny_querouil'],
+        abstract: "<p>Le site du JUG de Nantes, <a href=\"http://http://www.nantesjug.org\">http://www.nantesjug.org</a> est une application Angular 1.0.8 qui date un peu, et comme tout bon jugger, j’aime mon JUG local et je me dis qu’une refonte serait la bienvenue.</p>" +
+        		"<p>Au cours de ce live-coding, nous partirons d’une application initiée avec angular-cli et nous créerons notre nouvelle version en utilisant TypeScript, un language typé de Microsoft, et la fameuse plateforme de développement on ne peut plus hype, Angular 2.</p>",
+        docs: [
+        ]
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_02_21',
     title: "Soirée Kodo Kojo",
     date: new Date(2017, 1, 21), //month begin at 0

@@ -1292,6 +1292,17 @@ var njSpeakers = [
     github: 'ldoguin',
     website: null,
     email: 'laurent.doguin@couchbase.com'
+}, {
+    id: 'emeric_martineau',
+    name: 'Emeric Martineau',
+    bio: "<p></p>",
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'emeric.martineau@gmail.com'
 }];
 
 
