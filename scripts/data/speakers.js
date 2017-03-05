@@ -1295,13 +1295,17 @@ var njSpeakers = [
 }, {
     id: 'emeric_martineau',
     name: 'Emeric Martineau',
-    bio: "<p></p>",
+    bio: "<p>Comment décrire quelqu'un qui a été hotliner, réparateur de PC et d'imprimantes, qui a tiré du câble réseau, qui a fait de l'administration réseau et système, fait du développement Delphi, Java (Web, Swing), qui s'intéresse au problématique de déploiement, d'automatisation...</br>" +
+        "Ah oui, le mot à la mode c'est DevOPS !</br>" +
+        "Alors va pour !</p>" +
+        "<p>Moi j'aime pas les cloisons. Les routes toutes droites.</p>" +
+        "<p>Et c'est pour ça qu'aujourd'hui je fais partie de l'équipe transverse de l'usine logicielle de Voyages-Sncf.com :-)</p>",
     gravatar: null,
-    photo: null,
-    twitter: null,
+    photo: 'jpg',
+    twitter: 'martineauemeric',
     gplus: null,
-    github: null,
-    website: null,
+    github: 'bubulemaster',
+    website: 'https://emericmartineau.blogspot.fr',
     email: 'emeric.martineau@gmail.com'
 }];
 
