@@ -31,6 +31,8 @@ var njEvents = [
         abstract: "<p>Le site du JUG de Nantes, <a href=\"http://http://www.nantesjug.org\">http://www.nantesjug.org</a> est une application Angular 1.0.8 qui date un peu, et comme tout bon jugger, j’aime mon JUG local et je me dis qu’une refonte serait la bienvenue.</p>" +
         		"<p>Au cours de ce live-coding, nous partirons d’une application initiée avec angular-cli et nous créerons notre nouvelle version en utilisant TypeScript, un language typé de Microsoft, et la fameuse plateforme de développement on ne peut plus hype, Angular 2.</p>",
         docs: [
+          {name: 'sources', url: 'https://github.com/anthonny/nantesjug-2017', type:'github'},
+
         ]
       }
     ],
