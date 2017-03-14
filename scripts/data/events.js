@@ -1,6 +1,39 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_04_12',
+    title: "Netflix & Devops",
+    date: new Date(2017, 3, 12), //month begin at 0
+    time: '19h00',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/238418834/',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: 'Netflix OSS ou comment  Homer est devenu un super héros',
+        length: '45min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['vickrame_ujoodha'],
+        abstract: '<p>La stack Netflix OSS ou comment Homer Simpsons est devenu un super héros.</p>' +
+          '<p>Homer Simpson éternelle looser dans la série, doit faire face une fois encore à l\' homme le plus cruel de SpringField, Mrs Burns.</p>' +
+          '<p>Dans ce nouvel épisode, nous verrons comment Homer, confronté à des multiples questions auxquels il ne sais pas quoi répondre, a pu devenir un super héros,en utilisant la stack Netflix OSS, aux yeux de cet homme impitoyable. </p>' +
+          '<p>Alors abonnez-vous pour voir cet épisode.</p>'
+    }, {
+        title: 'Au secours, mon chef m\'a demandé de passer au DevOps',
+        length: '45min',
+        time: '19h45',
+        type: 'talk',
+        intro: null,
+        speakers: ['antony_guilloteau'],
+        abstract: '<p>"Continuous Delivery" et "DevOps" font partis des buzz word du moment dans l\'IT.</p>' +
+          '<p>Si vous n\'êtes pas encore entrés dans ces démarches, ce n\'est qu\'une question de temps ! Préparez-vous à voir bientôt débarquer votre chef sur le bench avec le bouquin ""Découvrir DevOps"" sous le bras.</p>' +
+          '<p>Mais pour les développeurs, ça change quoi le DevOps ? A travers cette conférence, je vais vous faire part des mes différents retours d\'expérience sur ces changements autour des pratiques, organisations et outillages.</p>'
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_03_01',
     title: "Gestion de conf & Angular 2",
     date: new Date(2017, 2, 1), //month begin at 0

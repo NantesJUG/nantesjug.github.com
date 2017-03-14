@@ -141,13 +141,15 @@ var njSpeakers = [
   {
     id: 'antony_guilloteau',
     name: 'Antony Guilloteau',
-    bio: null,
+    bio: '<p>Après 12 années en tant que développeur, architecte, lead dev dans les technos Java EE, j\'ai évolué vers le rôle de Scrum master. Depuis 5 ans j\'interviens sur des projets stratégiques de Voyages-Sncf.com où l\'agilité est ancrée dans l\'ADN de l\'entreprise.</p>'+
+        '<p>Je suis également le co-fondateur de <a href="http://www.fenikso.fr" target="_blank">Fenikso</a>, société de conseil qui accompagne entreprises et collectivités dans le renouveau de leurs pratiques et de leurs organisations.</p>'+
+        '<p>Facilitateur, coach, j\'explore tous les jours de nouvelles pratiques pour rendre l\'équipe plus agile.</p>',
     gravatar: null,
     photo: 'jpg',
-    twitter: null,
+    twitter: '@aguilloteau',
     gplus: null,
     github: null,
-    website: null,
+    website: 'http://www.fenikso.fr',
     email: 'antony.guilloteau@gmail.com'
   },
   {
@@ -1307,7 +1309,22 @@ var njSpeakers = [
     github: 'bubulemaster',
     website: 'https://emericmartineau.blogspot.fr',
     email: 'emeric.martineau@gmail.com'
-}];
+}, {
+    id: 'vickrame_ujoodha',
+    name: 'Vickrame Ujoodha',
+    bio: '<p>Développeur backend java chez Zenkika Nantes.</p>'+
+         '<p>Mes 11 années de prestations m\'ont permis de travailler sur différents framework (anciens comme nouveaux).</p>'+
+         '<p>Actuellement j\'évolue plutôt sur la stack springboot, spring batch, avec un peu ELK.</p>'+
+         '<p>Je suis aussi formateur ELK, ApacheCamel, ... </p>',
+    gravatar: null,
+    photo: null,
+    twitter: '@ruvachlea',
+    gplus: null,
+    github: 'https://github.com/vickrame',
+    website: null,
+    email: 'ujoodha.vickrame@gmail.com'
+}
+];
 
 
 //Test gravatar : http://www.neoseeker.com/tools/gravatar_tester.php
