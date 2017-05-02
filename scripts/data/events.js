@@ -1,6 +1,36 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_05_15',
+    title: "Anki Overdrive & CI, CD, pipelines, conteneurs",
+    date: new Date(2017, 4, 15), //month begin at 0
+    time: '19h00',
+    register: '',
+    place: 'eartsup',
+    subjects: [
+    {
+	  title: 'Anki Overdrive : controllez vos voitures "circuit 24" à partir de votre code',
+	  length: '20min',
+	  time: '19h00',
+	  type: 'quickie',
+	  intro: null,
+	  speakers: ['tugdual_grall'],
+	  abstract: '<p>Nous nous rappelons tous de notre premier circuit électrique, de notre premiers tours de piste dans un jeu vidéo, je vous propose dans cette présentation de passer à l\'étape suivante:  mélanger un jeux vidéo et un circuit de voiture, avec Anki Overdrive ( https://anki.com/en-us/overdrive )</p>'
+		  + '<p>Vous découvrirez en quelques minutes la mise en place d\'un circuit, le contrôle des voitures à partir de votre téléphone mobile, et l\'utilisation d\'intelligence artificielle pour plonger dans un nouveau style de jeux.</p>'
+		  + '<p>Puis vous découvrirez comment "hacker" les voitures pour capturer les données en temps réel, et même controller ces voitures à partir de votre code, donc à partir de n\'importe quel device connecté. (Mio, Leap, ...)</p>'
+    }, {
+        title: 'CI, CD, pipelines, conteneurs : la cohabitation est elle possible ?',
+        length: '1h - 1h30',
+        time: '19h30',
+        type: 'talk',
+        intro: null,
+        speakers: ['guillaume_membre'],
+        abstract: '<p>Si vous croyez que Docker et les Pipelines ne servent qu\'aux chargements et transport de conteneurs, Jenkins, votre fidèle serviteur, vous montrera comment en tirer le meilleur parti.</p>'
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_04_12',
     title: "Netflix & Devops",
     date: new Date(2017, 3, 12), //month begin at 0
