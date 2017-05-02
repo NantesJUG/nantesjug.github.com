@@ -5,7 +5,7 @@ var njEvents = [
     title: "Anki Overdrive & CI, CD, pipelines, conteneurs",
     date: new Date(2017, 4, 15), //month begin at 0
     time: '19h00',
-    register: '',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/239670797/',
     place: 'eartsup',
     subjects: [
     {
