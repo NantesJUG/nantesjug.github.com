@@ -1,6 +1,44 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_06_19',
+    title: "Akka, java 8, serverless, et le doux parfum des vacances !",
+    date: new Date(2017, 5, 19), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/240136198/',
+    place: 'insula',
+    subjects: [
+      {
+        title: 'Akka avec java 8 finalement c\'est cool !',
+        length: '45min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Akka est une super boite à outils pour créer des applications ultra performantes et gérer facilement la concurrence.</p>'
+        + '<p>Même si akka a toujours été présenté comme un framework pour les développeurs à la fois java et scala, il faut avouer que l\'api java était plutôt rebutante. L\'arrivée de java 8 a clairement changé la donne et il est enfin possible pour les développeurs java d\'utiliser akka tout en écrivant du jolie code.</p>'
+        + '<p>Dans cette session, après une présentation du framework akka nous développerons une application akka 100% java. Au programme il y aura des acteurs, du rest et des streams !</p>',
+        speakers: ['alexandre_delègue']
+      }, {
+        title: 'Serverless: just a buzzword?',
+        length: '1h',
+        time: '20h00',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Les conteneurs se généralisent depuis maintenant quelques temps. Et un nouveau concept est déjà en train de pointer le bout de son nez : le serverless. Qu’est-ce que c’est ? Est-ce un buzz ou une réelle évolution ? Est-ce que l’on doit déjà mettre à la poubelle les conteneurs ?</p>'
+        + '<p>Au cours de cette présentation, nous présenterons les principes du serverless et nous ferons une mise en application avec AWS Lambda, Google Cloud Functions et le framework serverless. Nous essaierons d’apporter un éclairage sur l’intérêt de cette technologie à travers des exemples d’utilisation.</p>',
+        speakers: ['julien_landure']
+      }, {
+        title: 'Cocktail 🍾 🍕 🍹',
+        time: '21h00',
+        type: 'cocktail',
+        intro: null,
+        abstract: '<p>Quoi de mieux qu\'un petit cocktail pour fêter cette fin de saison.</p>'
+        + '<p>Rendez-vous dans le patio, et au programme, boissons, petits fours et discussions tech (ou pas). On refait le monde !</p>'
+        }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_05_15',
     title: "Anki Overdrive & CI, CD, pipelines, conteneurs",
     date: new Date(2017, 4, 15), //month begin at 0
@@ -161,7 +199,7 @@ var njEvents = [
         docs: [
         ]
       }
-	       
+
     ],
     docs: [
       {name: 'Affiche de la soirée', url: 'https://drive.google.com/open?id=0BzLO1XLmywLJS1A5cm1kOFBhakk', type:'pdf'}

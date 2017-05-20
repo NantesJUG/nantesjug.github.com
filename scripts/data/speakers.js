@@ -1318,11 +1318,22 @@ var njSpeakers = [
          '<p>Je suis aussi formateur ELK, ApacheCamel, ... </p>',
     gravatar: null,
     photo: null,
-    twitter: '@ruvachlea',
+    twitter: 'ruvachlea',
     gplus: null,
-    github: 'https://github.com/vickrame',
+    github: 'vickrame',
     website: null,
     email: 'ujoodha.vickrame@gmail.com'
+}, {
+    id: 'alexandre_delègue',
+    name: 'Alexandre Delègue',
+    bio: '<p>Alexandre Delègue est ingénieur d\'études chez SERLI. Développeur java, scala et javascript, il apprécie particulièrement la programmation fonctionnelle ainsi que la programmation réactive.</p>',
+    gravatar: 'alexandre.delegue@serli.com',
+    photo: null,
+    twitter: 'chanksleroux',
+    gplus: null,
+    github: 'larousso',
+    website: null,
+    email: 'alexandre.delegue@serli.com'
 }
 ];
 
