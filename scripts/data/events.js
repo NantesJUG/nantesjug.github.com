@@ -26,7 +26,7 @@ var njEvents = [
         intro: null,
         abstract: '<p>Les conteneurs se généralisent depuis maintenant quelques temps. Et un nouveau concept est déjà en train de pointer le bout de son nez : le serverless. Qu’est-ce que c’est ? Est-ce un buzz ou une réelle évolution ? Est-ce que l’on doit déjà mettre à la poubelle les conteneurs ?</p>'
         + '<p>Au cours de cette présentation, nous présenterons les principes du serverless et nous ferons une mise en application avec AWS Lambda, Google Cloud Functions et le framework serverless. Nous essaierons d’apporter un éclairage sur l’intérêt de cette technologie à travers des exemples d’utilisation.</p>',
-        speakers: ['julien_landure']
+        speakers: ['julien_landure', 'eric_briand']
       }, {
         title: 'Cocktail 🍾 🍕 🍹',
         time: '21h00',
