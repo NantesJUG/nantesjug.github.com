@@ -1,6 +1,29 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_08_31',
+    title: "Concours de l'été !!!",
+    date: new Date(2017, 7, 31), //month begin at 0
+    time: '19',
+    register: '',
+    place: '',
+    subjects: [
+      {
+        title: 'Concours de l\'été !!!',
+        length: 'Tout l\'été',
+        time: '',
+        type: '',
+        intro: null,
+        abstract: '<p>Pour cet été on organise un concours sur twitter.</p>' + 
+          '<p>Comment participer ? C\'est simple. Tweetez à @nantesjug une photo de vos vacances avec votre t-shirt Nantes JUG. <a href="https://twitter.com/nantesjug/status/877198919335383042">Petit exemple de notre part.</a></p>' +
+          '<p>Pour ceux qui n\'ont pas de compte twitter, vous pouvez nous envoyer un mail à l\'adresse team@nantesjug.org.</p>' +
+          '<p>Lots à gagner : </p><ul><li>3 licences Intellij IDEA</li><li>3 places pour le Devfest Nantes</li></ul>',
+        speakers: []
+      }
+    ],
+    docs: [
+    ]
+  },{
     id: '2017_06_19',
     title: "Akka, java 8, serverless, et le doux parfum des vacances !",
     date: new Date(2017, 5, 19), //month begin at 0
