@@ -5,6 +5,18 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id : "guillaume_lours",
+    name : "Guillaume Lours",
+    bio : "<p>Developpeur Senior à Saagie, touchant aussi bien au backend qu'au front. Co-fondateur des conferences Lean Kanban France et Codeurs en Seine Red Coat à Devoxx France.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "glours",
+    gplus: null,
+    github: null,
+    website: null,
+    email: null
+  },
+  {
     id : "jean_pascal_thiery",
     name : "Jean-Pascal Thiery",
     bio : "<p>Java Craftsman et agiliste pratiquant.</p><p>Jean-Pascal a arpenté les voies de l'intégration continue jusqu'à intégrer la mouvance DevOps. Il aime : Java, Docker, Mesos, et la qualité des livrables. Il n'aime pas : les phrases qui commence par \"Normalement, ...\".</p>",

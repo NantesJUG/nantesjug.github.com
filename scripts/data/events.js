@@ -1,9 +1,32 @@
 /*jshint unused: false */
 var njEvents = [
   {
-    id: '2017_08_31',
+    id: '2017_09_18',
+    title: "Et java 8 devient plus fonctionnel avec VAVR",
+    date: new Date(2017, 8, 18), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
+    place: 'lucca',
+    subjects: [
+      {
+        title: 'Et java 8 devient plus fonctionnel avec VAVR',
+        length: '1h',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Vavr est une librairie complètement dédiée au paradigme de programmation fonctionnelle. Elle a la particularité d'aller un peu plus loin que les notions de lambdas, pipelines ou composition de fonctions offertes par Java 8.</p>"
+        + "<p>Durant cette session nous découvrirons les structures proposées par Vavr, comme les collections immuables, les values types tels que les Option, les Try, les Either…</p>"
+        + "<p>Nous verrons comment cette librairie gère des aspects plus fonctionnels, à savoir la composition de fonction, le lifting, la memoization ou le currying.</p>"
+        + "<p>Enfin nous terminerons avec la présentation de la syntaxe offerte pour le pattern Matching et le property checking.</p>",
+        speakers: ['guillaume_lours']
+      }
+    ],
+    docs: [
+    ]
+  }, {
+    id: '2017_08_29',
     title: "Concours de l'été !!!",
-    date: new Date(2017, 7, 31), //month begin at 0
+    date: new Date(2017, 7, 29), //month begin at 0
     time: '19',
     register: '',
     place: '',
@@ -14,7 +37,7 @@ var njEvents = [
         time: '',
         type: '',
         intro: null,
-        abstract: '<p>Pour cet été on organise un concours sur twitter.</p>' + 
+        abstract: '<p>Pour cet été on organise un concours sur twitter.</p>' +
           '<p>Comment participer ? C\'est simple. Tweetez à @nantesjug une photo de vos vacances avec votre t-shirt Nantes JUG. <a href="https://twitter.com/nantesjug/status/877198919335383042">Petit exemple de notre part.</a></p>' +
           '<p>Pour ceux qui n\'ont pas de compte twitter, vous pouvez nous envoyer un mail à l\'adresse team@nantesjug.org.</p>' +
           '<p>Lots à gagner : </p><ul><li>3 licences Intellij IDEA</li><li>3 places pour le Devfest Nantes</li></ul>',
@@ -49,7 +72,7 @@ var njEvents = [
         intro: null,
         abstract: '<p>Les conteneurs se généralisent depuis maintenant quelques temps. Et un nouveau concept est déjà en train de pointer le bout de son nez : le serverless. Qu’est-ce que c’est ? Est-ce un buzz ou une réelle évolution ? Est-ce que l’on doit déjà mettre à la poubelle les conteneurs ?</p>'
         + '<p>Au cours de cette présentation, nous présenterons les principes du serverless et nous ferons une mise en application avec AWS Lambda, Google Cloud Functions et le framework serverless. Nous essaierons d’apporter un éclairage sur l’intérêt de cette technologie à travers des exemples d’utilisation.</p>',
-        speakers: ['julien_landure', 'eric_briand']
+        speakers: ['julien_landure']
       }, {
         title: 'Cocktail 🍾 🍕 🍹',
         time: '21h00',

@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'lucca',
+    name: 'Lucca',
+    address: '1 Rue Michel Columb',
+    city: '44200 Nantes',
+    maps: 'https://goo.gl/maps/WdxYU42myDN2',
+    capacity: 85
+  },
+  {
     id: 'dojo',
     name: 'DOJO Nantes',
     address: '26 Boulevard de Stalingrad',
