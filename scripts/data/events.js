@@ -9,9 +9,18 @@ var njEvents = [
     place: 'lucca',
     subjects: [
       {
+        title: 'WebRTC : de la visioconférence dans les navigateurs sans plugins',
+        length: '20min',
+        time: '19h00',
+        type: 'quickie',
+        intro: null,
+        abstract: null,
+        speakers: ['abdellatif_el_maknati']
+      },
+      {
         title: 'Et java 8 devient plus fonctionnel avec VAVR',
         length: '1h',
-        time: '19h00',
+        time: '19h20',
         type: 'talk',
         intro: null,
         abstract: "<p>Vavr est une librairie complètement dédiée au paradigme de programmation fonctionnelle. Elle a la particularité d'aller un peu plus loin que les notions de lambdas, pipelines ou composition de fonctions offertes par Java 8.</p>"

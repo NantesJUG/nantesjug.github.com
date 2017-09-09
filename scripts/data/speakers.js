@@ -5,6 +5,18 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'abdellatif_el_maknati',
+    name: 'Abdellatif El Maknati',
+    bio: '<p>Abdell est un passionné de développement et d\'architecture en particulier dans les mondes JAVA EE, mobile et Web. Il a travaillé en tant qu\'auto-entrepreneur dans le domaine du développement de sites Web. Aujourd\'hui, il évolue dans le développement et l\'architecture au sein de la société AMPLEXOR. En parallèle, il donne régulièrement des formations auprès de différentes écoles dans le domaine de l\'ingénierie informatique et participe autant que possible à des conférences et autres événements.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus: '108256935208652199487',
+    github: null,
+    website: null,
+    email: 'abdellatif.elmaknati@gmail.com'
+  },
+  {
     id : "guillaume_lours",
     name : "Guillaume Lours",
     bio : "<p>Developpeur Senior à Saagie, touchant aussi bien au backend qu'au front. Co-fondateur des conferences Lean Kanban France et Codeurs en Seine Red Coat à Devoxx France.</p>",
