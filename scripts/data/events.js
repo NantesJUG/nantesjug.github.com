@@ -2,7 +2,7 @@
 var njEvents = [
   {
     id: '2017_09_18',
-    title: "Et java 8 devient plus fonctionnel avec VAVR",
+    title: "WebRTC // Et java 8 devient plus fonctionnel avec VAVR",
     date: new Date(2017, 8, 18), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
@@ -24,7 +24,7 @@ var njEvents = [
         type: 'talk',
         intro: null,
         abstract: "<p>Vavr est une librairie complètement dédiée au paradigme de programmation fonctionnelle. Elle a la particularité d'aller un peu plus loin que les notions de lambdas, pipelines ou composition de fonctions offertes par Java 8.</p>"
-        + "<p>Durant cette session nous découvrirons les structures proposées par Vavr, comme les collections immuables, les values types tels que les Option, les Try, les Either…</p>"
+        // "<p>Durant cette session nous découvrirons les structures proposées par Vavr, comme les collections immuables, les values types tels que les Option, les Try, les Either…</p>"
         + "<p>Nous verrons comment cette librairie gère des aspects plus fonctionnels, à savoir la composition de fonction, le lifting, la memoization ou le currying.</p>"
         + "<p>Enfin nous terminerons avec la présentation de la syntaxe offerte pour le pattern Matching et le property checking.</p>",
         speakers: ['guillaume_lours']
@@ -57,7 +57,7 @@ var njEvents = [
     ]
   },{
     id: '2017_06_19',
-    title: "Akka, java 8, serverless, et le doux parfum des vacances !",
+    title: "Akka, java 8 // serverless, et le doux parfum des vacances !",
     date: new Date(2017, 5, 19), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/240136198/',
@@ -95,7 +95,7 @@ var njEvents = [
     ]
   }, {
     id: '2017_05_15',
-    title: "Anki Overdrive & CI, CD, pipelines, conteneurs",
+    title: "Anki Overdrive // CI, CD, pipelines, conteneurs",
     date: new Date(2017, 4, 15), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/239670797/',
@@ -125,7 +125,7 @@ var njEvents = [
     ]
   }, {
     id: '2017_04_12',
-    title: "Netflix & Devops",
+    title: "Netflix // Devops",
     date: new Date(2017, 3, 12), //month begin at 0
     time: '19h00',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/238418834/',
@@ -158,7 +158,7 @@ var njEvents = [
     ]
   }, {
     id: '2017_03_01',
-    title: "Gestion de conf & Angular 2",
+    title: "Gestion de conf // Angular 2",
     date: new Date(2017, 2, 1), //month begin at 0
     time: '19h00',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237897768/',
@@ -223,7 +223,7 @@ var njEvents = [
     ]
   }, {
     id: '2017_02_01',
-    title: "Soirée RxJava, Spring 5, Ratpack et Couchbase",
+    title: "Soirée RxJava, Spring 5, Ratpack // Couchbase",
     date: new Date(2017, 1, 01), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237022612/',
@@ -261,7 +261,7 @@ var njEvents = [
     ]
   },{
     id: '2017_01_18',
-    title: "I'm a CTO Bitch & Kanban from the startup warfare",
+    title: "I'm a CTO Bitch // Kanban from the startup warfare",
     date: new Date(2017, 0, 18), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/236606281/',
