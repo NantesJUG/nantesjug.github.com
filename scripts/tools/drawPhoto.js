@@ -2,7 +2,7 @@
 
 //DRAW
 
-DepartureBoard.LETTERS = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,\':()&!?+-€';
+DepartureBoard.LETTERS = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,\':()&!?+-€˚';
 
 var boardWhatTemplate = '<div class="row board">' +
                           '<div class="col-xs-3">Lot :</div>' +
@@ -216,7 +216,14 @@ $(function () {
   $('#resetDraw').on('click', resetDraw);
 
   //Exemple data
-  $('.whatList .editable').html('Lot 1<br>Lot 2');
+  $('.whatList .editable').html(
+    'Place Devfest n˚1<br>' +
+    'Place Devfest n˚2<br>' +
+    'Place Devfest n˚3<br>' +
+    'Licence Intellij n˚1<br>' +
+    'Licence Intellij n˚2<br>' +
+    'Licence Intellij n˚3');
+
   // $('.whoList .editable').html(
   //   'http://lorempixel.com/400/200/sports/;User1<br>' +
   //   'http://lorempixel.com/400/200/food/;User2<br>' +
@@ -230,7 +237,7 @@ $(function () {
       'https://nantesjug.org/images/tshirt2017/fabien_juif.png;Fabien Juif<br>' +
       'https://nantesjug.org/images/tshirt2017/fouad_ouahi.jpg;Fouad Ouahi<br>' +
       'https://nantesjug.org/images/tshirt2017/francois_kha.jpg;Francois Kha<br>' +
-      'https://nantesjug.org/images/tshirt2017/jordan_gobley.jpg;Jordan Gobley<br>' +
+      'https://nantesjug.org/images/tshirt2017/remi_picard.jpg.jpg;Remi Picard<br>' +
       'https://nantesjug.org/images/tshirt2017/pierre-yves_baloche.jpg;Pierre-yves Baloche<br>' +
       'https://nantesjug.org/images/tshirt2017/sylvain_leray.jpg;Sylvain Leray<br>' +
       'https://nantesjug.org/images/tshirt2017/yann_danthu.jpg;Yann Danthu');
