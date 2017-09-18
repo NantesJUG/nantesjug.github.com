@@ -231,16 +231,16 @@ $(function () {
   //   'http://lorempixel.com/400/200/technics/;User4');
 
   $('.whoList .editable').html(
-      'https://nantesjug.org/images/tshirt2017/arnaud_genre_grandpierre.jpg;Arnaud Genre Grandpierre<br>' +
-      'https://nantesjug.org/images/tshirt2017/bruno_bonnin.jpg;Bruno Bonnin<br>' +
-      'https://nantesjug.org/images/tshirt2017/etienne_juliot.jpg;Etienne Juliot<br>' +
-      'https://nantesjug.org/images/tshirt2017/fabien_juif.png;Fabien Juif<br>' +
-      'https://nantesjug.org/images/tshirt2017/fouad_ouahi.jpg;Fouad Ouahi<br>' +
-      'https://nantesjug.org/images/tshirt2017/francois_kha.jpg;Francois Kha<br>' +
-      'https://nantesjug.org/images/tshirt2017/remi_picard.jpg.jpg;Remi Picard<br>' +
-      'https://nantesjug.org/images/tshirt2017/pierre-yves_baloche.jpg;Pierre-yves Baloche<br>' +
-      'https://nantesjug.org/images/tshirt2017/sylvain_leray.jpg;Sylvain Leray<br>' +
-      'https://nantesjug.org/images/tshirt2017/yann_danthu.jpg;Yann Danthu');
+      'http://nantesjug.org/images/tshirt2017/arnaud_genre_grandpierre.jpg;Arnaud Genre Grandpierre<br>' +
+      'http://nantesjug.org/images/tshirt2017/bruno_bonnin.jpg;Bruno Bonnin<br>' +
+      'http://nantesjug.org/images/tshirt2017/etienne_juliot.jpg;Etienne Juliot<br>' +
+      'http://nantesjug.org/images/tshirt2017/fabien_juif.png;Fabien Juif<br>' +
+      'http://nantesjug.org/images/tshirt2017/fouad_ouahi.jpg;Fouad Ouahi<br>' +
+      'http://nantesjug.org/images/tshirt2017/francois_kha.jpg;Francois Kha<br>' +
+      'http://nantesjug.org/images/tshirt2017/remi_picard.jpg.jpg;Remi Picard<br>' +
+      'http://nantesjug.org/images/tshirt2017/pierre-yves_baloche.jpg;Pierre-yves Baloche<br>' +
+      'http://nantesjug.org/images/tshirt2017/sylvain_leray.jpg;Sylvain Leray<br>' +
+      'http://nantesjug.org/images/tshirt2017/yann_danthu.jpg;Yann Danthu');
 
   loadImages();
 });
