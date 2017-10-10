@@ -1,11 +1,44 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_10_26',
+    title: "Event Sourcing avec Apache Kafka // L'IoT dans la vraie vie",
+    date: new Date(2017, 9, 26), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: "L'IoT dans la vraie vie",
+        length: '30min',
+        time: '19h00',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>L'internet des objets, décrit par certain comme une nouvelle révolution de l'Internet, est un sujet au coeur d'une multitude d'actualités et de controverses, si bien qu'on a souvent du mal à faire le point sur son réel potentiel.</p>"
+        + "<p>Oui mais les faits sont là : investissement des grands du numérique, accélération de startup, bassins d'emplois en France autour de l'IoT, réseau d'objets connectés, l'évolution est en marche, pour de vrai ! Alors, innovation surestimée ou réel révolution ? </p>"
+        + "<p>Ce Quickie a pour but de faire un bilan, sans compromis et en apportant une vision globale sur ce nouvel usage d'Internet, complété par un retour d'expérience à la Cité de l'objet connecté et illustré par l'exemple de la SNCF.</p>",
+        speakers: ['benjamin_demonet']
+      },
+      {
+        title: 'Event Sourcing avec Apache Kafka',
+        length: '1h',
+        time: '19h30',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>À venir...</p>"
+        + "<p></p>"
+        + "<p></p>",
+        speakers: ['hugo_wood']
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_09_18',
     title: "WebRTC // Et java 8 devient plus fonctionnel avec VAVR",
     date: new Date(2017, 8, 18), //month begin at 0
     time: '19',
-    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/243675823',
     place: 'lucca',
     subjects: [
       {

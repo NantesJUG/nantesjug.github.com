@@ -5,6 +5,18 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'benjamin_demonet',
+    name: 'Benjamin Demonet',
+    bio: '<p></p>',
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'benjamin.demonet@gmail.com'
+  },
+  {
     id: 'abdellatif_el_maknati',
     name: 'Abdellatif El Maknati',
     bio: '<p>Abdell est un passionné de développement et d\'architecture en particulier dans les mondes JAVA EE, mobile et Web. Il a travaillé en tant qu\'auto-entrepreneur dans le domaine du développement de sites Web. Aujourd\'hui, il évolue dans le développement et l\'architecture au sein de la société AMPLEXOR. En parallèle, il donne régulièrement des formations auprès de différentes écoles dans le domaine de l\'ingénierie informatique et participe autant que possible à des conférences et autres événements.</p>',
