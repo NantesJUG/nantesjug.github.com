@@ -25,9 +25,10 @@ var njEvents = [
         time: '19h30',
         type: 'talk',
         intro: null,
-        abstract: "<p>À venir...</p>"
-        + "<p></p>"
-        + "<p></p>",
+        abstract: "<p>Quand j'ai découvert Apache Kafka, j'ai rapidement été séduit par son élégance et sa simplicité. J'aimerais partager cette expérience avec vous.</p>"
+        + "<p>Malgré son apparence initiale de bus de message, Kafka est un système de stockage de données extrêmement versatile. C'est un log persisté. Naturellement, j'ai fait le lien avec l'Event Sourcing, qui consiste à utiliser un log comme source de vérité d'une application, et ainsi ne jamais perdre une seule goutte de données. Alors je me suis dit : jusqu'où peut-on aller dans le développement d'une application de gestion avec Kafka pour seule base de données ? Qu'est-ce que ça donne ? Quels sont les défis à relever ? Est-ce vraiment différent d'une application centrée autour d'une base SQL ?"
+        + "<p>Pour explorer ce terrain j'ai choisi d'implémenter une application très simple, le fameux TodoMVC, celui-là même qui sert de terrain de jeux aux frameworks front. Mon talk sera donc un retour sur cette expérience.</p>"
+        + "<p>La présentation inclue une introduction à Kafka et au concept d'Event Sourcing, il n'y a donc aucun pré-requis.</p>",
         speakers: ['hugo_wood']
       }
     ],
