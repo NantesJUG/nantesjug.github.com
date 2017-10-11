@@ -14,8 +14,8 @@ var njEvents = [
         time: '19h00',
         type: 'quickie',
         intro: null,
-        abstract: "<p>L'internet des objets, décrit par certain comme une nouvelle révolution de l'Internet, est un sujet au coeur d'une multitude d'actualités et de controverses, si bien qu'on a souvent du mal à faire le point sur son réel potentiel.</p>"
-        + "<p>Oui mais les faits sont là : investissement des grands du numérique, accélération de startup, bassins d'emplois en France autour de l'IoT, réseau d'objets connectés, l'évolution est en marche, pour de vrai ! Alors, innovation surestimée ou réel révolution ? </p>"
+        abstract: "<p>L'internet des objets, décrit par certains comme une nouvelle révolution de l'Internet, est un sujet au coeur d'une multitude d'actualités et de controverses, si bien qu'on a souvent du mal à faire le point sur son réel potentiel.</p>"
+        + "<p>Oui mais les faits sont là : investissement des grands du numérique, accélération de startup, bassins d'emplois en France autour de l'IoT, réseau d'objets connectés, l'évolution est en marche, pour de vrai ! Alors, innovation surestimée ou réelle révolution ? </p>"
         + "<p>Ce Quickie a pour but de faire un bilan, sans compromis et en apportant une vision globale sur ce nouvel usage d'Internet, complété par un retour d'expérience à la Cité de l'objet connecté et illustré par l'exemple de la SNCF.</p>",
         speakers: ['benjamin_demonet']
       },
