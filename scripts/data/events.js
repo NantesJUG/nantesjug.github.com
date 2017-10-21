@@ -5,7 +5,7 @@ var njEvents = [
     title: "Event Sourcing avec Apache Kafka // L'IoT dans la vraie vie",
     date: new Date(2017, 9, 26), //month begin at 0
     time: '19',
-    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/243675823',
     place: 'eartsup',
     subjects: [
       {
@@ -39,7 +39,7 @@ var njEvents = [
     title: "WebRTC // Et java 8 devient plus fonctionnel avec VAVR",
     date: new Date(2017, 8, 18), //month begin at 0
     time: '19',
-    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/243675823',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
     place: 'lucca',
     subjects: [
       {
