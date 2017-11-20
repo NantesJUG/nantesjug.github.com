@@ -5,6 +5,42 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'benjamin_demonet',
+    name: 'Benjamin Demonet',
+    bio: '<p></p>',
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+    email: 'benjamin.demonet@gmail.com'
+  },
+  {
+    id: 'abdellatif_el_maknati',
+    name: 'Abdellatif El Maknati',
+    bio: '<p>Abdell est un passionné de développement et d\'architecture en particulier dans les mondes JAVA EE, mobile et Web. Il a travaillé en tant qu\'auto-entrepreneur dans le domaine du développement de sites Web. Aujourd\'hui, il évolue dans le développement et l\'architecture au sein de la société AMPLEXOR. En parallèle, il donne régulièrement des formations auprès de différentes écoles dans le domaine de l\'ingénierie informatique et participe autant que possible à des conférences et autres événements.</p>',
+    gravatar: null,
+    photo: 'jpg',
+    twitter: null,
+    gplus: '108256935208652199487',
+    github: null,
+    website: null,
+    email: 'abdellatif.elmaknati@gmail.com'
+  },
+  {
+    id : "guillaume_lours",
+    name : "Guillaume Lours",
+    bio : "<p>Developpeur Senior à Saagie, touchant aussi bien au backend qu'au front. Co-fondateur des conferences Lean Kanban France et Codeurs en Seine Red Coat à Devoxx France.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "glours",
+    gplus: null,
+    github: null,
+    website: null,
+    email: null
+  },
+  {
     id : "jean_pascal_thiery",
     name : "Jean-Pascal Thiery",
     bio : "<p>Java Craftsman et agiliste pratiquant.</p><p>Jean-Pascal a arpenté les voies de l'intégration continue jusqu'à intégrer la mouvance DevOps. Il aime : Java, Docker, Mesos, et la qualité des livrables. Il n'aime pas : les phrases qui commence par \"Normalement, ...\".</p>",
@@ -141,13 +177,15 @@ var njSpeakers = [
   {
     id: 'antony_guilloteau',
     name: 'Antony Guilloteau',
-    bio: null,
+    bio: '<p>Après 12 années en tant que développeur, architecte, lead dev dans les technos Java EE, j\'ai évolué vers le rôle de Scrum master. Depuis 5 ans j\'interviens sur des projets stratégiques de Voyages-Sncf.com où l\'agilité est ancrée dans l\'ADN de l\'entreprise.</p>'+
+        '<p>Je suis également le co-fondateur de <a href="http://www.fenikso.fr" target="_blank">Fenikso</a>, société de conseil qui accompagne entreprises et collectivités dans le renouveau de leurs pratiques et de leurs organisations.</p>'+
+        '<p>Facilitateur, coach, j\'explore tous les jours de nouvelles pratiques pour rendre l\'équipe plus agile.</p>',
     gravatar: null,
     photo: 'jpg',
-    twitter: null,
+    twitter: '@aguilloteau',
     gplus: null,
     github: null,
-    website: null,
+    website: 'http://www.fenikso.fr',
     email: 'antony.guilloteau@gmail.com'
   },
   {
@@ -578,7 +616,7 @@ var njSpeakers = [
   {
     id: 'hugo_wood',
     name: 'Hugo Wood',
-    bio: 'Développeur autodidacte depuis 12 ans, professionnel depuis 3, je n\'ai de cesse d\'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J\'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m\'accaparent: je suis consultant et formateur chez Zenika. Enfin, j\'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c\'est Python 3.',
+    bio: 'Développeur autodidacte depuis 2003, professionnel depuis 2013, je n\'ai de cesse d\'apprendre de nouvelles techniques pour améliorer mon savoir-faire. J\'aime étudier les langages, de C# à Haskell. Au quotidien, ce sont Java et JavaScript qui m\'accaparent: je suis consultant et formateur chez Zenika. Enfin, j\'apprécie les jeux de code : vous me retrouverez par exemple sur CodinGame, et là, c\'est Python 3.',
     gravatar:   'hx4.5@free.fr',
     photo: null,
     twitter: 'mercury_wood',
@@ -1295,15 +1333,45 @@ var njSpeakers = [
 }, {
     id: 'emeric_martineau',
     name: 'Emeric Martineau',
-    bio: "<p></p>",
+    bio: "<p>Comment décrire quelqu'un qui a été hotliner, réparateur de PC et d'imprimantes, qui a tiré du câble réseau, qui a fait de l'administration réseau et système, fait du développement Delphi, Java (Web, Swing), qui s'intéresse au problématique de déploiement, d'automatisation...</br>" +
+        "Ah oui, le mot à la mode c'est DevOPS !</br>" +
+        "Alors va pour !</p>" +
+        "<p>Moi j'aime pas les cloisons. Les routes toutes droites.</p>" +
+        "<p>Et c'est pour ça qu'aujourd'hui je fais partie de l'équipe transverse de l'usine logicielle de Voyages-Sncf.com :-)</p>",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'martineauemeric',
+    gplus: null,
+    github: 'bubulemaster',
+    website: 'https://emericmartineau.blogspot.fr',
+    email: 'emeric.martineau@gmail.com'
+}, {
+    id: 'vickrame_ujoodha',
+    name: 'Vickrame Ujoodha',
+    bio: '<p>Développeur backend java chez Zenkika Nantes.</p>'+
+         '<p>Mes 11 années de prestations m\'ont permis de travailler sur différents framework (anciens comme nouveaux).</p>'+
+         '<p>Actuellement j\'évolue plutôt sur la stack springboot, spring batch, avec un peu ELK.</p>'+
+         '<p>Je suis aussi formateur ELK, ApacheCamel, ... </p>',
     gravatar: null,
     photo: null,
-    twitter: null,
+    twitter: 'ruvachlea',
     gplus: null,
-    github: null,
+    github: 'vickrame',
     website: null,
-    email: 'emeric.martineau@gmail.com'
-}];
+    email: 'ujoodha.vickrame@gmail.com'
+}, {
+    id: 'alexandre_delègue',
+    name: 'Alexandre Delègue',
+    bio: '<p>Alexandre Delègue est ingénieur d\'études chez SERLI. Développeur java, scala et javascript, il apprécie particulièrement la programmation fonctionnelle ainsi que la programmation réactive.</p>',
+    gravatar: 'alexandre.delegue@serli.com',
+    photo: null,
+    twitter: 'chanksleroux',
+    gplus: null,
+    github: 'larousso',
+    website: null,
+    email: 'alexandre.delegue@serli.com'
+}
+];
 
 
 //Test gravatar : http://www.neoseeker.com/tools/gravatar_tester.php

@@ -1,8 +1,198 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_10_26',
+    title: "Event Sourcing avec Apache Kafka // L'IoT dans la vraie vie",
+    date: new Date(2017, 9, 26), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/243675823',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: "L'IoT dans la vraie vie",
+        length: '30min',
+        time: '19h00',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>L'internet des objets, décrit par certains comme une nouvelle révolution de l'Internet, est un sujet au coeur d'une multitude d'actualités et de controverses, si bien qu'on a souvent du mal à faire le point sur son réel potentiel.</p>"
+        + "<p>Oui mais les faits sont là : investissement des grands du numérique, accélération de startup, bassins d'emplois en France autour de l'IoT, réseau d'objets connectés, l'évolution est en marche, pour de vrai ! Alors, innovation surestimée ou réelle révolution ? </p>"
+        + "<p>Ce Quickie a pour but de faire un bilan, sans compromis et en apportant une vision globale sur ce nouvel usage d'Internet, complété par un retour d'expérience à la Cité de l'objet connecté et illustré par l'exemple de la SNCF.</p>",
+        speakers: ['benjamin_demonet']
+      },
+      {
+        title: 'Event Sourcing avec Apache Kafka',
+        length: '1h',
+        time: '19h30',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Quand j'ai découvert Apache Kafka, j'ai rapidement été séduit par son élégance et sa simplicité. J'aimerais partager cette expérience avec vous.</p>"
+        + "<p>Malgré son apparence initiale de bus de message, Kafka est un système de stockage de données extrêmement versatile. C'est un log persisté. Naturellement, j'ai fait le lien avec l'Event Sourcing, qui consiste à utiliser un log comme source de vérité d'une application, et ainsi ne jamais perdre une seule goutte de données. Alors je me suis dit : jusqu'où peut-on aller dans le développement d'une application de gestion avec Kafka pour seule base de données ? Qu'est-ce que ça donne ? Quels sont les défis à relever ? Est-ce vraiment différent d'une application centrée autour d'une base SQL ?"
+        + "<p>Pour explorer ce terrain j'ai choisi d'implémenter une application très simple, le fameux TodoMVC, celui-là même qui sert de terrain de jeux aux frameworks front. Mon talk sera donc un retour sur cette expérience.</p>"
+        + "<p>La présentation inclue une introduction à Kafka et au concept d'Event Sourcing, il n'y a donc aucun pré-requis.</p>",
+        speakers: ['hugo_wood']
+      }
+    ],
+    docs: [
+    ]
+  }, {
+    id: '2017_09_18',
+    title: "WebRTC // Et java 8 devient plus fonctionnel avec VAVR",
+    date: new Date(2017, 8, 18), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
+    place: 'lucca',
+    subjects: [
+      {
+        title: 'WebRTC : de la visioconférence dans les navigateurs sans plugins',
+        length: '20min',
+        time: '19h00',
+        type: 'quickie',
+        intro: null,
+        abstract: null,
+        speakers: ['abdellatif_el_maknati']
+      },
+      {
+        title: 'Et java 8 devient plus fonctionnel avec VAVR',
+        length: '1h',
+        time: '19h20',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Vavr est une librairie complètement dédiée au paradigme de programmation fonctionnelle. Elle a la particularité d'aller un peu plus loin que les notions de lambdas, pipelines ou composition de fonctions offertes par Java 8.</p>"
+        // "<p>Durant cette session nous découvrirons les structures proposées par Vavr, comme les collections immuables, les values types tels que les Option, les Try, les Either…</p>"
+        + "<p>Nous verrons comment cette librairie gère des aspects plus fonctionnels, à savoir la composition de fonction, le lifting, la memoization ou le currying.</p>"
+        + "<p>Enfin nous terminerons avec la présentation de la syntaxe offerte pour le pattern Matching et le property checking.</p>",
+        speakers: ['guillaume_lours']
+      }
+    ],
+    docs: [
+    ]
+  }, {
+    id: '2017_08_29',
+    title: "Concours de l'été !!!",
+    date: new Date(2017, 7, 29), //month begin at 0
+    time: '19',
+    register: '',
+    place: '',
+    subjects: [
+      {
+        title: 'Concours de l\'été !!!',
+        length: 'Tout l\'été',
+        time: '',
+        type: '',
+        intro: null,
+        abstract: '<p>Pour cet été on organise un concours sur twitter.</p>' +
+          '<p>Comment participer ? C\'est simple. Tweetez à @nantesjug une photo de vos vacances avec votre t-shirt Nantes JUG. <a href="https://twitter.com/nantesjug/status/877198919335383042">Petit exemple de notre part.</a></p>' +
+          '<p>Pour ceux qui n\'ont pas de compte twitter, vous pouvez nous envoyer un mail à l\'adresse team@nantesjug.org.</p>' +
+          '<p>Lots à gagner : </p><ul><li>3 licences Intellij IDEA</li><li>3 places pour le Devfest Nantes</li></ul>',
+        speakers: []
+      }
+    ],
+    docs: [
+    ]
+  },{
+    id: '2017_06_19',
+    title: "Akka, java 8 // serverless, et le doux parfum des vacances !",
+    date: new Date(2017, 5, 19), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/240136198/',
+    place: 'insula',
+    subjects: [
+      {
+        title: 'Akka avec java 8 finalement c\'est cool !',
+        length: '45min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Akka est une super boite à outils pour créer des applications ultra performantes et gérer facilement la concurrence.</p>'
+        + '<p>Même si akka a toujours été présenté comme un framework pour les développeurs à la fois java et scala, il faut avouer que l\'api java était plutôt rebutante. L\'arrivée de java 8 a clairement changé la donne et il est enfin possible pour les développeurs java d\'utiliser akka tout en écrivant du jolie code.</p>'
+        + '<p>Dans cette session, après une présentation du framework akka nous développerons une application akka 100% java. Au programme il y aura des acteurs, du rest et des streams !</p>',
+        speakers: ['alexandre_delègue']
+      }, {
+        title: 'Serverless: just a buzzword?',
+        length: '1h',
+        time: '20h00',
+        type: 'talk',
+        intro: null,
+        abstract: '<p>Les conteneurs se généralisent depuis maintenant quelques temps. Et un nouveau concept est déjà en train de pointer le bout de son nez : le serverless. Qu’est-ce que c’est ? Est-ce un buzz ou une réelle évolution ? Est-ce que l’on doit déjà mettre à la poubelle les conteneurs ?</p>'
+        + '<p>Au cours de cette présentation, nous présenterons les principes du serverless et nous ferons une mise en application avec AWS Lambda, Google Cloud Functions et le framework serverless. Nous essaierons d’apporter un éclairage sur l’intérêt de cette technologie à travers des exemples d’utilisation.</p>',
+        speakers: ['julien_landure']
+      }, {
+        title: 'Cocktail 🍾 🍕 🍹',
+        time: '21h00',
+        type: 'cocktail',
+        intro: null,
+        abstract: '<p>Quoi de mieux qu\'un petit cocktail pour fêter cette fin de saison.</p>'
+        + '<p>Rendez-vous dans le patio, et au programme, boissons, petits fours et discussions tech (ou pas). On refait le monde !</p>'
+        }
+    ],
+    docs: [
+    ]
+  }, {
+    id: '2017_05_15',
+    title: "Anki Overdrive // CI, CD, pipelines, conteneurs",
+    date: new Date(2017, 4, 15), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/239670797/',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: 'CI, CD, pipelines, conteneurs : la cohabitation est elle possible ?',
+        length: '1h - 1h30',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['guillaume_membre'],
+        abstract: '<p>Si vous croyez que Docker et les Pipelines ne servent qu\'aux chargements et transport de conteneurs, Jenkins, votre fidèle serviteur, vous montrera comment en tirer le meilleur parti.</p>'
+      }, {
+        title: 'Anki Overdrive : controllez vos voitures "circuit 24" à partir de votre code',
+        length: '20min',
+        time: '20h30',
+        type: 'quickie',
+        intro: null,
+        speakers: ['tugdual_grall'],
+        abstract: '<p>Nous nous rappelons tous de notre premier circuit électrique, de notre premiers tours de piste dans un jeu vidéo, je vous propose dans cette présentation de passer à l\'étape suivante:  mélanger un jeux vidéo et un circuit de voiture, avec Anki Overdrive ( https://anki.com/en-us/overdrive )</p>'
+    	  + '<p>Vous découvrirez en quelques minutes la mise en place d\'un circuit, le contrôle des voitures à partir de votre téléphone mobile, et l\'utilisation d\'intelligence artificielle pour plonger dans un nouveau style de jeux.</p>'
+    	  + '<p>Puis vous découvrirez comment "hacker" les voitures pour capturer les données en temps réel, et même controller ces voitures à partir de votre code, donc à partir de n\'importe quel device connecté. (Mio, Leap, ...)</p>'
+        }
+    ],
+    docs: [
+    ]
+  }, {
+    id: '2017_04_12',
+    title: "Netflix // Devops",
+    date: new Date(2017, 3, 12), //month begin at 0
+    time: '19h00',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/238418834/',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: 'Netflix OSS ou comment  Homer est devenu un super héros',
+        length: '45min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['vickrame_ujoodha'],
+        abstract: '<p>La stack Netflix OSS ou comment Homer Simpsons est devenu un super héros.</p>' +
+          '<p>Homer Simpson éternelle looser dans la série, doit faire face une fois encore à l\' homme le plus cruel de SpringField, Mrs Burns.</p>' +
+          '<p>Dans ce nouvel épisode, nous verrons comment Homer, confronté à des multiples questions auxquels il ne sais pas quoi répondre, a pu devenir un super héros,en utilisant la stack Netflix OSS, aux yeux de cet homme impitoyable. </p>' +
+          '<p>Alors abonnez-vous pour voir cet épisode.</p>'
+    }, {
+        title: 'Au secours, mon chef m\'a demandé de passer au DevOps',
+        length: '45min',
+        time: '19h45',
+        type: 'talk',
+        intro: null,
+        speakers: ['antony_guilloteau'],
+        abstract: '<p>"Continuous Delivery" et "DevOps" font partis des buzz word du moment dans l\'IT.</p>' +
+          '<p>Si vous n\'êtes pas encore entrés dans ces démarches, ce n\'est qu\'une question de temps ! Préparez-vous à voir bientôt débarquer votre chef sur le bench avec le bouquin ""Découvrir DevOps"" sous le bras.</p>' +
+          '<p>Mais pour les développeurs, ça change quoi le DevOps ? A travers cette conférence, je vais vous faire part des mes différents retours d\'expérience sur ces changements autour des pratiques, organisations et outillages.</p>'
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_03_01',
-    title: "Gestion de conf & Angular 2",
+    title: "Gestion de conf // Angular 2",
     date: new Date(2017, 2, 1), //month begin at 0
     time: '19h00',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237897768/',
@@ -31,6 +221,7 @@ var njEvents = [
         abstract: "<p>Le site du JUG de Nantes, <a href=\"http://http://www.nantesjug.org\">http://www.nantesjug.org</a> est une application Angular 1.0.8 qui date un peu, et comme tout bon jugger, j’aime mon JUG local et je me dis qu’une refonte serait la bienvenue.</p>" +
         		"<p>Au cours de ce live-coding, nous partirons d’une application initiée avec angular-cli et nous créerons notre nouvelle version en utilisant TypeScript, un language typé de Microsoft, et la fameuse plateforme de développement on ne peut plus hype, Angular 2.</p>",
         docs: [
+          {name: 'sources', url: 'https://github.com/anthonny/nantesjug-2017', type:'github'}
         ]
       }
     ],
@@ -62,10 +253,49 @@ var njEvents = [
       }
     ],
     docs: [
+      {name: 'slides', url: 'http://www.slideshare.net/KodoKojo/du-docker-dans-notre-workflow-de-dev-72453736', type:'slideshare'},
     ]
   }, {
+    id: '2017_02_01',
+    title: "Soirée RxJava, Spring 5, Ratpack // Couchbase",
+    date: new Date(2017, 1, 01), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237022612/',
+    place: 'eartsup',
+    subjects: [{
+	title: "A practical RxJava example with Ratpack and Couchbase",
+        length: '50min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['laurent_doguin'],
+        abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
+        		"<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
+        		"<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
+        docs: [
+        ]
+      }, {
+        title: "Applications web reactives avec Spring 5 et Reactor 3",
+        length: '40min',
+        time: '20h00',
+        type: 'talk',
+        intro: null,
+        speakers: ['simon_basle'],
+        abstract: "<p>Dans cette présentation nous découvrirons Reactor 3, une librairie réactive alternative à RxJava mais proche de celle-ci. " +
+        		"Nous verrons comment Spring 5 va mettre l\'accent sur la programmation réactive avec Reactor comme base. Nous comparerons ensuite " +
+        		"Reactor avec RxJava 1 et RxJava 2, ce qui sera l\'occasion de se focaliser (comme la librairie) sur un contexte Java 8, la spécification " +
+        		"Reactive Streams et le concept de backpressure.</p>",
+        docs: [
+        ]
+      }
+
+    ],
+    docs: [
+      {name: 'Affiche de la soirée', url: 'https://drive.google.com/open?id=0BzLO1XLmywLJS1A5cm1kOFBhakk', type:'pdf'}
+    ]
+  },{
     id: '2017_01_18',
-    title: "I'm a CTO Bitch & Kanban from the startup warfare",
+    title: "I'm a CTO Bitch // Kanban from the startup warfare",
     date: new Date(2017, 0, 18), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/Nantes-Java-User-Group/events/236606281/',

@@ -43,6 +43,10 @@ angular.module('nantesjugApp', ['ui.router', 'ui.gravatar', 'angulartics', 'angu
             url: '/tools/draw',
             templateUrl: 'views/tools/draw.html'
           })
+          .state('drawPhoto', {
+            url: '/tools/drawPhoto',
+            templateUrl: 'views/tools/drawPhoto.html'
+          })
           .state('speakers', {
             url: '/speakers',
             templateUrl: 'views/speakers.html',

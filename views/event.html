@@ -44,7 +44,7 @@
                 <strong>{{subject.title}}</strong> <span ng-bind-html-unsafe="subject.intro"></span>
               </p>
 
-              <p>
+              <p ng-show="subject.length">
                 Durée : {{subject.length}}
               </p>
 
