@@ -2,7 +2,7 @@
 var njEvents = [
   {
     id: '2017_12_14',
-    title: "Soirée Quickies",
+    title: "Soirée de Noël : Quickies & Cocktail",
     date: new Date(2017, 11, 14), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/245415172/',
@@ -48,7 +48,14 @@ var njEvents = [
         intro: null,
         abstract: "<p>Si je vous demandais de supporter un DSL dans plusieurs IDE, vous ne trouveriez pas ça compliqué ? Vive le mal de crâne! Et si je vous disais que j'avais un outil pour vous aider ? Faites place au Language Server Protocol! Cette spécification vise à simplifier l'intégration d'un language de programmation dans un IDE. Elle est totalement hallucinante. Le support de C# dans Eclipse, celui de java dans VSCode c'est grâce à elle. Alors si vous voulez simplement comprendre comment ça marche ou si vous voulez créer et intégrer votre propre serveur de language, venez voir cette présentation. Je vous montrerez comment jouer avec le LSP pour avoir de la complétion, documentation et validation sur un DSL maison.</p>",
         speakers: ['gautier_de_saint_martin_lacaze']
-      }
+      }, {
+        title: 'Cocktail 🍾 🍕 🍹',
+        time: '20h30',
+        type: 'cocktail',
+        intro: null,
+        abstract: '<p>Quoi de mieux qu\'un cocktail offert par le Nantes JUG pour fêter la fin de l\'année.</p>'
+        + '<p>Au programme : boissons, petits fours et discussions tech (ou pas).</p>'
+        }
     ],
     docs: [
     ]
