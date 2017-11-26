@@ -1370,6 +1370,39 @@ var njSpeakers = [
     github: 'larousso',
     website: null,
     email: 'alexandre.delegue@serli.com'
+}, {
+    id: 'alvin_berthelot',
+    name: 'Alvin Berthelot',
+    bio: '<p>Développeur depuis plus de 10 ans sur des projets et des technologies hétérogènes, qui n’ont qu’un seul point commun, l’utilisation du web. Sa curiosité, son envie de partager les savoirs et son polyglottisme technologique lui permettent de mélanger les disciplines et ainsi de parler de tout… et surtout de n’importe quoi 🙂 Il travaille (tout de même de manière sérieuse) en tant qu’indépendant pour sa structure Webyousoon.</p>',
+    gravatar: '',
+    photo: null,
+    twitter: '',
+    gplus: null,
+    github: '',
+    website: null,
+    email: ''
+}, {
+    id: 'nicolas_giraud',
+    name: 'Nicolas Giraud',
+    bio: '<p></p>',
+    gravatar: '',
+    photo: null,
+    twitter: '',
+    gplus: null,
+    github: '',
+    website: null,
+    email: ''
+}, {
+    id: 'gautier_de_saint_martin_lacaze',
+    name: 'Gautier de Saint Martin Lacaze',
+    bio: '<p>Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014. Ayant appris à dompter l\'IDE Eclipse lors de ses premières années de travail, il contribue aujourd\'hui à l\'amélioration de son outil de travail via des patchs et la formation de ses clients. </p>',
+    gravatar: '',
+    photo: null,
+    twitter: '',
+    gplus: null,
+    github: '',
+    website: null,
+    email: ''
 }
 ];
 

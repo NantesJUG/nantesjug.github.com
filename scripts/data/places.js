@@ -81,5 +81,13 @@ var njPlaces = [
 	    city: '44000 Nantes',
 	    maps: 'https://goo.gl/maps/kF6xeKsUBZU2',
 	    capacity: 100
-	  }
+  },
+  {
+    id: 'adresse_gare_sud',
+    name: 'L\'Adresse Gare Sud',
+    address: '40 Rue du Pré Gauchet',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/PP2txGdZdg42',
+    capacity: 100
+  }
 ];

@@ -1,6 +1,58 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2017_12_14',
+    title: "Soirée Quickies",
+    date: new Date(2017, 11, 14), //month begin at 0
+    time: '19',
+    register: '',
+    place: 'adresse_gare_sud',
+    subjects: [
+      {
+        title: "Kotlin, la java qu'on aimerait avoir",
+        length: '20min',
+        time: '19h00',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.</p>",
+        speakers: ['adrien_pessu']
+      },
+      {
+        title: 'Verdaccio un proxy npm à la rescousse',
+        length: '20min',
+        time: '19h20',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>La construction d'une application repose principalement sur le code source que nous autres développeurs (euses) avons développé, mais également sur toutes les dépendances (frameworks ou librairies) que nous allons ajouter au sein de cette même application.</p>"
+        + "<p>Pour assurer la reproductibilité, la maintenabilité et l'évolution du processus de construction de notre application vis à vis des dépendances on s'appuie généralement sur un dépôt de dépendances accessible depuis Internet."
+        + "L'écosystème JavaScript n'échappe pas à la règle et en quelques années npm est devenu un mastodonte régissant quasiment toutes les dépendances JavaScript.</p>"
+		+ "<p>Lors de ce quickie nous verrons quels sont les avantages et les inconvénients de cette situation et comment nous pouvons utiliser l'outil Verdaccio comme proxy npm pour résoudre les problèmes du quotidien en entreprise.</p>",
+        speakers: ['alvin_berthelot']
+      },
+      {
+        title: 'Gamifier notre outillage traditionnel pour mettre en avant des concepts innovants.',
+        length: '20min',
+        time: '19h40',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>Comment nous avons construit un jeu afin de mettre en évidence différents concepts (scalibilité, résilience, …) et prouver le fonctionnement de composant techniques (Docker Swarm, SSE, …)"
+        	+ "Le tout sur la base de technologies issues du développement d'application de gestion.</p>"
+			+ "<p>Il s’agit d’une présentation d’introduction qui présente le produit fini, et la démarche mais qui n’entre pas dans les détails techniques des différents composants du jeu.</p>",
+        speakers: ['nicolas_giraud']
+      },
+      {
+        title: 'Language Server Protocol : intégrer simplement un language dans un IDE',
+        length: '20min',
+        time: '20h00',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>Si je vous demandais de supporter un DSL dans plusieurs IDE, vous ne trouveriez pas ça compliqué ? Vive le mal de crâne! Et si je vous disais que j'avais un outil pour vous aider ? Faites place au Language Server Protocol! Cette spécification vise à simplifier l'intégration d'un language de programmation dans un IDE. Elle est totalement hallucinante. Le support de C# dans Eclipse, celui de java dans VSCode c'est grâce à elle. Alors si vous voulez simplement comprendre comment ça marche ou si vous voulez créer et intégrer votre propre serveur de language, venez voir cette présentation. Je vous montrerez comment jouer avec le LSP pour avoir de la complétion, documentation et validation sur un DSL maison.</p>",
+        speakers: ['gautier_de_saint_martin_lacaze']
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_10_26',
     title: "Event Sourcing avec Apache Kafka // L'IoT dans la vraie vie",
     date: new Date(2017, 9, 26), //month begin at 0
