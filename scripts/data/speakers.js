@@ -1373,14 +1373,14 @@ var njSpeakers = [
 }, {
     id: 'alvin_berthelot',
     name: 'Alvin Berthelot',
-    bio: '<p>Développeur depuis plus de 10 ans sur des projets et des technologies hétérogènes, qui n’ont qu’un seul point commun, l’utilisation du web. Sa curiosité, son envie de partager les savoirs et son polyglottisme technologique lui permettent de mélanger les disciplines et ainsi de parler de tout… et surtout de n’importe quoi 🙂 Il travaille (tout de même de manière sérieuse) en tant qu’indépendant pour sa structure Webyousoon.</p>',
+    bio: '<p>Développeur depuis plus de 10 ans sur des projets et des technologies hétérogènes, qui n’ont qu’un seul point commun, l’utilisation du web. Sa curiosité, son envie de partager les savoirs et son polyglottisme technologique lui permettent de mélanger les disciplines et ainsi de parler de tout… et surtout de n’importe quoi 🙂</p><p>Il travaille (tout de même de manière sérieuse) en tant qu’indépendant pour sa structure <a href="http://www.webyousoon.com" target="_blank">Webyousoon</a>.</p>',
     gravatar: '',
     photo: null,
-    twitter: '',
+    twitter: 'alvinberthelot',
     gplus: null,
-    github: '',
-    website: null,
-    email: ''
+    github: 'alvinberthelot',
+    website: 'http://alvin.berthelot.rocks/',
+    email: 'alvin.berthelot+jugnantes@webyousoon.com'
 }, {
     id: 'nicolas_giraud',
     name: 'Nicolas Giraud',
