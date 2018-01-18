@@ -350,7 +350,7 @@ var njSpeakers = [
   {
     id: 'cedric_champeau',
     name: 'Cédric Champeau',
-    bio: 'Cédric Champeau est committer sur Groovy Core. Il a rejoint Pivotal afin de participer au développement du langage après avoir passé plusieurs années à l\'exploiter de manière industrielle chez un éditeur logiciel, Lingway, dans de multiples contextes (TALN, DSL, scripting, workflows, ...). Il a notamment développé le type checker et le compilateur statique qui ont fait leur apparition dans Groovy 2.',
+    bio: 'Cédric Champeau travaille depuis 2 ans chez Gradle Inc. où il développe l\'outil de build open-source du même nom. Il a notamment contribué à l\'amélioration des performances, le support de Java 9 et travaille désormais sur la problématique de gestion de dépendances. Cédric est aussi committer sur Apache Groovy: il a implémenté le compilateur statique de ce langage et contribué sur le sujet des DSLs et transformations à compile time.',
     gravatar: 'cedric.champeau@gmail.com',
     photo: null,
     twitter: 'CedricChampeau',

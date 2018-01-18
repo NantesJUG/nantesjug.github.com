@@ -1,6 +1,27 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2018_01_31',
+    title: "Recouvrer de la productivité avec Gradle",
+    date: new Date(2018, 0, 31), //month begin at 0
+    time: '19',
+    register: '',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: "Recouvrer de la productivité avec Gradle",
+        length: '1h30min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Vous entendez parler de Gradle, mais pour vous, ça n'est qu'un autre outil de build. Vous ne voyez pas l'intérêt. Pourtant, Gradle est différent. Il est conçu pour la productivité : réduire les temps de build, améliorer la modélisation des applications, résoudre les problèmes de gestion de dépendence...</p>"
+                + "<p>Dans cette session, nous parlerons de Gradle 4 et des fonctionnalités uniques qu'il apporte : tâches incrémentales, builds composites, cache distribué, ... Nous montrerons aussi les build scans et comment ils permettent de gagner un temps précieux en donnant une perspective unique sur vos builds. Enfin, nous aborderons brievement l'arrivée de Gradle 5, qui innovera une fois de plus dans le domaine de la gestion de dépendances.</p>",
+        speakers: ['cedric_champeau']
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2017_12_14',
     title: "Soirée de Noël : Quickies & Cocktail",
     date: new Date(2017, 11, 14), //month begin at 0
