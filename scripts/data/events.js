@@ -5,7 +5,7 @@ var njEvents = [
     title: "Recouvrer de la productivité avec Gradle",
     date: new Date(2018, 0, 31), //month begin at 0
     time: '19',
-    register: '',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/246931283/',
     place: 'eartsup',
     subjects: [
       {
