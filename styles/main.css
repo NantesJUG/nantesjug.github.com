@@ -564,6 +564,30 @@ img.sponsors-type {
 .sponsors, .partners {
   margin-bottom: 20px;
 }
+
+ .become-sponsor {
+   border: 1px dashed #999;
+   border-radius: 3px;
+   color: #999;
+   padding-top: 36%;
+   position: relative;
+ }
+
+ .become-sponsor > div {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   align-items: center;
+   display: flex;
+ }
+
+ .become-sponsor > div > span {
+   flex: 1;
+ }
+
 /*****SOIREE*****/
 .inscription {
   display: block;
