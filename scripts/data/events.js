@@ -2,16 +2,26 @@
 var njEvents = [
   {
     id: '2018_01_31',
-    title: "Recouvrer de la productivité avec Gradle",
+    title: "Progressive Web App // Recouvrer de la productivité avec Gradle",
     date: new Date(2018, 0, 31), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/246931283/',
     place: 'eartsup',
     subjects: [
       {
-        title: "Recouvrer de la productivité avec Gradle",
-        length: '1h30min',
+        title: "Native apps are doomed",
+        length: '30min',
         time: '19h00',
+        type: 'quickie',
+        intro: null,
+        abstract: "<p>Les progressive web apps envahissent progressivement le marché comme Twitter avec Twitter Lite.<br/>"
+                + "Y'a-t-il encore aujourd'hui à développer une application native, avec toutes les difficultés que celà entraîne ?</p>",
+        speakers: ['mathias_bernardeau']
+      },
+      {
+        title: "Recouvrer de la productivité avec Gradle",
+        length: '1h',
+        time: '19h30',
         type: 'talk',
         intro: null,
         abstract: "<p>Vous entendez parler de Gradle, mais pour vous, ça n'est qu'un autre outil de build. Vous ne voyez pas l'intérêt. Pourtant, Gradle est différent. Il est conçu pour la productivité : réduire les temps de build, améliorer la modélisation des applications, résoudre les problèmes de gestion de dépendence...</p>"
