@@ -1,6 +1,47 @@
 /*jshint unused: false */
 var njEvents = [
   {
+    id: '2018_02_13',
+    title: "Cloud // Microservices",
+    date: new Date(2018, 1, 13), //month begin at 0
+    time: '19',
+    register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/246931283/',
+    place: 'eartsup',
+    subjects: [
+      {
+        title: "Cloud : le couteau SaaS du développeur (et de la startup) !",
+        length: '45min',
+        time: '19h00',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>Et si on pouvait développer une application sans coder! Ou pas…</p>"
+                + "<p>Retour d'expérience sur le développement et la mise en production d’une application web s'appuyant sur +15 SaaS.<br/>"
+                + "Ce partage nous permettra d’aborder les points suivants:<ul>"
+                + "<li>Tour d’horizon de l’offre *aaS,</li>"
+                + "<li>Pourquoi du SaaS ?</li>"
+                + "<li>Avantages et inconvénients,</li>"
+                + "<li>La sécurité,</li>"
+                + "<li>Les limites,</li>"
+                + "<li>...</li>"
+                + "</ul></p>",
+        speakers: ['yann_danthu']
+      },
+      {
+        title: "Comment maintenir de la cohérence dans votre architecture microservices",
+        length: '45min',
+        time: '19h45',
+        type: 'talk',
+        intro: null,
+        abstract: "<p>La tendance est au délaissement des architectures monolithiques au profit de micro-services bien découpés. Ainsi nous facilitons le passage à l'échelle, réduisons la taille de chaque projet et pouvons utiliser la pile techno adaptée à chaque module.</p>"
+                + "<p>Cependant, en séparant ces briques, nous repoussons la complexité à la limite entre chaque module. La cohérence fournie par une base de code atomique et son système de types est perdue.</p>"
+                + "<p>Dans cette session, je montrerai comment tenir compte explicitement des frontières entre modules permet de réduire le risque de données incohérentes. Je montrerai comment encoder les messages inter-modules, en déclarant explicitement pour chaque brique, la structure nécessaire et ce qui doit pouvoir évoluer sans impacter le module. La serialisation implicite a beau etre plus simple au début, l'explicite aide beaucoup.</p>"
+                + "<p>Je donnerai des exemples en scala et javascript, tout en tirant des comparaisons avec mon expérience en développement web, où on a une expérience fournie de ce qui se passe quand les développeurs essayent d'ignorer les frontières entre coté serveur et coté client.</p>",
+        speakers: ['clement_delafargue']
+      }
+    ],
+    docs: [
+    ]
+  }, {
     id: '2018_01_31',
     title: "Progressive Web App // Recouvrer de la productivité avec Gradle",
     date: new Date(2018, 0, 31), //month begin at 0
