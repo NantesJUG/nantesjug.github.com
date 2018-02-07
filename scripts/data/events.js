@@ -1,9 +1,9 @@
 /*jshint unused: false */
 var njEvents = [
   {
-    id: '2018_02_13',
+    id: '2018_02_27',
     title: "Cloud // Microservices",
-    date: new Date(2018, 1, 13), //month begin at 0
+    date: new Date(2018, 1, 27), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/247378584/',
     place: 'eartsup',
