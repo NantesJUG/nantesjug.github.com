@@ -6,7 +6,7 @@ var njEvents = [
     date: new Date(2018, 1, 27), //month begin at 0
     time: '19',
     register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/247576881/',
-    place: 'eartsup',
+    place: 'epitech',
     subjects: [
       {
         title: "Cloud : le couteau SaaS du développeur (et de la startup) !",
