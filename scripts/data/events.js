@@ -1,10 +1,10 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2018_03_22',
-        title: "Cloud // Microservices",
+        title: "Micro-Interactions et Micro-Services",
         date: new Date(2018, 2, 22), //month begin at 0
         time: '19',
-        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/247576881/',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/248653942/',
         place: 'insula',
         subjects: [{
                 title: "Il n'y a pas de magie, tout est dans les détails !",
