@@ -30,7 +30,7 @@ var njEvents = [{
                           "<p>Durant l’année passée, nous avons pensé et mis en oeuvre un ensemble de méthodologies, pratiques, solutions techniques pour servir de nouveaux produits innovants bénéficiant d’un time-to-market compétitif et de coûts maîtrisés. Cette initiative prise dans une grosse entreprise de la région nous permet le droit à l’erreur, la possibilité de jeter au besoin tout en valorisant son legacy et en responsabilisant les développeurs.</p>" +
                           "<p>Nous verrons donc ensemble les différentes étapes que nous avons suivi lors de cette “rupture”, les méthodologies employées, les façons de travailler, les patterns utilisés. Nous vous présenterons la suite d’outils que nous avons créé à l’occasion, lorsque les outils du marché ne convenaient pas à nos cas d’utilisation (la stack Netflix n’est pas faite pour tout le monde ;-).</p>" +
                           "<p>Au programme, reverse-proxy, API gateway, ingestion de data, feature flipping, A/B testing, des démos qui plantent et bien plus encore.</p>",
-                speakers: ['mathieu_ancelin', 'alexandre_delègue']
+                speakers: ['mathieu_ancelin', 'alexandre_delègue', 'francois_desmier']
             }
         ],
         docs: []

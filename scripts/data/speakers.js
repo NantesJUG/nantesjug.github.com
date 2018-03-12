@@ -4,6 +4,16 @@
 
 /*jshint unused: false */
 var njSpeakers = [{
+        id: 'francois_desmier',
+        name: 'François Desmier',
+        bio: "<p>Maker chez MaifX, l'accélérateur technologique de la MAIF. Passionné par les nouveaux enjeux soulevés par l'arrivée à maturité d'internet et concerné par les aspects self-data et privacy ethic, j'explore les nouveaux territoires (blockchain, P2P) pour y défricher les nouveaux sentiers business et faire le lien avec nos directions métier.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'desmfr',
+        gplus: null,
+        github: null,
+        website: 'http://www.francoisdesmier.fr'
+    }, {
         id: 'mathias_bernardeau',
         name: 'Mathias Bernardeau',
         bio: '<p></p>',
@@ -1043,9 +1053,8 @@ var njSpeakers = [{
     {
         id: 'mathieu_ancelin',
         name: 'Mathieu Ancelin',
-        bio: '<p>Mathieu ANCELIN est développeur à SERLI, spécialisé dans la programmation web et les frameworks web modernes avec un bon background autour des technologies Scala/Java.</p>' +
-            '<p>Mathieu est impliqué dans plusieurs projets open-source et en lead également quelques un comme ReactiveCouchbase.</p>' +
-            '<p>Il fait partie de l\'équipe du Poitou-Charentes JUG.</p>',
+        bio: "<p>Mathieu ANCELIN est développeur chez SERLI, spécialisé dans la programmation web avec Scala, Java, JavaScript, des streams, de la data et cloud. Et s'il y du React, c'est encore mieux ;-)</p>" +
+            "<p>Vous pouvez régulièrement le croiser au Poitou-Charentes JUG.</p>",
         gravatar: null,
         photo: 'jpg',
         twitter: 'trevorreznik',
@@ -1266,7 +1275,7 @@ var njSpeakers = [{
     }, {
         id: 'alexandre_delègue',
         name: 'Alexandre Delègue',
-        bio: '<p>Alexandre Delègue est ingénieur d\'études chez SERLI. Développeur java, scala et javascript, il apprécie particulièrement la programmation fonctionnelle ainsi que la programmation réactive.</p>',
+        bio: "<p>Alexandre Delègue est ingénieur d'études chez SERLI. Développeur touche à tout il apprécie tout particulièrement la programmation fonctionnelle et les framework réactifs.</p>",
         gravatar: 'alexandre.delegue@serli.com',
         photo: null,
         twitter: 'chanksleroux',
