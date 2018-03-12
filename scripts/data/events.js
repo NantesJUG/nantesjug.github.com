@@ -1,7 +1,7 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2018_03_22',
-        title: "Micro-Interactions et Devenir une plateforme de services",
+        title: "Micro-Interactions // Devenir une plateforme de services",
         date: new Date(2018, 2, 22), //month begin at 0
         time: '19',
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/248653942/',
