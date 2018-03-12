@@ -1,7 +1,7 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2018_03_22',
-        title: "Micro-Interactions et Micro-Services",
+        title: "Micro-Interactions et Devenir une plateforme de services",
         date: new Date(2018, 2, 22), //month begin at 0
         time: '19',
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/248653942/',
@@ -12,7 +12,12 @@ var njEvents = [{
                 time: '19h00',
                 type: 'talk',
                 intro: null,
-                abstract: "<p>Et s'il existait un monde où les petits détails d'une app ou d'un site web servent en même temps l'experience utilisateur et l'immersion dans un univers graphique ?</p><p>Un nouveau monde à la croisée de l'UX et de l'UI.</p><p>Plongée dans le monde des Micro-interactions...</p><p></p><p>Et s'il était possible d'améliorer l'experience utilisateur d'une app juste en travaillant les détails ?</p><p>S'il était possible d'apporter du réel dans une app virtuelle simplement ?</p><p>Ou comment récompenser physiquement l’utilisateur pour le guider dans son parcours ?</p>",
+                abstract: "<p>Et s'il existait un monde où les petits détails d'une app ou d'un site web servent en même temps l'experience utilisateur et l'immersion dans un univers graphique ?</p><p>Un nouveau monde à la croisée de l'UX et de l'UI.</p>" +
+                          "<p>Plongée dans le monde des Micro-interactions...</p>" +
+                          "<p></p>" +
+                          "<p>Et s'il était possible d'améliorer l'experience utilisateur d'une app juste en travaillant les détails ?</p>" +
+                          "<p>S'il était possible d'apporter du réel dans une app virtuelle simplement ?</p>" +
+                          "<p>Ou comment récompenser physiquement l’utilisateur pour le guider dans son parcours ?</p>",
                 speakers: ['thomas_buvignier']
             },
             {
@@ -21,7 +26,10 @@ var njEvents = [{
                 time: '19h35',
                 type: 'talk',
                 intro: null,
-                abstract: "Lorsque ta direction te dit qu'il faut diversifier les activités et devenir une plateforme de services, un reset s'impose pour penser, from scratch, un nouveau pan du système d'information.<br/><br/>Durant l’année passée, nous avons pensé et mis en oeuvre un ensemble de méthodologies, pratiques, solutions techniques pour servir de nouveaux produits innovants bénéficiant d’un time-to-market compétitif et de coûts maîtrisés. Cette initiative prise dans une grosse entreprise de la région nous permet le droit à l’erreur, la possibilité de jeter au besoin tout en valorisant son legacy et en responsabilisant les développeurs.<br/><br/>Nous verrons donc ensemble les différentes étapes que nous avons suivi lors de cette “rupture”, les méthodologies employées, les façons de travailler, les patterns utilisés. Nous vous présenterons la suite d’outils que nous avons créé à l’occasion, lorsque les outils du marché ne convenaient pas à nos cas d’utilisation (la stack Netflix n’est pas faite pour tout le monde ;-).<br/><br/>Au programme, reverse-proxy, API gateway, ingestion de data, feature flipping, A/B testing, des démos qui plantent et bien plus encore.",
+                abstract: "<p>Lorsque ta direction te dit qu'il faut diversifier les activités et devenir une plateforme de services, un reset s'impose pour penser, from scratch, un nouveau pan du système d'information.</p>" +
+                          "<p>Durant l’année passée, nous avons pensé et mis en oeuvre un ensemble de méthodologies, pratiques, solutions techniques pour servir de nouveaux produits innovants bénéficiant d’un time-to-market compétitif et de coûts maîtrisés. Cette initiative prise dans une grosse entreprise de la région nous permet le droit à l’erreur, la possibilité de jeter au besoin tout en valorisant son legacy et en responsabilisant les développeurs.</p>" +
+                          "<p>Nous verrons donc ensemble les différentes étapes que nous avons suivi lors de cette “rupture”, les méthodologies employées, les façons de travailler, les patterns utilisés. Nous vous présenterons la suite d’outils que nous avons créé à l’occasion, lorsque les outils du marché ne convenaient pas à nos cas d’utilisation (la stack Netflix n’est pas faite pour tout le monde ;-).</p>" +
+                          "<p>Au programme, reverse-proxy, API gateway, ingestion de data, feature flipping, A/B testing, des démos qui plantent et bien plus encore.</p>",
                 speakers: ['mathieu_ancelin', 'alexandre_delègue']
             }
         ],
