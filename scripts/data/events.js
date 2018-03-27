@@ -29,7 +29,9 @@ var njEvents = [{
                 speakers: ['yvelain_naude']
             }
         ],
-        docs: []
+        docs: [
+          { name: 'flyer', url: 'https://goo.gl/V9kk4g', type: 'pdf' },
+        ]
     },
     {
         id: '2018_04_10',
