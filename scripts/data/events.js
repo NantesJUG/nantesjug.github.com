@@ -1,5 +1,73 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_04_26',
+        title: "OpenFaas // Kotlin",
+        date: new Date(2018, 3, 26), //month begin at 0
+        time: '19',
+        register: null,
+        place: 'creative',
+        subjects: [{
+                title: "OpenFaas, une solution simple et rapide à déployer pour faire du FaaS.",
+                length: '30min',
+                time: '19h00',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>OpenFaaS est un projet d'Alexis Ellis, Docker Captain, basé sur Docker et sur les orchestrateurs Swarm ou Kubernetes. Cette solution facilite la mise en œuvre d'une architecture Serverless à base de fonctions.</p>" +
+                "<p>A la différence de AWS Lambda ou d'autres services FaaS (Function as a Service) comme Google Cloud Functions, OpenFaas est une solution qui peut être déployée en On Premise, et ce très rapidement et simplement. L'autre différence est que tout peut devenir une fonction, y compris un binaire. " +
+                "On comprend mieux pourquoi depuis sa présentation à la DockerCon 2017, ce projet fait fureur dans la communauté Docker.</p>" +
+                "<p>Après une présentation succincte de ce qu'est le FaaS, nous explorerons la solution et l'ensemble de ses possibilités. Pour démontrer la puissance de ce framework, nous terminerons ce talk par une démonstration mettant en œuvre plusieurs fonctions.</p>",
+                speakers: ['emmanuel_lebeaupin']
+            },
+            {
+                title: "À la découverte de Kotlin",
+                length: '45min',
+                time: '19h35',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Kotlin est un langage de programmation qui s’adresse principalement aux utilisateurs Java. Supporté depuis l’année dernière par les plateformes Android, ce langage simple et moderne a fait une percée dans le monde du développement mobile. Interopérable avec Java, Kotlin est désormais doté d’une version JS et native qui élargit le champ de ses capacités.</p>" +
+                "<p>Après un vernis historique sur les origines de ce langage, découvrons ensemble tout l’intérêt de Kotlin au travers de quelques points de syntaxe, concepts de base et outils. Nous terminerons ce talk par la présentation de deux exemples l’un sur Android et l’autre en Kotlin JS.</p>",
+                speakers: ['yvelain_naude']
+            }
+        ],
+        docs: []
+    },
+    {
+        id: '2018_04_10',
+        title: "Open Tracing // Il n'y a pas que Angular, React ou VueJS",
+        date: new Date(2018, 3, 10), //month begin at 0
+        time: '19',
+        register: null,
+        place: 'ynov',
+        subjects: [{
+                title: "Open Tracing, le SLF4J du traçage distribué",
+                length: '30min',
+                time: '19h00',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Un id de corrélation, cela n'a rien de nouveau, mais cela change la vie, surtout couplé avec un outil d'agrégation de logs. </p>" +
+                "<p>Il est de plus en plus rare qu'une page web ne génère qu'une seule requête côté serveur. Et quand un bug survient, c'est la fin... " +
+                "Parmi les X applications interrogées, pour trouver la source du bug, cela devient vite la galère... C'est une perte de temps, et une source de stress.</p>" +
+                "<p>Open Tracing est une API disponible dans plusieurs langages, permettant de s'interfacer avec différents outils de traçage. " +
+                "A l'image de Slf4J pour les logs, Open Tracing pemet donc de passer à une implémentation à une autre avec peu d'effort. " +
+                "Vous utilisez à l'heure actuelle Zipkin, et vous voulez passer sur Jaeger, rien de plus simple. Quelques lignes à changer dans son code et c'est fait.</p>" +
+                "<p>Je vous présenterais le principe de la corrélation d'id et les notions qui vont avec (trace, span, etc.), les outils existants, et pourquoi je crois en Open Tracing.</p>",
+                speakers: ['florian_negre']
+            },
+            {
+                title: "Il n'y a pas que Angular, React ou VueJS dans la vie",
+                length: '45min',
+                time: '19h35',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Nous connaissons tous les frameworks/librairies à la mode : de Angualar à React, en passant par le tout dernier VueJS. Mais devons-nous nous limiter à ces trois solutions ? </p>" +
+                "<p>Durant cette conférence, nous allons aborder plutôt les projets les moins connus, mais pas les moins intéressants, et qui pourraient être sources" +
+                "d'idées pour les grands du Web. De Inferno à Marko, en passant par Preact, nous allons enfin pouvoir connaitre les avantages et inconvénients de ces solutions alternatives. </p>",
+                speakers: ['emmanuel_demey']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2018_03_22',
         title: "Micro-Interactions // Devenir une plateforme de services",
         date: new Date(2018, 2, 22), //month begin at 0

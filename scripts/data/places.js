@@ -63,7 +63,7 @@ var njPlaces = [
     city: '44000 Nantes',
     maps: 'https://goo.gl/maps/yRLvMRkNuzj',
     twitter: 'EPITECHNantes',
-    capacity: 80
+    capacity: 60
   },
   {
     id: 'hub_creatic',
@@ -89,5 +89,21 @@ var njPlaces = [
     city: '44000 Nantes',
     maps: 'https://goo.gl/maps/PP2txGdZdg42',
     capacity: 100
+  },
+  {
+    id: 'ynov',
+    name: 'Ynov',
+    address: '20 boulevard du Général de Gaulle',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/t4QzM42D7Pk',
+    capacity: 100
+  },
+  {
+    id: 'creative',
+    name: 'Creative',
+    address: '1 avenue des Lions, Bâtiment B – 2ème étage',
+    city: '44800 Saint-Herblain',
+    maps: 'https://goo.gl/maps/TahTWPPiffz',
+    capacity: 50
   }
 ];

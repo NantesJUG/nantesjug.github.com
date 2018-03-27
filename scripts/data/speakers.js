@@ -1322,6 +1322,51 @@ var njSpeakers = [{
         gplus: null,
         github: '',
         website: null
+    },
+    {
+      id: 'florian_negre',
+      name: 'Florian Nègre',
+      bio: "<p>Après plusieurs années de développement Java, puis une expérience dans la gestion de projet, et ensuite un rôle de facilitateur technique, je reviens à mon premier amour : le code.</p>" +
+           "<p>Développeur chez Zenika, je suis arrivé depuis peu sur Nantes, je découvre avec plaisir cette nouvelle vie et de nouveaux challenges </p>",
+      gravatar: 'granini@gmail.com',
+      photo: null,
+      twitter: 'floriannegre',
+      gplus: null,
+      github: 'fnegre',
+      website: null
+    },
+    {
+      id: 'emmanuel_demey',
+      name: 'Emmanuel Demey',
+      bio: "<p>Directeur technique chez Zenika Lille et Google Developer Expert, je suis spécialisé dans Angular, VueJS, NodeJS, PWA, TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique.</p>",
+      gravatar: null,
+      photo: null,
+      twitter: 'emmanueldemey',
+      gplus: null,
+      github: 'gillespie59',
+      website: null
+    },
+    {
+      id: 'emmanuel_lebeaupin',
+      name: 'Emmanuel Lebeaupin',
+      bio: "<p>Emmanuel Lebeaupin est développeur depuis plus de 15 ans et plus particulièrement dans le monde du Java et du Web. Aujourd'hui, il évolue au sein de la société CREATIVE et intervient dans le développement et l'architecture de projets. En parallèle, il accompagne ses clients dans le monde de Docker et de la conteneurisation.</p>",
+      gravatar: null,
+      photo: null,
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: null
+    },
+    {
+      id: 'yvelain_naude',
+      name: 'Yvelain Naude',
+      bio: "<p>Yvelain NAUDE est développeur depuis plus de 10 ans et plus particulièrement dans le monde de l’embarqué. Aujourd'hui, il évolue au sein de la société CREATIVE et intervient dans le développement et l'architecture de projets.</p>",
+      gravatar: null,
+      photo: null,
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: null
     }
 ];
 
