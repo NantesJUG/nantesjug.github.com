@@ -4,7 +4,7 @@ var njEvents = [{
         title: "OpenFaas // Kotlin",
         date: new Date(2018, 3, 26), //month begin at 0
         time: '19',
-        register: null,
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/249153190/',
         place: 'creative',
         subjects: [{
                 title: "OpenFaas, une solution simple et rapide à déployer pour faire du FaaS.",
@@ -36,7 +36,7 @@ var njEvents = [{
         title: "Open Tracing // Il n'y a pas que Angular, React ou VueJS",
         date: new Date(2018, 3, 10), //month begin at 0
         time: '19',
-        register: null,
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/249153080/',
         place: 'ynov',
         subjects: [{
                 title: "Open Tracing, le SLF4J du traçage distribué",
