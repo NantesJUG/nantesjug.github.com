@@ -61,7 +61,7 @@ var njEvents = [{
                 time: '19h35',
                 type: 'talk',
                 intro: null,
-                abstract: "<p>Nous connaissons tous les frameworks/librairies à la mode : de Angualar à React, en passant par le tout dernier VueJS. Mais devons-nous nous limiter à ces trois solutions ? </p>" +
+                abstract: "<p>Nous connaissons tous les frameworks/librairies à la mode : de Angular à React, en passant par le tout dernier VueJS. Mais devons-nous nous limiter à ces trois solutions ? </p>" +
                 "<p>Durant cette conférence, nous allons aborder plutôt les projets les moins connus, mais pas les moins intéressants, et qui pourraient être sources" +
                 "d'idées pour les grands du Web. De Inferno à Marko, en passant par Preact, nous allons enfin pouvoir connaitre les avantages et inconvénients de ces solutions alternatives. </p>",
                 speakers: ['emmanuel_demey']
