@@ -5,10 +5,10 @@ var njEvents = [{
         date: new Date(2018, 4, 3), //month begin at 0
         time: '19',
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/250168593/',
-        place: 'epitech',
+        place: 'eartsup',
         subjects: [{
                 title: "Les joies de la négociation",
-                length: '15min',
+                length: '30min',
                 time: '19h00',
                 type: 'quickie',
                 intro: null,
@@ -23,7 +23,7 @@ var njEvents = [{
             {
                 title: "TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles",
                 length: '60min',
-                time: '19h20',
+                time: '19h30',
                 type: 'talk',
                 intro: null,
                 abstract: "<p>Nos activités quotidiennes sont liées au temps. Pourquoi ne pas utiliser des bases temporelles (time series databases) pour stocker et exploiter vos données ?</p>" +
