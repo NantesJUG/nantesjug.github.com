@@ -22,7 +22,7 @@ var njEvents = [{
             },
             {
                 title: "TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles",
-                length: '60min',
+                length: '1h',
                 time: '19h30',
                 type: 'talk',
                 intro: null,
