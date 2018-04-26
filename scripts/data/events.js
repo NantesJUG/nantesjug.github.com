@@ -1,5 +1,33 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_05_03',
+        title: "Les joies de la négociation // TICK-Tac",
+        date: new Date(2018, 4, 3), //month begin at 0
+        time: '19',
+        register: null, // TODO AThimel
+        place: 'epitech',
+        subjects: [{
+                title: "Les joies de la négociation",
+                length: '15min',
+                time: '19h00',
+                type: 'quickie', // Pure supposition compte-tenu de la durée
+                intro: null,
+                abstract: "<p></p>", // TODO AThimel
+                speakers: ['olivier_truong']
+            },
+            {
+                title: "TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles",
+                length: '60min',
+                time: '19h20',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Nos activités quotidiennes sont liées au temps. Pourquoi ne pas utiliser des bases temporelles (time series databases) pour stocker et exploiter vos données ?</p>" +
+                          "<p>Au travers de la plateforme TICK (Telegraf, InfluxDB, Chronograf et Kapacitor) et Grafana et sur la base de l'exemple d'un monitoring de plateforme, nous verrons comment manipuler ces données temporelles.</p>",
+                speakers: ['nicolas_steinmetz']
+            }
+        ],
+        docs: []
+    },{
         id: '2018_04_26',
         title: "OpenFaas // Kotlin",
         date: new Date(2018, 3, 26), //month begin at 0
