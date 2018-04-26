@@ -10,9 +10,14 @@ var njEvents = [{
                 title: "Les joies de la négociation",
                 length: '15min',
                 time: '19h00',
-                type: 'quickie', // Pure supposition compte-tenu de la durée
+                type: 'quickie',
                 intro: null,
-                abstract: "<p></p>", // TODO AThimel
+                abstract: "<p>S’il est bien un aspect du métier de développeur qu’on aime pas toujours/trop, c’est de devoir négocier. "+
+                          "Souvent, la négociation se résume à un rapport de force. " +
+                          "Lors de l’entretien d’embauche ou l’entretien annuel, négocier son salaire est rarement une partie de plaisir, laissant parfois le sentiment de s’être fait (un peu ?) avoir." +
+                          "Même au sein d’une équipe, les négociations pour les choix techniques peuvent s’avérer... compliquées.</p>" +
+                          "<p>Ça n’est pas une fatalité :)</p>" +
+                          "<p>À partir d'un livre, « Comment réussir une négociation » (titre original : Getting to Yes), et de quelques retours d’expérience, découvrez quelques clés pour être mieux armés dans vos négociations.</p>",
                 speakers: ['olivier_truong']
             },
             {

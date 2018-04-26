@@ -1371,9 +1371,9 @@ var njSpeakers = [{
     {
       id: 'olivier_truong',
       name: 'Olivier Truong',
-      bio: "<p></p>", // TODO AThimel
+      bio: "<p>Développeur, chef de projet puis manager dans un grand groupe avant de devenir Freelance il y a 2 ans. Curieux, aime apprendre et partager tout ce qui peut nous rendre meilleurs dans notre job :)</p>",
       gravatar: null,
-      photo: null,
+      photo: 'jpg',
       twitter: null,
       gplus: null,
       github: null,
