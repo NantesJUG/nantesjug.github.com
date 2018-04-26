@@ -4,7 +4,7 @@ var njEvents = [{
         title: "Les joies de la négociation // TICK-Tac",
         date: new Date(2018, 4, 3), //month begin at 0
         time: '19',
-        register: null, // TODO AThimel
+        register: null, // TODO AThimel Event créé mais non publié pour l'instant : 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/250168593/',
         place: 'epitech',
         subjects: [{
                 title: "Les joies de la négociation",
