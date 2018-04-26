@@ -37,7 +37,7 @@ var njPlaces = [
     name: 'Netapsys',
     address: '17 Rue Sanlecque',
     city: '44000 Nantes',
-    capacity: 'http://goo.gl/maps/Ctujp',
+    maps: 'http://goo.gl/maps/Ctujp',
     capacity: 50
   },
   {
@@ -45,7 +45,7 @@ var njPlaces = [
     name: 'Sup Info',
     address: '1 Rue Charron',
     city: '44800 Saint-Herblain',
-    capacity: 'http://goo.gl/maps/YbjKy'
+    maps: 'http://goo.gl/maps/YbjKy'
   },
   {
     id: 'eartsup',
@@ -104,6 +104,6 @@ var njPlaces = [
     address: '1 avenue des Lions, Bâtiment B – 2ème étage',
     city: '44800 Saint-Herblain',
     maps: 'https://goo.gl/maps/TahTWPPiffz',
-    capacity: 50
+    capacity: 70
   }
 ];
