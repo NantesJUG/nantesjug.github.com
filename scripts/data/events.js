@@ -1,5 +1,38 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_05_03',
+        title: "Les joies de la négociation // TICK-Tac",
+        date: new Date(2018, 4, 3), //month begin at 0
+        time: '19',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/250168593/',
+        place: 'eartsup',
+        subjects: [{
+                title: "Les joies de la négociation",
+                length: '30min',
+                time: '19h00',
+                type: 'quickie',
+                intro: null,
+                abstract: "<p>S’il est bien un aspect du métier de développeur qu’on aime pas toujours/trop, c’est de devoir négocier. "+
+                          "Souvent, la négociation se résume à un rapport de force. " +
+                          "Lors de l’entretien d’embauche ou l’entretien annuel, négocier son salaire est rarement une partie de plaisir, laissant parfois le sentiment de s’être fait (un peu ?) avoir." +
+                          "Même au sein d’une équipe, les négociations pour les choix techniques peuvent s’avérer... compliquées.</p>" +
+                          "<p>Ça n’est pas une fatalité :)</p>" +
+                          "<p>À partir d'un livre, « Comment réussir une négociation » (titre original : Getting to Yes), et de quelques retours d’expérience, découvrez quelques clés pour être mieux armés dans vos négociations.</p>",
+                speakers: ['olivier_truong']
+            },
+            {
+                title: "TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles",
+                length: '1h',
+                time: '19h30',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Nos activités quotidiennes sont liées au temps. Pourquoi ne pas utiliser des bases temporelles (time series databases) pour stocker et exploiter vos données ?</p>" +
+                          "<p>Au travers de la plateforme TICK (Telegraf, InfluxDB, Chronograf et Kapacitor) et Grafana et sur la base de l'exemple d'un monitoring de plateforme, nous verrons comment manipuler ces données temporelles.</p>",
+                speakers: ['nicolas_steinmetz']
+            }
+        ],
+        docs: []
+    },{
         id: '2018_04_26',
         title: "OpenFaas // Kotlin",
         date: new Date(2018, 3, 26), //month begin at 0

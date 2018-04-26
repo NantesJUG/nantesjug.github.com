@@ -1367,6 +1367,28 @@ var njSpeakers = [{
       gplus: null,
       github: null,
       website: null
+    },
+    {
+      id: 'olivier_truong',
+      name: 'Olivier Truong',
+      bio: "<p>Développeur, chef de projet puis manager dans un grand groupe avant de devenir Freelance il y a 2 ans. Curieux, aime apprendre et partager tout ce qui peut nous rendre meilleurs dans notre job :)</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: null
+    },
+    {
+      id: 'nicolas_steinmetz',
+      name: 'Nicolas Steinmetz',
+      bio: "<p>Consultant Indépendant, j'interviens sur des problématiques d'architecture applicative & d'infrastructure et sur des problématiques DevOps (automatisation, industrialisation, etc)</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: 'nsteinmetz',
+      gplus: null,
+      github: 'nsteinmetz',
+      website: 'https://www.cerenit.fr/'
     }
 ];
 

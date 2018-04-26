@@ -75,4 +75,9 @@ angular.module('nantesjugApp', ['ui.router', 'ui.gravatar', 'angulartics', 'angu
           });
       $urlRouterProvider.when('/devoxx4kids', '/specials/devoxx4kids');
       $urlRouterProvider.otherwise('/');
+    })
+    .run(function($rootScope, $anchorScroll){
+      $rootScope.$on('$stateChangeSuccess', function() {
+        $anchorScroll();
+      });
     });
