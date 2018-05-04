@@ -1389,6 +1389,28 @@ var njSpeakers = [{
       gplus: null,
       github: 'nsteinmetz',
       website: 'https://www.cerenit.fr/'
+    },
+    {
+      id: 'nabil_thalmann',
+      name: 'Nabil Thalmann',
+      bio: "<p></p>", // TODO
+      gravatar: null,
+      photo: null,
+      twitter: 'nabilthalmann',
+      gplus: null,
+      github: null,
+      website: null
+    },
+    {
+      id: 'salomon_brys',
+      name: 'Salomon Brys',
+      bio: "<p></p>", // TODO
+      gravatar: null,
+      photo: null,
+      twitter: 'salomonbrys',
+      gplus: null,
+      github: null,
+      website: null
     }
 ];
 

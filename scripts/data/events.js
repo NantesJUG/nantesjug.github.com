@@ -1,5 +1,32 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_05_23',
+        title: "UX // Kotlin - Avancé",
+        date: new Date(2018, 4, 23), //month begin at 0
+        time: '19',
+        register: null, // TODO
+        place: 'eartsup',
+        subjects: [{
+                title: "UX",
+                length: '30min', // TODO
+                time: '19h00',
+                type: 'talk',
+                intro: null,
+                abstract: "<p></p>", // TODO
+                speakers: ['nabil_thalmann']
+            },
+            {
+                title: "Kotlin - Avancé",
+                length: '1h', // TODO
+                time: '19h40',
+                type: 'talk',
+                intro: null,
+                abstract: "<p></p>", // TODO
+                speakers: ['salomon_brys']
+            }
+        ],
+        docs: []
+    },{
         id: '2018_05_03',
         title: "Les joies de la négociation // TICK-Tac",
         date: new Date(2018, 4, 3), //month begin at 0
