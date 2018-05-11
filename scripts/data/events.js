@@ -4,24 +4,34 @@ var njEvents = [{
         title: "UX // Kotlin - Avancé",
         date: new Date(2018, 4, 23), //month begin at 0
         time: '19',
-        register: null, // TODO
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/250684407/',
         place: 'eartsup',
         subjects: [{
-                title: "UX",
-                length: '30min', // TODO
+                title: "3 exemples pour comprendre l'intérêt de la phase UX research lors de la conception",
+                length: '30min',
                 time: '19h00',
                 type: 'talk',
                 intro: null,
-                abstract: "<p></p>", // TODO
+                abstract: "<p>À travers 3 exemples, nous verrons comment l'approche UX, et plus particulièrement la " +
+                          "phase de test, fait le plus grand bien à la conception d'un projet. Pour le meilleur ou pour le pire." +
+                          "Observer et interviewer l'être humain est indispensable pour savoir si l'expérience que vous " +
+                          "proposez est bien celle attendue par lui, pour comprendre les motivations qui l'anime et " +
+                          "mieux détecter les facteurs qui faciliteront l'appropriation d'un service ou d'un produit.</p>",
                 speakers: ['nabil_thalmann']
             },
             {
-                title: "Kotlin - Avancé",
-                length: '1h', // TODO
-                time: '19h40',
+                title: "Kotlin asynchrone : les coroutines",
+                length: '1h',
+                time: '19h45',
                 type: 'talk',
                 intro: null,
-                abstract: "<p></p>", // TODO
+                abstract: "<p>Les Coroutines sont la nouvelle fonctionalité du langage Kotlin pour sa version 1.1. En " +
+                          "l'essence, elles vous permettent d'écrire du code séquentiel mais asynchrone.</p>"+
+                          "<p>Dans ce talk, je présenterai le concept des coroutines et expliquerai comment Kotlin " +
+                          "implémente les coroutines pour être un outil sur lequel construire plutôt qu'un standard imposé à la communauté. " +
+                          "À travers un live-coding, nous explorerons les primitives bas niveau comme les principales " +
+                          "libraries haut niveau. Je montrerai comment ce formidable outil peut être utilisé aussi bien " +
+                          "en back-end sur un serveur que sur une application Android.</p>",
                 speakers: ['salomon_brys']
             }
         ],
