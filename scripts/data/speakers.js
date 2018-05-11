@@ -1389,6 +1389,38 @@ var njSpeakers = [{
       gplus: null,
       github: 'nsteinmetz',
       website: 'https://www.cerenit.fr/'
+    },
+    {
+      id: 'nabil_thalmann',
+      name: 'Nabil Thalmann',
+      bio: "<p>Directeur du lab d'Intuiti. Co-fondateur de Personae User Lab en 2012 au sein de l’agence Intuiti et " +
+           "directeur conseil études (17 d’expérience en UX research, près de 5000 personnes interviewées sur des " +
+           "problématiques de conversion, de compréhension et d’accès à l’offre, de parcours utilisateur, d’évaluation " +
+           "ergonomique, de prétest de comm/concept/service/produit…). Je ne cesse d’apprendre en interviewant et " +
+           "observant l’humain dans des domaines très variés. J'aime à dire que l'humain est une drogue et que j'en " +
+           "suis le dealer.</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: 'nabilthalmann',
+      gplus: '112790923455569738063',
+      github: null,
+      website: null
+    },
+    {
+      id: 'salomon_brys',
+      name: 'Salomon Brys',
+      bio: "<p>Passionné de Kotlin depuis 4 ans, je suis le développeur et mainteneur de la librairie Kodein. " +
+           "Kodein 5.0 est la librarairie de DI n°1 en Kotlin et la première librairie Kotlin à être disponible sur " +
+           "toutes les plateformes supportées par Kotlin.</p>" +
+           "<p>Fortement ancré dans la philosophie Open-Source, je suis dédié à la création d'outils et de librairies " +
+           "pour rendre la programmation plus facile, plus sûre et plus fun.</p>"+
+           "<p>Je suis aussi addict aux jeux de sociétés et au pilotage d'avions de tourisme.</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: 'salomonbrys',
+      gplus: null,
+      github: 'SalomonBrys',
+      website: 'http://kodein.net/fr/'
     }
 ];
 
