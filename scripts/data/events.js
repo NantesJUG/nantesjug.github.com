@@ -1,5 +1,39 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_06_20',
+        title: "S2-Geometry // Autonomous Microservices",
+        date: new Date(2018, 5, 20), //month begin at 0
+        time: '19h30',
+        register: null, // TODO AThimel
+        place: 'eartsup',
+        subjects: [{
+                title: "S2-Geometry",
+                length: '', // TODO AThimel
+                time: '19h30',
+                type: 'talk', // TODO AThimel
+                intro: null,
+                abstract: "<p></p>", // TODO AThimel
+                speakers: ['tugdual_grall']
+            },
+            {
+                title: "Autonomous Microservices",
+                length: '45min',
+                time: '20h00', // TODO AThimel
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Everybody loves Microservices, but is difficult it is to make it right. Distributed " +
+                          "systems are much more complex to develop and maintain, and over time, we even miss the " +
+                          "simplicity of old monoliths. In this talk, I propose a combination of Infrastructure, " +
+                          "architecture, and design principles to make your microservices bulletproof and easy to " +
+                          "maintain with a combination of high scalability, elasticity, fault tolerance, and resilience.</p>" +
+                          "<p>In this session we also show how to deploy a fast, elastic, highly scalable and " +
+                          "cloud-agnostic application with Kubernetes and Couchbase's Operator, which allow both " +
+                          "your application and database adaptable to any demand with zero effort.</p>",
+                speakers: ['denis_rosa']
+            }
+        ],
+        docs: []
+    },{
         id: '2018_05_23',
         title: "UX // Kotlin - Avancé",
         date: new Date(2018, 4, 23), //month begin at 0

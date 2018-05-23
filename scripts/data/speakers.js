@@ -1421,6 +1421,21 @@ var njSpeakers = [{
       gplus: null,
       github: 'SalomonBrys',
       website: 'http://kodein.net/fr/'
+    },
+    {
+      id: 'denis_rosa',
+      name: 'Denis Rosa',
+      bio: "<p>Speaker and Developer Advocate at Couchbase, he started programming even before the college and never " +
+           "stopped coding since then. He is Java Specialist and an enthusiast of online courses platforms and " +
+           "accumulates dozens of courses on it. In the last few years, Denis also has been researching about " +
+           "Microservices, NoSQL, Machine Learning and talking about all the new insights and trends he had " +
+           "discovered in his path.</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: 'deniswsrosa',
+      gplus: null,
+      github: 'deniswsrosa',
+      website: null
     }
 ];
 
