@@ -1,24 +1,25 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2018_06_20',
-        title: "S2-Geometry // Autonomous Microservices",
+        title: "S2 Geometry // Autonomous Microservices",
         date: new Date(2018, 5, 20), //month begin at 0
         time: '19h30',
         register: null, // TODO AThimel
         place: 'eartsup',
         subjects: [{
-                title: "S2-Geometry",
-                length: '', // TODO AThimel
+                title: "Introduction a S2 Geometry",
+                length: '30min',
                 time: '19h30',
-                type: 'talk', // TODO AThimel
-                intro: null,
-                abstract: "<p></p>", // TODO AThimel
+                type: 'quickie',
+                intro: 'Une solution simple pour vos besoins "géospatiaux"',
+                abstract: "<p>Durant ce quickie vous découvrirez la librairie S2 Geometry (http://s2geometry.io/) et " +
+                          "comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
                 speakers: ['tugdual_grall']
             },
             {
                 title: "Autonomous Microservices",
                 length: '45min',
-                time: '20h00', // TODO AThimel
+                time: '20h15',
                 type: 'talk',
                 intro: null,
                 abstract: "<p>Everybody loves Microservices, but is difficult it is to make it right. Distributed " +
