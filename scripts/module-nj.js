@@ -42,6 +42,9 @@ var nj = function () {
     getEvent: function (eventId) {
       return _.find(events, function(event){ return event.id === eventId; });
     },
+    escapeTime : function(time){
+      return time && time + (time.indexOf('h') == -1 ? 'h' : '');
+    },
     getEventPlaceUrl : function(event){
       return typeof event !== 'undefined' && typeof event.place !== 'undefined' && event.place !== null ? '/images/places/map-' + event.place.id + '.png' : null;
     },

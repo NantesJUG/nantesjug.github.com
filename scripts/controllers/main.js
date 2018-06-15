@@ -38,6 +38,7 @@ angular.module('nantesjugApp')
       $scope.eventDetailledView = eventDetailledView;
       $scope.eventToggleViewDisabled = true;
       $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
+      $scope.escapeTime = nj.escapeTime;
     })
     .controller('EventsCtrl', function ($scope) {
       $scope.today = nj.getToday();
@@ -45,6 +46,7 @@ angular.module('nantesjugApp')
       $scope.previousEvents = nj.getPreviousEvents().reverse();
       $scope.searchText = '';
       $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
+      $scope.escapeTime = nj.escapeTime;
 
       //Events detailled view
       var eventDetailledView = {};
@@ -65,6 +67,7 @@ angular.module('nantesjugApp')
       $scope.event = nj.getEvent($stateParams.eventId);
       $scope.today = nj.getToday();
       $scope.getEventPlaceUrl = nj.getEventPlaceUrl;
+      $scope.escapeTime = nj.escapeTime;
 
       var eventDetailledView = {};
       eventDetailledView[$scope.event.id] = true;

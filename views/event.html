@@ -30,7 +30,7 @@
 
       <div class="row">
         <div class="col-md-7 jug-short-description">
-          <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{event.old_time}}h</span> {{event.time}}h</h2>
+          <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{escapeTime(event.old_time)}}</span> {{escapeTime(event.time)}}</h2>
           <ng-include src="'views/templates/register.html'"></ng-include>
           <div class="jug-subject hidden-xs hidden-sm" ng-repeat="subject in event.subjects">
 

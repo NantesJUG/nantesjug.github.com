@@ -11,7 +11,7 @@
             <a ng-href="#/events/{{event.id}}">{{event.title}}</a>
           </h1>
           <h2 class="soiree_date">
-            Le {{event.date | date:'longDate'}} à {{event.time}}h à {{event.place.name}}
+            Le {{event.date | date:'longDate'}} à {{escapeTime(event.time)}} à {{event.place.name}}
           </h2>
           <div class="jug-subject hidden-xs hidden-sm" ng-repeat="subject in event.subjects">
 

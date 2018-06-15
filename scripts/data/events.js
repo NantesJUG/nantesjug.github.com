@@ -1,5 +1,41 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_06_20',
+        title: "S2 Geometry // Couchbase 101",
+        date: new Date(2018, 5, 20), //month begin at 0
+        time: '19h30',
+        register: 'http://meetu.ps/e/FqHTW/wWq2C/f',
+        place: 'eartsup',
+        subjects: [{
+                title: "Introduction a S2 Geometry",
+                length: '30min',
+                time: '19h30',
+                type: 'quickie',
+                intro: 'Une solution simple pour vos besoins "géospatiaux"',
+                abstract: "<p>Durant ce quickie vous découvrirez la librairie S2 Geometry (http://s2geometry.io/) et " +
+                          "comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
+                speakers: ['tugdual_grall']
+            },
+            {
+                title: "Couchbase 101 [EN]",
+                length: '45min',
+                time: '20h15',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Today's mission-critical applications demand support for millions of interactions with " +
+                          "end-users. Traditional databases were built for thousands.</p>" +
+                          "<p>Couchbase Server is an open source, distributed, NoSQL document-oriented database. It " +
+                          "exposes a fast key-value store with managed cache for sub-millisecond data operations, " +
+                          "purpose-built indexers for fast queries and a powerful query engine for executing SQL-like queries.</p>" +
+                          "<p>In this talk, we develop a small microservice using a very productive combination: " +
+                          "Couchbase, Spring Boot and Spring Data. We also will deploy both your application and " +
+                          "database on Kubernetes, to show how you can build truly elastic microservices.</p>" +
+                          "<p><u>Conférence en anglais</u></p>",
+                speakers: ['denis_rosa']
+            }
+        ],
+        docs: []
+    },{
         id: '2018_05_23',
         title: "UX // Kotlin - Avancé",
         date: new Date(2018, 4, 23), //month begin at 0
