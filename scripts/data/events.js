@@ -1,10 +1,10 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2018_06_20',
-        title: "S2 Geometry // Autonomous Microservices",
+        title: "S2 Geometry // Couchbase 101",
         date: new Date(2018, 5, 20), //month begin at 0
         time: '19h30',
-        register: null, // TODO AThimel
+        register: 'http://meetu.ps/e/FqHTW/wWq2C/f',
         place: 'eartsup',
         subjects: [{
                 title: "Introduction a S2 Geometry",
@@ -17,19 +17,20 @@ var njEvents = [{
                 speakers: ['tugdual_grall']
             },
             {
-                title: "Autonomous Microservices",
+                title: "Couchbase 101 [EN]",
                 length: '45min',
                 time: '20h15',
                 type: 'talk',
                 intro: null,
-                abstract: "<p>Everybody loves Microservices, but is difficult it is to make it right. Distributed " +
-                          "systems are much more complex to develop and maintain, and over time, we even miss the " +
-                          "simplicity of old monoliths. In this talk, I propose a combination of Infrastructure, " +
-                          "architecture, and design principles to make your microservices bulletproof and easy to " +
-                          "maintain with a combination of high scalability, elasticity, fault tolerance, and resilience.</p>" +
-                          "<p>In this session we also show how to deploy a fast, elastic, highly scalable and " +
-                          "cloud-agnostic application with Kubernetes and Couchbase's Operator, which allow both " +
-                          "your application and database adaptable to any demand with zero effort.</p>",
+                abstract: "<p>Today's mission-critical applications demand support for millions of interactions with " +
+                          "end-users. Traditional databases were built for thousands.</p>" +
+                          "<p>Couchbase Server is an open source, distributed, NoSQL document-oriented database. It " +
+                          "exposes a fast key-value store with managed cache for sub-millisecond data operations, " +
+                          "purpose-built indexers for fast queries and a powerful query engine for executing SQL-like queries.</p>" +
+                          "<p>In this talk, we develop a small microservice using a very productive combination: " +
+                          "Couchbase, Spring Boot and Spring Data. We also will deploy both your application and " +
+                          "database on Kubernetes, to show how you can build truly elastic microservices.</p>" +
+                          "<p><u>Conférence en anglais</u></p>",
                 speakers: ['denis_rosa']
             }
         ],
