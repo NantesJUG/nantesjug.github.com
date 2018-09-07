@@ -1,5 +1,43 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_09_25',
+        title: "Java 9, 10 et + par Jean-Michel Doudoux",
+        date: new Date(2018, 8, 25), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: 'terrasses_de_l_erdre',
+        intro: "<div style=\"color: #0074be\"><div class=\"row\">" +
+               "<div class=\"col-md-8\">" +
+               "<p>Si comme nous, vous avez commencé le java il y a plus de 10 ans, vos recherches web sur Java vous ont forcément amené sur les articles de Jean-Michel Doudoux.<p>" +
+               "<p>🎂 C'est donc pour les 10 ans du JUG que nous l'accueillons avec plaisir, pour nous parler des derniers changements de Java.</p>" +
+               "<p>Cette soirée exceptionnelle 🎊 sera suivi d'un cocktail dinatoire 🍸 🍣 au restaurant du parc des expositions, les Terrasses de l'Erdre.</p>" +
+               "<p>🎁 Il y aura des places pour DevFest à gagner ainsi d'autres suprises... 🎁</p>" +
+               "</div>" +
+               "<div class=\"col-md-4 col-xs-6\"><img src=\"/images/site/10_ans.png\" width=\"100%\"></div>" +
+               "</div></div>",
+        /*
+        Afin de profiter du cadre exceptionnel
+du Parc des Expositions de Nantes,
+votre cocktail se déroulera aux
+Terrasses de l’Erdre, nouveau
+restaurant du Parc qui offre une vue
+splendide sur les bords de l’Erdre.
+*/
+        subjects: [{
+                title: "Java, le changement c'est maintenant (... enfin depuis un an déjà)",
+                length: '1h30min',
+                time: '19h00',
+                type: 'talk',
+                intro: null,
+                abstract: "<p>Ce n'est pas qu'un slogan politique mais bien la réalité pour Java depuis l'année écoulée.</p>" +
+                          "<p>A tel point que plusieurs caractéristiques historiques de Java sont partiellement remises en cause notamment la lenteur patente entre deux releases, l'embonpoint endémique du JRE/JDK, la gratuité, et même la sacro sainte rétro-compatibilité, ...</p>" +
+                          "<p>Faisons un tour de ces évolutions qui sont parfois de profonds changements avant de fêter le 10ème anniversaire du Nantes JUG. " +
+                          "Comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
+                speakers: ['jmdoudoux']
+            }
+        ],
+        docs: []
+      },{
         id: '2018_06_20',
         title: "S2 Geometry // Couchbase 101",
         date: new Date(2018, 5, 20), //month begin at 0

@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'terrasses_de_l_erdre',
+    name: "Terrasses de l'Erdre",
+    address: "Parc des expositions Porte n°4 - Route de Saint Joseph de Porterie",
+    city: "44300 Nantes",
+    maps: 'https://goo.gl/maps/pK3wYdcntMB2',
+    capacity: 100
+  },
+  {
     id: 'lucca',
     name: 'Lucca',
     address: '1 Rue Michel Columb',

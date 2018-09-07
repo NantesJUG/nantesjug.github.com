@@ -3,7 +3,20 @@
 //
 
 /*jshint unused: false */
-var njSpeakers = [{
+var njSpeakers = [
+    {
+        id: 'jmdoudoux',
+        name: 'Jean-Michel Doudoux',
+        bio: "<p>Passionné par le développement de logiciels et par la veille technologique, je possède une longue expérience, en SSII/ESN et personnelle, dans l'écriture d'applications avec différents langages. Je suis actuellement le CTO d’Oxiane Luxembourg et du groupe Oxiane.</p>" +
+             "<p> Utilisant Java depuis sa version 1.0, j'aime partager ma passion pour cette plateforme et son écosystème notamment en me consacrant, depuis presque vingt années, à la rédaction de deux tutoriels, intitulés \"Développons en Java\", diffusés sous licence GNU FDL. Ce travail m'a permis d'être nommé Java Champion. Je suis également un des cofondateurs du Lorraine JUG.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'jmdoudoux',
+        gplus: null,
+        github: null,
+        website: 'www.jmdoudoux.fr',
+        email: 'jmdoudoux@oxiane.lu'
+    }, {
         id: 'francois_desmier',
         name: 'François Desmier',
         bio: "<p>Maker chez MaifX, l'accélérateur technologique de la MAIF. Passionné par les nouveaux enjeux soulevés par l'arrivée à maturité d'internet et concerné par les aspects self-data et privacy ethic, j'explore les nouveaux territoires (blockchain, P2P) pour y défricher les nouveaux sentiers business et faire le lien avec nos directions métier.</p>",
