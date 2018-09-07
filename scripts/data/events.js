@@ -4,7 +4,7 @@ var njEvents = [{
         title: "Java 9, 10 et + par Jean-Michel Doudoux",
         date: new Date(2018, 8, 25), //month begin at 0
         time: '19h00',
-        register: null,
+        register: 'http://meetu.ps/e/FNyYs/4xjVv/f',
         place: 'terrasses_de_l_erdre',
         intro: "<div style=\"color: #0074be\"><div class=\"row\">" +
                "<div class=\"col-md-8\">" +
