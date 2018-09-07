@@ -1,0 +1,13 @@
+<div class="jug-event-location-address">
+  <a ng-href="{{event.place.maps}}" target="_blank">
+    <img src="/images/location.png" alt="Lieu">
+    <address ng-if="event.place">
+      <strong>{{event.place.name}}</strong> <br/>
+      {{event.place.address}}
+      {{event.place.city}}
+    </address>
+    <address class="jug-event-missing" ng-if="!event.place">
+      <strong>Lieu à confirmer</strong>
+    </address>
+  </a>
+</div>

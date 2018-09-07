@@ -27,88 +27,62 @@
       <div>
         <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
       </div>
+      <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{escapeTime(event.old_time)}}</span> {{escapeTime(event.time)}}</h2>
+      <ng-include src="'views/templates/register.html'"></ng-include>
+      <div class="jug-event-intro" ng-if="event.intro" ng-bind-html-unsafe="event.intro"></div>
 
       <div class="row">
+        <div class="col-md-12 hidden-md hidden-lg jug-event-location">
+          <ng-include src="'views/templates/address.html'"></ng-include>
+        </div>
+
         <div class="col-md-7 jug-short-description">
-          <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{escapeTime(event.old_time)}}</span> {{escapeTime(event.time)}}</h2>
-          <ng-include src="'views/templates/register.html'"></ng-include>
-          <div class="jug-subject hidden-xs hidden-sm" ng-repeat="subject in event.subjects">
+          <div class="jug-subject" ng-repeat="subject in event.subjects">
+            <p>
+              <strong><span class="ng-hide" ng-show="subject.time">{{subject.time}} &mdash; </span>{{subject.title}}</strong>
+            </p>
 
-            <div class="col-md-2 col-lg-2">
-              <span class="label label-talk-type">{{subject.type}}</span>
-            </div>
+            <p>
+              <span class="label label-talk-type">{{subject.type}}
+              </span>
+              <span class="talk-length" ng-show="subject.length">
+                {{subject.length}}
+              </span>
+            </p>
 
-            <div class="col-md-10 col-lg-10">
-              <p>
-                <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
-                <strong>{{subject.title}}</strong> <span ng-bind-html-unsafe="subject.intro"></span>
-              </p>
+            <p ng-if="subject.abstract" ng-bind-html-unsafe="subject.abstract"></p>
 
-              <p ng-show="subject.length">
-                Durée : {{subject.length}}
-              </p>
+            <p ng-if="subject.speakers">
+              Speakers :
+              <span ng-repeat="speaker in subject.speakers">
+                <span ng-if="$index != 0"> - </span>
+                <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
+              </span>
+            </p>
 
-              <p ng-if="subject.speakers">
-                Speakers :
-                <span ng-repeat="speaker in subject.speakers">
-                  <span ng-if="$index != 0"> - </span>
-                  <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
-                </span>
-              </p>
-            </div>
+            <!-- DOCS -->
+            <p ng-if="subject.docs">
+              <span ng-repeat="doc in subject.docs">
+                <span ng-if="$index != 0"> - </span>
+                <a ng-href="{{doc.url}}" title="{{doc.name}}" target="_blank">
+                  <span ng-class="'doc-' + doc.type" class="doc" data-toggle="tooltip" title="{{doc.name}}"></span>
+                  {{doc.name}}
+                </a>
+              </span>
+            </p>
 
           </div>
         </div>
 
-        <div class="col-md-5 jug-event-location">
-          <div class="jug-event-location-address">
-            <a ng-href="{{event.place.maps}}" target="_blank">
-              <img src="/images/location.png" alt="Lieu">
-              <address ng-if="event.place">
-                <strong>{{event.place.name}}</strong> <br/>
-                {{event.place.address}}
-                {{event.place.city}}
-              </address>
-              <address class="jug-event-missing" ng-if="!event.place">
-                <strong>Lieu à confirmer</strong>
-              </address>
-            </a>
-          </div>
-          <div class="hidden-xs hidden-sm">
+        <div class="col-md-5 hidden-xs hidden-sm jug-event-location">
+          <ng-include src="'views/templates/address.html'"></ng-include>
+          <div>
             <a ng-href="{{event.place.maps}}" ng-if="event.place" target="_blank">
               <img ng-src="{{getEventPlaceUrl(event)}}" alt="{{event.place.name}}" class="img-polaroid img-responsive"/>
             </a>
           </div>
         </div>
 
-      </div>
-
-      <div class="row">
-        <!-- SUBJECT-->
-        <div ng-repeat="subject in event.subjects" class="col-xs-12 jug-event-detail">
-          <p>
-              <span class="label label-default label-time ng-hide" ng-show="subject.time">{{subject.time}}</span>
-              <strong>{{subject.title}}</strong>
-          </p>
-          <p ng-if="subject.abstract" ng-bind-html-unsafe="subject.abstract"></p>
-          <p ng-if="subject.speakers">
-            Speakers :
-                <span ng-repeat="speaker in subject.speakers">
-                  <span ng-if="$index != 0"> - </span>
-                  <a ng-href="#/speakers/{{speaker.id}}">{{speaker.name}}</a>
-                </span>
-          </p>
-          <!-- DOCS -->
-          <p ng-if="subject.docs">
-            <span ng-repeat="doc in subject.docs">
-              <span ng-if="$index != 0"> - </span>
-              <a ng-href="{{doc.url}}" title="{{doc.name}}" target="_blank">
-                <span ng-class="'doc-' + doc.type" class="doc" data-toggle="tooltip" title="{{doc.name}}"></span>
-                {{doc.name}}
-              </a>
-            </span>
-          </p>
-        </div>
       </div>
 
       <!-- DOCS -->

@@ -423,15 +423,19 @@ fieldset[disabled] .btn-jug.active {
 }
 .label-talk-type {
     display: inline-block;
-    font-size: 100%;
-    width: 70px;
+    width: 60px;
+    top: -2px;
+    margin-right: 5px;
+    position: relative;
     background-color: #c0c0c0;
 }
 .label-talk-type[href]:hover,
 .label-talk-type[href]:focus {
     background-color: #c0c0c0;
 }
-
+.talk-length {
+  color: #888;
+}
 .label-time {
     top: -2px;
     position: relative;
@@ -726,6 +730,15 @@ footer {
 .jug-event-subject span.label, .jug-speaker-subjects span.label{
   margin-right: 15px;
 }
+.jug-event-intro {
+  color: #0074be;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ededed;
+  padding: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
 .jug-speaker-subjects ul {
   margin-left: 0;
   padding-left: 20px;
@@ -744,10 +757,6 @@ footer {
   width: 40px;
   margin-right: 20px;
 }
-.jug-event-location-address address {
-  margin-top: 7px
-}
-
 .jug-event-location-address address:after {
   clear: both;
 }
@@ -761,6 +770,9 @@ footer {
 
 .jug-event-doc {
   margin-bottom: 20px;
+}
+.jug-subject {
+  margin-bottom: 40px;
 }
 .jug-speakers > div {
   margin-bottom: 20px;
