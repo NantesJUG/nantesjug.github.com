@@ -3,7 +3,7 @@ var njEvents = [{
         id: '2018_09_25',
         title: "Java 9, 10 et + par Jean-Michel Doudoux",
         date: new Date(2018, 8, 25), //month begin at 0
-        time: '19h00',
+        time: '19h30',
         register: 'http://meetu.ps/e/FNyYs/4xjVv/f',
         place: 'terrasses_de_l_erdre',
         intro: "<div style=\"color: #0074be\"><div class=\"row\">" +
@@ -26,7 +26,7 @@ splendide sur les bords de l’Erdre.
         subjects: [{
                 title: "Java, le changement c'est maintenant (... enfin depuis un an déjà)",
                 length: '1h30min',
-                time: '19h00',
+                time: '19h30',
                 type: 'talk',
                 intro: null,
                 abstract: "<p>Ce n'est pas qu'un slogan politique mais bien la réalité pour Java depuis l'année écoulée.</p>" +
