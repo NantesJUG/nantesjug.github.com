@@ -2,7 +2,7 @@ Développement
 -------------
 
 Lancement du serveur :
-	node scripts/web-server.js
+	./server.sh
 
 Aller sur la page :
 	localhost:8000/index.html
