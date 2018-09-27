@@ -1,5 +1,22 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2018_10_09',
+        title: "Au delà des brokers: un tour de l'environnement Kafka",
+        date: new Date(2018, 9, 9), //month begin at 0
+        time: '19h00',
+        register: http://meetu.ps/e/FT1P3/tBvy3/f',
+        place: 'eartsup',
+        subjects: [{
+                title: "Au delà des brokers: un tour de l'environnement Kafka",
+                length: '2h',
+                time: '19h00',
+                type: 'talk',
+                abstract: "<p>Apache Kafka ne se résume pas aux brokers, il y a tout un écosystème open-source qui gravite autour. Je vous propose ainsi de découvrir les principaux composants comme Kafka Streams, KSQL, Kafka Connect, Rest proxy, Schema Registry, MirrorMaker, etc.</p><p>Venez avec vos questions, plus la session sera interactive, meilleure elle sera !</p>",
+                speakers: ['Florent Ramière']
+            }
+        ],
+        docs: []
+    }, {
         id: '2018_09_25',
         title: "Java 9, 10 et + par Jean-Michel Doudoux",
         date: new Date(2018, 8, 25), //month begin at 0
