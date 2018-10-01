@@ -1,19 +1,29 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2018_10_09',
-        title: "Au delà des brokers: un tour de l'environnement Kafka",
+        title: "LinuxKit // Kafka",
         date: new Date(2018, 9, 9), //month begin at 0
         time: '19h00',
         register: 'http://meetu.ps/e/FT1P3/tBvy3/f',
         place: 'eartsup',
         subjects: [{
-                title: "Au delà des brokers: un tour de l'environnement Kafka",
-                length: '2h',
+                title: "LinuxKit",
+                length: '30min',
                 time: '19h00',
+                intro: null,
+                type: 'quickie',
+                abstract: "<p>Cela fait des années que certaines distributions linux permettent de construire son linux “from scratch” mais cela restait une opération compliquée et périlleuse. LinuxKit propose la même chose mais avec une approche beaucoup plus moderne et outillée. Cela devient presque aussi facile que de monter un meuble ikea ! (avec une notice quand même)</p>" +
+                  "<p>Le projet LinuxKit, créé par Docker Inc., a été pensé pour créer un OS aussi minimaliste et maintenable que possible (sans compromis avec la sécurité) et y déployer des conteneurs.</p>" +
+                  "<p>Nous allons vous présenter la genèse et les concepts du projet, l’écosystème des outils complémentaires qui vous permettront de composer et construire votre distribution. Puis, nous créerons notre première distribution en live !</p>",
+                speakers: ['eric_briand', 'pierre-yves_aillet']
+            }, {
+                title: "Au delà des brokers: un tour de l'environnement Kafka",
+                length: '1h',
+                time: '19h30',
                 intro: null,
                 type: 'talk',
                 abstract: "<p>Apache Kafka ne se résume pas aux brokers, il y a tout un écosystème open-source qui gravite autour. Je vous propose ainsi de découvrir les principaux composants comme Kafka Streams, KSQL, Kafka Connect, Rest proxy, Schema Registry, MirrorMaker, etc.</p><p>Venez avec vos questions, plus la session sera interactive, meilleure elle sera !</p>",
-                speakers: ['framiere']
+                speakers: ['florent_ramiere']
             }
         ],
         docs: []
@@ -33,14 +43,6 @@ var njEvents = [{
                "</div>" +
                "<div class=\"col-md-4 col-xs-6\"><img src=\"/images/site/10_ans.png\" width=\"100%\"></div>" +
                "</div></div>",
-        /*
-        Afin de profiter du cadre exceptionnel
-du Parc des Expositions de Nantes,
-votre cocktail se déroulera aux
-Terrasses de l’Erdre, nouveau
-restaurant du Parc qui offre une vue
-splendide sur les bords de l’Erdre.
-*/
         subjects: [{
                 title: "Java, le changement c'est maintenant (... enfin depuis un an déjà)",
                 length: '1h30min',
