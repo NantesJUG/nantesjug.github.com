@@ -2,10 +2,11 @@
 
 //DRAW
 
-DepartureBoard.LETTERS = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,\':()&!?+-€';
+DepartureBoard.LETTERS = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,\':()&!?+-€ÉÈÊ';
 
 var boardWhatTemplate = '<div class="row board board-what"><div class="col-xs-3">Lot :</div><div class="board-value col-xs-9"></div></div>';
 var boardWhoTemplate = '<div class="row board board-who"><div class="col-xs-3">Gagnant :</div><div class="board-value col-xs-9"></div></div>';
+
 
 var lastBoardWhat = null;
 var lastBoardWho = null;
