@@ -1,5 +1,83 @@
 /*jshint unused: false */
 var njEvents = [{
+        id: '2019_01_15',
+        title: "One-man show par Frédéric Leguédois",
+        date: new Date(2019, 0, 15), //month begin at 0
+        time: '19h00',
+        register: 'http://meetu.ps/e/FTJwH/4xjVv/f',
+        place: 'eartsup',
+        subjects: [{
+                title: "Quickie",
+                length: '30min',
+                time: '19h00',
+                intro: null,
+                type: 'quickie',
+                abstract: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
+                speakers: []
+            }, {
+                title: "One-man show [ sujet à définir ]",
+                length: '1h',
+                time: '19h30',
+                intro: null,
+                type: 'talk',
+                abstract: "<p></p>",
+                speakers: ['frederic_leguedois']
+            }
+        ],
+        docs: []
+    }, {
+        id: '2018_12_13',
+        title: "Dev & UI // CQRS & EventSourcing",
+        date: new Date(2018, 11, 13), //month begin at 0
+        time: '19h00',
+        register: 'http://meetu.ps/e/FTJtQ/4xjVv/f',
+        place: 'eartsup',
+        subjects: [{
+                title: "Dev & UI",
+                length: '45min',
+                time: '19h00',
+                intro: null,
+                type: 'talk',
+                abstract: "<p></p>",
+                speakers: ['loic_maze', 'lydie_dareau']
+            }, {
+                title: "Implémentation de CQRS et EventSourcing avec le framework Axon ",
+                length: '45min',
+                time: '19h45',
+                intro: null,
+                type: 'talk',
+                abstract: "<p></p>",
+                speakers: ['sylvain_maillard']
+            }
+        ],
+        docs: []
+    }, {
+        id: '2018_11_20',
+        title: "Google Container Tools",
+        date: new Date(2018, 10, 20), //month begin at 0
+        time: '19h00',
+        register: 'http://meetu.ps/e/FTJs9/4xjVv/f',
+        place: 'eartsup',
+        subjects: [{
+                title: "Quickie",
+                length: '30min',
+                time: '19h00',
+                intro: null,
+                type: 'quickie',
+                abstract: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
+                speakers: []
+            }, {
+                title: "Google Container Tools : développer efficacement dans un monde de conteneurs",
+                length: '1h',
+                time: '19h30',
+                intro: null,
+                type: 'talk',
+                abstract: "<p></p>",
+                speakers: ['david_gageot']
+            }
+        ],
+        docs: []
+    }, {
         id: '2018_10_09',
         title: "LinuxKit // Kafka",
         date: new Date(2018, 9, 9), //month begin at 0

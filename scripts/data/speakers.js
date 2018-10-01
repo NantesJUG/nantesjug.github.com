@@ -5,6 +5,50 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+      id: 'frederic_leguedois',
+      name: 'Frédéric Leguédois',
+      bio: '',
+      gravatar: null,
+      photo: null,
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: 'http://leguedois.fr',
+      email: null
+    }, {
+      id: 'sylvain_maillard',
+      name: 'Sylvain Maillard',
+      bio: '',
+      gravatar: null,
+      photo: null,
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: null,
+      email: null
+    }, {
+      id: 'loic_maze',
+      name: 'Loïc Mazé',
+      bio: '',
+      gravatar: null,
+      photo: null,
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: null,
+      email: null
+    }, {
+      id: 'lydie_dareau',
+      name: 'Lydie Dareau',
+      bio: '',
+      gravatar: null,
+      photo: null,
+      twitter: null,
+      gplus: null,
+      github: null,
+      website: null,
+      email: null
+    }, {
       id: 'pierre-yves_aillet',
       name: 'Pierre-Yves Aillet',
       bio: "<p>Pierre-Yves est passionné d’informatique. Il développe depuis 15 ans sur des langages variées allant de PHP à Java en passant par Javascript. Son IHM de prédilection est la ligne de commande. Il intervient sur des missions d’audit, d’expertise technique ou d’accompagnement pour la mise en place d’outils et d’une démarche DevOps.</p>",
