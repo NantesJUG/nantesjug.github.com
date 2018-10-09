@@ -53,19 +53,19 @@ var njEvents = [{
         docs: []
     }, {
         id: '2018_11_20',
-        title: "Google Container Tools",
+        title: "MQTT/Mosquitto/Paho // Google Container Tools",
         date: new Date(2018, 10, 20), //month begin at 0
         time: '19h00',
         register: 'http://meetu.ps/e/FTJs9/4xjVv/f',
         place: 'eartsup',
         subjects: [{
-                title: "Quickie",
+                title: "MQTT / Mosquitto / Paho",
                 length: '30min',
                 time: '19h00',
                 intro: null,
                 type: 'quickie',
-                abstract: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
-                speakers: []
+                abstract: "<p></p>",
+                speakers: ['laurent_guerin']
             }, {
                 title: "Google Container Tools : développer efficacement dans un monde de conteneurs",
                 length: '1h',
