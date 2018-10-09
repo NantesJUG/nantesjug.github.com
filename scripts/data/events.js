@@ -53,18 +53,19 @@ var njEvents = [{
         docs: []
     }, {
         id: '2018_11_20',
-        title: "MQTT/Mosquitto/Paho // Google Container Tools",
+        title: "MQTT, Mosquitto et Paho // Google Container Tools",
         date: new Date(2018, 10, 20), //month begin at 0
         time: '19h00',
         register: 'http://meetu.ps/e/FTJs9/4xjVv/f',
         place: 'eartsup',
         subjects: [{
-                title: "MQTT / Mosquitto / Paho",
+                title: "Machine to machine : jouons un peu avec MQTT, Mosquitto et Paho",
                 length: '30min',
                 time: '19h00',
                 intro: null,
                 type: 'quickie',
-                abstract: "<p></p>",
+                abstract: "<p>MQTT est un protocole léger basé sur le pattern « Publish/Subscribe » qui s’est imposé pour les échanges M2M et donc l’IoT. Simple et facile à appréhender il peut être utilisé pour des cas d’usage très variés aussi bien avec un Raspberry Pi qu’un serveur Linux ou dans le cloud.</p>" +
+                  "<p>Ce quickie vous permettra de découvrir les principes de base du protocole MQTT, avec des démos utilisant le brocker « Mosquitto » et bien sûr un peu de code Java avec la librairie « Paho ».</p>",
                 speakers: ['laurent_guerin']
             }, {
                 title: "Google Container Tools : développer efficacement dans un monde de conteneurs",
@@ -72,7 +73,8 @@ var njEvents = [{
                 time: '19h30',
                 intro: null,
                 type: 'talk',
-                abstract: "<p></p>",
+                abstract: "<p>Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable.</p>" +
+                  "<p>Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.</p>",
                 speakers: ['david_gageot']
             }
         ],
