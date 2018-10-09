@@ -737,9 +737,8 @@ var njSpeakers = [
     {
         id: 'david_gageot',
         name: 'David Gageot',
-        bio: '<p>David Gageot est consultant indépendant. Sa passion ? L’écriture de logiciels pointus mais simples. Il a pour leitmotiv d’être un facilitateur qui, par sa créativité et son expertise, aide les équipes à être plus innovantes et plus efficaces.David participe à des projets Java depuis 1998, comme responsable R&D chez l’éditeur Adesoft puis, comme expert Java et Scrum Master certifié chez Valtech et CTO chez Algodeal, un fond d’investissement quantitatif.</p>' +
-            '<p>Depuis 2010, David a pris le leadership sur le projet open-source Infinitest. Un plugin pour Eclipse et IntelliJ qui permet, après chaque changement de code, de jouer les tests unitaires potentiellement impactés. Infinitest est l’outil rêvé pour les adeptes du TDD car il réduit les cycles de feedback.</p>' +
-            '<p>David tient un blog <a href="http://blog.javabien.net/" target="_blank">JavaBien!</a> depuis 2004.</p>',
+        bio: "<p>David is a Developer Advocate at Google Cloud. He's working on Containers Tools.</p>" +
+            "<p>Previously, he helped open the R&D office of Docker in Paris</p>",
         gravatar: 'dgageot@gmail.com',
         photo: null,
         twitter: 'dgageot',
