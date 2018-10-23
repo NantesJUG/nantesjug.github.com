@@ -58,6 +58,9 @@ var njEvents = [{
         time: '19h00',
         register: 'http://meetu.ps/e/FTJs9/4xjVv/f',
         place: 'eartsup',
+        intro: "<div style=\"color: #0074be\">" +
+               "<p>Cette soirée est co-organisée avec le meetup <a href=\"https://www.meetup.com/fr-FR/Docker-Nantes/\" target=\"_blank\">Docker Nantes</a>. Les inscriptions se font uniquement ici, sur le meetup du Nantes JUG.</p>" +
+               "</div>",
         subjects: [{
                 title: "Machine to machine : jouons un peu avec MQTT, Mosquitto et Paho",
                 length: '30min',

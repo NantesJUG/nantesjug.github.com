@@ -738,7 +738,7 @@ var njSpeakers = [
         id: 'david_gageot',
         name: 'David Gageot',
         bio: "<p>David is a Developer Advocate at Google Cloud. He's working on Containers Tools.</p>" +
-            "<p>Previously, he helped open the R&D office of Docker in Paris</p>",
+             "<p>Previously, he helped open the R&D office of Docker in Paris</p>",
         gravatar: 'dgageot@gmail.com',
         photo: null,
         twitter: 'dgageot',
