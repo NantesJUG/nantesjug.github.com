@@ -33,20 +33,38 @@ var njEvents = [{
         register: 'http://meetu.ps/e/FTJtQ/4xjVv/f',
         place: 'eartsup',
         subjects: [{
-                title: "Dev & UI",
+                title: "Dev & UI : main dans la main avec le DesignOps",
                 length: '45min',
                 time: '19h00',
                 intro: null,
                 type: 'talk',
-                abstract: "<p></p>",
+                abstract: "<p>Il était une fois, dans une société nommée OUI.sncf, un développeur et une UI designer qui passaient leur temps à se chamailler. Le premier rêvait de spécifications responsives et de composants réutilisables par toutes les équipes. La seconde aspirait à ce que ses maquettes soient traitées avec respect et qu’une cohérence graphique soit enfin obtenue sur son site préféré. Ont-ils pu mettre leurs différents de côté pour aller au bout de leur ambition ? Vous le saurez en écoutant leur histoire...</p>" +
+
+                              "<P>Notre présentation en duo DEV + UI se compose de 2 parties :" +
+                              "<ul>" +
+                              "<li>Une 1ère partie sous forme de quatre sketchs courts :" +
+                              "<ul><li> La 1ère partie d’un sketch a pour but de reprendre des cas risibles vécu que tous les développeurs et designeurs peuvent rencontrer lorsqu’ils travaillent ensemble.</li>" +
+                              "<li> La 2nd partie de chaque sketch reprend la même situation avec cette fois-ci les changements nécessaires pour que les DEV et les UI puissent vivre en symbiose.</li></ul>" +
+                              "</li>" +
+
+                              "<li>Une 2nd partie sous forme de slides et de démonstrations :" +
+                              "<ul><li> Les problématiques abordées lors de chaque sketch sont reprises pour montrer de manière concrète les solutions que nous avons éprouvées pour tenter de les résoudre.</li></ul>"+
+                              "</li>" +
+                              "</ul>" +
+
+                              "<p>L’objectif de notre présentation est de faire prendre conscience qu’il existe beaucoup de problèmes dans les relations quotidiennes entre les Dev et les UI (qui ressortent d’avantage dans une grosse société) et qu’il est possible d’améliorer la situation via plusieurs leviers concrets.</p>",
                 speakers: ['loic_maze', 'lydie_dareau']
             }, {
                 title: "Implémentation de CQRS et EventSourcing avec le framework Axon ",
                 length: '45min',
-                time: '19h45',
+                time: '20h00',
                 intro: null,
                 type: 'talk',
-                abstract: "<p></p>",
+                abstract: "<p>Je m'intéresse depuis un moment à l'event sourcing, pour l'avoir utilisé sur deux applications, ce n'est pas si simple et on a tendance à laisser tomber le pattern en cours de route. Du coup, lorsque nous avons du mener la refonte d'une application interne à Oui.sncf basée sur l'event sourcing, nous avons utilisé le framework Axon qui a géré toute la plomberie pour nous.</p>" +
+
+                              "<p>Je pense que l'intérêt de ce framework est de gérer des problématiques complexes de concurrence, lock, etc, et de laisser le dev s'occuper de l'aspect métier.</p>" +
+
+                              "<p>J'ai préparé une session de livecoding pour présenter rapidement les concepts eventsourcing et CQRS, et pour voir la mise en œuvre sur un usecase classique.</p>",
                 speakers: ['sylvain_maillard']
             }
         ],
