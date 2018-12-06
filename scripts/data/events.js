@@ -10,7 +10,7 @@ var njEvents = [{
                 title: "Quickie",
                 length: '30min',
                 time: '19h00',
-                intro: null,
+                intro: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
                 type: 'quickie',
                 abstract: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
                 speakers: []
@@ -18,9 +18,17 @@ var njEvents = [{
                 title: "One-man show [ sujet à définir ]",
                 length: '1h',
                 time: '19h30',
-                intro: null,
+                intro: "<p>Votez pour le sujet qui vous intéresse : <a href='https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote' target='_blank'>https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote</a></p>",
                 type: 'talk',
-                abstract: "<p></p>",
+                abstract: "<p>Le sujet est à choisir parmi les 3 propositions suivantes : "+
+                              "<ul>" +
+                              "<li>« <a href='http://www.leguedois.fr/cessons-les-estimations/' target='_blank'>Cessons les estimations !</a> » </li>" +
+                              "<li>« <a href='http://www.leguedois.fr/comment-planter-son-projet-sans-se-faire-choper/' target='_blank'>Comment planter son projet sans se faire choper ?</a> » </li>" +
+                              "<li>« <a href='http://www.leguedois.fr/qui-a-vole-orange/' target='_blank'>Qui a volé l’orange ?</a> » </li>" +
+                              "</ul>" +
+
+                              "<p>Pour voter, c'est par ici que ça se passe : "+
+                              " <a href='https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote' target='_blank'>https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote</a></p>",
                 speakers: ['frederic_leguedois']
             }
         ],
