@@ -45,21 +45,7 @@ var njEvents = [{
                 time: '19h00',
                 intro: null,
                 type: 'talk',
-                abstract: "<p>Il était une fois, dans une société nommée OUI.sncf, un développeur et une UI designer qui passaient leur temps à se chamailler. Le premier rêvait de spécifications responsives et de composants réutilisables par toutes les équipes. La seconde aspirait à ce que ses maquettes soient traitées avec respect et qu’une cohérence graphique soit enfin obtenue sur son site préféré. Ont-ils pu mettre leurs différents de côté pour aller au bout de leur ambition ? Vous le saurez en écoutant leur histoire...</p>" +
-
-                              "<P>Notre présentation en duo DEV + UI se compose de 2 parties :" +
-                              "<ul>" +
-                              "<li>Une 1ère partie sous forme de quatre sketchs courts :" +
-                              "<ul><li> La 1ère partie d’un sketch a pour but de reprendre des cas risibles vécu que tous les développeurs et designeurs peuvent rencontrer lorsqu’ils travaillent ensemble.</li>" +
-                              "<li> La 2nd partie de chaque sketch reprend la même situation avec cette fois-ci les changements nécessaires pour que les DEV et les UI puissent vivre en symbiose.</li></ul>" +
-                              "</li>" +
-
-                              "<li>Une 2nd partie sous forme de slides et de démonstrations :" +
-                              "<ul><li> Les problématiques abordées lors de chaque sketch sont reprises pour montrer de manière concrète les solutions que nous avons éprouvées pour tenter de les résoudre.</li></ul>"+
-                              "</li>" +
-                              "</ul>" +
-
-                              "<p>L’objectif de notre présentation est de faire prendre conscience qu’il existe beaucoup de problèmes dans les relations quotidiennes entre les Dev et les UI (qui ressortent d’avantage dans une grosse société) et qu’il est possible d’améliorer la situation via plusieurs leviers concrets.</p>",
+                abstract: "<p>Il était une fois, dans une société nommée OUI.sncf, un développeur et une UI designer qui passaient leur temps à se chamailler. Le premier rêvait de spécifications responsives et de composants réutilisables par toutes les équipes. La seconde aspirait à ce que ses maquettes soient traitées avec respect et qu’une cohérence graphique soit enfin obtenue sur son site préféré. Ont-ils pu mettre leurs différents de côté pour aller au bout de leur ambition ? Vous le saurez en écoutant leur histoire...</p>",
                 speakers: ['loic_maze', 'lydie_dareau']
             }, {
                 title: "Implémentation de CQRS et EventSourcing avec le framework Axon ",

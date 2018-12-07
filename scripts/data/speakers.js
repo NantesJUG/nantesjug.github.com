@@ -15,29 +15,29 @@ var njSpeakers = [
       github: null,
       website: 'http://leguedois.fr',
       email: null
-    }, {
+  }, {
       id: 'loic_maze',
-      name: 'Loïc Mazé',
-      bio: '',
+      name: 'Loïc Maze',
+      bio: "<p>Lead développeur front chez Oui.Sncf, il rêve un jour de comprendre ce qui peut se passer dans la tête d’un designeur.</p>",
       gravatar: null,
       photo: null,
       twitter: null,
       gplus: null,
       github: null,
       website: null,
-      email: null
-    }, {
+      email: 'lmaze@oui.sncf'
+  }, {
       id: 'lydie_dareau',
       name: 'Lydie Dareau',
-      bio: '',
+      bio: "<p>Lead designeur chez Oui.Sncf, elle rêve un jour que les développeurs acceptent de mettre des chatons sur la homepage du site.</p>",
       gravatar: null,
       photo: null,
       twitter: null,
       gplus: null,
       github: null,
       website: null,
-      email: null
-    }, {
+      email: 'ldareau@oui.sncf'
+  }, {
       id: 'pierre-yves_aillet',
       name: 'Pierre-Yves Aillet',
       bio: "<p>Pierre-Yves est passionné d’informatique. Il développe depuis 15 ans sur des langages variées allant de PHP à Java en passant par Javascript. Son IHM de prédilection est la ligne de commande. Il intervient sur des missions d’audit, d’expertise technique ou d’accompagnement pour la mise en place d’outils et d’une démarche DevOps.</p>",
