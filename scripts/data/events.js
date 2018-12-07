@@ -7,13 +7,12 @@ var njEvents = [{
         register: 'http://meetu.ps/e/FTJwH/4xjVv/f',
         place: 'eartsup',
         subjects: [{
-                title: "Quickie",
-                length: '30min',
+                title: 'Comment nous avons gagné notre argent de poche grâce à Minecraft',
                 time: '19h00',
-                intro: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
+                length:'15 min',
                 type: 'quickie',
-                abstract: "<p>Pourquoi pas vous ? <a href=\"https://cfp.nantesjug.org\">cfp.nantesjug.org</a></p>",
-                speakers: []
+                abstract: '<p>Description de notre parcours qui nous a mené de simples joueurs à administrateur d\'un serveur Minecraft comptant plusieurs milliers d\'utilisateurs nous faisant ainsi notre argent de poche</p>',
+                speakers: ['corentin_grall', 'malo_grall']
             }, {
                 title: "One-man show [ sujet à définir ]",
                 length: '1h',

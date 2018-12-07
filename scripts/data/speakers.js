@@ -16,17 +16,6 @@ var njSpeakers = [
       website: 'http://leguedois.fr',
       email: null
     }, {
-      id: 'sylvain_maillard',
-      name: 'Sylvain Maillard',
-      bio: '',
-      gravatar: null,
-      photo: null,
-      twitter: null,
-      gplus: null,
-      github: null,
-      website: null,
-      email: null
-    }, {
       id: 'loic_maze',
       name: 'Loïc Mazé',
       bio: '',
@@ -1514,6 +1503,43 @@ var njSpeakers = [
       gplus: null,
       github: 'deniswsrosa',
       website: null
+    },
+    {
+      id: 'corentin_grall',
+      name: 'Corentin Grall',
+      bio: "<p>Etudiant et passionné d'informatique, avec mon frère <a href=\"#/speakers/malo_grall\">Malo</a> nous nous intéressons aux mêmes choses et avons appris ensemble</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: 'grallcorentin',
+      gplus: null,
+      github: 'grallc',
+      website: 'about.me/grall',
+      email: null
+    },
+    {
+      id: 'malo_grall',
+      name: 'Malo Grall',
+      bio: "<p>Etudiant et passionné d'informatique, avec mon frère <a href=\"#/speakers/corentin_grall\">Corentin</a> nous nous intéressons aux mêmes choses et avons appris ensemble</p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: null,
+      gplus: null,
+      github: 'grallm',
+      website: null,
+      email: 'malo.grall@gmail.com'
+    },
+    {
+      id: 'sylvain_maillard',
+      name: 'Sylvain Maillard',
+      bio: "<p>Je suis développeur depuis le lycée et développeur Java depuis les années 2000, je m'intéresse particulièrement à la programmation orientée objet, au Domain Driven Design, au refactoring d'applications. </p>" +
+          "<p>Je travaille depuis 5 ans chez Oui.sncf en tant que lead developer. </p>",
+      gravatar: null,
+      photo: 'jpg',
+      twitter: 'sylvain_m44',
+      gplus: null,
+      github: 'sylvain-maillard',
+      website: null,
+      email: 'sylvain.maillard6@gmail.com'
     }
 ];
 
