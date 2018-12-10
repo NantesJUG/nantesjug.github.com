@@ -1507,7 +1507,7 @@ var njSpeakers = [
     {
       id: 'corentin_grall',
       name: 'Corentin Grall',
-      bio: "<p>Etudiant et passionné d'informatique, avec mon frère <a href=\"#/speakers/malo_grall\">Malo</a> nous nous intéressons aux mêmes choses et avons appris ensemble</p>",
+      bio: "<p>Lycéen et passionné depuis toujours de nouvelles technologies, j'ai commencé il y a plusieurs années à m'intéresser au monde du développement à travers un jeu vidéo, Minecraft. Étant curieux, je me suis au fil des années intéressé à de nombreuses technologies ce qui m'a conduit à développer régulièrement en NodeJS et Java.</p>",
       gravatar: null,
       photo: 'jpg',
       twitter: 'grallcorentin',
@@ -1519,7 +1519,7 @@ var njSpeakers = [
     {
       id: 'malo_grall',
       name: 'Malo Grall',
-      bio: "<p>Etudiant et passionné d'informatique, avec mon frère <a href=\"#/speakers/corentin_grall\">Corentin</a> nous nous intéressons aux mêmes choses et avons appris ensemble</p>",
+      bio: "<p>Je suis étudiant, passionné d'informatique et de sport. Voulant faire vétérinaire j'étais en prépa BCPST l'année dernière mais je suis dorénavant dans des études d'informatique, un cursus ingénieur à l'Université dans les maths et l'informatique de l'optimisation. Autrement, je développe en ce moment en JS, faisant du Node.JS et du React.</p>",
       gravatar: null,
       photo: 'jpg',
       twitter: null,
