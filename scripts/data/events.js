@@ -1,7 +1,7 @@
 /*jshint unused: false */
 var njEvents = [{
         id: '2019_01_15',
-        title: "One-man show par Frédéric Leguédois",
+        title: "Minecraft // Cessons les estimations",
         date: new Date(2019, 0, 15), //month begin at 0
         time: '19h00',
         register: 'http://meetu.ps/e/FTJwH/4xjVv/f',
@@ -14,20 +14,12 @@ var njEvents = [{
                 abstract: '<p>Description de notre parcours qui nous a mené de simples joueurs à administrateur d\'un serveur Minecraft comptant plusieurs milliers d\'utilisateurs nous faisant ainsi notre argent de poche</p>',
                 speakers: ['corentin_grall', 'malo_grall']
             }, {
-                title: "One-man show [ sujet à définir ]",
+                title: "Cessons les estimations (One-man show)",
                 length: '1h',
                 time: '19h30',
-                intro: "<p>Votez pour le sujet qui vous intéresse : <a href='https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote' target='_blank'>https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote</a></p>",
                 type: 'talk',
-                abstract: "<p>Le sujet est à choisir parmi les 3 propositions suivantes : "+
-                              "<ul>" +
-                              "<li>« <a href='http://www.leguedois.fr/cessons-les-estimations/' target='_blank'>Cessons les estimations !</a> » </li>" +
-                              "<li>« <a href='http://www.leguedois.fr/comment-planter-son-projet-sans-se-faire-choper/' target='_blank'>Comment planter son projet sans se faire choper ?</a> » </li>" +
-                              "<li>« <a href='http://www.leguedois.fr/qui-a-vole-orange/' target='_blank'>Qui a volé l’orange ?</a> » </li>" +
-                              "</ul>" +
-
-                              "<p>Pour voter, c'est par ici que ça se passe : "+
-                              " <a href='https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote' target='_blank'>https://pollen.cl/#poll/_2vt98qdQESJdKtr9mrlUw/vote</a></p>",
+                abstract: "<p>Un one man show afin de susciter la réflexion par le rire, afin de vulgariser les valeurs fondamentales de l’agilité, au delà de l’application d’une quelconque méthode.</p>" +
+                          "<p>Cette conférence iconoclaste, non technique, s’adresse à toute personne ayant eu un premier contact avec un projet de développement logiciel (clients, donneurs d’ordre, développeurs, chefs de projet, product owner, scrum master…)</p>",
                 speakers: ['frederic_leguedois']
             }
         ],

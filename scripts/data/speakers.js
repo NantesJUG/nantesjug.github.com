@@ -7,10 +7,10 @@ var njSpeakers = [
   {
       id: 'frederic_leguedois',
       name: 'Frédéric Leguédois',
-      bio: '',
+      bio: 'Evangéliste Agile, libriste, voire polémiste ;-) Conférencier iconoclaste chez @CloudTemple . Garanti zéro certification.',
       gravatar: null,
-      photo: null,
-      twitter: null,
+      photo: 'jpg',
+      twitter: 'f_leguedois',
       gplus: null,
       github: null,
       website: 'http://leguedois.fr',
