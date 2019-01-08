@@ -574,6 +574,8 @@ img.sponsors-type {
    border-radius: 3px;
    color: #999;
    padding-top: 36%;
+   margin-top: 5px;
+   margin-bottom: 5px;
    position: relative;
  }
 
