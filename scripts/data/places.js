@@ -113,5 +113,13 @@ var njPlaces = [
     city: '44800 Saint-Herblain',
     maps: 'https://goo.gl/maps/TahTWPPiffz',
     capacity: 70
+  },
+  {
+    id: 'zenika',
+    name: 'Zenika Nantes',
+    address: '2ter Quai François Mitterrand',
+    city: '44200 Nantes',
+    maps: 'https://goo.gl/maps/XLf1v3i85no',
+    capacity: 50
   }
 ];

@@ -1,5 +1,48 @@
 /*jshint unused: false */
-var njEvents = [{
+var njEvents = [
+    {
+        id: '2019_02_27',
+        title: "Quickies: Graal VM, Psycho, CNCF et VS Code ",
+        date: new Date(2019, 1, 27), //month begin at 0
+        time: '19h00',
+        register: 'http://meetu.ps/e/GlQWC/13h0g/f',
+        place: 'zenika',
+        subjects: [
+            {
+                title: 'De la data science dans ma webapp avec GraalVM',
+                time: '19h00',
+                length:'20 min',
+                type: 'quickie',
+                abstract: "<p>Présentation du langage R (utilisé largement par les data scientists) et son intégration avec le monde Java via GraalVM ou comment intégrer des mondes qui se parlent peu.</p>",
+                speakers: ['bruno_bonnin']
+            },  
+            {
+                title: '3 techniques faciles de manipulation',
+                time: '19h30',
+                length:'20 min',
+                type: 'quickie',
+                abstract: '<p>Qui ne s\’est jamais fait manipulé ? Évidemment, on est tous allé à une soirée alors qu\’on en avait pas envie, on a tous acheté un truc sans en avoir besoin et on a tous été influencé par ses proches.</p><p>L\’idée de cette présentation est de vous ouvrir les yeux sur les relations et les influences entre les gens. Je vous exposerai les mécanismes de prise de décision au travers de 3 techniques simples de manipulation.</p><p>A la sortie de ce talk, vous devriez être moins influençable et maître de vos décisions (voir même manipuler les autres).</p>',
+                speakers: ['marie_viley']
+            },
+            {
+                title: 'La CNCF et son écosystème',
+                time: '20h00',
+                length:'20 min',
+                type: 'quickie',
+                abstract: '<p>Découverte de la Cloud Native Computing Foundation qui pilote la communauté des projets d\'orchestration des containers et micro-services</p>',
+                speakers: ['julien_landure']
+            }, 
+            {
+                title: 'Développer en Java dans VS Code',
+                time: '20h30',
+                length:'20 min',
+                type: 'quickie',
+                abstract: '<p>En quelques années VS Code (Visual Studio Code) est devenu l\'éditeur de code le plus populaire; tout particulièrement dans les communautés Javascript, Python, et autres langages dynamiques.<p><p>Mais savez vous qu\'il est également possible d\'utiliser VS Code pour développer en Java?<p><p>Venez découvrir durance ce tools in action, les fonctionnalités clés de tout éditeur Java, supportées par VS Code:<p><ul><li>Code Completion</li><li>Debugger</li><li>Refactoring</li><li>Test</li><li>Support de Maven & Graddle</li><li>Code Navigation et Outline</li><li>...</li></ul>',
+                speakers: ['tugdual_grall']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_01_15',
         title: "Minecraft // Cessons les estimations",
         date: new Date(2019, 0, 15), //month begin at 0

@@ -4,19 +4,41 @@
 
 /*jshint unused: false */
 var njSpeakers = [
-  {
-      id: 'frederic_leguedois',
-      name: 'Frédéric Leguédois',
-      bio: 'Evangéliste Agile, libriste, voire polémiste ;-) Conférencier iconoclaste chez @CloudTemple . Garanti zéro certification.',
-      gravatar: null,
-      photo: 'jpg',
-      twitter: 'f_leguedois',
-      gplus: null,
-      github: null,
-      website: 'http://leguedois.fr',
-      email: null
-  }, {
-      id: 'loic_maze',
+    {
+        id: 'marie_viley',
+        name: 'Marie Viley',
+        bio: 'Recruteuse chez @zenikaIT et RGPD fan!',
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'marie_viley',
+        gplus: null,
+        github: null,
+        website: null,
+        email: 'marie.viley@gmail.com'
+    }, {
+        id: 'bruno_bonnin',
+        name: 'Bruno Bonnin',
+        bio: 'Polymorphic developer: #MongoDB, #Elasticsearch #ArangoDB #BigData #Hadoop #ApacheZeppelin #Vuejs #Java #JavaScript #Python ... and #ZXSpectrum fan',
+        gravatar: null,
+        photo: 'png',
+        twitter: '_bruno_b_',
+        gplus: null,
+        github: 'bbonnin',
+        website: null,
+        email: 'bbonnin@gmail.com'
+    }, {
+        id: 'frederic_leguedois',
+        name: 'Frédéric Leguédois',
+        bio: 'Evangéliste Agile, libriste, voire polémiste ;-) Conférencier iconoclaste chez @CloudTemple . Garanti zéro certification.',
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'f_leguedois',
+        gplus: null,
+        github: null,
+        website: 'http://leguedois.fr',
+        email: null
+    }, {
+        id: 'loic_maze',
       name: 'Loïc Maze',
       bio: "<p>Lead développeur front chez Oui.Sncf, il rêve un jour de comprendre ce qui peut se passer dans la tête d’un designeur.</p>",
       gravatar: null,
