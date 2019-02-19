@@ -943,7 +943,7 @@ var njSpeakers = [
     {
         id: 'jean_palies',
         name: 'Jean Paliès',
-        bio: '<p>Je suis un développeur, à Nantes. Je suis aussi cofondateur des WIT et des Coding Goûters à Nantes. Je participe dès que je le peux aux Devoxx4Kids.</p>',
+        bio: '<p>Je suis un développeur indépendant, à Nantes. Je suis aussi cofondateur des WIT et des Coding Goûters à Nantes. Je participe dès que je le peux aux Devoxx4Kids.</p>',
         gravatar: null,
         photo: 'jpg',
         twitter: null,
