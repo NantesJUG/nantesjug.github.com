@@ -1,6 +1,34 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_03_12',
+        title: "Développeurs VS agilité // Micronaut",
+        date: new Date(2019, 2, 12), //month begin at 0
+        time: '19h00',
+        register: 'http://meetu.ps/e/Gs5N6/wWq2C/f',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'Développeurs & agilité : la guerre est déclarée ?',
+                time: '19h00',
+                length:'1h',
+                type: 'talk',
+                abstract: '<p>Quand on parle d\'agilité aux développeurs, on constate différentes réactions. Il y a les enthousiastes, ceux qui s\'en fichent, et ceux qui s\'y opposent farouchement.</p>' +
+                          '<p>En ce moment, on peut constater un accroissement des développeurs ne souhaitant plus entendre parler d\'agilité.</p>' +
+                          '<p>Pourquoi une telle scission ? La guerre est-elle ouvertement déclarée ou a-t-on un espoir de réconciliation ?</p>',
+                speakers: ['cecilia_bossard', 'jean_palies']
+            },
+            {
+                title: 'Micronaut Framework, déballage et prise en main',
+                time: '20h15',
+                length:'45 min',
+                type: 'talk',
+                abstract: '<p>Non ce n\'est pas un nouveau téléphone, mais un nouveau framework web service compatible Java, Kotlin et Groovy mon préféré ! Il annonce une vitesse de démarrage maxi avec des empreintes threads et mémoire mini, grâce à de la programmation réactive et une injection de dépendance réécrite sans Reflection : un socle pour réconcilier les applications basées JVM avec le Cloud ! Venez découvrir cette stack "post-Spring" qui sait presque tout faire - même du Sql, et même tirer parti de modules Spring - avec une application exemple sur le thème de la Radio Fip (ma préférée aussi).</p>',
+                speakers: ['dominique_jocal']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_02_27',
         title: "Quickies: Graal VM, Psycho, CNCF et VS Code ",
         date: new Date(2019, 1, 27), //month begin at 0
@@ -15,7 +43,7 @@ var njEvents = [
                 type: 'quickie',
                 abstract: "<p>Présentation du langage R (utilisé largement par les data scientists) et son intégration avec le monde Java via GraalVM ou comment intégrer des mondes qui se parlent peu.</p>",
                 speakers: ['bruno_bonnin']
-            },  
+            },
             {
                 title: '3 techniques faciles de manipulation',
                 time: '19h30',
@@ -31,7 +59,7 @@ var njEvents = [
                 type: 'quickie',
                 abstract: '<p>Découverte de la Cloud Native Computing Foundation qui pilote la communauté des projets d\'orchestration des containers et micro-services</p>',
                 speakers: ['julien_landure']
-            }, 
+            },
             {
                 title: 'Développer en Java dans VS Code',
                 time: '20h30',

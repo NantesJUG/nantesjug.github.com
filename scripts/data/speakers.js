@@ -688,7 +688,7 @@ var njSpeakers = [
     {
         id: 'dominique_jocal',
         name: 'Dominique Jocal',
-        bio: 'Développeur et architecte logiciel, responsable de deux domaines applicafifs chez CBP Solutions, courtier de gestion en assurance à Nantes.',
+        bio: 'Responsable informatique de l\'activité Prévoyance chez le courtier gestionnaire nantais CBP, architecte, concepteur et codeur du système maison de Prévoyance, basé Spring, Grails et désormais Micronaut.',
         gravatar: null,
         photo: 'jpg',
         twitter: 'djocal',
@@ -930,9 +930,7 @@ var njSpeakers = [
     {
         id: 'cecilia_bossard',
         name: 'Cécilia Bossard',
-        bio: '<p>Cécilia a un but : aider les équipes à produire des logiciels utiles aux utilisateurs finaux. Pour cela, elle les accompagne en intégrant les équipes de développement ou en les assistant dans leur transition agile.</p>' +
-            '<p>Impliquée dans la communauté agile nantaise, elle participe également à l\'organisation de l\'Agile Tour de Nantes.</p>' +
-            '<p>Femme développeuse, elle est également co-fondatrice du groupe Women In Technology à Nantes, dont le but est de promouvoir les femmes dans la technique. Dans ce cadre, elle participe également aux initiations à la programmation à destination des enfants avec des initiatives telles que les Devoxx4Kids ou les coding goûters.</p>',
+        bio: '<p>Développeuse, agiliste, boîte à outils, petit lutin du logiciel libre à Code Lutin</p>',
         gravatar: null,
         photo: 'jpg',
         twitter: 'CeciliaBossard',
