@@ -5,6 +5,43 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'ozan_gunalp',
+        name: 'Ozan Gunalp',
+        bio: 'Ozan est architecte chez LesFurets.com. Il est ingénieur docteur avec 10 ans d’expérience dans les systèmes distribués,' +
+             'l’Internet des objets et les processus de développement logiciels. ' +
+             'Il s’intéresse au génie logiciel, facilitant la vie des développeurs en améliorant les process et les outils de delivery.',
+        gravatar: 'ozangunalp@gmail.com',
+        photo: null,
+        twitter: 'ozangunalp',
+        gplus: null,
+        github: 'ozangunalp',
+        website: null,
+        email: 'ozan.gunalp@lesfurets.com'
+    }, {
+        id: 'gilles_di_guglielmo',
+        name: 'Gilles Di Guglielmo',
+        bio: 'Gilles travaille depuis 15 ans pour différents éditeurs de logiciels (ILOG, PrimaSolution, Courtanet) sur des sujets très ' +
+             'variés : librairie graphique 2D, moteur de règles, plate-forme de services, code génération de modèle métier. ' +
+             'Actuellement, il est architecte pour le site LesFurets.com, et aime prendre l’air à San Francisco.',
+        gravatar: 'gdigugli@gmail.com',
+        photo: null,
+        twitter: 'gdigugli',
+        gplus: null,
+        github: null,
+        website: null,
+        email: 'gdigugli@gmail.com'
+    }, {
+        id: 'alexandre_dubreuil',
+        name: 'Alexandre Dubreuil',
+        bio: 'Hello, I’m a software engineer, conference speaker, open source maintainer and sound designer.',
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'dubreuia',
+        gplus: null,
+        github: 'dubreuia',
+        website: 'https://alexandredubreuil.com/',
+        email: 'contact@alexandredubreuil.com'
+    }, {
         id: 'marie_viley',
         name: 'Marie Viley',
         bio: 'Recruteuse chez @zenikaIT et RGPD fan!',

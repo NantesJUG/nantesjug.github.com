@@ -1,6 +1,49 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_04_25',
+        title: "Les furets : Vault // dOOv",
+        date: new Date(2019, 3, 25), //month begin at 0
+        time: '19h00',
+        register: 'http://meetu.ps/e/GBQk4/wWq2C/f',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'Déploiement de vos secrets applicatifs : Hashicorp Vault et la livraison en continue',
+                time: '19h00',
+                length:'45 min',
+                type: 'talk',
+                abstract: '<p>La gestion des secrets applicatifs, tels que les identifiants de connexion aux bases de données, les phrases ' +
+                          'secrètes ("passphrase"), les sels ("salt") et les clefs privées, est difficile. La disponibilité de ces éléments ' +
+                          'est critique au bon fonctionnement d’une application, mais ils ont besoin d’être correctement protégés afin de ' +
+                          'réduire la surface d’attaque du système.</p>' +
+                          'La plupart des systèmes de gestion de secrets, comme Hashicorp Vault, sont utilisés comme une base de données ' +
+                          'centralisée, mais cela devient un point de défaillance unique et nécessite un effort supplémentaire pour sécuriser ' +
+                          'l’ensemble du système.</p>' +
+                          '<p>Pourquoi ne pas déployer vos secrets, avec Hashicorp Vault, en même temps que votre application ? Grâce à votre ' +
+                          'usine logicielle, il est possible de déployer une copie de vos secrets dans un Vault sécurisé par un "one time token", ' +
+                          'accessible seulement par votre application.</p>' +
+                          '<p>Dans cette présentation, nous allons présenter un pipeline de livraison continue permettant cette approche, montrer ' +
+                          'les implications de la gestion de secrets dans votre infrastructure de build, et utiliser le "threat modeling" pour ' +
+                          'vérifier la sécurité du Vault déployé.</p>',
+                speakers: ['alexandre_dubreuil']
+            },
+            {
+                title: 'Comment créer son propre langage avec un fluent API et un lambda builder ?',
+                time: '20h00',
+                length:'1h',
+                type: 'talk',
+                abstract: '<p>Avec le framework dOOv, nous adoptons une nouvelle approche pour résoudre un problème récurrent dans nos applications : conjuger performance, lisibilité et typage fort.</p>' +
+                          '<p>Depuis Java 8, les lambdas permettent de composer des fonctions avec d’excellentes performances à l’exécution. ' +
+                          'dOOv fournit une fluent API qui permet d’écrire la logique d’une application avec un DSL « pur Java » et construit des lambdas pour l’exécution.</p>' +
+                          '<p>Il devient possible de parcourir l’arbre de syntaxe du DSL lors de l’exécution et d’effectuer dynamiquement des réécritures.</p>' +
+                          '<p>Pendant la session, nous présenterons le fonctionnement du framework, les problèmes rencontrés pour générer du langage naturel, ' +
+                          'l’instrumentation du code écrit en DSL et la réécriture des arbres de syntaxe pour les afficher sous forme canonique.</p>',
+                speakers: ['gilles_di_guglielmo', 'ozan_gunalp']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_03_12',
         title: "Développeurs VS agilité // Micronaut",
         date: new Date(2019, 2, 12), //month begin at 0
