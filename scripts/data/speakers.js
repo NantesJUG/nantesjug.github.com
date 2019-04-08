@@ -15,8 +15,7 @@ var njSpeakers = [
         twitter: 'ozangunalp',
         gplus: null,
         github: 'ozangunalp',
-        website: null,
-        email: 'ozan.gunalp@lesfurets.com'
+        website: null
     }, {
         id: 'gilles_di_guglielmo',
         name: 'Gilles Di Guglielmo',
@@ -28,8 +27,7 @@ var njSpeakers = [
         twitter: 'gdigugli',
         gplus: null,
         github: null,
-        website: null,
-        email: 'gdigugli@gmail.com'
+        website: null
     }, {
         id: 'alexandre_dubreuil',
         name: 'Alexandre Dubreuil',
@@ -39,8 +37,7 @@ var njSpeakers = [
         twitter: 'dubreuia',
         gplus: null,
         github: 'dubreuia',
-        website: 'https://alexandredubreuil.com/',
-        email: 'contact@alexandredubreuil.com'
+        website: 'https://alexandredubreuil.com/'
     }, {
         id: 'marie_viley',
         name: 'Marie Viley',
@@ -50,8 +47,7 @@ var njSpeakers = [
         twitter: 'marie_viley',
         gplus: null,
         github: null,
-        website: null,
-        email: 'marie.viley@gmail.com'
+        website: null
     }, {
         id: 'bruno_bonnin',
         name: 'Bruno Bonnin',
@@ -61,8 +57,7 @@ var njSpeakers = [
         twitter: '_bruno_b_',
         gplus: null,
         github: 'bbonnin',
-        website: null,
-        email: 'bbonnin@gmail.com'
+        website: null
     }, {
         id: 'frederic_leguedois',
         name: 'Frédéric Leguédois',
@@ -72,8 +67,7 @@ var njSpeakers = [
         twitter: 'f_leguedois',
         gplus: null,
         github: null,
-        website: 'http://leguedois.fr',
-        email: null
+        website: 'http://leguedois.fr'
     }, {
         id: 'loic_maze',
       name: 'Loïc Maze',
@@ -83,8 +77,7 @@ var njSpeakers = [
       twitter: null,
       gplus: null,
       github: null,
-      website: null,
-      email: 'lmaze@oui.sncf'
+      website: null
   }, {
       id: 'lydie_dareau',
       name: 'Lydie Dareau',
@@ -94,8 +87,7 @@ var njSpeakers = [
       twitter: null,
       gplus: null,
       github: null,
-      website: null,
-      email: 'ldareau@oui.sncf'
+      website: null
   }, {
       id: 'pierre-yves_aillet',
       name: 'Pierre-Yves Aillet',
@@ -105,8 +97,7 @@ var njSpeakers = [
       twitter: 'pyaillet',
       gplus: null,
       github: null,
-      website: null,
-      email: 'pierre-yves.aillet@zenika.com'
+      website: null
   }, {
         id: 'florent_ramiere',
         name: 'Florent Ramière',
@@ -116,8 +107,7 @@ var njSpeakers = [
         twitter: 'framiere',
         gplus: null,
         github: "framiere",
-        website: null,
-        email: null
+        website: null
     }, {
         id: 'jmdoudoux',
         name: 'Jean-Michel Doudoux',
@@ -128,8 +118,7 @@ var njSpeakers = [
         twitter: 'jmdoudoux',
         gplus: null,
         github: null,
-        website: 'www.jmdoudoux.fr',
-        email: 'jmdoudoux@oxiane.lu'
+        website: 'www.jmdoudoux.fr'
     }, {
         id: 'francois_desmier',
         name: 'François Desmier',
@@ -192,8 +181,7 @@ var njSpeakers = [
         twitter: "jpthiery",
         gplus: null,
         github: "jpthiery",
-        website: "https://kodokojo.io",
-        email: "jpthiery@kodokojo.io"
+        website: "https://kodokojo.io"
     },
     {
         id: "antoine_le_taxin",
@@ -204,8 +192,7 @@ var njSpeakers = [
         twitter: "ModuloM",
         gplus: null,
         github: "ModuloM",
-        website: "https://kodokojo.io",
-        email: "aletaxin@kodokojo.io"
+        website: "https://kodokojo.io"
     },
     {
         id: "youen_chene",
@@ -1159,8 +1146,7 @@ var njSpeakers = [
         twitter: "nebounet",
         gplus: null,
         github: "Nebulis",
-        website: null,
-        email: "nebounet@gmail.com"
+        website: null
     },
     {
         id: 'guillaume_blondeau',
@@ -1570,8 +1556,7 @@ var njSpeakers = [
       twitter: 'grallcorentin',
       gplus: null,
       github: 'grallc',
-      website: 'about.me/grall',
-      email: null
+      website: 'about.me/grall'
     },
     {
       id: 'malo_grall',
@@ -1582,8 +1567,7 @@ var njSpeakers = [
       twitter: null,
       gplus: null,
       github: 'grallm',
-      website: null,
-      email: 'malo.grall@gmail.com'
+      website: null
     },
     {
       id: 'sylvain_maillard',
@@ -1595,8 +1579,7 @@ var njSpeakers = [
       twitter: 'sylvain_m44',
       gplus: null,
       github: 'sylvain-maillard',
-      website: null,
-      email: 'sylvain.maillard6@gmail.com'
+      website: null
     }
 ];
 

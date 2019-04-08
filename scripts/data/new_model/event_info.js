@@ -42,6 +42,5 @@ var new_speaker =
   twitter: null,
   gplus: null,
   github: null,
-  website: null,
-  email: null
+  website: null
 };
