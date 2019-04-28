@@ -26,7 +26,10 @@ var njEvents = [
                           '<p>Dans cette présentation, nous allons présenter un pipeline de livraison continue permettant cette approche, montrer ' +
                           'les implications de la gestion de secrets dans votre infrastructure de build, et utiliser le "threat modeling" pour ' +
                           'vérifier la sécurité du Vault déployé.</p>',
-                speakers: ['alexandre_dubreuil']
+                speakers: ['alexandre_dubreuil'],
+                docs: [
+                    { name: 'Slides', url: 'https://lesfurets.github.io/vault-continuous-secret-deployment/vault-continuous-secret-deployment-nantes-jug.html#/', type: 'html' },
+                  ]
             },
             {
                 title: 'Comment créer son propre langage avec un fluent API et un lambda builder ?',
@@ -39,7 +42,10 @@ var njEvents = [
                           '<p>Il devient possible de parcourir l’arbre de syntaxe du DSL lors de l’exécution et d’effectuer dynamiquement des réécritures.</p>' +
                           '<p>Pendant la session, nous présenterons le fonctionnement du framework, les problèmes rencontrés pour générer du langage naturel, ' +
                           'l’instrumentation du code écrit en DSL et la réécriture des arbres de syntaxe pour les afficher sous forme canonique.</p>',
-                speakers: ['gilles_di_guglielmo', 'ozan_gunalp']
+                speakers: ['gilles_di_guglielmo', 'ozan_gunalp'],
+                docs: [
+                    { name: 'Slides', url: 'https://doov.io/conference/how_to_create_dsl_with_lambda_builders_nantes_jug.html#/', type: 'html' },
+                  ]
             }
         ],
         docs: []
