@@ -1,6 +1,87 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_06_25',
+        title: "Soirée Quickies + 🍸",
+        date: new Date(2019, 5, 25), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: 'adresse_gare_sud',
+        subjects: [
+            {
+                title: 'Verre d’accueil 🍸',
+                time: '19h00',
+                length:'15 min',
+                type: 'hello',
+                abstract: "<p>Quoi de mieux pour commencer cette dernière soirée avant l'été que de commencer par un petit verre d'accueil 😎</p>"
+            },
+            {
+                title: 'Faire un chatbot en Java avec Spring Boot ',
+                time: '19h15',
+                length:'25 min',
+                type: 'quickie',
+                abstract: '<p>Faire un chatbot en Java avec Spring Boot :' +
+                         '<ul><li>Présentation générale des chatbot</li>' +
+                         '<li>Revue des NLP (natural language processing)</li>' +
+                         '<li>Revue des différents plugins maven disponibles</li>' +
+                         '<li>Architecture de la solution</li></ul></p>',
+                speakers: ['julien_bideau']
+            }, {
+                title: 'REX : entamer une migration Kotlin dans une DSI Java',
+                time: '19h40',
+                length:'25 min',
+                type: 'quickie',
+                abstract: '<p>Au sein de la DSI de Pôle emploi, les infrastructures black end sont depuis une dizaine d’années faites en Java et le choix des langages n’est pas (encore) déterminé par les équipes de développement.</p>' +
+                          '<p>Kotlin utilisant la JVM, il est désormais possible d’intégrer du Kotlin dans des projets java. Dans ce REX je vous présenterai la manière dont nous avons pu entamer l\'intégration du Kotlin dans nos composants black end Java, les problématiques rencontrées, mais aussi les opportunités qui s\'ouvrent à nous pour la suite.</p>',
+                speakers: ['jean-philippe_baconnais']
+            }, {
+                title: 'CORS, XSS, CSRF, SQL injection #BackToTheBasics',
+                time: '20h05',
+                length:'25 min',
+                type: 'quickie',
+                abstract: '<p>Pas besoin d\'être RSSI ou DevOpsSec pour se soucier de sécurité. Que l\'on soit développeur back ou front, la sécurité est l\'affaire de tous.</p>' +
+                        '<p>Pourtant, on la confie souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs.</p>' +
+                        '<p>A travers quelques démos, nous allons voir les failles les plus basiques et pourtant les plus répandus : CORS, XSS, CSRF et SQL injection</p>',
+                speakers: ['adrien_pessu']
+            },
+            {
+                title: 'Chaos Engineering',
+                time: '20h30',
+                length:'25 min',
+                type: 'quickie',
+                abstract: '<p></p>' +
+                          '<p></p>' +
+                          '<p></p>',
+                speakers: ['thomas_nansot']
+            },
+            {
+                title: 'Cocktail dinatoire 🥳 + 🍻 + 🍣',
+                time: '21h00',
+                length:'3h',
+                type: 'cocktail',
+                abstract: "<p>Discussions et partages autour d'un ou plusieurs verres, jusqu'au bout de la nuit... </p>"
+            }
+        ],
+        docs: []
+    },     {
+        id: '2019_05_20',
+        title: "Quarkus 😛",
+        date: new Date(2019, 4, 20), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'Quarkus',
+                time: '19h00',
+                length:'1h30',
+                type: 'talk',
+                abstract: '<p></p>',
+                speakers: ['tugdual_grall']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_04_25',
         title: "Les furets : Vault // dOOv",
         date: new Date(2019, 3, 25), //month begin at 0

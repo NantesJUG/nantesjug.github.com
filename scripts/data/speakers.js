@@ -1301,16 +1301,13 @@ var njSpeakers = [
     }, {
         id: 'adrien_pessu',
         name: 'Adrien Pessu',
-        bio: '<p>' +
-            "Adrien est passionné de développement, en particulier Java et Web. Il a évolué en société de services pendant plusieurs années avant de rejoindre Keendoo, éditeur logiciel dans l'agroalimentaire.<br>" +
-            "Vous pourrez aussi le croiser dans certains meetups tech et agile." +
-            '</p>',
-        gravatar: '',
+        bio: "<p>Je suis passionné de développement, en particulier Kotlin, Angular, Java et Web. J’ai évolué pendant plusieurs années en société de services puis chez un éditeur logiciel, et je me suis lancé dans l’aventure freelance.</p>",
+        gravatar: null,
         photo: 'jpg',
-        twitter: 'adrien_pe',
-        gplus: null,
-        github: 'adrienpessu',
-        website: 'http://www.doyoubuzz.com/eric-bernardeau'
+        twitter: 'https://twitter.com/adrienpessu',
+        gplus: 'lol',
+        github: 'https://github.com/adrienpessu',
+        website: 'http://adrien.pessu.net',
     }, {
         id: 'yvonnick_frin',
         name: 'Yvonnick Frin',
@@ -1580,6 +1577,37 @@ var njSpeakers = [
       gplus: null,
       github: 'sylvain-maillard',
       website: null
+    }, {
+        id: 'jean-philippe_baconnais',
+        name: 'Jean-Philippe Baconnais',
+        bio: "<p>Tech Lead d'une équipe de dév à la DSI de Pôle emploi, j'ai été plongé dans le développement avec le monde Java. </br>" +
+             "Curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.</p>",
+        gravatar: null,
+        photo: null,
+        twitter: 'jphi_baconnais',
+        gplus: null,
+        github: null,
+        website: null
+    }, {
+        id: 'julien_bideau',
+        name: 'Julien Bideau',
+        bio: "<p></p>",
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        gplus: null,
+        github: null,
+        website: null
+    }, {
+        id: 'thomas_nansot',
+        name: 'Thomas Nansot',
+        bio: "<p></p>",
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        gplus: null,
+        github: null,
+        website: null
     }
 ];
 
