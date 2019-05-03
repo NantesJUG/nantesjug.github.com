@@ -1591,10 +1591,10 @@ var njSpeakers = [
     }, {
         id: 'julien_bideau',
         name: 'Julien Bideau',
-        bio: "<p></p>",
+        bio: "<p>Développeur passionné à Thales, j'adore découvrir de nouveaux langages, partager et apprendre au quotidien. J'aime chercher les solutions adéquates et améliorer continuellement nos process !</p>",
         gravatar: null,
         photo: null,
-        twitter: null,
+        twitter: 'julienbideau',
         gplus: null,
         github: null,
         website: null

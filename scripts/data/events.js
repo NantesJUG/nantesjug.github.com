@@ -20,11 +20,12 @@ var njEvents = [
                 time: '19h15',
                 length:'25 min',
                 type: 'quickie',
-                abstract: '<p>Faire un chatbot en Java avec Spring Boot :' +
-                         '<ul><li>Présentation générale des chatbot</li>' +
-                         '<li>Revue des NLP (natural language processing)</li>' +
-                         '<li>Revue des différents plugins maven disponibles</li>' +
-                         '<li>Architecture de la solution</li></ul></p>',
+                abstract: '<p>Retour sur la hype des chatbots qui ne s\'estompe pas, avec tous les jours de nouveaux bots et de nouveaux acteurs.' +
+                         '<ul style="margin:0"><li>Pourquoi un tel engouement sur les chatbots ?</li>' +
+                         '<li>Pourquoi le faire en Java ?</li>' +
+                         '<li>Revue des différents NLP (Natural language processing)</li>' +
+                         '<li>Quels sont les pièges à éviter ?</li></ul></p>' +
+                         '<p>Autant de questions à répondre sur ce tour d\'horizon !</p>',
                 speakers: ['julien_bideau']
             }, {
                 title: 'REX : entamer une migration Kotlin dans une DSI Java',
