@@ -413,13 +413,13 @@ var njSpeakers = [
     {
         id: 'tugdual_grall',
         name: 'Tugdual Grall',
-        bio: "Tug est Technical Evangelist chez MongoDB, et un développeur passionné! Il travaille actuellement avec les communautés de développeurs en Europe pour faciliter l’adoption du NosQL/MongoDB. Avant de rejoindre MongoDB, Tug a travaillé chez Couchbase (Technical Evangelist) , eXo Platform (CTO) et Oracle (Product Manager/Developer OracleAS JavaEE).<br/><br/>Tug a participé à de nombreuses conférences DevoxxFR, FOSDEM, Google I/O, JavaOne et de nombreux meetups/groupes utilisateurs. Tugdual est co-fondateur du @NantesJUG. Lorsqu’il a le temps, il maintient un blog http://tugdualgrall.blogspot.com et une application déployée sur Google App Engine  http://www.resultri.com. Vous pouvez le suivre sur twitter.",
+        bio: "Tug est Product Manager chez MapR responsable de l'experience développeur, des relations avec les développeurs; sur le produit il travaille sur le streaming et le NoSQL). Tug est un développeur passionné! Avant de rejoindre MapR, Tug a travaillé chez Red Hat (Product Manager) MongoDB, Couchbase (Technical Evangelist) , eXo Platform (CTO) et Oracle (Product Manager/Developer OracleAS JavaEE).<br/><br/>Tug a participé à de nombreuses conférences DevoxxFR, FOSDEM, Google I/O, JavaOne et de nombreux meetups/groupes utilisateurs. Tugdual est co-fondateur du @NantesJUG. Lorsqu’il a le temps, il navigue en windsurf et code une application enregistrant ses performances <a href='https://pointeau-speed-challenge.com/'>https://pointeau-speed-challenge.com/</a> . Vous pouvez le suivre sur twitter.",
         gravatar: 'tugdual@gmail.com',
         photo: null,
         twitter: 'tgrall',
         gplus: 'https://plus.google.com/+TugdualGrall/posts',
         github: 'tgrall',
-        website: 'http://blog.grallandco.com'
+        website: 'http://tgrall.github.io'
     },
     {
         id: 'julien_ruchaud',
