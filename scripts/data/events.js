@@ -77,7 +77,12 @@ var njEvents = [
                 time: '19h00',
                 length:'1h30',
                 type: 'talk',
-                abstract: '<p></p>',
+                abstract: "<p>De Java au natif: venez découvrir GraalVM et Quarkus</p>"+
+                "<p>Microservices, montée en charge rapide et Kubernetes demandent des applications ayant un temps de démarrage rapide et une petite empreinte memoire; c'est pourquoi Java est peu utilisé dans ce contexte.</p>"+
+                "<p>Cela va changer!</p>"+
+                "<p>Venez découvrir Quarkus, la stack Java orientée microservices qui utilise vos librairies préférées(Hibernate, vert.x, Camel, RESTEasy, Netty…), et se déploie sur GraalVM et Hotspot. </p>"+
+                "<p>Durant cette session vous découvrirez GraalVM, et Quarkus et comment les deux réunis se concentrent sur la vitesse et la mémoire et ce avec un bonne expérience développeur."+
+                "<p>La prochaine 'Java Revolution' est en cours, rejoignez nous!",
                 speakers: ['tugdual_grall']
             }
         ],
