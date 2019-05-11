@@ -66,21 +66,28 @@ var njEvents = [
         docs: []
     },     {
         id: '2019_05_20',
-        title: "Quarkus 😛",
+        title: " Java 12 // Quarkus 😛",
         date: new Date(2019, 4, 20), //month begin at 0
         time: '19h00',
         register: null,
         place: 'eartsup',
         subjects: [
             {
-                title: 'Quarkus',
+                title: 'Java 12, quoi de neuf ?',
                 time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: '<p>Java sort maintenant une nouvelle version tous les 6 mois. En mars dernier est donc sortie la version 12. Après un rapide récapitulatif des nouveautés depuis la version 10 voyons ce que cette version apporte à l\'environnement java et ce qui nous attend pour la suite.</p>',
+                speakers: ['patrice_de saint steban']
+            }, {
+                title: 'Quarkus',
+                time: '19h30',
                 length:'1h30',
                 type: 'talk',
                 abstract: "<p>De Java au natif: venez découvrir GraalVM et Quarkus</p>"+
                 "<p>Microservices, montée en charge rapide et Kubernetes demandent des applications ayant un temps de démarrage rapide et une petite empreinte memoire; c'est pourquoi Java est peu utilisé dans ce contexte.</p>"+
                 "<p>Cela va changer!</p>"+
-                "<p>Venez découvrir Quarkus, la stack Java orientée microservices qui utilise vos librairies préférées(Hibernate, vert.x, Camel, RESTEasy, Netty…), et se déploie sur GraalVM et Hotspot. </p>"+
+                "<p>Venez découvrir Quarkus, la stack Java orientée microservices qui utilise vos librairies préférées (Hibernate, vert.x, Camel, RESTEasy, Netty…), et se déploie sur GraalVM et Hotspot. </p>"+
                 "<p>Durant cette session vous découvrirez GraalVM, et Quarkus et comment les deux réunis se concentrent sur la vitesse et la mémoire et ce avec un bonne expérience développeur."+
                 "<p>La prochaine 'Java Revolution' est en cours, rejoignez nous!",
                 speakers: ['tugdual_grall']

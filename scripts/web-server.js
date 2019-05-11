@@ -45,7 +45,7 @@ function escapeHtml(value) {
 HttpServer.prototype.start = function (port) {
   this.port = port;
   this.server.listen(port);
-  util.puts('Http Server running at http://localhost:' + port + '/');
+  util.puts('Http Server running at http://localhost:' + port + '/index.html');
 };
 
 HttpServer.prototype.parseUrl_ = function (urlString) {
