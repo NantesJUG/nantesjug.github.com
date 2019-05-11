@@ -1609,13 +1609,13 @@ var njSpeakers = [
         github: null,
         website: null
     }, {
-        id: 'patrice_de saint steban',
+        id: 'patrice_de_saint_steban',
         name: 'Patrice De Saint Steban',
         bio: "<p>Depuis presque 10  ans je me passionne pour le développement d'applications WEB et Mobile, en touchant à toutes les couches du Front au Back jusqu'à son déploiement sur le Cloud.</p>" +
             "<p>J'ai travaillé sur des technologies très différentes, du PHP au JAVA et JAVASCRIPT, du GWT à Angular et React, de Google App Engine à NodeJS.</p>" +
             "<p>Je m'intéresse au Machine Learning et les agents conversationnels.</p>",
         gravatar: null,
-        photo: null,
+        photo: 'jpg',
         twitter: 'patoudss',
         gplus: null,
         github: 'patou',

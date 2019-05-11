@@ -69,7 +69,7 @@ var njEvents = [
         title: " Java 12 // Quarkus 😛",
         date: new Date(2019, 4, 20), //month begin at 0
         time: '19h00',
-        register: null,
+        register: 'http://meetu.ps/e/GKJHP/4xjVv/f',
         place: 'eartsup',
         subjects: [
             {
@@ -78,7 +78,7 @@ var njEvents = [
                 length:'30 min',
                 type: 'quickie',
                 abstract: '<p>Java sort maintenant une nouvelle version tous les 6 mois. En mars dernier est donc sortie la version 12. Après un rapide récapitulatif des nouveautés depuis la version 10 voyons ce que cette version apporte à l\'environnement java et ce qui nous attend pour la suite.</p>',
-                speakers: ['patrice_de saint steban']
+                speakers: ['patrice_de_saint_steban']
             }, {
                 title: 'Quarkus',
                 time: '19h30',
