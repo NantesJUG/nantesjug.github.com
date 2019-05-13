@@ -50,9 +50,7 @@ var njEvents = [
                 time: '20h30',
                 length:'25 min',
                 type: 'quickie',
-                abstract: '<p></p>' +
-                          '<p></p>' +
-                          '<p></p>',
+                abstract: '<p>Le Chaos Engineering est une discipline émergente dans le secteur de l’IT. Elle est expérimenté depuis plusieurs année chez des acteurs majeurs comme Netflix. Elle a été introduite pour apporter des solutions à l’accroissement de la complexité ds systèmes d’information et des organisations. J’espère vous apporter quelques éclairage sur cette discipline en pleine croissance et vous convaincre de vous y intéresser et de commencer à intégrer des pratiques liées à cette discipline dans votre cycle de développement logiciel.</p>',
                 speakers: ['thomas_nansot']
             },
             {
