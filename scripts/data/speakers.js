@@ -1447,7 +1447,7 @@ var njSpeakers = [
       name: 'Emmanuel Demey',
       bio: "<p>Directeur technique chez Zenika Lille et Google Developer Expert, je suis spécialisé dans Angular, VueJS, NodeJS, PWA, TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique.</p>",
       gravatar: null,
-      photo: null,
+      photo: 'jpg',
       twitter: 'emmanueldemey',
       gplus: null,
       github: 'gillespie59',
@@ -1583,7 +1583,7 @@ var njSpeakers = [
         bio: "<p>Tech Lead d'une équipe de dév à la DSI de Pôle emploi, j'ai été plongé dans le développement avec le monde Java. </br>" +
              "Curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.</p>",
         gravatar: null,
-        photo: null,
+        photo: 'jpg',
         twitter: 'jphi_baconnais',
         gplus: null,
         github: null,
@@ -1593,7 +1593,7 @@ var njSpeakers = [
         name: 'Julien Bideau',
         bio: "<p>Développeur passionné à Thales, j'adore découvrir de nouveaux langages, partager et apprendre au quotidien. J'aime chercher les solutions adéquates et améliorer continuellement nos process !</p>",
         gravatar: null,
-        photo: null,
+        photo: 'jpg',
         twitter: 'julienbideau',
         gplus: null,
         github: null,
@@ -1619,6 +1619,17 @@ var njSpeakers = [
         twitter: 'patoudss',
         gplus: null,
         github: 'patou',
+        website: null
+    }, {
+        id: 'nicolas_payneau',
+        name: 'Nicolas Payneau',
+        bio: "<p>Leader Technique et mouton à 5 pattes chez Thales le jour, j'interviens sur différents projets Java, Javascript. J'accompagne au quotidien les équipes vers une démarche DevOps et sur des problématiques \"moveToCloud\".</p>" +
+             "<p>La nuit je bidouille en IOT et m'égare dans les limbes des services AWS pour combler ma soif de découverte.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'npayneau',
+        gplus: null,
+        github: 'npayneau',
         website: null
     }
 ];

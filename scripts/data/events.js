@@ -26,7 +26,7 @@ var njEvents = [
                          '<li>Revue des différents NLP (Natural language processing)</li>' +
                          '<li>Quels sont les pièges à éviter ?</li></ul></p>' +
                          '<p>Autant de questions à répondre sur ce tour d\'horizon !</p>',
-                speakers: ['julien_bideau']
+                speakers: ['julien_bideau', 'nicolas_payneau']
             }, {
                 title: 'REX : entamer une migration Kotlin dans une DSI Java',
                 time: '19h40',
