@@ -5,7 +5,7 @@ var njEvents = [
         title: "Soirée Quickies + 🍸",
         date: new Date(2019, 5, 25), //month begin at 0
         time: '19h00',
-        register: null,
+        register: 'http://meetu.ps/e/GNbSS/4xjVv/f',
         place: 'adresse_gare_sud',
         subjects: [
             {
