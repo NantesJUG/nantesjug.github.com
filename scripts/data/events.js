@@ -34,7 +34,10 @@ var njEvents = [
                 type: 'quickie',
                 abstract: '<p>Au sein de la DSI de Pôle emploi, les infrastructures black end sont depuis une dizaine d’années faites en Java et le choix des langages n’est pas (encore) déterminé par les équipes de développement.</p>' +
                           '<p>Kotlin utilisant la JVM, il est désormais possible d’intégrer du Kotlin dans des projets java. Dans ce REX je vous présenterai la manière dont nous avons pu entamer l\'intégration du Kotlin dans nos composants black end Java, les problématiques rencontrées, mais aussi les opportunités qui s\'ouvrent à nous pour la suite.</p>',
-                speakers: ['jean-philippe_baconnais']
+                speakers: ['jean-philippe_baconnais'],
+                docs: [
+                    { name: 'Slides', url: 'https://docs.google.com/presentation/d/1-3c1wIvcbIWMF0WaT4JPg0UeyoFaHB3asv--2S0vW5M/edit#slide=id.p', type: 'drive' },
+                  ]
             }, {
                 title: 'CORS, XSS, CSRF, SQL injection #BackToTheBasics',
                 time: '20h05',
@@ -51,7 +54,10 @@ var njEvents = [
                 length:'25 min',
                 type: 'quickie',
                 abstract: '<p>Le Chaos Engineering est une discipline émergente dans le secteur de l’IT. Elle est expérimenté depuis plusieurs année chez des acteurs majeurs comme Netflix. Elle a été introduite pour apporter des solutions à l’accroissement de la complexité ds systèmes d’information et des organisations. J’espère vous apporter quelques éclairage sur cette discipline en pleine croissance et vous convaincre de vous y intéresser et de commencer à intégrer des pratiques liées à cette discipline dans votre cycle de développement logiciel.</p>',
-                speakers: ['thomas_nansot']
+                speakers: ['thomas_nansot'],
+                docs: [
+                    { name: 'Slides', url: 'https://fr.slideshare.net/ThomasNansot/meet-up-chaos-engineering', type: 'slideshare' },
+                  ]
             },
             {
                 title: 'Cocktail dinatoire 🥳 + 🍻 + 🍣',
