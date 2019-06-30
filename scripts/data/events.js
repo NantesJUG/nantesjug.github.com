@@ -36,7 +36,7 @@ var njEvents = [
                           '<p>Kotlin utilisant la JVM, il est désormais possible d’intégrer du Kotlin dans des projets java. Dans ce REX je vous présenterai la manière dont nous avons pu entamer l\'intégration du Kotlin dans nos composants black end Java, les problématiques rencontrées, mais aussi les opportunités qui s\'ouvrent à nous pour la suite.</p>',
                 speakers: ['jean-philippe_baconnais'],
                 docs: [
-                    { name: 'Slides', url: 'https://docs.google.com/presentation/d/1-3c1wIvcbIWMF0WaT4JPg0UeyoFaHB3asv--2S0vW5M/edit#slide=id.p', type: 'drive' },
+                    { name: 'Slides', url: 'https://docs.google.com/presentation/d/1X7nhim9r0tU90c5UF5U-G6fwKW5hkcNQdV6N3xF-5Jg', type: 'drive' },
                   ]
             }, {
                 title: 'CORS, XSS, CSRF, SQL injection #BackToTheBasics',
