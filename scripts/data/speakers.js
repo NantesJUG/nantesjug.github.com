@@ -1631,6 +1631,16 @@ var njSpeakers = [
         gplus: null,
         github: 'npayneau',
         website: null
+    }, {
+        id: 'adrien_bonnin',
+        name: 'Adrien Bonnin',
+        bio: "<p>Développeur expérimenté, je m’intéresse aux technologies qui gravitent autour de l'écosystème Java et JavaScript. Ces dernières années m'ont amenées à découvrir Grails, un framework web qui recèle de magnifiques pépites pour améliorer la manière dont nous écrivons nos applications.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: null,
+        gplus: null,
+        github: 'adbonnin',
+        website: null
     }
 ];
 

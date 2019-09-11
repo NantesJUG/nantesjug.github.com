@@ -1,6 +1,33 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_09_24',
+        title: "Eclipse // Ecrire des tests ? C’est illogique.",
+        date: new Date(2019, 8, 24), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/264731630/',
+        place: 'talend',
+        subjects: [
+            {
+                title: 'Eclipse',
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "",
+                speakers: ['gautier_de_saint_martin_lacaze']
+            },
+            {
+                title: 'Ecrire des tests ? C’est illogique.',
+                time: '19h30',
+                length:'1h',
+                type: 'talk',
+                abstract: '<p>Ecrire des tests c\'est bien, rédiger des spécifications c\'est mieux.</p>' + 
+                          '<p>C\'est la promesse de Spock, un framework de spécification dont l\'objectif est d\'organiser nos tests afin de les rendre facile à lire, rapide à comprendre et simple à maintenir.</p>',
+                speakers: ['adrien_bonnin']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_06_25',
         title: "Soirée Quickies + 🍸",
         date: new Date(2019, 5, 25), //month begin at 0

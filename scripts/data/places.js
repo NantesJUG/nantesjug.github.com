@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'talend',
+    name: "Talend",
+    address: "89 Boulevard de la Prairie au Duc",
+    city: "44200 Nantes",
+    maps: 'https://goo.gl/maps/JRHguEuZ6gdx4rHH7',
+    capacity: 100
+  },
+  {
     id: 'terrasses_de_l_erdre',
     name: "Terrasses de l'Erdre",
     address: "Parc des expositions Porte n°4 - Route de Saint Joseph de Porterie",
