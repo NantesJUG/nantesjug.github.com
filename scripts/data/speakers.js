@@ -13,7 +13,6 @@ var njSpeakers = [
         gravatar: 'ozangunalp@gmail.com',
         photo: null,
         twitter: 'ozangunalp',
-        gplus: null,
         github: 'ozangunalp',
         website: null
     }, {
@@ -25,7 +24,6 @@ var njSpeakers = [
         gravatar: 'gdigugli@gmail.com',
         photo: null,
         twitter: 'gdigugli',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -35,7 +33,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'dubreuia',
-        gplus: null,
         github: 'dubreuia',
         website: 'https://alexandredubreuil.com/'
     }, {
@@ -45,7 +42,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'marie_viley',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -55,7 +51,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'png',
         twitter: '_bruno_b_',
-        gplus: null,
         github: 'bbonnin',
         website: null
     }, {
@@ -65,7 +60,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'f_leguedois',
-        gplus: null,
         github: null,
         website: 'http://leguedois.fr'
     }, {
@@ -75,7 +69,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: null,
-      gplus: null,
       github: null,
       website: null
   }, {
@@ -85,7 +78,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg ',
       twitter: null,
-      gplus: null,
       github: null,
       website: null
   }, {
@@ -95,7 +87,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'pyaillet',
-      gplus: null,
       github: null,
       website: null
   }, {
@@ -105,7 +96,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpeg',
         twitter: 'framiere',
-        gplus: null,
         github: "framiere",
         website: null
     }, {
@@ -116,7 +106,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'jmdoudoux',
-        gplus: null,
         github: null,
         website: 'www.jmdoudoux.fr'
     }, {
@@ -126,7 +115,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'desmfr',
-        gplus: null,
         github: null,
         website: 'http://www.francoisdesmier.fr'
     }, {
@@ -136,7 +124,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -146,7 +133,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -157,7 +143,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: '108256935208652199487',
         github: null,
         website: null
     },
@@ -168,7 +153,6 @@ var njSpeakers = [
         gravatar: null,
         photo: "jpg",
         twitter: "glours",
-        gplus: null,
         github: null,
         website: null
     },
@@ -179,7 +163,6 @@ var njSpeakers = [
         gravatar: null,
         photo: "jpg",
         twitter: "jpthiery",
-        gplus: null,
         github: "jpthiery",
         website: "https://kodokojo.io"
     },
@@ -190,7 +173,6 @@ var njSpeakers = [
         gravatar: null,
         photo: "jpg",
         twitter: "ModuloM",
-        gplus: null,
         github: "ModuloM",
         website: "https://kodokojo.io"
     },
@@ -201,7 +183,6 @@ var njSpeakers = [
         gravatar: "youen.chene@gadz.org",
         photo: "jpg",
         twitter: "youen_chene",
-        gplus: null,
         github: "youenchene",
         website: 'http://www.saagie.com'
     },
@@ -212,7 +193,6 @@ var njSpeakers = [
         gravatar: null,
         photo: "jpg",
         twitter: null,
-        gplus: null,
         github: null,
         website: 'http://www.francelabs.com/'
     },
@@ -223,7 +203,6 @@ var njSpeakers = [
         gravatar: "rossi.oddet@gmail.com",
         photo: null,
         twitter: 'rossioddet',
-        gplus: null,
         github: null,
         website: 'http://blog.roddet.com'
     },
@@ -234,7 +213,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'FredRivard_IS2T',
-        gplus: null,
         github: null,
         website: 'http://www.is2t.com/'
     },
@@ -245,7 +223,6 @@ var njSpeakers = [
         gravatar: 'sebastien.prunier@gmail.com',
         photo: null,
         twitter: 'sebprunier',
-        gplus: null,
         github: null,
         website: null
     },
@@ -258,7 +235,6 @@ var njSpeakers = [
         gravatar: 'boillodmanuel@gmail.com',
         photo: null,
         twitter: 'mboillod',
-        gplus: '118411837237007699175',
         github: null,
         website: null
     },
@@ -269,7 +245,6 @@ var njSpeakers = [
         gravatar: 'nicolas.deloof@gmail.com',
         photo: null,
         twitter: 'ndeloof',
-        gplus: null,
         github: 'ndeloof',
         website: 'http://blog.loof.fr'
     },
@@ -280,7 +255,6 @@ var njSpeakers = [
         gravatar: 'quentin.adam@clever-cloud.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -291,7 +265,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -304,7 +277,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: '@aguilloteau',
-        gplus: null,
         github: null,
         website: 'http://www.fenikso.fr'
     },
@@ -315,7 +287,6 @@ var njSpeakers = [
         gravatar: 'contact@bsimard.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -326,7 +297,6 @@ var njSpeakers = [
         gravatar: 'drazzib@drazzib.com',
         photo: null,
         twitter: 'drazzib',
-        gplus: 'DamienRaudeMorvan',
         github: 'drazzib',
         website: 'http://www.drazzib.com'
     },
@@ -337,7 +307,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'CedricFauvet',
-        gplus: null,
         github: null,
         website: 'http://www.neotechnology.com/'
     },
@@ -348,7 +317,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -359,7 +327,6 @@ var njSpeakers = [
         gravatar: 'jerome.creignou@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -370,7 +337,6 @@ var njSpeakers = [
         gravatar: 'vey.julien@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -382,7 +348,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'cedricpineau',
-        gplus: null,
         github: null,
         website: 'http://www.taelys.com'
     },
@@ -395,7 +360,6 @@ var njSpeakers = [
         gravatar: 'david@pilato.fr',
         photo: null,
         twitter: 'dadoonet',
-        gplus: null,
         github: 'dadoonet',
         website: null
     },
@@ -406,7 +370,6 @@ var njSpeakers = [
         gravatar: 'emmanuel@hibernate.org',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -417,7 +380,6 @@ var njSpeakers = [
         gravatar: 'tugdual@gmail.com',
         photo: null,
         twitter: 'tgrall',
-        gplus: 'https://plus.google.com/+TugdualGrall/posts',
         github: 'tgrall',
         website: 'http://tgrall.github.io'
     },
@@ -428,7 +390,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -439,7 +400,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -450,7 +410,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -461,7 +420,6 @@ var njSpeakers = [
         gravatar: 'cedric.champeau@gmail.com',
         photo: null,
         twitter: 'CedricChampeau',
-        gplus: null,
         github: null,
         website: 'http://melix.github.io/blog'
     },
@@ -472,7 +430,6 @@ var njSpeakers = [
         gravatar: 'stephane.epardaud@gmail.com',
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -483,7 +440,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -494,7 +450,6 @@ var njSpeakers = [
         gravatar: 'medy.belmokhtar@netapsys.fr',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -505,7 +460,6 @@ var njSpeakers = [
         gravatar: 'sebastien.roul@netapsys.fr',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -516,7 +470,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -527,7 +480,6 @@ var njSpeakers = [
         gravatar: 'dbaeli@gmail.com',
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -538,7 +490,6 @@ var njSpeakers = [
         gravatar: 'julien.dubois@gmail.com',
         photo: null,
         twitter: 'juliendubois',
-        gplus: null,
         github: null,
         website: null
     },
@@ -549,7 +500,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -560,7 +510,6 @@ var njSpeakers = [
         gravatar: 'didier.girard@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -571,7 +520,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -582,7 +530,6 @@ var njSpeakers = [
         gravatar: 'aheritier@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: 'http://blog.aheritier.net'
     },
@@ -593,7 +540,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -604,7 +550,6 @@ var njSpeakers = [
         gravatar: 'glaforge@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -615,7 +560,6 @@ var njSpeakers = [
         gravatar: 'francois.le.droff@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -626,7 +570,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -637,7 +580,6 @@ var njSpeakers = [
         gravatar: 'alexis.mp@gmail.com',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -648,7 +590,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -659,7 +600,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -670,7 +610,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -683,7 +622,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -694,7 +632,6 @@ var njSpeakers = [
         gravatar: 'jose.paumard@gmail.com',
         photo: null,
         twitter: 'JosePaumard',
-        gplus: null,
         github: null,
         website: 'http://blog.paumard.org'
     },
@@ -705,7 +642,6 @@ var njSpeakers = [
         gravatar: 'hx4.5@free.fr',
         photo: null,
         twitter: 'mercury_wood',
-        gplus: '106541715561602552217',
         github: 'hgwood',
         website: 'https://github.com/hgwood/blog'
     },
@@ -716,7 +652,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'djocal',
-        gplus: '+DominiqueJocal',
         github: null,
         website: 'http://journaldudoj.blogspot.fr'
     },
@@ -727,7 +662,6 @@ var njSpeakers = [
         gravatar: 'xavier.hanin@gmail.com',
         photo: null,
         twitter: 'xavierhanin',
-        gplus: '100425521960258565700',
         github: null,
         website: null
     },
@@ -739,7 +673,6 @@ var njSpeakers = [
         gravatar: 'arnaud.oqube@gmail.com',
         photo: null,
         twitter: 'abailly',
-        gplus: '112406461403845424685',
         github: null,
         website: null
     },
@@ -752,7 +685,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'gif',
         twitter: 'leleuj',
-        gplus: null,
         github: 'leleuj',
         website: null
     },
@@ -765,7 +697,6 @@ var njSpeakers = [
         gravatar: 'greaumaxime@gmail.com',
         photo: null,
         twitter: 'mgreau',
-        gplus: null,
         github: null,
         website: 'http://mgreau.com'
     },
@@ -777,7 +708,6 @@ var njSpeakers = [
         gravatar: 'dgageot@gmail.com',
         photo: null,
         twitter: 'dgageot',
-        gplus: '+DavidGageot',
         github: 'dgageot',
         website: 'http://blog.javabien.net/'
     },
@@ -788,7 +718,6 @@ var njSpeakers = [
         gravatar: 'pierre.reliquet@gmail.com',
         photo: null,
         twitter: 'preliquet',
-        gplus: null,
         github: 'PierreReliquet',
         website: null
     },
@@ -799,7 +728,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'TylerJewell',
-        gplus: null,
         github: 'TylerJewell',
         website: null
     },
@@ -810,7 +738,6 @@ var njSpeakers = [
         gravatar: 'slemeur@codenvy.com',
         photo: null,
         twitter: 'stevanlm',
-        gplus: null,
         github: null,
         website: 'https://eclipse.org/che'
     },
@@ -824,7 +751,6 @@ var njSpeakers = [
         gravatar: 'fbenoit@codenvy.com',
         photo: null,
         twitter: 'florentbenoit',
-        gplus: null,
         github: null,
         website: null
     },
@@ -846,7 +772,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'ltguerin',
-        gplus: null,
         github: 'l-gu',
         website: 'http://labs.sogeti.com/author/laurent-guerin/‎'
     },
@@ -860,7 +785,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'WilcoxBenoit',
-        gplus: null,
         github: 'bewilcox',
         website: 'http://labs.sogeti.com/benoit-wilcox/'
     },
@@ -871,7 +795,6 @@ var njSpeakers = [
         gravatar: 'ludo1026@free.fr',
         photo: null,
         twitter: 'ludovicchaboud',
-        gplus: null,
         github: 'ludo1026',
         website: 'http://blog2dev.blogspot.fr/'
     },
@@ -883,7 +806,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'ThibaudRaison',
-        gplus: null,
         github: null,
         website: null
     },
@@ -894,7 +816,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -908,7 +829,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -922,7 +842,6 @@ var njSpeakers = [
         gravatar: 'mathilde.lemee@yahoo.fr',
         photo: null,
         twitter: 'MathildeLemee',
-        gplus: null,
         github: null,
         website: null
     },
@@ -935,7 +854,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -947,7 +865,6 @@ var njSpeakers = [
         gravatar: 'jean.francois.garreau@gmail.com',
         photo: null,
         twitter: 'jefBinomed',
-        gplus: '+JeanFrancoisGarreau',
         github: 'jefBinomed',
         website: null
     },
@@ -958,7 +875,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'CeciliaBossard',
-        gplus: null,
         github: 'cbossard',
         website: null
     },
@@ -969,7 +885,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -980,7 +895,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'davAtBzh',
-        gplus: null,
         github: null,
         website: null
     },
@@ -991,7 +905,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'twasyl',
-        gplus: null,
         github: null,
         website: null
     },
@@ -1002,7 +915,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'doanduyhai',
-        gplus: null,
         github: null,
         website: null
     },
@@ -1016,7 +928,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: 'http://remi-picard.appspot.com'
     },
@@ -1027,7 +938,6 @@ var njSpeakers = [
         gravatar: 'francois.kha@gmail.com',
         photo: null,
         twitter: 'fanchok',
-        gplus: null,
         github: null,
         website: null
     },
@@ -1038,7 +948,6 @@ var njSpeakers = [
         gravatar: 'renan.michaud@gmail.com',
         photo: null,
         twitter: 'renanmichaud',
-        gplus: null,
         github: null,
         website: null
     },
@@ -1049,7 +958,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     },
@@ -1062,7 +970,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'clementd',
-        gplus: null,
         github: 'divarvel',
         website: 'http://cltdl.fr/blog'
     },
@@ -1073,7 +980,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: 'http://blog.ippon.fr/author/florence_herrou/'
     }, {
@@ -1083,7 +989,6 @@ var njSpeakers = [
         gravatar: 'anthonny.querouil@gmail.com',
         photo: null,
         twitter: 'anthonny_q',
-        gplus: null,
         github: 'anthonny',
         website: 'http://anthonnyquerouil.fr'
     }, {
@@ -1093,7 +998,6 @@ var njSpeakers = [
         gravatar: 'helaili@github.com',
         photo: null,
         twitter: 'alainhelaili',
-        gplus: null,
         github: 'helaili',
         website: null
     }, {
@@ -1103,7 +1007,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'padewitte',
-        gplus: null,
         github: 'padewitte',
         website: 'http://padewitte.tumblr.com/'
     }, {
@@ -1113,7 +1016,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'guillaumemembre',
-        gplus: null,
         github: null,
         website: 'http://www.monbook.tech'
     }, {
@@ -1123,7 +1025,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'stevesfartz',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1133,7 +1034,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'geofberard',
-        gplus: null,
         github: null,
         website: null
     },
@@ -1144,7 +1044,6 @@ var njSpeakers = [
         gravatar: null,
         photo: "jpg",
         twitter: "nebounet",
-        gplus: null,
         github: "Nebulis",
         website: null
     },
@@ -1156,7 +1055,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'guiblondeau',
-        gplus: null,
         github: 'guiblondeau',
         website: null
     },
@@ -1168,7 +1066,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'trevorreznik',
-        gplus: null,
         github: 'mathieuancelin',
         website: 'http://reactivecouchbase.org/'
     },
@@ -1181,7 +1078,6 @@ var njSpeakers = [
         gravatar: 'clement.escoffier@gmail.com',
         photo: null,
         twitter: 'clementplop',
-        gplus: null,
         github: 'cescoffier',
         website: 'http://escoffier.me'
     },
@@ -1193,7 +1089,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'spoint',
-        gplus: null,
         github: 'spoint42',
         website: 'http://blog.appsec.fr'
     },
@@ -1204,7 +1099,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'marclebrun',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1214,7 +1108,6 @@ var njSpeakers = [
         gravatar: 'eric.briand@zenika.com',
         photo: null,
         twitter: 'eric_briand',
-        gplus: null,
         github: 'ebriand',
         website: null
     }, {
@@ -1224,7 +1117,6 @@ var njSpeakers = [
         gravatar: 'julien.landure@gmail.com',
         photo: null,
         twitter: 'jlandure',
-        gplus: '+julienlanduré',
         github: 'jlandure',
         website: null
     }, {
@@ -1234,7 +1126,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'antoinecellier3',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1244,7 +1135,6 @@ var njSpeakers = [
         gravatar: 'freddy.mallet@gmail.com',
         photo: null,
         twitter: 'freddymallet',
-        gplus: null,
         github: 'fmallet',
         website: 'http://www.sonarsource.com'
     }, {
@@ -1259,7 +1149,6 @@ var njSpeakers = [
         gravatar: '',
         photo: 'jpg',
         twitter: 'MaxOdye',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1271,7 +1160,6 @@ var njSpeakers = [
         gravatar: '',
         photo: 'jpg',
         twitter: 'YannDanthu',
-        gplus: null,
         github: 'YannDanthu',
         website: 'http://yann.danthu.com/'
     }, {
@@ -1283,7 +1171,6 @@ var njSpeakers = [
         gravatar: '',
         photo: 'jpg',
         twitter: 'Matt_Gio',
-        gplus: null,
         github: null,
         website: 'http://www.design-en-entreprise.fr/'
     }, {
@@ -1295,7 +1182,6 @@ var njSpeakers = [
         gravatar: '',
         photo: null,
         twitter: null,
-        gplus: null,
         github: null,
         website: 'http://www.doyoubuzz.com/eric-bernardeau'
     }, {
@@ -1305,7 +1191,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'https://twitter.com/adrienpessu',
-        gplus: 'lol',
         github: 'https://github.com/adrienpessu',
         website: 'http://adrien.pessu.net',
     }, {
@@ -1319,7 +1204,6 @@ var njSpeakers = [
         gravatar: '',
         photo: 'jpg',
         twitter: 'YvonnickFrin',
-        gplus: null,
         github: 'frinyvonnick',
         website: null
     }, {
@@ -1329,7 +1213,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1339,7 +1222,6 @@ var njSpeakers = [
         gravatar: 'sbasle@pivotal.io',
         photo: null,
         twitter: 'simonbasle',
-        gplus: null,
         github: 'simonbasle',
         website: null
     }, {
@@ -1349,7 +1231,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'ldoguin',
-        gplus: null,
         github: 'ldoguin',
         website: null
     }, {
@@ -1363,7 +1244,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'martineauemeric',
-        gplus: null,
         github: 'bubulemaster',
         website: 'https://emericmartineau.blogspot.fr'
     }, {
@@ -1376,7 +1256,6 @@ var njSpeakers = [
         gravatar: null,
         photo: null,
         twitter: 'ruvachlea',
-        gplus: null,
         github: 'vickrame',
         website: null
     }, {
@@ -1386,7 +1265,6 @@ var njSpeakers = [
         gravatar: 'alexandre.delegue@serli.com',
         photo: null,
         twitter: 'chanksleroux',
-        gplus: null,
         github: 'larousso',
         website: null
     }, {
@@ -1396,7 +1274,6 @@ var njSpeakers = [
         gravatar: '',
         photo: null,
         twitter: 'alvinberthelot',
-        gplus: null,
         github: 'alvinberthelot',
         website: 'http://alvin.berthelot.rocks/'
     }, {
@@ -1406,7 +1283,6 @@ var njSpeakers = [
         gravatar: '',
         photo: null,
         twitter: '',
-        gplus: null,
         github: '',
         website: null
     }, {
@@ -1416,7 +1292,6 @@ var njSpeakers = [
         gravatar: '',
         photo: null,
         twitter: '',
-        gplus: null,
         github: '',
         website: null
     }, {
@@ -1426,7 +1301,6 @@ var njSpeakers = [
         gravatar: '',
         photo: 'jpg',
         twitter: 'CadentALatere',
-        gplus: null,
         github: '',
         website: null
     },
@@ -1438,7 +1312,6 @@ var njSpeakers = [
       gravatar: 'granini@gmail.com',
       photo: null,
       twitter: 'floriannegre',
-      gplus: null,
       github: 'fnegre',
       website: null
     },
@@ -1449,7 +1322,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'emmanueldemey',
-      gplus: null,
       github: 'gillespie59',
       website: null
     },
@@ -1460,7 +1332,6 @@ var njSpeakers = [
       gravatar: null,
       photo: null,
       twitter: null,
-      gplus: null,
       github: null,
       website: null
     },
@@ -1471,7 +1342,6 @@ var njSpeakers = [
       gravatar: null,
       photo: null,
       twitter: null,
-      gplus: null,
       github: null,
       website: null
     },
@@ -1482,7 +1352,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: null,
-      gplus: null,
       github: null,
       website: null
     },
@@ -1493,7 +1362,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'nsteinmetz',
-      gplus: null,
       github: 'nsteinmetz',
       website: 'https://www.cerenit.fr/'
     },
@@ -1509,7 +1377,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'nabilthalmann',
-      gplus: '112790923455569738063',
       github: null,
       website: null
     },
@@ -1525,7 +1392,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'salomonbrys',
-      gplus: null,
       github: 'SalomonBrys',
       website: 'http://kodein.net/fr/'
     },
@@ -1540,7 +1406,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'deniswsrosa',
-      gplus: null,
       github: 'deniswsrosa',
       website: null
     },
@@ -1551,7 +1416,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'grallcorentin',
-      gplus: null,
       github: 'grallc',
       website: 'about.me/grall'
     },
@@ -1562,7 +1426,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: null,
-      gplus: null,
       github: 'grallm',
       website: null
     },
@@ -1574,7 +1437,6 @@ var njSpeakers = [
       gravatar: null,
       photo: 'jpg',
       twitter: 'sylvain_m44',
-      gplus: null,
       github: 'sylvain-maillard',
       website: null
     }, {
@@ -1585,7 +1447,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'jphi_baconnais',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1595,7 +1456,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'julienbideau',
-        gplus: null,
         github: null,
         website: null
     }, {
@@ -1605,7 +1465,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'tnansot',
-        gplus: null,
         github: null,
         website: 'http://livingpackets.com'
     }, {
@@ -1617,7 +1476,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'patoudss',
-        gplus: null,
         github: 'patou',
         website: null
     }, {
@@ -1628,7 +1486,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: 'npayneau',
-        gplus: null,
         github: 'npayneau',
         website: null
     }, {
@@ -1638,7 +1495,6 @@ var njSpeakers = [
         gravatar: null,
         photo: 'jpg',
         twitter: null,
-        gplus: null,
         github: 'adbonnin',
         website: null
     }
