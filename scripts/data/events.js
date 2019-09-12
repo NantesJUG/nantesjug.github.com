@@ -2,26 +2,28 @@
 var njEvents = [
     {
         id: '2019_09_24',
-        title: "Eclipse // Ecrire des tests ? C’est illogique.",
+        title: "Les nouveautés Eclipse IDE // Écrire des tests ? C’est illogique.",
         date: new Date(2019, 8, 24), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/264731630/',
         place: 'talend',
         subjects: [
             {
-                title: 'Eclipse',
+                title: 'Les nouveautés Eclipse IDE',
                 time: '19h00',
                 length:'30 min',
                 type: 'quickie',
-                abstract: "",
+                abstract: "<p>Vous êtes développeur Java et vous utilisez Eclipse IDE, mais connaissez vous réellement ses dernières nouveautés ?</p>" +
+                          "<p>Au travers de cette présentation, je vous propose de découvrir les fonctionnalités de l'IDE Eclipse introduite dans les dernières release.</p>" +
+                          "<p>Cette présentation s'adresse aussi bien aux novices qu'aux chevronnées ayant envie d'apprendre à mieux connaître leur outil de développement quotidien.</p>",
                 speakers: ['gautier_de_saint_martin_lacaze']
             },
             {
-                title: 'Ecrire des tests ? C’est illogique.',
-                time: '19h30',
+                title: 'Écrire des tests ? C’est illogique.',
+                time: '19h40',
                 length:'1h',
                 type: 'talk',
-                abstract: '<p>Ecrire des tests c\'est bien, rédiger des spécifications c\'est mieux.</p>' + 
+                abstract: '<p>Écrire des tests c\'est bien, rédiger des spécifications c\'est mieux.</p>' + 
                           '<p>C\'est la promesse de Spock, un framework de spécification dont l\'objectif est d\'organiser nos tests afin de les rendre facile à lire, rapide à comprendre et simple à maintenir.</p>',
                 speakers: ['adrien_bonnin']
             }
