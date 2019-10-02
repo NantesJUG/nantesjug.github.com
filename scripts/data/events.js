@@ -1,6 +1,36 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_10_15',
+        title: "Apache Pulsar // ⛳️ Votre API passe-t-elle le contrôle technique ?",
+        date: new Date(2019, 9, 15), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/265336817/',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'Introduction à Apache Pulsar',
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "<p>\"Apache Pulsar, encore un système de messages pub/sub\", me direz-vous ? C'est pas faux... </p>" +
+                          "<p>Néanmoins, regardons de plus près... Pulsar est devenu un Top Level Project de la fondation Apache au mois de septembre 2018 et il se targue de vouloir unifier les modèles de messages traditionnels et le streaming, tout en fournissant un système extrêmement performant. " +
+                          "Alors partons à la découverte de ce nouveau pulsar pour voir de quoi il retourne !</p>",
+                speakers: ['bruno_bonnin']
+            },
+            {
+                title: '⛳️ Votre API passe-t-elle le contrôle technique ?',
+                time: '19h40',
+                length:'1h',
+                type: 'talk',
+                abstract: "<p>Nous savons tous développer une API mais avons-nous bien intégré toutes les problématiques?</p>" + 
+                          "<p>Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?</p>" + 
+                          "<p>Durant ce talk, c'est plus de 70 points d'attentions rarement évoqué que je vous propose d'aborder, à la lumière de retours d'expériences provenant de tech-leader comme Uber, Stripe, Facebook et Google mais aussi d'entreprise française de la petite startup à la PME.</p>",
+                speakers: ['francois_guillaume_ribreau']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_09_24',
         title: "Les nouveautés Eclipse IDE // Écrire des tests ? C’est illogique.",
         date: new Date(2019, 8, 24), //month begin at 0

@@ -47,7 +47,7 @@ var njSpeakers = [
     }, {
         id: 'bruno_bonnin',
         name: 'Bruno Bonnin',
-        bio: 'Polymorphic developer: #MongoDB, #Elasticsearch #ArangoDB #BigData #Hadoop #ApacheZeppelin #Vuejs #Java #JavaScript #Python ... and #ZXSpectrum fan',
+        bio: 'Vieux dev avec peu de cheveux et un gros ventre',
         gravatar: null,
         photo: 'png',
         twitter: '_bruno_b_',
@@ -1497,6 +1497,15 @@ var njSpeakers = [
         twitter: null,
         github: 'adbonnin',
         website: null
+    }, {
+        id: 'francois_guillaume_ribreau',
+        name: 'Francois-Guillaume Ribreau',
+        bio: "<p>Architect & head of digital development @Ouest-France - CTO & Founder @image-charts @Redsmin @MotionDynamic_ @cloud_iam_com @KillBug #FullStackHacker</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'FGRibreau',
+        github: 'fgribreau',
+        website: 'https://getnobullshit.com'
     }
 ];
 
