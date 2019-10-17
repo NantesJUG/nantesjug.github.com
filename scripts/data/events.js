@@ -1,6 +1,35 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_11_17',
+        title: "GitOps & Infra as code avec Pulumi // AWS : 10 trucs que j’aurais aimé connaître",
+        date: new Date(2019, 10, 7), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/265336817/',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'GitOps & Infra as code avec Pulumi',
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "<p>Arrivée avec Kubernetes, nous verons comment la pratique GitOps peut se décliner pour déployer nos infrastructures et applications sur AWS.</br>" +
+                             "Ce quickie sera l'occasion de découvrir l'outil d'infra as code qui fait le buzz en ce moment, Pulumi.</br>" +
+                             "Alors venez dire au revoir à vos anciennes pratiques !</p>",
+                speakers: ['manuel_boillod']
+            },
+            {
+                title: 'AWS : les 10 trucs que j’aurais aimé connaître avant de commencer',
+                time: '19h40',
+                length:'1h',
+                type: 'talk',
+                abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Nous vous partageons 10 points qui nous ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" + 
+                          "<p>Quel instances choisir parmis les 170 modèles? Comment gérer les droits IAM ? Pourquoi les accès disques sont bridés ? Combien va coûter mon infrastructure ? CodeStar est-il vraiment une star ? Autant de questions auxquelles nous apporterons des éléments de réponses.</p>",
+                speakers: ['guillaume_membre']
+            }
+        ],
+        docs: []
+    }, {
         id: '2019_10_15',
         title: "Apache Pulsar // ⛳️ Votre API passe-t-elle le contrôle technique ?",
         date: new Date(2019, 9, 15), //month begin at 0
