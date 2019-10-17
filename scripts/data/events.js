@@ -5,7 +5,7 @@ var njEvents = [
         title: "GitOps & Infra as code avec Pulumi // AWS : 10 trucs que j’aurais aimé connaître",
         date: new Date(2019, 10, 7), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/265336817/',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/265679860/',
         place: 'eartsup',
         subjects: [
             {
@@ -13,9 +13,9 @@ var njEvents = [
                 time: '19h00',
                 length:'30 min',
                 type: 'quickie',
-                abstract: "<p>Arrivée avec Kubernetes, nous verons comment la pratique GitOps peut se décliner pour déployer nos infrastructures et applications sur AWS.</br>" +
-                             "Ce quickie sera l'occasion de découvrir l'outil d'infra as code qui fait le buzz en ce moment, Pulumi.</br>" +
-                             "Alors venez dire au revoir à vos anciennes pratiques !</p>",
+                abstract: "<p>Arrivée avec Kubernetes, nous verons comment la pratique <b>GitOps</b> peut se décliner pour déployer nos infrastructures et applications sur <b>AWS</b>.</br>" +
+                             "Ce quickie sera l'occasion de découvrir l'outil d'infra as code qui fait le buzz en ce moment, <b>Pulumi</b>.</br>" +
+                             "Alors venez dire bye-bye à vos anciennes pratiques 👋</p>",
                 speakers: ['manuel_boillod']
             },
             {
