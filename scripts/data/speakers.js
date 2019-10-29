@@ -1013,7 +1013,7 @@ var njSpeakers = [
     }, {
         id: 'guillaume_membre',
         name: 'Guillaume Membré',
-        bio: '<p>Geek à toute heure, je travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques de déploiement continu, de qualimétrie. Désormais, je partage mon expérience pour faciliter la mise en place de démarche devops chez différents acteurs. J\'adore bidouiller des RaspberryPi ou Arduino pour créer des choses inutiles donc indispensables. Lorsque le temps le permet, je décris mes aventures sur mon <a href="https://www.geekeries.fun">site web</a>.',
+        bio: '<p>Geek à toute heure, je travaille principalement autour des technologies Java/JavaEE mais aussi sur des problématiques de déploiement continu, de qualimétrie. Désormais, je partage mon expérience pour faciliter la mise en place de démarche devops chez différents acteurs. J\'adore bidouiller des RaspberryPi ou Arduino pour créer des choses inutiles donc indispensables. Lorsque le temps le permet, je décris mes aventures sur mon <a href="https://www.geekeries.fun">site web</a>.</p>',
         gravatar: null,
         photo: 'jpg',
         twitter: 'guillaumemembre',
