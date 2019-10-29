@@ -24,7 +24,7 @@ var njEvents = [
                 length:'1h',
                 type: 'talk',
                 abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Je vous partagerais 10 points qui m'ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" + 
-                          "<p>Quel instances choisir parmis les 170 modèles? Pourquoi les accès disques sont bridés ? ... Autant de questions auxquelles nous apporterons des éléments de réponses.</p>",
+                          "<p>Quel instances choisir parmis les 170 modèles? Pourquoi les accès disques sont bridés ? ... Autant de questions auxquelles j'apporterais des éléments de réponses.</p>",
                 speakers: ['guillaume_membre']
             }
         ],
