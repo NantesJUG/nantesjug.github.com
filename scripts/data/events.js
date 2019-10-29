@@ -23,8 +23,8 @@ var njEvents = [
                 time: '19h40',
                 length:'1h',
                 type: 'talk',
-                abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Nous vous partageons 10 points qui nous ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" + 
-                          "<p>Quel instances choisir parmis les 170 modèles? Comment gérer les droits IAM ? Pourquoi les accès disques sont bridés ? Combien va coûter mon infrastructure ? CodeStar est-il vraiment une star ? Autant de questions auxquelles nous apporterons des éléments de réponses.</p>",
+                abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Je vous partagerais 10 points qui m'ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" + 
+                          "<p>Quel instances choisir parmis les 170 modèles? Pourquoi les accès disques sont bridés ? ... Autant de questions auxquelles nous apporterons des éléments de réponses.</p>",
                 speakers: ['guillaume_membre']
             }
         ],
