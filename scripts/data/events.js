@@ -11,8 +11,8 @@ var njEvents = [
             {
                 title: 'GitOps & Infra as code avec Pulumi',
                 time: '19h00',
-                length:'30 min',
-                type: 'quickie',
+                length:'45 min',
+                type: 'talk',
                 abstract: "<p>Arrivée avec Kubernetes, nous verons comment la pratique <b>GitOps</b> peut se décliner pour déployer nos infrastructures et applications sur <b>AWS</b>.</br>" +
                              "Ce quickie sera l'occasion de découvrir l'outil d'infra as code qui fait le buzz en ce moment, <b>Pulumi</b>.</br>" +
                              "Alors venez dire bye-bye à vos anciennes pratiques 👋</p>",
