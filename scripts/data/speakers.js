@@ -236,7 +236,7 @@ var njSpeakers = [
         gravatar: 'boillodmanuel@gmail.com',
         photo: null,
         twitter: 'mboillod',
-        github: null,
+        github: 'boillodmanuel',
         website: null
     },
     {
