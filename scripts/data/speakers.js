@@ -1507,6 +1507,33 @@ var njSpeakers = [
         twitter: 'FGRibreau',
         github: 'fgribreau',
         website: 'https://getnobullshit.com'
+    }, {
+        id: 'thomas_piart',
+        name: 'Thomas Piart',
+        bio: "<p>Développeur .Net chez Veepee depuis 2018, avec une forte affinité pour les problématiques d'intégration & déploiement continu.<br/> Thomas travaille sur une API Gateway permettant à Veepee France et ses partenaires européens de partager leur catalogue de vente et leur logistique. <br/> <i>Random: Mon dernier projet n'est pas du tout agile: 9 mois, et un seul déploiement</i></p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'tomap',
+        github: 'tomap',
+        website: null
+    }, {
+        id: 'pierre_antoine_ollivier',
+        name: 'Pierre-Antoine Ollivier',
+        bio: "<p>SRE chez Veepee depuis 2018, ma mission au quotidien est de m'assurer que nos développeurs peuvent travailler dans les meilleures conditions possibles, en travaillant avec eux pour répondre à leurs problématiques autour de déploiement, disponibilité, automatisation, et en leur fournissant une qualité de service optimale pour la production.</p><p><i>Rien n'est plus définitif qu'une solution temporaire</i></p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: null,
+        github: null,
+        website: null
+    }, {
+        id: 'ludovic_paquet',
+        name: 'Ludovic Paquet',
+        bio: "<p>Lead SRE chez Veepee depuis 2016, je traite des problématiques de disponibilité, architectures, automatisation des déploiements au sein de la Digital Factory. Auparavant j'ai exercé 7 ans à la R&D de vente-privée.</p><p>Fun fact : j'ai longtemps été un des seul devs Java Linux de VP et j'ai survécu. Depuis j'ai de nombreux amis au sein de Vptech</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: null,
+        github: null,
+        website: null
     }
 ];
 
