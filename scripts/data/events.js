@@ -1,6 +1,41 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2019_12_03',
+        title: "Retour d'experience Kubernetes  - Soirée de fin d'année!",
+        date: new Date(2019, 11, 3), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/Nantes-Java-User-Group/events/266458249/',
+        place: null,
+        subjects: [
+            {
+                title: "Meet & Greet",
+                time: '19h00',
+                length:'30h',
+                type: 'buffet',
+                abstract: "<p>Verre de bienvenue offert par les sponsors du JUG</p>",
+                speakers: []
+            },
+            {
+                title: "Kubernets: Retour d'Experience par VPTech",
+                time: '19h30',
+                length:'1h',
+                type: 'talk',
+                abstract: "<b><br/>En collaboration avec le Meetup 'CNCF Nantes'<br/><br/></b><p>Durant cette presentation Thomas, Ludovic et Pierre Antoine de VPTech ferons un retour d’expérience de l'utilisation de Kubernetes au sein de l’organisation Vptech.</p><p>Du développement à la mise en production, quels sont les outils et procédures mis en place afin d’augmenter la fiabilité et le time to market des développements.</p><p>2 points de vue vous seront présentés, celui des <b>SRE</b> et celui des <b>développeurs</b>.</p>",
+                speakers: ['ludovic_paquet','pierre_antoine_ollivier', 'thomas_piart']
+            },
+            {
+                title: "Meet & Greet",
+                time: '20h30',
+                length:'2h',
+                type: 'buffet',
+                abstract: "<p>Buffet offert par les sponsors du JUG</p>",
+                speakers: []
+            }
+        ],
+        docs: []
+    },    
+    {
         id: '2019_11_17',
         title: "GitOps & Infra as code avec Pulumi // AWS : 10 trucs que j’aurais aimé connaître",
         date: new Date(2019, 10, 7), //month begin at 0
