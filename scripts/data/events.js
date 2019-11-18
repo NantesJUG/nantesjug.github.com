@@ -6,12 +6,12 @@ var njEvents = [
         date: new Date(2019, 11, 3), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/Nantes-Java-User-Group/events/266458249/',
-        place: null,
+        place: 'resto_grand_t',
         subjects: [
             {
                 title: "Meet & Greet",
                 time: '19h00',
-                length:'30h',
+                length:'30mn',
                 type: 'buffet',
                 abstract: "<p>Verre de bienvenue offert par les sponsors du JUG</p>",
                 speakers: []

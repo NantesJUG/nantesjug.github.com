@@ -129,5 +129,13 @@ var njPlaces = [
     city: '44200 Nantes',
     maps: 'https://goo.gl/maps/XLf1v3i85no',
     capacity: 50
+  },
+  {
+    id: 'resto_grand_t',
+    name: 'Le Resto du Grand T',
+    address: '84 rue du Général Buat',
+    city: '4400 Nantes',
+    maps: 'https://goo.gl/maps/d2y9t5kZXLNkZfkk8',
+    capacity: 150
   }
 ];
