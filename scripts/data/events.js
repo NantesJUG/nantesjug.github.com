@@ -17,7 +17,7 @@ var njEvents = [
                 speakers: []
             },
             {
-                title: "Kubernets: Retour d'Experience par VPTech",
+                title: "Kubernetes: Retour d'Experience par VPTech",
                 time: '19h30',
                 length:'1h',
                 type: 'talk',
