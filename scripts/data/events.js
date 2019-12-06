@@ -22,7 +22,10 @@ var njEvents = [
                 length:'1h',
                 type: 'talk',
                 abstract: "<b><br/>En collaboration avec le Meetup 'CNCF Nantes'<br/><br/></b><p>Durant cette presentation Thomas, Ludovic et Pierre Antoine de VPTech ferons un retour d’expérience de l'utilisation de Kubernetes au sein de l’organisation Vptech.</p><p>Du développement à la mise en production, quels sont les outils et procédures mis en place afin d’augmenter la fiabilité et le time to market des développements.</p><p>2 points de vue vous seront présentés, celui des <b>SRE</b> et celui des <b>développeurs</b>.</p>",
-                speakers: ['ludovic_paquet','pierre_antoine_ollivier', 'thomas_piart']
+                speakers: ['ludovic_paquet','pierre_antoine_ollivier', 'thomas_piart'],
+                docs: [
+                    { name: 'Les slides du talk', url: 'https://drive.google.com/file/d/1iPTGrXIUdADeguKFEyGly-_UET2X0Czj', type: 'pdf' },
+                ]
             },
             {
                 title: "Meet & Greet",
