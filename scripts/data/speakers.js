@@ -5,6 +5,15 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'benjamin_casseron',
+        name: 'Benjamin Casseron',
+        bio: '',
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        github: null,
+        website: null
+    }, {
         id: 'ozan_gunalp',
         name: 'Ozan Gunalp',
         bio: 'Ozan est architecte chez LesFurets.com. Il est ingénieur docteur avec 10 ans d’expérience dans les systèmes distribués,' +

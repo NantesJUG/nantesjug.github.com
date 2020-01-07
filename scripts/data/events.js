@@ -1,6 +1,41 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2020_01_20',
+        title: "Tendances marché - baromètre des salaires // Redis : du Clé/Valeur au Multimodèle",
+        date: new Date(2020, 0, 20), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/Nantes-Java-User-Group/events/266458249/',
+        place: 'talend',
+        subjects: [
+            {
+                title: "Tendances marché - baromètre des salaires",
+                time: '19h00',
+                length:'15mn',
+                type: 'quickie',
+                abstract: "<p>Présentation du baromètre des salaires et des tendances marché sur l’environnement Java / JVM</p>",
+                speakers: ['benjamin_casseron']
+            },
+            {
+                title: "Redis : du Clé/Valeur au Multimodèle",
+                time: '19h30',
+                length:'1h',
+                type: 'talk',
+                abstract: "<p>Vous connaissez surement Redis l'une des bases de données NoSQL les plus populaires chez les développeurs. D'ailleurs Vous l'utilisez peut être déjà, mais sûrement de façon simple: en clé/valeur sous forme de cache. Mais Redis est bien plus que cela !</p>" +
+                "<p>Durant cette présentation vous découvrirez, avec des démonstrations, les structures de données telles que les Hash, Set, Sorted Set, Geospatial, Pub/Sub et Streams, qui nativement vous offrent de nombreuses options pour enrichir simplement vos applications.</p>" +
+                "<p>Vous verrez également que Redis avec son système d'extensions (les Modules Redis) permet maintenant de gérer plusieurs modèles de données (Structures, Commandes) :" +
+                "<ul><li>JSON</li>" +
+                "<li>Time Series</li>" +
+                "<li>Search</li>" +
+                "<li>Graph</li>" +
+                "<li>Bloom Filter</li></ul></p>" +
+                "<p>En résumé une base de donnée polyglotte parfaite pour vos micro-services !</p>",
+                speakers: ['tugdual_grall']
+            }
+        ],
+        docs: []
+    },    
+    {
         id: '2019_12_03',
         title: "Retour d'experience Kubernetes  - Soirée de fin d'année!",
         date: new Date(2019, 11, 3), //month begin at 0
