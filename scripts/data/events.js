@@ -5,7 +5,7 @@ var njEvents = [
         title: "Tendances marché // Redis : du Clé/Valeur au Multimodèle",
         date: new Date(2020, 0, 20), //month begin at 0
         time: '19h00',
-        register: '',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/267743136/',
         place: 'talend',
         subjects: [
             {
