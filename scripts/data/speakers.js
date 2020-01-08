@@ -14,7 +14,7 @@ var njSpeakers = [
         photo: null,
         twitter: 'bcasseron',
         github: null,
-        website: 'www.externatic.fr'
+        website: 'https://www.externatic.fr'
     }, {
         id: 'ozan_gunalp',
         name: 'Ozan Gunalp',
