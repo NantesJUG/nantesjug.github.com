@@ -103,6 +103,16 @@ a:focus {
     display: none;
 }
 
+/* custom bootstrap grid */
+.col-xs-offset-1-5 {
+  margin-left: 12.49999999%;
+}
+@media (min-width: 768px) {
+  .col-sm-offset-1-5 {
+    margin-left: 12.49999999%;
+  }
+}
+
 .slide {
     position: fixed;
     top: 0;
@@ -274,12 +284,6 @@ footer .line2 {
   .slide .sponsors-silver img, .slide .partners img {
     width: 70px;
   }
-  footer .twitter {
-    text-align: right;
-  }
-  footer .coffee{
-    text-align: left;
-  }
 }
 /* lg */
 @media (min-width: 1200px) {
@@ -296,12 +300,6 @@ footer .line2 {
   }
   .slide .sponsors-silver img, .slide .partners img {
     width: 100px;
-  }
-  footer .twitter {
-    text-align: right;
-  }
-  footer .coffee{
-    text-align: left;
   }
 }
 /*****LAYOUT*****/
@@ -799,7 +797,7 @@ footer .subscribe input, .container .subscribe input {
     height: 20px;
     width: 150px;
 }
-footer .twitter .btn-twitter {
+footer .btn-twitter {
     padding: 7px 7px 7px 35px;
     background-position-y: 7px;
 }
