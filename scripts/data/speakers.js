@@ -7,12 +7,14 @@ var njSpeakers = [
     {
         id: 'benjamin_casseron',
         name: 'Benjamin Casseron',
-        bio: '',
+        bio: "<p>Après une formation scientifique, Benjamin Casseron démarre sa carrière en tant que consultant dans le secteur de l’innovation. Il prend rapidement des responsabilités avec une casquette RH et le management d’une équipe. En 2012, Il crée une startup, kskills. Le but : proposer des challenges de programmation utilisés pour animer des équipes de développeurs ou pour recruter. Après la vente de son entreprise en 2014, Benjamin s’associe à Franck GASCARD pour créer le pôle startup / innovation au sein d’Externatic.</p>"+
+        "<p>Benjamin intervient activement dans le développement des agences nantaises & bordelaises et participe en tant que formateur et intervenant.</p>"+
+        "<p>Père de 2 enfants, ce qu’il aime dans la vie : le sport (running, escalade, sports nautiques), rencontrer & partager</p>",
         gravatar: null,
         photo: null,
-        twitter: null,
+        twitter: 'bcasseron',
         github: null,
-        website: null
+        website: 'www.externatic.fr'
     }, {
         id: 'ozan_gunalp',
         name: 'Ozan Gunalp',

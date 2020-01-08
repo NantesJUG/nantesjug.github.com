@@ -2,18 +2,19 @@
 var njEvents = [
     {
         id: '2020_01_20',
-        title: "Tendances marché - baromètre des salaires // Redis : du Clé/Valeur au Multimodèle",
+        title: "Tendances marché // Redis : du Clé/Valeur au Multimodèle",
         date: new Date(2020, 0, 20), //month begin at 0
         time: '19h00',
         register: '',
         place: 'talend',
         subjects: [
             {
-                title: "Tendances marché - baromètre des salaires",
+                title: "Baromètre des salaires et des tendances marché sur l’environnement Java / JVM",
                 time: '19h00',
                 length:'15mn',
                 type: 'quickie',
-                abstract: "<p>Présentation du baromètre des salaires et des tendances marché sur l’environnement Java / JVM</p>",
+                abstract: "<p>Je viens vous restituer une partie de l'analyse réalisée dans le cadre du baromètre des salaires.</p>"+ 
+                "<p>Cette étude est basée sur les + 1300 candidats rencontrés l'année dernière et + 200 entreprises accompagnées.</p>",
                 speakers: ['benjamin_casseron']
             },
             {
