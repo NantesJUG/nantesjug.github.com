@@ -1545,6 +1545,15 @@ var njSpeakers = [
         twitter: null,
         github: null,
         website: null
+    }, {
+        id: 'julien_roy', 
+        name: 'Julien Roy', 
+        bio: 'Développeur depuis 15 ans et actuellement Architecte Java. Je travaille principalement sur des plateformes à fort traffic. Mes centre d\'intérêts actuels tournent autour des architecture microservices et reactive.', 
+        gravatar: null, 
+        photo: 'jpg', 
+        twitter: 'vanroy',
+        github: 'VanRoy', 
+        website: 'https://www.linkedin.com/in/j-vanroy/'
     }
 ];
 

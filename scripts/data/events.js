@@ -1,6 +1,35 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2020_02_13',
+        title: "Motivation et Scaling Java Application",
+        date: new Date(2020, 1, 13), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/268263166/',
+        place: 'sii',
+        subjects: [
+            {
+                title: "Comment fonctionne la motivation ?",
+                time: '19h00',
+                length:'30mn',
+                type: 'talk',
+                abstract: "<p>On recherche un développeur motivé“. Vous avez déjà certainement vu cette offre d’embauche.</p>" +
+                "<p>Qu’est-ce qu’être motivé et est-ce un état permanent comme l’évoque cette phrase ?</p>" +
+                "<p>On verra les mécanismes de la motivation et comment faire pour motiver quelqu’un.</p>",
+                speakers: ['guillaume_blondeau']
+            },
+            {
+                title: "Scaling Java Application : Vers l’infini et au delà",
+                time: '19h45',
+                length:'1h',
+                type: 'talk',
+                abstract: "<p>Un moteur de calcul de prix en Java et scalable jusqu’à l’infini c’est possible ! Mais à notre grande surprise le chemin était pavé d’embuches.</p>" +
+                "<p>Dans cette présentation, je partage les différentes étapes, les problèmes rencontrés, les solutions ainsi que les outils qui nous ont permit d’atteindre cet objectif. On y parle JVM, Docker, AWS, Off-heap, Caching, Postgresql, Concurrence et autres réjouissances qui sortent un peu de notre quotidien de développeur.</p>",
+                speakers: ['julien_roy']
+            }
+        ],
+        docs: []
+    }, {
         id: '2020_01_20',
         title: "Tendances marché // Redis : du Clé/Valeur au Multimodèle",
         date: new Date(2020, 0, 20), //month begin at 0

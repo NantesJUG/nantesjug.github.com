@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'sii',
+    name: "SII Atlantique",
+    address: "10 Rue Magdeleine",
+    city: "44200 Nantes",
+    maps: 'https://goo.gl/maps/Luz5rKEpJcbBNtLQ7',
+    capacity: 60
+  },
+  {
     id: 'talend',
     name: "Talend",
     address: "89 Boulevard de la Prairie au Duc",
