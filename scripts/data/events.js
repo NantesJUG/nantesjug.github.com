@@ -60,7 +60,11 @@ var njEvents = [
                 "<li>Graph</li>" +
                 "<li>Bloom Filter</li></ul></p>" +
                 "<p>En résumé une base de donnée polyglotte parfaite pour vos micro-services !</p>",
-                speakers: ['tugdual_grall']
+                speakers: ['tugdual_grall'],
+                docs: [
+                    { name: 'La vidéo du talk', url: 'https://youtu.be/OqkFDtgMAYk', type: 'youtube' },
+                ]
+                
             }
         ],
         docs: []
