@@ -1,8 +1,8 @@
 /*jshint unused: false */
 var njPlaces = [
   {
-    id: 'epsi-beaulieu',
-    name: "EPSI - Campus de Nantes",
+    id: 'hep-campus',
+    name: "HEP Campus",
     address: "16 Boulevard Général de Gaulle",
     city: "44200 Nantes",
     maps: 'https://goo.gl/maps/42fC7xzXQpw6K8B99',

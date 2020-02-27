@@ -6,7 +6,7 @@ var njEvents = [
         date: new Date(2020, 2, 12), //month begin at 0
         time: '19h00',
         register: '',
-        place: 'epsi-beaulieu',
+        place: 'hep-campus',
         subjects: [
             {
                 title: "Envie de faire de l'accessibilité ? Enjeux et mise en place",
