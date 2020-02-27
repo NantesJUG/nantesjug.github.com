@@ -1,6 +1,34 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2020_03_12',
+        title: "Accessibilité // Architecture Hexagonale Level 2",
+        date: new Date(2020, 2, 12), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: 'epsi-beaulieu',
+        subjects: [
+            {
+                title: "Envie de faire de l'accessibilité ? Enjeux et mise en place",
+                time: '19h00',
+                length:'30mn',
+                type: 'quickie',
+                abstract: "<p>L'accessibilité des sites web est un enjeu de société. Pourquoi est-il si difficile de la mettre en pratique ?</p>",
+                speakers: ['david_caillaud']
+            },
+            {
+                title: "Architecture Hexagonale Level 2 : Comment bien écrire ses tests",
+                time: '19h45',
+                length:'1h',
+                type: 'talk',
+                abstract: "<p>De plus en plus d’équipes adoptent l’architecture hexagonale comme structure de prédilection pour leurs applications métiers, mais peu d’entre elles savent réellement bien les tester. Et malheureusement lorsque l’on se plante sur ce point, la maintenance de notre architecture hexa devient un véritable calvaire !</p> "+
+                "<p>Lors de ce talk, nous allons aborder les 5 niveaux de tests préconisés pour les microservices adaptés à l'architecture héxagonale. Et en prime comment avoir une documentation drivée par les tests. Venez découvrir à côté de quoi vous êtes peut-être passés dans le développement de vos tests !</p>" +
+                "<p>Ceci est une live coding session en Java/Kotlin SpringBoot.</p>",
+                speakers: ['julien_topcu', 'jordan_nourry']
+            }
+        ],
+        docs: []
+    }, {
         id: '2020_02_13',
         title: "Motivation et Scaling Java Application",
         date: new Date(2020, 1, 13), //month begin at 0

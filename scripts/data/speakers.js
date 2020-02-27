@@ -5,6 +5,33 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'julien_topcu',
+        name: 'Julien Topçu',
+        bio: "<p>Sr Tech Lead à la Société Générale, j'aime concevoir des logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'JulienTopcu',
+        github: 'julien-topcu',
+        website: 'https://beyondxscratch.com/'
+    }, {
+        id: 'jordan_nourry',
+        name: 'Jordan Nourry',
+        bio: "<p></p>",
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        github: null,
+        website: null
+    }, {
+        id: 'david_caillaud',
+        name: 'David Caillaud',
+        bio: "<p>Expert en accessibilité du web depuis 2015, créateur d'une bibliothèque de composants accessibles en jsp pour le portail ameli et actuellement responsable du portail des médecins, la promotion de l'accessibilité des sites web est un sujet qui me passionne depuis des années</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: null,
+        github: null,
+        website: null
+    }, {
         id: 'benjamin_casseron',
         name: 'Benjamin Casseron',
         bio: "<p>Après une formation scientifique, Benjamin Casseron démarre sa carrière en tant que consultant dans le secteur de l’innovation. Il prend rapidement des responsabilités avec une casquette RH et le management d’une équipe. En 2012, Il crée une startup, kskills. Le but : proposer des challenges de programmation utilisés pour animer des équipes de développeurs ou pour recruter. Après la vente de son entreprise en 2014, Benjamin s’associe à Franck GASCARD pour créer le pôle startup / innovation au sein d’Externatic.</p>"+
