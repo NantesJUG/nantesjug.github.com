@@ -16,10 +16,11 @@ var njSpeakers = [
     }, {
         id: 'jordan_nourry',
         name: 'Jordan Nourry',
-        bio: "<p></p>",
+        bio: "<p>Développeur senior chez Shodo, j'accompagne aujourd'hui Thalès Digital Factory dans la construction de leur plateforme Cloud permettant de déploiement des projets dans le monde entier de manière rapide, hautement securisé, scalable et résiliente.</p>" + 
+        "<p>En tant que craftsman, je redistribue depuis plusieurs années les connaissances acquises à travers mes expériences via des articles, BBLs, conférences et meetups.</p>",
         gravatar: null,
         photo: null,
-        twitter: null,
+        twitter: 'JKnourry',
         github: null,
         website: null
     }, {
