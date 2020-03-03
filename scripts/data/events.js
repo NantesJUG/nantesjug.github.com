@@ -5,7 +5,7 @@ var njEvents = [
         title: "Accessibilité // Architecture Hexagonale Level 2",
         date: new Date(2020, 2, 12), //month begin at 0
         time: '19h00',
-        register: '',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/269153499/',
         place: 'hep-campus',
         subjects: [
             {
