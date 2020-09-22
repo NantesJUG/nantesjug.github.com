@@ -22,7 +22,10 @@ var njEvents = [
                 time: '20h00',
                 length:'30mn',
                 type: 'quickie',
-                abstract: "<p></p>",
+                abstract: "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><hr/>"
+                +"<p><i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
+                +"Venez avec vos masques, qui sont obligatoires lorsque vous vous déplacez, optionnel dans l'amphitheatre si vous vous laissez un siègre vide entre vous.</i></p>"
+                            ,
                 speakers: ['julien_mourgues']
             }
         ],
