@@ -2,32 +2,34 @@
 var njEvents = [
     {
         id: '2020_09_29',
-        title: "Data science avec les projets Apache / Chaos Engineering avec Spring",
+        title: "Chaos Engineering avec Spring / Data science avec les projets Apache",
         date: new Date(2020, 8, 29), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/Nantes-Java-User-Group/events/273424912/',
         place: 'eartsup',
         subjects: [
             {
+                title: "Comment pratiquer le Chaos engineering avec Spring Boot",
+                time: '19h15h',
+                length:'30mn',
+                type: 'quickie',
+                abstract: "<p>On parle souvent de chaos engineering mais dans la pratique ça donne quoi ? En tant que développeur, j'ai l'impression que cette discipline est réservée au OPS. </p>"
+                    +"<p>Sur un projet Java avec Spring Boot, puis je faire du chaos engineering ? </p><p>Dans ce quickie, on vous donne la solution avec 'Chaos Monkey for Spring Boot'.</p>"
+                    ,
+                speakers: ['julien_mourgues']
+            },
+            {
                 title: "Drilling Zeppelin: data science dans la galaxie apache",
-                time: '19h15',
+                time: '20h00',
                 length:'30/40mn',
                 type: 'quickie',
                 abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>"+
-                "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>",
-                speakers: ['julien_tanguy']
-            },
-            {
-                title: "Comment pratiquer le Chaos engineering avec Spring Boot",
-                time: '20h00',
-                length:'30mn',
-                type: 'quickie',
-                abstract: "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><hr/>"
+                "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>"
                 +"<p><i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
-                +"Venez avec vos masques, qui sont obligatoires lorsque vous vous déplacez, optionnel dans l'amphitheatre si vous vous laissez un siègre vide entre vous.</i></p>"
-                            ,
-                speakers: ['julien_mourgues']
+                +"Venez avec vos masques, qui sont obligatoires lorsque vous vous déplacez, optionnel dans l'amphitheatre si vous vous laissez un siègre vide entre vous.</i></p>"                ,
+                speakers: ['julien_tanguy']
             }
+
         ],
         docs: []
     },  {

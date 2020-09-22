@@ -7,12 +7,15 @@ var njSpeakers = [
     {
         id: 'julien_mourgues',
         name: 'Julien Mourgues',
-        bio: "<p>Julien est architecte cloud chez Thales, et développeur Java/Jascript</p>",
+        bio: "<p>Je suis architecte Cloud chez Thales et travaille depuis 12 ans dans le monde Java/Javascript.</p>"
+            +"<p>Depuis le lycée, j'ai toujours aimé les technologies Web.</p>"
+            +"<p>Mon parcours est assez classique de développeur à architecte en passant par des cases de formateur, leader technique et consultant technique. Ces dernières années, je me suis passionné pour les technologies Cloud.</p>"
+            +"<p>En perso, j'adore le tennis et je serai ravie de taper la balle avec qui le souhaite.</p>",
         gravatar: null,
         photo: 'jpg',
         twitter: 'julm82',
         github: 'julienmourgues',
-        website: 'https://jtanguy.me'
+        website: 'https://fr.linkedin.com/in/julien-mourgues-469291146'
     },  {
         id: 'julien_tanguy',
         name: 'Julien Tanguy',
