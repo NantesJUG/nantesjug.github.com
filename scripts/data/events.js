@@ -25,7 +25,7 @@ var njEvents = [
                 type: 'quickie',
                 abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>"+
                 "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>"
-                +"<p><i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
+                +"<p>&nbsp;</p><p>&nbsp;</p><hr><p><i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
                 +"Venez avec vos masques, qui sont obligatoires lorsque vous vous déplacez, optionnel dans l'amphitheatre si vous vous laissez un siègre vide entre vous.</i></p>"                ,
                 speakers: ['julien_tanguy']
             }
