@@ -5,6 +5,24 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'julien_mourgues',
+        name: 'Julien Mourgues',
+        bio: "<p>Julien est architecte cloud chez Thales, et développeur Java/Jascript</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'julm82',
+        github: 'julienmourgues',
+        website: 'https://jtanguy.me'
+    },  {
+        id: 'julien_tanguy',
+        name: 'Julien Tanguy',
+        bio: "<p>Julien est développeur chez <a href='https://www.valwin.fr/'>Valwin</a>.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'jutanguy',
+        github: 'jtanguy',
+        website: 'https://jtanguy.me'
+    },  {
         id: 'julien_topcu',
         name: 'Julien Topçu',
         bio: "<p>Sr Tech Lead à la Société Générale, j'aime concevoir des logiciels à forte valeur métier en usant de techniques issues du Domain-Driven Design, le tout propulsé en Xtreme Programming dans la philosophie Kanban #NoEstimates. Membre de la fondation OWASP, j'évangélise sur les techniques de sécurité applicative afin d'éviter de se faire hacker bien comme il faut.</p>",

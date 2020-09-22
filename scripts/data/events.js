@@ -1,6 +1,33 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2020_09_29',
+        title: "Data science avec les projets Apache / Chaos Engineering avec Spring",
+        date: new Date(2020, 8, 29), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/Nantes-Java-User-Group/events/273424912/',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: "Drilling Zeppelin: data science dans la galaxie apache",
+                time: '19h15',
+                length:'30/40mn',
+                type: 'quickie',
+                abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>"+
+                "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>",
+                speakers: ['julien_tanguy']
+            },
+            {
+                title: "Comment pratiquer le Chaos engineering avec Spring Boot",
+                time: '20h00',
+                length:'30mn',
+                type: 'quickie',
+                abstract: "<p></p>",
+                speakers: ['julien_mourgues']
+            }
+        ],
+        docs: []
+    },  {
         id: '2020_03_12',
         title: "Accessibilité // Architecture Hexagonale Level 2",
         date: new Date(2020, 2, 12), //month begin at 0
