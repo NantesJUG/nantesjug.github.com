@@ -1,6 +1,40 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2020_10_26',
+        title: "Des petites voitures sur AWS et du scripting en Java avec jbang",
+        date: new Date(2020, 9, 26), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/274020038/',
+        place: 'lepalace',
+        subjects: [
+            {
+                title: "Comment j'ai fini par déployer à 2h du matin une application sur AWS pour piloter des voitures électriques avec un vélo d'appartement.",
+                time: '19h15h',
+                length:'30mn',
+                type: 'quickie',
+                abstract: "<p>- J'ai une super idée, mais je vais avoir besoin d'aide, parce que moi et le code...<br>"+
+                "ha ?<br>"+
+                "- Je voudrais faire tourner des voitures électriques sur un circuit en faisant pédaler des gens pendant 24h<br>"+
+                "...<br>"+
+                "- Tu vois comment faire ?<br>"+
+                "- Alors... c'est pas dur... Il suffit de deux Arduino, d'un Raspberry, quelques capteurs et c'est parti...</p>"+
+                "<p>Et voilà à peu près comment en 2 minutes j’ai été convaincu de suivre un hurluberlu dans un projet franchement rigolo mêlant de nombreuses technos.</p>"+
+                "<p>Et cerise sur le gâteau, les aléas techniques m’ont conduit jusqu’à déployer la solution sur AWS depuis une salle des fêtes en rase campagne un jour de tempête avec pour seule connexion mon téléphone…</p>",
+                speakers: ['nicolas_giraud']
+            },
+            {
+                title: "Scripting en Java avec jbang",
+                time: '20h00',
+                length:'30mn',
+                type: 'quickie',
+                abstract: "<p>Si vous aussi vous maîtrisez Java mais pas le bash, et si vous aussi vous aimez le support d'un IDE pour faire un script, alors venez découvrir le pouvoir de jbang et du scripting en Java.</p><hr><p>⚠️⚠️⚠️<i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
+                +"Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
+                speakers: ['gautier_de_saint_martin_lacaze']
+            }
+        ],
+        docs: []
+    },  {
         id: '2020_09_29',
         title: "Chaos Engineering avec Spring / Data science avec les projets Apache",
         date: new Date(2020, 8, 29), //month begin at 0
@@ -25,8 +59,8 @@ var njEvents = [
                 type: 'quickie',
                 abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>"+
                 "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>"
-                +"<p>&nbsp;</p><p>&nbsp;</p><hr><p><i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
-                +"Venez avec vos masques, qui sont obligatoires lorsque vous vous déplacez, optionnel dans l'amphitheatre si vous vous laissez un siègre vide entre vous.</i></p>"                ,
+                +"<p>&nbsp;</p><p>&nbsp;</p><hr><p>⚠️⚠️⚠️<i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
+                +"Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
                 speakers: ['julien_tanguy']
             }
 
@@ -102,7 +136,7 @@ var njEvents = [
                 time: '19h00',
                 length:'15mn',
                 type: 'quickie',
-                abstract: "<p>Je viens vous restituer une partie de l'analyse réalisée dans le cadre du baromètre des salaires.</p>"+ 
+                abstract: "<p>Je viens vous restituer une partie de l'analyse réalisée dans le cadre du baromètre des salaires.</p>"+
                 "<p>Cette étude est basée sur les + 1300 candidats rencontrés l'année dernière et + 200 entreprises accompagnées.</p>",
                 speakers: ['benjamin_casseron']
             },
@@ -124,11 +158,11 @@ var njEvents = [
                 docs: [
                     { name: 'La vidéo du talk', url: 'https://youtu.be/OqkFDtgMAYk', type: 'youtube' },
                 ]
-                
+
             }
         ],
         docs: []
-    },    
+    },
     {
         id: '2019_12_03',
         title: "Retour d'experience Kubernetes  - Soirée de fin d'année!",
@@ -166,7 +200,7 @@ var njEvents = [
             }
         ],
         docs: []
-    },    
+    },
     {
         id: '2019_11_17',
         title: "GitOps & Infra as code avec Pulumi // AWS : 10 trucs que j’aurais aimé connaître",
@@ -190,7 +224,7 @@ var njEvents = [
                 time: '19h40',
                 length:'1h',
                 type: 'talk',
-                abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Je vous partagerais 10 points qui m'ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" + 
+                abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Je vous partagerais 10 points qui m'ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" +
                           "<p>Quel instances choisir parmis les 170 modèles? Pourquoi les accès disques sont bridés ? ... Autant de questions auxquelles j'apporterais des éléments de réponses.</p>",
                 speakers: ['guillaume_membre']
             }
@@ -219,8 +253,8 @@ var njEvents = [
                 time: '19h40',
                 length:'1h',
                 type: 'talk',
-                abstract: "<p>Nous savons tous développer une API mais avons-nous bien intégré toutes les problématiques?</p>" + 
-                          "<p>Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?</p>" + 
+                abstract: "<p>Nous savons tous développer une API mais avons-nous bien intégré toutes les problématiques?</p>" +
+                          "<p>Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?</p>" +
                           "<p>Durant ce talk, c'est plus de 70 points d'attentions rarement évoqué que je vous propose d'aborder, à la lumière de retours d'expériences provenant de tech-leader comme Uber, Stripe, Facebook et Google mais aussi d'entreprise française de la petite startup à la PME.</p>",
                 speakers: ['francois_guillaume_ribreau']
             }
@@ -249,7 +283,7 @@ var njEvents = [
                 time: '19h40',
                 length:'1h',
                 type: 'talk',
-                abstract: '<p>Écrire des tests c\'est bien, rédiger des spécifications c\'est mieux.</p>' + 
+                abstract: '<p>Écrire des tests c\'est bien, rédiger des spécifications c\'est mieux.</p>' +
                           '<p>C\'est la promesse de Spock, un framework de spécification dont l\'objectif est d\'organiser nos tests afin de les rendre facile à lire, rapide à comprendre et simple à maintenir.</p>',
                 speakers: ['adrien_bonnin']
             }

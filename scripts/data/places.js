@@ -2,33 +2,34 @@
 var njPlaces = [
   {
     id: 'hep-campus',
-    name: "HEP Campus",
-    address: "16 Boulevard Général de Gaulle",
-    city: "44200 Nantes",
+    name: 'HEP Campus',
+    address: '16 Boulevard Général de Gaulle',
+    city: '44200 Nantes',
     maps: 'https://goo.gl/maps/42fC7xzXQpw6K8B99',
     capacity: 100
   },
   {
     id: 'sii',
-    name: "SII Atlantique",
-    address: "10 Rue Magdeleine",
-    city: "44200 Nantes",
+    name: 'SII Atlantique',
+    address: '10 Rue Magdeleine',
+    city: '44200 Nantes',
     maps: 'https://goo.gl/maps/Luz5rKEpJcbBNtLQ7',
     capacity: 60
   },
   {
     id: 'talend',
-    name: "Talend",
-    address: "89 Boulevard de la Prairie au Duc",
-    city: "44200 Nantes",
+    name: 'Talend',
+    address: '89 Boulevard de la Prairie au Duc',
+    city: '44200 Nantes',
     maps: 'https://goo.gl/maps/JRHguEuZ6gdx4rHH7',
     capacity: 100
   },
   {
     id: 'terrasses_de_l_erdre',
-    name: "Terrasses de l'Erdre",
-    address: "Parc des expositions Porte n°4 - Route de Saint Joseph de Porterie",
-    city: "44300 Nantes",
+    name: 'Terrasses de l\'Erdre',
+    address:
+        'Parc des expositions Porte n°4 - Route de Saint Joseph de Porterie',
+    city: '44300 Nantes',
     maps: 'https://goo.gl/maps/pK3wYdcntMB2',
     capacity: 100
   },
@@ -107,12 +108,12 @@ var njPlaces = [
     capacity: 80
   },
   {
-	    id: 'insula',
-	    name: 'Insula',
-	    address: '47 rue de la Tour d\'Auvergne',
-	    city: '44000 Nantes',
-	    maps: 'https://goo.gl/maps/kF6xeKsUBZU2',
-	    capacity: 100
+    id: 'insula',
+    name: 'Insula',
+    address: '47 rue de la Tour d\'Auvergne',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/kF6xeKsUBZU2',
+    capacity: 100
   },
   {
     id: 'adresse_gare_sud',
@@ -150,8 +151,16 @@ var njPlaces = [
     id: 'resto_grand_t',
     name: 'Le Resto du Grand T',
     address: '84 rue du Général Buat',
-    city: '4400 Nantes',
+    city: '44000 Nantes',
     maps: 'https://goo.gl/maps/d2y9t5kZXLNkZfkk8',
     capacity: 150
+  },
+  {
+    id: 'lepalace',
+    name: 'Le Palace',
+    address: '4 rue Voltaire',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/m5DHkdHgBEEDz9kR8',
+    capacity: 50
   }
 ];
