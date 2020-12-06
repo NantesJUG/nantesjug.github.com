@@ -73,7 +73,7 @@
           </div>
         </div>
 
-        <div class="col-md-5 hidden-xs hidden-sm jug-event-location">
+        <div ng-if="event.place.id != 'online'" class="col-md-5 hidden-xs hidden-sm jug-event-location">
           <ng-include src="'views/templates/address.html'"></ng-include>
           <div>
             <a ng-href="{{event.place.maps}}" ng-if="event.place" target="_blank">
