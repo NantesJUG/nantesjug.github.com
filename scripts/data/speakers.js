@@ -5,6 +5,16 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'sebastien_blanc',
+        name: 'Sebastien Blanc',
+        bio: '<p>Sébastien Blanc est directeur de l\'experience développeurs, aka "lanceur de paillettes",  chez Red Hat. '
+            +' Son but principal est de rendre les développeurs heureux.</p>',
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'sebi2706',
+        github: 'sebastienblanc',
+        website: 'https://www.linkedin.com/in/s%C3%A9bastien-blanc-08a73b1'
+    },  {        
         id: 'julien_mourgues',
         name: 'Julien Mourgues',
         bio: "<p>Je suis architecte Cloud chez Thales et travaille depuis 12 ans dans le monde Java/Javascript.</p>"
@@ -278,7 +288,7 @@ var njSpeakers = [
     },
     {
         id: 'sebastien_prunier',
-        name: 'Sébastien Prunier',
+        name: 'Sebastien Prunier',
         bio: '"Je suis Développeur chez SERLI, spécialisé dans les technologies Java, Cloud et NoSQL (MongoDB, Couchbase). Je m\'intéresse plus récemment au langage Javascript, côté client (Angular.js) et côté serveur (Node.js) . Je fais aussi quelques contributions autour de la solution BPM Bonita. Vous pouvez me croiser dans différentes conférences : JUGs, Devoxx France, JugSummerCamp, BreizhCamp, Google Dev Fest ..."',
         gravatar: 'sebastien.prunier@gmail.com',
         photo: null,
@@ -516,7 +526,7 @@ var njSpeakers = [
     },
     {
         id: 'sebastien_roul',
-        name: 'Sébastien Roul',
+        name: 'Sebastien Roul',
         bio: '20 ans de développement, depuis VB 1.0 - mon métier : Construire et maintenir des logiciels.',
         gravatar: 'sebastien.roul@netapsys.fr',
         photo: null,

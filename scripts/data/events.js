@@ -1,6 +1,25 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2020_12_16',
+        title: "Comment votre application peut être une bonne citoyenne du Cloud (Virtuel)",
+        date: new Date(2020, 11, 16), //month begin at 0
+        time: '18h45',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/275018773',
+        place: 'online',
+        subjects: [
+            {
+                title: "Comment votre application peut être une bonne citoyenne du Cloud",
+                time: '19h00',
+                length:'60mn',
+                type: 'talk',
+                abstract: "<p>Venez découvrir dans cette session 100% live coding et interactive comment Java revient en force dans le monde du Cloud.</p>"
+                + "<p>On verra comment des nouvelles stacks Java peuvent s'intégrer et tirer profit des nouvelles contraintes imposées par le monde merveilleux du cloud</p>",
+                speakers: ['sebastien_blanc']
+            }
+        ],
+        docs: []
+    },  {
         id: '2020_10_26',
         title: "Des petites voitures sur AWS et du scripting en Java avec jbang",
         date: new Date(2020, 9, 26), //month begin at 0

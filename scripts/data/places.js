@@ -162,5 +162,13 @@ var njPlaces = [
     city: '44000 Nantes',
     maps: 'https://goo.gl/maps/m5DHkdHgBEEDz9kR8',
     capacity: 50
-  }
+  },
+  {
+    id: 'online',
+    name: 'online',
+    address: '',
+    city: '',
+    maps: '',
+    capacity: 300
+  },
 ];
