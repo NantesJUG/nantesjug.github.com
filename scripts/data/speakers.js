@@ -617,11 +617,11 @@ var njSpeakers = [
     {
         id: 'guillaume_laforge',
         name: 'Guillaume Laforge',
-        bio: 'Guillaume est le chef de projet de Groovy, un langage dynamique pour la JVM. Il a rejoint SpringSource France suite au rachat de sa société G2One qui proposait des services professionnels autour de Groovy et Grails (formation, support, conseil).  Il est également le Spec Lead de JSR-241, le Java Specification Request qui standardise le langage Groovy au sein du Java Community Process. Enfin, Guillaume est le co-auteur du livre "Groovy in Action" aux éditions Manning. Son Blog : <a href="http://www.springsource.com/blog/329" target="_blank">http://www.springsource.com/blog/329</a>  ou <a href="http://glaforge.free.fr/weblog" target="_blank">http://glaforge.free.fr/weblog</a>',
+        bio: 'At Google, Guillaume Laforge is Developer Advocate for the Google Cloud Platform, where he spread the word about the rich set of products and services offered for developers wishing to take advantage of the cloud for their projects and businesses.',
         gravatar: 'glaforge@gmail.com',
         photo: null,
-        twitter: null,
-        github: null,
+        twitter: "glaforge",
+        github: "glaforge",
         website: null
     },
     {

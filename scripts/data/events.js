@@ -1,5 +1,29 @@
 /*jshint unused: false */
 var njEvents = [
+
+    {
+        id: '2020_12_16',
+        title: "Décollage de microservices Micronaut en Java dans les nuages",
+        date: new Date(2021, 8, 16), //month begin at 0
+        time: '18h00',
+        register: 'https://gdg.community.dev/events/details/google-gdg-cloud-nantes-presents-decollage-de-microservices-micronaut-en-java-dans-les-nuages/',
+        place: 'online',
+        subjects: [
+            {
+                title: "Décollage de microservices Micronaut en Java dans les nuages",
+                time: '18h15',
+                length:'60mn',
+                type: 'talk',
+                abstract: 
+                "<p>Au lieu de passer trop de temps sur de l'infra, prenez avantage des solutions serverless. Focalisez vous sur votre code Micronaut, et déployer le rapidement sous forme de fonction, d'application, ou dans un conteneur, sur Google cloud Platform.</p>" +
+                "<p>Dans cette session, vous découvrirez les choix offerts par Google Cloud pour déployer des applications Micronaut. Avec Micronaut Launch, c'est d'autant plus facile pour démarrer un nouveau projet à partir d'un template, et après quelques modifications, d'être capable de déployer en production dans la minute qui suit.</p>" +
+                "<p>Grâce à ses performances, sa faible consommation mémoire, la possibilité de créer des images natives, Micronaut démarre au quart de tour, et est particulièrement bien adapté pour le cloud et les solutions serverless.</p>"+
+                '<p>Cette session "Java & Google Cloud" est co-organisée avec le <a href="https://gdg.community.dev/gdg-cloud-nantes/">GDG Cloud Nantes</a>.</p>',
+                speakers: ['guillaume_laforge']
+            }
+        ],
+        docs: []
+    }, 
     {
         id: '2020_12_16',
         title: "Comment votre application peut être une bonne citoyenne du Cloud (Virtuel)",
