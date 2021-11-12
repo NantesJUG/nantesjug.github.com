@@ -5,6 +5,26 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'thomas_brosillon',
+        name: 'Thomas Brosillon',
+        bio: '<p>Ingénieur DevOps / SRE et Tech Lead</p>',
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        github: 'thomariobros',
+        website: 'https://www.linkedin.com/in/thomas-brosillon/'
+    },
+    {
+        id: 'thomas_rossignol',
+        name: 'Thomas Rossignol',
+        bio: '<p>Director of Engineering chez Decathlon</p>',
+        gravatar: 'thomas.rossignol.pro@gmail.com',
+        photo: null,
+        twitter: 'RossignolTom',
+        github: null,
+        website: null
+    },
+    {
         id: 'sebastien_blanc',
         name: 'Sebastien Blanc',
         bio: '<p>Sébastien Blanc est directeur de l\'experience développeurs, aka "lanceur de paillettes",  chez Red Hat. '
@@ -14,7 +34,8 @@ var njSpeakers = [
         twitter: 'sebi2706',
         github: 'sebastienblanc',
         website: 'https://www.linkedin.com/in/s%C3%A9bastien-blanc-08a73b1'
-    },  {        
+    },
+    {        
         id: 'julien_mourgues',
         name: 'Julien Mourgues',
         bio: "<p>Je suis architecte Cloud chez Thales et travaille depuis 12 ans dans le monde Java/Javascript.</p>"

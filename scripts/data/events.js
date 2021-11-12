@@ -2,7 +2,28 @@
 var njEvents = [
 
     {
-        id: '2020_12_16',
+        id: '2021_12_01',
+        title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
+        date: new Date(2021, 11, 1), //month begin at 0
+        time: '19h00',
+        // register: 'https://gdg.community.dev/events/details/google-gdg-cloud-nantes-presents-decollage-de-microservices-micronaut-en-java-dans-les-nuages/',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
+                time: '19h00',
+                length:'90mn',
+                type: 'talk',
+                abstract: 
+                "<p>Introduction aux instances spot AWS pour faire des économies et améliorer la résilience de ses applications.</p>" +
+                "<p>Depuis plusieurs années, AWS propose d'utiliser des machines SPOT, des VMs bradées mais qui peuvent vous être retirées à tout moment. Découvrez comment Sparklane a pensé son architecture résiliante et son outillage DevOps pour profiter au maximum de ce type de machine et ainsi réduire considérablement ses coûts de hosting.</p>",
+                speakers: ['thomas_brosillon', 'thomas_rossignol']
+            }
+        ],
+        docs: []
+    }, 
+    {
+        id: '2021_09_16',
         title: "Décollage de microservices Micronaut en Java dans les nuages",
         date: new Date(2021, 8, 16), //month begin at 0
         time: '18h00',
