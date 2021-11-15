@@ -6,7 +6,7 @@ var njEvents = [
         title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
         date: new Date(2021, 11, 1), //month begin at 0
         time: '19h00',
-        // register: 'https://gdg.community.dev/events/details/google-gdg-cloud-nantes-presents-decollage-de-microservices-micronaut-en-java-dans-les-nuages/',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/282094863',
         place: 'eartsup',
         subjects: [
             {
@@ -16,7 +16,8 @@ var njEvents = [
                 type: 'talk',
                 abstract: 
                 "<p>Introduction aux instances spot AWS pour faire des économies et améliorer la résilience de ses applications.</p>" +
-                "<p>Depuis plusieurs années, AWS propose d'utiliser des machines SPOT, des VMs bradées mais qui peuvent vous être retirées à tout moment. Découvrez comment Sparklane a pensé son architecture résiliante et son outillage DevOps pour profiter au maximum de ce type de machine et ainsi réduire considérablement ses coûts de hosting.</p>",
+                "<p>Depuis plusieurs années, AWS propose d'utiliser des machines SPOT, des VMs bradées mais qui peuvent vous être retirées à tout moment. Découvrez comment Sparklane a pensé son architecture résiliante et son outillage DevOps pour profiter au maximum de ce type de machine et ainsi réduire considérablement ses coûts de hosting.</p>" + 
+                "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire est obligatoire. ⚠⚠⚠</b></p>",
                 speakers: ['thomas_brosillon', 'thomas_rossignol']
             }
         ],
