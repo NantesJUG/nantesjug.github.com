@@ -5,6 +5,16 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'thibault_duperron',
+        name: 'Thibault Duperron',
+        bio: '<p></p>',
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        github: null,
+        website: null
+    },
+    {
         id: 'thomas_brosillon',
         name: 'Thomas Brosillon',
         bio: '<p>Ingénieur DevOps / SRE et Tech Lead</p>',

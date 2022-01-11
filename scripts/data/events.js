@@ -1,6 +1,38 @@
 /*jshint unused: false */
 var njEvents = [
-
+    {
+        id: '2022_26_01',
+        title: "OpenApi Generator / Fuites de données",
+        date: new Date(2022, 0, 26), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/283199789',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: "Approche \"contract-first\" avec OpenApi Generator",
+                time: '19h00',
+                length:'35mn',
+                type: 'talk',
+                abstract: 
+                "<p>Approche \"contract-first\" avec OpenApi Generator</p>" + 
+                "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
+                speakers: ['thibault_duperron']
+            }, {
+                title: "10 leçons sur les 10 plus grosses fuites de données",
+                time: '19h40',
+                length:'35mn',
+                type: 'talk',
+                abstract: 
+                "<p>Sony, Über, Yahoo, Adult Friends finder, ces noms vous disent quelque chose ?</br>" + 
+                "Vous utilisez peut-être les services de ses entreprises.</br>" + 
+                "Elles ont aussi un point commun, elles ont subi une fuite de leurs données utilisateurs.</br>" + 
+                "Comment les hackers s’y sont pris ? et surtout Quelles leçons peut-on en tirer pour le développement de nos applications ?</br></p>" + 
+                "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
+                speakers: ['adrien_pessu']
+            }
+        ],
+        docs: []
+    }, 
     {
         id: '2021_12_01',
         title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
