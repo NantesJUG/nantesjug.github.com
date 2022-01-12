@@ -1292,8 +1292,8 @@ var njSpeakers = [
         bio: "<p>Je suis passionné de développement, en particulier Kotlin, Angular, Java et Web. J’ai évolué pendant plusieurs années en société de services puis chez un éditeur logiciel, et je me suis lancé dans l’aventure freelance.</p>",
         gravatar: null,
         photo: 'jpg',
-        twitter: 'https://twitter.com/adrienpessu',
-        github: 'https://github.com/adrienpessu',
+        twitter: 'adrienpessu',
+        github: 'adrienpessu',
         website: 'http://adrien.pessu.net',
     }, {
         id: 'yvonnick_frin',
