@@ -1,7 +1,7 @@
 /*jshint unused: false */
 var njEvents = [
     {
-        id: '2022_26_01',
+        id: '2022_01_26',
         title: "OpenApi Generator / Fuites de données",
         date: new Date(2022, 0, 26), //month begin at 0
         time: '19h00',
