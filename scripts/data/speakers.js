@@ -7,12 +7,12 @@ var njSpeakers = [
     {
         id: 'thibault_duperron',
         name: 'Thibault Duperron',
-        bio: '<p></p>',
-        gravatar: null,
+        bio: '<p>Développeur backend surtout JVM (Kotlin, Scala, Java), fan du contract-first et des petits poneys.</p>',
+        gravatar: 'zomzog@gmail.com',
         photo: null,
-        twitter: null,
-        github: null,
-        website: null
+        twitter: 'Zomzog',
+        github: 'Zomzog',
+        website: 'https://zomzog.fr/'
     },
     {
         id: 'thomas_brosillon',

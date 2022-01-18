@@ -14,7 +14,7 @@ var njEvents = [
                 length:'35mn',
                 type: 'talk',
                 abstract: 
-                "<p>Approche \"contract-first\" avec OpenApi Generator</p>" + 
+                "<p>L'API c'est la UI du développeur backend. Trop souvent on se contente d'une documentation générée à la fin. Pourquoi ne pas la placer au premier plan ?</p>" + 
                 "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
                 speakers: ['thibault_duperron']
             }, {
