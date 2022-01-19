@@ -1,6 +1,48 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_02_22',
+        title: "Soirée Quickies : écrire un livre, développer sans JDK et immutabilité",
+        date: new Date(2022, 1, 22), //month begin at 0
+        time: '19h15',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/283354801',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid",
+                time: '19h15',
+                length:'20mn',
+                type: 'quickie',
+                abstract: 
+                "<p>REX sur l'écriture d'un premier livre : comment s'est arrivé ? Pourquoi j'ai accepté ? Par quelles étapes de dépression suis-je passée ?<br>" +
+                "Je vais parler des relations avec l'équipe éditoriale, des délais, des étapes de la réalisation d'un livre du jour 1 avec les premières lignes jusqu'à la livraison.<br>" +
+                "Je ne m'arrête pas là, on va parler de marketing, publicité, impression, sortie officielle du livre et pourquoi je ne referai plus ça.</p>",
+                speakers: ['agnes_maury']
+            }, {
+                title: "Qui a dit qu’il fallait avoir un JDK sur son poste pour développer une application Java ? Prenez votre IDE Cloud GitPod et le tour est joué 💪",
+                time: '19h40',
+                length:'20mn',
+                type: 'quickie',
+                abstract: 
+                "<p>Quand on arrive sur des projets, la configuration de votre poste est une étape obligatoire : avoir la bonne version du JDK, de Maven ou de librairies. Le tout avec quelques Mo / Go qui s’accumulent sur votre disque dur.</p>" +
+                "<p>Avec l’arrivée des IDE Cloud tels que GitPod, la configuration nécessaire sur un projet est mutualisée sur le cloud et cette étape qui pouvait devenir une réelle galère n’est plus qu’un lointain souvenir !</br>" +
+                "Après vous avoir présenté en quelques mots GitPod, je vous ferai une démonstration de ce qui est possible pour un dev Java.</p>",
+                speakers: ['jean_philippe_baconnais']
+            }, {
+                title: "L'immutabilité en Java quand on a la flemme",
+                time: '20h00',
+                length:'20mn',
+                type: 'quickie',
+                abstract: 
+                "<p>L'immutabilité c'est cool ! L'immutabilité c'est tendance ! Mais l'immutabilité, c'est quoi au fait ?</br>" + 
+                "En principe, c'est garantir qu'une structure de donnée ne puisse être modifiée et donc muter. Dans la plupart des langages fonctionnelles comme Haskell, c'est même la norme. Mais en Java ... c'est pas vraiment ça. Il y a peut-être les records qui sont apparus en preview sur la JDK14, c'est vrai, mais ça reste très limité et peu flexible.</br>" + 
+                "Heureusement, il est possible de s'arranger à rendre Java immutable au prix de pas mal d'effort. Mais quand on a la flemme ? ... Comment faire ? ...</p>",
+                speakers: ['laurent_delemotte']
+            }
+        ],
+        docs: []
+    }, 
+    {
         id: '2022_01_26',
         title: "OpenApi Generator / Fuites de données",
         date: new Date(2022, 0, 26), //month begin at 0
@@ -420,7 +462,7 @@ var njEvents = [
                 type: 'quickie',
                 abstract: '<p>Au sein de la DSI de Pôle emploi, les infrastructures black end sont depuis une dizaine d’années faites en Java et le choix des langages n’est pas (encore) déterminé par les équipes de développement.</p>' +
                           '<p>Kotlin utilisant la JVM, il est désormais possible d’intégrer du Kotlin dans des projets java. Dans ce REX je vous présenterai la manière dont nous avons pu entamer l\'intégration du Kotlin dans nos composants black end Java, les problématiques rencontrées, mais aussi les opportunités qui s\'ouvrent à nous pour la suite.</p>',
-                speakers: ['jean-philippe_baconnais'],
+                speakers: ['jean_philippe_baconnais'],
                 docs: [
                     { name: 'Slides', url: 'https://docs.google.com/presentation/d/1X7nhim9r0tU90c5UF5U-G6fwKW5hkcNQdV6N3xF-5Jg', type: 'drive' },
                   ]

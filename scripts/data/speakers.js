@@ -5,6 +5,26 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'agnes_maury',
+        name: 'Agnès Maury',
+        bio: "<p>Développeuse, autrice, gameuse, pâtissière, cat addict et passionnée de pléthore d'autres choses.</p>",
+        gravatar: null,
+        photo: 'agnes_maury',
+        twitter: 'agnesmdev',
+        github: 'agnesmdev',
+        website: 'https://portfolio.agnesm.dev/'
+    },
+    {
+        id: 'laurent_delemotte',
+        name: 'Laurent Delemotte',
+        bio: "<p></p>",
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        github: null,
+        website: null
+    },
+    {
         id: 'thibault_duperron',
         name: 'Thibault Duperron',
         bio: '<p>Développeur backend surtout JVM (Kotlin, Scala, Java), fan du contract-first et des petits poneys.</p>',
@@ -1542,15 +1562,16 @@ var njSpeakers = [
       github: 'sylvain-maillard',
       website: null
     }, {
-        id: 'jean-philippe_baconnais',
+        id: 'jean_philippe_baconnais',
         name: 'Jean-Philippe Baconnais',
-        bio: "<p>Tech Lead d'une équipe de dév à la DSI de Pôle emploi, j'ai été plongé dans le développement avec le monde Java. </br>" +
-             "Curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.</p>",
+        bio: "<p>Développeur / Consultant chez Zenika Nantes.</br>" +
+             "Plongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.</br>" +
+             "GitLab Heroes depuis l'été 2020 🦊</p>",
         gravatar: null,
         photo: 'jpg',
         twitter: 'jphi_baconnais',
-        github: null,
-        website: null
+        github: 'jeanphibaconnais',
+        website: 'https://jeanphibaconnais.gitlab.io/'
     }, {
         id: 'julien_bideau',
         name: 'Julien Bideau',
