@@ -43,11 +43,11 @@ var njEvents = [
         docs: []
     }, 
     {
-        id: '2022_01_26',
+        id: '2022_02_09',
         title: "OpenApi Generator / Fuites de données",
-        date: new Date(2022, 0, 26), //month begin at 0
+        date: new Date(2022, 1, 9), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/283199789',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/283502336/',
         place: 'eartsup',
         subjects: [
             {
