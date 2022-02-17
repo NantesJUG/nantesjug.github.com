@@ -10,7 +10,7 @@ var njSpeakers = [
         bio: "<p>Développeuse, autrice, gameuse, pâtissière, cat addict et passionnée de pléthore d'autres choses.</p>",
         gravatar: null,
         photo: 'agnes_maury',
-        twitter: 'agnesmdev',
+        twitter: 'maury_agnes',
         github: 'agnesmdev',
         website: 'https://portfolio.agnesm.dev/'
     },
