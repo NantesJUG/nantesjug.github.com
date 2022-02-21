@@ -9,7 +9,7 @@ var njSpeakers = [
         name: 'Agnès Maury',
         bio: "<p>Développeuse, autrice, gameuse, pâtissière, cat addict et passionnée de pléthore d'autres choses.</p>",
         gravatar: null,
-        photo: 'agnes_maury',
+        photo: 'jpg',
         twitter: 'maury_agnes',
         github: 'agnesmdev',
         website: 'https://portfolio.agnesm.dev/'
@@ -17,11 +17,11 @@ var njSpeakers = [
     {
         id: 'laurent_delemotte',
         name: 'Laurent Delemotte',
-        bio: "<p></p>",
+        bio: "<p>Développeur chez Santéclair depuis 10 ans. N'aime pas les objets mutables.</p>",
         gravatar: null,
-        photo: null,
-        twitter: null,
-        github: null,
+        photo: 'jpeg',
+        twitter: 'das_Tiaw',
+        github: 'Tiaw',
         website: null
     },
     {
