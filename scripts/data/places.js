@@ -59,6 +59,22 @@ var njPlaces = [
   },
   {
     id: 'cantine',
+    name: 'La Cantine Numérique',
+    address: "40 rue de la Tour d'Auvergne",
+    city: '44200 Nantes',
+    maps: 'https://g.page/LaCantineNumerique',
+    capacity: 0
+  },
+  {
+    id: 'cantine_juton',
+    name: 'Cantine numérique',
+    address: '11 Impasse Juton',
+    city: '44000 Nantes',
+    maps: 'http://goo.gl/maps/0Swz1',
+    capacity: 40
+  },
+  {
+    id: 'cantine',
     name: 'Cantine numérique',
     address: '11 Impasse Juton',
     city: '44000 Nantes',

@@ -1,6 +1,34 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_04_08',
+        title: "La Nuit des Meetups",
+        date: new Date(2022, 3, 8), //month begin at 0
+        time: '19h15',
+        register: 'https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/',
+        place: 'cantine',
+        subjects: [
+            {
+                title: "Programme sur le site de l'évènement",
+                time: '18h00',
+                length:'4h',
+                type: 'talk',
+                abstract: 
+                "<p>Le Nantes JUG est heureux de participer à la Nuit des Meetups avec pleins de talks au programme !!</p>" +
+                "<p>👉 Les <a href=\"https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/\" target=\"_blank\">inscriptions se font sur la page de l'évènement</a>.</p>" +
+                "<p>Vous connaissez la Nuit des Chercheur·euse·s 🧬ou bien encore celle des Musées 🏛? Vous voulez vous abreuver de contenus techniques dans une ambiance sympathique ?</p>" +
+                "<p>Nous vous proposons de découvrir un nouvel évènement à destination des communautés tech : la première Nuit des meetups de Nantes !</p>" +
+                "<p>Lors de cette soirée (tardive), nous inviterons les organisateurs de meetups tech à proposer de courtes conférences, expertes ou vulgarisées, à destination de toutes et tous.</p>" +
+                "<p>Seront présent·e·s : Software Crafters, Cocoaheads Nantes, GDG Nantes Android, Blockchain et société, Nantes Numerique Responsable, Craft Your product, Agile Nantes, Human Talks, GDG Nantes, Nantes Devops, Nantes JUG, NoCode…</p>" +
+                "<p>Ce sera également l’occasion de mixer les contenus, d’assister à des conférences que vous n’avez peut être pas l’habitude de voir et de proposer aux entreprises qui souhaitent accueillir les meetups à l’année de se présenter de manière conviviale.</p>" +
+                "<p><i>[<a href=\"https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/\" target=\"_blank\">Programme en cours de création</a>]<i></p>" +
+                "<p>Vous pouvez vous pré-inscrire dès maintenant, l’ensemble du programme sera disponible en mars.</p>",
+                speakers: []
+            }
+        ],
+        docs: []
+    }, 
+    {
         id: '2022_02_22',
         title: "Soirée Quickies : écrire un livre, développer sans JDK et immutabilité",
         date: new Date(2022, 1, 22), //month begin at 0
@@ -41,7 +69,7 @@ var njEvents = [
             }
         ],
         docs: []
-    }, 
+    },
     {
         id: '2022_02_09',
         title: "OpenApi Generator / Fuites de données",
@@ -2346,7 +2374,7 @@ var njEvents = [
         date: new Date(2014, 9, 27), //month begin at 0
         time: '19',
         register: 'http://guestli.st/293664',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
                 title: 'Une fille dans mon équipe',
                 length: '30 min',
@@ -2751,7 +2779,7 @@ var njEvents = [
         date: new Date(2013, 5, 18), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
                 title: 'Nouveaux impacts du développement web sur le référencement naturel (SEO)',
                 length: '1 h',
@@ -2783,7 +2811,7 @@ var njEvents = [
         date: new Date(2013, 4, 14), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
                 title: 'Découverte de \'SoapUI\'',
                 length: '30 min',
@@ -2815,7 +2843,7 @@ var njEvents = [
         date: new Date(2013, 3, 15), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'JavaScript pour le développeur Java',
             length: '1 h 30',
@@ -2837,7 +2865,7 @@ var njEvents = [
         date: new Date(2013, 2, 18), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
                 title: 'Code Story 2013',
                 length: '30 min',
@@ -2864,7 +2892,7 @@ var njEvents = [
         date: new Date(2013, 1, 11), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
                 title: 'Introduction au NoSQL',
                 length: '20 min',
@@ -2904,7 +2932,7 @@ var njEvents = [
         date: new Date(2013, 0, 16), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
                 title: 'Clojure',
                 length: '1 h',
@@ -2930,7 +2958,7 @@ var njEvents = [
         date: new Date(2012, 11, 6), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Elastic Search',
             length: '2 h',
@@ -2981,7 +3009,7 @@ var njEvents = [
         date: new Date(2012, 9, 23), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Build Living Web Applications with WebSockets',
             length: '1 h 30',
@@ -2998,7 +3026,7 @@ var njEvents = [
         date: new Date(2012, 9, 10), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Copyright et Licence',
             length: '1 h',
@@ -3053,7 +3081,7 @@ var njEvents = [
         date: new Date(2012, 5, 4), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Hibernate OGM: JPA pour NoSQL',
             length: '1 h 30',
@@ -3078,7 +3106,7 @@ var njEvents = [
         date: new Date(2012, 2, 14), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Introduction à Wicket',
             length: '1 h 30',
@@ -3095,7 +3123,7 @@ var njEvents = [
         date: new Date(2012, 1, 9), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Application versioning et rolling upgrade en haute disponibilité, avec Glassfish',
             length: '1 h 30',
@@ -3113,7 +3141,7 @@ var njEvents = [
         date: new Date(2012, 0, 12), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Introduction aux DSL (Domain Specific Languages) en Groovy',
             length: '1 h 30',
@@ -3129,7 +3157,7 @@ var njEvents = [
         date: new Date(2011, 11, 14), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Hibernate vs Cloud computing',
             length: '1 h 30',
@@ -3153,7 +3181,7 @@ var njEvents = [
         date: new Date(2011, 10, 3), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Java 7 : Introduction',
             length: '1 h 30',
@@ -3176,7 +3204,7 @@ var njEvents = [
         date: new Date(2011, 9, 12), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'Statefull is Beautiful',
             length: '1 h 30',
@@ -3201,7 +3229,7 @@ var njEvents = [
         date: new Date(2012, 6, 0), //month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [{
             title: 'A la découverte de Gradle',
             length: '1 h 30',
@@ -3222,7 +3250,7 @@ var njEvents = [
         date: new Date(2011, 0, 0),//month begin at 0
         time: '19',
         register: '',
-        place: 'cantine',
+        place: 'cantine_juton',
         subjects: [
           {
             title: '',
