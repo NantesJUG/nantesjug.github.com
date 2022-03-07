@@ -29,6 +29,48 @@ var njEvents = [
         docs: []
     }, 
     {
+        id: '2022_03_29',
+        title: "Katas d'architecture // Checklist pour concevoir une application dans le cloud",
+        date: new Date(2022, 2, 29), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: "Améliorer les compétences et les infrastructures avec les katas d'architecture",
+                time: '19h00',
+                length:'20mn',
+                type: 'quickie',
+                abstract: 
+                "<p></p>",
+                speakers: ['alexandre_touret']
+            }, {
+                title: "Checklist pour concevoir une application dans le cloud : 10 conseils à l'attention des concepteurs et architectes",
+                time: '19h30',
+                length:'45mn',
+                type: 'talk',
+                abstract: 
+                "<p>Kubernetes et les technologies cloud sont aujourd'hui les standards pour déployer des applications de toutes sortes dans le cloud: api, batchs, microservices et même des monolithes!" +
+                "Au delà de la hype - et des trolls, ils apportent des solutions à beaucoup de problèmes mais aussi une grande complexité.</p>" +
+                "<p>Il peut donc être très difficile pour les développeurs et concepteurs d'identifier les contraintes de telles architectures. </p>" +
+                "<p>Dans cette présentation, vous (re)découvrirez dix astuces et conseils que j'ai pu mettre en pratique et qui m'ont aidé dans mes derniers projets.</p>" +
+                "<p>Ces derniers traiteront :" +
+                "<ul>"+
+                "<li>de la pertinence du cloud dans vos projets et organisations</li>" +
+                "<li>du choix des solutions technologiques</li>" +
+                "<li>des contraintes de conception liées à K8S</li>" +
+                "<li>du développement</li>" +
+                "<li>de la gestion des livraisons au travers de la CI</li>" +
+                "<li>de l’observabilité </li>" +
+                "<li>et plus encore !</li>" +
+                "</ul>"+
+                "</p>",
+                speakers: ['alexandre_touret']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2022_02_22',
         title: "Soirée Quickies : écrire un livre, développer sans JDK et immutabilité",
         date: new Date(2022, 1, 22), //month begin at 0

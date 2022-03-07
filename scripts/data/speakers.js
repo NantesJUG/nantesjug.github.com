@@ -5,6 +5,16 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'alexandre_touret',
+        name: 'Alexandre Touret',
+        bio: "<p>Je suis architecte et développeur sénior chez Worldline. Mon activité consiste à coder (principalement en Java), coacher des développeurs et concevoir des architectures.</p>",
+        gravatar: null,
+        photo: 'png',
+        twitter: 'touret_alex',
+        github: 'alexandre-touret',
+        website: 'https://blog.touret.info'
+    },
+    {
         id: 'agnes_maury',
         name: 'Agnès Maury',
         bio: "<p>Développeuse, autrice, gameuse, pâtissière, cat addict et passionnée de pléthore d'autres choses.</p>",
