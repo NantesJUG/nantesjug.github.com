@@ -33,7 +33,7 @@ var njEvents = [
         title: "Katas d'architecture // Checklist pour concevoir une application dans le cloud",
         date: new Date(2022, 2, 29), //month begin at 0
         time: '19h00',
-        register: '',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/284488055/',
         place: 'eartsup',
         subjects: [
             {
