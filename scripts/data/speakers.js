@@ -5,6 +5,16 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'sylvain_coudert',
+        name: 'Sylvain Coudert',
+        bio: "<p>Dev depuis bientôt 15 ans, freelance depuis 4, podcasteur depuis 1. Adepte de bonnes pratiques, d'échanges humains, que ce soit avec mes pairs ou avec mes clients. Je suis également papa, chanteur, jongleur et VTTiste du dimanche printanier.</p>",
+        gravatar: null,
+        photo: 'jpg',
+        twitter: 'sylv_coud',
+        github: null,
+        website: 'http://punkindev.fr'
+    },
+    {
         id: 'alexandre_touret',
         name: 'Alexandre Touret',
         bio: "<p>Je suis architecte et développeur sénior chez Worldline. Mon activité consiste à coder (principalement en Java), coacher des développeurs et concevoir des architectures.</p>",

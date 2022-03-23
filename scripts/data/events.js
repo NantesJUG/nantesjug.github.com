@@ -1,6 +1,39 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_04_19',
+        title: "🤯 Préparation mentale // Biais cognitifs dans le dev 🧠",
+        date: new Date(2022, 3, 19), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/284797567',
+        place: 'lepalace',
+        subjects: [
+            {
+                title: "Préparation mentale",
+                time: '19h00',
+                length:'25mn',
+                type: 'quickie',
+                abstract: 
+                "<p></p>",
+                speakers: []
+            }, {
+                title: "Notre cerveau est \"null\"! Quelques biais cognitifs appliqués au métier de dev...",
+                time: '19h30',
+                length:'50mn',
+                type: 'talk',
+                abstract: 
+                "<p>Pourquoi est-ce que nos chiffrages sont si souvent à côté de la plaque? </br>" +
+                "Pourquoi le besoin métier est-il à ce point systématiquement mal cerné? </br>" +
+                "Est-ce vraiment pertinent d'écrire des tests avant de coder?  </br>" +
+                "Autant de questions dont la réponse peut se trouver dans l'étude de nos biais cognitifs!</p>" +
+                "<p>J'aurais d'ailleurs pu pompeusement titrer ce talk: Que nous apprennent les neurosciences au sujet de la vie des projets. </br>" +
+                "Mais on ne parlera pas ici de neurosciences, juste de quelques bases de psychologie sociale ou cognitive adaptée au monde du développement logiciel. En prime, et en toute gratuité, vous repartirez avec des armes, des outils concrets pour mieux combattre des travers que nous avons tous !</p>",
+                speakers: ['sylvain_coudert']
+            }
+        ],
+        docs: []
+    },    
+    {
         id: '2022_04_08',
         title: "La Nuit des Meetups",
         date: new Date(2022, 3, 8), //month begin at 0
