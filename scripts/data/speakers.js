@@ -5,6 +5,16 @@
 /*jshint unused: false */
 var njSpeakers = [
     {
+        id: 'julien_deville',
+        name: 'Julien Deville',
+        bio: "<p>Le sport et la culture physique sont devenus dès mon plus jeune âge un moyen d’appropriation du dépassement de soi et des compétences s’y rapportant.</p<p>Cette construction s’est aussi modélisée dans ma volonté à créer du lien avec les autres, mettre en interactions les meilleures compétences de chacun pour mener un projet à bien.</p><p>Très naturellement, après une vie d’athlète et de salarié, j’ai décidé de créer mon activité en accompagnant “les athlètes du quotidien” à construire le socle de leur performance.</p><p>Ma vie sportive m’a permis de cultiver et développer le goût de l’effort et le sens de l’implication.</p><p>Mes expériences professionnelles en tant que commercial puis de responsable d’agence, m’ont appris que le manager peut s’inspirer du jardinier : ” Le jardinier ne fait pas pousser les plantes: il guide leur croissance et suscite le meilleur environnement pour que l’ensemble du jardin se développe.”</p><p>Ma philosophie se résume à :</p><ul><li>amener, chacun, à garder la recherche d’efficacité en développant sa capacité d’adaptation aux changements permanents et complexes.</li><li>cultiver le “mieux se connaître”</li><li>construire le “mieux s’organiser” pour mieux performer</li></ul>",
+        gravatar: null,
+        photo: null,
+        twitter: null,
+        github: null,
+        website: null
+    },
+    {
         id: 'sylvain_coudert',
         name: 'Sylvain Coudert',
         bio: "<p>Dev depuis bientôt 15 ans, freelance depuis 4, podcasteur depuis 1. Adepte de bonnes pratiques, d'échanges humains, que ce soit avec mes pairs ou avec mes clients. Je suis également papa, chanteur, jongleur et VTTiste du dimanche printanier.</p>",
