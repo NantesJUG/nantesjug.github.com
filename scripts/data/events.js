@@ -14,8 +14,8 @@ var njEvents = [
                 length:'25mn',
                 type: 'quickie',
                 abstract: 
-                "<p></p>",
-                speakers: []
+                "<p>Introduire les principes de base de la préparation mentale dans le monde de l'entreprise, et transmettre le bon équilibre entre le désir de réussir et le plaisir d'apprendre.</p>",
+                speakers: ['julien_deville']
             }, {
                 title: "Notre cerveau est \"null\"! Quelques biais cognitifs appliqués au métier de dev...",
                 time: '19h30',
