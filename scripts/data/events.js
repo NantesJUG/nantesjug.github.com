@@ -9,11 +9,16 @@ var njEvents = [
         place: 'onepoint',
         subjects: [
             {
-                title: "Reactive Spring",
+                title: "Concevoir une application réactive avec Spring ",
                 time: '19h00',
                 length:'60mn',
                 type: 'talk',
-                abstract: "",
+                abstract: "Présentation des concepts de la programmation réactive avec Spring boot.\n" +
+                    "<br>Au programme :\n<ul>" +
+                    "<li>- Présentation de Spring Webflux</li>\n" +
+                    "<li>- Présentation de Reactor</li>\n" +
+                    "<li>- Démo avec des Usecases Synchrones/Asynchrones</li>" +
+                    "</ul>",
                 speakers: ['julien_bideau']
             },
             {

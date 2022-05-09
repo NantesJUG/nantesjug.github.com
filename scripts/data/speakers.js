@@ -1707,11 +1707,11 @@ var njSpeakers = [
     }, {
         id: 'julien_bideau',
         name: 'Julien Bideau',
-        bio: '',
+        bio: 'Développeur passionné chez Asys, j\'adore découvrir de nouveaux langages, partager et apprendre au quotidien. J\'aime chercher les solutions adéquates et améliorer continuellement nos process ! <br>Je travaille actuellement avec notre feature team sur la réécriture de notre legacy en microservices cloud ready',
         gravatar: null,
         photo: 'jpg',
-        twitter: '',
-        github: '',
+        twitter: 'JulienBideau',
+        github: 'JulienBideau',
         website: ''
     }
 ];
