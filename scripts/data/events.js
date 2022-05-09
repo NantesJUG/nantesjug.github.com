@@ -5,7 +5,7 @@ var njEvents = [
         title: "Reactive spring / Une application métier durable en hexagone et en Spring Boot",
         date: new Date(2022, 4, 24), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/284797567',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/285805082/',
         place: 'onepoint',
         subjects: [
             {
