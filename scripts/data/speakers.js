@@ -1603,15 +1603,6 @@ var njSpeakers = [
         github: 'jeanphibaconnais',
         website: 'https://jeanphibaconnais.gitlab.io/'
     }, {
-        id: 'julien_bideau',
-        name: 'Julien Bideau',
-        bio: "<p>Développeur passionné à Thales, j'adore découvrir de nouveaux langages, partager et apprendre au quotidien. J'aime chercher les solutions adéquates et améliorer continuellement nos process !</p>",
-        gravatar: null,
-        photo: 'jpg',
-        twitter: 'julienbideau',
-        github: null,
-        website: null
-    }, {
         id: 'thomas_nansot',
         name: 'Thomas Nansot',
         bio: "Ancien développeur et architecte dans les premières années du site voyages-sncf.com, j'ai ensuite créé un studio de développement de jeu vidéo avec un ami. Après 4 années intenses, je suis revenu chez voyages-sncf.com pour prendre en charge un projet de calendrier des prix puis le management d'une équipe d'architecte technique. Il y a 7 ans, j'ai bougé à Nantes pour monter une entité de Delivery pour voyages-sncf.com. A mon départ pour l'entreprise LivingPackets, l'entité comptait plus de 130 personnes, principalement des profils techniques. Je suis actuellement CTO pour LivingPackets, nous développons un produit pour remplacer les emballages à usage unique utilisé par le e-commerce pour vous envoyer vos achats.",
