@@ -187,4 +187,12 @@ var njPlaces = [
     maps: '',
     capacity: 300
   },
+  {
+    id: 'onepoint',
+    name: 'OnePoint',
+    address: '3 Rue Lavoisier, 44100 Nantes\n',
+    city: 'Nantes',
+    maps: 'https://goo.gl/maps/2eEsbjSE1LMchnNg6',
+    capacity: 300
+  },
 ];
