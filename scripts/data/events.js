@@ -2,7 +2,7 @@
 var njEvents = [
     {
         id: '2022_05_24',
-        title: "Reactive spring / Une application métier durable en hexagone et en Spring Boot",
+        title: "Reactive spring // Une application métier durable en hexagone et en Spring Boot",
         date: new Date(2022, 4, 24), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/285805082/',
@@ -15,9 +15,9 @@ var njEvents = [
                 type: 'talk',
                 abstract: "Présentation des concepts de la programmation réactive avec Spring boot.\n" +
                     "<br>Au programme :\n<ul>" +
-                    "<li>- Présentation de Spring Webflux</li>\n" +
-                    "<li>- Présentation de Reactor</li>\n" +
-                    "<li>- Démo avec des Usecases Synchrones/Asynchrones</li>" +
+                    "<li>Présentation de Spring Webflux</li>\n" +
+                    "<li>Présentation de Reactor</li>\n" +
+                    "<li>Démo avec des Usecases Synchrones/Asynchrones</li>" +
                     "</ul>",
                 speakers: ['julien_bideau']
             },
