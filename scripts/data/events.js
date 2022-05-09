@@ -1,6 +1,36 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_05_24',
+        title: "Reactive spring / Une application métier durable en hexagone et en Spring Boot",
+        date: new Date(2022, 4, 24), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/284797567',
+        place: 'onepoint',
+        subjects: [
+            {
+                title: "Reactive Spring",
+                time: '19h00',
+                length:'60mn',
+                type: 'talk',
+                abstract: "",
+                speakers: ['julien_bideau']
+            },
+            {
+                title: "Une application métier durable en hexagone et en Spring Boot",
+                time: '20h00',
+                length:'60mn',
+                type: 'talk',
+                abstract:
+                    "Nos logiciels suivent les évolutions des besoins de leurs utilisateurs. " +
+                    "<br>Fonctionnalités après fonctionnalités, on finit toujours par avoir ce défi de ranger ce code spaghettis, de refaire l'architecture logicielle pour séparer des responsabilités et modulariser le code. " +
+                    "<br>Nous verrons avec l'architecture hexagonale et la modularité de Spring Boot, une des meilleures solutions que je connaisse.",
+                speakers: ['nicolas_fedou']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2022_04_19',
         title: "🤯 Préparation mentale // Biais cognitifs dans le dev 🧠",
         date: new Date(2022, 3, 19), //month begin at 0
