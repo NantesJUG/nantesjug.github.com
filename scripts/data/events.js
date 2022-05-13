@@ -1,6 +1,41 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_06_16',
+        title: "🍹 Cocktail // APM avec Glowroot // Spring Boot // Petits fours 🍣 🍷",
+        date: new Date(2022, 5, 16), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/285807648/',
+        place: 'adresse_gare_sud',
+        subjects: [
+            {
+                title: 'Verre d\'accueil 🍸',
+                time: '19h00',
+                length:'30 min',
+                type: 'hello',
+                abstract: "<p>Quoi de mieux pour commencer cette dernière soirée avant l'été que de commencer par un petit verre d'accueil 😎</p>"
+            },
+            {
+                title: "Glowroot : un APM à portée des devs",
+                time: '19h30',
+                length:'30 min',
+                type: 'talk',
+                abstract: "Une présentation rapide des APM (Application Performance Management), et en particulier de Glowroot, un APM Open Source, gratuit et très simple à mettre en oeuvre pour commencer à monitorer ses applications au plus tôt",
+                speakers: ['pierre_clainchard']
+            },
+            {
+                title: "Spring Boot",
+                time: '20h00',
+                length:'60 min',
+                type: 'talk',
+                abstract:
+                    "",
+                speakers: ['brian_clozel']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2022_05_24',
         title: "Reactive spring // Une application métier durable en hexagone et en Spring Boot",
         date: new Date(2022, 4, 24), //month begin at 0
@@ -11,7 +46,7 @@ var njEvents = [
             {
                 title: "Concevoir une application réactive avec Spring ",
                 time: '19h00',
-                length:'60mn',
+                length:'60 min',
                 type: 'talk',
                 abstract: "Présentation des concepts de la programmation réactive avec Spring boot.\n" +
                     "<br>Au programme :\n<ul>" +
@@ -24,7 +59,7 @@ var njEvents = [
             {
                 title: "Une application métier durable en hexagone et en Spring Boot",
                 time: '20h00',
-                length:'60mn',
+                length:'60 min',
                 type: 'talk',
                 abstract:
                     "Nos logiciels suivent les évolutions des besoins de leurs utilisateurs. " +
@@ -46,7 +81,7 @@ var njEvents = [
             {
                 title: "Préparation mentale",
                 time: '19h00',
-                length:'25mn',
+                length:'25 min',
                 type: 'quickie',
                 abstract: 
                 "<p>Introduire les principes de base de la préparation mentale dans le monde de l'entreprise, et transmettre le bon équilibre entre le désir de réussir et le plaisir d'apprendre.</p>",
@@ -54,7 +89,7 @@ var njEvents = [
             }, {
                 title: "Notre cerveau est \"null\"! Quelques biais cognitifs appliqués au métier de dev...",
                 time: '19h30',
-                length:'50mn',
+                length:'50 min',
                 type: 'talk',
                 abstract: 
                 "<p>Pourquoi est-ce que nos chiffrages sont si souvent à côté de la plaque? </br>" +
@@ -107,7 +142,7 @@ var njEvents = [
             {
                 title: "Améliorer les compétences et les infrastructures avec les katas d'architecture",
                 time: '19h00',
-                length:'20mn',
+                length:'20 min',
                 type: 'quickie',
                 abstract: 
                 "<p></p>",
@@ -115,7 +150,7 @@ var njEvents = [
             }, {
                 title: "Checklist pour concevoir une application dans le cloud : 10 conseils à l'attention des concepteurs et architectes",
                 time: '19h30',
-                length:'45mn',
+                length:'45 min',
                 type: 'talk',
                 abstract: 
                 "<p>Kubernetes et les technologies cloud sont aujourd'hui les standards pour déployer des applications de toutes sortes dans le cloud: api, batchs, microservices et même des monolithes!" +
@@ -149,7 +184,7 @@ var njEvents = [
             {
                 title: "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid",
                 time: '19h15',
-                length:'20mn',
+                length:'20 min',
                 type: 'quickie',
                 abstract: 
                 "<p>REX sur l'écriture d'un premier livre : comment s'est arrivé ? Pourquoi j'ai accepté ? Par quelles étapes de dépression suis-je passée ?<br>" +
@@ -159,7 +194,7 @@ var njEvents = [
             }, {
                 title: "Qui a dit qu’il fallait avoir un JDK sur son poste pour développer une application Java ? Prenez votre IDE Cloud GitPod et le tour est joué 💪",
                 time: '19h40',
-                length:'20mn',
+                length:'20 min',
                 type: 'quickie',
                 abstract: 
                 "<p>Quand on arrive sur des projets, la configuration de votre poste est une étape obligatoire : avoir la bonne version du JDK, de Maven ou de librairies. Le tout avec quelques Mo / Go qui s’accumulent sur votre disque dur.</p>" +
@@ -169,7 +204,7 @@ var njEvents = [
             }, {
                 title: "L'immutabilité en Java quand on a la flemme",
                 time: '20h00',
-                length:'20mn',
+                length:'20 min',
                 type: 'quickie',
                 abstract: 
                 "<p>L'immutabilité c'est cool ! L'immutabilité c'est tendance ! Mais l'immutabilité, c'est quoi au fait ?</br>" + 
@@ -191,7 +226,7 @@ var njEvents = [
             {
                 title: "Approche \"contract-first\" avec OpenApi Generator",
                 time: '19h00',
-                length:'35mn',
+                length:'35 min',
                 type: 'talk',
                 abstract: 
                 "<p>L'API c'est la UI du développeur backend. Trop souvent on se contente d'une documentation générée à la fin. Pourquoi ne pas la placer au premier plan ?</p>" + 
@@ -200,7 +235,7 @@ var njEvents = [
             }, {
                 title: "10 leçons sur les 10 plus grosses fuites de données",
                 time: '19h40',
-                length:'35mn',
+                length:'35 min',
                 type: 'talk',
                 abstract: 
                 "<p>Sony, Über, Yahoo, Adult Friends finder, ces noms vous disent quelque chose ?</br>" + 
@@ -224,7 +259,7 @@ var njEvents = [
             {
                 title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
                 time: '19h00',
-                length:'90mn',
+                length:'90 min',
                 type: 'talk',
                 abstract: 
                 "<p>Introduction aux instances spot AWS pour faire des économies et améliorer la résilience de ses applications.</p>" +
@@ -246,7 +281,7 @@ var njEvents = [
             {
                 title: "Décollage de microservices Micronaut en Java dans les nuages",
                 time: '18h15',
-                length:'60mn',
+                length:'60 min',
                 type: 'talk',
                 abstract: 
                 "<p>Au lieu de passer trop de temps sur de l'infra, prenez avantage des solutions serverless. Focalisez vous sur votre code Micronaut, et déployer le rapidement sous forme de fonction, d'application, ou dans un conteneur, sur Google cloud Platform.</p>" +
@@ -269,7 +304,7 @@ var njEvents = [
             {
                 title: "Comment votre application peut être une bonne citoyenne du Cloud",
                 time: '19h00',
-                length:'60mn',
+                length:'60 min',
                 type: 'talk',
                 abstract: "<p>Venez découvrir dans cette session 100% live coding et interactive comment Java revient en force dans le monde du Cloud.</p>"
                 + "<p>On verra comment des nouvelles stacks Java peuvent s'intégrer et tirer profit des nouvelles contraintes imposées par le monde merveilleux du cloud</p>",
@@ -288,7 +323,7 @@ var njEvents = [
             {
                 title: "Comment j'ai fini par déployer à 2h du matin une application sur AWS pour piloter des voitures électriques avec un vélo d'appartement.",
                 time: '19h15h',
-                length:'30mn',
+                length:'30 min',
                 type: 'quickie',
                 abstract: "<p>- J'ai une super idée, mais je vais avoir besoin d'aide, parce que moi et le code...<br>"+
                 "ha ?<br>"+
@@ -303,7 +338,7 @@ var njEvents = [
             {
                 title: "Scripting en Java avec jbang",
                 time: '20h00',
-                length:'30mn',
+                length:'30 min',
                 type: 'quickie',
                 abstract: "<p>Si vous aussi vous maîtrisez Java mais pas le bash, et si vous aussi vous aimez le support d'un IDE pour faire un script, alors venez découvrir le pouvoir de jbang et du scripting en Java.</p><hr><p>⚠️⚠️⚠️<i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
                 +"Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
@@ -322,7 +357,7 @@ var njEvents = [
             {
                 title: "Comment pratiquer le Chaos engineering avec Spring Boot",
                 time: '19h15h',
-                length:'30mn',
+                length:'30 min',
                 type: 'quickie',
                 abstract: "<p>On parle souvent de chaos engineering mais dans la pratique ça donne quoi ? En tant que développeur, j'ai l'impression que cette discipline est réservée au OPS. </p>"
                     +"<p>Sur un projet Java avec Spring Boot, puis je faire du chaos engineering ? </p><p>Dans ce quickie, on vous donne la solution avec 'Chaos Monkey for Spring Boot'.</p>"
@@ -332,7 +367,7 @@ var njEvents = [
             {
                 title: "Drilling Zeppelin: data science dans la galaxie apache",
                 time: '20h00',
-                length:'30/40mn',
+                length:'30/40 min',
                 type: 'quickie',
                 abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>"+
                 "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>"
@@ -354,7 +389,7 @@ var njEvents = [
             {
                 title: "Envie de faire de l'accessibilité ? Enjeux et mise en place",
                 time: '19h00',
-                length:'30mn',
+                length:'30 min',
                 type: 'quickie',
                 abstract: "<p>L'accessibilité des sites web est un enjeu de société. Pourquoi est-il si difficile de la mettre en pratique ?</p>",
                 speakers: ['david_caillaud']
@@ -382,7 +417,7 @@ var njEvents = [
             {
                 title: "Comment fonctionne la motivation ?",
                 time: '19h00',
-                length:'30mn',
+                length:'30 min',
                 type: 'talk',
                 abstract: "<p>On recherche un développeur motivé“. Vous avez déjà certainement vu cette offre d’embauche.</p>" +
                 "<p>Qu’est-ce qu’être motivé et est-ce un état permanent comme l’évoque cette phrase ?</p>" +
@@ -411,7 +446,7 @@ var njEvents = [
             {
                 title: "Baromètre des salaires et des tendances marché sur l’environnement Java / JVM",
                 time: '19h00',
-                length:'15mn',
+                length:'15 min',
                 type: 'quickie',
                 abstract: "<p>Je viens vous restituer une partie de l'analyse réalisée dans le cadre du baromètre des salaires.</p>"+
                 "<p>Cette étude est basée sur les + 1300 candidats rencontrés l'année dernière et + 200 entreprises accompagnées.</p>",
@@ -451,7 +486,7 @@ var njEvents = [
             {
                 title: "Meet & Greet",
                 time: '19h00',
-                length:'30mn',
+                length:'30 min',
                 type: 'buffet',
                 abstract: "<p>Verre de bienvenue offert par les sponsors du JUG</p>",
                 speakers: []
