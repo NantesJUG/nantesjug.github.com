@@ -6,6 +6,15 @@
 var njSpeakers = [
     {
         id: 'brian_clozel',
+        name: 'Brian Clozel',
+        bio: "<p>Engineer @ VMware. Spring Framework, Spring Boot & Spring GraphQL committer.</p>",
+        gravatar: 'bclozel@vmware.com',
+        photo: null,
+        twitter: 'bclozel',
+        gplus: null,
+        github: null,
+        website: 'https://spring.io',
+        email: 'bclozel@vmware.com'
     },
     {
         id: 'pierre_clainchard',

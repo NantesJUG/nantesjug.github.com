@@ -13,7 +13,7 @@ var njEvents = [
                 time: '19h00',
                 length:'30 min',
                 type: 'hello',
-                abstract: "<p>Quoi de mieux pour commencer cette dernière soirée avant l'été que de commencer par un petit verre d'accueil 😎</p>"
+                abstract: "<p>C'est bientôt l'été, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>"
             },
             {
                 title: "Glowroot : un APM à portée des devs",
@@ -24,14 +24,25 @@ var njEvents = [
                 speakers: ['pierre_clainchard']
             },
             {
-                title: "Spring Boot",
+                title: 'AOT and Native with Spring Boot 3.0',
                 time: '20h00',
-                length:'60 min',
+                length:'1h',
                 type: 'talk',
-                abstract:
-                    "",
+                abstract: '<p>Après une phase d\'expérimentation avec le projet Spring Native, l\'équipe Spring contribue le support Ahead of Time (AOT) à Spring.</p>' +
+                '<p>Cette nouvelle fonctionnalité va permettre un support des applications natives avec GraalVM mais aussi améliorer l\'efficacité des applications JVM classiques.</p>' +
+                '<p>Pendant cette présentation, Brian va détailler l\'état de l\'art du support AOT dans Spring Framework 6.0 et Spring Boot 3.0:</p>' +
+                '- l\'architecture du moteur AOT</br>' +
+                '- comment cette nouvelle infrastructure peut-être utilisée par des librairies</br>' +
+                '- l\'expérience développeur</br>',
                 speakers: ['brian_clozel']
-            }
+            },
+            {
+                title: 'Petits fours et Cocktail 🍣 🍷',
+                time: '21h00',
+                length:'3h',
+                type: 'summer',
+                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>"
+            },
         ],
         docs: []
     },
