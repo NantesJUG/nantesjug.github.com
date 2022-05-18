@@ -21,7 +21,7 @@ var njSpeakers = [
         name: 'Pierre Clainchard',
         bio: "<p>CTO chez @kanoma_it, passionné de nouvelles technos et d'agilité, je suis tombé dans le Software Craftmanship depuis quelques années ! J'accompagne les devs de Kanoma dans le quotidien de leurs missions et sur leur plan de carrière</p>",
         gravatar: null,
-        photo: null,
+        photo: 'jpg',
         twitter: 'clainchoupi',
         gplus: null,
         github: null,
