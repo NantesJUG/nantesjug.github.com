@@ -6,7 +6,7 @@
     
     <a ng-href="#/speakers/{{speaker.id}}" class="thumbnail text-center">
       <img ng-if="speaker.gravatar && !speaker.photo" gravatar-src="speaker.gravatar" class="img-polaroid speaker_photo" gravatar-size="150" alt="{{speaker.name}}">
-      <img ng-if="!speaker.gravatar && !speaker.photo" src="/images/gravatar-duke.jpg" class="img-polaroid speaker_photo" alt="{{speaker.name}}">
+      <img ng-if="!speaker.gravatar && !speaker.photo" src="/images/site/gravatar-duke.jpg" class="img-polaroid speaker_photo" alt="{{speaker.name}}">
       <img ng-if="speaker.photo" ng-src="{{getSpeakerPhotoUrl(speaker)}}" class="img-polaroid speaker_photo" alt="{{speaker.name}}">
       {{speaker.name}}
     </a>

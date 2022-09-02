@@ -15,7 +15,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
       <img ng-if="speaker.gravatar && !speaker.photo" gravatar-src="speaker.gravatar" class="img-polaroid speaker_photo" gravatar-size="150" alt="{{speaker.name}}" />
-      <img ng-if="!speaker.gravatar && !speaker.photo" src="/images/gravatar-duke.jpg" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
+      <img ng-if="!speaker.gravatar && !speaker.photo" src="/images/site/gravatar-duke.jpg" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
       <img ng-if="speaker.photo" ng-src="{{getSpeakerPhotoUrl(speaker)}}" class="img-polaroid speaker_photo" alt="{{speaker.name}}" />
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
