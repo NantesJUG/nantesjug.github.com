@@ -8,6 +8,20 @@ body {
   background-position-y: 40px;
 }
 
+.sponsors div {
+  margin-bottom: 10px;
+}
+
+.sponsors-page .sponsors div {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.sponsors-page .sponsors.sponsors-gold div {
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
 @media print {
   body {
     padding-top: 5px;
@@ -16,6 +30,7 @@ body {
   .sponsors div {
     width: 25%;
   }
+
   .sponsors-silver div {
     width: 16.66666667%;
   }
@@ -807,10 +822,20 @@ footer .btn-twitter {
   margin: 20px 0 7px 0;
   text-align: center;
 }
-.submit-talk a {
+
+.submit-talk span {
   color: #1176ba;
   background-color: #fff;
   border: 1px solid #1176ba;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 10px 30px;
+}
+@media (max-width: 767px) {
+  .submit-talk span {
+    padding: 10px;
+  }
+}
+
+.submit-talk span a {
+  color: #1176ba;
 }
