@@ -5,8 +5,7 @@
 var util = require('util'),
     http = require('http'),
     fs = require('fs'),
-    url = require('url'),
-    events = require('events');
+    url = require('url');
 
 var DEFAULT_PORT = 8000;
 
