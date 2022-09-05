@@ -594,7 +594,7 @@ var njSpeakers = [
         name: 'Cédric Champeau',
         bio: 'Cédric Champeau travaille pour Oracle Labs, dans l\'équipe GraalVM et en particulier sur le framework Micronaut. Il est spécialisé dans la productivité développeur et maintient entre autres les plugins officiels de GraalVM et Micronaut pour Gradle et Maven. Il a travaillé plusieurs années pour Gradle Inc. sur des problématiques de gestion de dépendances et autre productivité développeur. Ancien contributeur sur le langage Groovy, il a notamment implémenté son compilateur statique. En dehors de l\'informatique, Cédric est un passionné d\'astronomie.',
         gravatar: null,
-        photo: 'cedric_champeau',
+        photo: 'jpg',
         twitter: 'CedricChampeau',
         github: null,
         website: 'http://melix.github.io/blog'
