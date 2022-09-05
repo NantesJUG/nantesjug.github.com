@@ -592,7 +592,7 @@ var njSpeakers = [
     {
         id: 'cedric_champeau',
         name: 'Cédric Champeau',
-        bio: 'Cédric Champeau travaille depuis 2 ans chez Gradle Inc. où il développe l\'outil de build open-source du même nom. Il a notamment contribué à l\'amélioration des performances, le support de Java 9 et travaille désormais sur la problématique de gestion de dépendances. Cédric est aussi committer sur Apache Groovy: il a implémenté le compilateur statique de ce langage et contribué sur le sujet des DSLs et transformations à compile time.',
+        bio: 'Cédric Champeau travaille pour Oracle Labs, dans l\'équipe GraalVM et en particulier sur le framework Micronaut. Il est spécialisé dans la productivité développeur et maintient entre autres les plugins officiels de GraalVM et Micronaut pour Gradle et Maven. Il a travaillé plusieurs années pour Gradle Inc. sur des problématiques de gestion de dépendances et autre productivité développeur. Ancien contributeur sur le langage Groovy, il a notamment implémenté son compilateur statique. En dehors de l\'informatique, Cédric est un passionné d\'astronomie.',
         gravatar: 'cedric.champeau@gmail.com',
         photo: null,
         twitter: 'CedricChampeau',
