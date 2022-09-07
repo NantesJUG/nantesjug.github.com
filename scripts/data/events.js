@@ -5,7 +5,7 @@ var njEvents = [
         title: "Copilot // GraalVM",
         date: new Date(2022, 8, 22), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/285807648/',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/288327013/',
         place: 'sii',
         subjects: [
             {
