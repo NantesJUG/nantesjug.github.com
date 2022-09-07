@@ -62,6 +62,10 @@ var nj = function () {
     },
     getPlace: function (placeId) {
       return _.find(places, function(place){ return place.id === placeId; });
+    },
+    getDayName: function(date) {
+      var weekdays = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+      return weekdays[date.getDay()];
     }
   };
 

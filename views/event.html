@@ -26,7 +26,7 @@
       <div>
         <h1><a ng-href="#/events/{{event.id}}">{{event.title}}</a></h1>
       </div>
-      <h2 class="soiree_date">Le {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{escapeTime(event.old_time)}}</span> {{escapeTime(event.time)}}</h2>
+      <h2 class="soiree_date">{{getDayName(event.date)}} {{event.date | date:'longDate'}} à <span class="old-time ng-hide" ng-show="event.old_time">{{escapeTime(event.old_time)}}</span> {{escapeTime(event.time)}}</h2>
       <ng-include src="'views/templates/register.html'"></ng-include>
       <div class="jug-event-intro" ng-if="event.intro" ng-bind-html-unsafe="event.intro"></div>
 
