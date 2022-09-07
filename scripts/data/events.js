@@ -1,6 +1,47 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_09_22',
+        title: "Copilot // GraalVM",
+        date: new Date(2022, 8, 22), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/285807648/',
+        place: 'sii',
+        subjects: [
+            {
+                title: "Copilot : L’intelligence artificielle au service des développeurs",
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "Amis développeurs, vous avez besoin :" +
+                "<ul>" +
+                "<li>d’écrire des tests pour vos applications Web/JavaScript ?</li>" +
+                "<li>de compléter une classe Java d’accès aux données ?</li>" +
+                "<li>d’ajouter des nouveaux services à votre déploiement containerisé ?</li>" +
+                "</ul>" +
+                "Tapez votre code, commentez votre besoin, et laissez Copilot vous assister et augmenter votre productivité! GitHub Copilot est un outil qui s’appuie sur l’intelligence artificielle pour vous aider à coder avec des « suggestions/autocompletions » très riches.<br>" +
+                "Mais attention: Copilot, l’essayer c’est adopter!",
+                speakers: ['tugdual_grall']
+            },
+            {
+                title: "A la découverte de GraalVM",
+                time: '19h30',
+                length:'60 min',
+                type: 'talk',
+                abstract:
+                    "<p>Débit élevés, temps de démarrage supersonique , utilisation rationnelle des resources Mémoire et CPU, Prise en charge native de plusieurs langages de programmation, Compilation en binaire exécutable des programmes Java, réduction des côuts d\'infrastructure dans le cloud public/privé, sont peut être des choses dont vous avez entendu parlé au sujet de Oracle GraalVM, Il y’a beaucoup de buzz autour de la nouvelle coqueluche de l’écosystème Java, mais qu’est ce que c’est exactement?</p>" +
+                    "<p>Nous vous proposons de faire connaissance avec GraalVM;</p>" +
+                    "<p>Que vous soyez développeur ou opérationnel, Gestionnaire d’application, d'infrastructure ou DSI , si vous évoluez dans un environment où foisonnent les technologies Java, NodeJS, Javascript, Python, Ruby, R ou même C et C++... Rejoignez cette web diffusion interactive en direct pour en savoir plus sur:</p>" +
+                    "<p></p>" +
+                    "<p>Le fonctionnement de GraalVM ainsi que les bénéfices que vous pourrez en tirer	</p>" +
+                    "<p>Mettre les mains dans le cambouis et aller à la conquête de GraalVM	</p>" +
+                    "<p>Découvrir les cas d\'usage innovant de GraalVM en entreprise et ainsi que des retours d\'expérience enrichissant</p>",
+                speakers: ['elvadas_nono']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2022_06_16',
         title: "🍹 Cocktail // APM avec Glowroot // Spring Boot // Petits fours 🍣 🍷",
         date: new Date(2022, 5, 16), //month begin at 0
