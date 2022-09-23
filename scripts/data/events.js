@@ -1,6 +1,30 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_10_04',
+        title: "Micronaut Test Resources",
+        date: new Date(2022, 9, 4), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/288667403/',
+        place: 'cantine',
+        subjects: [
+            {
+                title: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/288667403/",
+                time: '1h30',
+                length:'90 min',
+                type: 'talk',
+                abstract: "Tester vos microservices sans peine avec Micronaut Test Resources Micronaut est un framework full-stack moderne, basé sur la JVM, permettant de construire des microservices ou applications serverless facilement." +
+                "<br/>De part son emphase sur la compilation ahead-of-time, il s'intègre particulièrement bien avec GraalVM, poussant les limites de ce qu'on peut faire avec le langage Java." +
+                "<br/>Cependant, le développement d'applications modernes est aussi synonyme de multiples intégrations qui sont parfois difficiles à configurer. Par exemple, votre application peut avoir besoin d'une base de données, d'un serveur Kafka, d'un broker MQTT ou autre. Micronaut Test Resources permet de grandement simplifier le développement de telles applications: sans aucune configuration, il est capable de démarrer des conteneurs de test pendant le développement ou les tests, réduisant considérablement l'effort nécessaire pour obtenir une excellente productivité développeur."+
+                "<br/>Dans cette session, nous montrerons les bases d'une application Micronaut et comment il s'intègre, en partculier, avec les outils de builds et Testcontainers." +
+                "<br/>Micronaut Test Resources est aussi un framework extensible, rendant relativement simple l'ajout de vos propres ressources de test: il est par exemple possible d'exposer un conteneur Docker avec quelques lignes de configuration. En dernier recours, il est toujours possible d'implémenter vos propres ressources de test." +
+                "<br/>Enfin, il est intéressant de savoir que Micronaut Test Resources est conçu de façon à ce que les ressources de test puissent être partagées entre différents projets, même s'ils utilisent des outils de build différent ! Cerise sur le gâteau, nous montrerons comment les images natives peuvent bénéficier de ce mécanisme.",
+                speakers: ['cedric_champeau']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2022_09_22',
         title: "Copilot // GraalVM",
         date: new Date(2022, 8, 22), //month begin at 0
