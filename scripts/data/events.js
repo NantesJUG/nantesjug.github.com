@@ -9,7 +9,7 @@ var njEvents = [
         place: 'cantine',
         subjects: [
             {
-                title: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/288667403/",
+                title: "Micronaut Test Resources",
                 time: '1h30',
                 length:'90 min',
                 type: 'talk',
