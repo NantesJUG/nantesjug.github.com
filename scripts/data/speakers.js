@@ -5,6 +5,17 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "lucille_moise",
+    name: "Lucille Moise",
+    bio: "<p>Du haut de mes 27 ans de curiosité, je suis passée par beaucoup de passion : Jeux Vidéos, Musique, Astronomie, IA, Littérature. Aujourd’hui, c’est chez Serli en tant que développeuse que je continue d’entretenir cette flamme.Développeuse web le jour (React, Java, Kotlin) et bidouilleuse-garou la nuit (Python), l’échange de découvertes et savoirs m’intéressent toujours.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "itchae_",
+    gplus: null,
+    github: "LucilleMoise",
+    website: null,
+    email: null,
+  },{
     id: "elvadas_nono",
     name: "Elvadas Nono",
     bio: "<p>Passionné par les nouvelles technologies ainsi et les causes humanitaires, Elvadas accompagne les Entreprises dans la mise en place des systèmes d'information modernes et efficients: </p>",

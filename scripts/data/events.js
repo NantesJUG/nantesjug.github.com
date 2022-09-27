@@ -9,8 +9,17 @@ var njEvents = [
         place: 'cantine',
         subjects: [
             {
+                title: "REX Bit.dev : gadget ou indispensable ?",
+                time: '19h00',
+                length:'15 min',
+                type: 'quickie',
+                abstract: "C’est l’histoire d’une équipe qui part à la recherche d’un outil pour leur simplifier la vie et le quotidien pour leur développement front. Une solution s’offre à nous, Bit.dev, qui nous promet du Component-Driven-Development sans le moindre effort. Mais qu’en est-it ? " +
+                 "<br><br>Je vous partagerais mon expérience, et celle de mes collègues. Pourquoi on a fait ce choix, comment on a pris en main et mis en place cet outil, son utilisation au quotidien et surtout ce qu’on en a tiré.",
+                speakers: ['lucille_moise']
+            }, 
+            {
                 title: "Micronaut Test Resources",
-                time: '1h30',
+                time: '19h30',
                 length:'90 min',
                 type: 'talk',
                 abstract: "Tester vos microservices sans peine avec Micronaut Test Resources Micronaut est un framework full-stack moderne, basé sur la JVM, permettant de construire des microservices ou applications serverless facilement." +
