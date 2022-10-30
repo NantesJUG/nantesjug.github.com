@@ -73,8 +73,8 @@ angular.module('nantesjugApp', ['ui.router', 'ui.gravatar', 'angulartics', 'angu
             url: '/specials/devparty',
             templateUrl: 'views/specials/devparty.html'
           })
-          .state('form', {
-            url: '/form',
+          .state('speaker_form', {
+            url: '/speaker-form',
             templateUrl: 'views/speaker-form.html'
           });
       $urlRouterProvider.when('/devoxx4kids', '/specials/devoxx4kids');
