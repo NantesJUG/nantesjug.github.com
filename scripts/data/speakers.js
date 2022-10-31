@@ -5,6 +5,28 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "lise_quesnel",
+    name: "Lise Quesnel",
+    bio: "<p>Lise est développeuse web et Lead dev. Elle sait être moteur tant sur le plan humain que technique.<br> Les bonnes pratiques de développement sont pour elle le ciment de tout projet. Elle porte également une attention toute particulière à l’expérience utilisateur.<br> Grande curieuse, elle aime découvrir sans cesse de nouvelles choses.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "QuesnelLise",
+    gplus: null,
+    github: "lisequesnel",
+    website: null,
+    email: null,
+  },{
+    id: "sun_tan",
+    name: "Sun Tan",
+    bio: "<p>Sun is a Senior Software Engineer and a Java developer with 15 years experience, currently working at Red Hat.<br> Sun is involved in the Eclipse Che project from the very beginning as a core contributor. He recently joined the JKube project team. <br>Sun has the community in his heart and is devoted to open source. He has been contributing to open source softwares while working for companies like Nuxeo, Serli and now Red Hat. <br>Today, his adventure continues in sharing his source code, promoting great talks and speakers at his local Paris Java User Group, coding with Eclipse Che and enjoying his new hobby: brewing beer in his kitchen.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "__sunix_",
+    gplus: null,
+    github: "sunix",
+    website: "https://blog.sunix.org",
+    email: null,
+  },{
     id: "lucille_moise",
     name: "Lucille Moise",
     bio: "<p>Du haut de mes 27 ans de curiosité, je suis passée par beaucoup de passion : Jeux Vidéos, Musique, Astronomie, IA, Littérature. Aujourd’hui, c’est chez Serli en tant que développeuse que je continue d’entretenir cette flamme.Développeuse web le jour (React, Java, Kotlin) et bidouilleuse-garou la nuit (Python), l’échange de découvertes et savoirs m’intéressent toujours.</p>",

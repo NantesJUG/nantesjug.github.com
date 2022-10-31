@@ -1,6 +1,32 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_11_15',
+        title: "Les post-mortems && Java dans Kubernetes",
+        date: new Date(2022, 10, 15), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/288667403/',
+        place: 'cantine',
+        subjects: [
+            {
+                title: "Les post-mortems ou comment sortir heureux d’un carnage",
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "Une fonctionnalité, un projet, une réunion, ça ne se passe pas toujours bien. Loin de là. C’est parfois même un carnage. 😱 Que fait-on dans ces cas-là ? Ça s’est terminé dans les larmes, le sang et la sueur mais qu’importe ! On met tout ça sous le tapis, c’est fini, on en parle plus. 🙈<br><br>Pour que cela recommence encore la prochaine fois ? Pour que tout le monde en souffre sans oser en parler ? Pas la peine !<br><br>Alors on prend notre courage à deux mains, et on organise un POST-MORTEM. Mais qu'est-ce que c'est ? À quoi cela sert-il ? Et comment le mettre en place ? 🤔<br><br></br></br>Vous découvrirez dans ce talk les différentes étapes d'un post-mortem réussi et comment l'animer au mieux pour que chacun et chacune puisse être heureux.se après un tel carnage, sans pour autant être psychopathe ! 😌",
+                speakers: ['lise_quesnel']
+            }, 
+            {
+                title: "Java dans Kubernetes pour ceux qui ne connaissent pas Kubernetes",
+                time: '19h30',
+                length:'90 min',
+                type: 'talk',
+                abstract: "Kubernetes, ca à l'air vraiment sympa, pour le scaling, la reproductibilité et tout et tout ... <br>Tout le monde en parle, et en plus c'est hype !<br> Alors, c'est le moment de passer dans le cloud et de migrer nos applications Java vers Kubernetes !<br>Oui mais ... enfin ... il y'a trop de fichiers YAML à maintenir et nous détestons le YAML ! Et en plus de maintenir l'application Java, il faut<ul><li>écrire et maintenir des Dockerfiles</li><li>écrire et maintenir plein de fichiers YAML</li><li>configurer et gérer la CI/CD pour le déploiement</li><li>etc.</li></ul>Et oui, pendant ce talk, nous allons souffrir 👿 ... mais je vais vous tenir par la main et vous guider. Et c'est promis, vous sortirez de ce talk en sachant migrer vos applications Java dans Kubernetes en seulement 5 lignes de XML 🤣 ... avec le projet JKube.",
+                speakers: ['sun_tan']
+            }
+        ],
+        docs: []
+    },{
         id: '2022_10_04',
         title: "Micronaut Test Resources",
         date: new Date(2022, 9, 4), //month begin at 0
