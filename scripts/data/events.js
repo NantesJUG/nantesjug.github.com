@@ -6,7 +6,7 @@ var njEvents = [
         date: new Date(2022, 10, 15), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/288667403/',
-        place: 'cantine',
+        place: 'zenika',
         subjects: [
             {
                 title: "Les post-mortems ou comment sortir heureux d’un carnage",
