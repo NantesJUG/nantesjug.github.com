@@ -5,7 +5,7 @@ var njEvents = [
         title: "Les post-mortems && Java dans Kubernetes",
         date: new Date(2022, 10, 15), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/288667403/',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/289447972/',
         place: 'zenika',
         subjects: [
             {
