@@ -13,7 +13,7 @@ var njEvents = [
                 time: '19h00',
                 length:'30 min',
                 type: 'hello',
-                abstract: "<p>C'est bientôt la fin de l'année, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>",
+                abstract: "<p>C'est bientôt la fin de l'année, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil offert par Decathlon</p>",
             },{
                 title: "Java 19 et au-delà : programmation orientée données et programmation asynchrone",
                 time: '19h30',
@@ -29,7 +29,7 @@ var njEvents = [
                 time: '21h',
                 length:'3h',
                 type: 'winter',
-                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>",
+                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours offerts par Decathlon 😋</p>",
             },
         ],
         docs: []
