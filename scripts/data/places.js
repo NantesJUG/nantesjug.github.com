@@ -195,4 +195,12 @@ var njPlaces = [
     maps: 'https://goo.gl/maps/2eEsbjSE1LMchnNg6',
     capacity: 300
   },
+  {
+    id: 'madeleine_icilundi',
+    name: 'Madeleine _icilundi',
+    address: '7 rue Pelisson, 44100 Nantes\n',
+    city: 'Nantes',
+    maps: 'https://goo.gl/maps/PEvNTkGsjgbDiLvL8',
+    capacity: 70
+  },
 ];

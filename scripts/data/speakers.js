@@ -5,6 +5,17 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "remi_forax",
+    name: "Rémi Forax",
+    bio: "<p>Java Plombier, Maitre de Conférence, Virtual Machine Whisperer,\n<br>Martyrise ses pauvres étudiants, complexifie Java en faisant partie des gens qui écrivent les specs pour les lambdas, les modules, récemment les records et le pattern matching, développe des librairies et langage dynamiques open source utilisés ou pas.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "remiforaxoff",
+    gplus: null,
+    github: "forax",
+    website: null,
+    email: null,
+  },{
     id: "lise_quesnel",
     name: "Lise Quesnel",
     bio: "<p>Lise est développeuse web et Lead dev. Elle sait être moteur tant sur le plan humain que technique.<br> Les bonnes pratiques de développement sont pour elle le ciment de tout projet. Elle porte également une attention toute particulière à l’expérience utilisateur.<br> Grande curieuse, elle aime découvrir sans cesse de nouvelles choses.</p>",
@@ -880,7 +891,7 @@ var njSpeakers = [
   {
     id: "jose_paumard",
     name: "José Paumard",
-    bio: "<p>Passionné par la programmation depuis plus de 20 ans, José a fait ses premières armes en assembleur, puis C, C parallèle sur machine SIMD avant d’adopter Java comme langage objet, indispensable à la plupart des grandes applications modernes.</p><p>Maître de conférences à l'institut Galilée (Université Paris 13), et docteur en mathématiques appliquées de l'ENS de Cachan. Il découvre le langage Java en 1995, et enseigne les technologies Java / Java EE en DESS, M2 et 3ème année ingénieur depuis 1998. Il intervient également régulièrement auprès d'entreprises, sous forme d'aide à projet et à l'architecture, d'expertise, et de formation.</p><p>José se passionne également pour l’éducation et la transmission des connaissances. Il tient un blog, <a href=\"http://blog.paumard.org\" target=\"_blank\">Java le soir</a>, source documentaire francophone sur les technologies Java pour des milliers de développeurs dans le monde. L'objet de ce blog est de publier son cours (environ 750 pages en ligne et disponibles au format EPub) et différents articles techniques, bien sûr en accès libre.</p><p>Il est enfin membre dirigeant du Paris JUG et co-organisateur de Devoxx France. Il prend enfin la parole régulièrement lors de conférences, devant des audiences très diverses : étudiants, chercheurs (mathématique, informatique, sciences humaines), ingénieurs, grand public, JUG.</p>",
+    bio: "<p>José est Java Developer Advocate chez Oracle. PhD en mathématiques appliquées, maître de conférences à l'Université Sorbonne Paris Nord pendant 25 years, il est Java Champion Alumni et JavaOne Rockstar. Il est membre et organisateur du Paris JUG, et a été co-créateur de Devoxx France qu'il a co-organisé pendant 3 ans. Il a aussi co-créé JChateau, une unconference dans la Vallée de la Loire. Il développe le site de documentation <a href=\"https://dev.java\">https://dev.java</a>, publie tous les mois le JEP Café sur YouTube, et entretient une série de 80 heures de cours Java en français, également sur YouTube. Il est également auteur Java pour Pluralsight.</p>",
     gravatar: "jose.paumard@gmail.com",
     photo: null,
     twitter: "JosePaumard",

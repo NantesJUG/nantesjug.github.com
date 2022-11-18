@@ -1,6 +1,39 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2022_12_13',
+        title: "🍸 Soirée de fin d'année 🍸 spéciale Java 19 avec José Paumard et Rémi Forax",
+        date: new Date(2022, 11, 13), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/289829724',
+        place: 'madeleine_icilundi',
+        subjects: [
+            {
+                title: 'Verre d\'accueil 🍸',
+                time: '19h00',
+                length:'30 min',
+                type: 'hello',
+                abstract: "<p>C'est bientôt la fin de l'année, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>",
+            },{
+                title: "Java 19 et au-delà : programmation orientée données et programmation asynchrone",
+                time: '19h30',
+                length:'90 min',
+                type: 'talk',
+                abstract: "Nous allons parler des deux sujets brûlants actuellement en développement en Java : la Programmation Orientée Données (Data Oriented Programming en anglais) et la programmation asynchrone.\n<br>" +
+                    "En programmation centrée sur les données, les données sont au premier plan et le code qui les traite au second. En programmation objet, ce qui est au premier plan, ce sont les API et les implémentations. Nous allons donc expliquer ces concepts, l'intérêt de les introduire en Java, et les nouveaux patterns de code que cela apporte. Nous verrons ce que le projet Amber a déjà livré dans le JDK 19 pour implémenter ces concepts, en version finale et en pré-version et ce qui est prévu pour les versions suivantes.\n<br>" +
+                    "Le JDK 19 contient en plus deux pré-versions livrés par le projet Loom. Tout d'abord les threads virtuels, plus légers que les threads classiques que l'on a depuis 25 ans. Ils peuvent être créés en plus grand nombre et peuvent être bloqués quasiment sans perte de performance. Ensuite, la programmation concurrente structurée introduit la notion de scope et propose un nouveau modèle de programmation asynchrone. Nous couvrirons ces deux sujets et verront comment cela va révolutionner l'écriture de code asynchrone.<br>",
+                speakers: ['jose_paumard', 'remi_forax']
+            },
+            {
+                title: 'Petits fours et Cocktail 🍣 🍷',
+                time: '21h',
+                length:'3h',
+                type: 'winter',
+                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>",
+            },
+        ],
+        docs: []
+    },{
         id: '2022_11_15',
         title: "Les post-mortems && Java dans Kubernetes",
         date: new Date(2022, 10, 15), //month begin at 0
