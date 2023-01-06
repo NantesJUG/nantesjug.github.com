@@ -2,7 +2,7 @@
 var njEvents = [
     {
         id: '2023_01_24',
-        title: "🍸 Soirée de fin d'année 🍸 spéciale Java 19 avec José Paumard et Rémi Forax",
+        title: "Tooling monorepo polyglot + Architecture Microservices et cohérence des données",
         date: new Date(2023, 0, 24), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/',
