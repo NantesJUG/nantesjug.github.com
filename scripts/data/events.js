@@ -1,6 +1,32 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2023_01_24',
+        title: "🍸 Soirée de fin d'année 🍸 spéciale Java 19 avec José Paumard et Rémi Forax",
+        date: new Date(2022, 0, 24), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'Du tooling JS dans mon monorepo polyglot',
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "<p>Nous découvrirons comment les nouveaux outils JS (nx / turborepo) peuvent améliorer votre expérience et productivité sur un large monorepo.<br>Puis comment en bénéficier sur d'autres languages.</p>",
+            },{
+                title: "Architecture Microservices et cohérence des données : on fait comment pour de vrai ?",
+                time: '19h30',
+                length:'90 min',
+                type: 'talk',
+                abstract: "<p>Les architectures microservices ont le vent en poupe. Elles présentent de nombreux avantages pour mettre en place les bonnes pratiques DevOps et faire travailler en parallèle des équipes pluridisciplinaires autonomes. Evoluer du monolithe vers les microservices n’est pas un long fleuve tranquille… Les challenges ne manquent pas. L’un d’entre eux, et non des moindres, est la cohérence des données. Un des principes de base est que chaque service possède sa propre base de données. Quand une transaction métier invoque plusieurs services, on ne peut donc plus compter sur les bonnes vieilles transactions ACID des serveurs SQL.</p><br>"
+                + "<p>Quant aux transactions distribuées XA/2PC, oubliez les, elles sont jetées au pilori des mauvaises pratiques depuis bien longtemps ! Une fois ce constat établi, on fait quoi concrètement ? Comment peut-on répondre à cette problématique ? Dans cette présentation, nous verrons comment procéder avec deux approches : les SAGA et les LRA (Long Running Action). Un exemple concret basé sur MicroProfile et le framework Eeventuate Tram vous permettra de les appréhender et de choisir la bonne option pour votre projet Microservices</p><br>",
+                speakers: ['jean_francois_james']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2022_12_13',
         title: "🍸 Soirée de fin d'année 🍸 spéciale Java 19 avec José Paumard et Rémi Forax",
         date: new Date(2022, 11, 13), //month begin at 0

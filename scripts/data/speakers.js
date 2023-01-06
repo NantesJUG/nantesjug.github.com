@@ -1881,6 +1881,26 @@ var njSpeakers = [
     github: "JulienBideau",
     website: "",
   },
+  {
+    id: "jean_francois_james",
+    name: "Jean-François James",
+    bio: "Je me définis avant tout comme un \"Coding Software Architect\". Nommé Expert Fellow à Atos puis Worldline, je suis responsable de la toute nouvelle initiative TechRel qui vise à promouvoir l'entreprise dans les communautés Tech. J'aime bien partager et challenger mes connaissances à travers des articles, des présentations, des démos. Il y a toujours quelque chose à apprendre et améliorer !<br>Mon bagage technique est centré sur l'écosystème Java dont l'évolution permanente ne cesse de me passionner. J'ai eu l'opportunité de contribuer au projet Open Source Eclipse MicroProfile.<br>Bref, je reste très enthousiaste malgré mes plus de 30 ans dans l'IT.",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "jefrajames",
+    github: "jefrajames",
+    website: "https://jefrajames.fr/",
+  },
+  {
+    id: "nicolas_morel",
+    name: "Nicolas Morel",
+    bio: "Développeur depuis plus de 10 ans, j'ai débuté en SSII avant de rejoindre une startup bretonne, Klaxoon.<br>D'abord dev fullstack Java (si si, on peut faire du front en Java, coucou GWT 😱) puis dev frontend JS, je m'intéresse plus particulièrement aux sujets perf et dev xp.",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "nmor3l",
+    github: "nmorel",
+    website: "",
+  },
 ];
 
 //Test gravatar : http://www.neoseeker.com/tools/gravatar_tester.php
