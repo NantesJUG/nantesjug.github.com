@@ -5,7 +5,7 @@ var njEvents = [
         title: "Tooling monorepo polyglot + Architecture Microservices et cohérence des données",
         date: new Date(2023, 0, 24), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/290766700',
         place: 'eartsup',
         subjects: [
             {
@@ -14,6 +14,7 @@ var njEvents = [
                 length:'30 min',
                 type: 'quickie',
                 abstract: "<p>Nous découvrirons comment les nouveaux outils JS (nx / turborepo) peuvent améliorer votre expérience et productivité sur un large monorepo.<br>Puis comment en bénéficier sur d'autres languages.</p>",
+                speakers: ['nicolas_morel']
             },{
                 title: "Architecture Microservices et cohérence des données : on fait comment pour de vrai ?",
                 time: '19h30',
