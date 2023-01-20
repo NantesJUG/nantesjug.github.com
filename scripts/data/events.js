@@ -5,7 +5,7 @@ var njEvents = [
         title: "Advanced TypeScript Patterns + Urbaniser un SI pour 10 ans",
         date: new Date(2023, 1, 2), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/290766700',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/291067375',
         place: 'talend',
         subjects: [
             {
