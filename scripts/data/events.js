@@ -1,6 +1,32 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2023_02_02',
+        title: "Advanced TypeScript Patterns + Urbaniser un SI pour 10 ans",
+        date: new Date(2023, 1, 2), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/290766700',
+        place: 'talend',
+        subjects: [
+            {
+                title: 'Advanced TypeScript Patterns',
+                time: '19h00',
+                length:'30 min',
+                type: 'quickie',
+                abstract: "<p>Durant ce talk nous verrons ensemble comment les nouveautés introduite depuis TypeScript 4 (Template Literals Types, Recursive Conditional Types etc) peuvent nous aider à rendre notre code plus robuste et expressif.</p>",
+                speakers: ['gregory_houllier']
+            },{
+                title: "Urbaniser un SI pour 10 ans",
+                time: '19h30',
+                length:'90 min',
+                type: 'talk',
+                abstract: "<p>Un SI, ça doit évoluer en permanence, et si possible, pas en faisant une refonte totale tous les 3 ans. Alors je vous propose de parler de microservices, de Domain-driven design, de déclaratif, de réactif, de chorégraphie et de plein d'autres beaux concepts d'urbanisation qui servent justement à ça : rendre votre SI évolutif, pour que votre prochaine urbanisation dure au moins 10 ans.</p>",
+                speakers: ['christophe_quintard']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2023_01_24',
         title: "Tooling monorepo polyglot + Architecture Microservices et cohérence des données",
         date: new Date(2023, 0, 24), //month begin at 0

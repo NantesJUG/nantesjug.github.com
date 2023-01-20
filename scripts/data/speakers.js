@@ -5,6 +5,30 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "gregory_houllier",
+    name: "Grégory Houllier",
+    bio: "<p>Senior Software Engineer chez Swile, Co Fondateur du meetup RennesJS et TypeScript Addict.</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: "ghoullier",
+    gplus: null,
+    github: "ghoullier",
+    website: null,
+    email: null,
+  },
+  {
+    id: "christophe_quintard",
+    name: "Christophe Quintard",
+    bio: "<p>Je suis passé par des startups, IBM, Timwi et depuis quelques années je travaille à l'urbanisation du SI chez Ouest-France. Je continue à coder, parce que je ne veux pas être un architecte hors-sol. Mon but, c'est un SI le plus évolutif possible, parce que nous ne sommes pas des bâtisseurs de cathédrales : en informatique, tout change, tout le temps !</p>",
+    gravatar: null,
+    photo: "jpg",
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: "https://christophequintard.fr",
+    email: null,
+  },
+  {
     id: "remi_forax",
     name: "Rémi Forax",
     bio: "<p>Java Plombier, Maitre de Conférence, Virtual Machine Whisperer,\n<br>Martyrise ses pauvres étudiants, complexifie Java en faisant partie des gens qui écrivent les specs pour les lambdas, les modules, récemment les records et le pattern matching, développe des librairies et langage dynamiques open source utilisés ou pas.</p>",
