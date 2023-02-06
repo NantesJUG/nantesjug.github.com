@@ -14,7 +14,6 @@ var njSpeakers = [
     gplus: null,
     github: "ghoullier",
     website: null,
-    email: null,
   },
   {
     id: "christophe_quintard",
@@ -26,7 +25,6 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: "https://christophequintard.fr",
-    email: null,
   },
   {
     id: "remi_forax",
@@ -38,7 +36,6 @@ var njSpeakers = [
     gplus: null,
     github: "forax",
     website: null,
-    email: null,
   },{
     id: "lise_quesnel",
     name: "Lise Quesnel",
@@ -49,7 +46,6 @@ var njSpeakers = [
     gplus: null,
     github: "lisequesnel",
     website: null,
-    email: null,
   },{
     id: "sun_tan",
     name: "Sun Tan",
@@ -60,7 +56,6 @@ var njSpeakers = [
     gplus: null,
     github: "sunix",
     website: "https://blog.sunix.org",
-    email: null,
   },{
     id: "lucille_moise",
     name: "Lucille Moise",
@@ -71,7 +66,6 @@ var njSpeakers = [
     gplus: null,
     github: "LucilleMoise",
     website: null,
-    email: null,
   },{
     id: "elvadas_nono",
     name: "Elvadas Nono",
@@ -82,7 +76,6 @@ var njSpeakers = [
     gplus: null,
     github: "nelvadas",
     website: null,
-    email: "elvadas.nono.woguia@oracle.com",
   },
   {
     id: "brian_clozel",
@@ -94,7 +87,6 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: "https://spring.io",
-    email: "bclozel@vmware.com",
   },
   {
     id: "pierre_clainchard",
@@ -106,7 +98,6 @@ var njSpeakers = [
     gplus: null,
     github: null,
     website: null,
-    email: "pierre.clainchard@gmail.com",
   },
   {
     id: "julien_deville",
@@ -515,8 +506,8 @@ var njSpeakers = [
       "<p>Après de nombreuses années d'architecture logiciel et de développement dapplications, je me suis spécialisé dans les architectures et écosystèmes du Cloud Publique.</p>" +
       "<p>Désormais je m'épanouis à mettre en place les meilleurs pratiques d'ingénieurie logicielle (devops, gitops, infra as code, ...) et à accompagner les équipes sur leurs déploiements dans AWS, Azure et Kubernetes.</p>" +
       '<p>Manuel est également organisateur du <a href="http://nantesjug.org/" target="_blank">Nantes JUG</a> et aime échanger autour des projets et des technologies.</p>',
-    gravatar: "boillodmanuel@gmail.com",
-    photo: null,
+    gravatar: null,
+    photo: "jpg",
     twitter: "mboillod",
     github: "boillodmanuel",
     website: null,
