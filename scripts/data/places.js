@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'nickel',
+    name: 'Nickel',
+    address: '21 Boulevard de Berlin',
+    city: '44000 Nantes',
+    maps: 'https://goo.gl/maps/fNYksfP7XWuAjAGdA',
+    capacity: 50
+  },
+  {
     id: 'hep-campus',
     name: 'HEP Campus',
     address: '16 Boulevard Général de Gaulle',

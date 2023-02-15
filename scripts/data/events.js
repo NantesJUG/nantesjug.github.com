@@ -1,6 +1,32 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2023_03_16',
+        title: "Robotisez les tests de vos microservices + De Java vers Kotlin : codez deux fois plus vite !",
+        date: new Date(2023, 2, 16), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: 'nickel',
+        subjects: [
+            {
+                title: 'Robotisez les tests de vos microservices',
+                time: '19h00',
+                length:'45 min',
+                type: 'talk',
+                abstract: "<p>Pour assurer la fiabilité et le bon fonctionnement de nos microservices chez Nickel, nous écrivons des tests automatisés avec RobotFramework, un outil python et open source.</p><p>Sa syntaxe user-friendly permet de comprendre rapidement l’objet d’un test dès la lecture de son code. Il offre également un gain de temps à nos développeurs pour construire leur jeu de données.</p><p>Nous écrirons ensemble le test d’une API REST pour découvrir RobotFramework, ses concepts, sa syntaxe et ses rapports de tests en sortie.</p><p>Enfin, nous vous présenterons les choix et les outils que nous avons retenus pour obtenir des tests stables et maintenables au quotidien..</p>",
+                speakers: ['remi_picard']
+            },{
+                title: "De Java vers Kotlin : codez deux fois plus vite !",
+                time: '19h45',
+                length:'45 min',
+                type: 'talk',
+                abstract: "<p>Vous aimez Java, mais pas son aspect verbeux ?</p><p>Vous aimez les try catch mais pas les NullPointerException ?</p><p>Vous en avez assez d'écrire des equals et des hashcode ?</p><p>Qu'à cela ne tienne, un langage peut vous venir en aide : Scala !</p><p>... Ah, non attendez, c'est pas la bonne fiche...</p><br/><p>Donc ! Vous connaissez sans doute Scala et tous les avantages qu'il offre par rapport à Java, mais connaissez-vous Kotlin ? Ce qu'il apporte par rapport à Scala ? Et surtout, pourquoi vous devriez sérieusement considérer un projet avec si vous souhaitez vous simplifier la vie ?</p><br/><p>Je vous propose de vous faire découvrir ce langage au travers de cette présentation, autour de ses avantages et des outils qu'il propose afin d'avoir un projet fiable et simple à maintenir !</p>",
+                speakers: ['yann_huriez']
+            }
+        ],
+        docs: []
+    },
+    {
         id: '2023_02_02',
         title: "Advanced TypeScript Patterns + Urbaniser un SI pour 10 ans",
         date: new Date(2023, 1, 2), //month begin at 0

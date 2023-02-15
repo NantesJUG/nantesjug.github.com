@@ -5,6 +5,28 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "yann_huriez",
+    name: "Yann Huriez",
+    bio: "<p>Développeur Android depuis plus de dix ans, je n'oublie pas mes amours de jeunesse avec Java Swing et AWT, en client lourd (Mais bon c'est bien aussi d'évoluer...).</p>",
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: "yhuriez",
+    website: "https://popcorn-nantes.github.io/person/yann-huriez/",
+  },
+  {
+    id: "remi_picard",
+    name: "Rémi Picard",
+    bio: "<p>Développeur Scala chez Nickel à Nantes. Passionné par les sujets Web et DevOps, vous me trouverez souvent aux MeetUps nantais.</p>",
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: "https://fr.linkedin.com/in/r%C3%A9mi-picard",
+  },
+  {
     id: "gregory_houllier",
     name: "Grégory Houllier",
     bio: "<p>Senior Software Engineer chez Swile, Co Fondateur du meetup RennesJS et TypeScript Addict.</p>",
