@@ -5,7 +5,7 @@ var njEvents = [
         title: "Robotisez les tests de vos microservices + De Java vers Kotlin : codez deux fois plus vite !",
         date: new Date(2023, 2, 16), //month begin at 0
         time: '19h00',
-        register: '',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/291639279/',
         place: 'nickel',
         subjects: [
             {

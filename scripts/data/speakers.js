@@ -20,7 +20,7 @@ var njSpeakers = [
     name: "Rémi Picard",
     bio: "<p>Développeur Scala chez Nickel à Nantes. Passionné par les sujets Web et DevOps, vous me trouverez souvent aux MeetUps nantais.</p>",
     gravatar: null,
-    photo: null,
+    photo: "jpg",
     twitter: null,
     gplus: null,
     github: null,
@@ -1226,20 +1226,6 @@ var njSpeakers = [
     twitter: "doanduyhai",
     github: null,
     website: null,
-  },
-  {
-    id: "remi_picard",
-    name: "Rémi Picard",
-    bio:
-      "<p>Référent technique au sein du groupe Sopra Steria, Rémi travaille sur des projets JavaEE et PHP pour des sociétés de services et du secteur public.</p>" +
-      '<p>Etudiant, c\'est en suivant un tutoriel du ""Site du Zéro"" sur le C++/Qt, qu\'il découvre tardivement la programmation. Il se passionne alors tout particulièrement pour les technologies Web.</p>' +
-      "<p>Au cours de son évolution chez Sopra Steria, et après plusieurs mois de développement et maintenance d'applications, il découvre les problématiques de qualité (process, tests), d'intégration continue (Jenkins, Sonar) et d'exploitation (Shell, Linux).</p>" +
-      "<p>En perso, Rémi s’intéresse aux nouvelles tendances du Web en parcourant divers tutoriels, lectures (livres, revue Programmez!) et depuis peu en assistant aux conférences de la JUG de Nantes.</p>",
-    gravatar: null,
-    photo: "jpg",
-    twitter: null,
-    github: null,
-    website: "http://remi-picard.appspot.com",
   },
   {
     id: "francois_kha",
