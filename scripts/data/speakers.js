@@ -20,7 +20,7 @@ var njSpeakers = [
     name: "Yann Huriez",
     bio: "<p>Développeur Android depuis plus de dix ans, je n'oublie pas mes amours de jeunesse avec Java Swing et AWT, en client lourd (Mais bon c'est bien aussi d'évoluer...).</p>",
     gravatar: null,
-    photo: null,
+    photo: "jpg",
     twitter: null,
     gplus: null,
     github: "yhuriez",
