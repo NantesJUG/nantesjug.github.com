@@ -14,7 +14,7 @@ var njEvents = [
                 length:'45 min',
                 type: 'talk',
                 abstract: "<p>Pour assurer la fiabilité et le bon fonctionnement de nos microservices chez Nickel, nous écrivons des tests automatisés avec RobotFramework, un outil python et open source.</p><p>Sa syntaxe user-friendly permet de comprendre rapidement l’objet d’un test dès la lecture de son code. Il offre également un gain de temps à nos développeurs pour construire leur jeu de données.</p><p>Nous écrirons ensemble le test d’une API REST pour découvrir RobotFramework, ses concepts, sa syntaxe et ses rapports de tests en sortie.</p><p>Enfin, nous vous présenterons les choix et les outils que nous avons retenus pour obtenir des tests stables et maintenables au quotidien..</p>",
-                speakers: ['remi_picard']
+                speakers: ['remi_picard', 'mohamed_ali_bouine']
             },{
                 title: "De Java vers Kotlin : codez deux fois plus vite !",
                 time: '19h45',

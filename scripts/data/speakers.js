@@ -5,6 +5,17 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "mohamed_ali_bouine ",
+    name: "Mohamed Ali Bouine ",
+    bio: "<p>Développeur Scala chez Nickel, j’ai découvert le monde de la programmation fonctionnelle en 2018.</p><p>Depuis quelques mois, je m’intéresse également aux tests avec RobotFramework.</p>",
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+  },
+  {
     id: "yann_huriez",
     name: "Yann Huriez",
     bio: "<p>Développeur Android depuis plus de dix ans, je n'oublie pas mes amours de jeunesse avec Java Swing et AWT, en client lourd (Mais bon c'est bien aussi d'évoluer...).</p>",
