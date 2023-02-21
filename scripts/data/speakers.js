@@ -9,7 +9,7 @@ var njSpeakers = [
     name: "Mohamed Ali Bouine ",
     bio: "<p>Développeur Scala chez Nickel, j’ai découvert le monde de la programmation fonctionnelle en 2018.</p><p>Depuis quelques mois, je m’intéresse également aux tests avec RobotFramework.</p>",
     gravatar: null,
-    photo: null,
+    photo: "jpg",
     twitter: null,
     gplus: null,
     github: null,
