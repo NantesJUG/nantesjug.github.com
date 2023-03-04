@@ -1,9 +1,56 @@
 //
-// Google form for speaker: http://bit.do/nantesjug-speaker
+// Google form for speaker: https://nantesjug.org/#/speaker-form
 //
 
 /*jshint unused: false */
 var njSpeakers = [
+  {
+    id: 'damien_metzler',
+    name: 'Damien Metzler',
+    bio: 
+        "<p></p>",
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+  },  {
+    id: 'jerome_moliere',
+    name: 'Jérôme Molière',
+    bio: 
+        "<p></p>",
+    gravatar: null,
+    photo: null,
+    twitter: null,
+    gplus: null,
+    github: null,
+    website: null,
+  },
+  {
+    id: 'sylvain_nael',
+    name: 'Sylvain Nael',
+    bio: "<p>Développeur Front chez RCA</p>",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'sylvain_nb',
+    gplus: null,
+    github: null,
+    website: 'https://www.linkedin.com/in/sylvain-nael-73513125/',
+  },
+  {
+    id: 'raphael_semeteys',
+    name: 'Raphaël Semeteys',
+    bio: 
+        "<p>Raphaël est DevRel, architecte et expert open source chez Worldline. <br>" + 
+        "Geek depuis ses débuts, il a du adopter de nombreux angles de vue sur l'IT (développeur, analyste, architecte, chef de projet, consultant, avant-vente, direction technique...) et ce dans de multiples domaines métiers. Il aborde les (nouvelles) technologies toujours avec le même appetit, désormais pimenté par le recul que lui donne son expérience de près de 25 ans de conception/réalisation/exploitation de services et de SI soumis à de fortes contraintes (criticité/visibilité, performances/volumétrie, sécurité, exigences d'industrialisation).</p>",
+    gravatar: null,
+    photo: 'jpg',
+    twitter: 'raphaelsemeteys',
+    gplus: null,
+    github: 'raphiki',
+    website: 'http://www.semeteys.org',
+  },
   {
     id: "mohamed_ali_bouine",
     name: "Mohamed Ali Bouine ",
@@ -1464,15 +1511,22 @@ var njSpeakers = [
     id: "maxime_odye",
     name: "Maxime Odye",
     bio:
-      "<p>" +
-      "Maxime, consultant back-end chez Zenika Rennes. Passionné techniquement, j'aime découvrir et re-découvrir les différentes technologies gravitant autour de l'écosystème Java. " +
-      "Amateur des différentes communautés (Jug, BreizhCamp, AgileTour), j'estime que le partage technique, et non technique, dans le secteur de l'Informatique est quelque chose d'extraordinaire. " +
-      "<br>Découverte, progression et approfondissement, l'enrichissement personnel est grand et essentiel pour nous faire tous progresser. " +
-      "<br>Je suis formateur ElasticSearch et ELK (ElasticSearch, Logstash, Kibana)." +
-      "</p>",
+      "<p>Maxime, consultant back-end freelance.<br>" +
+      "Passionné techniquement, j'aime découvrir et re-découvrir les différentes technologies gravitant autour de l'écosystème Java. Amateur des différentes communautés (Jug, BreizhCamp, AgileTour), j'estime que le partage technique, et non technique, dans le secteur de l'IT est quelque chose d'extraordinaire.<br>" +
+      "Découverte, progression et approfondissement, l'enrichissement personnel est grand et essentiel pour nous faire tous progresser. Je suis formateur Elasticsearch et Elastic Stack, certified Spring Core by Pivotal et organisateur de l'Agile Tour Rennes</p>",
     gravatar: "",
     photo: "jpg",
     twitter: "MaxOdye",
+    github: null,
+    website: null,
+  },
+  {
+    id: "mathieu_pousse",
+    name: "Mathieu Pousse",
+    bio: "<p>Lead développeur backend chez Ouest France et responsable des performances du site web, je me passionne pour les problèmatiques autour de Java et son ecosytème, de Docker et Kubernetes, de la conception à l'industrialisation, du déploiement à l'exploitation.</p>",
+    gravatar: "",
+    photo: "jpg",
+    twitter: null,
     github: null,
     website: null,
   },
@@ -1791,9 +1845,10 @@ var njSpeakers = [
     id: "jean_philippe_baconnais",
     name: "Jean-Philippe Baconnais",
     bio:
-      "<p>Développeur / Consultant chez Zenika Nantes.</br>" +
+      "<p>Développeur chez Zenika Nantes.</br>" +
       "Plongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.</br>" +
-      "GitLab Heroes depuis l'été 2020 🦊</p>",
+      "GitLab Heroes depuis l'été 2020 🦊 & Community Hero GitPod 🍑 depuis juin 2022.</br>" +
+      "Co orga des Human Talks Nantes</p>",
     gravatar: null,
     photo: "jpg",
     twitter: "jphi_baconnais",

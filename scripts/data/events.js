@@ -1,6 +1,94 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2023_06_22',
+        title: "API explosives 🧨 // Déployer du Java en serverless c'est possible.",
+        date: new Date(2023, 5, 22), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: null,
+        subjects: [
+            {
+                title: 'Développeurs, faites exploser vos APIs 🧨 ',
+                time: '19h00',
+                length:'15 min',
+                type: 'quickie',
+                abstract: '<p>La “pyramide des tests” est une notion dont tout le monde a déjà entendu au moins une fois. Entre tests unitaires, tests d’intégration ou encore tests de charge, ils sont souvent négligés, par manque de budget, de temps (ou les deux) ou bien par manque de conviction (ou les 3 ?).</p>' + 
+                    "<p>Après vous avoir expliqué notre façon de voir les tests de charge, nous vous montrerons comment nous, développeurs, avons pu concevoir, analyser, exécuter et interpréter des tirs de charge et avec quels outils.</p>",
+                speakers: ['sylvain_nael', 'jean_philippe_baconnais'],
+            },
+            {
+                title: "Déployer du Java en serverless c'est possible.",
+                time: '19h30',
+                length:'60 min',
+                type: 'talk',
+                abstract: 
+                    "<p></p>",
+                speakers: ['damien_metzler']
+            },
+        ],
+        docs: []
+    },    
+    {
+        id: '2023_05_09',
+        title: "Hands-on Threads virtuels du JDK 19",
+        date: new Date(2023, 4, 9), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: null,
+        subjects: [
+            {
+                title: 'Intro sur les Threads virtuels',
+                time: '19h00',
+                length:'30 min',
+                type: 'talk',
+                abstract: '',
+                speakers: ['jerome_moliere'],
+            },
+            {
+                title: 'Hands-on Threads virtuels du JDK 19',
+                time: '19h30',
+                length:'90 min',
+                type: 'hands-on',
+                abstract: 
+                    "<p></p>",
+                speakers: ['jerome_moliere']
+            },
+        ],
+        docs: []
+    },
+    {
+        id: '2023_04_12',
+        title: "Web3 // Mob programming",
+        date: new Date(2023, 3, 12), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: null,
+        subjects: [
+            {
+                title: 'Web3 ? Demystifions les blockchains et les applications décentralisées !',
+                time: '19h00',
+                length:'40 min',
+                type: 'talk',
+                abstract: '<p>Les termes Blockchain, proof-of-stake, smart contract, dApp, token, NFT, DAO ou Web3 vous laissent perplexes, vous donnent le vertige ou voire même vous énervent ? Venez découvrir les concepts et les composants structurants qui se cachent derrière tout ça !</p>',
+                speakers: ['raphael_semeteys'],
+            },
+            {
+                title: 'Mob programming, la véritable approche du développement en équipe',
+                time: '19h45',
+                length:'55 min',
+                type: 'talk',
+                abstract: 
+                    "<p>Shérif, le manager, est en colère. Il vient de surprendre toute l’équipe de développement autour d’une même machine. Rendez-vous compte ! Après des comparaisons douteuses avec la DDE, il les a bien sermonnés et leur a ordonné de retourner à leur poste de travail immédiatement, un peu de sérieux ! Avec Shérif, la bamboche, c’est terminé !</p>" +
+                    "<p>Malheureusement, des Shérif, il en existe encore beaucoup dans les open-spaces de nos DSI. Partager un ordinateur entre plusieurs développeurs, mais pourquoi donc ?</p>" +
+                    "<p>Le MOB programming est une pratique s’appuyant sur le Lean et sur Extreme Programming qui consiste à réaliser une tâche, qu’elle soit technique ou non, à plusieurs. Les groomings, planifications et autres réunions de conception, ne serait-ce pas déjà des MOBs ?</p>" +
+                    "<p>De mythe à réalité, nous vous proposons de faire un retour d’expérience du MOB programming dans une équipe produit chez Ouest-France. Nous vous offrirons deux points de vue, celui du lead, présent depuis le début du projet (5 ans) et celui d’un développeur qui a rejoint l’équipe début 2021.</p>",
+                speakers: ['maxime_odye', 'mathieu_pousse']
+            },
+        ],
+        docs: []
+    },
+    {
         id: '2023_03_16',
         title: "Robotisez les tests de vos microservices + De Java vers Kotlin : codez deux fois plus vite !",
         date: new Date(2023, 2, 16), //month begin at 0
