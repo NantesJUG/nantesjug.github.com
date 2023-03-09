@@ -1514,7 +1514,7 @@ var njSpeakers = [
       "<p>Maxime, consultant back-end freelance.<br>" +
       "Passionné techniquement, j'aime découvrir et re-découvrir les différentes technologies gravitant autour de l'écosystème Java. Amateur des différentes communautés (Jug, BreizhCamp, AgileTour), j'estime que le partage technique, et non technique, dans le secteur de l'IT est quelque chose d'extraordinaire.<br>" +
       "Découverte, progression et approfondissement, l'enrichissement personnel est grand et essentiel pour nous faire tous progresser. Je suis formateur Elasticsearch et Elastic Stack, certified Spring Core by Pivotal et organisateur de l'Agile Tour Rennes</p>",
-    gravatar: "",
+    gravatar: null,
     photo: "jpg",
     twitter: "MaxOdye",
     github: null,
@@ -1523,8 +1523,8 @@ var njSpeakers = [
   {
     id: "mathieu_pousse",
     name: "Mathieu Pousse",
-    bio: "<p>Lead développeur backend chez Ouest France et responsable des performances du site web, je me passionne pour les problèmatiques autour de Java et son ecosytème, de Docker et Kubernetes, de la conception à l'industrialisation, du déploiement à l'exploitation.</p>",
-    gravatar: "",
+    bio: "<p>Lead développeur backend chez Cloud-IAM, ex Ouest France et responsable des performances du site web, je me passionne pour les problématiques autour de Java et son écosystème, de Docker et Kubernetes, de la conception à l'industrialisation, du déploiement à l'exploitation.</p>",
+    gravatar: null,
     photo: "jpg",
     twitter: null,
     github: null,
@@ -1537,7 +1537,7 @@ var njSpeakers = [
       "<p>" +
       "Développeur, en couple avec Java depuis 1999, mais je dois avouer que je lui fais quelques infidélités avec Javascript ces derniers temps." +
       "</p>",
-    gravatar: "",
+    gravatar: null,
     photo: "jpg",
     twitter: "YannDanthu",
     github: "YannDanthu",
@@ -1550,7 +1550,7 @@ var njSpeakers = [
       "<p>" +
       "Matthieu Gioani, consultant, designer &amp; facilitateur, accompagne les équipes projet et les managers sur les problématiques de design, d’émergence des besoins et d’innovation depuis plus de 6 ans." +
       "</p>",
-    gravatar: "",
+    gravatar: null,
     photo: "jpg",
     twitter: "Matt_Gio",
     github: null,
@@ -1560,7 +1560,7 @@ var njSpeakers = [
     id: "eric_bernardeau",
     name: "Eric Bernardeau",
     bio: "<p>" + "" + "</p>",
-    gravatar: "",
+    gravatar: null,
     photo: null,
     twitter: null,
     github: null,
@@ -1585,7 +1585,7 @@ var njSpeakers = [
       "Adepte d’AngularJs depuis déjà deux ans, il se met à explorer le Flux avec React.<br>" +
       "Social, il écume les meetups nantais en quête de nouveautés." +
       "</p>",
-    gravatar: "",
+    gravatar: null,
     photo: "jpg",
     twitter: "YvonnickFrin",
     github: "frinyvonnick",
@@ -1664,7 +1664,7 @@ var njSpeakers = [
     id: "alvin_berthelot",
     name: "Alvin Berthelot",
     bio: '<p>Développeur depuis plus de 10 ans sur des projets et des technologies hétérogènes, qui n’ont qu’un seul point commun, l’utilisation du web. Sa curiosité, son envie de partager les savoirs et son polyglottisme technologique lui permettent de mélanger les disciplines et ainsi de parler de tout… et surtout de n’importe quoi 🙂</p><p>Il travaille (tout de même de manière sérieuse) en tant qu’indépendant pour sa structure <a href="http://www.webyousoon.com" target="_blank">Webyousoon</a>.</p>',
-    gravatar: "",
+    gravatar: null,
     photo: null,
     twitter: "alvinberthelot",
     github: "alvinberthelot",
@@ -1674,7 +1674,7 @@ var njSpeakers = [
     id: "nicolas_giraud",
     name: "Nicolas Giraud",
     bio: "<p></p>",
-    gravatar: "",
+    gravatar: null,
     photo: null,
     twitter: "",
     github: "",
@@ -1684,7 +1684,7 @@ var njSpeakers = [
     id: "gautier_de_saint_martin_lacaze",
     name: "Gautier de Saint Martin Lacaze",
     bio: "<p>Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014. Ayant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients. </p>",
-    gravatar: "",
+    gravatar: null,
     photo: null,
     twitter: "",
     github: "",
@@ -1694,7 +1694,7 @@ var njSpeakers = [
     id: "thomas_buvignier",
     name: "Thomas Buvignier",
     bio: "<p>Product Owner UX et passionné de graphisme, je travaille au sein de l'agence Bewizyu sur les interfaces de nos clients.</p><p>Contributeur du blog, je suis toujours à l'affût des dernières tendances graphiques afin de pouvoir les retravailler et créer une expérience utilisateur optimale.</p><p>Ex-entrepreneur et ayant eu plusieurs vies ma curiosité se trouve résumée dans une citation de J.K Chesterton : \"Il n'y a pas de sujet peu intéressant, il n'y a que des personnes peu intéressées\"</p>",
-    gravatar: "",
+    gravatar: null,
     photo: "jpg",
     twitter: "CadentALatere",
     github: "",
