@@ -63,7 +63,7 @@ var njEvents = [
         date: new Date(2023, 3, 12), //month begin at 0
         time: '19h00',
         register: null,
-        place: null,
+        place: 'lepalace',
         subjects: [
             {
                 title: 'Web3 ? Demystifions les blockchains et les applications décentralisées !',
@@ -84,6 +84,25 @@ var njEvents = [
                     "<p>Le MOB programming est une pratique s’appuyant sur le Lean et sur Extreme Programming qui consiste à réaliser une tâche, qu’elle soit technique ou non, à plusieurs. Les groomings, planifications et autres réunions de conception, ne serait-ce pas déjà des MOBs ?</p>" +
                     "<p>De mythe à réalité, nous vous proposons de faire un retour d’expérience du MOB programming dans une équipe produit chez Ouest-France. Nous vous offrirons deux points de vue, celui du lead, présent depuis le début du projet (5 ans) et celui d’un développeur qui a rejoint l’équipe début 2021.</p>",
                 speakers: ['maxime_odye', 'mathieu_pousse']
+            },
+        ],
+        docs: []
+    },
+    {
+        id: '2023_04_06',
+        title: "Dev'Party - Clash of Code",
+        date: new Date(2023, 3, 6), //month begin at 0
+        time: '19h00',
+        register: null,
+        place: 'eartsup',
+        subjects: [
+            {
+                title: 'Retour de la Dev\'Party avec Codingame et les communautés tech nantaise ! ',
+                time: '19h00',
+                length:'30 min',
+                type: 'talk',
+                abstract: 'Venez participer à ce tournoi de programmation DevParty !<br/><br/>Sous forme d\'un tournoi "Clash of Code" fourni par la plateforme Codingame, vous affronterez les autres participants tout au long de la soirée sur différentes épreuves de code :<br/><br/>    Fastest : Vous devez terminer le défi aussi vite que possible.<br/>    Shortest : Vous devez écrire le code le plus concis. Prenez votre temps pour parvenir à la solution la plus courte !<br/>    Reverse : Vous devez deviner ce qu\'il y a à faire en observant le jeu de tests fourni.<br/><br/>Chaque épreuve durera entre 5 et 15 min, et vous devrez passer le maximum de tests pour avoir le meilleur score possible et ainsi améliorer votre classement général.<br/><br/>Vous pourrez utiliser le langage de programmation de votre choix : js, java, go, python, et bien d\'autres<br/><br/>Co-organisé avec les communautés tech nantaises, cette soirée sera agrémentée par un buffet, des boissons et bien sûr des lots à gagner.<br/><br/>Il s\'agit d\'un tournoi individuel, où tous les joueurs seront regroupés par arène de 10 joueurs max, et les meilleurs repartiront avec des lots.<br/><br/>N\'oubliez pas votre laptop pour participer !<br/>',
+                speakers: [],
             },
         ],
         docs: []
