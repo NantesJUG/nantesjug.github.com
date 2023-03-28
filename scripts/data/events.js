@@ -62,7 +62,7 @@ var njEvents = [
         title: "Web3 // Mob programming",
         date: new Date(2023, 3, 12), //month begin at 0
         time: '19h00',
-        register: null,
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/292533766/',
         place: 'lepalace',
         subjects: [
             {
@@ -93,7 +93,7 @@ var njEvents = [
         title: "Dev'Party - Clash of Code",
         date: new Date(2023, 3, 6), //month begin at 0
         time: '19h00',
-        register: null,
+        register: 'https://www.billetweb.fr/devparty-nantes',
         place: 'eartsup',
         subjects: [
             {
