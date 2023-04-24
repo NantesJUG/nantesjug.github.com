@@ -34,15 +34,15 @@ var njEvents = [
         title: "Hands-on Threads virtuels du JDK 19",
         date: new Date(2023, 4, 9), //month begin at 0
         time: '19h00',
-        register: null,
-        place: null,
+        register: 'https://www.meetup.com/nantes-java-user-group/events/293108986/',
+        place: 'lepalace',
         subjects: [
             {
-                title: 'Intro sur les Threads virtuels',
+                title: 'Introduction: les Threads virtuels',
                 time: '19h00',
                 length:'30 min',
                 type: 'talk',
-                abstract: '',
+                abstract: '<p>Introduction à Loom et aux threads virtuels... puis hands-on/kata</p>',
                 speakers: ['jerome_moliere'],
             },
             {
@@ -51,7 +51,7 @@ var njEvents = [
                 length:'90 min',
                 type: 'hands-on',
                 abstract: 
-                    "<p></p>",
+                    "<p>Hands-on pour découvrir par la pratique les threads virtuels sous forme de koans (tests unitaires) autour des nouveautés apportées par cette API</p><p>Venez avec votre machine et le JDK 19 installé, ou partagez les exercices avec votre voisin/voisine.</p>",
                 speakers: ['jerome_moliere']
             },
         ],
