@@ -22,8 +22,9 @@ var njEvents = [
                 time: '19h30',
                 length:'60 min',
                 type: 'talk',
-                abstract: 
-                    "<p></p>",
+                abstract: `<p>Les architectures modernes font la part belle micro-services et aux fonctionnalités sans gestion de serveur. Très (trop ?) souvent, les exemples que l'on peut voir utilisent des langages interprétés alors que Java reste toujours un langage fort plébiscité en entreprise. Peut-on donc faire du serverless avec Java ?</p>
+                    <p>Dans cette session, je vous présenterai les intérêts des solutions serverless ainsi que les différentes options dont on dispose sur AWS pour y faire tourner une application Java. Enfin, nous regarderons les challenges spécifiques à la plateforme et comment on peut les contourner grâce à certaines nouveautés du langage comme l'API CRaC.
+                    Après cette présentation, vous devriez savoir si vous pouvez faire tourner votre service de trading de licorne avec Spring et ceci sans avoir à gérer de serveur !</p>`,
                 speakers: ['damien_metzler']
             },
         ],
