@@ -5,7 +5,7 @@ var njEvents = [
         title: "API explosives 🧨 // Déployer du Java en serverless c'est possible.",
         date: new Date(2023, 5, 22), //month begin at 0
         time: '19h00',
-        register: null,
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/293967666',
         place: null,
         subjects: [
             {
