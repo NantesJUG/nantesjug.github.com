@@ -6,7 +6,7 @@ var njEvents = [
         date: new Date(2023, 5, 22), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/293967666',
-        place: null,
+        place: 'adresse_gare_sud',
         subjects: [
             {
                 title: 'Développeurs, faites exploser vos APIs 🧨 ',
