@@ -11,9 +11,9 @@ var njSpeakers = [
         "<p>Damien Metzler travaille comme Solutions Architect chez Amazon Web Service où il conseille ses clients grandes entreprises à utiliser les services AWS de manière optimale.</p><p>Il a aussi travaillé plusieurs années comme développeur chez Nuxeo, une solution de gestion documentaire opensource en Java, pour laquelle il a construit l'architecture de l'offre cloud, raison pour laquelle il a pas mal écrit sur ses expériences avec Java et le cloud.</p>",
     gravatar: null,
     photo: null,
-    twitter: null,
+    twitter: 'damienmetzler',
     gplus: null,
-    github: null,
+    github: 'dmetzler',
     website: null,
   },  {
     id: 'jerome_moliere',
