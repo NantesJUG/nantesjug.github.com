@@ -3,7 +3,7 @@ var njEvents = [
     {
         id: '2023_09_19',
         title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
-        date: new Date(2023, 10, 19), //month begin at 0
+        date: new Date(2023, 8, 19), //month begin at 0
         time: '19h00',
         register: '',
         place: '',
