@@ -23,12 +23,14 @@ var njEvents = [
                 time: '19h30',
                 length:'60 min',
                 type: 'talk',
-                abstract:   `<p>Aujourd’hui, quand vous envisagez de construire des applications event-driven et temps réel, les mots qui viennent spontanément sont sans doute : RabbitMQ, Kafka… ce sont les solutions qui dominent ce paysage. Mais avez-vous entendu parler d'Apache Pulsar ? Après une brève présentation des concepts du messaging et du data streaming, vous allez découvrir 7 caractéristiques clés de Pulsar qui vous permettront de construire des applications event-driven au top.</p>+
-                            <p>Vous allez apprendre, notamment :+
-                            <ul>+
-                            <li>comment gérer la scalabilité sans prise de tête</li>+
-                            <li>comment bien s’intégrer avec un existant</li>+
-                            <li>et d’autres choses encore...</li>+
+                abstract:   `<p>Aujourd’hui, quand vous envisagez de construire des applications event-driven et temps réel, les mots qui viennent spontanément sont sans doute : RabbitMQ, Kafka… ce sont les solutions qui dominent ce paysage.</p>
+                             <p>Mais avez-vous entendu parler d'Apache Pulsar ?
+                             <p>Après une brève présentation des concepts du messaging et du data streaming, vous allez découvrir 7 caractéristiques clés de Pulsar qui vous permettront de construire des applications event-driven au top.</p>
+                            <p>Vous allez apprendre, notamment :
+                            <ul>
+                            <li>comment gérer la scalabilité sans prise de tête</li>
+                            <li>comment bien s’intégrer avec un existant</li>
+                            <li>et d’autres choses encore...</li>
                             </ul></p>`,                
                 speakers: ['julien_jakubowski']
             },
