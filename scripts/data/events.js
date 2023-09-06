@@ -1,6 +1,41 @@
 /*jshint unused: false */
 var njEvents = [
     {
+        id: '2023_09_19',
+        title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
+        date: new Date(2023, 10, 19), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: '',
+        subjects: [
+            {
+                title: "Introduction aux outils de tests de sécurité d'application statique (SAST)",
+                time: '19h00',
+                length:'20 min',
+                type: 'quickie',
+                abstract:   `<p>Le plus tôt vous testez votre application, moins les bugs de sécurité vous coûtera. Alors autant tester directement votre code. Mais avant d'installer le premier outil venue, regardons ensemble ce qu'est exactement un Static Application Security Testing (SAST). Y-a-t'il plusieurs type de SAST? Comment savoir si l'outil est pertinent ?</p>
+                            <p>Nous allons répondre à ces questions pour vous permettre d'envoyer du code en production plus sereinement.</p>
+                             `,
+                speakers: ['adrien_pessu'],
+            },
+            {
+                title: "Construire des applications event-driven avec Apache Pulsar",
+                time: '19h30',
+                length:'60 min',
+                type: 'talk',
+                abstract:   `<p>Aujourd’hui, quand vous envisagez de construire des applications event-driven et temps réel, les mots qui viennent spontanément sont sans doute : RabbitMQ, Kafka… ce sont les solutions qui dominent ce paysage. Mais avez-vous entendu parler d'Apache Pulsar ? Après une brève présentation des concepts du messaging et du data streaming, vous allez découvrir 7 caractéristiques clés de Pulsar qui vous permettront de construire des applications event-driven au top.</p>+
+                            <p>Vous allez apprendre, notamment :+
+                            <ul>+
+                            <li>comment gérer la scalabilité sans prise de tête</li>+
+                            <li>comment bien s’intégrer avec un existant</li>+
+                            <li>et d’autres choses encore...</li>+
+                            </ul></p>`,                
+                speakers: ['julien_jakubowski']
+            },
+        ],
+        docs: []
+    }, 
+    {
         id: '2023_06_22',
         title: "API explosives 🧨 // Déployer du Java en serverless c'est possible.",
         date: new Date(2023, 5, 22), //month begin at 0

@@ -5,6 +5,20 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'julien_jakubowski',
+    name: 'Julien Jakubowski',
+    bio: `
+          <p>Julien Jakubowski est developer advocate chez StreamNative.</p>
+          <p>Il a une vingtaine d’années d’expérience en tant que développeur, tech lead et consultant. Il a construit plusieurs systèmes complexes à architecture distribuée, scalables et event-driven, dans des domaines variés : retail, banque, assurance, industrie…</p>
+          <p>Julien est speaker à différentes conférences techniques (Devoxx, VoxxedDays, Berlin Buzzwords, JUGs, GDG, Agile Tours…), Julien est également l’un des fondateurs et leaders du Ch’ti JUG - Java User Group de Lille.</p>
+          `,
+    gravatar: null,
+    photo: null,
+    twitter: 'damienmetzler',
+    gplus: null,
+    github: 'dmetzler',
+    website: null,
+  },  {
     id: 'damien_metzler',
     name: 'Damien Metzler',
     bio: 
