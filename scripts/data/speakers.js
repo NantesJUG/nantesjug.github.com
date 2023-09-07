@@ -13,10 +13,10 @@ var njSpeakers = [
           <p>Julien est speaker à différentes conférences techniques (Devoxx, VoxxedDays, Berlin Buzzwords, JUGs, GDG, Agile Tours…), Julien est également l’un des fondateurs et leaders du Ch’ti JUG - Java User Group de Lille.</p>
           `,
     gravatar: null,
-    photo: null,
-    twitter: 'damienmetzler',
+    photo: 'jpg',
+    twitter: 'jak78',
     gplus: null,
-    github: 'dmetzler',
+    github: null,
     website: null,
   },  {
     id: 'damien_metzler',

@@ -19,19 +19,20 @@ var njEvents = [
                 speakers: ['adrien_pessu'],
             },
             {
-                title: "Construire des applications event-driven avec Apache Pulsar",
+                title: "Apache Pulsar : enfin une alternative à Kafka!",
                 time: '19h30',
                 length:'60 min',
                 type: 'talk',
-                abstract:   `<p>Aujourd’hui, quand vous envisagez de construire des applications event-driven et temps réel, les mots qui viennent spontanément sont sans doute : RabbitMQ, Kafka… ce sont les solutions qui dominent ce paysage.</p>
-                             <p>Mais avez-vous entendu parler d'Apache Pulsar ?
-                             <p>Après une brève présentation des concepts du messaging et du data streaming, vous allez découvrir 7 caractéristiques clés de Pulsar qui vous permettront de construire des applications event-driven au top.</p>
-                            <p>Vous allez apprendre, notamment :
+                abstract:   `<p>Aujourd'hui, quand on pense à créer des applications event-driven et temps réel, les mots qui viennent spontanément sont : RabbitMQ, ActiveMQ ou encore Kafka. Ce sont les solutions qui dominent ce paysage. Mais pour créer des applications événementielles exigeantes, il y a une alternative qui monte : Apache Pulsar.</p>
+                            <p>Après un bref rappel des concepts du messaging, vous découvrirez les caractéristiques-clé de Pulsar. Vous apprendrez notamment :
                             <ul>
-                            <li>comment gérer la scalabilité sans prise de tête</li>
-                            <li>comment bien s’intégrer avec un existant</li>
-                            <li>et d’autres choses encore...</li>
-                            </ul></p>`,                
+                            <li>- comment Pulsar permet de dépasser certaines limites qu'on peut rencontrer avec d'autres brokers</li>
+                            <li>- comment il permet de scaler rapidement et sans prise de tête</li>
+                            <li>- comment il garantit une excellente durabilité des messages</li>
+                            <li>- en quoi il est pertinent en tant que plateforme de streaming et de messagerie unifiée</li>
+                            <li>- comment l'intégrer à votre existant compatible avec Kafka ou RabbitMQ</li>
+                            <li>- un aperçu de la communauté open-source autour de Pulsar</li>
+                            </ul></p>`,
                 speakers: ['julien_jakubowski']
             },
         ],
