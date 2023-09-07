@@ -5,8 +5,8 @@ var njEvents = [
         title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
         date: new Date(2023, 8, 19), //month begin at 0
         time: '19h00',
-        register: '',
-        place: '',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/295921312/',
+        place: 'sii',
         subjects: [
             {
                 title: "Introduction aux outils de tests de sécurité d'application statique (SAST)",
