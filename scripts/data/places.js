@@ -5,7 +5,7 @@ var njPlaces = [
     name: 'SFEIR NAntes',
     address: "40 Rue la Tour d'Auvergne",
     city: '44000 Nantes',
-    maps: 'https://maps.app.goo.gl/hCWMW3FdJnbuE1jf7',
+    maps: 'https://maps.app.goo.gl/QVLgkxj89vNBoyiU7',
     capacity: 50
   },  {
     id: 'nickel',
