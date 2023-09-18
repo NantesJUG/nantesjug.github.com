@@ -6,7 +6,7 @@ var njEvents = [
         date: new Date(2023, 8, 19), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/295921312/',
-        place: 'sii',
+        place: 'sfeir-nantes',
         subjects: [
             {
                 title: "Introduction aux outils de tests de sécurité d'application statique (SAST)",

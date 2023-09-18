@@ -1,6 +1,13 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'sfeir-nantes',
+    name: 'SFEIR NAntes',
+    address: "40 Rue la Tour d'Auvergne",
+    city: '44000 Nantes',
+    maps: 'https://maps.app.goo.gl/hCWMW3FdJnbuE1jf7',
+    capacity: 50
+  },  {
     id: 'nickel',
     name: 'Nickel',
     address: '21 Boulevard de Berlin',
