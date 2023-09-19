@@ -19,26 +19,6 @@ angular.module('nantesjugApp', ['ui.router', 'ui.gravatar', 'angulartics', 'angu
             templateUrl: 'views/event.html',
             controller: 'EventCtrl'
           })
-          .state('event_info', {
-            url: '/events/:eventId/info',
-            templateUrl: 'views/info/info.html',
-            controller: 'EventCtrl'
-          })
-          .state('event_slide', {
-            url: '/events/:eventId/slide',
-            templateUrl: 'views/info/slide.html',
-            controller: 'EventCtrl'
-          })
-          .state('event_mail', {
-            url: '/events/:eventId/mail',
-            templateUrl: 'views/info/mail.html',
-            controller: 'EventCtrl'
-          })
-          .state('event_affiche', {
-            url: '/events/:eventId/affiche',
-            templateUrl: 'views/info/affiche.html',
-            controller: 'EventCtrl'
-          })
           .state('draw', {
             url: '/tools/draw',
             templateUrl: 'views/tools/draw.html'
