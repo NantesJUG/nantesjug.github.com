@@ -1,8 +1,8 @@
 /*jshint unused: false */
 var njPlaces = [
   {
-    id: 'sfeir-nantes',
-    name: 'SFEIR NAntes',
+    id: 'sfeir',
+    name: 'SFEIR',
     address: "40 Rue la Tour d'Auvergne",
     city: '44000 Nantes',
     maps: 'https://maps.app.goo.gl/QVLgkxj89vNBoyiU7',
