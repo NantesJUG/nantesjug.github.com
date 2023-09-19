@@ -1,15 +1,17 @@
 photo size: 150x150
 
+# Update one photo
+
 if you have `mogrify` installed on you system, you could use this script.
 
 NB : `mogrify` is part of the `imagemagick` suite
 
 ```
-./resize.sh <photo>
+./resize.sh <filename>
 ```
 
-or
+# Update all photos
 
-```
-mogrify -resize 150x150 -format jpg <photo>
+```bash
+for i in *.jpg; do ./resize.sh $i; done
 ```
