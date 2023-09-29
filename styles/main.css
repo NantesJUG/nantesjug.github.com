@@ -653,7 +653,7 @@ img.sponsors-type {
   border-radius: 4px;
   font-weight: normal;
   margin: 10px 0 0 0; padding: 10px 10px 10px 35px;
-  background: url('../images/site/logo_twitter.png') no-repeat 7px 10px #00acee;
+  background: url('../images/site/logo-x-white-btn.png') no-repeat 7px 10px #00acee;
 }
 .btn-twitter:hover {
   color:#fff;
@@ -696,7 +696,7 @@ footer {
   vertical-align: middle;
 }
 .social-twitter {
-  background-image: url('../images/social/twitter-bird.png');
+  background-image: url('../images/social/logo-x.png');
 }
 .social-gplus {
   background-image: url('../images/social/google-plus.png');
@@ -819,7 +819,7 @@ footer .btn-twitter {
 
 .submit-talk {
   line-height: 20px;
-  margin: 20px 0 7px 0;
+  margin: 30px 0 17px 0;
   text-align: center;
 }
 
