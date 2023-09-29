@@ -1,6 +1,13 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'seyos',
+    name: 'Seyos',
+    address: "10 rue François Joseph Talma",
+    city: '44000 Nantes',
+    maps: 'https://maps.app.goo.gl/piBj8PwioHxa9R7S8',
+    capacity: 40
+  },  {
     id: 'sfeir',
     name: 'SFEIR',
     address: "40 Rue la Tour d'Auvergne",
