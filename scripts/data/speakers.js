@@ -17,6 +17,33 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'audren_burlot',
+    name: 'Audren Burlot',
+    photo: "jpg",
+    twitter: 'AudrenBrlt',
+    github: 'Firnael'
+}, {
+    id: 'jean_francois_albenque',
+    name: 'Jean-François Albenque',
+    bio: "<p>Je travaille en tant que Développeur (principalement sur le Back-End). Les technologies sur lesquelles je travaille sont les suivantes :</p>" +
+         "<p>Java/J2EE, Unix, JUnit, Oracle, Angular, Jenkins, Karaté, Git, Sonar, Linux, DevOps, Docker, Kubernetes, IntelliJ</p>" +
+         "<p>Je possède la certification Java SE 8 Oracle Certified Associate (OCA).</p>",
+    photo: "jpg",
+    twitter: 'devjfa',
+    github: 'jfadev744'
+}, {
+    id: 'benoit_orihuela',
+    name: 'Benoit Orihuela',
+    photo: "jpg",
+    github: 'bobeal'
+}, {
+    id: 'valentin_lefort',
+    name: 'Valentin Lefort',
+    bio: "<p>Développeur Backend chez SFEIR et Confluent Certified Kafka Developer.</p>" +
+         "<p>Je m'intéresse à Kafka et son écosystème.</p>",
+    photo: "jpg",
+    twitter: 'valentinlefort4'
+}, {
     id: 'julien_jakubowski',
     name: 'Julien Jakubowski',
     bio: `
