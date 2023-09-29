@@ -1274,15 +1274,11 @@ var njSpeakers = [
     id: "nicolas_giraud",
     name: "Nicolas Giraud",
     bio: "<p></p>",
-    twitter: "",
-    github: "",
   },
   {
     id: "gautier_de_saint_martin_lacaze",
     name: "Gautier de Saint Martin Lacaze",
     bio: "<p>Développeur freelance passionné, Gautier travaille principalement sur les technologies Java et JavaScript. Afin de rester au fait des nouveautés, il participe régulièrement à des conférences nantaises ou nationales. Il coorganise également le Nantes JUG depuis juin 2014. Ayant appris à dompter l'IDE Eclipse lors de ses premières années de travail, il contribue aujourd'hui à l'amélioration de son outil de travail via des patchs et la formation de ses clients. </p>",
-    twitter: "",
-    github: "",
   },
   {
     id: "thomas_buvignier",
@@ -1290,7 +1286,6 @@ var njSpeakers = [
     bio: "<p>Product Owner UX et passionné de graphisme, je travaille au sein de l'agence Bewizyu sur les interfaces de nos clients.</p><p>Contributeur du blog, je suis toujours à l'affût des dernières tendances graphiques afin de pouvoir les retravailler et créer une expérience utilisateur optimale.</p><p>Ex-entrepreneur et ayant eu plusieurs vies ma curiosité se trouve résumée dans une citation de J.K Chesterton : \"Il n'y a pas de sujet peu intéressant, il n'y a que des personnes peu intéressées\"</p>",
     photo: "jpg",
     twitter: "CadentALatere",
-    github: "",
   },
   {
     id: "florian_negre",
@@ -1496,7 +1491,6 @@ var njSpeakers = [
     photo: "jpg",
     twitter: "CoulasFedou",
     github: "coulas",
-    website: "",
   },
   {
     id: "julien_bideau",
@@ -1505,7 +1499,6 @@ var njSpeakers = [
     photo: "jpg",
     twitter: "JulienBideau",
     github: "JulienBideau",
-    website: "",
   },
   {
     id: "jean_francois_james",
@@ -1523,7 +1516,6 @@ var njSpeakers = [
     photo: "jpg",
     twitter: "nmor3l",
     github: "nmorel",
-    website: "",
   },
 ];
 
