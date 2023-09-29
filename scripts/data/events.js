@@ -24,12 +24,69 @@
 // },
 var njEvents = [
     {
+        id: '2023_11_09',
+        title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
+        date: new Date(2023, 10, 9), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: 'zenika',
+        subjects: [
+            {
+                title: "Retour sur le JCon Europe 2023",
+                time: '19h00',
+                length:'20 min',
+                type: 'quickie',
+                abstract:   `<p>Description des thèmes principaux abordés lors du Jcon Europe de juin 2023</p>`,
+                speakers: ['jean_francois_albenque'],
+            },
+            {
+                title: "Retourner le cerveau de sa Gameboy et les attraper (vraiment) tous 💪",
+                time: '19h30',
+                length:'60 min',
+                type: 'talk',
+                abstract:   `<p>Vous avez 10 ans. Vous êtes assis sous un arbre dans votre jardin, et vous jouez à la Gameboy Pocket. La vie est douce. Soudain, votre meilleur ami débarque de nulle part, sa cartouche de Pokémon Bleu dans la main, et vous crie quelque chose ! Il le jure sur la tête de son chien : il a réussi à attraper Mew. Selon vous, il y a deux explications possibles : votre ami s'est acheté un Action Replay et a triché comme un malpropre, ou il vous joue du pipeau. Et si je vous disais qu'il existait une 3ème explication : votre ami est un génie de l'assembleur. C'est ce que je vous propose de découvrir dans un talk qui sent bon les années 90 et le reverse engineering.</p>`,
+                speakers: ['audren_burlot']
+            },
+        ]
+    }, 
+    {
+        id: '2023_10_10',
+        title: "Zookeeper vs KRaft // Kotlin",
+        date: new Date(2023, 9, 10), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: 'seyos',
+        subjects: [
+            {
+                title: "Zookeeper vs KRaft: une histoire de consensus dans Kafka",
+                time: '19h00',
+                length:'20 min',
+                type: 'quickie',
+                abstract:   `<p>En octobre 2022, Confluent annonçait la dépréciation de Zookeeper dans Kafka et l’avènement de KRaft.</p>
+                             <p>En Mai 2023, au Kafka Summit, Jay Krups (CEO de Confluent), confirmait que KRaft allait devenir la configuration par défaut.</p>
+                             <p>Les questions qu'on peut se poser :</p>
+                             <p>- Quel problème résout Zookeeper dans Kafka ? Et donc, pourquoi changer ?</p>
+                             <p>- Qu'apporte KRaft ?</p>
+                             <p>- Quel impact pour les utilisateurs et sur l’écosystème en général ?</p>`,
+                speakers: ['valentin_lefort'],
+            },
+            {
+                title: "En production pour la vie avec un backend en Kotlin",
+                time: '19h30',
+                length:'30 min',
+                type: 'talk',
+                abstract:   `<p>Dans cette présentation, nous verrons concrètement comment Kotlin permet de produire du code gracieux, maintenable et évolutif. La présentation abordera également quelques concepts de programmation fonctionnelle, de programmation asynchrone avec les coroutines et même un peu de testabilité. Le tout agrémenté d\'exemples de la vraie vie (via un projet open-source basé sur Spring Boot)/p>`,
+                speakers: ['benoit_orihuela']
+            },
+        ]
+    }, 
+    {
         id: '2023_09_19',
         title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
         date: new Date(2023, 8, 19), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/295921312/',
-        place: 'sfeir-nantes',
+        place: 'sfeir',
         subjects: [
             {
                 title: "Introduction aux outils de tests de sécurité d'application statique (SAST)",
