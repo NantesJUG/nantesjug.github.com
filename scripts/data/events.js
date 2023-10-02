@@ -54,7 +54,7 @@ var njEvents = [
         title: "Zookeeper vs KRaft // Kotlin",
         date: new Date(2023, 9, 10), //month begin at 0
         time: '19h00',
-        register: '',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/296486844/',
         place: 'seyos',
         subjects: [
             {
@@ -75,7 +75,7 @@ var njEvents = [
                 time: '19h30',
                 length:'45 min',
                 type: 'talk',
-                abstract:   `<p>Dans cette présentation, nous verrons concrètement comment Kotlin permet de produire du code gracieux, maintenable et évolutif. La présentation abordera également quelques concepts de programmation fonctionnelle, de programmation asynchrone avec les coroutines et même un peu de testabilité. Le tout agrémenté d\'exemples de la vraie vie (via un projet open-source basé sur Spring Boot)/p>`,
+                abstract:   `<p>Dans cette présentation, nous verrons concrètement comment Kotlin permet de produire du code gracieux, maintenable et évolutif.<br/> La présentation abordera également quelques concepts de programmation fonctionnelle, de programmation asynchrone avec les coroutines et même un peu de testabilité.<br/>Le tout agrémenté d'exemples de la vraie vie (via un projet open-source basé sur Spring Boot)</p>`,
                 speakers: ['benoit_orihuela']
             },
         ]
