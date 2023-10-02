@@ -73,7 +73,7 @@ var njEvents = [
             {
                 title: "En production pour la vie avec un backend en Kotlin",
                 time: '19h30',
-                length:'30 min',
+                length:'45 min',
                 type: 'talk',
                 abstract:   `<p>Dans cette présentation, nous verrons concrètement comment Kotlin permet de produire du code gracieux, maintenable et évolutif. La présentation abordera également quelques concepts de programmation fonctionnelle, de programmation asynchrone avec les coroutines et même un peu de testabilité. Le tout agrémenté d\'exemples de la vraie vie (via un projet open-source basé sur Spring Boot)/p>`,
                 speakers: ['benoit_orihuela']
