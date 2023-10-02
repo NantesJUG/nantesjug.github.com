@@ -25,7 +25,7 @@
 var njEvents = [
     {
         id: '2023_11_09',
-        title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
+        title: "Soirée : Retour JCon Europe 2023 // Retourner le cerveau de sa Gameboy",
         date: new Date(2023, 10, 9), //month begin at 0
         time: '19h00',
         register: '',
