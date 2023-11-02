@@ -17,13 +17,6 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
-    id: 'stevan_lemeur',
-    name: 'Steven Lemeur',
-    photo: "jpg",
-    twitter: 'stevanLM',
-    github: 'slemeur'
-},
-  {
     id: 'audren_burlot',
     name: 'Audren Burlot',
     photo: "jpg",

@@ -45,10 +45,10 @@ var njEvents = [
                 abstract: "Containers are ubiquitous in today's world of software development, but for developers, it can be daunting, particularly with the discrepancies between local and production environments. <br/>" +
                 "In our talk, we'll introduce Podman Desktop which bridges this gap. It's a fully open-source GUI tool that streamlines container workflows and is compatible with Podman, Lima, Docker, and more. It serves as a beginner-friendly launchpad for Containers and Kubernetes, enabling you to spin up local clusters (with Kind and Minikube) or work with remote environments. <br/>" +
                 "Our demo will navigate the paths to transition from app to containers, to pods, and ultimately to Kubernetes, highlighting how it reduces discrepancies and enables predictability in your deployments. You'll learn how Podman Desktop can be the launchpad that boosts your container development processes!<br>",
-                speakers: ['stevan_lemeur']
+                speakers: ['stevan_le_meur']
             },{
                 title: "Hello Quarkus 3!",
-                time: '19h30',
+                time: '20h00',
                 length:'60 min',
                 type: 'talk',
                 abstract: "Quarkus est une stack pour écrire des applications Java pour le Cloud. En réduisant l’emprunte mémoire et le temps de démarrage, les applications Quarkus permettent en autre d’augmenter la densité de déploiement, le développement d'application serverless en Java, un meilleur comportement dans Kubernetes…<br>" +
