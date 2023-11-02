@@ -28,7 +28,7 @@ var njEvents = [
         title: "🍸 Soirée de fin d'année 🍸 Podman et Hello Quarkus 3",
         date: new Date(2023, 11, 7), //month begin at 0
         time: '19h00',
-        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/00000000',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/297121443',
         place: 'zenika',
         subjects: [
             {
