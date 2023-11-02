@@ -17,6 +17,13 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'stevan_lemeur',
+    name: 'Steven Lemeur',
+    photo: "jpg",
+    twitter: 'stevanLM',
+    github: 'slemeur'
+},
+  {
     id: 'audren_burlot',
     name: 'Audren Burlot',
     photo: "jpg",
@@ -1113,13 +1120,12 @@ var njSpeakers = [
     id: "clement_escoffier",
     name: "Clement Escoffier",
     bio:
-      "<p>Qui suis-je ? Bonne question.<br> J'ai été chercheur à l’université de Grenoble, architecte chez Axway, directeur de l'innovation dans une boite allemande.... <br>Actuellement je suis core developer sur vert.x, et je travaille pour Red Hat.</p>" +
-      "<p>J’ai touché à beaucoup de domaines: OSGi, mobile, continuous delivery, devops, HTML5… Mon but ? Fournir des outils, des méthodes pour rendre le développement plus efficace mais également plus agréable et plus fun. </p>" +
-      "<p>Je suis un contributeur actif sur de nombreux projets Open Source comme Apache Felix, iPOJO, Wisdom Framework et bien évidement vert.x.</p>",
+      "<p>Clement Escoffier (@clementplop) is a distinguished engineer at Red Hat. He is a Java Champion and also acts as a Reactive Architect at Red Hat.</p>" +
+      "<p>Before joining Red Hat, Clement had several professional lives, from academic positions to management. He contributed to projects and products, touching many domains and technologies such as OSGi, mobile, continuous delivery, and DevOps. Clement has always been interested in software engineering, distributed systems, and event-driven architecture. He recently focused on Reactive Systems, Cloud-Native applications, and Kubernetes. Clement is an active contributor to many open-source projects such as Apache Felix, Eclipse Vert.x, SmallRye, Mutiny, and Quarkus. I recently authored the \"Reactive Systems in Java\" book.</p>",
     gravatar: "clement.escoffier@gmail.com",
     twitter: "clementplop",
     github: "cescoffier",
-    website: "http://escoffier.me",
+    website: "https://quarkus.io",
   },
   {
     id: "sebastien_gioria",
