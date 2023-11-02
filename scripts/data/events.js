@@ -29,7 +29,7 @@ var njEvents = [
         date: new Date(2023, 11, 7), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/00000000',
-        place: 'les_brases',
+        place: 'zenika',
         subjects: [
             {
                 title: 'Verre d\'accueil 🍸',
@@ -54,14 +54,14 @@ var njEvents = [
                 abstract: "Quarkus est une stack pour écrire des applications Java pour le Cloud. En réduisant l’emprunte mémoire et le temps de démarrage, les applications Quarkus permettent en autre d’augmenter la densité de déploiement, le développement d'application serverless en Java, un meilleur comportement dans Kubernetes…<br>" +
                 "La première release publique de Quarkus a été faite en Mars 2019. Nous voilà 4 ans plus tard avec Quarkus 3.x. Entre temps, Quarkus a grandi, son écosystème s’est enrichi. Mais, Quarkus est resté fidèle à ses principes.<br>" + 
                 "Cette présentation rappelle les points fondamentaux de Quarkus (build-time principle, reactive core, container-first...) et explique leur évolution au cours de ces 4 dernières années ainsi que les nouveautés de Quarkus 3.x tels que la nouvelle dev ui, l’intégration d’Hibernate 6, le passage à Jakarta et à Flow, le support des threads virtuels (project loom), les différentes améliorations de l’expérience pour les développeurs, le support des architectures ARM…<br>",
-                speakers: ['clement_escofier']
+                speakers: ['clement_escoffier']
             },
             {
                 title: 'Petits fours et Cocktail 🍣 🍷',
                 time: '21h',
                 length:'3h',
                 type: 'winter',
-                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours offerts 😋</p>",
+                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>",
             },
         ]
     },{
