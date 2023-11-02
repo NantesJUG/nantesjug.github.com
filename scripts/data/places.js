@@ -225,4 +225,12 @@ var njPlaces = [
     maps: 'https://goo.gl/maps/PEvNTkGsjgbDiLvL8',
     capacity: 70
   },
+  {
+    id: 'les_brasses',
+    name: 'Les Brassés',
+    address: '5 Mail Pablo Picasso, 44000 Nantes\n',
+    city: 'Nantes',
+    maps: 'https://maps.app.goo.gl/tYMKzJC11ZpV8oAN7',
+    capacity: 70
+  },
 ];
