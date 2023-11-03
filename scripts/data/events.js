@@ -38,13 +38,13 @@ var njEvents = [
                 type: 'hello',
                 abstract: "<p>C'est bientôt la fin de l'année, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>",
             },{
-                title: "Podman Desktop: an Open Source GUI to work with containers and Kubernetes (Présentation en français)",
+                title: "Podman Desktop: Open Source GUI pour conteneurs et Kubernetes",
                 time: '19h30',
                 length:'30 min',
                 type: 'quickie',
-                abstract: "Containers are ubiquitous in today's world of software development, but for developers, it can be daunting, particularly with the discrepancies between local and production environments. <br/>" +
-                "In our talk, we'll introduce Podman Desktop which bridges this gap. It's a fully open-source GUI tool that streamlines container workflows and is compatible with Podman, Lima, Docker, and more. It serves as a beginner-friendly launchpad for Containers and Kubernetes, enabling you to spin up local clusters (with Kind and Minikube) or work with remote environments. <br/>" +
-                "Our demo will navigate the paths to transition from app to containers, to pods, and ultimately to Kubernetes, highlighting how it reduces discrepancies and enables predictability in your deployments. You'll learn how Podman Desktop can be the launchpad that boosts your container development processes!<br>",
+                abstract: "Les conteneurs sont omniprésents dans le monde actuel du développement logiciel, mais pour les développeurs, cela peut être intimidant, en particulier avec les divergences entre les environnements locaux et de production. <br/>" +
+                "Dans ce talk, nous vous présenterons Podman Desktop qui comble cet écart. Il s'agit d'une interface graphique (GUI) entièrement open-source qui simplifie les workflows de conteneurs et est compatible avec Podman, Lima, Docker, et bien plus encore. Plateforme idéale pour interagir avec les conteneurs, Podman Desktop fournit également une interface utilisateur pour travailler avec vos environnements Kubernetes. Vous pouvez aussi configurer vos clusters locaux (avec MiniKube et KinD). <br>"+
+                "Dans la démo nous verrons comment Podman Desktop permet de faciliter la transition des conteneurs vers les environnements Kubernetes. Vous apprendrez comment Podman Desktop peut être le tremplin qui dynamise vos processus de développement de conteneurs !<br>",
                 speakers: ['stevan_le_meur']
             },{
                 title: "Hello Quarkus 3!",

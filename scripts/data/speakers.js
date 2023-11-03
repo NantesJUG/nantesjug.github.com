@@ -843,10 +843,10 @@ var njSpeakers = [
   {
     id: "stevan_le_meur",
     name: "Stévan Le Meur",
-    bio: "<p>Stévan Le Meur is Product Manager at Codenvy. With a background as a developer, he is driven by the belief that great applications should be built in exceptional development environments. He brings this passion to his work on the Codenvy Developer Environment Cloud, where his attention to detail is put to good use.</p>",
+    bio: "<p>Stévan Le Meur est chef de produit chez Red Hat, spécialisé dans les outils pour développeurs et les technologies cloud, et travaille notamment sur Podman Desktop. Convaincu que de belles applications ne peuvent être créées que dans des environnements de développement exceptionnels, Stévan collabore étroitement avec les clients et les communautés open sources, saisissant toute opportunité pour simplifier la vie des développeurs.</p>",
     gravatar: "slemeur@codenvy.com",
     twitter: "stevanlm",
-    website: "https://eclipse.org/che",
+    website: "http://podman-desktop.io",
   },
   {
     id: "florent_benoit",
