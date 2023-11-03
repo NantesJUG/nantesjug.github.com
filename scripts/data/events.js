@@ -29,7 +29,7 @@ var njEvents = [
         date: new Date(2023, 11, 7), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/297121443',
-        place: 'zenika',
+        place: 'les_brasses',
         subjects: [
             {
                 title: 'Verre d\'accueil 🍸',
