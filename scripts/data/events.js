@@ -66,7 +66,7 @@ var njEvents = [
         ]
     },{
         id: '2023_11_09',
-        title: "Retour JCon Europe 2023 // Retourner le cerveau de sa Gameboy",
+        title: "Azerty, Qwerty, peut-on faire mieux ? // Retourner le cerveau de sa Gameboy",
         date: new Date(2023, 10, 9), //month begin at 0
         time: '19h00',
         register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/296909012',
