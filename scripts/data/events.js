@@ -73,12 +73,12 @@ var njEvents = [
         place: 'zenika',
         subjects: [
             {
-                title: "Retour sur le JCon Europe 2023",
+                title: "Azerty, Qwerty, peut-on faire mieux ?",
                 time: '19h00',
                 length:'20 min',
                 type: 'quickie',
-                abstract:   `<p>Description des thèmes principaux abordés lors du Jcon Europe de juin 2023</p>`,
-                speakers: ['jean_francois_albenque'],
+                abstract:   `<p>Qwerty, Bépo, dvorak, colemak, workman... autant de dispositions de touches sur les claviers plus ou moins optimisées. Je vous présenterais celle que j'utilise depuis plus d'un an et quels bénéfices j'en ai tiré et les points durs. #mechkeyboard #diy</p>`,
+                speakers: ['guillaume_membre'],
             },
             {
                 title: "Retourner le cerveau de sa Gameboy et les attraper (vraiment) tous 💪",
