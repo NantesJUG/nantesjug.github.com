@@ -24,6 +24,23 @@
 // },
 var njEvents = [
     {
+        id: '2024_01_23',
+        title: "Memory layout & Performance en Java",
+        date: new Date(2024, 0, 23), //month begin at 0
+        time: '19h00',
+        register: '',
+        place: '',
+        subjects: [
+            {
+                title: "Memory layout & Performance en Java",
+                time: '19h00',
+                length:'60 min',
+                type: 'talk',
+                abstract: "<p>En quoi l'agencement des objets mémoire joue t'il sur nos perfs ? Quels leviers/outils avons-nous ? C'est le but de ce talk</p>",
+                speakers: ['jerome_moliere']
+            }
+        ]
+    },{
         id: '2023_12_07',
         title: "🍸 Soirée de fin d'année 🍸 Podman et Hello Quarkus 3",
         date: new Date(2023, 11, 7), //month begin at 0
