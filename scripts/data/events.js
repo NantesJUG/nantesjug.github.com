@@ -32,8 +32,16 @@ var njEvents = [
         place: '',
         subjects: [
             {
-                title: "Memory layout & Performance en Java",
+                title: "Retour sur le JCon Europe 2023",
                 time: '19h00',
+                length:'20 min',
+                type: 'quickie',
+                abstract: "<p>Description des thèmes principaux abordés lors du Jcon Europe de juin 2023</p>",
+                speakers: ['jean_francois_albenque']
+            },
+            {
+                title: "Memory layout & Performance en Java",
+                time: '19h30',
                 length:'60 min',
                 type: 'talk',
                 abstract: "<p>En quoi l'agencement des objets mémoire joue t'il sur nos perfs ? Quels leviers/outils avons-nous ? C'est le but de ce talk</p>",
