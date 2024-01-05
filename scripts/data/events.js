@@ -25,11 +25,11 @@
 var njEvents = [
     {
         id: '2024_01_23',
-        title: "Memory layout & Performance en Java",
+        title: "JCon Europe 2023 // Memory layout & Performance en Java",
         date: new Date(2024, 0, 23), //month begin at 0
         time: '19h00',
-        register: '',
-        place: '',
+        register: 'https://www.meetup.com/fr-FR/nantes-java-user-group/events/298360020/',
+        place: 'qlik',
         subjects: [
             {
                 title: "Retour sur le JCon Europe 2023",

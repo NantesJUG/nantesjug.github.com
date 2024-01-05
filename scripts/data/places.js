@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'qlik',
+    name: 'Qlik (Talend)',
+    address: '89 Boulevard de la Prairie au Duc',
+    city: '44200 Nantes',
+    maps: 'https://goo.gl/maps/JRHguEuZ6gdx4rHH7',
+    capacity: 100
+  },
+  {
     id: 'seyos',
     name: 'Seyos',
     address: "10 rue François Joseph Talma",
