@@ -705,7 +705,7 @@ var njSpeakers = [
   {
     id: "guillaume_laforge",
     name: "Guillaume Laforge",
-    bio: "At Google, Guillaume Laforge is Developer Advocate for the Google Cloud Platform, where he spread the word about the rich set of products and services offered for developers wishing to take advantage of the cloud for their projects and businesses.",
+    bio: "Guillaume Laforge est Developer Advocate chez Google Cloud, où il se focalise sur les architectures orientées événement, l'orchestration d'API, et l'intelligence artificielle générative. Dans le monde Java, Guillaume est sans doute plus connu pour avoir co-fondé le langage de programmation Apache Groovy, et pour être un des membres fondateurs du podcast tech Les Cast Codeurs.",
     gravatar: "glaforge@gmail.com",
     twitter: "glaforge",
     github: "glaforge",

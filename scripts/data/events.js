@@ -24,6 +24,33 @@
 // },
 var njEvents = [
     {
+        id: '2024_02_15',
+        title: "Generative AI par la pratique : cas concrets d'utilisation d'un LLM en Java",
+        date: new Date(2024, 1, 15), //month begin at 0
+        time: '19h00',
+        register: 'https://www.meetup.com/nantes-java-user-group/events/298858263/',
+        place: 'eartsup',
+        subjects: [
+            {
+                title: "Retour sur le JCon Europe 2023",
+                time: '19h00',
+                length:'20 min',
+                type: 'eartsup',
+                abstract: "<p>Le NantesJug, Generative AI Nantes, GDG Nantes et GDG Nantes Cloud s'associent pour vous organiser un meetup inédit à Nantes !<br/>"+
+                " Venez assister à la conférence de Guillaume Laforge, Developer Advocate chez Google Cloud.<br/>"+
+                " RDV le jeudi 15 février à 19h dans les locaux d'e-artsup Nantes, 18 Rue Flandres - Dunkerque 40, 44000 Nantes<br/>"+
+                " Generative IA par la pratique : cas concrets d'utilisation d'un LLM en Java, avec l'API PaLM, Gemini et LangChain4J<br/>"+
+                " Les Large Language Models (LLM) sont une nouvelle technologie puissante qui peut être utilisée pour une variété de tâches, notamment la génération de texte, la traduction de texte et la rédaction de différents types de contenu créatif. Cependant, les LLMs peuvent être difficiles à utiliser, en particulier pour les développeurs qui ne sont pas expérimentés en Python, la “lingua franca” de l'IA.<br/>"+
+                " Alors, qu'en est-il des développeurs Java ? Comment pouvons-nous tirer parti de l'IA générative ?<br/>"+
+                " Cette présentation vous montrera comment utiliser les LLMs en Java sans avoir besoin de Python. Nous utiliserons l'API PaLM et Gemini, fournie par les services Google Cloud Vertex AI, pour effectuer une variété de tâches, telles que la recherche dans de la documentation, la génération d'histoires pour enfants, la synthèse du contenu, l'extraction de mots-clés ou d'entités, et plus encore.<br/>"+
+                " Et nous plongerons dans les possibilités offertes par le framework LangChain4J pour les développeurs Java !<br/>"+
+                " Qui est Guillaume Laforge ? Developer Advocate chez Google Cloud, où il se focalise sur les architectures orientées événement, l'orchestration d'API, et l'intelligence artificielle générative.<br/>"+
+                " Dans le monde Java, Guillaume est sans doute plus connu pour avoir co-fondé le langage de programmation Apache Groovy, et pour être un des membres fondateurs du podcast tech Les Cast Codeurs.</p>",
+                speakers: ['guillaume_laforge']
+            }
+        ]
+    },
+    {
         id: '2024_01_23',
         title: "JCon Europe 2023 // Memory layout & Performance en Java",
         date: new Date(2024, 0, 23), //month begin at 0
