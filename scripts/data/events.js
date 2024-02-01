@@ -32,9 +32,9 @@ var njEvents = [
         place: 'eartsup',
         subjects: [
             {
-                title: "Retour sur le JCon Europe 2023",
+                title: "Generative AI par la pratique : cas concrets d'utilisation d'un LLM en Java",
                 time: '19h00',
-                length:'20 min',
+                length:'1h30',
                 type: 'eartsup',
                 abstract: "<p>Le NantesJug, Generative AI Nantes, GDG Nantes et GDG Nantes Cloud s'associent pour vous organiser un meetup inédit à Nantes !<br/>"+
                 " Venez assister à la conférence de Guillaume Laforge, Developer Advocate chez Google Cloud.<br/>"+
