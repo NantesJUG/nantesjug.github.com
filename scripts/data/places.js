@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'sqli',
+    name: 'SQLi',
+    address: '1 Boulevard Berlin',
+    city: '44000 Nantes',
+    maps: 'https://maps.app.goo.gl/iAZJk6Pmj6roSa4s6',
+    capacity: 50
+  },
+  {
     id: 'qlik',
     name: 'Qlik (Talend)',
     address: '89 Boulevard de la Prairie au Duc',
