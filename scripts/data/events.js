@@ -24,6 +24,35 @@
 // },
 var njEvents = [
     {
+        id: '2024_03_12',
+        title: "Product Owner vs Product Manager // JobRunr",
+        date: new Date(2024, 2, 12), //month begin at 0
+        time: '19h00',
+        // register: 'https://www.meetup.com/nantes-java-user-group/events/298858263/',
+        place: 'sqli',
+        subjects: [
+            {
+                title: "J'suis Product Owner et moi J'suis Product Manager ! Sommes-nous si différents ?",
+                time: '19h00',
+                length:'0h15',
+                type: 'quickie',
+                abstract: "<p>Lors d’entretiens techniques/fonctionnels que je fais passer à des candidats, je me suis rendu compte que la définition du rôle de Product Manager et Product Owner était parfois confuse et interprétée de différentes manières.</p>" +
+                "<p>Afin que vous puissiez alimenter votre réflexion, on évoquera les principales fonctions du Product Owner et du Product Manager. On se fera un avis sur leur complémentarité ou différence et surtout on abordera également quelques clichés qui selon moi ne sont pas fondés.</p>",
+                speakers: ['julien_boeuf']
+            },
+            {
+                title: "Global Inventory at Scale: How Decathlon manages Stock Worldwide using JobRunr",
+                time: '19h30',
+                length:'1h00',
+                type: 'talk',
+                abstract: "<p>In the competitive world of retail, managing stock for 1700 Decathlon stores across 5 continents presented a formidable challenge: maintaining accurate, real-time inventory across diverse time zones. How do you ensure that a football or a snorkeling mask is available when a customer needs it, irrespective of the store's location?</p>" +
+                          "<p>Join us as we narrate Decathlon's journey through this complex landscape. This talk will dive into our innovative approach - a blend of RFID technology, robotics, custom coding, and the power of JobRunr - an open-source distributed job scheduler. We'll share our journey of exploring various tools and technologies, highlighting how JobRunr emerged as our top choice for its efficiency and scalability. We'll explain how our integration of open-source software, automated systems, and robotics has not only improved inventory accuracy but also enhanced the global shopping experience at our stores. Additionally, we'll show you how JobRunr works and demonstrate its capabilities through a live coding session.</p>" +
+                          "<p>After this session you will know all about the challenges we faced, the solutions we devised, and how these insights can be practically applied in your own business scenario.</p>",
+                speakers: ['ronald_dehuysser']
+            }
+        ]
+    },
+    {
         id: '2024_02_15',
         title: "Generative AI par la pratique : cas concrets d'utilisation d'un LLM en Java",
         date: new Date(2024, 1, 15), //month begin at 0

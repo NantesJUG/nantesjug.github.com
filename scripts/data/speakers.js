@@ -17,6 +17,20 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'julien_boeuf',
+    name: 'Julien Boeuf',
+    photo: "jpg",
+    bio: "J'effectue des talks depuis trois ans en interne comme en externe. J'ai eu le plaisir de donner des talks à l'Agile Tour Lille, Rennes et Nantes. Mes sujets sont tous issus d'expérience terrain. On y parle concret !"
+}, {
+    id: 'ronald_dehuysser',
+    name: 'Ronald Dehuysser',
+    photo: "jpg",
+    bio: "<p>Meet Ronald Dehuysser, a software architect from Belgium and creator of JobRunr. Seamlessly integrating with Spring Boot, Micronaut, and Quarkus, JobRunr is Ronald's solution for efficient distributed background job processing.</p>" +
+         "<p>When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.</p>",
+    twitter: 'rdehuyss',
+    github: 'rdehuyss',
+    website: 'https://www.jobrunr.io'
+}, {
     id: 'audren_burlot',
     name: 'Audren Burlot',
     photo: "jpg",
