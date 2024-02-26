@@ -5,7 +5,7 @@ var njPlaces = [
     name: 'SQLi',
     address: '1 Boulevard Berlin',
     city: '44000 Nantes',
-    maps: 'https://maps.app.goo.gl/iAZJk6Pmj6roSa4s6',
+    maps: 'https://maps.app.goo.gl/X2WVs3urBsav6h3w9',
     capacity: 50
   },
   {
