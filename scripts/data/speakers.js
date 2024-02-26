@@ -31,6 +31,14 @@ var njSpeakers = [
     github: 'rdehuyss',
     website: 'https://www.jobrunr.io'
 }, {
+    id: 'francois-xavier_verryser',
+    name: 'François-Xavier Verryser',
+    photo: "jpg",
+    bio: "<p>Over my 17-year at Decathlon, my professional journey began as a developer, gradually evolving into roles such as application manager and ultimately product owner of diverse retail applications.</p>" +
+         "<p>The advent of RFID technology at Decathlon marked a pivotal moment in my career. My primary goal was to elevate stock reliability within our stores by implementing RFID inventories and crafting a user-friendly mobile application. This innovative approach significantly enhanced the overall efficiency of stock management.</p>" +
+         "<p>Passionate by backend technologies, I made a shift from product management to assume the role of a tech lead in the realm of stock control.</p>" +
+         "<p>When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.</p>"
+}, {
     id: 'audren_burlot',
     name: 'Audren Burlot',
     photo: "jpg",

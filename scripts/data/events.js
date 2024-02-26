@@ -49,7 +49,7 @@ var njEvents = [
                           "<p>Join us as we narrate Decathlon's journey through this complex landscape. This talk will dive into our innovative approach - a blend of RFID technology, robotics, custom coding, and the power of JobRunr - an open-source distributed job scheduler. We'll share our journey of exploring various tools and technologies, highlighting how JobRunr emerged as our top choice for its efficiency and scalability. We'll explain how our integration of open-source software, automated systems, and robotics has not only improved inventory accuracy but also enhanced the global shopping experience at our stores. Additionally, we'll show you how JobRunr works and demonstrate its capabilities through a live coding session.</p>" +
                           "<p>After this session you will know all about the challenges we faced, the solutions we devised, and how these insights can be practically applied in your own business scenario.</p>" +
                           "<p><u>Conférence en anglais</u></p>",
-                speakers: ['ronald_dehuysser']
+                speakers: ['ronald_dehuysser', 'francois-xavier_verryser']
             }
         ]
     },
