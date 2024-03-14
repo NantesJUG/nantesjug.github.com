@@ -19,11 +19,10 @@ var njSpeakers = [
   {
     id: 'aymeric_laleau',
     name: 'Aymeric Laleau',
-    // photo: "",
-    // bio: "",
-    // twitter: '',
-    // github: 'rmannibucau',
-    // website: 'https://rmannibucau.metawerx.net/'
+    photo: "jpg",
+    bio: "<p>Je suis un développeur passionné depuis près de huit ans, axé principalement sur les technos JS, et une expérience significative dans le domaine du retail.</p>" +
+         "<p>Ma démarche professionnelle repose sur une approche technologique pointue et le partage constant de connaissances, car la connaissance n'a de valeur que si elle est partagée</p>",
+    github: 'alaleau'
   }, {
     id: 'romain_manni-bucau',
     name: 'Romain Manni-Bucau',

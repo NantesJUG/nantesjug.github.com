@@ -32,11 +32,14 @@ var njEvents = [
         place: "",
         subjects: [
             {
-                title: "Github actions",
+                title: "Passe à l'Actions avec GITHUB !",
                 time: '19h00',
                 length:'0h30',
                 type: 'quickie',
-                abstract: "",
+                abstract: "<p>De nos jours, l'automatisation est omniprésente dans nos processus de développement principalement pour les phases de tests, de build et de déploiements.</p>" +
+                    "<p>Au-delà de cette simple automatisation, la plateforme GitHub Actions vous offre la possibilité d'aller encore plus loin en créant vos propres actions personnalisées.</p>" +
+                    "<p>Que l’on soit technique ou fonctionnel, on trouve des avantages concrets dans l'intégration de GitHub Actions dans le processus de développement en automatisant de tâches simples et fastidieuses.</p>" +
+                    "<p>Ce talk permet de découvrir les GitHub Actions personnalisées, en découvrant les étapes de création d'une Github Action en mettant l'accent sur la simplicité et l'efficacité.</p>",
                 speakers: ['aymeric_laleau']
             },
             {
