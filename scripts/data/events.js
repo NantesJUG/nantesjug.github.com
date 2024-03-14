@@ -24,6 +24,35 @@
 // },
 var njEvents = [
     {
+        id: '2024_04_03',
+        title: "Github actions // Fusion",
+        date: new Date(2024, 3, 3), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "",
+        subjects: [
+            {
+                title: "Github actions",
+                time: '19h00',
+                length:'0h30',
+                type: 'quickie',
+                abstract: "",
+                speakers: ['aymeric_laleau']
+            },
+            {
+                title: "Bienvenu dans l'ère de Fusion",
+                time: '19h45',
+                length:'1h00',
+                type: 'talk',
+                abstract: "<p>Découvrez ce qu'est Yupiik OSS et pourquoi il a été créé comme un framework OSS complet pour simplifier le processus de développement de bout en bout.</p>" +
+                          "<p>Nous commencerons par discuter de l'écosystème IT et Cloud / Java dans lequel nous évoluons aujourd'hui et de ses défis.</p>" +
+                          "<p>Une brève deuxième partie comparera également les modèles Java courants à des solutions plus récentes dans d'autres langages pour voir si nous partons d'un héritage ou si nous sommes juste en avance par rapport à eux.</p>" +
+                          "<p>Enfin, la dernière partie portera sur la façon dont l'écosystème Fusion prend en compte cet état, d'un simple programme CLI à une API ou une application web déployée dans un cluster Kubernetes, mais nous veillerons également à prendre en compte les aspects de sécurité, de déploiement et de documentation (vivante).</p>",
+                speakers: ['romain_manni-bucau']
+            }
+        ]
+    },
+    {
         id: '2024_03_12',
         title: "Product Owner vs Product Manager // JobRunr",
         date: new Date(2024, 2, 12), //month begin at 0

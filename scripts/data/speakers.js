@@ -17,6 +17,27 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'aymeric_laleau',
+    name: 'Aymeric Laleau',
+    // photo: "",
+    // bio: "",
+    // twitter: '',
+    // github: 'rmannibucau',
+    // website: 'https://rmannibucau.metawerx.net/'
+  }, {
+    id: 'romain_manni-bucau',
+    name: 'Romain Manni-Bucau',
+    photo: "jpg",
+    bio: "<p>En commençant à travailler sur (Java)EE j'ai très vite rejoins l'Apache Software Foundation (ASF).</p>" +
+        "<p>D'abords via le projet Apache TomEE puis les couches basses de sa stack (OpenWebBeans, OpenJPA, XBean, CXF, ...), j'ai continué en travaillant sur des aspects de performances et d'observabilité.</p>" +
+        "<p>Fort de cet apprentissage, j'ai pu abordé le Big Data et le Cloud (Kubernetes) tout en continuant les expertises sur les API mais aussi les ESB (Apache Camel par ex).</p>" +
+        "<p>Curieux, j'aborde régulièrement d'autres languages (React.JS et Go pour les plus courants) même si je reste très \"Java\", que se soit avec une JVM ou sans (GraalVM native-image).</p>" +
+        "<p>Mon travail actuel consiste à construire une solution robuste et efficace autour des API (gateway), de la sécurité (serveur OAuth2) et d'une solution low code (webservices, kafka handlers etc...).</p>" +
+        "<p>Je reste convaincu que même si nos intéractions changent, l'OSS reste une base solide de nos futures applications et en tant que tel, je continue de contribuer à Apache mais aussi à Yupiik OSS (https://www.yupiik.io/projects.html) pour que coder reste un moyen et ne soit pas un frein que se soit en local ou dans le cloud.</p>",
+    twitter: 'rmannibucau',
+    github: 'rmannibucau',
+    website: 'https://rmannibucau.metawerx.net/'
+  }, {
     id: 'julien_boeuf',
     name: 'Julien Boeuf',
     photo: "jpg",
