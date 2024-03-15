@@ -28,7 +28,7 @@ var njEvents = [
         title: "Github actions // Fusion",
         date: new Date(2024, 3, 3), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/299812280/",
         place: "lepalace",
         subjects: [
             {
