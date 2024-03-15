@@ -29,7 +29,7 @@ var njEvents = [
         date: new Date(2024, 3, 3), //month begin at 0
         time: '19h00',
         register: "",
-        place: "",
+        place: "lepalace",
         subjects: [
             {
                 title: "Passe à l'Actions avec GITHUB !",

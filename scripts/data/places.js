@@ -211,7 +211,7 @@ var njPlaces = [
   },
   {
     id: 'lepalace',
-    name: 'Le Palace',
+    name: 'Le Palace _icilundi',
     address: '4 rue Voltaire',
     city: '44000 Nantes',
     maps: 'https://goo.gl/maps/m5DHkdHgBEEDz9kR8',
