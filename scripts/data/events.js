@@ -51,7 +51,7 @@ var njEvents = [
                           "<p>Nous commencerons par discuter de l'écosystème IT et Cloud / Java dans lequel nous évoluons aujourd'hui et de ses défis.</p>" +
                           "<p>Une brève deuxième partie comparera également les modèles Java courants à des solutions plus récentes dans d'autres langages pour voir si nous partons d'un héritage ou si nous sommes juste en avance par rapport à eux.</p>" +
                           "<p>Enfin, la dernière partie portera sur la façon dont l'écosystème Fusion prend en compte cet état, d'un simple programme CLI à une API ou une application web déployée dans un cluster Kubernetes, mais nous veillerons également à prendre en compte les aspects de sécurité, de déploiement et de documentation (vivante).</p>",
-                speakers: ['romain_manni-bucau']
+                speakers: ['romain_manni-bucau', 'francois_papon']
             }
         ]
     },

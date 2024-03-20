@@ -17,117 +17,145 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
-    id: 'aymeric_laleau',
-    name: 'Aymeric Laleau',
+    id: "francois_papon",
+    name: "François Papon",
+    bio:
+      "<p>Après avoir fait une carrière de 8 ans dans l'Armée de Terre en développement J2EE dans les années 2000 et étant utilisateurs de projet de la fondation Apache, j'ai rapidement commencé à contribuer sur plusieurs projet.</p>" +
+      "<p>Je suis maintenant membre de la fondation Apache et PMC de plusieurs projet comme Karaf, Geronimo, Arthur (GraalVM), Shiro, Hop tout en étant aussi un utilisateur de projet comme ActiveMQ, Camel, Kafka, Tomcat.</p>" +
+      "<p>Passionné par le langage Java et tout ce qui tourne autour des apis et de Kubernetes, je participe actuellement à la construction d'une solution low-code pour faciliter l'intégration des entreprises dans le monde des apis et du cloud.</p>" +
+      "<p>L'eco-system de l'open-source est en mutation constante, c'est pour cela qu'en dehors de mes contributions pour la fondation Apache et en tant que CTO chez Yupiik, nous avons décidé de mettre à disposition de la communauté certains de nos projets en OSS (https://www.yupiik.io).</p>",
     photo: "jpg",
-    bio: "<p>Je suis un développeur passionné depuis près de huit ans, axé principalement sur les technos JS, et une expérience significative dans le domaine du retail.</p>" +
-         "<p>Ma démarche professionnelle repose sur une approche technologique pointue et le partage constant de connaissances, car la connaissance n'a de valeur que si elle est partagée</p>",
-    github: 'alaleau'
-  }, {
-    id: 'romain_manni-bucau',
-    name: 'Romain Manni-Bucau',
+    twitter: "fpapon2",
+    github: "fpapon",
+    website: "https://medium.com/@fpapon30",
+  },
+  {
+    id: "aymeric_laleau",
+    name: "Aymeric Laleau",
     photo: "jpg",
-    bio: "<p>En commençant à travailler sur (Java)EE j'ai très vite rejoins l'Apache Software Foundation (ASF).</p>" +
-        "<p>D'abords via le projet Apache TomEE puis les couches basses de sa stack (OpenWebBeans, OpenJPA, XBean, CXF, ...), j'ai continué en travaillant sur des aspects de performances et d'observabilité.</p>" +
-        "<p>Fort de cet apprentissage, j'ai pu abordé le Big Data et le Cloud (Kubernetes) tout en continuant les expertises sur les API mais aussi les ESB (Apache Camel par ex).</p>" +
-        "<p>Curieux, j'aborde régulièrement d'autres languages (React.JS et Go pour les plus courants) même si je reste très \"Java\", que se soit avec une JVM ou sans (GraalVM native-image).</p>" +
-        "<p>Mon travail actuel consiste à construire une solution robuste et efficace autour des API (gateway), de la sécurité (serveur OAuth2) et d'une solution low code (webservices, kafka handlers etc...).</p>" +
-        "<p>Je reste convaincu que même si nos intéractions changent, l'OSS reste une base solide de nos futures applications et en tant que tel, je continue de contribuer à Apache mais aussi à Yupiik OSS (https://www.yupiik.io/projects.html) pour que coder reste un moyen et ne soit pas un frein que se soit en local ou dans le cloud.</p>",
-    twitter: 'rmannibucau',
-    github: 'rmannibucau',
-    website: 'https://rmannibucau.metawerx.net/'
-  }, {
-    id: 'julien_boeuf',
-    name: 'Julien Boeuf',
+    bio:
+      "<p>Je suis un développeur passionné depuis près de huit ans, axé principalement sur les technos JS, et une expérience significative dans le domaine du retail.</p>" +
+      "<p>Ma démarche professionnelle repose sur une approche technologique pointue et le partage constant de connaissances, car la connaissance n'a de valeur que si elle est partagée</p>",
+    github: "alaleau",
+  },
+  {
+    id: "romain_manni-bucau",
+    name: "Romain Manni-Bucau",
     photo: "jpg",
-    bio: "J'effectue des talks depuis trois ans en interne comme en externe. J'ai eu le plaisir de donner des talks à l'Agile Tour Lille, Rennes et Nantes. Mes sujets sont tous issus d'expérience terrain. On y parle concret !"
-}, {
-    id: 'ronald_dehuysser',
-    name: 'Ronald Dehuysser',
+    bio:
+      "<p>En commençant à travailler sur (Java)EE j'ai très vite rejoins l'Apache Software Foundation (ASF).</p>" +
+      "<p>D'abords via le projet Apache TomEE puis les couches basses de sa stack (OpenWebBeans, OpenJPA, XBean, CXF, ...), j'ai continué en travaillant sur des aspects de performances et d'observabilité.</p>" +
+      "<p>Fort de cet apprentissage, j'ai pu abordé le Big Data et le Cloud (Kubernetes) tout en continuant les expertises sur les API mais aussi les ESB (Apache Camel par ex).</p>" +
+      "<p>Curieux, j'aborde régulièrement d'autres languages (React.JS et Go pour les plus courants) même si je reste très \"Java\", que se soit avec une JVM ou sans (GraalVM native-image).</p>" +
+      "<p>Mon travail actuel consiste à construire une solution robuste et efficace autour des API (gateway), de la sécurité (serveur OAuth2) et d'une solution low code (webservices, kafka handlers etc...).</p>" +
+      "<p>Je reste convaincu que même si nos intéractions changent, l'OSS reste une base solide de nos futures applications et en tant que tel, je continue de contribuer à Apache mais aussi à Yupiik OSS (https://www.yupiik.io/projects.html) pour que coder reste un moyen et ne soit pas un frein que se soit en local ou dans le cloud.</p>",
+    twitter: "rmannibucau",
+    github: "rmannibucau",
+    website: "https://rmannibucau.metawerx.net/",
+  },
+  {
+    id: "julien_boeuf",
+    name: "Julien Boeuf",
     photo: "jpg",
-    bio: "<p>Meet Ronald Dehuysser, a software architect from Belgium and creator of JobRunr. Seamlessly integrating with Spring Boot, Micronaut, and Quarkus, JobRunr is Ronald's solution for efficient distributed background job processing.</p>" +
-         "<p>When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.</p>",
-    twitter: 'rdehuyss',
-    github: 'rdehuyss',
-    website: 'https://www.jobrunr.io'
-}, {
-    id: 'francois-xavier_verryser',
-    name: 'François-Xavier Verryser',
+    bio: "J'effectue des talks depuis trois ans en interne comme en externe. J'ai eu le plaisir de donner des talks à l'Agile Tour Lille, Rennes et Nantes. Mes sujets sont tous issus d'expérience terrain. On y parle concret !",
+  },
+  {
+    id: "ronald_dehuysser",
+    name: "Ronald Dehuysser",
     photo: "jpg",
-    bio: "<p>Over my 17-year at Decathlon, my professional journey began as a developer, gradually evolving into roles such as application manager and ultimately product owner of diverse retail applications.</p>" +
-         "<p>The advent of RFID technology at Decathlon marked a pivotal moment in my career. My primary goal was to elevate stock reliability within our stores by implementing RFID inventories and crafting a user-friendly mobile application. This innovative approach significantly enhanced the overall efficiency of stock management.</p>" +
-         "<p>Passionate by backend technologies, I made a shift from product management to assume the role of a tech lead in the realm of stock control.</p>" +
-         "<p>When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.</p>"
-}, {
-    id: 'audren_burlot',
-    name: 'Audren Burlot',
+    bio:
+      "<p>Meet Ronald Dehuysser, a software architect from Belgium and creator of JobRunr. Seamlessly integrating with Spring Boot, Micronaut, and Quarkus, JobRunr is Ronald's solution for efficient distributed background job processing.</p>" +
+      "<p>When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.</p>",
+    twitter: "rdehuyss",
+    github: "rdehuyss",
+    website: "https://www.jobrunr.io",
+  },
+  {
+    id: "francois-xavier_verryser",
+    name: "François-Xavier Verryser",
     photo: "jpg",
-    twitter: 'AudrenBrlt',
-    github: 'Firnael'
-}, {
-    id: 'jean_francois_albenque',
-    name: 'Jean-François Albenque',
-    bio: "<p>Je travaille en tant que Développeur (principalement sur le Back-End). Les technologies sur lesquelles je travaille sont les suivantes :</p>" +
-         "<p>Java/J2EE, Unix, JUnit, Oracle, Angular, Jenkins, Karaté, Git, Sonar, Linux, DevOps, Docker, Kubernetes, IntelliJ</p>" +
-         "<p>Je possède la certification Java SE 8 Oracle Certified Associate (OCA).</p>",
+    bio:
+      "<p>Over my 17-year at Decathlon, my professional journey began as a developer, gradually evolving into roles such as application manager and ultimately product owner of diverse retail applications.</p>" +
+      "<p>The advent of RFID technology at Decathlon marked a pivotal moment in my career. My primary goal was to elevate stock reliability within our stores by implementing RFID inventories and crafting a user-friendly mobile application. This innovative approach significantly enhanced the overall efficiency of stock management.</p>" +
+      "<p>Passionate by backend technologies, I made a shift from product management to assume the role of a tech lead in the realm of stock control.</p>" +
+      "<p>When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.</p>",
+  },
+  {
+    id: "audren_burlot",
+    name: "Audren Burlot",
     photo: "jpg",
-    twitter: 'devjfa',
-    github: 'jfadev744'
-}, {
-    id: 'benoit_orihuela',
-    name: 'Benoit Orihuela',
+    twitter: "AudrenBrlt",
+    github: "Firnael",
+  },
+  {
+    id: "jean_francois_albenque",
+    name: "Jean-François Albenque",
+    bio:
+      "<p>Je travaille en tant que Développeur (principalement sur le Back-End). Les technologies sur lesquelles je travaille sont les suivantes :</p>" +
+      "<p>Java/J2EE, Unix, JUnit, Oracle, Angular, Jenkins, Karaté, Git, Sonar, Linux, DevOps, Docker, Kubernetes, IntelliJ</p>" +
+      "<p>Je possède la certification Java SE 8 Oracle Certified Associate (OCA).</p>",
     photo: "jpg",
-    github: 'bobeal'
-}, {
-    id: 'valentin_lefort',
-    name: 'Valentin Lefort',
-    bio: "<p>Développeur Backend chez SFEIR et Confluent Certified Kafka Developer.</p>" +
-         "<p>Je m'intéresse à Kafka et son écosystème.</p>",
+    twitter: "devjfa",
+    github: "jfadev744",
+  },
+  {
+    id: "benoit_orihuela",
+    name: "Benoit Orihuela",
     photo: "jpg",
-    twitter: 'valentinlefort4'
-}, {
-    id: 'julien_jakubowski',
-    name: 'Julien Jakubowski',
+    github: "bobeal",
+  },
+  {
+    id: "valentin_lefort",
+    name: "Valentin Lefort",
+    bio:
+      "<p>Développeur Backend chez SFEIR et Confluent Certified Kafka Developer.</p>" +
+      "<p>Je m'intéresse à Kafka et son écosystème.</p>",
+    photo: "jpg",
+    twitter: "valentinlefort4",
+  },
+  {
+    id: "julien_jakubowski",
+    name: "Julien Jakubowski",
     bio: `
           <p>Julien Jakubowski est developer advocate chez StreamNative.</p>
           <p>Il a une vingtaine d’années d’expérience en tant que développeur, tech lead et consultant. Il a construit plusieurs systèmes complexes à architecture distribuée, scalables et event-driven, dans des domaines variés : retail, banque, assurance, industrie…</p>
           <p>Julien est speaker à différentes conférences techniques (Devoxx, VoxxedDays, Berlin Buzzwords, JUGs, GDG, Agile Tours…), Julien est également l’un des fondateurs et leaders du Ch’ti JUG - Java User Group de Lille.</p>
           `,
-    photo: 'jpg',
-    twitter: 'jak78',
-  },  {
-    id: 'damien_metzler',
-    name: 'Damien Metzler',
-    bio: 
-        "<p>Damien Metzler travaille comme Solutions Architect chez Amazon Web Service où il conseille ses clients grandes entreprises à utiliser les services AWS de manière optimale.</p><p>Il a aussi travaillé plusieurs années comme développeur chez Nuxeo, une solution de gestion documentaire opensource en Java, pour laquelle il a construit l'architecture de l'offre cloud, raison pour laquelle il a pas mal écrit sur ses expériences avec Java et le cloud.</p>",
-    twitter: 'damienmetzler',
-    github: 'dmetzler',
-  },  {
-    id: 'jerome_moliere',
-    name: 'Jérôme Molière',
-    bio: 
-        "<p>Tombé dans  Java en 1996  , ingénieur ESIGELEC 1997. Auteur  pour Eyrolles. Architecte/coach technique </p>",
-    photo: 'jpg',
-    github: 'mentorj',
+    photo: "jpg",
+    twitter: "jak78",
   },
   {
-    id: 'sylvain_nael',
-    name: 'Sylvain Nael',
+    id: "damien_metzler",
+    name: "Damien Metzler",
+    bio: "<p>Damien Metzler travaille comme Solutions Architect chez Amazon Web Service où il conseille ses clients grandes entreprises à utiliser les services AWS de manière optimale.</p><p>Il a aussi travaillé plusieurs années comme développeur chez Nuxeo, une solution de gestion documentaire opensource en Java, pour laquelle il a construit l'architecture de l'offre cloud, raison pour laquelle il a pas mal écrit sur ses expériences avec Java et le cloud.</p>",
+    twitter: "damienmetzler",
+    github: "dmetzler",
+  },
+  {
+    id: "jerome_moliere",
+    name: "Jérôme Molière",
+    bio: "<p>Tombé dans  Java en 1996  , ingénieur ESIGELEC 1997. Auteur  pour Eyrolles. Architecte/coach technique </p>",
+    photo: "jpg",
+    github: "mentorj",
+  },
+  {
+    id: "sylvain_nael",
+    name: "Sylvain Nael",
     bio: "<p>Développeur Front chez RCA</p>",
-    photo: 'jpg',
-    twitter: 'sylvain_nb',
-    website: 'https://www.linkedin.com/in/sylvain-nael-73513125/',
+    photo: "jpg",
+    twitter: "sylvain_nb",
+    website: "https://www.linkedin.com/in/sylvain-nael-73513125/",
   },
   {
-    id: 'raphael_semeteys',
-    name: 'Raphaël Semeteys',
-    bio: 
-        "<p>Raphaël est DevRel, architecte et expert open source chez Worldline. <br>" + 
-        "Geek depuis ses débuts, il a du adopter de nombreux angles de vue sur l'IT (développeur, analyste, architecte, chef de projet, consultant, avant-vente, direction technique...) et ce dans de multiples domaines métiers. Il aborde les (nouvelles) technologies toujours avec le même appetit, désormais pimenté par le recul que lui donne son expérience de près de 25 ans de conception/réalisation/exploitation de services et de SI soumis à de fortes contraintes (criticité/visibilité, performances/volumétrie, sécurité, exigences d'industrialisation).</p>",
-    photo: 'jpg',
-    twitter: 'raphaelsemeteys',
-    github: 'raphiki',
-    website: 'http://www.semeteys.org',
+    id: "raphael_semeteys",
+    name: "Raphaël Semeteys",
+    bio:
+      "<p>Raphaël est DevRel, architecte et expert open source chez Worldline. <br>" +
+      "Geek depuis ses débuts, il a du adopter de nombreux angles de vue sur l'IT (développeur, analyste, architecte, chef de projet, consultant, avant-vente, direction technique...) et ce dans de multiples domaines métiers. Il aborde les (nouvelles) technologies toujours avec le même appetit, désormais pimenté par le recul que lui donne son expérience de près de 25 ans de conception/réalisation/exploitation de services et de SI soumis à de fortes contraintes (criticité/visibilité, performances/volumétrie, sécurité, exigences d'industrialisation).</p>",
+    photo: "jpg",
+    twitter: "raphaelsemeteys",
+    github: "raphiki",
+    website: "http://www.semeteys.org",
   },
   {
     id: "mohamed_ali_bouine",
@@ -172,14 +200,16 @@ var njSpeakers = [
     photo: "jpg",
     twitter: "remiforaxoff",
     github: "forax",
-  },{
+  },
+  {
     id: "lise_quesnel",
     name: "Lise Quesnel",
     bio: "<p>Lise est développeuse web et Lead dev. Elle sait être moteur tant sur le plan humain que technique.<br> Les bonnes pratiques de développement sont pour elle le ciment de tout projet. Elle porte également une attention toute particulière à l’expérience utilisateur.<br> Grande curieuse, elle aime découvrir sans cesse de nouvelles choses.</p>",
     photo: "jpg",
     twitter: "QuesnelLise",
     github: "lisequesnel",
-  },{
+  },
+  {
     id: "sun_tan",
     name: "Sun Tan",
     bio: "<p>Sun is a Senior Software Engineer and a Java developer with 15 years experience, currently working at Red Hat.<br> Sun is involved in the Eclipse Che project from the very beginning as a core contributor. He recently joined the JKube project team. <br>Sun has the community in his heart and is devoted to open source. He has been contributing to open source softwares while working for companies like Nuxeo, Serli and now Red Hat. <br>Today, his adventure continues in sharing his source code, promoting great talks and speakers at his local Paris Java User Group, coding with Eclipse Che and enjoying his new hobby: brewing beer in his kitchen.</p>",
@@ -187,14 +217,16 @@ var njSpeakers = [
     twitter: "__sunix_",
     github: "sunix",
     website: "https://blog.sunix.org",
-  },{
+  },
+  {
     id: "lucille_moise",
     name: "Lucille Moise",
     bio: "<p>Du haut de mes 27 ans de curiosité, je suis passée par beaucoup de passion : Jeux Vidéos, Musique, Astronomie, IA, Littérature. Aujourd’hui, c’est chez Serli en tant que développeuse que je continue d’entretenir cette flamme.Développeuse web le jour (React, Java, Kotlin) et bidouilleuse-garou la nuit (Python), l’échange de découvertes et savoirs m’intéressent toujours.</p>",
     photo: "jpg",
     twitter: "itchae_",
     github: "LucilleMoise",
-  },{
+  },
+  {
     id: "elvadas_nono",
     name: "Elvadas Nono",
     bio: "<p>Passionné par les nouvelles technologies ainsi et les causes humanitaires, Elvadas accompagne les Entreprises dans la mise en place des systèmes d'information modernes et efficients: </p>",
@@ -663,8 +695,8 @@ var njSpeakers = [
   {
     id: "cedric_champeau",
     name: "Cédric Champeau",
-    bio: 'Cédric Champeau travaille pour Oracle Labs, dans l\'équipe GraalVM et en particulier sur le framework Micronaut. Il est spécialisé dans la productivité développeur et maintient entre autres les plugins officiels de GraalVM et Micronaut pour Gradle et Maven. Il a travaillé plusieurs années pour Gradle Inc. sur des problématiques de gestion de dépendances et autre productivité développeur. Ancien contributeur sur le langage Groovy, il a notamment implémenté son compilateur statique. En dehors de l\'informatique, Cédric est un passionné d\'astronomie.',
-    photo: 'jpg',
+    bio: "Cédric Champeau travaille pour Oracle Labs, dans l'équipe GraalVM et en particulier sur le framework Micronaut. Il est spécialisé dans la productivité développeur et maintient entre autres les plugins officiels de GraalVM et Micronaut pour Gradle et Maven. Il a travaillé plusieurs années pour Gradle Inc. sur des problématiques de gestion de dépendances et autre productivité développeur. Ancien contributeur sur le langage Groovy, il a notamment implémenté son compilateur statique. En dehors de l'informatique, Cédric est un passionné d'astronomie.",
+    photo: "jpg",
     twitter: "CedricChampeau",
     website: "http://melix.github.io/blog",
   },
@@ -1156,7 +1188,7 @@ var njSpeakers = [
     name: "Clement Escoffier",
     bio:
       "<p>Clement Escoffier (@clementplop) is a distinguished engineer at Red Hat. He is a Java Champion and also acts as a Reactive Architect at Red Hat.</p>" +
-      "<p>Before joining Red Hat, Clement had several professional lives, from academic positions to management. He contributed to projects and products, touching many domains and technologies such as OSGi, mobile, continuous delivery, and DevOps. Clement has always been interested in software engineering, distributed systems, and event-driven architecture. He recently focused on Reactive Systems, Cloud-Native applications, and Kubernetes. Clement is an active contributor to many open-source projects such as Apache Felix, Eclipse Vert.x, SmallRye, Mutiny, and Quarkus. I recently authored the \"Reactive Systems in Java\" book.</p>",
+      '<p>Before joining Red Hat, Clement had several professional lives, from academic positions to management. He contributed to projects and products, touching many domains and technologies such as OSGi, mobile, continuous delivery, and DevOps. Clement has always been interested in software engineering, distributed systems, and event-driven architecture. He recently focused on Reactive Systems, Cloud-Native applications, and Kubernetes. Clement is an active contributor to many open-source projects such as Apache Felix, Eclipse Vert.x, SmallRye, Mutiny, and Quarkus. I recently authored the "Reactive Systems in Java" book.</p>',
     gravatar: "clement.escoffier@gmail.com",
     twitter: "clementplop",
     github: "cescoffier",
