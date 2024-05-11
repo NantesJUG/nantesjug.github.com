@@ -17,6 +17,40 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "alexis_voisin",
+    name: "Alexis Voisin",
+    bio:
+      "<p>Développeur depuis 9 ans, principalement en Java, j'ai pris le lead sur plusieurs projets et mis en place des points d'échanges entre devs.</p>"+
+      "<p>Je cherche toujours à progresser techniquement et à partager mes connaissances.</p>",
+    photo: "png",
+    twitter: "",
+    github: "",
+    website: "",
+  },
+  {
+    id: "ambre_person",
+    name: "Ambre Person",
+    bio:
+      "<p>🧰 Artisan du code @ Sopra Steria</p>"+
+      "<p>⚙️ Passionné d'ingénierie logicielle (Architecture, Craftsmanship, DevOps, Cloud, Management)</p>"+
+      "<p>🎯 Directeur technique de l'agence Services Publics Nantes</p>"+
+      "<p>👨‍🏫 Formateur interne & enseignant en école d'ingénieurs (Craftsmanship, DevOps, Cloud)</p>",
+    photo: "png",
+    twitter: "",
+    github: "",
+    website: "",
+  },
+  {
+    id: "gwenael_bec",
+    name: "Gwenaël Bec",
+    bio:
+      "<p>Référent Technique - Sopra Steria</p>",
+    photo: "",
+    twitter: "",
+    github: "",
+    website: "",
+  },
+  {
     id: "francois_papon",
     name: "François Papon",
     bio:

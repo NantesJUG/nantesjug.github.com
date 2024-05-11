@@ -24,6 +24,39 @@
 // },
 var njEvents = [
     {
+        id: '2024_05_28',
+        title: "JUnit 5 / SpringPizzas et agrégations, ou comment MongoDB a sauvé mon restaurant // Comment j'ai remplacé mon extincteur par un manuel des castors juniors",
+        date: new Date(2024, 4, 28), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "onepoint",
+        subjects: [
+            {
+                title: "Pizzas et agrégations, ou comment MongoDB a sauvé mon restaurant",
+                time: '19h00',
+                length: '0h30',
+                type: 'quickie',
+                abstract: "<p>MongoDB offre un grande flexibilité sur le format des données, mais comment les manipuler lorsqu’on doit modifier des milliers de documents ?</p>" +
+                    "<p>Les agrégations offre une solution simple : faire une pipeline pour éditer les documents, les enrichir ou en récupérer des informations pour générer des métriques globales.</p>" +
+                    "<p>Venez découvrir les agrégations MongoDB à travers l'exemple d'une pizzeria, qui doit modifier l'intégralité de sa base de données suite à un choix culinaire discutable...</p>" +
+                    "</p>",
+                speakers: ['alexis_voisin']
+            },
+            {
+                title: "Comment j'ai remplacé mon extincteur par un manuel des castors juniors",
+                time: '19h45',
+                length: '1h00',
+                type: 'talk',
+                abstract: "<p>Vous en avez marre d'intervenir tout le temps en mode pompier sur vos projets ? Vous ne touchez plus à rien dans le code dans la crainte de tout voir exploser ? Vous aimeriez remettre de la sérénité dans vos refactos de code ?</p>" +
+                    "</p>Prenez vos places pour un entrainement spécial au Software Craftsmanship aux côtés de Riri, Fifi et Loulou qui fera de vous un vrai adepte du scoutisme.</p>" +
+                    "</p>Nous parcourrons et illustrerons, au travers d’exemples concrets, un guide de bonnes pratiques (Clean Code, SOLID, proposition de démarches) vous permettant dans un premier temps d'identifier vos éventuels refactos et par la suite de les suivre et de les traiter.</p>" +
+                    "</p>Installez-vous confortablement et venez récupérer votre médaille de parfait petit scout. 🎖️</p>" +
+                    "</p>",
+                speakers: ['ambre_person', 'gwenael_bec']
+            }
+        ]
+    },
+    {
         id: '2024_04_03',
         title: "Github actions // Fusion",
         date: new Date(2024, 3, 3), //month begin at 0
@@ -34,7 +67,7 @@ var njEvents = [
             {
                 title: "Passe à l'Actions avec GITHUB !",
                 time: '19h00',
-                length:'0h30',
+                length: '0h30',
                 type: 'quickie',
                 abstract: "<p>De nos jours, l'automatisation est omniprésente dans nos processus de développement principalement pour les phases de tests, de build et de déploiements.</p>" +
                     "<p>Au-delà de cette simple automatisation, la plateforme GitHub Actions vous offre la possibilité d'aller encore plus loin en créant vos propres actions personnalisées.</p>" +
@@ -45,12 +78,12 @@ var njEvents = [
             {
                 title: "Bienvenu dans l'ère de Fusion",
                 time: '19h45',
-                length:'1h00',
+                length: '1h00',
                 type: 'talk',
                 abstract: "<p>Découvrez ce qu'est Yupiik OSS et pourquoi il a été créé comme un framework OSS complet pour simplifier le processus de développement de bout en bout.</p>" +
-                          "<p>Nous commencerons par discuter de l'écosystème IT et Cloud / Java dans lequel nous évoluons aujourd'hui et de ses défis.</p>" +
-                          "<p>Une brève deuxième partie comparera également les modèles Java courants à des solutions plus récentes dans d'autres langages pour voir si nous partons d'un héritage ou si nous sommes juste en avance par rapport à eux.</p>" +
-                          "<p>Enfin, la dernière partie portera sur la façon dont l'écosystème Fusion prend en compte cet état, d'un simple programme CLI à une API ou une application web déployée dans un cluster Kubernetes, mais nous veillerons également à prendre en compte les aspects de sécurité, de déploiement et de documentation (vivante).</p>",
+                    "<p>Nous commencerons par discuter de l'écosystème IT et Cloud / Java dans lequel nous évoluons aujourd'hui et de ses défis.</p>" +
+                    "<p>Une brève deuxième partie comparera également les modèles Java courants à des solutions plus récentes dans d'autres langages pour voir si nous partons d'un héritage ou si nous sommes juste en avance par rapport à eux.</p>" +
+                    "<p>Enfin, la dernière partie portera sur la façon dont l'écosystème Fusion prend en compte cet état, d'un simple programme CLI à une API ou une application web déployée dans un cluster Kubernetes, mais nous veillerons également à prendre en compte les aspects de sécurité, de déploiement et de documentation (vivante).</p>",
                 speakers: ['romain_manni-bucau', 'francois_papon']
             }
         ]
@@ -66,21 +99,21 @@ var njEvents = [
             {
                 title: "J'suis Product Owner et moi J'suis Product Manager ! Sommes-nous si différents ?",
                 time: '19h00',
-                length:'0h15',
+                length: '0h15',
                 type: 'quickie',
                 abstract: "<p>Lors d’entretiens techniques/fonctionnels que je fais passer à des candidats, je me suis rendu compte que la définition du rôle de Product Manager et Product Owner était parfois confuse et interprétée de différentes manières.</p>" +
-                "<p>Afin que vous puissiez alimenter votre réflexion, on évoquera les principales fonctions du Product Owner et du Product Manager. On se fera un avis sur leur complémentarité ou différence et surtout on abordera également quelques clichés qui selon moi ne sont pas fondés.</p>",
+                    "<p>Afin que vous puissiez alimenter votre réflexion, on évoquera les principales fonctions du Product Owner et du Product Manager. On se fera un avis sur leur complémentarité ou différence et surtout on abordera également quelques clichés qui selon moi ne sont pas fondés.</p>",
                 speakers: ['julien_boeuf']
             },
             {
                 title: "Global Inventory at Scale: How Decathlon manages Stock Worldwide using JobRunr [EN]",
                 time: '19h30',
-                length:'1h00',
+                length: '1h00',
                 type: 'talk',
                 abstract: "<p>In the competitive world of retail, managing stock for 1700 Decathlon stores across 5 continents presented a formidable challenge: maintaining accurate, real-time inventory across diverse time zones. How do you ensure that a football or a snorkeling mask is available when a customer needs it, irrespective of the store's location?</p>" +
-                          "<p>Join us as we narrate Decathlon's journey through this complex landscape. This talk will dive into our innovative approach - a blend of RFID technology, robotics, custom coding, and the power of JobRunr - an open-source distributed job scheduler. We'll share our journey of exploring various tools and technologies, highlighting how JobRunr emerged as our top choice for its efficiency and scalability. We'll explain how our integration of open-source software, automated systems, and robotics has not only improved inventory accuracy but also enhanced the global shopping experience at our stores. Additionally, we'll show you how JobRunr works and demonstrate its capabilities through a live coding session.</p>" +
-                          "<p>After this session you will know all about the challenges we faced, the solutions we devised, and how these insights can be practically applied in your own business scenario.</p>" +
-                          "<p><u>Conférence en anglais</u></p>",
+                    "<p>Join us as we narrate Decathlon's journey through this complex landscape. This talk will dive into our innovative approach - a blend of RFID technology, robotics, custom coding, and the power of JobRunr - an open-source distributed job scheduler. We'll share our journey of exploring various tools and technologies, highlighting how JobRunr emerged as our top choice for its efficiency and scalability. We'll explain how our integration of open-source software, automated systems, and robotics has not only improved inventory accuracy but also enhanced the global shopping experience at our stores. Additionally, we'll show you how JobRunr works and demonstrate its capabilities through a live coding session.</p>" +
+                    "<p>After this session you will know all about the challenges we faced, the solutions we devised, and how these insights can be practically applied in your own business scenario.</p>" +
+                    "<p><u>Conférence en anglais</u></p>",
                 speakers: ['ronald_dehuysser', 'francois-xavier_verryser']
             }
         ]
@@ -96,18 +129,18 @@ var njEvents = [
             {
                 title: "Generative AI par la pratique : cas concrets d'utilisation d'un LLM en Java",
                 time: '19h00',
-                length:'1h30',
+                length: '1h30',
                 type: 'eartsup',
-                abstract: "<p>Le NantesJug, Generative AI Nantes, GDG Nantes et GDG Nantes Cloud s'associent pour vous organiser un meetup inédit à Nantes !<br/>"+
-                " Venez assister à la conférence de Guillaume Laforge, Developer Advocate chez Google Cloud.<br/>"+
-                " RDV le jeudi 15 février à 19h dans les locaux d'e-artsup Nantes, 18 Rue Flandres - Dunkerque 40, 44000 Nantes<br/>"+
-                " Generative IA par la pratique : cas concrets d'utilisation d'un LLM en Java, avec l'API PaLM, Gemini et LangChain4J<br/>"+
-                " Les Large Language Models (LLM) sont une nouvelle technologie puissante qui peut être utilisée pour une variété de tâches, notamment la génération de texte, la traduction de texte et la rédaction de différents types de contenu créatif. Cependant, les LLMs peuvent être difficiles à utiliser, en particulier pour les développeurs qui ne sont pas expérimentés en Python, la “lingua franca” de l'IA.<br/>"+
-                " Alors, qu'en est-il des développeurs Java ? Comment pouvons-nous tirer parti de l'IA générative ?<br/>"+
-                " Cette présentation vous montrera comment utiliser les LLMs en Java sans avoir besoin de Python. Nous utiliserons l'API PaLM et Gemini, fournie par les services Google Cloud Vertex AI, pour effectuer une variété de tâches, telles que la recherche dans de la documentation, la génération d'histoires pour enfants, la synthèse du contenu, l'extraction de mots-clés ou d'entités, et plus encore.<br/>"+
-                " Et nous plongerons dans les possibilités offertes par le framework LangChain4J pour les développeurs Java !<br/>"+
-                " Qui est Guillaume Laforge ? Developer Advocate chez Google Cloud, où il se focalise sur les architectures orientées événement, l'orchestration d'API, et l'intelligence artificielle générative.<br/>"+
-                " Dans le monde Java, Guillaume est sans doute plus connu pour avoir co-fondé le langage de programmation Apache Groovy, et pour être un des membres fondateurs du podcast tech Les Cast Codeurs.</p>",
+                abstract: "<p>Le NantesJug, Generative AI Nantes, GDG Nantes et GDG Nantes Cloud s'associent pour vous organiser un meetup inédit à Nantes !<br/>" +
+                    " Venez assister à la conférence de Guillaume Laforge, Developer Advocate chez Google Cloud.<br/>" +
+                    " RDV le jeudi 15 février à 19h dans les locaux d'e-artsup Nantes, 18 Rue Flandres - Dunkerque 40, 44000 Nantes<br/>" +
+                    " Generative IA par la pratique : cas concrets d'utilisation d'un LLM en Java, avec l'API PaLM, Gemini et LangChain4J<br/>" +
+                    " Les Large Language Models (LLM) sont une nouvelle technologie puissante qui peut être utilisée pour une variété de tâches, notamment la génération de texte, la traduction de texte et la rédaction de différents types de contenu créatif. Cependant, les LLMs peuvent être difficiles à utiliser, en particulier pour les développeurs qui ne sont pas expérimentés en Python, la “lingua franca” de l'IA.<br/>" +
+                    " Alors, qu'en est-il des développeurs Java ? Comment pouvons-nous tirer parti de l'IA générative ?<br/>" +
+                    " Cette présentation vous montrera comment utiliser les LLMs en Java sans avoir besoin de Python. Nous utiliserons l'API PaLM et Gemini, fournie par les services Google Cloud Vertex AI, pour effectuer une variété de tâches, telles que la recherche dans de la documentation, la génération d'histoires pour enfants, la synthèse du contenu, l'extraction de mots-clés ou d'entités, et plus encore.<br/>" +
+                    " Et nous plongerons dans les possibilités offertes par le framework LangChain4J pour les développeurs Java !<br/>" +
+                    " Qui est Guillaume Laforge ? Developer Advocate chez Google Cloud, où il se focalise sur les architectures orientées événement, l'orchestration d'API, et l'intelligence artificielle générative.<br/>" +
+                    " Dans le monde Java, Guillaume est sans doute plus connu pour avoir co-fondé le langage de programmation Apache Groovy, et pour être un des membres fondateurs du podcast tech Les Cast Codeurs.</p>",
                 speakers: ['guillaume_laforge']
             }
         ]
@@ -123,7 +156,7 @@ var njEvents = [
             {
                 title: "Retour sur le JCon Europe 2023",
                 time: '19h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
                 abstract: "<p>Description des thèmes principaux abordés lors du Jcon Europe de juin 2023</p>",
                 speakers: ['jean_francois_albenque']
@@ -131,13 +164,13 @@ var njEvents = [
             {
                 title: "Memory layout & Performance en Java",
                 time: '19h30',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract: "<p>En quoi l'agencement des objets mémoire joue t'il sur nos perfs ? Quels leviers/outils avons-nous ? C'est le but de ce talk</p>",
                 speakers: ['jerome_moliere']
             }
         ]
-    },{
+    }, {
         id: '2023_12_07',
         title: "🍸 Soirée de fin d'année 🍸 Podman et Hello Quarkus 3",
         date: new Date(2023, 11, 7), //month begin at 0
@@ -148,37 +181,37 @@ var njEvents = [
             {
                 title: 'Verre d\'accueil 🍸',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'hello',
                 abstract: "<p>C'est bientôt la fin de l'année, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>",
-            },{
+            }, {
                 title: "Podman Desktop: Open Source GUI pour conteneurs et Kubernetes",
                 time: '19h30',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "Les conteneurs sont omniprésents dans le monde actuel du développement logiciel, mais pour les développeurs, cela peut être intimidant, en particulier avec les divergences entre les environnements locaux et de production. <br/>" +
-                "Dans ce talk, nous vous présenterons Podman Desktop qui comble cet écart. Il s'agit d'une interface graphique (GUI) entièrement open-source qui simplifie les workflows de conteneurs et est compatible avec Podman, Lima, Docker, et bien plus encore. Plateforme idéale pour interagir avec les conteneurs, Podman Desktop fournit également une interface utilisateur pour travailler avec vos environnements Kubernetes. Vous pouvez aussi configurer vos clusters locaux (avec MiniKube et KinD). <br>"+
-                "Dans la démo nous verrons comment Podman Desktop permet de faciliter la transition des conteneurs vers les environnements Kubernetes. Vous apprendrez comment Podman Desktop peut être le tremplin qui dynamise vos processus de développement de conteneurs !<br>",
+                    "Dans ce talk, nous vous présenterons Podman Desktop qui comble cet écart. Il s'agit d'une interface graphique (GUI) entièrement open-source qui simplifie les workflows de conteneurs et est compatible avec Podman, Lima, Docker, et bien plus encore. Plateforme idéale pour interagir avec les conteneurs, Podman Desktop fournit également une interface utilisateur pour travailler avec vos environnements Kubernetes. Vous pouvez aussi configurer vos clusters locaux (avec MiniKube et KinD). <br>" +
+                    "Dans la démo nous verrons comment Podman Desktop permet de faciliter la transition des conteneurs vers les environnements Kubernetes. Vous apprendrez comment Podman Desktop peut être le tremplin qui dynamise vos processus de développement de conteneurs !<br>",
                 speakers: ['stevan_le_meur']
-            },{
+            }, {
                 title: "Hello Quarkus 3!",
                 time: '20h00',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract: "Quarkus est une stack pour écrire des applications Java pour le Cloud. En réduisant l’emprunte mémoire et le temps de démarrage, les applications Quarkus permettent en autre d’augmenter la densité de déploiement, le développement d'application serverless en Java, un meilleur comportement dans Kubernetes…<br>" +
-                "La première release publique de Quarkus a été faite en Mars 2019. Nous voilà 4 ans plus tard avec Quarkus 3.x. Entre temps, Quarkus a grandi, son écosystème s’est enrichi. Mais, Quarkus est resté fidèle à ses principes.<br>" + 
-                "Cette présentation rappelle les points fondamentaux de Quarkus (build-time principle, reactive core, container-first...) et explique leur évolution au cours de ces 4 dernières années ainsi que les nouveautés de Quarkus 3.x tels que la nouvelle dev ui, l’intégration d’Hibernate 6, le passage à Jakarta et à Flow, le support des threads virtuels (project loom), les différentes améliorations de l’expérience pour les développeurs, le support des architectures ARM…<br>",
+                    "La première release publique de Quarkus a été faite en Mars 2019. Nous voilà 4 ans plus tard avec Quarkus 3.x. Entre temps, Quarkus a grandi, son écosystème s’est enrichi. Mais, Quarkus est resté fidèle à ses principes.<br>" +
+                    "Cette présentation rappelle les points fondamentaux de Quarkus (build-time principle, reactive core, container-first...) et explique leur évolution au cours de ces 4 dernières années ainsi que les nouveautés de Quarkus 3.x tels que la nouvelle dev ui, l’intégration d’Hibernate 6, le passage à Jakarta et à Flow, le support des threads virtuels (project loom), les différentes améliorations de l’expérience pour les développeurs, le support des architectures ARM…<br>",
                 speakers: ['clement_escoffier']
             },
             {
                 title: 'Petits fours et Cocktail 🍣 🍷',
                 time: '21h',
-                length:'3h',
+                length: '3h',
                 type: 'winter',
                 abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>",
             },
         ]
-    },{
+    }, {
         id: '2023_11_09',
         title: "Azerty, Qwerty, peut-on faire mieux ? // Retourner le cerveau de sa Gameboy",
         date: new Date(2023, 10, 9), //month begin at 0
@@ -189,21 +222,21 @@ var njEvents = [
             {
                 title: "Azerty, Qwerty, peut-on faire mieux ?",
                 time: '19h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract:   `<p>Qwerty, Bépo, dvorak, colemak, workman... autant de dispositions de touches sur les claviers plus ou moins optimisées. Je vous présenterais celle que j'utilise depuis plus d'un an et quels bénéfices j'en ai tiré et les points durs. #mechkeyboard #diy</p>`,
+                abstract: `<p>Qwerty, Bépo, dvorak, colemak, workman... autant de dispositions de touches sur les claviers plus ou moins optimisées. Je vous présenterais celle que j'utilise depuis plus d'un an et quels bénéfices j'en ai tiré et les points durs. #mechkeyboard #diy</p>`,
                 speakers: ['guillaume_membre'],
             },
             {
                 title: "Retourner le cerveau de sa Gameboy et les attraper (vraiment) tous 💪",
                 time: '19h30',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
-                abstract:   `<p>Vous avez 10 ans. Vous êtes assis sous un arbre dans votre jardin, et vous jouez à la Gameboy Pocket. La vie est douce. Soudain, votre meilleur ami débarque de nulle part, sa cartouche de Pokémon Bleu dans la main, et vous crie quelque chose ! Il le jure sur la tête de son chien : il a réussi à attraper Mew. Selon vous, il y a deux explications possibles : votre ami s'est acheté un Action Replay et a triché comme un malpropre, ou il vous joue du pipeau. Et si je vous disais qu'il existait une 3ème explication : votre ami est un génie de l'assembleur. C'est ce que je vous propose de découvrir dans un talk qui sent bon les années 90 et le reverse engineering.</p>`,
+                abstract: `<p>Vous avez 10 ans. Vous êtes assis sous un arbre dans votre jardin, et vous jouez à la Gameboy Pocket. La vie est douce. Soudain, votre meilleur ami débarque de nulle part, sa cartouche de Pokémon Bleu dans la main, et vous crie quelque chose ! Il le jure sur la tête de son chien : il a réussi à attraper Mew. Selon vous, il y a deux explications possibles : votre ami s'est acheté un Action Replay et a triché comme un malpropre, ou il vous joue du pipeau. Et si je vous disais qu'il existait une 3ème explication : votre ami est un génie de l'assembleur. C'est ce que je vous propose de découvrir dans un talk qui sent bon les années 90 et le reverse engineering.</p>`,
                 speakers: ['audren_burlot']
             },
         ]
-    }, 
+    },
     {
         id: '2023_10_10',
         title: "Zookeeper vs KRaft // Kotlin",
@@ -215,9 +248,9 @@ var njEvents = [
             {
                 title: "Zookeeper vs KRaft: une histoire de consensus dans Kafka",
                 time: '19h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract:   `<p>En octobre 2022, Confluent annonçait la dépréciation de Zookeeper dans Kafka et l’avènement de KRaft.</p>
+                abstract: `<p>En octobre 2022, Confluent annonçait la dépréciation de Zookeeper dans Kafka et l’avènement de KRaft.</p>
                              <p>En Mai 2023, au Kafka Summit, Jay Krups (CEO de Confluent), confirmait que KRaft allait devenir la configuration par défaut.</p>
                              <p>Les questions qu'on peut se poser :</p>
                              <p>- Quel problème résout Zookeeper dans Kafka ? Et donc, pourquoi changer ?</p>
@@ -228,13 +261,13 @@ var njEvents = [
             {
                 title: "En production pour la vie avec un backend en Kotlin",
                 time: '19h30',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
-                abstract:   `<p>Dans cette présentation, nous verrons concrètement comment Kotlin permet de produire du code gracieux, maintenable et évolutif.<br/> La présentation abordera également quelques concepts de programmation fonctionnelle, de programmation asynchrone avec les coroutines et même un peu de testabilité.<br/>Le tout agrémenté d'exemples de la vraie vie (via un projet open-source basé sur Spring Boot)</p>`,
+                abstract: `<p>Dans cette présentation, nous verrons concrètement comment Kotlin permet de produire du code gracieux, maintenable et évolutif.<br/> La présentation abordera également quelques concepts de programmation fonctionnelle, de programmation asynchrone avec les coroutines et même un peu de testabilité.<br/>Le tout agrémenté d'exemples de la vraie vie (via un projet open-source basé sur Spring Boot)</p>`,
                 speakers: ['benoit_orihuela']
             },
         ]
-    }, 
+    },
     {
         id: '2023_09_19',
         title: "Soirée : Apache Pulsar, et introduction aux outils de Securité (SAST)",
@@ -246,9 +279,9 @@ var njEvents = [
             {
                 title: "Introduction aux outils de tests de sécurité d'application statique (SAST)",
                 time: '19h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract:   `<p>Le plus tôt vous testez votre application, moins les bugs de sécurité vous coûtera. Alors autant tester directement votre code. Mais avant d'installer le premier outil venue, regardons ensemble ce qu'est exactement un Static Application Security Testing (SAST). Y-a-t'il plusieurs type de SAST? Comment savoir si l'outil est pertinent ?</p>
+                abstract: `<p>Le plus tôt vous testez votre application, moins les bugs de sécurité vous coûtera. Alors autant tester directement votre code. Mais avant d'installer le premier outil venue, regardons ensemble ce qu'est exactement un Static Application Security Testing (SAST). Y-a-t'il plusieurs type de SAST? Comment savoir si l'outil est pertinent ?</p>
                             <p>Nous allons répondre à ces questions pour vous permettre d'envoyer du code en production plus sereinement.</p>
                              `,
                 speakers: ['adrien_pessu'],
@@ -256,9 +289,9 @@ var njEvents = [
             {
                 title: "Apache Pulsar : enfin une alternative à Kafka!",
                 time: '19h30',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
-                abstract:   `<p>Aujourd'hui, quand on pense à créer des applications event-driven et temps réel, les mots qui viennent spontanément sont : RabbitMQ, ActiveMQ ou encore Kafka. Ce sont les solutions qui dominent ce paysage. Mais pour créer des applications événementielles exigeantes, il y a une alternative qui monte : Apache Pulsar.</p>
+                abstract: `<p>Aujourd'hui, quand on pense à créer des applications event-driven et temps réel, les mots qui viennent spontanément sont : RabbitMQ, ActiveMQ ou encore Kafka. Ce sont les solutions qui dominent ce paysage. Mais pour créer des applications événementielles exigeantes, il y a une alternative qui monte : Apache Pulsar.</p>
                             <p>Après un bref rappel des concepts du messaging, vous découvrirez les caractéristiques-clé de Pulsar. Vous apprendrez notamment :
                             <ul>
                             <li>- comment Pulsar permet de dépasser certaines limites qu'on peut rencontrer avec d'autres brokers</li>
@@ -271,7 +304,7 @@ var njEvents = [
                 speakers: ['julien_jakubowski']
             },
         ]
-    }, 
+    },
     {
         id: '2023_06_22',
         title: "API explosives 🧨 // Déployer du Java en serverless c'est possible.",
@@ -283,16 +316,16 @@ var njEvents = [
             {
                 title: 'Développeurs, faites exploser vos APIs 🧨 ',
                 time: '19h00',
-                length:'15 min',
+                length: '15 min',
                 type: 'quickie',
-                abstract: '<p>La “pyramide des tests” est une notion dont tout le monde a déjà entendu au moins une fois. Entre tests unitaires, tests d’intégration ou encore tests de charge, ils sont souvent négligés, par manque de budget, de temps (ou les deux) ou bien par manque de conviction (ou les 3 ?).</p>' + 
+                abstract: '<p>La “pyramide des tests” est une notion dont tout le monde a déjà entendu au moins une fois. Entre tests unitaires, tests d’intégration ou encore tests de charge, ils sont souvent négligés, par manque de budget, de temps (ou les deux) ou bien par manque de conviction (ou les 3 ?).</p>' +
                     "<p>Après vous avoir expliqué notre façon de voir les tests de charge, nous vous montrerons comment nous, développeurs, avons pu concevoir, analyser, exécuter et interpréter des tirs de charge et avec quels outils.</p>",
                 speakers: ['sylvain_nael', 'jean_philippe_baconnais'],
             },
             {
                 title: "Déployer du Java en serverless c'est possible.",
                 time: '19h30',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract: `<p>Les architectures modernes font la part belle micro-services et aux fonctionnalités sans gestion de serveur. Très (trop ?) souvent, les exemples que l'on peut voir utilisent des langages interprétés alors que Java reste toujours un langage fort plébiscité en entreprise. Peut-on donc faire du serverless avec Java ?</p>
                     <p>Dans cette session, je vous présenterai les intérêts des solutions serverless ainsi que les différentes options dont on dispose sur AWS pour y faire tourner une application Java. Enfin, nous regarderons les challenges spécifiques à la plateforme et comment on peut les contourner grâce à certaines nouveautés du langage comme l'API CRaC.
@@ -300,7 +333,7 @@ var njEvents = [
                 speakers: ['damien_metzler']
             },
         ]
-    },    
+    },
     {
         id: '2023_05_09',
         title: "Hands-on Threads virtuels du JDK 19",
@@ -312,7 +345,7 @@ var njEvents = [
             {
                 title: 'Introduction: les Threads virtuels',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'talk',
                 abstract: '<p>Introduction à Loom et aux threads virtuels... puis hands-on/kata</p>',
                 speakers: ['jerome_moliere'],
@@ -320,9 +353,9 @@ var njEvents = [
             {
                 title: 'Hands-on Threads virtuels du JDK 19',
                 time: '19h30',
-                length:'90 min',
+                length: '90 min',
                 type: 'hands-on',
-                abstract: 
+                abstract:
                     "<p>Hands-on pour découvrir par la pratique les threads virtuels sous forme de koans (tests unitaires) autour des nouveautés apportées par cette API</p><p>Venez avec votre machine et le JDK 19 installé, ou partagez les exercices avec votre voisin/voisine.</p>",
                 speakers: ['jerome_moliere']
             },
@@ -339,7 +372,7 @@ var njEvents = [
             {
                 title: 'Web3 ? Demystifions les blockchains et les applications décentralisées !',
                 time: '19h00',
-                length:'40 min',
+                length: '40 min',
                 type: 'talk',
                 abstract: '<p>Les termes Blockchain, proof-of-stake, smart contract, dApp, token, NFT, DAO ou Web3 vous laissent perplexes, vous donnent le vertige ou voire même vous énervent ? Venez découvrir les concepts et les composants structurants qui se cachent derrière tout ça !</p>',
                 speakers: ['raphael_semeteys'],
@@ -347,9 +380,9 @@ var njEvents = [
             {
                 title: 'Mob programming, la véritable approche du développement en équipe',
                 time: '19h45',
-                length:'55 min',
+                length: '55 min',
                 type: 'talk',
-                abstract: 
+                abstract:
                     "<p>Shérif, le manager, est en colère. Il vient de surprendre toute l’équipe de développement autour d’une même machine. Rendez-vous compte ! Après des comparaisons douteuses avec la DDE, il les a bien sermonnés et leur a ordonné de retourner à leur poste de travail immédiatement, un peu de sérieux ! Avec Shérif, la bamboche, c’est terminé !</p>" +
                     "<p>Malheureusement, des Shérif, il en existe encore beaucoup dans les open-spaces de nos DSI. Partager un ordinateur entre plusieurs développeurs, mais pourquoi donc ?</p>" +
                     "<p>Le MOB programming est une pratique s’appuyant sur le Lean et sur Extreme Programming qui consiste à réaliser une tâche, qu’elle soit technique ou non, à plusieurs. Les groomings, planifications et autres réunions de conception, ne serait-ce pas déjà des MOBs ?</p>" +
@@ -369,7 +402,7 @@ var njEvents = [
             {
                 title: 'Retour de la Dev\'Party avec Codingame et les communautés tech nantaise ! ',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'talk',
                 abstract: 'Venez participer à ce tournoi de programmation DevParty !<br/><br/>Sous forme d\'un tournoi "Clash of Code" fourni par la plateforme Codingame, vous affronterez les autres participants tout au long de la soirée sur différentes épreuves de code :<br/><br/>    Fastest : Vous devez terminer le défi aussi vite que possible.<br/>    Shortest : Vous devez écrire le code le plus concis. Prenez votre temps pour parvenir à la solution la plus courte !<br/>    Reverse : Vous devez deviner ce qu\'il y a à faire en observant le jeu de tests fourni.<br/><br/>Chaque épreuve durera entre 5 et 15 min, et vous devrez passer le maximum de tests pour avoir le meilleur score possible et ainsi améliorer votre classement général.<br/><br/>Vous pourrez utiliser le langage de programmation de votre choix : js, java, go, python, et bien d\'autres<br/><br/>Co-organisé avec les communautés tech nantaises, cette soirée sera agrémentée par un buffet, des boissons et bien sûr des lots à gagner.<br/><br/>Il s\'agit d\'un tournoi individuel, où tous les joueurs seront regroupés par arène de 10 joueurs max, et les meilleurs repartiront avec des lots.<br/><br/>N\'oubliez pas votre laptop pour participer !<br/>',
                 speakers: [],
@@ -387,14 +420,14 @@ var njEvents = [
             {
                 title: 'Robotisez les tests de vos microservices',
                 time: '19h00',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
                 abstract: "<p>Pour assurer la fiabilité et le bon fonctionnement de nos microservices chez Nickel, nous écrivons des tests automatisés avec RobotFramework, un outil python et open source.</p><p>Sa syntaxe user-friendly permet de comprendre rapidement l’objet d’un test dès la lecture de son code. Il offre également un gain de temps à nos développeurs pour construire leur jeu de données.</p><p>Nous écrirons ensemble le test d’une API REST pour découvrir RobotFramework, ses concepts, sa syntaxe et ses rapports de tests en sortie.</p><p>Enfin, nous vous présenterons les choix et les outils que nous avons retenus pour obtenir des tests stables et maintenables au quotidien..</p>",
                 speakers: ['remi_picard', 'mohamed_ali_bouine']
-            },{
+            }, {
                 title: "De Java vers Kotlin : codez deux fois plus vite !",
                 time: '19h45',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
                 abstract: "<p>Vous aimez Java, mais pas son aspect verbeux ?</p><p>Vous aimez les try catch mais pas les NullPointerException ?</p><p>Vous en avez assez d'écrire des equals et des hashcode ?</p><p>Qu'à cela ne tienne, un langage peut vous venir en aide : Scala !</p><p>... Ah, non attendez, c'est pas la bonne fiche...</p><br/><p>Donc ! Vous connaissez sans doute Scala et tous les avantages qu'il offre par rapport à Java, mais connaissez-vous Kotlin ? Ce qu'il apporte par rapport à Scala ? Et surtout, pourquoi vous devriez sérieusement considérer un projet avec si vous souhaitez vous simplifier la vie ?</p><br/><p>Je vous propose de vous faire découvrir ce langage au travers de cette présentation, autour de ses avantages et des outils qu'il propose afin d'avoir un projet fiable et simple à maintenir !</p>",
                 speakers: ['yann_huriez']
@@ -412,14 +445,14 @@ var njEvents = [
             {
                 title: 'Advanced TypeScript Patterns',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>Durant ce talk nous verrons ensemble comment les nouveautés introduite depuis TypeScript 4 (Template Literals Types, Recursive Conditional Types etc) peuvent nous aider à rendre notre code plus robuste et expressif.</p>",
                 speakers: ['gregory_houllier']
-            },{
+            }, {
                 title: "Urbaniser un SI pour 10 ans",
                 time: '19h30',
-                length:'90 min',
+                length: '90 min',
                 type: 'talk',
                 abstract: "<p>Un SI, ça doit évoluer en permanence, et si possible, pas en faisant une refonte totale tous les 3 ans. Alors je vous propose de parler de microservices, de Domain-driven design, de déclaratif, de réactif, de chorégraphie et de plein d'autres beaux concepts d'urbanisation qui servent justement à ça : rendre votre SI évolutif, pour que votre prochaine urbanisation dure au moins 10 ans.</p>",
                 speakers: ['christophe_quintard']
@@ -437,17 +470,17 @@ var njEvents = [
             {
                 title: 'Du tooling JS dans mon monorepo polyglot',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>Nous découvrirons comment les nouveaux outils JS (nx / turborepo) peuvent améliorer votre expérience et productivité sur un large monorepo.<br>Puis comment en bénéficier sur d'autres languages.</p>",
                 speakers: ['nicolas_morel']
-            },{
+            }, {
                 title: "Architecture Microservices et cohérence des données : on fait comment pour de vrai ?",
                 time: '19h30',
-                length:'90 min',
+                length: '90 min',
                 type: 'talk',
                 abstract: "<p>Les architectures microservices ont le vent en poupe. Elles présentent de nombreux avantages pour mettre en place les bonnes pratiques DevOps et faire travailler en parallèle des équipes pluridisciplinaires autonomes. Evoluer du monolithe vers les microservices n’est pas un long fleuve tranquille… Les challenges ne manquent pas. L’un d’entre eux, et non des moindres, est la cohérence des données. Un des principes de base est que chaque service possède sa propre base de données. Quand une transaction métier invoque plusieurs services, on ne peut donc plus compter sur les bonnes vieilles transactions ACID des serveurs SQL.</p><br>"
-                + "<p>Quant aux transactions distribuées XA/2PC, oubliez les, elles sont jetées au pilori des mauvaises pratiques depuis bien longtemps ! Une fois ce constat établi, on fait quoi concrètement ? Comment peut-on répondre à cette problématique ? Dans cette présentation, nous verrons comment procéder avec deux approches : les SAGA et les LRA (Long Running Action). Un exemple concret basé sur MicroProfile et le framework Eeventuate Tram vous permettra de les appréhender et de choisir la bonne option pour votre projet Microservices</p><br>",
+                    + "<p>Quant aux transactions distribuées XA/2PC, oubliez les, elles sont jetées au pilori des mauvaises pratiques depuis bien longtemps ! Une fois ce constat établi, on fait quoi concrètement ? Comment peut-on répondre à cette problématique ? Dans cette présentation, nous verrons comment procéder avec deux approches : les SAGA et les LRA (Long Running Action). Un exemple concret basé sur MicroProfile et le framework Eeventuate Tram vous permettra de les appréhender et de choisir la bonne option pour votre projet Microservices</p><br>",
                 speakers: ['jean_francois_james']
             }
         ]
@@ -463,13 +496,13 @@ var njEvents = [
             {
                 title: 'Verre d\'accueil 🍸',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'hello',
                 abstract: "<p>C'est bientôt la fin de l'année, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil offert par Decathlon</p>",
-            },{
+            }, {
                 title: "Java 19 et au-delà : programmation orientée données et programmation asynchrone",
                 time: '19h30',
-                length:'90 min',
+                length: '90 min',
                 type: 'talk',
                 abstract: "Nous allons parler des deux sujets brûlants actuellement en développement en Java : la Programmation Orientée Données (Data Oriented Programming en anglais) et la programmation asynchrone.\n<br>" +
                     "En programmation centrée sur les données, les données sont au premier plan et le code qui les traite au second. En programmation objet, ce qui est au premier plan, ce sont les API et les implémentations. Nous allons donc expliquer ces concepts, l'intérêt de les introduire en Java, et les nouveaux patterns de code que cela apporte. Nous verrons ce que le projet Amber a déjà livré dans le JDK 19 pour implémenter ces concepts, en version finale et en pré-version et ce qui est prévu pour les versions suivantes.\n<br>" +
@@ -479,12 +512,12 @@ var njEvents = [
             {
                 title: 'Petits fours et Cocktail 🍣 🍷',
                 time: '21h',
-                length:'3h',
+                length: '3h',
                 type: 'winter',
                 abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours offerts par Decathlon 😋</p>",
             },
         ]
-    },{
+    }, {
         id: '2022_11_15',
         title: "Les post-mortems && Java dans Kubernetes",
         date: new Date(2022, 10, 15), //month begin at 0
@@ -495,21 +528,21 @@ var njEvents = [
             {
                 title: "Les post-mortems ou comment sortir heureux d’un carnage",
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "Une fonctionnalité, un projet, une réunion, ça ne se passe pas toujours bien. Loin de là. C’est parfois même un carnage. 😱 Que fait-on dans ces cas-là ? Ça s’est terminé dans les larmes, le sang et la sueur mais qu’importe ! On met tout ça sous le tapis, c’est fini, on en parle plus. 🙈<br><br>Pour que cela recommence encore la prochaine fois ? Pour que tout le monde en souffre sans oser en parler ? Pas la peine !<br><br>Alors on prend notre courage à deux mains, et on organise un POST-MORTEM. Mais qu'est-ce que c'est ? À quoi cela sert-il ? Et comment le mettre en place ? 🤔<br><br></br></br>Vous découvrirez dans ce talk les différentes étapes d'un post-mortem réussi et comment l'animer au mieux pour que chacun et chacune puisse être heureux.se après un tel carnage, sans pour autant être psychopathe ! 😌",
                 speakers: ['lise_quesnel']
-            }, 
+            },
             {
                 title: "Java dans Kubernetes pour ceux qui ne connaissent pas Kubernetes",
                 time: '19h30',
-                length:'90 min',
+                length: '90 min',
                 type: 'talk',
                 abstract: "Kubernetes, ca à l'air vraiment sympa, pour le scaling, la reproductibilité et tout et tout ... <br>Tout le monde en parle, et en plus c'est hype !<br> Alors, c'est le moment de passer dans le cloud et de migrer nos applications Java vers Kubernetes !<br>Oui mais ... enfin ... il y'a trop de fichiers YAML à maintenir et nous détestons le YAML ! Et en plus de maintenir l'application Java, il faut<ul><li>écrire et maintenir des Dockerfiles</li><li>écrire et maintenir plein de fichiers YAML</li><li>configurer et gérer la CI/CD pour le déploiement</li><li>etc.</li></ul>Et oui, pendant ce talk, nous allons souffrir 👿 ... mais je vais vous tenir par la main et vous guider. Et c'est promis, vous sortirez de ce talk en sachant migrer vos applications Java dans Kubernetes en seulement 5 lignes de XML 🤣 ... avec le projet JKube.",
                 speakers: ['sun_tan']
             }
         ]
-    },{
+    }, {
         id: '2022_10_04',
         title: "Micronaut Test Resources",
         date: new Date(2022, 9, 4), //month begin at 0
@@ -520,23 +553,23 @@ var njEvents = [
             {
                 title: "REX Bit.dev : gadget ou indispensable ?",
                 time: '19h00',
-                length:'15 min',
+                length: '15 min',
                 type: 'quickie',
                 abstract: "C’est l’histoire d’une équipe qui part à la recherche d’un outil pour leur simplifier la vie et le quotidien pour leur développement front. Une solution s’offre à nous, Bit.dev, qui nous promet du Component-Driven-Development sans le moindre effort. Mais qu’en est-it ? " +
-                 "<br><br>Je vous partagerais mon expérience, et celle de mes collègues. Pourquoi on a fait ce choix, comment on a pris en main et mis en place cet outil, son utilisation au quotidien et surtout ce qu’on en a tiré.",
+                    "<br><br>Je vous partagerais mon expérience, et celle de mes collègues. Pourquoi on a fait ce choix, comment on a pris en main et mis en place cet outil, son utilisation au quotidien et surtout ce qu’on en a tiré.",
                 speakers: ['lucille_moise']
-            }, 
+            },
             {
                 title: "Micronaut Test Resources",
                 time: '19h30',
-                length:'90 min',
+                length: '90 min',
                 type: 'talk',
                 abstract: "Tester vos microservices sans peine avec Micronaut Test Resources Micronaut est un framework full-stack moderne, basé sur la JVM, permettant de construire des microservices ou applications serverless facilement." +
-                "<br/>De part son emphase sur la compilation ahead-of-time, il s'intègre particulièrement bien avec GraalVM, poussant les limites de ce qu'on peut faire avec le langage Java." +
-                "<br/>Cependant, le développement d'applications modernes est aussi synonyme de multiples intégrations qui sont parfois difficiles à configurer. Par exemple, votre application peut avoir besoin d'une base de données, d'un serveur Kafka, d'un broker MQTT ou autre. Micronaut Test Resources permet de grandement simplifier le développement de telles applications: sans aucune configuration, il est capable de démarrer des conteneurs de test pendant le développement ou les tests, réduisant considérablement l'effort nécessaire pour obtenir une excellente productivité développeur."+
-                "<br/>Dans cette session, nous montrerons les bases d'une application Micronaut et comment il s'intègre, en partculier, avec les outils de builds et Testcontainers." +
-                "<br/>Micronaut Test Resources est aussi un framework extensible, rendant relativement simple l'ajout de vos propres ressources de test: il est par exemple possible d'exposer un conteneur Docker avec quelques lignes de configuration. En dernier recours, il est toujours possible d'implémenter vos propres ressources de test." +
-                "<br/>Enfin, il est intéressant de savoir que Micronaut Test Resources est conçu de façon à ce que les ressources de test puissent être partagées entre différents projets, même s'ils utilisent des outils de build différent ! Cerise sur le gâteau, nous montrerons comment les images natives peuvent bénéficier de ce mécanisme.",
+                    "<br/>De part son emphase sur la compilation ahead-of-time, il s'intègre particulièrement bien avec GraalVM, poussant les limites de ce qu'on peut faire avec le langage Java." +
+                    "<br/>Cependant, le développement d'applications modernes est aussi synonyme de multiples intégrations qui sont parfois difficiles à configurer. Par exemple, votre application peut avoir besoin d'une base de données, d'un serveur Kafka, d'un broker MQTT ou autre. Micronaut Test Resources permet de grandement simplifier le développement de telles applications: sans aucune configuration, il est capable de démarrer des conteneurs de test pendant le développement ou les tests, réduisant considérablement l'effort nécessaire pour obtenir une excellente productivité développeur." +
+                    "<br/>Dans cette session, nous montrerons les bases d'une application Micronaut et comment il s'intègre, en partculier, avec les outils de builds et Testcontainers." +
+                    "<br/>Micronaut Test Resources est aussi un framework extensible, rendant relativement simple l'ajout de vos propres ressources de test: il est par exemple possible d'exposer un conteneur Docker avec quelques lignes de configuration. En dernier recours, il est toujours possible d'implémenter vos propres ressources de test." +
+                    "<br/>Enfin, il est intéressant de savoir que Micronaut Test Resources est conçu de façon à ce que les ressources de test puissent être partagées entre différents projets, même s'ils utilisent des outils de build différent ! Cerise sur le gâteau, nous montrerons comment les images natives peuvent bénéficier de ce mécanisme.",
                 speakers: ['cedric_champeau']
             }
         ]
@@ -552,22 +585,22 @@ var njEvents = [
             {
                 title: "Copilot : L’intelligence artificielle au service des développeurs",
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "Amis développeurs, vous avez besoin :" +
-                "<ul>" +
-                "<li>d’écrire des tests pour vos applications Web/JavaScript ?</li>" +
-                "<li>de compléter une classe Java d’accès aux données ?</li>" +
-                "<li>d’ajouter des nouveaux services à votre déploiement containerisé ?</li>" +
-                "</ul>" +
-                "Tapez votre code, commentez votre besoin, et laissez Copilot vous assister et augmenter votre productivité! GitHub Copilot est un outil qui s’appuie sur l’intelligence artificielle pour vous aider à coder avec des « suggestions/autocompletions » très riches.<br>" +
-                "Mais attention: Copilot, l’essayer c’est adopter!",
+                    "<ul>" +
+                    "<li>d’écrire des tests pour vos applications Web/JavaScript ?</li>" +
+                    "<li>de compléter une classe Java d’accès aux données ?</li>" +
+                    "<li>d’ajouter des nouveaux services à votre déploiement containerisé ?</li>" +
+                    "</ul>" +
+                    "Tapez votre code, commentez votre besoin, et laissez Copilot vous assister et augmenter votre productivité! GitHub Copilot est un outil qui s’appuie sur l’intelligence artificielle pour vous aider à coder avec des « suggestions/autocompletions » très riches.<br>" +
+                    "Mais attention: Copilot, l’essayer c’est adopter!",
                 speakers: ['tugdual_grall']
             },
             {
                 title: "A la découverte de GraalVM",
                 time: '19h30',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract:
                     "<p>Débit élevés, temps de démarrage supersonique , utilisation rationnelle des resources Mémoire et CPU, Prise en charge native de plusieurs langages de programmation, Compilation en binaire exécutable des programmes Java, réduction des côuts d\'infrastructure dans le cloud public/privé, sont peut être des choses dont vous avez entendu parlé au sujet de Oracle GraalVM, Il y’a beaucoup de buzz autour de la nouvelle coqueluche de l’écosystème Java, mais qu’est ce que c’est exactement?</p>" +
@@ -592,14 +625,14 @@ var njEvents = [
             {
                 title: 'Verre d\'accueil 🍸',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'hello',
                 abstract: "<p>C'est bientôt l'été, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>"
             },
             {
                 title: "Glowroot : un APM à portée des devs",
                 time: '19h30',
-                length:'30 min',
+                length: '30 min',
                 type: 'talk',
                 abstract: "Une présentation rapide des APM (Application Performance Management), et en particulier de Glowroot, un APM Open Source, gratuit et très simple à mettre en oeuvre pour commencer à monitorer ses applications au plus tôt",
                 speakers: ['pierre_clainchard']
@@ -607,20 +640,20 @@ var njEvents = [
             {
                 title: 'AOT and Native with Spring Boot 3.0',
                 time: '20h00',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: '<p>Après une phase d\'expérimentation avec le projet Spring Native, l\'équipe Spring contribue le support Ahead of Time (AOT) à Spring.</p>' +
-                '<p>Cette nouvelle fonctionnalité va permettre un support des applications natives avec GraalVM mais aussi améliorer l\'efficacité des applications JVM classiques.</p>' +
-                '<p>Pendant cette présentation, Brian va détailler l\'état de l\'art du support AOT dans Spring Framework 6.0 et Spring Boot 3.0:</p>' +
-                '- l\'architecture du moteur AOT</br>' +
-                '- comment cette nouvelle infrastructure peut-être utilisée par des librairies</br>' +
-                '- l\'expérience développeur</br>',
+                    '<p>Cette nouvelle fonctionnalité va permettre un support des applications natives avec GraalVM mais aussi améliorer l\'efficacité des applications JVM classiques.</p>' +
+                    '<p>Pendant cette présentation, Brian va détailler l\'état de l\'art du support AOT dans Spring Framework 6.0 et Spring Boot 3.0:</p>' +
+                    '- l\'architecture du moteur AOT</br>' +
+                    '- comment cette nouvelle infrastructure peut-être utilisée par des librairies</br>' +
+                    '- l\'expérience développeur</br>',
                 speakers: ['brian_clozel']
             },
             {
                 title: 'Petits fours et Cocktail 🍣 🍷',
                 time: '21h00',
-                length:'3h',
+                length: '3h',
                 type: 'summer',
                 abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>"
             },
@@ -637,7 +670,7 @@ var njEvents = [
             {
                 title: "Concevoir une application réactive avec Spring ",
                 time: '19h00',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract: "Présentation des concepts de la programmation réactive avec Spring boot.\n" +
                     "<br>Au programme :\n<ul>" +
@@ -650,7 +683,7 @@ var njEvents = [
             {
                 title: "Une application métier durable en hexagone et en Spring Boot",
                 time: '20h00',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract:
                     "Nos logiciels suivent les évolutions des besoins de leurs utilisateurs. " +
@@ -671,27 +704,27 @@ var njEvents = [
             {
                 title: "Préparation mentale",
                 time: '19h00',
-                length:'25 min',
+                length: '25 min',
                 type: 'quickie',
-                abstract: 
-                "<p>Introduire les principes de base de la préparation mentale dans le monde de l'entreprise, et transmettre le bon équilibre entre le désir de réussir et le plaisir d'apprendre.</p>",
+                abstract:
+                    "<p>Introduire les principes de base de la préparation mentale dans le monde de l'entreprise, et transmettre le bon équilibre entre le désir de réussir et le plaisir d'apprendre.</p>",
                 speakers: ['julien_deville']
             }, {
                 title: "Notre cerveau est \"null\"! Quelques biais cognitifs appliqués au métier de dev...",
                 time: '19h30',
-                length:'50 min',
+                length: '50 min',
                 type: 'talk',
-                abstract: 
-                "<p>Pourquoi est-ce que nos chiffrages sont si souvent à côté de la plaque? </br>" +
-                "Pourquoi le besoin métier est-il à ce point systématiquement mal cerné? </br>" +
-                "Est-ce vraiment pertinent d'écrire des tests avant de coder?  </br>" +
-                "Autant de questions dont la réponse peut se trouver dans l'étude de nos biais cognitifs!</p>" +
-                "<p>J'aurais d'ailleurs pu pompeusement titrer ce talk: Que nous apprennent les neurosciences au sujet de la vie des projets. </br>" +
-                "Mais on ne parlera pas ici de neurosciences, juste de quelques bases de psychologie sociale ou cognitive adaptée au monde du développement logiciel. En prime, et en toute gratuité, vous repartirez avec des armes, des outils concrets pour mieux combattre des travers que nous avons tous !</p>",
+                abstract:
+                    "<p>Pourquoi est-ce que nos chiffrages sont si souvent à côté de la plaque? </br>" +
+                    "Pourquoi le besoin métier est-il à ce point systématiquement mal cerné? </br>" +
+                    "Est-ce vraiment pertinent d'écrire des tests avant de coder?  </br>" +
+                    "Autant de questions dont la réponse peut se trouver dans l'étude de nos biais cognitifs!</p>" +
+                    "<p>J'aurais d'ailleurs pu pompeusement titrer ce talk: Que nous apprennent les neurosciences au sujet de la vie des projets. </br>" +
+                    "Mais on ne parlera pas ici de neurosciences, juste de quelques bases de psychologie sociale ou cognitive adaptée au monde du développement logiciel. En prime, et en toute gratuité, vous repartirez avec des armes, des outils concrets pour mieux combattre des travers que nous avons tous !</p>",
                 speakers: ['sylvain_coudert']
             }
         ]
-    },    
+    },
     {
         id: '2022_04_08',
         title: "La Nuit des Meetups",
@@ -703,22 +736,22 @@ var njEvents = [
             {
                 title: "Programme sur le site de l'évènement",
                 time: '18h00',
-                length:'4h',
+                length: '4h',
                 type: 'talk',
-                abstract: 
-                "<p>Le Nantes JUG est heureux de participer à la Nuit des Meetups avec pleins de talks au programme !!</p>" +
-                "<p>👉 Les <a href=\"https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/\" target=\"_blank\">inscriptions se font sur la page de l'évènement</a>.</p>" +
-                "<p>Vous connaissez la Nuit des Chercheur·euse·s 🧬ou bien encore celle des Musées 🏛? Vous voulez vous abreuver de contenus techniques dans une ambiance sympathique ?</p>" +
-                "<p>Nous vous proposons de découvrir un nouvel évènement à destination des communautés tech : la première Nuit des meetups de Nantes !</p>" +
-                "<p>Lors de cette soirée (tardive), nous inviterons les organisateurs de meetups tech à proposer de courtes conférences, expertes ou vulgarisées, à destination de toutes et tous.</p>" +
-                "<p>Seront présent·e·s : Software Crafters, Cocoaheads Nantes, GDG Nantes Android, Blockchain et société, Nantes Numerique Responsable, Craft Your product, Agile Nantes, Human Talks, GDG Nantes, Nantes Devops, Nantes JUG, NoCode…</p>" +
-                "<p>Ce sera également l’occasion de mixer les contenus, d’assister à des conférences que vous n’avez peut être pas l’habitude de voir et de proposer aux entreprises qui souhaitent accueillir les meetups à l’année de se présenter de manière conviviale.</p>" +
-                "<p><i>[<a href=\"https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/\" target=\"_blank\">Programme en cours de création</a>]<i></p>" +
-                "<p>Vous pouvez vous pré-inscrire dès maintenant, l’ensemble du programme sera disponible en mars.</p>",
+                abstract:
+                    "<p>Le Nantes JUG est heureux de participer à la Nuit des Meetups avec pleins de talks au programme !!</p>" +
+                    "<p>👉 Les <a href=\"https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/\" target=\"_blank\">inscriptions se font sur la page de l'évènement</a>.</p>" +
+                    "<p>Vous connaissez la Nuit des Chercheur·euse·s 🧬ou bien encore celle des Musées 🏛? Vous voulez vous abreuver de contenus techniques dans une ambiance sympathique ?</p>" +
+                    "<p>Nous vous proposons de découvrir un nouvel évènement à destination des communautés tech : la première Nuit des meetups de Nantes !</p>" +
+                    "<p>Lors de cette soirée (tardive), nous inviterons les organisateurs de meetups tech à proposer de courtes conférences, expertes ou vulgarisées, à destination de toutes et tous.</p>" +
+                    "<p>Seront présent·e·s : Software Crafters, Cocoaheads Nantes, GDG Nantes Android, Blockchain et société, Nantes Numerique Responsable, Craft Your product, Agile Nantes, Human Talks, GDG Nantes, Nantes Devops, Nantes JUG, NoCode…</p>" +
+                    "<p>Ce sera également l’occasion de mixer les contenus, d’assister à des conférences que vous n’avez peut être pas l’habitude de voir et de proposer aux entreprises qui souhaitent accueillir les meetups à l’année de se présenter de manière conviviale.</p>" +
+                    "<p><i>[<a href=\"https://www.lacantine.co/agenda/event/08-04-2022-lanuitdesmeetups/\" target=\"_blank\">Programme en cours de création</a>]<i></p>" +
+                    "<p>Vous pouvez vous pré-inscrire dès maintenant, l’ensemble du programme sera disponible en mars.</p>",
                 speakers: []
             }
         ]
-    }, 
+    },
     {
         id: '2022_03_29',
         title: "Katas d'architecture // Checklist pour concevoir une application dans le cloud",
@@ -730,32 +763,32 @@ var njEvents = [
             {
                 title: "Améliorer les compétences et les infrastructures avec les katas d'architecture",
                 time: '19h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract: 
-                "<p></p>",
+                abstract:
+                    "<p></p>",
                 speakers: ['alexandre_touret']
             }, {
                 title: "Checklist pour concevoir une application dans le cloud : 10 conseils à l'attention des concepteurs et architectes",
                 time: '19h30',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
-                abstract: 
-                "<p>Kubernetes et les technologies cloud sont aujourd'hui les standards pour déployer des applications de toutes sortes dans le cloud: api, batchs, microservices et même des monolithes!" +
-                "Au delà de la hype - et des trolls, ils apportent des solutions à beaucoup de problèmes mais aussi une grande complexité.</p>" +
-                "<p>Il peut donc être très difficile pour les développeurs et concepteurs d'identifier les contraintes de telles architectures. </p>" +
-                "<p>Dans cette présentation, vous (re)découvrirez dix astuces et conseils que j'ai pu mettre en pratique et qui m'ont aidé dans mes derniers projets.</p>" +
-                "<p>Ces derniers traiteront :" +
-                "<ul>"+
-                "<li>de la pertinence du cloud dans vos projets et organisations</li>" +
-                "<li>du choix des solutions technologiques</li>" +
-                "<li>des contraintes de conception liées à K8S</li>" +
-                "<li>du développement</li>" +
-                "<li>de la gestion des livraisons au travers de la CI</li>" +
-                "<li>de l’observabilité </li>" +
-                "<li>et plus encore !</li>" +
-                "</ul>"+
-                "</p>",
+                abstract:
+                    "<p>Kubernetes et les technologies cloud sont aujourd'hui les standards pour déployer des applications de toutes sortes dans le cloud: api, batchs, microservices et même des monolithes!" +
+                    "Au delà de la hype - et des trolls, ils apportent des solutions à beaucoup de problèmes mais aussi une grande complexité.</p>" +
+                    "<p>Il peut donc être très difficile pour les développeurs et concepteurs d'identifier les contraintes de telles architectures. </p>" +
+                    "<p>Dans cette présentation, vous (re)découvrirez dix astuces et conseils que j'ai pu mettre en pratique et qui m'ont aidé dans mes derniers projets.</p>" +
+                    "<p>Ces derniers traiteront :" +
+                    "<ul>" +
+                    "<li>de la pertinence du cloud dans vos projets et organisations</li>" +
+                    "<li>du choix des solutions technologiques</li>" +
+                    "<li>des contraintes de conception liées à K8S</li>" +
+                    "<li>du développement</li>" +
+                    "<li>de la gestion des livraisons au travers de la CI</li>" +
+                    "<li>de l’observabilité </li>" +
+                    "<li>et plus encore !</li>" +
+                    "</ul>" +
+                    "</p>",
                 speakers: ['alexandre_touret']
             }
         ]
@@ -771,32 +804,32 @@ var njEvents = [
             {
                 title: "Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid",
                 time: '19h15',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract: 
-                "<p>REX sur l'écriture d'un premier livre : comment s'est arrivé ? Pourquoi j'ai accepté ? Par quelles étapes de dépression suis-je passée ?<br>" +
-                "Je vais parler des relations avec l'équipe éditoriale, des délais, des étapes de la réalisation d'un livre du jour 1 avec les premières lignes jusqu'à la livraison.<br>" +
-                "Je ne m'arrête pas là, on va parler de marketing, publicité, impression, sortie officielle du livre et pourquoi je ne referai plus ça.</p>",
+                abstract:
+                    "<p>REX sur l'écriture d'un premier livre : comment s'est arrivé ? Pourquoi j'ai accepté ? Par quelles étapes de dépression suis-je passée ?<br>" +
+                    "Je vais parler des relations avec l'équipe éditoriale, des délais, des étapes de la réalisation d'un livre du jour 1 avec les premières lignes jusqu'à la livraison.<br>" +
+                    "Je ne m'arrête pas là, on va parler de marketing, publicité, impression, sortie officielle du livre et pourquoi je ne referai plus ça.</p>",
                 speakers: ['agnes_maury']
             }, {
                 title: "Qui a dit qu’il fallait avoir un JDK sur son poste pour développer une application Java ? Prenez votre IDE Cloud GitPod et le tour est joué 💪",
                 time: '19h40',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract: 
-                "<p>Quand on arrive sur des projets, la configuration de votre poste est une étape obligatoire : avoir la bonne version du JDK, de Maven ou de librairies. Le tout avec quelques Mo / Go qui s’accumulent sur votre disque dur.</p>" +
-                "<p>Avec l’arrivée des IDE Cloud tels que GitPod, la configuration nécessaire sur un projet est mutualisée sur le cloud et cette étape qui pouvait devenir une réelle galère n’est plus qu’un lointain souvenir !</br>" +
-                "Après vous avoir présenté en quelques mots GitPod, je vous ferai une démonstration de ce qui est possible pour un dev Java.</p>",
+                abstract:
+                    "<p>Quand on arrive sur des projets, la configuration de votre poste est une étape obligatoire : avoir la bonne version du JDK, de Maven ou de librairies. Le tout avec quelques Mo / Go qui s’accumulent sur votre disque dur.</p>" +
+                    "<p>Avec l’arrivée des IDE Cloud tels que GitPod, la configuration nécessaire sur un projet est mutualisée sur le cloud et cette étape qui pouvait devenir une réelle galère n’est plus qu’un lointain souvenir !</br>" +
+                    "Après vous avoir présenté en quelques mots GitPod, je vous ferai une démonstration de ce qui est possible pour un dev Java.</p>",
                 speakers: ['jean_philippe_baconnais']
             }, {
                 title: "L'immutabilité en Java quand on a la flemme",
                 time: '20h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
-                abstract: 
-                "<p>L'immutabilité c'est cool ! L'immutabilité c'est tendance ! Mais l'immutabilité, c'est quoi au fait ?</br>" + 
-                "En principe, c'est garantir qu'une structure de donnée ne puisse être modifiée et donc muter. Dans la plupart des langages fonctionnelles comme Haskell, c'est même la norme. Mais en Java ... c'est pas vraiment ça. Il y a peut-être les records qui sont apparus en preview sur la JDK14, c'est vrai, mais ça reste très limité et peu flexible.</br>" + 
-                "Heureusement, il est possible de s'arranger à rendre Java immutable au prix de pas mal d'effort. Mais quand on a la flemme ? ... Comment faire ? ...</p>",
+                abstract:
+                    "<p>L'immutabilité c'est cool ! L'immutabilité c'est tendance ! Mais l'immutabilité, c'est quoi au fait ?</br>" +
+                    "En principe, c'est garantir qu'une structure de donnée ne puisse être modifiée et donc muter. Dans la plupart des langages fonctionnelles comme Haskell, c'est même la norme. Mais en Java ... c'est pas vraiment ça. Il y a peut-être les records qui sont apparus en preview sur la JDK14, c'est vrai, mais ça reste très limité et peu flexible.</br>" +
+                    "Heureusement, il est possible de s'arranger à rendre Java immutable au prix de pas mal d'effort. Mais quand on a la flemme ? ... Comment faire ? ...</p>",
                 speakers: ['laurent_delemotte']
             }
         ]
@@ -812,27 +845,27 @@ var njEvents = [
             {
                 title: "Approche \"contract-first\" avec OpenApi Generator",
                 time: '19h00',
-                length:'35 min',
+                length: '35 min',
                 type: 'talk',
-                abstract: 
-                "<p>L'API c'est la UI du développeur backend. Trop souvent on se contente d'une documentation générée à la fin. Pourquoi ne pas la placer au premier plan ?</p>" + 
-                "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
+                abstract:
+                    "<p>L'API c'est la UI du développeur backend. Trop souvent on se contente d'une documentation générée à la fin. Pourquoi ne pas la placer au premier plan ?</p>" +
+                    "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
                 speakers: ['thibault_duperron']
             }, {
                 title: "10 leçons sur les 10 plus grosses fuites de données",
                 time: '19h40',
-                length:'35 min',
+                length: '35 min',
                 type: 'talk',
-                abstract: 
-                "<p>Sony, Über, Yahoo, Adult Friends finder, ces noms vous disent quelque chose ?</br>" + 
-                "Vous utilisez peut-être les services de ses entreprises.</br>" + 
-                "Elles ont aussi un point commun, elles ont subi une fuite de leurs données utilisateurs.</br>" + 
-                "Comment les hackers s’y sont pris ? et surtout Quelles leçons peut-on en tirer pour le développement de nos applications ?</br></p>" + 
-                "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
+                abstract:
+                    "<p>Sony, Über, Yahoo, Adult Friends finder, ces noms vous disent quelque chose ?</br>" +
+                    "Vous utilisez peut-être les services de ses entreprises.</br>" +
+                    "Elles ont aussi un point commun, elles ont subi une fuite de leurs données utilisateurs.</br>" +
+                    "Comment les hackers s’y sont pris ? et surtout Quelles leçons peut-on en tirer pour le développement de nos applications ?</br></p>" +
+                    "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire (ou vaccinal) est obligatoire. ⚠⚠⚠</b></p>",
                 speakers: ['adrien_pessu']
             }
         ]
-    }, 
+    },
     {
         id: '2021_12_01',
         title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
@@ -844,16 +877,16 @@ var njEvents = [
             {
                 title: "Spot d'AWS : penser son archi pour laisser tomber les serveurs",
                 time: '19h00',
-                length:'90 min',
+                length: '90 min',
                 type: 'talk',
-                abstract: 
-                "<p>Introduction aux instances spot AWS pour faire des économies et améliorer la résilience de ses applications.</p>" +
-                "<p>Depuis plusieurs années, AWS propose d'utiliser des machines SPOT, des VMs bradées mais qui peuvent vous être retirées à tout moment. Découvrez comment Sparklane a pensé son architecture résiliante et son outillage DevOps pour profiter au maximum de ce type de machine et ainsi réduire considérablement ses coûts de hosting.</p>" + 
-                "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire est obligatoire. ⚠⚠⚠</b></p>",
+                abstract:
+                    "<p>Introduction aux instances spot AWS pour faire des économies et améliorer la résilience de ses applications.</p>" +
+                    "<p>Depuis plusieurs années, AWS propose d'utiliser des machines SPOT, des VMs bradées mais qui peuvent vous être retirées à tout moment. Découvrez comment Sparklane a pensé son architecture résiliante et son outillage DevOps pour profiter au maximum de ce type de machine et ainsi réduire considérablement ses coûts de hosting.</p>" +
+                    "<p><b>⚠⚠⚠ La présentation d'un pass sanitaire est obligatoire. ⚠⚠⚠</b></p>",
                 speakers: ['thomas_brosillon', 'thomas_rossignol']
             }
         ]
-    }, 
+    },
     {
         id: '2021_09_16',
         title: "Décollage de microservices Micronaut en Java dans les nuages",
@@ -865,17 +898,17 @@ var njEvents = [
             {
                 title: "Décollage de microservices Micronaut en Java dans les nuages",
                 time: '18h15',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
-                abstract: 
-                "<p>Au lieu de passer trop de temps sur de l'infra, prenez avantage des solutions serverless. Focalisez vous sur votre code Micronaut, et déployer le rapidement sous forme de fonction, d'application, ou dans un conteneur, sur Google cloud Platform.</p>" +
-                "<p>Dans cette session, vous découvrirez les choix offerts par Google Cloud pour déployer des applications Micronaut. Avec Micronaut Launch, c'est d'autant plus facile pour démarrer un nouveau projet à partir d'un template, et après quelques modifications, d'être capable de déployer en production dans la minute qui suit.</p>" +
-                "<p>Grâce à ses performances, sa faible consommation mémoire, la possibilité de créer des images natives, Micronaut démarre au quart de tour, et est particulièrement bien adapté pour le cloud et les solutions serverless.</p>"+
-                '<p>Cette session "Java & Google Cloud" est co-organisée avec le <a href="https://gdg.community.dev/gdg-cloud-nantes/">GDG Cloud Nantes</a>.</p>',
+                abstract:
+                    "<p>Au lieu de passer trop de temps sur de l'infra, prenez avantage des solutions serverless. Focalisez vous sur votre code Micronaut, et déployer le rapidement sous forme de fonction, d'application, ou dans un conteneur, sur Google cloud Platform.</p>" +
+                    "<p>Dans cette session, vous découvrirez les choix offerts par Google Cloud pour déployer des applications Micronaut. Avec Micronaut Launch, c'est d'autant plus facile pour démarrer un nouveau projet à partir d'un template, et après quelques modifications, d'être capable de déployer en production dans la minute qui suit.</p>" +
+                    "<p>Grâce à ses performances, sa faible consommation mémoire, la possibilité de créer des images natives, Micronaut démarre au quart de tour, et est particulièrement bien adapté pour le cloud et les solutions serverless.</p>" +
+                    '<p>Cette session "Java & Google Cloud" est co-organisée avec le <a href="https://gdg.community.dev/gdg-cloud-nantes/">GDG Cloud Nantes</a>.</p>',
                 speakers: ['guillaume_laforge']
             }
         ]
-    }, 
+    },
     {
         id: '2020_12_16',
         title: "Comment votre application peut être une bonne citoyenne du Cloud (Virtuel)",
@@ -887,14 +920,14 @@ var njEvents = [
             {
                 title: "Comment votre application peut être une bonne citoyenne du Cloud",
                 time: '19h00',
-                length:'60 min',
+                length: '60 min',
                 type: 'talk',
                 abstract: "<p>Venez découvrir dans cette session 100% live coding et interactive comment Java revient en force dans le monde du Cloud.</p>"
-                + "<p>On verra comment des nouvelles stacks Java peuvent s'intégrer et tirer profit des nouvelles contraintes imposées par le monde merveilleux du cloud</p>",
+                    + "<p>On verra comment des nouvelles stacks Java peuvent s'intégrer et tirer profit des nouvelles contraintes imposées par le monde merveilleux du cloud</p>",
                 speakers: ['sebastien_blanc']
             }
         ]
-    },  {
+    }, {
         id: '2020_10_26',
         title: "Des petites voitures sur AWS et du scripting en Java avec jbang",
         date: new Date(2020, 9, 26), //month begin at 0
@@ -905,29 +938,29 @@ var njEvents = [
             {
                 title: "Comment j'ai fini par déployer à 2h du matin une application sur AWS pour piloter des voitures électriques avec un vélo d'appartement.",
                 time: '19h15h',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
-                abstract: "<p>- J'ai une super idée, mais je vais avoir besoin d'aide, parce que moi et le code...<br>"+
-                "ha ?<br>"+
-                "- Je voudrais faire tourner des voitures électriques sur un circuit en faisant pédaler des gens pendant 24h<br>"+
-                "...<br>"+
-                "- Tu vois comment faire ?<br>"+
-                "- Alors... c'est pas dur... Il suffit de deux Arduino, d'un Raspberry, quelques capteurs et c'est parti...</p>"+
-                "<p>Et voilà à peu près comment en 2 minutes j’ai été convaincu de suivre un hurluberlu dans un projet franchement rigolo mêlant de nombreuses technos.</p>"+
-                "<p>Et cerise sur le gâteau, les aléas techniques m’ont conduit jusqu’à déployer la solution sur AWS depuis une salle des fêtes en rase campagne un jour de tempête avec pour seule connexion mon téléphone…</p>",
+                abstract: "<p>- J'ai une super idée, mais je vais avoir besoin d'aide, parce que moi et le code...<br>" +
+                    "ha ?<br>" +
+                    "- Je voudrais faire tourner des voitures électriques sur un circuit en faisant pédaler des gens pendant 24h<br>" +
+                    "...<br>" +
+                    "- Tu vois comment faire ?<br>" +
+                    "- Alors... c'est pas dur... Il suffit de deux Arduino, d'un Raspberry, quelques capteurs et c'est parti...</p>" +
+                    "<p>Et voilà à peu près comment en 2 minutes j’ai été convaincu de suivre un hurluberlu dans un projet franchement rigolo mêlant de nombreuses technos.</p>" +
+                    "<p>Et cerise sur le gâteau, les aléas techniques m’ont conduit jusqu’à déployer la solution sur AWS depuis une salle des fêtes en rase campagne un jour de tempête avec pour seule connexion mon téléphone…</p>",
                 speakers: ['nicolas_giraud']
             },
             {
                 title: "Scripting en Java avec jbang",
                 time: '20h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>Si vous aussi vous maîtrisez Java mais pas le bash, et si vous aussi vous aimez le support d'un IDE pour faire un script, alors venez découvrir le pouvoir de jbang et du scripting en Java.</p><hr><p>⚠️⚠️⚠️<i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
-                +"Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
+                    + "Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
                 speakers: ['gautier_de_saint_martin_lacaze']
             }
         ]
-    },  {
+    }, {
         id: '2020_09_29',
         title: "Chaos Engineering avec Spring / Data science avec les projets Apache",
         date: new Date(2020, 8, 29), //month begin at 0
@@ -938,27 +971,27 @@ var njEvents = [
             {
                 title: "Comment pratiquer le Chaos engineering avec Spring Boot",
                 time: '19h15h',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>On parle souvent de chaos engineering mais dans la pratique ça donne quoi ? En tant que développeur, j'ai l'impression que cette discipline est réservée au OPS. </p>"
-                    +"<p>Sur un projet Java avec Spring Boot, puis je faire du chaos engineering ? </p><p>Dans ce quickie, on vous donne la solution avec 'Chaos Monkey for Spring Boot'.</p>"
-                    ,
+                    + "<p>Sur un projet Java avec Spring Boot, puis je faire du chaos engineering ? </p><p>Dans ce quickie, on vous donne la solution avec 'Chaos Monkey for Spring Boot'.</p>"
+                ,
                 speakers: ['julien_mourgues']
             },
             {
                 title: "Drilling Zeppelin: data science dans la galaxie apache",
                 time: '20h00',
-                length:'30/40 min',
+                length: '30/40 min',
                 type: 'quickie',
-                abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>"+
-                "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>"
-                +"<p>&nbsp;</p><p>&nbsp;</p><hr><p>⚠️⚠️⚠️<i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
-                +"Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
+                abstract: "<p>Il existe de nombreux projets de la fondation apache liés à la data science: Zeppelin, Drill, Spark, Flink, etc.</p>" +
+                    "<p>Dans ce talk, nous verrons comment utiliser ensemble ces projets pour faire de la data science sur son PC ou sur un serveur simplement en branchant les projets apache les uns aux autres.</p>"
+                    + "<p>&nbsp;</p><p>&nbsp;</p><hr><p>⚠️⚠️⚠️<i>En raison des contraintes sanitaires, nous ne serons pas en mesure d'organiser l'apéritif de fin de soirée.<br/>"
+                    + "Venez avec vos masques, qui sont obligatoires tout au long de la soirée.</i>⚠️⚠️⚠️</p>",
                 speakers: ['julien_tanguy']
             }
 
         ]
-    },  {
+    }, {
         id: '2020_03_12',
         title: "Accessibilité // Architecture Hexagonale Level 2",
         date: new Date(2020, 2, 12), //month begin at 0
@@ -969,7 +1002,7 @@ var njEvents = [
             {
                 title: "Envie de faire de l'accessibilité ? Enjeux et mise en place",
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>L'accessibilité des sites web est un enjeu de société. Pourquoi est-il si difficile de la mettre en pratique ?</p>",
                 speakers: ['david_caillaud']
@@ -977,11 +1010,11 @@ var njEvents = [
             {
                 title: "Architecture Hexagonale Level 2 : Comment bien écrire ses tests",
                 time: '19h45',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
-                abstract: "<p>De plus en plus d’équipes adoptent l’architecture hexagonale comme structure de prédilection pour leurs applications métiers, mais peu d’entre elles savent réellement bien les tester. Et malheureusement lorsque l’on se plante sur ce point, la maintenance de notre architecture hexa devient un véritable calvaire !</p> "+
-                "<p>Lors de ce talk, nous allons aborder les 5 niveaux de tests préconisés pour les microservices adaptés à l'architecture héxagonale. Et en prime comment avoir une documentation drivée par les tests. Venez découvrir à côté de quoi vous êtes peut-être passés dans le développement de vos tests !</p>" +
-                "<p>Ceci est une live coding session en Java/Kotlin SpringBoot.</p>",
+                abstract: "<p>De plus en plus d’équipes adoptent l’architecture hexagonale comme structure de prédilection pour leurs applications métiers, mais peu d’entre elles savent réellement bien les tester. Et malheureusement lorsque l’on se plante sur ce point, la maintenance de notre architecture hexa devient un véritable calvaire !</p> " +
+                    "<p>Lors de ce talk, nous allons aborder les 5 niveaux de tests préconisés pour les microservices adaptés à l'architecture héxagonale. Et en prime comment avoir une documentation drivée par les tests. Venez découvrir à côté de quoi vous êtes peut-être passés dans le développement de vos tests !</p>" +
+                    "<p>Ceci est une live coding session en Java/Kotlin SpringBoot.</p>",
                 speakers: ['julien_topcu', 'jordan_nourry']
             }
         ]
@@ -996,20 +1029,20 @@ var njEvents = [
             {
                 title: "Comment fonctionne la motivation ?",
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'talk',
                 abstract: "<p>On recherche un développeur motivé“. Vous avez déjà certainement vu cette offre d’embauche.</p>" +
-                "<p>Qu’est-ce qu’être motivé et est-ce un état permanent comme l’évoque cette phrase ?</p>" +
-                "<p>On verra les mécanismes de la motivation et comment faire pour motiver quelqu’un.</p>",
+                    "<p>Qu’est-ce qu’être motivé et est-ce un état permanent comme l’évoque cette phrase ?</p>" +
+                    "<p>On verra les mécanismes de la motivation et comment faire pour motiver quelqu’un.</p>",
                 speakers: ['guillaume_blondeau']
             },
             {
                 title: "Scaling Java Application : Vers l’infini et au delà",
                 time: '19h45',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: "<p>Un moteur de calcul de prix en Java et scalable jusqu’à l’infini c’est possible ! Mais à notre grande surprise le chemin était pavé d’embuches.</p>" +
-                "<p>Dans cette présentation, je partage les différentes étapes, les problèmes rencontrés, les solutions ainsi que les outils qui nous ont permit d’atteindre cet objectif. On y parle JVM, Docker, AWS, Off-heap, Caching, Postgresql, Concurrence et autres réjouissances qui sortent un peu de notre quotidien de développeur.</p>",
+                    "<p>Dans cette présentation, je partage les différentes étapes, les problèmes rencontrés, les solutions ainsi que les outils qui nous ont permit d’atteindre cet objectif. On y parle JVM, Docker, AWS, Off-heap, Caching, Postgresql, Concurrence et autres réjouissances qui sortent un peu de notre quotidien de développeur.</p>",
                 speakers: ['julien_roy']
             }
         ]
@@ -1024,26 +1057,26 @@ var njEvents = [
             {
                 title: "Baromètre des salaires et des tendances marché sur l’environnement Java / JVM",
                 time: '19h00',
-                length:'15 min',
+                length: '15 min',
                 type: 'quickie',
-                abstract: "<p>Je viens vous restituer une partie de l'analyse réalisée dans le cadre du baromètre des salaires.</p>"+
-                "<p>Cette étude est basée sur les + 1300 candidats rencontrés l'année dernière et + 200 entreprises accompagnées.</p>",
+                abstract: "<p>Je viens vous restituer une partie de l'analyse réalisée dans le cadre du baromètre des salaires.</p>" +
+                    "<p>Cette étude est basée sur les + 1300 candidats rencontrés l'année dernière et + 200 entreprises accompagnées.</p>",
                 speakers: ['benjamin_casseron']
             },
             {
                 title: "Redis : du Clé/Valeur au Multimodèle",
                 time: '19h30',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: "<p>Vous connaissez surement Redis l'une des bases de données NoSQL les plus populaires chez les développeurs. D'ailleurs Vous l'utilisez peut être déjà, mais sûrement de façon simple: en clé/valeur sous forme de cache. Mais Redis est bien plus que cela !</p>" +
-                "<p>Durant cette présentation vous découvrirez, avec des démonstrations, les structures de données telles que les Hash, Set, Sorted Set, Geospatial, Pub/Sub et Streams, qui nativement vous offrent de nombreuses options pour enrichir simplement vos applications.</p>" +
-                "<p>Vous verrez également que Redis avec son système d'extensions (les Modules Redis) permet maintenant de gérer plusieurs modèles de données (Structures, Commandes) :" +
-                "<ul><li>JSON</li>" +
-                "<li>Time Series</li>" +
-                "<li>Search</li>" +
-                "<li>Graph</li>" +
-                "<li>Bloom Filter</li></ul></p>" +
-                "<p>En résumé une base de donnée polyglotte parfaite pour vos micro-services !</p>",
+                    "<p>Durant cette présentation vous découvrirez, avec des démonstrations, les structures de données telles que les Hash, Set, Sorted Set, Geospatial, Pub/Sub et Streams, qui nativement vous offrent de nombreuses options pour enrichir simplement vos applications.</p>" +
+                    "<p>Vous verrez également que Redis avec son système d'extensions (les Modules Redis) permet maintenant de gérer plusieurs modèles de données (Structures, Commandes) :" +
+                    "<ul><li>JSON</li>" +
+                    "<li>Time Series</li>" +
+                    "<li>Search</li>" +
+                    "<li>Graph</li>" +
+                    "<li>Bloom Filter</li></ul></p>" +
+                    "<p>En résumé une base de donnée polyglotte parfaite pour vos micro-services !</p>",
                 speakers: ['tugdual_grall'],
                 docs: [
                     { name: 'La vidéo du talk', url: 'https://youtu.be/OqkFDtgMAYk', type: 'youtube' },
@@ -1063,7 +1096,7 @@ var njEvents = [
             {
                 title: "Meet & Greet",
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'buffet',
                 abstract: "<p>Verre de bienvenue offert par les sponsors du JUG</p>",
                 speakers: []
@@ -1071,10 +1104,10 @@ var njEvents = [
             {
                 title: "Kubernetes: Retour d'Experience par VPTech",
                 time: '19h30',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: "<b><br/>En collaboration avec le Meetup 'CNCF Nantes'<br/><br/></b><p>Durant cette presentation Thomas, Ludovic et Pierre Antoine de VPTech ferons un retour d’expérience de l'utilisation de Kubernetes au sein de l’organisation Vptech.</p><p>Du développement à la mise en production, quels sont les outils et procédures mis en place afin d’augmenter la fiabilité et le time to market des développements.</p><p>2 points de vue vous seront présentés, celui des <b>SRE</b> et celui des <b>développeurs</b>.</p>",
-                speakers: ['ludovic_paquet','pierre_antoine_ollivier', 'thomas_piart'],
+                speakers: ['ludovic_paquet', 'pierre_antoine_ollivier', 'thomas_piart'],
                 docs: [
                     { name: 'Les slides du talk', url: 'https://drive.google.com/file/d/1iPTGrXIUdADeguKFEyGly-_UET2X0Czj', type: 'pdf' },
                 ]
@@ -1082,7 +1115,7 @@ var njEvents = [
             {
                 title: "Meet & Greet",
                 time: '20h30',
-                length:'2h',
+                length: '2h',
                 type: 'buffet',
                 abstract: "<p>Buffet offert par les sponsors du JUG</p>",
                 speakers: []
@@ -1100,20 +1133,20 @@ var njEvents = [
             {
                 title: 'GitOps & Infra as code avec Pulumi',
                 time: '19h00',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
                 abstract: "<p>Arrivée avec Kubernetes, nous verons comment la pratique <b>GitOps</b> peut se décliner pour déployer nos infrastructures et applications sur <b>AWS</b>.</br>" +
-                             "Ce quickie sera l'occasion de découvrir l'outil d'infra as code qui fait le buzz en ce moment, <b>Pulumi</b>.</br>" +
-                             "Alors venez dire bye-bye à vos anciennes pratiques 👋</p>",
+                    "Ce quickie sera l'occasion de découvrir l'outil d'infra as code qui fait le buzz en ce moment, <b>Pulumi</b>.</br>" +
+                    "Alors venez dire bye-bye à vos anciennes pratiques 👋</p>",
                 speakers: ['manuel_boillod']
             },
             {
                 title: 'AWS : les 10 trucs que j’aurais aimé connaître avant de commencer',
                 time: '19h40',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: "<p>Tout le monde veut se lancer sur le cloud avec AWS. Après tout, suivre les tutos ce n’est pas si compliqué. Mais après quelques jours, les ennuis commencent : instances qui rament, montées de version des services imposées, facture salée… :’( Je vous partagerais 10 points qui m'ont fait passer de 😱 ou 😩 en passant par 😰 vers 🍾.</p>" +
-                          "<p>Quel instances choisir parmis les 170 modèles? Pourquoi les accès disques sont bridés ? ... Autant de questions auxquelles j'apporterais des éléments de réponses.</p>",
+                    "<p>Quel instances choisir parmis les 170 modèles? Pourquoi les accès disques sont bridés ? ... Autant de questions auxquelles j'apporterais des éléments de réponses.</p>",
                 speakers: ['guillaume_membre']
             }
         ]
@@ -1128,21 +1161,21 @@ var njEvents = [
             {
                 title: 'Introduction à Apache Pulsar',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>\"Apache Pulsar, encore un système de messages pub/sub\", me direz-vous ? C'est pas faux... </p>" +
-                          "<p>Néanmoins, regardons de plus près... Pulsar est devenu un Top Level Project de la fondation Apache au mois de septembre 2018 et il se targue de vouloir unifier les modèles de messages traditionnels et le streaming, tout en fournissant un système extrêmement performant. " +
-                          "Alors partons à la découverte de ce nouveau pulsar pour voir de quoi il retourne !</p>",
+                    "<p>Néanmoins, regardons de plus près... Pulsar est devenu un Top Level Project de la fondation Apache au mois de septembre 2018 et il se targue de vouloir unifier les modèles de messages traditionnels et le streaming, tout en fournissant un système extrêmement performant. " +
+                    "Alors partons à la découverte de ce nouveau pulsar pour voir de quoi il retourne !</p>",
                 speakers: ['bruno_bonnin']
             },
             {
                 title: '⛳️ Votre API passe-t-elle le contrôle technique ?',
                 time: '19h40',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: "<p>Nous savons tous développer une API mais avons-nous bien intégré toutes les problématiques?</p>" +
-                          "<p>Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?</p>" +
-                          "<p>Durant ce talk, c'est plus de 70 points d'attentions rarement évoqué que je vous propose d'aborder, à la lumière de retours d'expériences provenant de tech-leader comme Uber, Stripe, Facebook et Google mais aussi d'entreprise française de la petite startup à la PME.</p>",
+                    "<p>Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?</p>" +
+                    "<p>Durant ce talk, c'est plus de 70 points d'attentions rarement évoqué que je vous propose d'aborder, à la lumière de retours d'expériences provenant de tech-leader comme Uber, Stripe, Facebook et Google mais aussi d'entreprise française de la petite startup à la PME.</p>",
                 speakers: ['francois_guillaume_ribreau']
             }
         ]
@@ -1157,20 +1190,20 @@ var njEvents = [
             {
                 title: 'Les nouveautés Eclipse IDE',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: "<p>Vous êtes développeur Java et vous utilisez Eclipse IDE, mais connaissez vous réellement ses dernières nouveautés ?</p>" +
-                          "<p>Au travers de cette présentation, je vous propose de découvrir les fonctionnalités de l'IDE Eclipse introduite dans les dernières release.</p>" +
-                          "<p>Cette présentation s'adresse aussi bien aux novices qu'aux chevronnées ayant envie d'apprendre à mieux connaître leur outil de développement quotidien.</p>",
+                    "<p>Au travers de cette présentation, je vous propose de découvrir les fonctionnalités de l'IDE Eclipse introduite dans les dernières release.</p>" +
+                    "<p>Cette présentation s'adresse aussi bien aux novices qu'aux chevronnées ayant envie d'apprendre à mieux connaître leur outil de développement quotidien.</p>",
                 speakers: ['gautier_de_saint_martin_lacaze']
             },
             {
                 title: 'Écrire des tests ? C’est illogique.',
                 time: '19h40',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: '<p>Écrire des tests c\'est bien, rédiger des spécifications c\'est mieux.</p>' +
-                          '<p>C\'est la promesse de Spock, un framework de spécification dont l\'objectif est d\'organiser nos tests afin de les rendre facile à lire, rapide à comprendre et simple à maintenir.</p>',
+                    '<p>C\'est la promesse de Spock, un framework de spécification dont l\'objectif est d\'organiser nos tests afin de les rendre facile à lire, rapide à comprendre et simple à maintenir.</p>',
                 speakers: ['adrien_bonnin']
             }
         ]
@@ -1185,63 +1218,63 @@ var njEvents = [
             {
                 title: 'Verre d’accueil 🍸',
                 time: '19h00',
-                length:'15 min',
+                length: '15 min',
                 type: 'hello',
                 abstract: "<p>Quoi de mieux pour commencer cette dernière soirée avant l'été que de commencer par un petit verre d'accueil 😎</p>"
             },
             {
                 title: 'Faire un chatbot en Java avec Spring Boot ',
                 time: '19h15',
-                length:'25 min',
+                length: '25 min',
                 type: 'quickie',
                 abstract: '<p>Retour sur la hype des chatbots qui ne s\'estompe pas, avec tous les jours de nouveaux bots et de nouveaux acteurs.' +
-                         '<ul style="margin:0"><li>Pourquoi un tel engouement sur les chatbots ?</li>' +
-                         '<li>Pourquoi le faire en Java ?</li>' +
-                         '<li>Revue des différents NLP (Natural language processing)</li>' +
-                         '<li>Quels sont les pièges à éviter ?</li></ul></p>' +
-                         '<p>Autant de questions à répondre sur ce tour d\'horizon !</p>',
+                    '<ul style="margin:0"><li>Pourquoi un tel engouement sur les chatbots ?</li>' +
+                    '<li>Pourquoi le faire en Java ?</li>' +
+                    '<li>Revue des différents NLP (Natural language processing)</li>' +
+                    '<li>Quels sont les pièges à éviter ?</li></ul></p>' +
+                    '<p>Autant de questions à répondre sur ce tour d\'horizon !</p>',
                 speakers: ['julien_bideau', 'nicolas_payneau']
             }, {
                 title: 'REX : entamer une migration Kotlin dans une DSI Java',
                 time: '19h40',
-                length:'25 min',
+                length: '25 min',
                 type: 'quickie',
                 abstract: '<p>Au sein de la DSI de Pôle emploi, les infrastructures black end sont depuis une dizaine d’années faites en Java et le choix des langages n’est pas (encore) déterminé par les équipes de développement.</p>' +
-                          '<p>Kotlin utilisant la JVM, il est désormais possible d’intégrer du Kotlin dans des projets java. Dans ce REX je vous présenterai la manière dont nous avons pu entamer l\'intégration du Kotlin dans nos composants black end Java, les problématiques rencontrées, mais aussi les opportunités qui s\'ouvrent à nous pour la suite.</p>',
+                    '<p>Kotlin utilisant la JVM, il est désormais possible d’intégrer du Kotlin dans des projets java. Dans ce REX je vous présenterai la manière dont nous avons pu entamer l\'intégration du Kotlin dans nos composants black end Java, les problématiques rencontrées, mais aussi les opportunités qui s\'ouvrent à nous pour la suite.</p>',
                 speakers: ['jean_philippe_baconnais'],
                 docs: [
                     { name: 'Slides', url: 'https://docs.google.com/presentation/d/1X7nhim9r0tU90c5UF5U-G6fwKW5hkcNQdV6N3xF-5Jg', type: 'drive' },
-                  ]
+                ]
             }, {
                 title: 'CORS, XSS, CSRF, SQL injection #BackToTheBasics',
                 time: '20h05',
-                length:'25 min',
+                length: '25 min',
                 type: 'quickie',
                 abstract: '<p>Pas besoin d\'être RSSI ou DevOpsSec pour se soucier de sécurité. Que l\'on soit développeur back ou front, la sécurité est l\'affaire de tous.</p>' +
-                        '<p>Pourtant, on la confie souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs.</p>' +
-                        '<p>A travers quelques démos, nous allons voir les failles les plus basiques et pourtant les plus répandus : CORS, XSS, CSRF et SQL injection</p>',
+                    '<p>Pourtant, on la confie souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs.</p>' +
+                    '<p>A travers quelques démos, nous allons voir les failles les plus basiques et pourtant les plus répandus : CORS, XSS, CSRF et SQL injection</p>',
                 speakers: ['adrien_pessu']
             },
             {
                 title: 'Chaos Engineering',
                 time: '20h30',
-                length:'25 min',
+                length: '25 min',
                 type: 'quickie',
                 abstract: '<p>Le Chaos Engineering est une discipline émergente dans le secteur de l’IT. Elle est expérimenté depuis plusieurs année chez des acteurs majeurs comme Netflix. Elle a été introduite pour apporter des solutions à l’accroissement de la complexité ds systèmes d’information et des organisations. J’espère vous apporter quelques éclairage sur cette discipline en pleine croissance et vous convaincre de vous y intéresser et de commencer à intégrer des pratiques liées à cette discipline dans votre cycle de développement logiciel.</p>',
                 speakers: ['thomas_nansot'],
                 docs: [
                     { name: 'Slides', url: 'https://fr.slideshare.net/ThomasNansot/meet-up-chaos-engineering', type: 'slideshare' },
-                  ]
+                ]
             },
             {
                 title: 'Cocktail dinatoire 🥳 + 🍻 + 🍣',
                 time: '21h00',
-                length:'3h',
+                length: '3h',
                 type: 'cocktail',
                 abstract: "<p>Discussions et partages autour d'un ou plusieurs verres, jusqu'au bout de la nuit... </p>"
             }
         ]
-    },     {
+    }, {
         id: '2019_05_20',
         title: " Java 12 // Quarkus 😛",
         date: new Date(2019, 4, 20), //month begin at 0
@@ -1252,21 +1285,21 @@ var njEvents = [
             {
                 title: 'Java 12, quoi de neuf ?',
                 time: '19h00',
-                length:'30 min',
+                length: '30 min',
                 type: 'quickie',
                 abstract: '<p>Java sort maintenant une nouvelle version tous les 6 mois. En mars dernier est donc sortie la version 12. Après un rapide récapitulatif des nouveautés depuis la version 10 voyons ce que cette version apporte à l\'environnement java et ce qui nous attend pour la suite.</p>',
                 speakers: ['patrice_de_saint_steban']
             }, {
                 title: 'Quarkus',
                 time: '19h30',
-                length:'1h30',
+                length: '1h30',
                 type: 'talk',
-                abstract: "<p>De Java au natif: venez découvrir GraalVM et Quarkus</p>"+
-                "<p>Microservices, montée en charge rapide et Kubernetes demandent des applications ayant un temps de démarrage rapide et une petite empreinte memoire; c'est pourquoi Java est peu utilisé dans ce contexte.</p>"+
-                "<p>Cela va changer!</p>"+
-                "<p>Venez découvrir Quarkus, la stack Java orientée microservices qui utilise vos librairies préférées (Hibernate, vert.x, Camel, RESTEasy, Netty…), et se déploie sur GraalVM et Hotspot. </p>"+
-                "<p>Durant cette session vous découvrirez GraalVM, et Quarkus et comment les deux réunis se concentrent sur la vitesse et la mémoire et ce avec un bonne expérience développeur."+
-                "<p>La prochaine 'Java Revolution' est en cours, rejoignez nous!",
+                abstract: "<p>De Java au natif: venez découvrir GraalVM et Quarkus</p>" +
+                    "<p>Microservices, montée en charge rapide et Kubernetes demandent des applications ayant un temps de démarrage rapide et une petite empreinte memoire; c'est pourquoi Java est peu utilisé dans ce contexte.</p>" +
+                    "<p>Cela va changer!</p>" +
+                    "<p>Venez découvrir Quarkus, la stack Java orientée microservices qui utilise vos librairies préférées (Hibernate, vert.x, Camel, RESTEasy, Netty…), et se déploie sur GraalVM et Hotspot. </p>" +
+                    "<p>Durant cette session vous découvrirez GraalVM, et Quarkus et comment les deux réunis se concentrent sur la vitesse et la mémoire et ce avec un bonne expérience développeur." +
+                    "<p>La prochaine 'Java Revolution' est en cours, rejoignez nous!",
                 speakers: ['tugdual_grall']
             }
         ]
@@ -1281,41 +1314,41 @@ var njEvents = [
             {
                 title: 'Déploiement de vos secrets applicatifs : Hashicorp Vault et la livraison en continue',
                 time: '19h00',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
                 abstract: '<p>La gestion des secrets applicatifs, tels que les identifiants de connexion aux bases de données, les phrases ' +
-                          'secrètes ("passphrase"), les sels ("salt") et les clefs privées, est difficile. La disponibilité de ces éléments ' +
-                          'est critique au bon fonctionnement d’une application, mais ils ont besoin d’être correctement protégés afin de ' +
-                          'réduire la surface d’attaque du système.</p>' +
-                          'La plupart des systèmes de gestion de secrets, comme Hashicorp Vault, sont utilisés comme une base de données ' +
-                          'centralisée, mais cela devient un point de défaillance unique et nécessite un effort supplémentaire pour sécuriser ' +
-                          'l’ensemble du système.</p>' +
-                          '<p>Pourquoi ne pas déployer vos secrets, avec Hashicorp Vault, en même temps que votre application ? Grâce à votre ' +
-                          'usine logicielle, il est possible de déployer une copie de vos secrets dans un Vault sécurisé par un "one time token", ' +
-                          'accessible seulement par votre application.</p>' +
-                          '<p>Dans cette présentation, nous allons présenter un pipeline de livraison continue permettant cette approche, montrer ' +
-                          'les implications de la gestion de secrets dans votre infrastructure de build, et utiliser le "threat modeling" pour ' +
-                          'vérifier la sécurité du Vault déployé.</p>',
+                    'secrètes ("passphrase"), les sels ("salt") et les clefs privées, est difficile. La disponibilité de ces éléments ' +
+                    'est critique au bon fonctionnement d’une application, mais ils ont besoin d’être correctement protégés afin de ' +
+                    'réduire la surface d’attaque du système.</p>' +
+                    'La plupart des systèmes de gestion de secrets, comme Hashicorp Vault, sont utilisés comme une base de données ' +
+                    'centralisée, mais cela devient un point de défaillance unique et nécessite un effort supplémentaire pour sécuriser ' +
+                    'l’ensemble du système.</p>' +
+                    '<p>Pourquoi ne pas déployer vos secrets, avec Hashicorp Vault, en même temps que votre application ? Grâce à votre ' +
+                    'usine logicielle, il est possible de déployer une copie de vos secrets dans un Vault sécurisé par un "one time token", ' +
+                    'accessible seulement par votre application.</p>' +
+                    '<p>Dans cette présentation, nous allons présenter un pipeline de livraison continue permettant cette approche, montrer ' +
+                    'les implications de la gestion de secrets dans votre infrastructure de build, et utiliser le "threat modeling" pour ' +
+                    'vérifier la sécurité du Vault déployé.</p>',
                 speakers: ['alexandre_dubreuil'],
                 docs: [
                     { name: 'Slides', url: 'https://lesfurets.github.io/vault-continuous-secret-deployment/vault-continuous-secret-deployment-nantes-jug.html#/', type: 'html' },
-                  ]
+                ]
             },
             {
                 title: 'Comment créer son propre langage avec un fluent API et un lambda builder ?',
                 time: '20h00',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: '<p>Avec le framework dOOv, nous adoptons une nouvelle approche pour résoudre un problème récurrent dans nos applications : conjuger performance, lisibilité et typage fort.</p>' +
-                          '<p>Depuis Java 8, les lambdas permettent de composer des fonctions avec d’excellentes performances à l’exécution. ' +
-                          'dOOv fournit une fluent API qui permet d’écrire la logique d’une application avec un DSL « pur Java » et construit des lambdas pour l’exécution.</p>' +
-                          '<p>Il devient possible de parcourir l’arbre de syntaxe du DSL lors de l’exécution et d’effectuer dynamiquement des réécritures.</p>' +
-                          '<p>Pendant la session, nous présenterons le fonctionnement du framework, les problèmes rencontrés pour générer du langage naturel, ' +
-                          'l’instrumentation du code écrit en DSL et la réécriture des arbres de syntaxe pour les afficher sous forme canonique.</p>',
+                    '<p>Depuis Java 8, les lambdas permettent de composer des fonctions avec d’excellentes performances à l’exécution. ' +
+                    'dOOv fournit une fluent API qui permet d’écrire la logique d’une application avec un DSL « pur Java » et construit des lambdas pour l’exécution.</p>' +
+                    '<p>Il devient possible de parcourir l’arbre de syntaxe du DSL lors de l’exécution et d’effectuer dynamiquement des réécritures.</p>' +
+                    '<p>Pendant la session, nous présenterons le fonctionnement du framework, les problèmes rencontrés pour générer du langage naturel, ' +
+                    'l’instrumentation du code écrit en DSL et la réécriture des arbres de syntaxe pour les afficher sous forme canonique.</p>',
                 speakers: ['gilles_di_guglielmo', 'ozan_gunalp'],
                 docs: [
                     { name: 'Slides', url: 'https://doov.io/conference/how_to_create_dsl_with_lambda_builders_nantes_jug.html#/', type: 'html' },
-                  ]
+                ]
             }
         ]
     }, {
@@ -1329,17 +1362,17 @@ var njEvents = [
             {
                 title: 'Développeurs & agilité : la guerre est déclarée ?',
                 time: '19h00',
-                length:'1h',
+                length: '1h',
                 type: 'talk',
                 abstract: '<p>Quand on parle d\'agilité aux développeurs, on constate différentes réactions. Il y a les enthousiastes, ceux qui s\'en fichent, et ceux qui s\'y opposent farouchement.</p>' +
-                          '<p>En ce moment, on peut constater un accroissement des développeurs ne souhaitant plus entendre parler d\'agilité.</p>' +
-                          '<p>Pourquoi une telle scission ? La guerre est-elle ouvertement déclarée ou a-t-on un espoir de réconciliation ?</p>',
+                    '<p>En ce moment, on peut constater un accroissement des développeurs ne souhaitant plus entendre parler d\'agilité.</p>' +
+                    '<p>Pourquoi une telle scission ? La guerre est-elle ouvertement déclarée ou a-t-on un espoir de réconciliation ?</p>',
                 speakers: ['cecilia_bossard', 'jean_palies']
             },
             {
                 title: 'Micronaut Framework, déballage et prise en main',
                 time: '20h15',
-                length:'45 min',
+                length: '45 min',
                 type: 'talk',
                 abstract: '<p>Non ce n\'est pas un nouveau téléphone, mais un nouveau framework web service compatible Java, Kotlin et Groovy mon préféré ! Il annonce une vitesse de démarrage maxi avec des empreintes threads et mémoire mini, grâce à de la programmation réactive et une injection de dépendance réécrite sans Reflection : un socle pour réconcilier les applications basées JVM avec le Cloud ! Venez découvrir cette stack "post-Spring" qui sait presque tout faire - même du Sql, et même tirer parti de modules Spring - avec une application exemple sur le thème de la Radio Fip (ma préférée aussi).</p>',
                 speakers: ['dominique_jocal']
@@ -1356,7 +1389,7 @@ var njEvents = [
             {
                 title: 'De la data science dans ma webapp avec GraalVM',
                 time: '19h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
                 abstract: "<p>Présentation du langage R (utilisé largement par les data scientists) et son intégration avec le monde Java via GraalVM ou comment intégrer des mondes qui se parlent peu.</p>",
                 speakers: ['bruno_bonnin']
@@ -1364,7 +1397,7 @@ var njEvents = [
             {
                 title: '3 techniques faciles de manipulation',
                 time: '19h30',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
                 abstract: '<p>Qui ne s\’est jamais fait manipulé ? Évidemment, on est tous allé à une soirée alors qu\’on en avait pas envie, on a tous acheté un truc sans en avoir besoin et on a tous été influencé par ses proches.</p><p>L\’idée de cette présentation est de vous ouvrir les yeux sur les relations et les influences entre les gens. Je vous exposerai les mécanismes de prise de décision au travers de 3 techniques simples de manipulation.</p><p>A la sortie de ce talk, vous devriez être moins influençable et maître de vos décisions (voir même manipuler les autres).</p>',
                 speakers: ['marie_viley']
@@ -1372,7 +1405,7 @@ var njEvents = [
             {
                 title: 'La CNCF et son écosystème',
                 time: '20h00',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
                 abstract: '<p>Découverte de la Cloud Native Computing Foundation qui pilote la communauté des projets d\'orchestration des containers et micro-services</p>',
                 speakers: ['julien_landure']
@@ -1380,7 +1413,7 @@ var njEvents = [
             {
                 title: 'Développer en Java dans VS Code',
                 time: '20h30',
-                length:'20 min',
+                length: '20 min',
                 type: 'quickie',
                 abstract: '<p>En quelques années VS Code (Visual Studio Code) est devenu l\'éditeur de code le plus populaire; tout particulièrement dans les communautés Javascript, Python, et autres langages dynamiques.<p><p>Mais savez vous qu\'il est également possible d\'utiliser VS Code pour développer en Java?<p><p>Venez découvrir durance ce tools in action, les fonctionnalités clés de tout éditeur Java, supportées par VS Code:<p><ul><li>Code Completion</li><li>Debugger</li><li>Refactoring</li><li>Test</li><li>Support de Maven & Graddle</li><li>Code Navigation et Outline</li><li>...</li></ul>',
                 speakers: ['tugdual_grall']
@@ -1394,21 +1427,21 @@ var njEvents = [
         register: 'http://meetu.ps/e/FTJwH/4xjVv/f',
         place: 'eartsup',
         subjects: [{
-                title: 'Comment nous avons gagné notre argent de poche grâce à Minecraft',
-                time: '19h00',
-                length:'15 min',
-                type: 'quickie',
-                abstract: '<p>Description de notre parcours qui nous a mené de simples joueurs à administrateur d\'un serveur Minecraft comptant plusieurs milliers d\'utilisateurs nous faisant ainsi notre argent de poche</p>',
-                speakers: ['corentin_grall', 'malo_grall']
-            }, {
-                title: "Cessons les estimations (One-man show)",
-                length: '1h',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Un one man show afin de susciter la réflexion par le rire, afin de vulgariser les valeurs fondamentales de l’agilité, au delà de l’application d’une quelconque méthode.</p>" +
-                          "<p>Cette conférence iconoclaste, non technique, s’adresse à toute personne ayant eu un premier contact avec un projet de développement logiciel (clients, donneurs d’ordre, développeurs, chefs de projet, product owner, scrum master…)</p>",
-                speakers: ['frederic_leguedois']
-            }
+            title: 'Comment nous avons gagné notre argent de poche grâce à Minecraft',
+            time: '19h00',
+            length: '15 min',
+            type: 'quickie',
+            abstract: '<p>Description de notre parcours qui nous a mené de simples joueurs à administrateur d\'un serveur Minecraft comptant plusieurs milliers d\'utilisateurs nous faisant ainsi notre argent de poche</p>',
+            speakers: ['corentin_grall', 'malo_grall']
+        }, {
+            title: "Cessons les estimations (One-man show)",
+            length: '1h',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Un one man show afin de susciter la réflexion par le rire, afin de vulgariser les valeurs fondamentales de l’agilité, au delà de l’application d’une quelconque méthode.</p>" +
+                "<p>Cette conférence iconoclaste, non technique, s’adresse à toute personne ayant eu un premier contact avec un projet de développement logiciel (clients, donneurs d’ordre, développeurs, chefs de projet, product owner, scrum master…)</p>",
+            speakers: ['frederic_leguedois']
+        }
         ]
     }, {
         id: '2018_12_13',
@@ -1418,24 +1451,24 @@ var njEvents = [
         register: 'http://meetu.ps/e/FTJtQ/4xjVv/f',
         place: 'eartsup',
         subjects: [{
-                title: "Dev & UI : main dans la main avec le DesignOps",
-                length: '45min',
-                time: '19h00',
-                type: 'talk',
-                abstract: "<p>Il était une fois, dans une société nommée OUI.sncf, un développeur et une UI designer qui passaient leur temps à se chamailler. Le premier rêvait de spécifications responsives et de composants réutilisables par toutes les équipes. La seconde aspirait à ce que ses maquettes soient traitées avec respect et qu’une cohérence graphique soit enfin obtenue sur son site préféré. Ont-ils pu mettre leurs différents de côté pour aller au bout de leur ambition ? Vous le saurez en écoutant leur histoire...</p>",
-                speakers: ['loic_maze', 'lydie_dareau']
-            }, {
-                title: "Implémentation de CQRS et EventSourcing avec le framework Axon ",
-                length: '45min',
-                time: '20h00',
-                type: 'talk',
-                abstract: "<p>Je m'intéresse depuis un moment à l'event sourcing, pour l'avoir utilisé sur deux applications, ce n'est pas si simple et on a tendance à laisser tomber le pattern en cours de route. Du coup, lorsque nous avons du mener la refonte d'une application interne à Oui.sncf basée sur l'event sourcing, nous avons utilisé le framework Axon qui a géré toute la plomberie pour nous.</p>" +
+            title: "Dev & UI : main dans la main avec le DesignOps",
+            length: '45min',
+            time: '19h00',
+            type: 'talk',
+            abstract: "<p>Il était une fois, dans une société nommée OUI.sncf, un développeur et une UI designer qui passaient leur temps à se chamailler. Le premier rêvait de spécifications responsives et de composants réutilisables par toutes les équipes. La seconde aspirait à ce que ses maquettes soient traitées avec respect et qu’une cohérence graphique soit enfin obtenue sur son site préféré. Ont-ils pu mettre leurs différents de côté pour aller au bout de leur ambition ? Vous le saurez en écoutant leur histoire...</p>",
+            speakers: ['loic_maze', 'lydie_dareau']
+        }, {
+            title: "Implémentation de CQRS et EventSourcing avec le framework Axon ",
+            length: '45min',
+            time: '20h00',
+            type: 'talk',
+            abstract: "<p>Je m'intéresse depuis un moment à l'event sourcing, pour l'avoir utilisé sur deux applications, ce n'est pas si simple et on a tendance à laisser tomber le pattern en cours de route. Du coup, lorsque nous avons du mener la refonte d'une application interne à Oui.sncf basée sur l'event sourcing, nous avons utilisé le framework Axon qui a géré toute la plomberie pour nous.</p>" +
 
-                              "<p>Je pense que l'intérêt de ce framework est de gérer des problématiques complexes de concurrence, lock, etc, et de laisser le dev s'occuper de l'aspect métier.</p>" +
+                "<p>Je pense que l'intérêt de ce framework est de gérer des problématiques complexes de concurrence, lock, etc, et de laisser le dev s'occuper de l'aspect métier.</p>" +
 
-                              "<p>J'ai préparé une session de livecoding pour présenter rapidement les concepts eventsourcing et CQRS, et pour voir la mise en œuvre sur un usecase classique.</p>",
-                speakers: ['sylvain_maillard']
-            }
+                "<p>J'ai préparé une session de livecoding pour présenter rapidement les concepts eventsourcing et CQRS, et pour voir la mise en œuvre sur un usecase classique.</p>",
+            speakers: ['sylvain_maillard']
+        }
         ]
     }, {
         id: '2018_11_20',
@@ -1445,25 +1478,25 @@ var njEvents = [
         register: 'http://meetu.ps/e/FTJs9/4xjVv/f',
         place: 'eartsup',
         intro: "<div style=\"color: #0074be\">" +
-               "<p>Cette soirée est co-organisée avec le meetup <a href=\"https://www.meetup.com/fr-FR/Docker-Nantes/\" target=\"_blank\">Docker Nantes</a>. Les inscriptions se font uniquement ici, sur le meetup du Nantes JUG.</p>" +
-               "</div>",
+            "<p>Cette soirée est co-organisée avec le meetup <a href=\"https://www.meetup.com/fr-FR/Docker-Nantes/\" target=\"_blank\">Docker Nantes</a>. Les inscriptions se font uniquement ici, sur le meetup du Nantes JUG.</p>" +
+            "</div>",
         subjects: [{
-                title: "Machine to machine : jouons un peu avec MQTT, Mosquitto et Paho",
-                length: '30min',
-                time: '19h00',
-                type: 'quickie',
-                abstract: "<p>MQTT est un protocole léger basé sur le pattern « Publish/Subscribe » qui s’est imposé pour les échanges M2M et donc l’IoT. Simple et facile à appréhender il peut être utilisé pour des cas d’usage très variés aussi bien avec un Raspberry Pi qu’un serveur Linux ou dans le cloud.</p>" +
-                  "<p>Ce quickie vous permettra de découvrir les principes de base du protocole MQTT, avec des démos utilisant le brocker « Mosquitto » et bien sûr un peu de code Java avec la librairie « Paho ».</p>",
-                speakers: ['laurent_guerin']
-            }, {
-                title: "Google Container Tools : développer efficacement dans un monde de conteneurs",
-                length: '1h',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable.</p>" +
-                  "<p>Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.</p>",
-                speakers: ['david_gageot']
-            }
+            title: "Machine to machine : jouons un peu avec MQTT, Mosquitto et Paho",
+            length: '30min',
+            time: '19h00',
+            type: 'quickie',
+            abstract: "<p>MQTT est un protocole léger basé sur le pattern « Publish/Subscribe » qui s’est imposé pour les échanges M2M et donc l’IoT. Simple et facile à appréhender il peut être utilisé pour des cas d’usage très variés aussi bien avec un Raspberry Pi qu’un serveur Linux ou dans le cloud.</p>" +
+                "<p>Ce quickie vous permettra de découvrir les principes de base du protocole MQTT, avec des démos utilisant le brocker « Mosquitto » et bien sûr un peu de code Java avec la librairie « Paho ».</p>",
+            speakers: ['laurent_guerin']
+        }, {
+            title: "Google Container Tools : développer efficacement dans un monde de conteneurs",
+            length: '1h',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Kubernetes est devenu l'orchestrateur de choix pour déployer des applications. Mais qu'en est-il du quotidien des développeurs qui créent ces applications ? Plus on s'appuie sur la plateforme, plus il est compliqué de développer en dehors de la plateforme. Et développer à l'intérieur de conteneurs n'est pas réputé facile ni agréable.</p>" +
+                "<p>Google est à l'origine de plusieurs projets Open-Source qui se focalisent sur l'expérience des développeurs dans un monde de conteneurs. Kaniko permet de construire une image Docker à partir d'un Dockerfile, dans un cluster Kubernetes, de manière sécurisée. Skaffold facilite le déploiement continu d'applications pour Kubernetes. Les images Distroless offrent des images de base légères, sécurisées et de qualité. Bazel permet meme de construire des images Docker sans Docker. Venez découvrir comment ces outils se combinent pour offrir un environment de développement agréable et performant dans le monde des conteneurs.</p>",
+            speakers: ['david_gageot']
+        }
         ]
     }, {
         id: '2018_10_09',
@@ -1473,22 +1506,22 @@ var njEvents = [
         register: 'http://meetu.ps/e/FT1P3/tBvy3/f',
         place: 'eartsup',
         subjects: [{
-                title: "LinuxKit",
-                length: '30min',
-                time: '19h00',
-                type: 'quickie',
-                abstract: "<p>Cela fait des années que certaines distributions linux permettent de construire son linux “from scratch” mais cela restait une opération compliquée et périlleuse. LinuxKit propose la même chose mais avec une approche beaucoup plus moderne et outillée. Cela devient presque aussi facile que de monter un meuble ikea ! (avec une notice quand même)</p>" +
-                  "<p>Le projet LinuxKit, créé par Docker Inc., a été pensé pour créer un OS aussi minimaliste et maintenable que possible (sans compromis avec la sécurité) et y déployer des conteneurs.</p>" +
-                  "<p>Nous allons vous présenter la genèse et les concepts du projet, l’écosystème des outils complémentaires qui vous permettront de composer et construire votre distribution. Puis, nous créerons notre première distribution en live !</p>",
-                speakers: ['eric_briand', 'pierre-yves_aillet']
-            }, {
-                title: "Au delà des brokers: un tour de l'environnement Kafka",
-                length: '1h',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Apache Kafka ne se résume pas aux brokers, il y a tout un écosystème open-source qui gravite autour. Je vous propose ainsi de découvrir les principaux composants comme Kafka Streams, KSQL, Kafka Connect, Rest proxy, Schema Registry, MirrorMaker, etc.</p><p>Venez avec vos questions, plus la session sera interactive, meilleure elle sera !</p>",
-                speakers: ['florent_ramiere']
-            }
+            title: "LinuxKit",
+            length: '30min',
+            time: '19h00',
+            type: 'quickie',
+            abstract: "<p>Cela fait des années que certaines distributions linux permettent de construire son linux “from scratch” mais cela restait une opération compliquée et périlleuse. LinuxKit propose la même chose mais avec une approche beaucoup plus moderne et outillée. Cela devient presque aussi facile que de monter un meuble ikea ! (avec une notice quand même)</p>" +
+                "<p>Le projet LinuxKit, créé par Docker Inc., a été pensé pour créer un OS aussi minimaliste et maintenable que possible (sans compromis avec la sécurité) et y déployer des conteneurs.</p>" +
+                "<p>Nous allons vous présenter la genèse et les concepts du projet, l’écosystème des outils complémentaires qui vous permettront de composer et construire votre distribution. Puis, nous créerons notre première distribution en live !</p>",
+            speakers: ['eric_briand', 'pierre-yves_aillet']
+        }, {
+            title: "Au delà des brokers: un tour de l'environnement Kafka",
+            length: '1h',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Apache Kafka ne se résume pas aux brokers, il y a tout un écosystème open-source qui gravite autour. Je vous propose ainsi de découvrir les principaux composants comme Kafka Streams, KSQL, Kafka Connect, Rest proxy, Schema Registry, MirrorMaker, etc.</p><p>Venez avec vos questions, plus la session sera interactive, meilleure elle sera !</p>",
+            speakers: ['florent_ramiere']
+        }
         ]
     }, {
         id: '2018_09_25',
@@ -1498,27 +1531,27 @@ var njEvents = [
         register: 'http://meetu.ps/e/FNyYs/4xjVv/f',
         place: 'terrasses_de_l_erdre',
         intro: "<div style=\"color: #0074be\"><div class=\"row\">" +
-               "<div class=\"col-md-8\">" +
-               "<p>Si comme nous, vous avez commencé le java il y a plus de 10 ans, vos recherches web sur Java vous ont forcément amené sur les articles de Jean-Michel Doudoux.<p>" +
-               "<p>🎂 C'est donc pour les 10 ans du JUG que nous l'accueillons avec plaisir, pour nous parler des derniers changements de Java.</p>" +
-               "<p>Cette soirée exceptionnelle 🎊 sera suivi d'un cocktail dinatoire 🍸 🍣 au restaurant du parc des expositions, les Terrasses de l'Erdre.</p>" +
-               "<p>🎁 Il y aura des places pour DevFest à gagner ainsi d'autres suprises... 🎁</p>" +
-               "</div>" +
-               "<div class=\"col-md-4 col-xs-6\"><img src=\"/images/site/10_ans.png\" width=\"100%\"></div>" +
-               "</div></div>",
+            "<div class=\"col-md-8\">" +
+            "<p>Si comme nous, vous avez commencé le java il y a plus de 10 ans, vos recherches web sur Java vous ont forcément amené sur les articles de Jean-Michel Doudoux.<p>" +
+            "<p>🎂 C'est donc pour les 10 ans du JUG que nous l'accueillons avec plaisir, pour nous parler des derniers changements de Java.</p>" +
+            "<p>Cette soirée exceptionnelle 🎊 sera suivi d'un cocktail dinatoire 🍸 🍣 au restaurant du parc des expositions, les Terrasses de l'Erdre.</p>" +
+            "<p>🎁 Il y aura des places pour DevFest à gagner ainsi d'autres suprises... 🎁</p>" +
+            "</div>" +
+            "<div class=\"col-md-4 col-xs-6\"><img src=\"/images/site/10_ans.png\" width=\"100%\"></div>" +
+            "</div></div>",
         subjects: [{
-                title: "Java, le changement c'est maintenant (... enfin depuis un an déjà)",
-                length: '1h30min',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Ce n'est pas qu'un slogan politique mais bien la réalité pour Java depuis l'année écoulée.</p>" +
-                          "<p>A tel point que plusieurs caractéristiques historiques de Java sont partiellement remises en cause notamment la lenteur patente entre deux releases, l'embonpoint endémique du JRE/JDK, la gratuité, et même la sacro sainte rétro-compatibilité, ...</p>" +
-                          "<p>Faisons un tour de ces évolutions qui sont parfois de profonds changements avant de fêter le 10ème anniversaire du Nantes JUG. " +
-                          "Comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
-                speakers: ['jmdoudoux']
-            }
+            title: "Java, le changement c'est maintenant (... enfin depuis un an déjà)",
+            length: '1h30min',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Ce n'est pas qu'un slogan politique mais bien la réalité pour Java depuis l'année écoulée.</p>" +
+                "<p>A tel point que plusieurs caractéristiques historiques de Java sont partiellement remises en cause notamment la lenteur patente entre deux releases, l'embonpoint endémique du JRE/JDK, la gratuité, et même la sacro sainte rétro-compatibilité, ...</p>" +
+                "<p>Faisons un tour de ces évolutions qui sont parfois de profonds changements avant de fêter le 10ème anniversaire du Nantes JUG. " +
+                "Comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
+            speakers: ['jmdoudoux']
+        }
         ]
-      },{
+    }, {
         id: '2018_06_20',
         title: "S2 Geometry // Couchbase 101",
         date: new Date(2018, 5, 20), //month begin at 0
@@ -1526,33 +1559,33 @@ var njEvents = [
         register: 'http://meetu.ps/e/FqHTW/wWq2C/f',
         place: 'eartsup',
         subjects: [{
-                title: "Introduction a S2 Geometry",
-                length: '30min',
-                time: '19h30',
-                type: 'quickie',
-                intro: 'Une solution simple pour vos besoins "géospatiaux"',
-                abstract: "<p>Durant ce quickie vous découvrirez la librairie S2 Geometry (http://s2geometry.io/) et " +
-                          "comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
-                speakers: ['tugdual_grall']
-            },
-            {
-                title: "Couchbase 101 [EN]",
-                length: '45min',
-                time: '20h15',
-                type: 'talk',
-                abstract: "<p>Today's mission-critical applications demand support for millions of interactions with " +
-                          "end-users. Traditional databases were built for thousands.</p>" +
-                          "<p>Couchbase Server is an open source, distributed, NoSQL document-oriented database. It " +
-                          "exposes a fast key-value store with managed cache for sub-millisecond data operations, " +
-                          "purpose-built indexers for fast queries and a powerful query engine for executing SQL-like queries.</p>" +
-                          "<p>In this talk, we develop a small microservice using a very productive combination: " +
-                          "Couchbase, Spring Boot and Spring Data. We also will deploy both your application and " +
-                          "database on Kubernetes, to show how you can build truly elastic microservices.</p>" +
-                          "<p><u>Conférence en anglais</u></p>",
-                speakers: ['denis_rosa']
-            }
+            title: "Introduction a S2 Geometry",
+            length: '30min',
+            time: '19h30',
+            type: 'quickie',
+            intro: 'Une solution simple pour vos besoins "géospatiaux"',
+            abstract: "<p>Durant ce quickie vous découvrirez la librairie S2 Geometry (http://s2geometry.io/) et " +
+                "comment l'utiliser dans vos applications en offrant des possibilités de requêtes géospatiales.</p>",
+            speakers: ['tugdual_grall']
+        },
+        {
+            title: "Couchbase 101 [EN]",
+            length: '45min',
+            time: '20h15',
+            type: 'talk',
+            abstract: "<p>Today's mission-critical applications demand support for millions of interactions with " +
+                "end-users. Traditional databases were built for thousands.</p>" +
+                "<p>Couchbase Server is an open source, distributed, NoSQL document-oriented database. It " +
+                "exposes a fast key-value store with managed cache for sub-millisecond data operations, " +
+                "purpose-built indexers for fast queries and a powerful query engine for executing SQL-like queries.</p>" +
+                "<p>In this talk, we develop a small microservice using a very productive combination: " +
+                "Couchbase, Spring Boot and Spring Data. We also will deploy both your application and " +
+                "database on Kubernetes, to show how you can build truly elastic microservices.</p>" +
+                "<p><u>Conférence en anglais</u></p>",
+            speakers: ['denis_rosa']
+        }
         ]
-    },{
+    }, {
         id: '2018_05_23',
         title: "UX // Kotlin - Avancé",
         date: new Date(2018, 4, 23), //month begin at 0
@@ -1560,33 +1593,33 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/250684407/',
         place: 'eartsup',
         subjects: [{
-                title: "3 exemples pour comprendre l'intérêt de la phase UX research lors de la conception",
-                length: '30min',
-                time: '19h00',
-                type: 'talk',
-                abstract: "<p>À travers 3 exemples, nous verrons comment l'approche UX, et plus particulièrement la " +
-                          "phase de test, fait le plus grand bien à la conception d'un projet. Pour le meilleur ou pour le pire." +
-                          "Observer et interviewer l'être humain est indispensable pour savoir si l'expérience que vous " +
-                          "proposez est bien celle attendue par lui, pour comprendre les motivations qui l'anime et " +
-                          "mieux détecter les facteurs qui faciliteront l'appropriation d'un service ou d'un produit.</p>",
-                speakers: ['nabil_thalmann']
-            },
-            {
-                title: "Kotlin asynchrone : les coroutines",
-                length: '1h',
-                time: '19h45',
-                type: 'talk',
-                abstract: "<p>Les Coroutines sont la nouvelle fonctionalité du langage Kotlin pour sa version 1.1. En " +
-                          "l'essence, elles vous permettent d'écrire du code séquentiel mais asynchrone.</p>"+
-                          "<p>Dans ce talk, je présenterai le concept des coroutines et expliquerai comment Kotlin " +
-                          "implémente les coroutines pour être un outil sur lequel construire plutôt qu'un standard imposé à la communauté. " +
-                          "À travers un live-coding, nous explorerons les primitives bas niveau comme les principales " +
-                          "libraries haut niveau. Je montrerai comment ce formidable outil peut être utilisé aussi bien " +
-                          "en back-end sur un serveur que sur une application Android.</p>",
-                speakers: ['salomon_brys']
-            }
+            title: "3 exemples pour comprendre l'intérêt de la phase UX research lors de la conception",
+            length: '30min',
+            time: '19h00',
+            type: 'talk',
+            abstract: "<p>À travers 3 exemples, nous verrons comment l'approche UX, et plus particulièrement la " +
+                "phase de test, fait le plus grand bien à la conception d'un projet. Pour le meilleur ou pour le pire." +
+                "Observer et interviewer l'être humain est indispensable pour savoir si l'expérience que vous " +
+                "proposez est bien celle attendue par lui, pour comprendre les motivations qui l'anime et " +
+                "mieux détecter les facteurs qui faciliteront l'appropriation d'un service ou d'un produit.</p>",
+            speakers: ['nabil_thalmann']
+        },
+        {
+            title: "Kotlin asynchrone : les coroutines",
+            length: '1h',
+            time: '19h45',
+            type: 'talk',
+            abstract: "<p>Les Coroutines sont la nouvelle fonctionalité du langage Kotlin pour sa version 1.1. En " +
+                "l'essence, elles vous permettent d'écrire du code séquentiel mais asynchrone.</p>" +
+                "<p>Dans ce talk, je présenterai le concept des coroutines et expliquerai comment Kotlin " +
+                "implémente les coroutines pour être un outil sur lequel construire plutôt qu'un standard imposé à la communauté. " +
+                "À travers un live-coding, nous explorerons les primitives bas niveau comme les principales " +
+                "libraries haut niveau. Je montrerai comment ce formidable outil peut être utilisé aussi bien " +
+                "en back-end sur un serveur que sur une application Android.</p>",
+            speakers: ['salomon_brys']
+        }
         ]
-    },{
+    }, {
         id: '2018_05_03',
         title: "Les joies de la négociation // TICK-Tac",
         date: new Date(2018, 4, 3), //month begin at 0
@@ -1594,29 +1627,29 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/250168593/',
         place: 'eartsup',
         subjects: [{
-                title: "Les joies de la négociation",
-                length: '30min',
-                time: '19h00',
-                type: 'quickie',
-                abstract: "<p>S’il est bien un aspect du métier de développeur qu’on aime pas toujours/trop, c’est de devoir négocier. "+
-                          "Souvent, la négociation se résume à un rapport de force. " +
-                          "Lors de l’entretien d’embauche ou l’entretien annuel, négocier son salaire est rarement une partie de plaisir, laissant parfois le sentiment de s’être fait (un peu ?) avoir." +
-                          "Même au sein d’une équipe, les négociations pour les choix techniques peuvent s’avérer... compliquées.</p>" +
-                          "<p>Ça n’est pas une fatalité :)</p>" +
-                          "<p>À partir d'un livre, « Comment réussir une négociation » (titre original : Getting to Yes), et de quelques retours d’expérience, découvrez quelques clés pour être mieux armés dans vos négociations.</p>",
-                speakers: ['olivier_truong']
-            },
-            {
-                title: "TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles",
-                length: '1h',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Nos activités quotidiennes sont liées au temps. Pourquoi ne pas utiliser des bases temporelles (time series databases) pour stocker et exploiter vos données ?</p>" +
-                          "<p>Au travers de la plateforme TICK (Telegraf, InfluxDB, Chronograf et Kapacitor) et Grafana et sur la base de l'exemple d'un monitoring de plateforme, nous verrons comment manipuler ces données temporelles.</p>",
-                speakers: ['nicolas_steinmetz']
-            }
+            title: "Les joies de la négociation",
+            length: '30min',
+            time: '19h00',
+            type: 'quickie',
+            abstract: "<p>S’il est bien un aspect du métier de développeur qu’on aime pas toujours/trop, c’est de devoir négocier. " +
+                "Souvent, la négociation se résume à un rapport de force. " +
+                "Lors de l’entretien d’embauche ou l’entretien annuel, négocier son salaire est rarement une partie de plaisir, laissant parfois le sentiment de s’être fait (un peu ?) avoir." +
+                "Même au sein d’une équipe, les négociations pour les choix techniques peuvent s’avérer... compliquées.</p>" +
+                "<p>Ça n’est pas une fatalité :)</p>" +
+                "<p>À partir d'un livre, « Comment réussir une négociation » (titre original : Getting to Yes), et de quelques retours d’expérience, découvrez quelques clés pour être mieux armés dans vos négociations.</p>",
+            speakers: ['olivier_truong']
+        },
+        {
+            title: "TICK-Tac, il est l'heure de collecter et exploiter vos données temporelles",
+            length: '1h',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Nos activités quotidiennes sont liées au temps. Pourquoi ne pas utiliser des bases temporelles (time series databases) pour stocker et exploiter vos données ?</p>" +
+                "<p>Au travers de la plateforme TICK (Telegraf, InfluxDB, Chronograf et Kapacitor) et Grafana et sur la base de l'exemple d'un monitoring de plateforme, nous verrons comment manipuler ces données temporelles.</p>",
+            speakers: ['nicolas_steinmetz']
+        }
         ]
-    },{
+    }, {
         id: '2018_04_26',
         title: "OpenFaas // Kotlin",
         date: new Date(2018, 3, 26), //month begin at 0
@@ -1624,28 +1657,28 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/249153190/',
         place: 'creative',
         subjects: [{
-                title: "OpenFaas, une solution simple et rapide à déployer pour faire du FaaS.",
-                length: '30min',
-                time: '19h00',
-                type: 'talk',
-                abstract: "<p>OpenFaaS est un projet d'Alexis Ellis, Docker Captain, basé sur Docker et sur les orchestrateurs Swarm ou Kubernetes. Cette solution facilite la mise en œuvre d'une architecture Serverless à base de fonctions.</p>" +
+            title: "OpenFaas, une solution simple et rapide à déployer pour faire du FaaS.",
+            length: '30min',
+            time: '19h00',
+            type: 'talk',
+            abstract: "<p>OpenFaaS est un projet d'Alexis Ellis, Docker Captain, basé sur Docker et sur les orchestrateurs Swarm ou Kubernetes. Cette solution facilite la mise en œuvre d'une architecture Serverless à base de fonctions.</p>" +
                 "<p>A la différence de AWS Lambda ou d'autres services FaaS (Function as a Service) comme Google Cloud Functions, OpenFaas est une solution qui peut être déployée en On Premise, et ce très rapidement et simplement. L'autre différence est que tout peut devenir une fonction, y compris un binaire. " +
                 "On comprend mieux pourquoi depuis sa présentation à la DockerCon 2017, ce projet fait fureur dans la communauté Docker.</p>" +
                 "<p>Après une présentation succincte de ce qu'est le FaaS, nous explorerons la solution et l'ensemble de ses possibilités. Pour démontrer la puissance de ce framework, nous terminerons ce talk par une démonstration mettant en œuvre plusieurs fonctions.</p>",
-                speakers: ['emmanuel_lebeaupin']
-            },
-            {
-                title: "À la découverte de Kotlin",
-                length: '45min',
-                time: '19h35',
-                type: 'talk',
-                abstract: "<p>Kotlin est un langage de programmation qui s’adresse principalement aux utilisateurs Java. Supporté depuis l’année dernière par les plateformes Android, ce langage simple et moderne a fait une percée dans le monde du développement mobile. Interopérable avec Java, Kotlin est désormais doté d’une version JS et native qui élargit le champ de ses capacités.</p>" +
+            speakers: ['emmanuel_lebeaupin']
+        },
+        {
+            title: "À la découverte de Kotlin",
+            length: '45min',
+            time: '19h35',
+            type: 'talk',
+            abstract: "<p>Kotlin est un langage de programmation qui s’adresse principalement aux utilisateurs Java. Supporté depuis l’année dernière par les plateformes Android, ce langage simple et moderne a fait une percée dans le monde du développement mobile. Interopérable avec Java, Kotlin est désormais doté d’une version JS et native qui élargit le champ de ses capacités.</p>" +
                 "<p>Après un vernis historique sur les origines de ce langage, découvrons ensemble tout l’intérêt de Kotlin au travers de quelques points de syntaxe, concepts de base et outils. Nous terminerons ce talk par la présentation de deux exemples l’un sur Android et l’autre en Kotlin JS.</p>",
-                speakers: ['yvelain_naude']
-            }
+            speakers: ['yvelain_naude']
+        }
         ],
         docs: [
-          { name: 'flyer', url: 'https://goo.gl/V9kk4g', type: 'pdf' },
+            { name: 'flyer', url: 'https://goo.gl/V9kk4g', type: 'pdf' },
         ]
     },
     {
@@ -1656,29 +1689,29 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/249153080/',
         place: 'ynov',
         subjects: [{
-                title: "Open Tracing, le SLF4J du traçage distribué",
-                length: '30min',
-                time: '19h00',
-                type: 'talk',
-                abstract: "<p>Un id de corrélation, cela n'a rien de nouveau, mais cela change la vie, surtout couplé avec un outil d'agrégation de logs. </p>" +
+            title: "Open Tracing, le SLF4J du traçage distribué",
+            length: '30min',
+            time: '19h00',
+            type: 'talk',
+            abstract: "<p>Un id de corrélation, cela n'a rien de nouveau, mais cela change la vie, surtout couplé avec un outil d'agrégation de logs. </p>" +
                 "<p>Il est de plus en plus rare qu'une page web ne génère qu'une seule requête côté serveur. Et quand un bug survient, c'est la fin... " +
                 "Parmi les X applications interrogées, pour trouver la source du bug, cela devient vite la galère... C'est une perte de temps, et une source de stress.</p>" +
                 "<p>Open Tracing est une API disponible dans plusieurs langages, permettant de s'interfacer avec différents outils de traçage. " +
                 "A l'image de Slf4J pour les logs, Open Tracing pemet donc de passer à une implémentation à une autre avec peu d'effort. " +
                 "Vous utilisez à l'heure actuelle Zipkin, et vous voulez passer sur Jaeger, rien de plus simple. Quelques lignes à changer dans son code et c'est fait.</p>" +
                 "<p>Je vous présenterais le principe de la corrélation d'id et les notions qui vont avec (trace, span, etc.), les outils existants, et pourquoi je crois en Open Tracing.</p>",
-                speakers: ['florian_negre']
-            },
-            {
-                title: "Il n'y a pas que Angular, React ou VueJS dans la vie",
-                length: '45min',
-                time: '19h35',
-                type: 'talk',
-                abstract: "<p>Nous connaissons tous les frameworks/librairies à la mode : de Angular à React, en passant par le tout dernier VueJS. Mais devons-nous nous limiter à ces trois solutions ? </p>" +
+            speakers: ['florian_negre']
+        },
+        {
+            title: "Il n'y a pas que Angular, React ou VueJS dans la vie",
+            length: '45min',
+            time: '19h35',
+            type: 'talk',
+            abstract: "<p>Nous connaissons tous les frameworks/librairies à la mode : de Angular à React, en passant par le tout dernier VueJS. Mais devons-nous nous limiter à ces trois solutions ? </p>" +
                 "<p>Durant cette conférence, nous allons aborder plutôt les projets les moins connus, mais pas les moins intéressants, et qui pourraient être sources" +
                 "d'idées pour les grands du Web. De Inferno à Marko, en passant par Preact, nous allons enfin pouvoir connaitre les avantages et inconvénients de ces solutions alternatives. </p>",
-                speakers: ['emmanuel_demey']
-            }
+            speakers: ['emmanuel_demey']
+        }
         ]
     },
     {
@@ -1689,29 +1722,29 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/248653942/',
         place: 'insula',
         subjects: [{
-                title: "Il n'y a pas de magie, tout est dans les détails !",
-                length: '30min',
-                time: '19h00',
-                type: 'talk',
-                abstract: "<p>Et s'il existait un monde où les petits détails d'une app ou d'un site web servent en même temps l'experience utilisateur et l'immersion dans un univers graphique ?</p><p>Un nouveau monde à la croisée de l'UX et de l'UI.</p>" +
-                          "<p>Plongée dans le monde des Micro-interactions...</p>" +
-                          "<p></p>" +
-                          "<p>Et s'il était possible d'améliorer l'experience utilisateur d'une app juste en travaillant les détails ?</p>" +
-                          "<p>S'il était possible d'apporter du réel dans une app virtuelle simplement ?</p>" +
-                          "<p>Ou comment récompenser physiquement l’utilisateur pour le guider dans son parcours ?</p>",
-                speakers: ['thomas_buvignier']
-            },
-            {
-                title: "ŌPUN : Devenir une plateforme de service",
-                length: '45min',
-                time: '19h35',
-                type: 'talk',
-                abstract: "<p>Lorsque ta direction te dit qu'il faut diversifier les activités et devenir une plateforme de services, un reset s'impose pour penser, from scratch, un nouveau pan du système d'information.</p>" +
-                          "<p>Durant l’année passée, nous avons pensé et mis en oeuvre un ensemble de méthodologies, pratiques, solutions techniques pour servir de nouveaux produits innovants bénéficiant d’un time-to-market compétitif et de coûts maîtrisés. Cette initiative prise dans une grosse entreprise de la région nous permet le droit à l’erreur, la possibilité de jeter au besoin tout en valorisant son legacy et en responsabilisant les développeurs.</p>" +
-                          "<p>Nous verrons donc ensemble les différentes étapes que nous avons suivi lors de cette “rupture”, les méthodologies employées, les façons de travailler, les patterns utilisés. Nous vous présenterons la suite d’outils que nous avons créé à l’occasion, lorsque les outils du marché ne convenaient pas à nos cas d’utilisation (la stack Netflix n’est pas faite pour tout le monde ;-).</p>" +
-                          "<p>Au programme, reverse-proxy, API gateway, ingestion de data, feature flipping, A/B testing, des démos qui plantent et bien plus encore.</p>",
-                speakers: ['mathieu_ancelin', 'alexandre_delègue', 'francois_desmier']
-            }
+            title: "Il n'y a pas de magie, tout est dans les détails !",
+            length: '30min',
+            time: '19h00',
+            type: 'talk',
+            abstract: "<p>Et s'il existait un monde où les petits détails d'une app ou d'un site web servent en même temps l'experience utilisateur et l'immersion dans un univers graphique ?</p><p>Un nouveau monde à la croisée de l'UX et de l'UI.</p>" +
+                "<p>Plongée dans le monde des Micro-interactions...</p>" +
+                "<p></p>" +
+                "<p>Et s'il était possible d'améliorer l'experience utilisateur d'une app juste en travaillant les détails ?</p>" +
+                "<p>S'il était possible d'apporter du réel dans une app virtuelle simplement ?</p>" +
+                "<p>Ou comment récompenser physiquement l’utilisateur pour le guider dans son parcours ?</p>",
+            speakers: ['thomas_buvignier']
+        },
+        {
+            title: "ŌPUN : Devenir une plateforme de service",
+            length: '45min',
+            time: '19h35',
+            type: 'talk',
+            abstract: "<p>Lorsque ta direction te dit qu'il faut diversifier les activités et devenir une plateforme de services, un reset s'impose pour penser, from scratch, un nouveau pan du système d'information.</p>" +
+                "<p>Durant l’année passée, nous avons pensé et mis en oeuvre un ensemble de méthodologies, pratiques, solutions techniques pour servir de nouveaux produits innovants bénéficiant d’un time-to-market compétitif et de coûts maîtrisés. Cette initiative prise dans une grosse entreprise de la région nous permet le droit à l’erreur, la possibilité de jeter au besoin tout en valorisant son legacy et en responsabilisant les développeurs.</p>" +
+                "<p>Nous verrons donc ensemble les différentes étapes que nous avons suivi lors de cette “rupture”, les méthodologies employées, les façons de travailler, les patterns utilisés. Nous vous présenterons la suite d’outils que nous avons créé à l’occasion, lorsque les outils du marché ne convenaient pas à nos cas d’utilisation (la stack Netflix n’est pas faite pour tout le monde ;-).</p>" +
+                "<p>Au programme, reverse-proxy, API gateway, ingestion de data, feature flipping, A/B testing, des démos qui plantent et bien plus encore.</p>",
+            speakers: ['mathieu_ancelin', 'alexandre_delègue', 'francois_desmier']
+        }
         ]
     },
     {
@@ -1722,33 +1755,33 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/247576881/',
         place: 'epitech',
         subjects: [{
-                title: "Cloud : le couteau SaaS du développeur (et de la startup) !",
-                length: '45min',
-                time: '19h00',
-                type: 'talk',
-                abstract: "<p>Et si on pouvait développer une application sans coder! Ou pas…</p>" +
-                    "<p>Retour d'expérience sur le développement et la mise en production d’une application web s'appuyant sur +15 SaaS.<br/>" +
-                    "Ce partage nous permettra d’aborder les points suivants:<ul>" +
-                    "<li>Tour d’horizon de l’offre *aaS,</li>" +
-                    "<li>Pourquoi du SaaS ?</li>" +
-                    "<li>Avantages et inconvénients,</li>" +
-                    "<li>La sécurité,</li>" +
-                    "<li>Les limites,</li>" +
-                    "<li>...</li>" +
-                    "</ul></p>",
-                speakers: ['yann_danthu']
-            },
-            {
-                title: "Comment maintenir de la cohérence dans votre architecture microservices",
-                length: '45min',
-                time: '19h45',
-                type: 'talk',
-                abstract: "<p>La tendance est au délaissement des architectures monolithiques au profit de micro-services bien découpés. Ainsi nous facilitons le passage à l'échelle, réduisons la taille de chaque projet et pouvons utiliser la pile techno adaptée à chaque module.</p>" +
-                    "<p>Cependant, en séparant ces briques, nous repoussons la complexité à la limite entre chaque module. La cohérence fournie par une base de code atomique et son système de types est perdue.</p>" +
-                    "<p>Dans cette session, je montrerai comment tenir compte explicitement des frontières entre modules permet de réduire le risque de données incohérentes. Je montrerai comment encoder les messages inter-modules, en déclarant explicitement pour chaque brique, la structure nécessaire et ce qui doit pouvoir évoluer sans impacter le module. La serialisation implicite a beau etre plus simple au début, l'explicite aide beaucoup.</p>" +
-                    "<p>Je donnerai des exemples en scala et javascript, tout en tirant des comparaisons avec mon expérience en développement web, où on a une expérience fournie de ce qui se passe quand les développeurs essayent d'ignorer les frontières entre coté serveur et coté client.</p>",
-                speakers: ['clement_delafargue']
-            }
+            title: "Cloud : le couteau SaaS du développeur (et de la startup) !",
+            length: '45min',
+            time: '19h00',
+            type: 'talk',
+            abstract: "<p>Et si on pouvait développer une application sans coder! Ou pas…</p>" +
+                "<p>Retour d'expérience sur le développement et la mise en production d’une application web s'appuyant sur +15 SaaS.<br/>" +
+                "Ce partage nous permettra d’aborder les points suivants:<ul>" +
+                "<li>Tour d’horizon de l’offre *aaS,</li>" +
+                "<li>Pourquoi du SaaS ?</li>" +
+                "<li>Avantages et inconvénients,</li>" +
+                "<li>La sécurité,</li>" +
+                "<li>Les limites,</li>" +
+                "<li>...</li>" +
+                "</ul></p>",
+            speakers: ['yann_danthu']
+        },
+        {
+            title: "Comment maintenir de la cohérence dans votre architecture microservices",
+            length: '45min',
+            time: '19h45',
+            type: 'talk',
+            abstract: "<p>La tendance est au délaissement des architectures monolithiques au profit de micro-services bien découpés. Ainsi nous facilitons le passage à l'échelle, réduisons la taille de chaque projet et pouvons utiliser la pile techno adaptée à chaque module.</p>" +
+                "<p>Cependant, en séparant ces briques, nous repoussons la complexité à la limite entre chaque module. La cohérence fournie par une base de code atomique et son système de types est perdue.</p>" +
+                "<p>Dans cette session, je montrerai comment tenir compte explicitement des frontières entre modules permet de réduire le risque de données incohérentes. Je montrerai comment encoder les messages inter-modules, en déclarant explicitement pour chaque brique, la structure nécessaire et ce qui doit pouvoir évoluer sans impacter le module. La serialisation implicite a beau etre plus simple au début, l'explicite aide beaucoup.</p>" +
+                "<p>Je donnerai des exemples en scala et javascript, tout en tirant des comparaisons avec mon expérience en développement web, où on a une expérience fournie de ce qui se passe quand les développeurs essayent d'ignorer les frontières entre coté serveur et coté client.</p>",
+            speakers: ['clement_delafargue']
+        }
         ]
     }, {
         id: '2018_01_31',
@@ -1758,23 +1791,23 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/246931283/',
         place: 'eartsup',
         subjects: [{
-                title: "Native apps are doomed",
-                length: '30min',
-                time: '19h00',
-                type: 'quickie',
-                abstract: "<p>Les progressive web apps envahissent progressivement le marché comme Twitter avec Twitter Lite.<br/>" +
-                    "Y'a-t-il encore aujourd'hui à développer une application native, avec toutes les difficultés que celà entraîne ?</p>",
-                speakers: ['mathias_bernardeau']
-            },
-            {
-                title: "Recouvrer de la productivité avec Gradle",
-                length: '1h',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Vous entendez parler de Gradle, mais pour vous, ça n'est qu'un autre outil de build. Vous ne voyez pas l'intérêt. Pourtant, Gradle est différent. Il est conçu pour la productivité : réduire les temps de build, améliorer la modélisation des applications, résoudre les problèmes de gestion de dépendence...</p>" +
-                    "<p>Dans cette session, nous parlerons de Gradle 4 et des fonctionnalités uniques qu'il apporte : tâches incrémentales, builds composites, cache distribué, ... Nous montrerons aussi les build scans et comment ils permettent de gagner un temps précieux en donnant une perspective unique sur vos builds. Enfin, nous aborderons brievement l'arrivée de Gradle 5, qui innovera une fois de plus dans le domaine de la gestion de dépendances.</p>",
-                speakers: ['cedric_champeau']
-            }
+            title: "Native apps are doomed",
+            length: '30min',
+            time: '19h00',
+            type: 'quickie',
+            abstract: "<p>Les progressive web apps envahissent progressivement le marché comme Twitter avec Twitter Lite.<br/>" +
+                "Y'a-t-il encore aujourd'hui à développer une application native, avec toutes les difficultés que celà entraîne ?</p>",
+            speakers: ['mathias_bernardeau']
+        },
+        {
+            title: "Recouvrer de la productivité avec Gradle",
+            length: '1h',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Vous entendez parler de Gradle, mais pour vous, ça n'est qu'un autre outil de build. Vous ne voyez pas l'intérêt. Pourtant, Gradle est différent. Il est conçu pour la productivité : réduire les temps de build, améliorer la modélisation des applications, résoudre les problèmes de gestion de dépendence...</p>" +
+                "<p>Dans cette session, nous parlerons de Gradle 4 et des fonctionnalités uniques qu'il apporte : tâches incrémentales, builds composites, cache distribué, ... Nous montrerons aussi les build scans et comment ils permettent de gagner un temps précieux en donnant une perspective unique sur vos builds. Enfin, nous aborderons brievement l'arrivée de Gradle 5, qui innovera une fois de plus dans le domaine de la gestion de dépendances.</p>",
+            speakers: ['cedric_champeau']
+        }
         ]
     }, {
         id: '2017_12_14',
@@ -1784,48 +1817,48 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/Nantes-Java-User-Group/events/245415172/',
         place: 'adresse_gare_sud',
         subjects: [{
-                title: "Kotlin, la java qu'on aimerait avoir",
-                length: '20min',
-                time: '19h00',
-                type: 'quickie',
-                abstract: "<p>Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.</p>",
-                speakers: ['adrien_pessu']
-            },
-            {
-                title: 'Verdaccio un proxy npm à la rescousse',
-                length: '20min',
-                time: '19h20',
-                type: 'quickie',
-                abstract: "<p>La construction d'une application repose principalement sur le code source que nous autres développeurs (euses) avons développé, mais également sur toutes les dépendances (frameworks ou librairies) que nous allons ajouter au sein de cette même application.</p>" +
-                    "<p>Pour assurer la reproductibilité, la maintenabilité et l'évolution du processus de construction de notre application vis à vis des dépendances on s'appuie généralement sur un dépôt de dépendances accessible depuis Internet." +
-                    "L'écosystème JavaScript n'échappe pas à la règle et en quelques années npm est devenu un mastodonte régissant quasiment toutes les dépendances JavaScript.</p>" +
-                    "<p>Lors de ce quickie nous verrons quels sont les avantages et les inconvénients de cette situation et comment nous pouvons utiliser l'outil Verdaccio comme proxy npm pour résoudre les problèmes du quotidien en entreprise.</p>",
-                speakers: ['alvin_berthelot']
-            },
-            {
-                title: 'Gamifier notre outillage traditionnel pour mettre en avant des concepts innovants.',
-                length: '20min',
-                time: '19h40',
-                type: 'quickie',
-                abstract: "<p>Comment nous avons construit un jeu afin de mettre en évidence différents concepts (scalibilité, résilience, …) et prouver le fonctionnement de composant techniques (Docker Swarm, SSE, …)" +
-                    "Le tout sur la base de technologies issues du développement d'application de gestion.</p>" +
-                    "<p>Il s’agit d’une présentation d’introduction qui présente le produit fini, et la démarche mais qui n’entre pas dans les détails techniques des différents composants du jeu.</p>",
-                speakers: ['nicolas_giraud']
-            },
-            {
-                title: 'Language Server Protocol : intégrer simplement un language dans un IDE',
-                length: '20min',
-                time: '20h00',
-                type: 'quickie',
-                abstract: "<p>Si je vous demandais de supporter un DSL dans plusieurs IDE, vous ne trouveriez pas ça compliqué ? Vive le mal de crâne! Et si je vous disais que j'avais un outil pour vous aider ? Faites place au Language Server Protocol! Cette spécification vise à simplifier l'intégration d'un language de programmation dans un IDE. Elle est totalement hallucinante. Le support de C# dans Eclipse, celui de java dans VSCode c'est grâce à elle. Alors si vous voulez simplement comprendre comment ça marche ou si vous voulez créer et intégrer votre propre serveur de language, venez voir cette présentation. Je vous montrerez comment jouer avec le LSP pour avoir de la complétion, documentation et validation sur un DSL maison.</p>",
-                speakers: ['gautier_de_saint_martin_lacaze']
-            }, {
-                title: 'Cocktail 🍾 🍕 🍹',
-                time: '20h30',
-                type: 'cocktail',
-                abstract: '<p>Quoi de mieux qu\'un cocktail offert par le Nantes JUG pour fêter la fin de l\'année.</p>' +
-                    '<p>Au programme : boissons, petits fours et discussions tech (ou pas).</p>'
-            }
+            title: "Kotlin, la java qu'on aimerait avoir",
+            length: '20min',
+            time: '19h00',
+            type: 'quickie',
+            abstract: "<p>Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.</p>",
+            speakers: ['adrien_pessu']
+        },
+        {
+            title: 'Verdaccio un proxy npm à la rescousse',
+            length: '20min',
+            time: '19h20',
+            type: 'quickie',
+            abstract: "<p>La construction d'une application repose principalement sur le code source que nous autres développeurs (euses) avons développé, mais également sur toutes les dépendances (frameworks ou librairies) que nous allons ajouter au sein de cette même application.</p>" +
+                "<p>Pour assurer la reproductibilité, la maintenabilité et l'évolution du processus de construction de notre application vis à vis des dépendances on s'appuie généralement sur un dépôt de dépendances accessible depuis Internet." +
+                "L'écosystème JavaScript n'échappe pas à la règle et en quelques années npm est devenu un mastodonte régissant quasiment toutes les dépendances JavaScript.</p>" +
+                "<p>Lors de ce quickie nous verrons quels sont les avantages et les inconvénients de cette situation et comment nous pouvons utiliser l'outil Verdaccio comme proxy npm pour résoudre les problèmes du quotidien en entreprise.</p>",
+            speakers: ['alvin_berthelot']
+        },
+        {
+            title: 'Gamifier notre outillage traditionnel pour mettre en avant des concepts innovants.',
+            length: '20min',
+            time: '19h40',
+            type: 'quickie',
+            abstract: "<p>Comment nous avons construit un jeu afin de mettre en évidence différents concepts (scalibilité, résilience, …) et prouver le fonctionnement de composant techniques (Docker Swarm, SSE, …)" +
+                "Le tout sur la base de technologies issues du développement d'application de gestion.</p>" +
+                "<p>Il s’agit d’une présentation d’introduction qui présente le produit fini, et la démarche mais qui n’entre pas dans les détails techniques des différents composants du jeu.</p>",
+            speakers: ['nicolas_giraud']
+        },
+        {
+            title: 'Language Server Protocol : intégrer simplement un language dans un IDE',
+            length: '20min',
+            time: '20h00',
+            type: 'quickie',
+            abstract: "<p>Si je vous demandais de supporter un DSL dans plusieurs IDE, vous ne trouveriez pas ça compliqué ? Vive le mal de crâne! Et si je vous disais que j'avais un outil pour vous aider ? Faites place au Language Server Protocol! Cette spécification vise à simplifier l'intégration d'un language de programmation dans un IDE. Elle est totalement hallucinante. Le support de C# dans Eclipse, celui de java dans VSCode c'est grâce à elle. Alors si vous voulez simplement comprendre comment ça marche ou si vous voulez créer et intégrer votre propre serveur de language, venez voir cette présentation. Je vous montrerez comment jouer avec le LSP pour avoir de la complétion, documentation et validation sur un DSL maison.</p>",
+            speakers: ['gautier_de_saint_martin_lacaze']
+        }, {
+            title: 'Cocktail 🍾 🍕 🍹',
+            time: '20h30',
+            type: 'cocktail',
+            abstract: '<p>Quoi de mieux qu\'un cocktail offert par le Nantes JUG pour fêter la fin de l\'année.</p>' +
+                '<p>Au programme : boissons, petits fours et discussions tech (ou pas).</p>'
+        }
         ]
     }, {
         id: '2017_10_26',
@@ -1835,26 +1868,26 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/243675823',
         place: 'eartsup',
         subjects: [{
-                title: "L'IoT dans la vraie vie",
-                length: '30min',
-                time: '19h00',
-                type: 'quickie',
-                abstract: "<p>L'internet des objets, décrit par certains comme une nouvelle révolution de l'Internet, est un sujet au coeur d'une multitude d'actualités et de controverses, si bien qu'on a souvent du mal à faire le point sur son réel potentiel.</p>" +
-                    "<p>Oui mais les faits sont là : investissement des grands du numérique, accélération de startup, bassins d'emplois en France autour de l'IoT, réseau d'objets connectés, l'évolution est en marche, pour de vrai ! Alors, innovation surestimée ou réelle révolution ? </p>" +
-                    "<p>Ce Quickie a pour but de faire un bilan, sans compromis et en apportant une vision globale sur ce nouvel usage d'Internet, complété par un retour d'expérience à la Cité de l'objet connecté et illustré par l'exemple de la SNCF.</p>",
-                speakers: ['benjamin_demonet']
-            },
-            {
-                title: 'Event Sourcing avec Apache Kafka',
-                length: '1h',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Quand j'ai découvert Apache Kafka, j'ai rapidement été séduit par son élégance et sa simplicité. J'aimerais partager cette expérience avec vous.</p>" +
-                    "<p>Malgré son apparence initiale de bus de message, Kafka est un système de stockage de données extrêmement versatile. C'est un log persisté. Naturellement, j'ai fait le lien avec l'Event Sourcing, qui consiste à utiliser un log comme source de vérité d'une application, et ainsi ne jamais perdre une seule goutte de données. Alors je me suis dit : jusqu'où peut-on aller dans le développement d'une application de gestion avec Kafka pour seule base de données ? Qu'est-ce que ça donne ? Quels sont les défis à relever ? Est-ce vraiment différent d'une application centrée autour d'une base SQL ?" +
-                    "<p>Pour explorer ce terrain j'ai choisi d'implémenter une application très simple, le fameux TodoMVC, celui-là même qui sert de terrain de jeux aux frameworks front. Mon talk sera donc un retour sur cette expérience.</p>" +
-                    "<p>La présentation inclue une introduction à Kafka et au concept d'Event Sourcing, il n'y a donc aucun pré-requis.</p>",
-                speakers: ['hugo_wood']
-            }
+            title: "L'IoT dans la vraie vie",
+            length: '30min',
+            time: '19h00',
+            type: 'quickie',
+            abstract: "<p>L'internet des objets, décrit par certains comme une nouvelle révolution de l'Internet, est un sujet au coeur d'une multitude d'actualités et de controverses, si bien qu'on a souvent du mal à faire le point sur son réel potentiel.</p>" +
+                "<p>Oui mais les faits sont là : investissement des grands du numérique, accélération de startup, bassins d'emplois en France autour de l'IoT, réseau d'objets connectés, l'évolution est en marche, pour de vrai ! Alors, innovation surestimée ou réelle révolution ? </p>" +
+                "<p>Ce Quickie a pour but de faire un bilan, sans compromis et en apportant une vision globale sur ce nouvel usage d'Internet, complété par un retour d'expérience à la Cité de l'objet connecté et illustré par l'exemple de la SNCF.</p>",
+            speakers: ['benjamin_demonet']
+        },
+        {
+            title: 'Event Sourcing avec Apache Kafka',
+            length: '1h',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Quand j'ai découvert Apache Kafka, j'ai rapidement été séduit par son élégance et sa simplicité. J'aimerais partager cette expérience avec vous.</p>" +
+                "<p>Malgré son apparence initiale de bus de message, Kafka est un système de stockage de données extrêmement versatile. C'est un log persisté. Naturellement, j'ai fait le lien avec l'Event Sourcing, qui consiste à utiliser un log comme source de vérité d'une application, et ainsi ne jamais perdre une seule goutte de données. Alors je me suis dit : jusqu'où peut-on aller dans le développement d'une application de gestion avec Kafka pour seule base de données ? Qu'est-ce que ça donne ? Quels sont les défis à relever ? Est-ce vraiment différent d'une application centrée autour d'une base SQL ?" +
+                "<p>Pour explorer ce terrain j'ai choisi d'implémenter une application très simple, le fameux TodoMVC, celui-là même qui sert de terrain de jeux aux frameworks front. Mon talk sera donc un retour sur cette expérience.</p>" +
+                "<p>La présentation inclue une introduction à Kafka et au concept d'Event Sourcing, il n'y a donc aucun pré-requis.</p>",
+            speakers: ['hugo_wood']
+        }
         ]
     }, {
         id: '2017_09_18',
@@ -1864,24 +1897,24 @@ var njEvents = [
         register: 'https://www.meetup.com/fr-FR/preview/Nantes-Java-User-Group/events/242950915',
         place: 'lucca',
         subjects: [{
-                title: 'WebRTC : de la visioconférence dans les navigateurs sans plugins',
-                length: '20min',
-                time: '19h00',
-                type: 'quickie',
-                speakers: ['abdellatif_el_maknati']
-            },
-            {
-                title: 'Et java 8 devient plus fonctionnel avec VAVR',
-                length: '1h',
-                time: '19h20',
-                type: 'talk',
-                abstract: "<p>Vavr est une librairie complètement dédiée au paradigme de programmation fonctionnelle. Elle a la particularité d'aller un peu plus loin que les notions de lambdas, pipelines ou composition de fonctions offertes par Java 8.</p>"
-                    // "<p>Durant cette session nous découvrirons les structures proposées par Vavr, comme les collections immuables, les values types tels que les Option, les Try, les Either…</p>"
-                    +
-                    "<p>Nous verrons comment cette librairie gère des aspects plus fonctionnels, à savoir la composition de fonction, le lifting, la memoization ou le currying.</p>" +
-                    "<p>Enfin nous terminerons avec la présentation de la syntaxe offerte pour le pattern Matching et le property checking.</p>",
-                speakers: ['guillaume_lours']
-            }
+            title: 'WebRTC : de la visioconférence dans les navigateurs sans plugins',
+            length: '20min',
+            time: '19h00',
+            type: 'quickie',
+            speakers: ['abdellatif_el_maknati']
+        },
+        {
+            title: 'Et java 8 devient plus fonctionnel avec VAVR',
+            length: '1h',
+            time: '19h20',
+            type: 'talk',
+            abstract: "<p>Vavr est une librairie complètement dédiée au paradigme de programmation fonctionnelle. Elle a la particularité d'aller un peu plus loin que les notions de lambdas, pipelines ou composition de fonctions offertes par Java 8.</p>"
+                // "<p>Durant cette session nous découvrirons les structures proposées par Vavr, comme les collections immuables, les values types tels que les Option, les Try, les Either…</p>"
+                +
+                "<p>Nous verrons comment cette librairie gère des aspects plus fonctionnels, à savoir la composition de fonction, le lifting, la memoization ou le currying.</p>" +
+                "<p>Enfin nous terminerons avec la présentation de la syntaxe offerte pour le pattern Matching et le property checking.</p>",
+            speakers: ['guillaume_lours']
+        }
         ]
     }, {
         id: '2017_08_29',
@@ -2043,27 +2076,27 @@ var njEvents = [
         register: 'https://www.meetup.com/Nantes-Java-User-Group/events/237022612/',
         place: 'eartsup',
         subjects: [{
-                title: "A practical RxJava example with Ratpack and Couchbase",
-                length: '50min',
-                time: '19h00',
-                type: 'talk',
-                speakers: ['laurent_doguin'],
-                abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
-                    "<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
-                    "<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
-                docs: []
-            }, {
-                title: "Applications web reactives avec Spring 5 et Reactor 3",
-                length: '40min',
-                time: '20h00',
-                type: 'talk',
-                speakers: ['simon_basle'],
-                abstract: "<p>Dans cette présentation nous découvrirons Reactor 3, une librairie réactive alternative à RxJava mais proche de celle-ci. " +
-                    "Nous verrons comment Spring 5 va mettre l\'accent sur la programmation réactive avec Reactor comme base. Nous comparerons ensuite " +
-                    "Reactor avec RxJava 1 et RxJava 2, ce qui sera l\'occasion de se focaliser (comme la librairie) sur un contexte Java 8, la spécification " +
-                    "Reactive Streams et le concept de backpressure.</p>",
-                docs: []
-            }
+            title: "A practical RxJava example with Ratpack and Couchbase",
+            length: '50min',
+            time: '19h00',
+            type: 'talk',
+            speakers: ['laurent_doguin'],
+            abstract: "<p>RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it’s hard to make anything out of it. Sure the isolated examples look nice but it’s always hard to put this in perspective with a real app.</p>" +
+                "<p>In this talk I’ll go through an application made to store, index and search files. We’ll see the benefit brought by using RxJava , Ratpack and Couchbase together. Nothing too complicated or advanced, just something pragmatic.</p>" +
+                "<p>This talk is for you if you want to discover RxJava through a pragmatic example. It’s a beginner talk.</p>",
+            docs: []
+        }, {
+            title: "Applications web reactives avec Spring 5 et Reactor 3",
+            length: '40min',
+            time: '20h00',
+            type: 'talk',
+            speakers: ['simon_basle'],
+            abstract: "<p>Dans cette présentation nous découvrirons Reactor 3, une librairie réactive alternative à RxJava mais proche de celle-ci. " +
+                "Nous verrons comment Spring 5 va mettre l\'accent sur la programmation réactive avec Reactor comme base. Nous comparerons ensuite " +
+                "Reactor avec RxJava 1 et RxJava 2, ce qui sera l\'occasion de se focaliser (comme la librairie) sur un contexte Java 8, la spécification " +
+                "Reactive Streams et le concept de backpressure.</p>",
+            docs: []
+        }
 
         ],
         docs: [
@@ -2077,24 +2110,24 @@ var njEvents = [
         register: 'https://www.meetup.com/Nantes-Java-User-Group/events/236606281/',
         place: 'hub_creatic',
         subjects: [{
-                title: "I'm a CTO Bitch",
-                length: '0h40',
-                time: '19h00',
-                type: 'talk',
-                speakers: ['youen_chene'],
-                abstract: "<p>CTO, je suis un CTO, enfin! … Entre la course technologique, le juridique, la levée de fonds, le recrutement, le management, la gestion de la roadmap, les comités d’administration, les avant ventes et les 30 mn de code hebdomadaire, ce talk aidera les développeurs à mieux comprendre les CTOs et aux futurs CTOs à mieux appréhender ce nouveau role. </p>",
-                docs: []
-            },
-            {
-                title: "Kanban from the startup warfare",
-                length: '0h30',
-                time: '19h40',
-                type: 'talk',
-                speakers: ['youen_chene'],
-                abstract: "<p>Nous verrons comment l'équipe produit de Saagie s'est organisé autour de l'approche Kanban pour répondre à ce système fortement contraint. Nous partagerons aussi les erreurs et les leçons apprises.</p>" +
-                    "<p>La présentation sera agrémentée d'un parallélisme avec un empire qui a eu une croissance de startup : l'empire mongol.</p>",
-                docs: []
-            }
+            title: "I'm a CTO Bitch",
+            length: '0h40',
+            time: '19h00',
+            type: 'talk',
+            speakers: ['youen_chene'],
+            abstract: "<p>CTO, je suis un CTO, enfin! … Entre la course technologique, le juridique, la levée de fonds, le recrutement, le management, la gestion de la roadmap, les comités d’administration, les avant ventes et les 30 mn de code hebdomadaire, ce talk aidera les développeurs à mieux comprendre les CTOs et aux futurs CTOs à mieux appréhender ce nouveau role. </p>",
+            docs: []
+        },
+        {
+            title: "Kanban from the startup warfare",
+            length: '0h30',
+            time: '19h40',
+            type: 'talk',
+            speakers: ['youen_chene'],
+            abstract: "<p>Nous verrons comment l'équipe produit de Saagie s'est organisé autour de l'approche Kanban pour répondre à ce système fortement contraint. Nous partagerons aussi les erreurs et les leçons apprises.</p>" +
+                "<p>La présentation sera agrémentée d'un parallélisme avec un empire qui a eu une croissance de startup : l'empire mongol.</p>",
+            docs: []
+        }
         ],
         docs: [
             { name: 'slides', url: 'https://drive.google.com/open?id=0B4KTOFlyLP1xd1NtZzdTd0pDUTg', type: 'pdf' },
@@ -2661,42 +2694,42 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/324039',
         place: 'eartsup',
         subjects: [{
-                title: "Java 8 en pratique",
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['gabriel_landais'],
-                abstract: "<p>Quelques exemples de réécriture de code legacy avec les nouvelles API Java 8.</p>",
-            },
-            {
-                title: 'Gitflow In Action',
-                length: '30 min',
-                time: '19h30',
-                type: 'quickie',
-                speakers: ['cecilia_bossard'],
-                abstract: "<p>Vous cherchez un modèle de gestion des branches pour Git facile et pratique à utiliser ? Vous souhaitez avoir un workflow simple et agile pour gérer vos versions ?</p>" +
-                    "<p>Venez jeter un oeil à GitFlow !</p>" +
-                    "<p>Je vous présenterai ce workflow qui nous a permis de mieux organiser nos versions et de remplacer SVN par Git sans regret.</p>",
-                docs: [
-                    { name: 'Slides', url: 'http://www.slideshare.net/cecilia_bossard/git-flow-in-action', type: 'slideshare' }
-                ]
-            },
-            {
-                title: 'Tips and tricks for clean relational db schemas',
-                length: '45 min',
-                time: '20h',
-                type: 'quickie',
-                speakers: ['clement_delafargue'],
-                abstract: "<p>It can be usual for software developers to let the ORM take care of the database schema. In many cases it's a bad idea as it makes the data stored in your database brittle and hard to use confidently. I'll show a few tricks which will help you cleanly store and query data by using your database engine to its full power.</p>" +
-                    "<p>In some cases, using an ORM brings more problems than solutions. I'll explore these cases (they are more common than you think) and how to use the freedom given by having complete control over your schema and your queries:" +
-                    "<ul>" +
-                    "<li>indexes</li>" +
-                    "<li>semantic data types</li>" +
-                    "<li>query composition</li>" +
-                    "<li>window functions</li>" +
-                    "</ul>" +
-                    "<p>I'll show how to still be efficient and concise when going this path (with Jooq / Slick / Anorm)</p>",
-            }
+            title: "Java 8 en pratique",
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['gabriel_landais'],
+            abstract: "<p>Quelques exemples de réécriture de code legacy avec les nouvelles API Java 8.</p>",
+        },
+        {
+            title: 'Gitflow In Action',
+            length: '30 min',
+            time: '19h30',
+            type: 'quickie',
+            speakers: ['cecilia_bossard'],
+            abstract: "<p>Vous cherchez un modèle de gestion des branches pour Git facile et pratique à utiliser ? Vous souhaitez avoir un workflow simple et agile pour gérer vos versions ?</p>" +
+                "<p>Venez jeter un oeil à GitFlow !</p>" +
+                "<p>Je vous présenterai ce workflow qui nous a permis de mieux organiser nos versions et de remplacer SVN par Git sans regret.</p>",
+            docs: [
+                { name: 'Slides', url: 'http://www.slideshare.net/cecilia_bossard/git-flow-in-action', type: 'slideshare' }
+            ]
+        },
+        {
+            title: 'Tips and tricks for clean relational db schemas',
+            length: '45 min',
+            time: '20h',
+            type: 'quickie',
+            speakers: ['clement_delafargue'],
+            abstract: "<p>It can be usual for software developers to let the ORM take care of the database schema. In many cases it's a bad idea as it makes the data stored in your database brittle and hard to use confidently. I'll show a few tricks which will help you cleanly store and query data by using your database engine to its full power.</p>" +
+                "<p>In some cases, using an ORM brings more problems than solutions. I'll explore these cases (they are more common than you think) and how to use the freedom given by having complete control over your schema and your queries:" +
+                "<ul>" +
+                "<li>indexes</li>" +
+                "<li>semantic data types</li>" +
+                "<li>query composition</li>" +
+                "<li>window functions</li>" +
+                "</ul>" +
+                "<p>I'll show how to still be efficient and concise when going this path (with Jooq / Slick / Anorm)</p>",
+        }
         ],
         docs: [
             { name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=i4NcsrtZWOA', type: 'youtube' },
@@ -2709,26 +2742,26 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/317631',
         place: 'netapsys',
         subjects: [{
-                title: "BDD & Cucumber: Feature first",
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['renan_michaud'],
-                abstract: "<p>Imaginez un projet d’envergure mené en SCRUM avec un backlog constitué d’une multitude d’US plus ou moins organisées. Pensez-vous que ce Backlog ayant l’emprunte forte de la vie courante du BUILD puisse constituer votre référentiel fonctionnel ?" +
-                    " Non. L'approche BDD permet d'établir ce référentiel et d'en automatiser la vérification." +
-                    " Avec Cucumber, je vous propose de voir comment effectuer cette automatisation autant sur les web services que sur les IHM du poste de développement à la production !.</p>",
-            },
-            {
-                title: 'Let\'s invoke dynamite',
-                length: '1h30',
-                time: '19h30',
-                type: 'talk',
-                speakers: ['antoine_sabot_durand'],
-                abstract: "<p>Si l'arrivée d'InvokeDynamic dans Java 7 a marqué un tournant pour la création de langages basés sur la JVM, cette fonctionnalité est restée confidentielle dans l'univers des développeurs de frameworks Java et de Java EE.</p>" +
-                    "<p>Dans cette présentation nous reviendrons sur les particularités d'InvokeDynamic et sur sa mise en oeuvre en Java.</p>" +
-                    "<p>Ensuite nous verrons comment remplacer le mécanisme de Proxy utilisé dans CDI par des appels InvokeDynamic.</p>" +
-                    "<p>Enfin nous expliquerons comment la généralisation d'invokeDynamic pourrait marquer la mort des conteneurs et la fin de Java EE tel que nous le connaissons.</p>",
-            }
+            title: "BDD & Cucumber: Feature first",
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['renan_michaud'],
+            abstract: "<p>Imaginez un projet d’envergure mené en SCRUM avec un backlog constitué d’une multitude d’US plus ou moins organisées. Pensez-vous que ce Backlog ayant l’emprunte forte de la vie courante du BUILD puisse constituer votre référentiel fonctionnel ?" +
+                " Non. L'approche BDD permet d'établir ce référentiel et d'en automatiser la vérification." +
+                " Avec Cucumber, je vous propose de voir comment effectuer cette automatisation autant sur les web services que sur les IHM du poste de développement à la production !.</p>",
+        },
+        {
+            title: 'Let\'s invoke dynamite',
+            length: '1h30',
+            time: '19h30',
+            type: 'talk',
+            speakers: ['antoine_sabot_durand'],
+            abstract: "<p>Si l'arrivée d'InvokeDynamic dans Java 7 a marqué un tournant pour la création de langages basés sur la JVM, cette fonctionnalité est restée confidentielle dans l'univers des développeurs de frameworks Java et de Java EE.</p>" +
+                "<p>Dans cette présentation nous reviendrons sur les particularités d'InvokeDynamic et sur sa mise en oeuvre en Java.</p>" +
+                "<p>Ensuite nous verrons comment remplacer le mécanisme de Proxy utilisé dans CDI par des appels InvokeDynamic.</p>" +
+                "<p>Enfin nous expliquerons comment la généralisation d'invokeDynamic pourrait marquer la mort des conteneurs et la fin de Java EE tel que nous le connaissons.</p>",
+        }
         ],
     }, {
         id: '2015_03_11',
@@ -2738,39 +2771,39 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/312915',
         place: 'eartsup',
         subjects: [{
-                title: "Google App Engine, déployer plus vite que son ombre !",
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['remi_picard'],
-                abstract: "<p>\"Cloud\" par çi, \"Solutions PaaS\" par là. Mais quel est donc le sens de ces termes si présents ces dernières années ? Pourquoi tant de succès ? Et le développeur dans tout ça ?</p>" +
-                    "<p>Si vous vous posez toutes ces questions, venez assister à une présentation de la solution Google App Engine. Celle-ci sera illustrée par une démonstration du déploiement sur le Cloud d'un site Java JEE.</p>",
-            },
-            {
-                title: 'Introduction to Cassandra',
-                length: '1h00',
-                time: '19h30',
-                type: 'talk',
-                speakers: ['duyhai_doan'],
-                abstract: "<p>In this session, we’ll introduce Apache Cassandra, highlight its architecture, consistency and replication model to explain how the database can provide linear scalability, high availability and consistent performance.</p>" +
-                    "<p>There will be a quick overview of the Cassandra data model, query language and tooling for developers.</p>" +
-                    "<p>Sujet en français</p>",
-                docs: [
-                    { name: 'Les slides', url: 'http://www.slideshare.net/doanduyhai/cassandra-introduction-nantesjug', type: 'slideshare' }
-                ]
-            },
-            {
-                title: 'Cassandra nice use-cases and worst anti-patterns seen in production',
-                length: '30 min',
-                time: '20h30',
-                type: 'talk',
-                speakers: ['duyhai_doan'],
-                abstract: "<p>For this session, we'll show some best practices, dig into some nice use-cases seen in production but also the worst anti-patterns to avoid. There will be an interactive demo.</p>" +
-                    "<p>Sujet en français</p>",
-                docs: [
-                    { name: 'Les slides sur Killrchat', url: 'http://fr.slideshare.net/doanduyhai/killrchat-presentation', type: 'slideshare' }
-                ]
-            }
+            title: "Google App Engine, déployer plus vite que son ombre !",
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['remi_picard'],
+            abstract: "<p>\"Cloud\" par çi, \"Solutions PaaS\" par là. Mais quel est donc le sens de ces termes si présents ces dernières années ? Pourquoi tant de succès ? Et le développeur dans tout ça ?</p>" +
+                "<p>Si vous vous posez toutes ces questions, venez assister à une présentation de la solution Google App Engine. Celle-ci sera illustrée par une démonstration du déploiement sur le Cloud d'un site Java JEE.</p>",
+        },
+        {
+            title: 'Introduction to Cassandra',
+            length: '1h00',
+            time: '19h30',
+            type: 'talk',
+            speakers: ['duyhai_doan'],
+            abstract: "<p>In this session, we’ll introduce Apache Cassandra, highlight its architecture, consistency and replication model to explain how the database can provide linear scalability, high availability and consistent performance.</p>" +
+                "<p>There will be a quick overview of the Cassandra data model, query language and tooling for developers.</p>" +
+                "<p>Sujet en français</p>",
+            docs: [
+                { name: 'Les slides', url: 'http://www.slideshare.net/doanduyhai/cassandra-introduction-nantesjug', type: 'slideshare' }
+            ]
+        },
+        {
+            title: 'Cassandra nice use-cases and worst anti-patterns seen in production',
+            length: '30 min',
+            time: '20h30',
+            type: 'talk',
+            speakers: ['duyhai_doan'],
+            abstract: "<p>For this session, we'll show some best practices, dig into some nice use-cases seen in production but also the worst anti-patterns to avoid. There will be an interactive demo.</p>" +
+                "<p>Sujet en français</p>",
+            docs: [
+                { name: 'Les slides sur Killrchat', url: 'http://fr.slideshare.net/doanduyhai/killrchat-presentation', type: 'slideshare' }
+            ]
+        }
         ],
         docs: [
             { name: 'Slides d\'intro', url: 'https://docs.google.com/presentation/d/1bOwzcFsAskoVdozoo-ClgLSxK4IDJhlUpPz_hSTl2_Y/edit?usp=sharing', type: 'drive' },
@@ -2785,33 +2818,33 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/310620',
         place: 'eartsup',
         subjects: [{
-                title: "Chef, oui Chef !",
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['francois_kha'],
-                abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre." +
-                    "<p>par François Kha <a href='http://twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
-                docs: [
-                    { name: 'Les slides', url: 'http://fr.slideshare.net/francoiskha/20150216-quickie-chef-au-jug-nantes', type: 'slideshare' }
-                ]
-            },
-            {
-                title: 'Soirée Search Lucene/Solr',
-                length: '1h30',
-                time: '19h30',
-                type: 'talk',
-                speakers: ['olivier_tavard'],
-                abstract: "<p>Découvrez les outils open source de Search qui ont déjà convaincu de nombreuses entreprises, et qui est proposé par la fondation Apache: Lucene / Solr.</p>" +
-                    "<p>Dans la première partie de soirée, histoire de savoir de quoi on parle, Olivier vous présentera les projets Lucene et Solr, leurs composants, leur architecture, leurs features, et on saupoudrera tout ça de scalabilité avec SolrCloud (avec démo).</p>" +
-                    "<p>En deuxième partie de soirée, Olivier vous présentera l’écosystème (ou du moins une partie) qui gravite autour de Lucene /Solr: ManifoldCF qui permet de gérer les connexions aux sources de données (avec démo d’indexation de contenu et recherche en live grâce à Datafari) et Hadoop, car il faut bien parler de Big Data, et parce que Solr devient un des outils de référence pour faire du search sur Hadoop.</p>" +
-                    "Avec tout ça vous aurez dans vos bagages de quoi gérer des Big projets avec du Big search dedans.</p>",
-                docs: [{
-                    name: 'Les slides',
-                    url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug',
-                    type: 'slideshare'
-                }]
-            }
+            title: "Chef, oui Chef !",
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['francois_kha'],
+            abstract: "Nous allons vous faire un petit retour d'expérience sur la mise en place de Chef à CBP pour livrer plus fréquemment nos applications Java/JEE. Qu'est-ce que Chef ? Pourquoi l'utiliser ? Comment ? Pour quels usages ?<br/> Deux développeurs, un adminsys pour vous répondre." +
+                "<p>par François Kha <a href='http://twitter.com/fanchok'>@fanchok</a> - Sébastien Errien <a href='http://twitter.com/SebErrien'>@SebErrien</a> - Bastien Jové <a href='http://twitter.com/Tensibai'>@Tensibai</a></p>",
+            docs: [
+                { name: 'Les slides', url: 'http://fr.slideshare.net/francoiskha/20150216-quickie-chef-au-jug-nantes', type: 'slideshare' }
+            ]
+        },
+        {
+            title: 'Soirée Search Lucene/Solr',
+            length: '1h30',
+            time: '19h30',
+            type: 'talk',
+            speakers: ['olivier_tavard'],
+            abstract: "<p>Découvrez les outils open source de Search qui ont déjà convaincu de nombreuses entreprises, et qui est proposé par la fondation Apache: Lucene / Solr.</p>" +
+                "<p>Dans la première partie de soirée, histoire de savoir de quoi on parle, Olivier vous présentera les projets Lucene et Solr, leurs composants, leur architecture, leurs features, et on saupoudrera tout ça de scalabilité avec SolrCloud (avec démo).</p>" +
+                "<p>En deuxième partie de soirée, Olivier vous présentera l’écosystème (ou du moins une partie) qui gravite autour de Lucene /Solr: ManifoldCF qui permet de gérer les connexions aux sources de données (avec démo d’indexation de contenu et recherche en live grâce à Datafari) et Hadoop, car il faut bien parler de Big Data, et parce que Solr devient un des outils de référence pour faire du search sur Hadoop.</p>" +
+                "Avec tout ça vous aurez dans vos bagages de quoi gérer des Big projets avec du Big search dedans.</p>",
+            docs: [{
+                name: 'Les slides',
+                url: 'http://fr.slideshare.net/francelabs/presentation-lucene-solr-datafari-nantes-jug',
+                type: 'slideshare'
+            }]
+        }
         ],
         docs: [
             { name: 'Vidéo de la soirée', url: 'https://www.youtube.com/watch?v=RpAGb8fO97k', type: 'youtube' }
@@ -2825,35 +2858,35 @@ var njEvents = [
         register: 'http://guestli.st/306156',
         place: 'netapsys',
         subjects: [{
-                title: 'Pub/Sub avec MongoDB',
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['tugdual_grall'],
-                abstract: "Venez découvrir comment créer un système pub/sub de messages/notifications avec MongoDB.<br/>Durant ce quickie nous utiliserons : des capped collections, tailable cursors, Java, Node, WebSocket/Socket.io, .... pour créer une application de notification en temps réel.",
-                docs: [{
-                    name: 'La vidéo de la soirée',
-                    url: 'http://youtu.be/ezZkiQLb7BE',
-                    type: 'youtube'
-                }]
-            },
-            {
-                title: 'JavaFX.forReal()',
-                length: '1h30',
-                time: '19h30',
-                type: 'talk',
-                speakers: ['thierry_wasylcszenko'],
-                abstract: '<p><b>En reve:</b><br/>JavaFX (8) ... le buzz word d\'Oracle, en terme de développement de clients lourds, qui le présente comme le successeur de Swing. Tout est faisable facilement en JavaFX.</p><p><b>Dans la vraie vie:</b><br/>Mais “Swing c\'est mort”, “quelqu\'un fait-il encore du desktop?”, "y a-t-il sérieusement des gens qui utilisent JavaFX?”, “l\'avenir c\'est du web 2.0 (et au-delà) avec du *JS”, “moi je ne fais que du web”.<br/>Ces remarques vous semblent-elles familières? Cette session est faite pour vous car JavaFX répondra sans doute à toutes ces interrogations mais aussi à vos besoins.<br/>Cessons de (trop) rêver, soyons pragmatiques et revenons à la réalité. Est-il possible de réaliser des applications JavaFX complexes, pas uniquement un Bonjour Monde, et pourquoi ne pas coupler cela à du Vertx, asciidoctor, LeapMotion, JavaScript, OSGi & friends?<br/>JavaFX peut-il concurrencer le web de demain voire en être complémentaire? JavaFX peut-il répondre à vos besoins?<br/>Découvrons-le ensemble lors de cette session orientée REX. Ce n\'est pas toujours aussi simple que l\'on pourrait se l\'imaginer bien que ce soit la réalité.</p>',
-                docs: [{
-                    name: 'Les slides',
-                    url: 'http://fr.slideshare.net/twasyl/javafxforreal',
-                    type: 'slideshare'
-                }, {
-                    name: 'La vidéo de la soirée',
-                    url: 'http://youtu.be/c011LBQRWbs',
-                    type: 'youtube'
-                }]
-            }
+            title: 'Pub/Sub avec MongoDB',
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['tugdual_grall'],
+            abstract: "Venez découvrir comment créer un système pub/sub de messages/notifications avec MongoDB.<br/>Durant ce quickie nous utiliserons : des capped collections, tailable cursors, Java, Node, WebSocket/Socket.io, .... pour créer une application de notification en temps réel.",
+            docs: [{
+                name: 'La vidéo de la soirée',
+                url: 'http://youtu.be/ezZkiQLb7BE',
+                type: 'youtube'
+            }]
+        },
+        {
+            title: 'JavaFX.forReal()',
+            length: '1h30',
+            time: '19h30',
+            type: 'talk',
+            speakers: ['thierry_wasylcszenko'],
+            abstract: '<p><b>En reve:</b><br/>JavaFX (8) ... le buzz word d\'Oracle, en terme de développement de clients lourds, qui le présente comme le successeur de Swing. Tout est faisable facilement en JavaFX.</p><p><b>Dans la vraie vie:</b><br/>Mais “Swing c\'est mort”, “quelqu\'un fait-il encore du desktop?”, "y a-t-il sérieusement des gens qui utilisent JavaFX?”, “l\'avenir c\'est du web 2.0 (et au-delà) avec du *JS”, “moi je ne fais que du web”.<br/>Ces remarques vous semblent-elles familières? Cette session est faite pour vous car JavaFX répondra sans doute à toutes ces interrogations mais aussi à vos besoins.<br/>Cessons de (trop) rêver, soyons pragmatiques et revenons à la réalité. Est-il possible de réaliser des applications JavaFX complexes, pas uniquement un Bonjour Monde, et pourquoi ne pas coupler cela à du Vertx, asciidoctor, LeapMotion, JavaScript, OSGi & friends?<br/>JavaFX peut-il concurrencer le web de demain voire en être complémentaire? JavaFX peut-il répondre à vos besoins?<br/>Découvrons-le ensemble lors de cette session orientée REX. Ce n\'est pas toujours aussi simple que l\'on pourrait se l\'imaginer bien que ce soit la réalité.</p>',
+            docs: [{
+                name: 'Les slides',
+                url: 'http://fr.slideshare.net/twasyl/javafxforreal',
+                type: 'slideshare'
+            }, {
+                name: 'La vidéo de la soirée',
+                url: 'http://youtu.be/c011LBQRWbs',
+                type: 'youtube'
+            }]
+        }
         ]
     }, {
         id: '2014_12_15',
@@ -2884,26 +2917,26 @@ var njEvents = [
         register: 'http://guestli.st/296148',
         place: 'epsi',
         subjects: [{
-                title: 'Les backstages de Devfest 2014',
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['jean-francois-garreau'],
-            },
-            {
-                title: 'Stresser vos applications web avec Gatling',
-                length: '1 h 30',
-                time: '19h30',
-                type: 'talk',
-                abstract: "<p>Vous vous posez les questions :<ul><li>Mon application web (quelque soit la technologie) tient-elle la charge ?</li><li>Jusqu'à combien d'utilisateurs mon application a des temps de réponse acceptable ?</li></ul></p>" +
-                    "<p><a href='http://gatling.io/'>Gatling</a> va vous aider à y répondre.<ul><li>La philosophie de l'outil, en quoi il se distingue de ses concurrents</li><li>Une démonstration de son utilisation avec une application concrète</li></ul></p>",
-                speakers: ['rossi_oddet'],
-                docs: [{
-                    name: 'Les slides',
-                    url: 'http://fr.slideshare.net/RossiOddet/jug-nantes-novembre-2014',
-                    type: 'slideshare'
-                }]
-            }
+            title: 'Les backstages de Devfest 2014',
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['jean-francois-garreau'],
+        },
+        {
+            title: 'Stresser vos applications web avec Gatling',
+            length: '1 h 30',
+            time: '19h30',
+            type: 'talk',
+            abstract: "<p>Vous vous posez les questions :<ul><li>Mon application web (quelque soit la technologie) tient-elle la charge ?</li><li>Jusqu'à combien d'utilisateurs mon application a des temps de réponse acceptable ?</li></ul></p>" +
+                "<p><a href='http://gatling.io/'>Gatling</a> va vous aider à y répondre.<ul><li>La philosophie de l'outil, en quoi il se distingue de ses concurrents</li><li>Une démonstration de son utilisation avec une application concrète</li></ul></p>",
+            speakers: ['rossi_oddet'],
+            docs: [{
+                name: 'Les slides',
+                url: 'http://fr.slideshare.net/RossiOddet/jug-nantes-novembre-2014',
+                type: 'slideshare'
+            }]
+        }
         ]
     },
     {
@@ -2914,23 +2947,23 @@ var njEvents = [
         register: 'http://guestli.st/293664',
         place: 'cantine_juton',
         subjects: [{
-                title: 'Une fille dans mon équipe',
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['cecilia_bossard', 'jean_palies'],
-                abstract: '<p>Actuellement, 20% des postes dans le domaine de l\'IT sont occupés par des femmes, et la tendance ne va pas en s\'arrangeant. Pourquoi ce désintérêt ?</p>' +
-                    '<p>Le groupe Women In Technology vous propose de revenir sur ce sujet et de présenter son approche pour essayer d’inverser la tendance.</p>',
-            },
-            {
-                title: 'Java Embarqué / Internet des Objects avec IS2T',
-                length: '1 h 30',
-                time: '19h30',
-                type: 'talk',
-                abstract: '<p>A travers une présentation de la plateforme d\'exécution embarquée MicroEJ, la société IS2T parlera du Java dans le monde des objets intelligents ou comment l\'usage de Java permet d\'accélérer la conception d\'un logiciel dans l\'embarqué contraint et d\'en réduire les coûts.  </p>' +
-                    '<p></p>',
-                speakers: ['fred_rivard'],
-            }
+            title: 'Une fille dans mon équipe',
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['cecilia_bossard', 'jean_palies'],
+            abstract: '<p>Actuellement, 20% des postes dans le domaine de l\'IT sont occupés par des femmes, et la tendance ne va pas en s\'arrangeant. Pourquoi ce désintérêt ?</p>' +
+                '<p>Le groupe Women In Technology vous propose de revenir sur ce sujet et de présenter son approche pour essayer d’inverser la tendance.</p>',
+        },
+        {
+            title: 'Java Embarqué / Internet des Objects avec IS2T',
+            length: '1 h 30',
+            time: '19h30',
+            type: 'talk',
+            abstract: '<p>A travers une présentation de la plateforme d\'exécution embarquée MicroEJ, la société IS2T parlera du Java dans le monde des objets intelligents ou comment l\'usage de Java permet d\'accélérer la conception d\'un logiciel dans l\'embarqué contraint et d\'en réduire les coûts.  </p>' +
+                '<p></p>',
+            speakers: ['fred_rivard'],
+        }
         ]
     }, {
         id: '2014_09_29',
@@ -2940,28 +2973,28 @@ var njEvents = [
         register: 'http://guestli.st/286752',
         place: 'eartsup',
         subjects: [{
-                title: 'Codehale Metrics',
-                length: '30 min',
-                time: '19h',
-                type: 'quickie',
-                speakers: ['damien_raude_morvan'],
-                abstract: '<p>En 2014, un développeur Java est plutôt habitué à évaluer la "qualité" de son code - avec SonarQube ou des processus de peer review.</p>' +
-                    '<p>Mais lorsqu\'on lui parle de la "production", il est souvent désarmé : les métriques qu\'on lui propose ne correspondent à rien de connu et il n\'a pas assez d\'informations pour guider ses améliorations.</p>' +
-                    '<p>Dans ce quicky, j’essaierais de vous présenter la solution que j\'utilise : le framework Codehale Metrics.</p>' +
-                    '<p>Ce dernier vise à permettre au développeur de créer des indicateurs techniques ou fonctionnels. Il propose de nombreux choix d\'intégration avec vos frameworks préférés et permet un export des métriques dans de nombreux formats.</p>',
-                docs: [
-                    { name: 'Support de présentation', url: 'http://www.drazzib.com/projects/docs/metrics/#/', type: 'html' }
-                ]
-            },
-            {
-                title: 'Lucy in the sky with docker',
-                length: '1 h 30',
-                time: '19h30',
-                type: 'talk',
-                abstract: '<p>On parle beaucoup de Docker en ce moment. Je vais tenter de vous expliquer comment fonctionne Docker comme j’aurais aimé qu’on me l’explique.</p>' +
-                    '<p>Nous allons apprendre à prendre en main Docker pour construire une application web Java 8 et la déployer sur la Google Cloud Platform.</p>',
-                speakers: ['david_gageot'],
-            }
+            title: 'Codehale Metrics',
+            length: '30 min',
+            time: '19h',
+            type: 'quickie',
+            speakers: ['damien_raude_morvan'],
+            abstract: '<p>En 2014, un développeur Java est plutôt habitué à évaluer la "qualité" de son code - avec SonarQube ou des processus de peer review.</p>' +
+                '<p>Mais lorsqu\'on lui parle de la "production", il est souvent désarmé : les métriques qu\'on lui propose ne correspondent à rien de connu et il n\'a pas assez d\'informations pour guider ses améliorations.</p>' +
+                '<p>Dans ce quicky, j’essaierais de vous présenter la solution que j\'utilise : le framework Codehale Metrics.</p>' +
+                '<p>Ce dernier vise à permettre au développeur de créer des indicateurs techniques ou fonctionnels. Il propose de nombreux choix d\'intégration avec vos frameworks préférés et permet un export des métriques dans de nombreux formats.</p>',
+            docs: [
+                { name: 'Support de présentation', url: 'http://www.drazzib.com/projects/docs/metrics/#/', type: 'html' }
+            ]
+        },
+        {
+            title: 'Lucy in the sky with docker',
+            length: '1 h 30',
+            time: '19h30',
+            type: 'talk',
+            abstract: '<p>On parle beaucoup de Docker en ce moment. Je vais tenter de vous expliquer comment fonctionne Docker comme j’aurais aimé qu’on me l’explique.</p>' +
+                '<p>Nous allons apprendre à prendre en main Docker pour construire une application web Java 8 et la déployer sur la Google Cloud Platform.</p>',
+            speakers: ['david_gageot'],
+        }
         ]
     }, {
         id: '2014_06_30',
@@ -2972,34 +3005,34 @@ var njEvents = [
         register: 'http://guestli.st/265998',
         place: 'eartsup',
         subjects: [{
-                title: 'France - Nigéria',
-                length: '90 min',
-                type: 'foot',
-                time: '18h',
-                speakers: ['didier_deschamps'],
-                abstract: '<p>Huitième de finale de la coupe du monde.</p> '
-            },
-            {
-                title: 'Comment planner avec Flyway',
-                length: '30 min',
-                time: '20h',
-                type: 'quickie',
-                speakers: ['ludovic_praud'],
-                abstract: '<p>Pour avoir l\'esprit tranquille avec vos migrations SQL en DEV ou en PROD, voici un petit retour d\'expérience de 2 ans d\'utilisation quotidienne de Flyway.</p> ',
-                docs: [
-                    { name: 'Support de présentation', url: 'https://drive.google.com/file/d/0B41V8oJXwyYhb1pTeHpsQzNsRmhYd3ZPMEhsVHduTm9tSXBr/edit?usp=sharing', type: 'drive' }
-                ]
-            },
-            {
-                title: 'Les Patterns de Cache',
-                length: '1 h 30',
-                time: '20h30',
-                type: 'talk',
-                abstract: '<p>Comment diminuer le temps de traitement d’un batch ? Le temps d’exécution d\'une requête ? Le cache est un des outils du développeur pour résoudre ses problématiques quotidiennes et les concepts qui gravitent autour sont nombreux.</p>' +
-                    '<p>Si les mots Cache Aside, Write-Behind, Read-Through ne vous sont pas familiers, cela fait pourtant parti des architectures qu’il est facile à mettre en place et qui dans certains contextes peuvent diminuer de manière drastique la durée d’un batch ou d’une requête.</p>' +
-                    '<p>Nous aborderons également les différents moyens de scaler horizontalement et verticalement le cache (réplication, miroir, partitionnement) en nous appuyant sur différentes librairies existantes (GemFire, Coherence, Terracotta, Ehcache, Infinispan, Hazelcast) mais également NoSQL et plus généralement les In Memory Data Grid (IMDG)</p>',
-                speakers: ['mathilde_lemee'],
-            }
+            title: 'France - Nigéria',
+            length: '90 min',
+            type: 'foot',
+            time: '18h',
+            speakers: ['didier_deschamps'],
+            abstract: '<p>Huitième de finale de la coupe du monde.</p> '
+        },
+        {
+            title: 'Comment planner avec Flyway',
+            length: '30 min',
+            time: '20h',
+            type: 'quickie',
+            speakers: ['ludovic_praud'],
+            abstract: '<p>Pour avoir l\'esprit tranquille avec vos migrations SQL en DEV ou en PROD, voici un petit retour d\'expérience de 2 ans d\'utilisation quotidienne de Flyway.</p> ',
+            docs: [
+                { name: 'Support de présentation', url: 'https://drive.google.com/file/d/0B41V8oJXwyYhb1pTeHpsQzNsRmhYd3ZPMEhsVHduTm9tSXBr/edit?usp=sharing', type: 'drive' }
+            ]
+        },
+        {
+            title: 'Les Patterns de Cache',
+            length: '1 h 30',
+            time: '20h30',
+            type: 'talk',
+            abstract: '<p>Comment diminuer le temps de traitement d’un batch ? Le temps d’exécution d\'une requête ? Le cache est un des outils du développeur pour résoudre ses problématiques quotidiennes et les concepts qui gravitent autour sont nombreux.</p>' +
+                '<p>Si les mots Cache Aside, Write-Behind, Read-Through ne vous sont pas familiers, cela fait pourtant parti des architectures qu’il est facile à mettre en place et qui dans certains contextes peuvent diminuer de manière drastique la durée d’un batch ou d’une requête.</p>' +
+                '<p>Nous aborderons également les différents moyens de scaler horizontalement et verticalement le cache (réplication, miroir, partitionnement) en nous appuyant sur différentes librairies existantes (GemFire, Coherence, Terracotta, Ehcache, Infinispan, Hazelcast) mais également NoSQL et plus généralement les In Memory Data Grid (IMDG)</p>',
+            speakers: ['mathilde_lemee'],
+        }
         ]
     }, {
         id: '2014_05_20',
@@ -3009,30 +3042,30 @@ var njEvents = [
         register: 'http://guestli.st/254883',
         place: 'epsi',
         subjects: [{
-                title: 'Devoxx France 2014',
-                length: '30 min',
-                type: 'quickie',
-                speakers: ['thibaud_raison', 'pierre_cosson'],
-                abstract: '<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> ',
-                docs: [{
-                    name: 'Support de présentation',
-                    url: 'https://drive.google.com/file/d/0BzLO1XLmywLJS1Q4alIxeFRxTTA/edit?usp=sharing',
-                    type: 'drive'
-                }, {
-                    name: 'Listing ressources Devoxx 2014',
-                    url: 'https://drive.google.com/file/d/0BzLO1XLmywLJbWczVU55RGFFMEE/edit?usp=sharing',
-                    type: 'drive'
-                }]
-            },
-            {
-                title: 'Gradle ne fait pas que remplacer Maven',
-                length: '1 h 30',
-                type: 'talk',
-                abstract: '<p>Il faut que vous le sachiez, Gradle ne fait pas que remplacer Maven. Il répond à d\'autres problématiques : conventions d\'entreprise, intégration continue, DevOps, parallélisme, gestion avancée des dépendances, ' +
-                    'variantes de build déclarative, compilation incrémentale, projets polyglottes, artéfacts multiples...</p>' +
-                    '<p>Dans cette session, vous apprendrez pourquoi on ne peut pas réduire Gradle à un Maven sans XML ou un Ant sous stéroïdes. Vous verrez qu\'écrire une build sera plus jamais une punition. Pire, ça pourrait devenir un plaisir !',
-                speakers: ['cedric_champeau'],
-            }
+            title: 'Devoxx France 2014',
+            length: '30 min',
+            type: 'quickie',
+            speakers: ['thibaud_raison', 'pierre_cosson'],
+            abstract: '<p>Compte-rendu et tour d\'horizon de l\'édition 2014 de Devoxx France.</p> ',
+            docs: [{
+                name: 'Support de présentation',
+                url: 'https://drive.google.com/file/d/0BzLO1XLmywLJS1Q4alIxeFRxTTA/edit?usp=sharing',
+                type: 'drive'
+            }, {
+                name: 'Listing ressources Devoxx 2014',
+                url: 'https://drive.google.com/file/d/0BzLO1XLmywLJbWczVU55RGFFMEE/edit?usp=sharing',
+                type: 'drive'
+            }]
+        },
+        {
+            title: 'Gradle ne fait pas que remplacer Maven',
+            length: '1 h 30',
+            type: 'talk',
+            abstract: '<p>Il faut que vous le sachiez, Gradle ne fait pas que remplacer Maven. Il répond à d\'autres problématiques : conventions d\'entreprise, intégration continue, DevOps, parallélisme, gestion avancée des dépendances, ' +
+                'variantes de build déclarative, compilation incrémentale, projets polyglottes, artéfacts multiples...</p>' +
+                '<p>Dans cette session, vous apprendrez pourquoi on ne peut pas réduire Gradle à un Maven sans XML ou un Ant sous stéroïdes. Vous verrez qu\'écrire une build sera plus jamais une punition. Pire, ça pourrait devenir un plaisir !',
+            speakers: ['cedric_champeau'],
+        }
         ]
     },
     {
@@ -3043,27 +3076,27 @@ var njEvents = [
         register: 'http://guestli.st/245676',
         place: 'eartsup',
         subjects: [{
-                title: 'Write Java Apps Faster Using SaaS Developer Environments',
-                length: '45 min',
-                type: 'talk',
-                speakers: ['tyler_jewell', 'stevan_le_meur'],
-                abstract: '<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p>' +
-                    '<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p>' +
-                    '<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p>' +
-                    '<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p>',
-            },
-            {
-                title: 'Faites un « départ lancé » sur les technos Angular JS, Spring MVC, JPA, REST/HATEOAS',
-                length: '1 h 00',
-                type: 'talk',
-                abstract: '<p>Présentation du principe de « Development Accelerator » avec un générateur de code simple et pragmatique.</p>' +
-                    '<p>Démos :  génération de deux types d’applications immédiatement utilisables :' +
-                    '<ul>' +
-                    '  <li>services RESTful avec Spring Data Rest / HATEOAS</li>' +
-                    '  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>' +
-                    '<ul></p>',
-                speakers: ['laurent_guerin', 'benoit_wilcox', 'ludovic_chaboud'],
-            }
+            title: 'Write Java Apps Faster Using SaaS Developer Environments',
+            length: '45 min',
+            type: 'talk',
+            speakers: ['tyler_jewell', 'stevan_le_meur'],
+            abstract: '<p>The Java community is filled with terrific solutions for enabling development of apps. Every Java developer has their choice of tools and the openness of the platform makes it accessible to anyone and extensible by everyone.</p>' +
+                '<p>But why then, is 99% of all development still done locally? While sales, marketing, customer service, support, finance, and infrastructure has steadily moved to the cloud over the past decade, Java development remains rooted on the desktop. Will it always be this way? </p>' +
+                '<p>In this session, we will discuss the evolution of remote development of Java applications and the emergence of SaaS Developer Environments. Often times called a cloud IDE, a SaaS environment can eliminate configuration, increase collaboration, and alleviate management concerns around consistency, compliance, and velocity. In essence, SaaS developer environments can make agile, more agile.</p>' +
+                '<p>We will present a beta of the Codenvy Cloud, a sister system to codenvy.com that has been in development since 2011.</p>',
+        },
+        {
+            title: 'Faites un « départ lancé » sur les technos Angular JS, Spring MVC, JPA, REST/HATEOAS',
+            length: '1 h 00',
+            type: 'talk',
+            abstract: '<p>Présentation du principe de « Development Accelerator » avec un générateur de code simple et pragmatique.</p>' +
+                '<p>Démos :  génération de deux types d’applications immédiatement utilisables :' +
+                '<ul>' +
+                '  <li>services RESTful avec Spring Data Rest / HATEOAS</li>' +
+                '  <li>application AngularJS, REST/SpringMVC/JPA ou Spring Data</li>' +
+                '<ul></p>',
+            speakers: ['laurent_guerin', 'benoit_wilcox', 'ludovic_chaboud'],
+        }
         ]
     },
     {
@@ -3074,28 +3107,28 @@ var njEvents = [
         register: 'http://guestlistapp.com/events/234840',
         place: 'eartsup',
         subjects: [{
-                title: 'Dart, c\'est aussi Angular',
-                length: '45 min',
-                type: 'talk',
-                speakers: ['pierre_reliquet'],
-                abstract: '<p>AngularJS n\'est plus seul! Il possède désormais un concurrent de premier choix car soutenu par ... Google!</p>' +
-                    '<p>Il vous est donc désormais possible de rassurer vos DSI en argumentant que vous n\'allez pas coder votre front en JS, que vous allez utiliser un langage "réellement" typé [ressemblant à java] et qu\'en plus vous aurez les fonctionnalités d\'Angular (2-way binding, filtres...)! Ce concurrent c\'est AngularDart qui est, en réalité, plus qu\'un simple portage d\'AngularJS pour Dart.</p>' +
-                    '<p>Ce quickie a pour but de vous présenter rapidement comment, lorsque Dart rencontre Angular, les choses peuvent devenir rapidement plaisantes et puissantes.</p>',
-                docs: [{
-                    name: 'Les sources du projet Angular Dart',
-                    url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
-                    type: 'github'
-                }]
-            },
-            {
-                title: 'Du Legacy Au Cloud en Moins d\'Une Heure',
-                length: '1 h 00',
-                type: 'talk',
-                abstract: '<p>Il est de plus en plus simple de développer des applications web de zéro, pour les héberger sur le cloud. Mais est-ce aussi simple quand on part de code existant ? Les techniques adaptées à un projet tout neuf sont-elles utilisables de la même façon ?</p>' +
-                    '<p>Nous verrons qu’il est possible de partir d’une application legacy, de lui ajouter des fonctionnalités et de la déployer en continu sur le cloud en moins d’une heure.</p>' +
-                    '<p>Cette session de live coding sera l’occasion de découvrir des techniques de refactoring, de développement piloté par les tests, de test et d’inspection continue. Et ce, en tentant à chaque étape de faire les choses les plus simples possibles.</p>',
-                speakers: ['david_gageot'],
-            }
+            title: 'Dart, c\'est aussi Angular',
+            length: '45 min',
+            type: 'talk',
+            speakers: ['pierre_reliquet'],
+            abstract: '<p>AngularJS n\'est plus seul! Il possède désormais un concurrent de premier choix car soutenu par ... Google!</p>' +
+                '<p>Il vous est donc désormais possible de rassurer vos DSI en argumentant que vous n\'allez pas coder votre front en JS, que vous allez utiliser un langage "réellement" typé [ressemblant à java] et qu\'en plus vous aurez les fonctionnalités d\'Angular (2-way binding, filtres...)! Ce concurrent c\'est AngularDart qui est, en réalité, plus qu\'un simple portage d\'AngularJS pour Dart.</p>' +
+                '<p>Ce quickie a pour but de vous présenter rapidement comment, lorsque Dart rencontre Angular, les choses peuvent devenir rapidement plaisantes et puissantes.</p>',
+            docs: [{
+                name: 'Les sources du projet Angular Dart',
+                url: 'https://github.com/PierreReliquet/angulardart_nantesjug',
+                type: 'github'
+            }]
+        },
+        {
+            title: 'Du Legacy Au Cloud en Moins d\'Une Heure',
+            length: '1 h 00',
+            type: 'talk',
+            abstract: '<p>Il est de plus en plus simple de développer des applications web de zéro, pour les héberger sur le cloud. Mais est-ce aussi simple quand on part de code existant ? Les techniques adaptées à un projet tout neuf sont-elles utilisables de la même façon ?</p>' +
+                '<p>Nous verrons qu’il est possible de partir d’une application legacy, de lui ajouter des fonctionnalités et de la déployer en continu sur le cloud en moins d’une heure.</p>' +
+                '<p>Cette session de live coding sera l’occasion de découvrir des techniques de refactoring, de développement piloté par les tests, de test et d’inspection continue. Et ce, en tentant à chaque étape de faire les choses les plus simples possibles.</p>',
+            speakers: ['david_gageot'],
+        }
         ]
     },
     {
@@ -3106,42 +3139,42 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/230988',
         place: 'epsi',
         subjects: [{
-                title: 'Vécu - Gros projet en JAVA & AngularJS',
-                length: '45 min',
-                type: 'talk',
-                speakers: ['sebastien_roul', 'medy_belmokhtar'],
-                abstract: '<p>Comment une équipe Java attaque un projet avec de l\'Angular : Cette sale bête qui fait des miracles :o)</p>' +
-                    '<p>Retour sur d\'experience sur un gros projet :' +
-                    '<ul>' +
-                    '<li>Comment organiser l\'équipes</li>' +
-                    '<li>Les pièges dans lesquels nous sommes tombés</li>' +
-                    '<li>Le choc de deux cultures... ou pas !</li>' +
-                    '<li>Les clés de succès que nous avons trouvé</li>' +
-                    '</ul>' +
-                    '</p>' +
-                    '<p>Focus sur le vécu d\'une équipe qui est passée en 6 mois à un projet multi-langages. </li>' +
-                    '</ul>' +
-                    '</p>',
-                docs: [{
-                    name: 'La vidéo de la soirée',
-                    url: 'http://youtu.be/Rgbcjb_rVIM',
-                    type: 'youtube'
-                }]
-            },
-            {
-                title: 'Travail collaboratif en temps-réel : quand WebSocket rencontre Asciidoctor...',
-                length: '1 h 00',
-                type: 'talk',
-                abstract: '<p>Ecrire de la documentation technique est primordial à la réussite d\'un projet. Afin d\'être efficace et d\'en finir avec les pertes de temps dues à l\'utilisation des Word, Open Office et consort, le projet Asciidoctor a vu le jour en 2012. Il est de plus en plus utilisé du fait de sa simplicité, sa rapidité et ses possibilités.</p>' +
-                    '<p>Parallèlement, mi 2013 la nouvelle spécification Java EE  était officiellement annoncée avec 4 nouvelles JSR dont la JSR 356 : Java API for WebSocket 1.0. Ce nouveau standard (couplé à JSON-P et JAX-RS) permet aux applications Java EE 7 de s\'interfacer très facilement avec les applications HTML5.</p>' +
-                    '<p>Dans cette conférence vous verrez comment il devient enfin intéressant d\'écrire de la documentation technique en équipe grâce à la mise en oeuvre des technologies Java EE 7 / HTML 5 et Asciidoctor (+ du AngularJS). Cet ensemble de technologie sera utilisé pour créer un éditeur de travail collaboratif en temps réel. En tant que spectateur actif, vous pourrez participer à la démonstration avec d\'autres membres de l\'assemblée.</p>',
-                speakers: ['maxime_greau'],
-                docs: [{
-                    name: 'La vidéo de la soirée',
-                    url: 'http://youtu.be/2XJo3UmT80U',
-                    type: 'youtube'
-                }]
-            }
+            title: 'Vécu - Gros projet en JAVA & AngularJS',
+            length: '45 min',
+            type: 'talk',
+            speakers: ['sebastien_roul', 'medy_belmokhtar'],
+            abstract: '<p>Comment une équipe Java attaque un projet avec de l\'Angular : Cette sale bête qui fait des miracles :o)</p>' +
+                '<p>Retour sur d\'experience sur un gros projet :' +
+                '<ul>' +
+                '<li>Comment organiser l\'équipes</li>' +
+                '<li>Les pièges dans lesquels nous sommes tombés</li>' +
+                '<li>Le choc de deux cultures... ou pas !</li>' +
+                '<li>Les clés de succès que nous avons trouvé</li>' +
+                '</ul>' +
+                '</p>' +
+                '<p>Focus sur le vécu d\'une équipe qui est passée en 6 mois à un projet multi-langages. </li>' +
+                '</ul>' +
+                '</p>',
+            docs: [{
+                name: 'La vidéo de la soirée',
+                url: 'http://youtu.be/Rgbcjb_rVIM',
+                type: 'youtube'
+            }]
+        },
+        {
+            title: 'Travail collaboratif en temps-réel : quand WebSocket rencontre Asciidoctor...',
+            length: '1 h 00',
+            type: 'talk',
+            abstract: '<p>Ecrire de la documentation technique est primordial à la réussite d\'un projet. Afin d\'être efficace et d\'en finir avec les pertes de temps dues à l\'utilisation des Word, Open Office et consort, le projet Asciidoctor a vu le jour en 2012. Il est de plus en plus utilisé du fait de sa simplicité, sa rapidité et ses possibilités.</p>' +
+                '<p>Parallèlement, mi 2013 la nouvelle spécification Java EE  était officiellement annoncée avec 4 nouvelles JSR dont la JSR 356 : Java API for WebSocket 1.0. Ce nouveau standard (couplé à JSON-P et JAX-RS) permet aux applications Java EE 7 de s\'interfacer très facilement avec les applications HTML5.</p>' +
+                '<p>Dans cette conférence vous verrez comment il devient enfin intéressant d\'écrire de la documentation technique en équipe grâce à la mise en oeuvre des technologies Java EE 7 / HTML 5 et Asciidoctor (+ du AngularJS). Cet ensemble de technologie sera utilisé pour créer un éditeur de travail collaboratif en temps réel. En tant que spectateur actif, vous pourrez participer à la démonstration avec d\'autres membres de l\'assemblée.</p>',
+            speakers: ['maxime_greau'],
+            docs: [{
+                name: 'La vidéo de la soirée',
+                url: 'http://youtu.be/2XJo3UmT80U',
+                type: 'youtube'
+            }]
+        }
         ]
     }, {
         id: '2014_01_20',
@@ -3151,31 +3184,31 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/218334',
         place: 'eartsup',
         subjects: [{
-                title: 'JParsec',
-                length: '20 min',
-                type: 'quickie',
-                speakers: ['arnaud_bailly'],
-                abstract: '<p><a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a> est une simple bibliothèque, inspirée d\'Haskell, qui permet d\'écrire des grammaires directement en Java au moyen de combinateurs fonctionnels. Une telle grammaire devient testable, incrémentale, composable ce qui permet de développer plus vite et de manière plus fiable des mini-langages.Cette présentation est une introduction pratique à l\'écriture d\'interpréteurs de langages avec <a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a>.</p>',
-                docs: [{
-                    name: 'Les slides (sources)',
-                    url: 'https://github.com/abailly/jparsec/tree/master/parsing-made-easy',
-                    type: 'github'
-                }]
-            },
-            {
-                title: 'Soyons RESTful avec RESTX',
-                length: '1 h 30',
-                type: 'talk',
-                abstract: '<p>Le monde du web est en pleine ébullition, on voit de plus en plus de JS sur le frontend avec des frameworks comme Angular ou Backbone qui finissent même pas séduire les développeurs Java que nous sommes.</p>' +
-                    '<p>Mais pour le serveur, le monde Java garde quand même l\'avantage avec son typage, sa maintenabilité et ses performances. Et pour faire communiquer les deux, rien de mieux que des services REST !<br/>Dans cette session, je vous propose donc quelques révisions sur les principes des services REST, pour voir ensuite au travers de nombreuses démos comment RESTX, un outil open source, innovant et made in France peut vous aider à construire, documenter et tester l\'API REST idéale pour vos applications web de demain.</p>' +
-                    '<p>Pour plus d\'infos sur RESTX, jetez un oeil à <a href="http://restx.io/" target="_blank">restx.io</a></p>',
-                speakers: ['xavier_hanin'],
-                docs: [{
-                    name: 'Les slides',
-                    url: 'http://slid.es/xavierhanin/restx',
-                    type: 'slides'
-                }]
-            }
+            title: 'JParsec',
+            length: '20 min',
+            type: 'quickie',
+            speakers: ['arnaud_bailly'],
+            abstract: '<p><a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a> est une simple bibliothèque, inspirée d\'Haskell, qui permet d\'écrire des grammaires directement en Java au moyen de combinateurs fonctionnels. Une telle grammaire devient testable, incrémentale, composable ce qui permet de développer plus vite et de manière plus fiable des mini-langages.Cette présentation est une introduction pratique à l\'écriture d\'interpréteurs de langages avec <a href="http://jparsec.codehaus.org/" target="_blank">jparsec</a>.</p>',
+            docs: [{
+                name: 'Les slides (sources)',
+                url: 'https://github.com/abailly/jparsec/tree/master/parsing-made-easy',
+                type: 'github'
+            }]
+        },
+        {
+            title: 'Soyons RESTful avec RESTX',
+            length: '1 h 30',
+            type: 'talk',
+            abstract: '<p>Le monde du web est en pleine ébullition, on voit de plus en plus de JS sur le frontend avec des frameworks comme Angular ou Backbone qui finissent même pas séduire les développeurs Java que nous sommes.</p>' +
+                '<p>Mais pour le serveur, le monde Java garde quand même l\'avantage avec son typage, sa maintenabilité et ses performances. Et pour faire communiquer les deux, rien de mieux que des services REST !<br/>Dans cette session, je vous propose donc quelques révisions sur les principes des services REST, pour voir ensuite au travers de nombreuses démos comment RESTX, un outil open source, innovant et made in France peut vous aider à construire, documenter et tester l\'API REST idéale pour vos applications web de demain.</p>' +
+                '<p>Pour plus d\'infos sur RESTX, jetez un oeil à <a href="http://restx.io/" target="_blank">restx.io</a></p>',
+            speakers: ['xavier_hanin'],
+            docs: [{
+                name: 'Les slides',
+                url: 'http://slid.es/xavierhanin/restx',
+                type: 'slides'
+            }]
+        }
         ]
     }, {
         id: '2013_12_04',
@@ -3185,25 +3218,25 @@ var njEvents = [
         register: 'http://guestli.st/212961',
         place: 'eartsup',
         subjects: [{
-                title: 'Grails dans les tranchées',
-                length: '20 min',
-                type: 'quickie',
-                speakers: ['dominique_jocal'],
-                abstract: '<p>Après 2 ans et demi de développements et déploiements d’applications backoffice et front-office B2B bâties sur technologie Grails, nous présentons les patterns, configs et libs retenues, et nous débattrons de l’impact de ces nouveaux stack pour les devs critiques en entreprise.</p>'
-            },
-            {
-                title: 'Java 8 : Lambdas, Streams et Collectors',
-                length: '1 h 30',
-                type: 'talk',
-                intro: 'le nouveau visage de l\'API Collection',
-                abstract: '<p>L\'API la plus utilisée du JDK est sans aucun doute l\'API Collection. Brillamment conçue il y a un peu plus de 15 ans, elle est encore aujourd\'hui au coeur de toutes les applications Java. En 2004, elle a subi son premier lifting, avec l\'introduction des génériques. Cette mise à jour, bien qu\'importante, n\'a cependant pas modifié ses patterns d\'utilisation. Avec l\'introduction des lambdas en Java 8, l\'API Collection est à nouveau réécrite, mais cette fois la situation est différente : ses patterns d\'utilisation sont complètement changés. </p><p>La première partie de cette conférence introduit les lambda expressions, comment les écrire, et ce qu\'elle nous apportent en tant que développeurs. La deuxième partir présente en détail les nouveaux patterns introduits par les API Stream et Collector. Ces nouvelles API vont changer la façon dont nous allons pouvoir traiter les collections de grande taille, y compris en parallèle, avec un modèle de programmation très simple, et des patterns très puissants. Cette puissance sera montrée dans des exemples réels, qui monteront comment Java 8 va pouvoir nous aider à écrire simplement du code efficace et performant.</p>',
-                speakers: ['jose_paumard'],
-                docs: [{
-                    name: 'Les slides',
-                    url: 'http://fr.slideshare.net/jpaumard/jdk-8-lambdas-streams-collectos-bretagne-tour',
-                    type: 'slideshare'
-                }]
-            }
+            title: 'Grails dans les tranchées',
+            length: '20 min',
+            type: 'quickie',
+            speakers: ['dominique_jocal'],
+            abstract: '<p>Après 2 ans et demi de développements et déploiements d’applications backoffice et front-office B2B bâties sur technologie Grails, nous présentons les patterns, configs et libs retenues, et nous débattrons de l’impact de ces nouveaux stack pour les devs critiques en entreprise.</p>'
+        },
+        {
+            title: 'Java 8 : Lambdas, Streams et Collectors',
+            length: '1 h 30',
+            type: 'talk',
+            intro: 'le nouveau visage de l\'API Collection',
+            abstract: '<p>L\'API la plus utilisée du JDK est sans aucun doute l\'API Collection. Brillamment conçue il y a un peu plus de 15 ans, elle est encore aujourd\'hui au coeur de toutes les applications Java. En 2004, elle a subi son premier lifting, avec l\'introduction des génériques. Cette mise à jour, bien qu\'importante, n\'a cependant pas modifié ses patterns d\'utilisation. Avec l\'introduction des lambdas en Java 8, l\'API Collection est à nouveau réécrite, mais cette fois la situation est différente : ses patterns d\'utilisation sont complètement changés. </p><p>La première partie de cette conférence introduit les lambda expressions, comment les écrire, et ce qu\'elle nous apportent en tant que développeurs. La deuxième partir présente en détail les nouveaux patterns introduits par les API Stream et Collector. Ces nouvelles API vont changer la façon dont nous allons pouvoir traiter les collections de grande taille, y compris en parallèle, avec un modèle de programmation très simple, et des patterns très puissants. Cette puissance sera montrée dans des exemples réels, qui monteront comment Java 8 va pouvoir nous aider à écrire simplement du code efficace et performant.</p>',
+            speakers: ['jose_paumard'],
+            docs: [{
+                name: 'Les slides',
+                url: 'http://fr.slideshare.net/jpaumard/jdk-8-lambdas-streams-collectos-bretagne-tour',
+                type: 'slideshare'
+            }]
+        }
         ]
     }, {
         id: '2013_11_04',
@@ -3213,31 +3246,31 @@ var njEvents = [
         register: 'http://guestli.st/206877',
         place: 'epsi',
         subjects: [{
-                title: 'Amélioration de la qualité du code par restriction du langage',
-                length: '20 min',
-                type: 'quickie',
-                speakers: ['hugo_wood'],
-                abstract: '<p>Lorsque que beaucoup de possibilités s\'offrent à nous, il est difficile de prendre une décision sans expérience.</p>' +
-                    '<p>Au vu de la piètre qualité générale du code dans l\'industrie, ne serait-il pas intéressant pas de restreindre la flexibilité des langages de programmation afin de "guider" les développeurs n\'ayant pas encore acquis cette expérience ? Je vais présenter quelques fonctionnalités des langages orientés classe dont la difficulté d\'utilisation, la dangerosité, ou l\'inutilité ne sont selon moi pas assez abordées dans la formation du programmeur.</p>'
-            },
-            {
-                title: 'Elastifiez votre application : du SQL au NoSQL en moins d\'une heure',
-                length: '1 h 30',
-                type: 'talk',
-                abstract: 'Au cours de cette session "live coding", Tugdual et David reprendront une application full SQL "à papa" pour la réécrire en NoSQL en 60 minutes.<br/>' +
-                    'En s\'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>' +
-                    '<ul><li>la facilité de mise en place (productivité)</li>' +
-                    '<li>l\'élasticité (scalabilité)</li></ul>' +
-                    'Les thèmes abordés seront :' +
-                    '<ul><li>Approche document</li>' +
-                    '<li>JSon</li>' +
-                    '<li>REST</li>' +
-                    '<li>Cache / Memcached</li>' +
-                    '<li>Filtres et Facettes</li></ul>' +
-                    'Notre plan diabolique est de vous convertir au NoSQL à tel point que vous ne puissiez faire autrement que de le mettre chez vous (et chez vos amis) !<br><br>' +
-                    'Devoxx preview ;) ',
-                speakers: ['david_pilato', 'tugdual_grall']
-            }
+            title: 'Amélioration de la qualité du code par restriction du langage',
+            length: '20 min',
+            type: 'quickie',
+            speakers: ['hugo_wood'],
+            abstract: '<p>Lorsque que beaucoup de possibilités s\'offrent à nous, il est difficile de prendre une décision sans expérience.</p>' +
+                '<p>Au vu de la piètre qualité générale du code dans l\'industrie, ne serait-il pas intéressant pas de restreindre la flexibilité des langages de programmation afin de "guider" les développeurs n\'ayant pas encore acquis cette expérience ? Je vais présenter quelques fonctionnalités des langages orientés classe dont la difficulté d\'utilisation, la dangerosité, ou l\'inutilité ne sont selon moi pas assez abordées dans la formation du programmeur.</p>'
+        },
+        {
+            title: 'Elastifiez votre application : du SQL au NoSQL en moins d\'une heure',
+            length: '1 h 30',
+            type: 'talk',
+            abstract: 'Au cours de cette session "live coding", Tugdual et David reprendront une application full SQL "à papa" pour la réécrire en NoSQL en 60 minutes.<br/>' +
+                'En s\'appuyant sur CouchBase et Elasticsearch, ils mettront en avant les bénéfices de cette nouvelle architecture :<br/>' +
+                '<ul><li>la facilité de mise en place (productivité)</li>' +
+                '<li>l\'élasticité (scalabilité)</li></ul>' +
+                'Les thèmes abordés seront :' +
+                '<ul><li>Approche document</li>' +
+                '<li>JSon</li>' +
+                '<li>REST</li>' +
+                '<li>Cache / Memcached</li>' +
+                '<li>Filtres et Facettes</li></ul>' +
+                'Notre plan diabolique est de vous convertir au NoSQL à tel point que vous ne puissiez faire autrement que de le mettre chez vous (et chez vos amis) !<br><br>' +
+                'Devoxx preview ;) ',
+            speakers: ['david_pilato', 'tugdual_grall']
+        }
         ]
     }, {
         id: '2013_10_10',
@@ -3247,24 +3280,24 @@ var njEvents = [
         register: 'https://guestlistapp.com/events/190722',
         place: 'epsi',
         subjects: [{
-                title: 'Tour de l\'actualité',
-                length: '20 min',
-                type: 'quickie',
-                intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
-                speakers: ['sebastien_prunier'],
-                abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
-                    '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
-            },
-            {
-                title: 'Les "Cloud Patterns"',
-                length: '1 h 30',
-                type: 'talk',
-                intro: 'par Nicolas Deloof, en avant-première avant Devoxx.be, dont nous avons gardé la description originale.',
-                abstract: '<p>Le sujet lui sera bien en français - mais le speaker est trop flemmard - enfin c\'est lui qui le dit :p.</p>' +
-                    '<p>Cloud "Platform as a Service" promise to host your application without a change, but things are not so simple and you can\'t deploy your legacy EJB 1.0 application to the Cloud without some refactoring.</p>' +
-                    '<p>During this session, I will explain some architecture patterns to apply to your new developments, and the possible refactoring or platform services that can help to get your existing application migrated without major changes, so that your transition to the cloud is as smooth as possible. To avoid a pure theoretical talk, I\'ll share experience about migrating devoxx application from traditional hosting to cloud.</p>',
-                speakers: ['nicolas_deloof']
-            }
+            title: 'Tour de l\'actualité',
+            length: '20 min',
+            type: 'quickie',
+            intro: 'présenté par Sébastien Prunier qui lance par la même occasion les quickies.',
+            speakers: ['sebastien_prunier'],
+            abstract: '<p>L\'actualité informatique est riche est nécessite d\'être suivi continuellement.</p>' +
+                '<p> Sébastien le fera pour vous en présentant les dernières nouveautés technologiques.</p>'
+        },
+        {
+            title: 'Les "Cloud Patterns"',
+            length: '1 h 30',
+            type: 'talk',
+            intro: 'par Nicolas Deloof, en avant-première avant Devoxx.be, dont nous avons gardé la description originale.',
+            abstract: '<p>Le sujet lui sera bien en français - mais le speaker est trop flemmard - enfin c\'est lui qui le dit :p.</p>' +
+                '<p>Cloud "Platform as a Service" promise to host your application without a change, but things are not so simple and you can\'t deploy your legacy EJB 1.0 application to the Cloud without some refactoring.</p>' +
+                '<p>During this session, I will explain some architecture patterns to apply to your new developments, and the possible refactoring or platform services that can help to get your existing application migrated without major changes, so that your transition to the cloud is as smooth as possible. To avoid a pure theoretical talk, I\'ll share experience about migrating devoxx application from traditional hosting to cloud.</p>',
+            speakers: ['nicolas_deloof']
+        }
         ]
     },
     {
@@ -3274,26 +3307,26 @@ var njEvents = [
         time: '19',
         place: 'cantine_juton',
         subjects: [{
-                title: 'Nouveaux impacts du développement web sur le référencement naturel (SEO)',
-                length: '1 h',
-                type: 'talk',
-                abstract: '<p>Vous réalisez des développements web (sites, applicatifs ...) et vous cherchez à optimiser leur visibilité dans les moteurs de recherches ? Alors cette conférence s\'adresse à vous !</p>' +
-                    '<p>Durant 1h, nous allons dresser les grandes recommandations SEO à prendre en compte lorsque l\'on développe pour le web, les standards mais surtout les pratiques émergentes : balisage sémantique, performances, analyse des erreurs, crawl des robots ... illustrés au travers de cas pratiques. L\'objectif : vous donner les bons réflexes pour intégrer les pré-requis du SEO dès la phase de conception du projet afin de gagner en temps et donc en rentabilité.</p>',
-                speakers: ['guillaume_degre'],
-                docs: [{
-                    name: 'Support de présentation',
-                    url: 'https://drive.google.com/file/d/0BzLO1XLmywLJUFUyTmtEbEpVNm8/edit?usp=sharing',
-                    type: 'drive'
-                }]
-            },
-            {
-                title: 'How to Scale?',
-                length: '1 h',
-                type: 'talk',
-                abstract: '<p>Quentin presentera en s\'appuyant sur l\'experience de Clever Cloud les defis que vous allez rencontrés pour "scaler" une application.</p>' +
-                    '<p>Cette sessions s\'appuiera sur des retour d\'experience sur différentes applications et framework.</p>',
-                speakers: ['quentin_adam']
-            }
+            title: 'Nouveaux impacts du développement web sur le référencement naturel (SEO)',
+            length: '1 h',
+            type: 'talk',
+            abstract: '<p>Vous réalisez des développements web (sites, applicatifs ...) et vous cherchez à optimiser leur visibilité dans les moteurs de recherches ? Alors cette conférence s\'adresse à vous !</p>' +
+                '<p>Durant 1h, nous allons dresser les grandes recommandations SEO à prendre en compte lorsque l\'on développe pour le web, les standards mais surtout les pratiques émergentes : balisage sémantique, performances, analyse des erreurs, crawl des robots ... illustrés au travers de cas pratiques. L\'objectif : vous donner les bons réflexes pour intégrer les pré-requis du SEO dès la phase de conception du projet afin de gagner en temps et donc en rentabilité.</p>',
+            speakers: ['guillaume_degre'],
+            docs: [{
+                name: 'Support de présentation',
+                url: 'https://drive.google.com/file/d/0BzLO1XLmywLJUFUyTmtEbEpVNm8/edit?usp=sharing',
+                type: 'drive'
+            }]
+        },
+        {
+            title: 'How to Scale?',
+            length: '1 h',
+            type: 'talk',
+            abstract: '<p>Quentin presentera en s\'appuyant sur l\'experience de Clever Cloud les defis que vous allez rencontrés pour "scaler" une application.</p>' +
+                '<p>Cette sessions s\'appuiera sur des retour d\'experience sur différentes applications et framework.</p>',
+            speakers: ['quentin_adam']
+        }
         ]
     },
     {
@@ -3303,27 +3336,27 @@ var njEvents = [
         time: '19',
         place: 'cantine_juton',
         subjects: [{
-                title: 'Découverte de \'SoapUI\'',
-                length: '30 min',
-                type: 'quickie',
-                intro: 'par Antony Guilloteau',
-                abstract: '<p>Autour d\'une petite application train tweet, une session de live coding pour démontrer l\'utilité de SoapUI dans les développements de type SOA : shoot, mock & test..</p>',
-                speakers: ['antony_guilloteau']
-            },
-            {
-                title: 'Soirée NoSQL : Base de Données Graph avec Neo4J',
-                length: '1 h 30',
-                type: 'talk',
-                abstract: '<p>Prendre un tableau et un papier pour modéliser ses données, c\'est ce que nous faisons régulièrement. Cependant à chaque fois nous devons traduire notre modèle en MCD pour l\'insérer dans un SGBD. La promesse des bases de données orientées  graphe c\'est d\'être veleda ready ! Plus besoin de convertir notre modèle.</p>' +
-                    '<p>Lors de cette présentation nous vous parlerons de Neo4j, une base données NoSQL orientée graph écrite en java, ainsi que des concepts qui gravitent autour.</p>' +
-                    '<p>On vous montrera comment réaliser un système de recommandation simple et efficace basé sur les données de github.</p>',
-                speakers: ['benoit_simard', 'damien_raude_morvan', 'cedric_fauvet'],
-                docs: [{
-                    name: 'Support de présentation (HTML)',
-                    url: 'http://hype.logisima.com/prez/view/5561322/Neo4j%20-%20JUG%20Nantes',
-                    type: 'slid-es'
-                }]
-            }
+            title: 'Découverte de \'SoapUI\'',
+            length: '30 min',
+            type: 'quickie',
+            intro: 'par Antony Guilloteau',
+            abstract: '<p>Autour d\'une petite application train tweet, une session de live coding pour démontrer l\'utilité de SoapUI dans les développements de type SOA : shoot, mock & test..</p>',
+            speakers: ['antony_guilloteau']
+        },
+        {
+            title: 'Soirée NoSQL : Base de Données Graph avec Neo4J',
+            length: '1 h 30',
+            type: 'talk',
+            abstract: '<p>Prendre un tableau et un papier pour modéliser ses données, c\'est ce que nous faisons régulièrement. Cependant à chaque fois nous devons traduire notre modèle en MCD pour l\'insérer dans un SGBD. La promesse des bases de données orientées  graphe c\'est d\'être veleda ready ! Plus besoin de convertir notre modèle.</p>' +
+                '<p>Lors de cette présentation nous vous parlerons de Neo4j, une base données NoSQL orientée graph écrite en java, ainsi que des concepts qui gravitent autour.</p>' +
+                '<p>On vous montrera comment réaliser un système de recommandation simple et efficace basé sur les données de github.</p>',
+            speakers: ['benoit_simard', 'damien_raude_morvan', 'cedric_fauvet'],
+            docs: [{
+                name: 'Support de présentation (HTML)',
+                url: 'http://hype.logisima.com/prez/view/5561322/Neo4j%20-%20JUG%20Nantes',
+                type: 'slid-es'
+            }]
+        }
         ]
     },
     {
@@ -3353,21 +3386,21 @@ var njEvents = [
         time: '19',
         place: 'cantine_juton',
         subjects: [{
-                title: 'Code Story 2013',
-                length: '30 min',
-                type: 'quickie',
-                abstract: '<p>Les architectures distribuées soulèvent un certains nombre de problématiques en terme de traçabilité : détection des anomalies, suivi des utilisateurs, mesure des performances des différents services ...</p>' +
-                    '<p>Durant cette session, nous vous montrerons - démonstration à l\'appui - comment nous avons apporté une solution simple à ces problématiques, en mettant en place un système de consolidation de logs avec Node.js et MongoDb.</p>',
-                speakers: ['sebastien_prunier', 'jerome_creignou']
-            },
-            {
-                title: 'Traçabilité d\'une architecture distribuée avec NodeJS et MongoDB',
-                length: '1 h 30',
-                type: 'talk',
-                abstract: '<p>Une des bonnes nouvelles du début d\'année a été le concours Code Story pour l\'édition 2013 de Devoxx France. Une superbe occasion de développer et de tester de nouvelles technos, tout en s\'amusant !</p>' +
-                    '<p>Nous débuterons la session par un retour sur notre participation à la première phase de ce concours, en vous présentant et en comparant nos choix technologiques.</p>',
-                speakers: ['sebastien_prunier', 'jerome_creignou']
-            }
+            title: 'Code Story 2013',
+            length: '30 min',
+            type: 'quickie',
+            abstract: '<p>Les architectures distribuées soulèvent un certains nombre de problématiques en terme de traçabilité : détection des anomalies, suivi des utilisateurs, mesure des performances des différents services ...</p>' +
+                '<p>Durant cette session, nous vous montrerons - démonstration à l\'appui - comment nous avons apporté une solution simple à ces problématiques, en mettant en place un système de consolidation de logs avec Node.js et MongoDb.</p>',
+            speakers: ['sebastien_prunier', 'jerome_creignou']
+        },
+        {
+            title: 'Traçabilité d\'une architecture distribuée avec NodeJS et MongoDB',
+            length: '1 h 30',
+            type: 'talk',
+            abstract: '<p>Une des bonnes nouvelles du début d\'année a été le concours Code Story pour l\'édition 2013 de Devoxx France. Une superbe occasion de développer et de tester de nouvelles technos, tout en s\'amusant !</p>' +
+                '<p>Nous débuterons la session par un retour sur notre participation à la première phase de ce concours, en vous présentant et en comparant nos choix technologiques.</p>',
+            speakers: ['sebastien_prunier', 'jerome_creignou']
+        }
         ]
     },
     {
@@ -3377,33 +3410,33 @@ var njEvents = [
         time: '19',
         place: 'cantine_juton',
         subjects: [{
-                title: 'Introduction au NoSQL',
-                length: '20 min',
-                type: 'intro',
-                abstract: '<p>Cette présentation commencera par une rapide introduction au NoSQL expliquant les raisons pour lesquelles de plus en plus de projets utilisent ce type de solutions. Tugdual fera également le tour des différentes approches (Clé Valeur, Document, Colonnes, Graph) et solutions du marché.</p>' +
-                    '<p>Manuel présentera MongoDB et Tugdual présentera Couchbase, deux solutions open source de base de données orientées document. Ces présentations s\'appuieront sur de nombreuses démonstrations qui mettront en avant :' +
-                    '<ul>' +
-                    '<li>L\'utilisation de JSON pour le stockage et les bénéfices et défis associés à l\'approche "Schemaless"</li>' +
-                    '<li>Le développement d\'applications</li>' +
-                    '<li>Le déploiement et l\'administration de cluster</li>' +
-                    '</ul></p>' +
-                    '',
-                speakers: ['tugdual_grall', 'manuel_boillod']
-            },
-            {
-                title: 'MongoDB',
-                length: '45 min',
-                type: 'talk',
-                abstract: '<p>Présentation de MongoDB</p>',
-                speakers: ['manuel_boillod']
-            },
-            {
-                title: 'Couchbase',
-                length: '45 min',
-                type: 'talk',
-                abstract: '<p>Présentation de Couchbase</p>',
-                speakers: ['tugdual_grall']
-            }
+            title: 'Introduction au NoSQL',
+            length: '20 min',
+            type: 'intro',
+            abstract: '<p>Cette présentation commencera par une rapide introduction au NoSQL expliquant les raisons pour lesquelles de plus en plus de projets utilisent ce type de solutions. Tugdual fera également le tour des différentes approches (Clé Valeur, Document, Colonnes, Graph) et solutions du marché.</p>' +
+                '<p>Manuel présentera MongoDB et Tugdual présentera Couchbase, deux solutions open source de base de données orientées document. Ces présentations s\'appuieront sur de nombreuses démonstrations qui mettront en avant :' +
+                '<ul>' +
+                '<li>L\'utilisation de JSON pour le stockage et les bénéfices et défis associés à l\'approche "Schemaless"</li>' +
+                '<li>Le développement d\'applications</li>' +
+                '<li>Le déploiement et l\'administration de cluster</li>' +
+                '</ul></p>' +
+                '',
+            speakers: ['tugdual_grall', 'manuel_boillod']
+        },
+        {
+            title: 'MongoDB',
+            length: '45 min',
+            type: 'talk',
+            abstract: '<p>Présentation de MongoDB</p>',
+            speakers: ['manuel_boillod']
+        },
+        {
+            title: 'Couchbase',
+            length: '45 min',
+            type: 'talk',
+            abstract: '<p>Présentation de Couchbase</p>',
+            speakers: ['tugdual_grall']
+        }
         ]
     },
     {
@@ -3413,20 +3446,20 @@ var njEvents = [
         time: '19',
         place: 'cantine_juton',
         subjects: [{
-                title: 'Clojure',
-                length: '1 h',
-                type: 'talk',
-                abstract: '<p>Le paradigme fonctionnel revient à la mode décennie après décennie. Pourquoi l\'est-il aujourd\'hui ? Au travers de Clojure, un langage de cette nouvelle vague, nous explorerons les idées anciennes et nouvelles qu\'elle pousse et que nous retrouverons (ou pas) demain dans notre Java quotidien. (Préférerez vous au final l\'original ou la copie :-) ?)</p>',
-                speakers: ['cedric_pineau']
-            },
-            {
-                title: 'Dart',
-                length: '1 h',
-                type: 'talk',
-                abstract: '<p>Dart est un nouveau langage de programmation pour développer des applications web. Créé par Google et ouvert au grand public en octobre 2011, c\'est un langage orienté-objet avec une syntaxe familière que l\'on soit développeur Java ou développeur JavaScript. Ses deux objectifs ? Performance et facilité d\'utilisation.</p>' +
-                    '<p>Dans cette présentation, nous verrons quels sont les objectifs de Google en introduisant ce nouveau langage. Nous irons au coeur de celui-ci en présentant les différentes spécificités, typage optionnel, les Isolates comme modèle de concurrence, les différents mode d\'exécution, la gestion du DOM... Enfin, nous discuterons des échéances à venir pour savoir si Dart saura s\'imposer ou non en tant que langage d\'avenir pour le web.</p>',
-                speakers: ['julien_vey']
-            }
+            title: 'Clojure',
+            length: '1 h',
+            type: 'talk',
+            abstract: '<p>Le paradigme fonctionnel revient à la mode décennie après décennie. Pourquoi l\'est-il aujourd\'hui ? Au travers de Clojure, un langage de cette nouvelle vague, nous explorerons les idées anciennes et nouvelles qu\'elle pousse et que nous retrouverons (ou pas) demain dans notre Java quotidien. (Préférerez vous au final l\'original ou la copie :-) ?)</p>',
+            speakers: ['cedric_pineau']
+        },
+        {
+            title: 'Dart',
+            length: '1 h',
+            type: 'talk',
+            abstract: '<p>Dart est un nouveau langage de programmation pour développer des applications web. Créé par Google et ouvert au grand public en octobre 2011, c\'est un langage orienté-objet avec une syntaxe familière que l\'on soit développeur Java ou développeur JavaScript. Ses deux objectifs ? Performance et facilité d\'utilisation.</p>' +
+                '<p>Dans cette présentation, nous verrons quels sont les objectifs de Google en introduisant ce nouveau langage. Nous irons au coeur de celui-ci en présentant les différentes spécificités, typage optionnel, les Isolates comme modèle de concurrence, les différents mode d\'exécution, la gestion du DOM... Enfin, nous discuterons des échéances à venir pour savoir si Dart saura s\'imposer ou non en tant que langage d\'avenir pour le web.</p>',
+            speakers: ['julien_vey']
+        }
         ]
     },
     {
