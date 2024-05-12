@@ -28,7 +28,7 @@ var njEvents = [
         title: "Pizzas et agrégations, ou comment MongoDB a sauvé mon restaurant // Comment j'ai remplacé mon extincteur par un manuel des castors juniors",
         date: new Date(2024, 4, 28), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/300973582",
         place: "onepoint",
         subjects: [
             {
