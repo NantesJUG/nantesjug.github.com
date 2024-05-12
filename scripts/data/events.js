@@ -25,7 +25,7 @@
 var njEvents = [
     {
         id: '2024_05_28',
-        title: "JUnit 5 / SpringPizzas et agrégations, ou comment MongoDB a sauvé mon restaurant // Comment j'ai remplacé mon extincteur par un manuel des castors juniors",
+        title: "Pizzas et agrégations, ou comment MongoDB a sauvé mon restaurant // Comment j'ai remplacé mon extincteur par un manuel des castors juniors",
         date: new Date(2024, 4, 28), //month begin at 0
         time: '19h00',
         register: "",
