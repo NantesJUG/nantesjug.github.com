@@ -24,6 +24,40 @@
 // },
 var njEvents = [
     {
+        id: '2024_06_12',
+        title: "Soirée de fin d'année : JUnit 5 // Spring Boot",
+        date: new Date(2024, 5, 12), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "adresse_gare_sud",
+        subjects: [
+            {
+                title: "Rendre ses tests aussi clean que son code de prod grâce à JUnit 5 & cie",
+                time: '19h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: "Après avoir développé une nouvelle fonctionnalité, on passe souvent par une phase de refactoring pour essayer de trouver une meilleure implémentation. Mais peut-être qu’on oublie parfois d’améliorer les tests ?</p>" +
+                          "<p>Une fois écrits, les tests serviront non seulement à détecter de potentiels bugs, mais aussi à documenter un comportement et à apporter de la confiance à l’équipe lors des développements suivants. Pour remplir ces fonctions cruciales, une suite de test doit être lisible, compréhensible, facile à enrichir, et exécutable rapidement.</p>" +
+                          "<p>Voyons comment tirer parti d’outils tels que JUnit 5, AssertJ ou Spring Test pour atteindre ces objectifs !</p>",
+                speakers: ['juliette_de_rancourt']
+            },
+            {
+                title: "Rechargez vos applications web avec Spring Boot",
+                time: '19h50',
+                length: '0h45',
+                type: 'talk',
+                abstract: "<p>Si vous faites vivres des applications web, les mettre à jour à la dernière version de Spring n'est pas juste une question de maintenance: c'est aussi le bon moment pour appuyer sur &quote;F5&quote; et recharger votre stack web. Vous pouvez faciliter la vie des développeurs et apporter de la valeur à vos utilisateurs. Avec Spring Boot 3.2, l'équipe Spring vous aide à faire évoluer vos applications selon vos besoins:</p><ul>" +
+                          "<li>Améliorer l'efficacité en production avec les Virtual Threads</li>" +
+                          "<li>Utiliser une API moderne de client HTTP (sans Reactive!) avec RestClient</li>" +
+                          "<li>S'aider des métriques et des traces pour résoudre les incidents en production</li>" +
+                          "<li>Mieux gérer les certificats TLS avec les bundles</li>" +
+                          "<li>Connecter l'application à d'autres systèmes grâce à Docker compose et Testcontainers</li>" +
+                          "<li>Améliorer les temps de démarrage avec CDS ou bien Checkpoint Restore</li>",
+                speakers: ['stephane_nicoll']
+            }
+        ]
+    },
+    {
         id: '2024_05_28',
         title: "Pizzas et agrégations, ou comment MongoDB a sauvé mon restaurant // Comment j'ai remplacé mon extincteur par un manuel des castors juniors",
         date: new Date(2024, 4, 28), //month begin at 0

@@ -17,6 +17,26 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "juliette_de_rancourt",
+    name: "Juliette de Rancourt",
+    bio:
+      "<p>Développeuse chez Shodo et de temps en temps sur JUnit 5</p>",
+    photo: "png",
+    twitter: "ju_derancourt",
+    github: "juliette-derancourt",
+    website: "",
+  },
+  {
+    id: "stephane_nicoll",
+    name: "Stéphane Nicoll",
+    bio:
+      "<a href='https://spring.io/team/snicoll'>https://spring.io/team/snicoll</a>",
+    photo: "png",
+    twitter: "snicoll",
+    github: "snicoll",
+    website: "https://snicoll.be",
+  },
+  {
     id: "alexis_voisin",
     name: "Alexis Voisin",
     bio:
