@@ -28,22 +28,29 @@ var njEvents = [
         title: "Soirée de fin d'année : JUnit 5 // Spring Boot",
         date: new Date(2024, 5, 12), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/301290651",
         place: "adresse_gare_sud",
         subjects: [
             {
-                title: "Rendre ses tests aussi clean que son code de prod grâce à JUnit 5 & cie",
+                title: 'Verre d\'accueil 🍸',
                 time: '19h00',
+                length: '0h30',
+                type: 'hello',
+                abstract: "<p>C'est la dernière de la saison, alors nous vous proposons de commencer cette dernière soirée de la meilleure des manières avec un petit verre d'accueil</p>"
+            },
+            {
+                title: "Rendre ses tests aussi clean que son code de prod grâce à JUnit 5 & cie",
+                time: '19h30',
                 length: '0h45',
                 type: 'talk',
-                abstract: "Après avoir développé une nouvelle fonctionnalité, on passe souvent par une phase de refactoring pour essayer de trouver une meilleure implémentation. Mais peut-être qu’on oublie parfois d’améliorer les tests ?</p>" +
+                abstract: "<p>Après avoir développé une nouvelle fonctionnalité, on passe souvent par une phase de refactoring pour essayer de trouver une meilleure implémentation. Mais peut-être qu’on oublie parfois d’améliorer les tests ?</p>" +
                           "<p>Une fois écrits, les tests serviront non seulement à détecter de potentiels bugs, mais aussi à documenter un comportement et à apporter de la confiance à l’équipe lors des développements suivants. Pour remplir ces fonctions cruciales, une suite de test doit être lisible, compréhensible, facile à enrichir, et exécutable rapidement.</p>" +
                           "<p>Voyons comment tirer parti d’outils tels que JUnit 5, AssertJ ou Spring Test pour atteindre ces objectifs !</p>",
                 speakers: ['juliette_de_rancourt']
             },
             {
                 title: "Rechargez vos applications web avec Spring Boot",
-                time: '19h50',
+                time: '20h20',
                 length: '0h45',
                 type: 'talk',
                 abstract: "<p>Si vous faites vivres des applications web, les mettre à jour à la dernière version de Spring n'est pas juste une question de maintenance: c'est aussi le bon moment pour appuyer sur &quote;F5&quote; et recharger votre stack web. Vous pouvez faciliter la vie des développeurs et apporter de la valeur à vos utilisateurs. Avec Spring Boot 3.2, l'équipe Spring vous aide à faire évoluer vos applications selon vos besoins:</p><ul>" +
@@ -54,6 +61,13 @@ var njEvents = [
                           "<li>Connecter l'application à d'autres systèmes grâce à Docker compose et Testcontainers</li>" +
                           "<li>Améliorer les temps de démarrage avec CDS ou bien Checkpoint Restore</li>",
                 speakers: ['stephane_nicoll']
+            },
+            {
+                title: 'Petits fours et Cocktail 🍣 🍷',
+                time: '21h20',
+                length: '3h',
+                type: 'summer',
+                abstract: "<p>Et pour bien finir, restez discuter avec nous autour d'un verre et des petits fours 😋</p>",
             }
         ]
     },
