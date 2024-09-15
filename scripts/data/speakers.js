@@ -708,9 +708,7 @@ var njSpeakers = [
     id: "david_pilato",
     name: "David Pilato",
     bio:
-      '<p>David Pilato est "technical advocate" chez <a href="http://elasticsearch.com/" target="_blank">Elasticsearch.com</a>, après avoir passé les deux dernières années à promouvoir le projet open-source Elasticsearch, dont il anime la communauté française. Fidèle des JUG, il a donné une conférence sur le sujet lors de la première édition de Devoxx France en avril 2012 et sillonne désormais les routes de France pour partager sa passion. Il a implémenté un certain nombre de plugins pour l\'écosystème Elasticsearch (Rivers RSS, FileSystem et DropBox, Factories Spring).</p>' +
-      '<p>Il a également implémenté Elasticsearch pour plusieurs projets, dont une importante administration française. Il est le co-auteur du projet open-source <a href="http://www.scrutmydocs.org/" target="_blank">[Scrutmydocs.org]</a> basé sur Elasticsearch qui permet de disposer d\'un moteur de recherche "à la google" des documents de vos disques durs.</p>' +
-      "<p>@dadoonet et @ElasticsearchFR sur Twitter</p>",
+      "<p>Depuis 2013, David Pilato est développeur et évangéliste chez <a href='http://elastic.co/'>elastic.co</a>, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française et organise des <a href='https://david.pilato.fr/blog/2024-08-01-free-lunches-for-opensource-engineers/'>BBLs</a> au sein des entreprises. Egalement auteur du projet <a href='https://fscrawler.readthedocs.io/'>FSCrawler</a> qui permet d'indexer des documents pdf, open office, etc. dans elasticsearch en utilisant Apache Tika.</p>",
     gravatar: "david@pilato.fr",
     twitter: "dadoonet",
     github: "dadoonet",

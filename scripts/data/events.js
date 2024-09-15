@@ -24,6 +24,41 @@
 // },
 var njEvents = [
     {
+        id: '2024_10_02',
+        title: "La recherche à l'ère de l'IA // Elasticsearch Query Language: ES|QL",
+        date: new Date(2024, 9, 2), //month begin at 0
+        time: '19h00',
+        // register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/301290651",
+        // place: "adresse_gare_sud",
+        subjects: [
+            {
+                title: "La recherche à l'ère de l'IA",
+                time: '19h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: "<p>La recherche ne se contente plus de l'approche maintenant traditionnelle basée sur la fréquence des termes (TF/IDF ou BM25) mais plus sur la tendance actuelle du machine learning où les nouveaux modèles ont ouvert une nouvelle dimension pour la recherche.</p>" +
+                          "<p>Cette conférence donne un aperçu de :" +
+                          "<ul>" +
+                          "<li>La recherche 'Classique' et ses limitations</li>" +
+                          "<li>Qu'est qu'un modèle de machine learning et comment vous pouvez l'utiliser</li>" +
+                          "<li>Comment utiliser la recherche vectorielle ou la recherche hybride dans Elasticsearch</li>" +
+                          "<li>Comment ChatGPT d'OpenAI ou les 'large language models' (LLMs) similaires viennent jouer naturellement avec Elastic</li>" +
+                          "</ul></p>" +
+                          "<p>La démo principale montre comment générer des embeddings à partir de musiques puis comment trouver la musique qui s'approche le plus d'une musique que nous fredonnons 🎵 🎸 🎻.</p>",
+                speakers: ['david_pilato']
+            },
+            {
+                title: "Elasticsearch Query Language: ES|QL",
+                time: '20h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: "<p>Dans cette session sans slides, nous découvrirons par la pratique ce qu'apporte le nouveau language `ES|QL` pour aller fouiller dans nos données indexées dans Elasticsearch et ce, de façon interactive et visuelle.</p>" +
+                          "<p>`ES|QL` et surtout le nouveau moteur derrière l'API `_query` apportent à la fois une syntaxe simplifiée permettant d'affiner vos résultats, étape par étape et ajouter de nouvelles fonctionnalités comme par exemple l'enrichissement de données et la transformation à la volée, directement dans votre requête, mais également des performances inégalées.</p>",
+                speakers: ['david_pilato']
+            }
+        ]
+    },
+    {
         id: '2024_06_12',
         title: "Soirée de fin d'année : JUnit 5 // Spring Boot",
         date: new Date(2024, 5, 12), //month begin at 0
