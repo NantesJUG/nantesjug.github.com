@@ -28,8 +28,8 @@ var njEvents = [
         title: "La recherche à l'ère de l'IA // Elasticsearch Query Language: ES|QL",
         date: new Date(2024, 9, 2), //month begin at 0
         time: '19h00',
-        // register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/301290651",
-        // place: "adresse_gare_sud",
+        register: "https://www.meetup.com/nantes-java-user-group/events/303451947",
+        place: "zenika",
         subjects: [
             {
                 title: "La recherche à l'ère de l'IA",
