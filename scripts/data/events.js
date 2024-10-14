@@ -24,6 +24,35 @@
 // },
 var njEvents = [
     {
+        id: '2024_10_29',
+        title: "Retour d'XP sur Accelerate // Comment ingérer 100 Mrd. d'événements",
+        date: new Date(2024, 9, 29), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "sii",
+        subjects: [
+            {
+                title: "Accelerate, retour d'XP Decathlon",
+                time: '19h00',
+                length: '0h30',
+                type: 'quickie',
+                abstract: "",
+                speakers: ['jean-philippe_le-goff']
+            },
+            {
+                title: "Comment ingérer 100 Mrd. d'événements depuis des millions d'appareils par mois ?",
+                time: '19h45',
+                length: '0h45',
+                type: 'talk',
+                abstract: "<p>Lors de cette présentation, vous allez découvrir comment une petite équipe de dév a réussi à monter une infrastructure dans AWS qui répond à des besoins de scalabilité forte, tout en étant robuste et avec des coûts maîtrisés.</p>" +
+                    "<p>Nous allons parcourir la pipeline depuis l’ingestion, en passant par l’agrégation pour finir par la restitution de la donnée.</p>" +
+                    "<p>Nous aborderons beaucoup de services AWS : Lambda, ECS, ELB, Athena, Kinesis & Firehose, et bien d’autres… Nous verrons également comment le tout est déployé.</p>" +
+                    "<p>Enfin, nous aurons un aperçu de comment maîtriser la scalabilité, la sécurité et les coûts au fil du temps.</p>",
+                speakers: ['valentin_maerten']
+            }
+        ]
+    },
+    {
         id: '2024_10_02',
         title: "La recherche à l'ère de l'IA // Elasticsearch Query Language: ES|QL",
         date: new Date(2024, 9, 2), //month begin at 0

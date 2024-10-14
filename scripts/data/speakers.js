@@ -17,6 +17,28 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "valentin_maerten",
+    name: "Valentin Maerten",
+    bio:
+      "<p>Tech lead chez Pubstack</p>" +
+      "<p>Formateur JavaScript / DevOps pour des personnes en reconversion</p>" +
+      "<p>Touraine tech organisateur : conférence autour du monde du développement en Touraine.</p>",
+    photo: "png",
+    twitter: "",
+    github: "",
+    website: "",
+  },
+  {
+    id: "jean-philippe_le-goff",
+    name: "Jean-Philippe Le Goff",
+    bio:
+      "",
+    photo: "",
+    twitter: "",
+    github: "",
+    website: "",
+  },
+  {
     id: "juliette_de_rancourt",
     name: "Juliette de Rancourt",
     bio:
