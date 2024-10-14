@@ -24,11 +24,39 @@
 // },
 var njEvents = [
     {
+        id: '2024_11_13',
+        title: "Sous le capot d'une application JVM",
+        date: new Date(2024, 10, 13), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "",
+        subjects: [
+            // {
+            //     title: "Accelerate, retour d'XP Decathlon",
+            //     time: '19h00',
+            //     length: '0h30',
+            //     type: 'quickie',
+            //     abstract: "",
+            //     speakers: ['jean-philippe_le-goff']
+            // },
+            {
+                title: "Sous le capot d'une application JVM - JDK Flight Recorder / JDK Mission Control",
+                time: '19h45',
+                length: '0h45',
+                type: 'talk',
+                abstract: "<p>Java Flight Recorder (JFR) et Java Mission Control (JMC) sont deux outils qui peuvent être utilisés pour diagnostiquer en détail le comportement d'une application, lorsque le monitoring de plus haut niveau, avec des logs, des métriques ou un APM n'est pas suffisant.</p>" +
+                    "<p>JFR est un moyen basé sur les événements pour observer ce qui se passe à l'intérieur d'une JVM. JMC est l'interface utilisateur associée qui nous aide à parcourir les événements JFR. Avec JFR et JMC, nous pouvons avoir des aperçus sur les threads, le comportement de la mémoire, les opérations d'I/O, la configuration du GC, et bien plus encore, en fonction de la configuration de l'enregistrement.</p>" +
+                    "<p>Au travers d'une démo et en utilisant une application exemple, nous examinerons le type d'informations que nous pouvons obtenir en utilisant ces outils, et utiliserons cela pour améliorer la performance globale de notre application.</p>",
+                speakers: ['guillaume_darmont']
+            }
+        ]
+    },
+    {
         id: '2024_10_29',
         title: "Retour d'XP sur Accelerate // Comment ingérer 100 Mrd. d'événements",
         date: new Date(2024, 9, 29), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/nantes-java-user-group/events/304012594",
         place: "sii",
         subjects: [
             {

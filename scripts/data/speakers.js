@@ -17,13 +17,25 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "guillaume_darmont",
+    name: "Guillaume Darmont",
+    bio:
+      "<p>I'm a Principal Engineer in the Platform team @ Malt. <br>" +
+      "The Platform team goal is to ensure that all aspects of engineering like development, tooling, runtime, monitoring are working correctly.</p>" +
+      "<p>I've been working in software industry for 20 years now, contributing to multiple projects and taking various roles like Java developer, Tech lead/expert, Cloud Architect, etc.</p>",
+    photo: "jpg",
+    twitter: "gdarmont",
+    github: "gdarmont",
+    website: "",
+  },
+  {
     id: "valentin_maerten",
     name: "Valentin Maerten",
     bio:
       "<p>Tech lead chez Pubstack</p>" +
       "<p>Formateur JavaScript / DevOps pour des personnes en reconversion</p>" +
       "<p>Touraine tech organisateur : conférence autour du monde du développement en Touraine.</p>",
-    photo: "png",
+    photo: "jpg",
     twitter: "",
     github: "",
     website: "",
