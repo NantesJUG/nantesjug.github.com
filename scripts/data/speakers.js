@@ -44,9 +44,9 @@ var njSpeakers = [
     id: "jean-philippe_le-goff",
     name: "Jean-Philippe Le Goff",
     bio:
-      "",
-    photo: "",
-    twitter: "",
+      "<p>Féru de technologie, je travaille depuis une vingtaine d'années dans le développement, principalement dans l'écosystème Java, et j'y ai exercé différents rôles de développeur à QA en passant par le management</p>",
+    photo: "png",
+    twitter: "jplegoff",
     github: "",
     website: "",
   },

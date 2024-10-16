@@ -62,14 +62,14 @@ var njEvents = [
             {
                 title: "Accelerate, retour d'XP Decathlon",
                 time: '19h00',
-                length: '0h30',
+                length: '0h20',
                 type: 'quickie',
-                abstract: "",
+                abstract: "<p>Au cours de ce quickie après un rappel sur ce qu'est Accelerate, je présenterai comment nous nous en sommes inspiré chez Decathlon et les enseignements que nous en avons tiré</p>",
                 speakers: ['jean-philippe_le-goff']
             },
             {
                 title: "Comment ingérer 100 Mrd. d'événements depuis des millions d'appareils par mois ?",
-                time: '19h45',
+                time: '19h30',
                 length: '0h45',
                 type: 'talk',
                 abstract: "<p>Lors de cette présentation, vous allez découvrir comment une petite équipe de dév a réussi à monter une infrastructure dans AWS qui répond à des besoins de scalabilité forte, tout en étant robuste et avec des coûts maîtrisés.</p>" +
