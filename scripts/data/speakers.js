@@ -33,12 +33,13 @@ var njSpeakers = [
     name: "Valentin Maerten",
     bio:
       "<p>Tech lead chez Pubstack</p>" +
-      "<p>Formateur JavaScript / DevOps pour des personnes en reconversion</p>" +
-      "<p>Touraine tech organisateur : conférence autour du monde du développement en Touraine.</p>",
+      "<p>Maintainer de Taskfiles</p>" +
+      "<p>Organisateur de Touraine tech, une conférence autour du monde du développement en Touraine.</p>" +
+      "<p>Adepte de vélo!</p>",
     photo: "jpg",
-    twitter: "",
-    github: "",
-    website: "",
+    twitter: "v_maerten",
+    github: "vmaerten",
+    website: "https://vmaerten.io",
   },
   {
     id: "jean-philippe_le-goff",
