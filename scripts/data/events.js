@@ -24,9 +24,9 @@
 // },
 var njEvents = [
     {
-        id: '2024_11_13',
+        id: '2024_11_19',
         title: "Sous le capot d'une application JVM",
-        date: new Date(2024, 10, 13), //month begin at 0
+        date: new Date(2024, 10, 19), //month begin at 0
         time: '19h00',
         register: "",
         place: "",
