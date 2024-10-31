@@ -25,20 +25,25 @@
 var njEvents = [
     {
         id: '2024_11_19',
-        title: "Sous le capot d'une application JVM",
+        title: "Paketo Buildpacks // Sous le capot d'une application JVM",
         date: new Date(2024, 10, 19), //month begin at 0
         time: '19h00',
-        register: "",
-        place: "",
+        register: "https://www.meetup.com/nantes-java-user-group/events/304303223",
+        place: "qlik",
         subjects: [
-            // {
-            //     title: "Accelerate, retour d'XP Decathlon",
-            //     time: '19h00',
-            //     length: '0h30',
-            //     type: 'quickie',
-            //     abstract: "",
-            //     speakers: ['jean-philippe_le-goff']
-            // },
+            {
+                title: "Paketo Buildpacks : la meilleure façon de construire des images OCI?",
+                time: '19h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: "<p>Les Buildpacks existent depuis plus de 10 ans ! <br/>" + 
+                    "D'abord, ils étaient utilisés pour détecter et construire une application avant de la déployer sur certains PaaS (Platform as a Service). <br/>" + 
+                    "Ensuite, nous avons pu créer des images Docker (OCI) avec leur dernière génération, les Cloud Native Buildpacks (CNCF en incubation).  <br/>" + 
+                    "Sont-ils une bonne alternative au Dockerfile ?  <br/>" + 
+                    "Que sont les buildpacks Paketo ?  <br/>" + 
+                    "Quelles communautés les soutiennent et comment ?",
+                speakers: ['anthony_dahanne']
+            },
             {
                 title: "Sous le capot d'une application JVM - JDK Flight Recorder / JDK Mission Control",
                 time: '19h45',

@@ -17,6 +17,18 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "anthony_dahanne",
+    name: "Anthony Dahanne",
+    bio:
+      "<p>Développeur logiciel depuis plus de 15 ans, mes sujets préférés sont la containerisation (Docker, Kubernetes), les outils pour développeurs, l’intégration continue, et bien sûr, le développement en Java.</p>" +
+      "<p>Depuis presque 2 ans, j'ai rejoint l'équipe de maintenance des Buildpacks Java (open source et commerciaux) à Broadcom (ex-VMware).</p> " +
+      "<p>Dans mon temps libre, il m'arrive de travailler sur des projets persos comme des bots Mastodon, des calendrier d'événements tech, etc. en Go, Java, et même Android.</p>",
+    photo: "jpg",
+    twitter: "anthonydahanne",
+    github: "anthonydahanne",
+    website: "https://blog.dahanne.net/",
+  },
+  {
     id: "guillaume_darmont",
     name: "Guillaume Darmont",
     bio:
