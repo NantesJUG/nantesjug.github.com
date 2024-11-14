@@ -29,7 +29,7 @@ var njEvents = [
         date: new Date(2024, 11, 12), //month begin at 0
         time: '19h00',
         register: "https://www.meetup.com/nantes-java-user-group/events/304559809",
-        place: "adresse_gare_sud",
+        place: "",
         subjects: [
             {
                 title: 'Verre d\'accueil 🍸',
