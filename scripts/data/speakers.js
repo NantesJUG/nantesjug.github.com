@@ -17,6 +17,19 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "horacio_gonzalez",
+    name: "Horacio Gonzalez",
+    bio: `
+      <p>Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a plus d'une vingtaine d'années. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert le développement web en 1997 et depuis il n'a pas arrêté de bosser autour.</p>
+      <p>Après quelques années comme Directeur de Developer Relations chez <a href="https://twitter.com/OVHcloud" target="_blank">OVHcloud</a>, Horacio travaille actuellement comme Head of DevRel chez <a href="https://www.clever-cloud.com/" target="_blank">Clever Cloud</a>. Il est cofondateur du  <a href="https://twitter.com/finistdevs/" target="_blank">@FinistDevs</a>, et des <a href="https://twitter.com/RdvSpeakers" target="_blank">@RdvSpeakers</a>.</p>
+      <p>Passionné par le développement web et tout ce qui gravite autour des composants web et des standards web, Horacio aime aussi discuter de Kubernetes, AI et le cloud en général. Il est <a href="https://developers.google.com/experts/people/horacio-gonzalez" target="_blank">Google Developer Expert (GDE)</a>  en Web Technologies and Flutter.</p>
+    `,
+    photo: "jpg",
+    twitter: "LostInBrittany",
+    github: "LostInBrittany",
+    website: "",
+  },
+  {
     id: "anthony_dahanne",
     name: "Anthony Dahanne",
     bio:

@@ -24,6 +24,54 @@
 // },
 var njEvents = [
     {
+        id: '2024_12_12',
+        title: "🍸 // Crash investigation : au coeur d'une application de ecommerce // Démystifier la création d'opérateurs Kubernetes en Java avec Quarkus // 🧀 🍷",
+        date: new Date(2024, 11, 12), //month begin at 0
+        time: '19h00',
+        register: null, //"https://www.meetup.com/nantes-java-user-group/events/304303223",
+        place: "qlik",
+        subjects: [
+            {
+                title: 'Verre d\'accueil 🍸',
+                time: '19h00',
+                length: '30 min',
+                type: 'hello',
+                abstract: "<p>La fin de l'année approche, nous vous invitons donc à débuter cette dernière soirée de façon conviviale avec un verre de bienvenue.</p>",
+            },
+            {
+                title: "Crash investigation : au coeur d'une application de ecommerce",
+                time: '19h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: `
+                    <p>Dans cette présentation, je vous invite à me rejoindre <b>dans la peau d’un enquêteur</b>, explorant les subtilités de l’investigation dans une application de distribution de billets de trains.</p>
+                    <p>Le contexte : l'application est basée sur des microservices en <b>Java</b>, bâtie avec <b>Spring Boot</b> et orchestrée par <b>Kubernetes</b>. En apparence, tout semble fonctionner, mais un problème récurrent vient troubler le tableau. De manière sporadique et imprévisible, <b>certains services plantent dès leur démarrage</b>. Pourquoi ? Comment ? Les indices initiaux sont ténus, et rien ne semble expliquer ces défaillances aléatoires.</p>
+                    <p>À travers une exploration minutieuse des couches de l’application, des mécanismes de Spring Boot, Tomcat, Jackson et des rouages de Kubernetes, nous partirons ensemble <b>en quête de l’origine de ces pannes mystérieuses</b>. Ensemble, découvrons qui est le coupable dans cette intrigue logicielle.</p>
+                `,
+                speakers: ['francois_kha']
+            },
+            {
+                title: "Démystifier la création d'opérateurs Kubernetes en Java avec Quarkus",
+                time: '19h45',
+                length: '0h45',
+                type: 'talk',
+                abstract: `
+                    <p>Les <strong>opérateurs Kubernetes</strong> sont devenus un outil essentiel pour simplifier le déploiement et la gestion d'applications complexes. Avec le <strong>Java Operator SDK</strong> et <strong>Quarkus</strong>, développer des opérateurs en Java devient accessible et efficace, même pour les environnements les plus complexes. Ces opérateurs permettent d'automatiser la gestion des <strong>API legacy</strong> et des <strong>sources de données externes</strong> au cluster Kubernetes, tout en restant dans un écosystème familier pour les développeurs Java.</p>
+                    <p>Dans cette présentation pratique, nous allons démystifier le processus de création d'un opérateur Kubernetes en utilisant le Java Operator SDK et Quarkus. Vous découvrirez comment définir des <strong>Custom Resource Definitions (CRDs)</strong> pour modéliser les concepts clés de vos applications, puis comment utiliser Quarkus pour créer des <strong>contrôleurs légers et performants</strong>, capables de surveiller et d'agir sur des ressources du cluster ou des services externes.</p>
+                    <p>Et ce ne sera pas seulement théorique ! Nous allons <strong>coder en direct</strong> pour vous montrer à quel point il est simple de créer un opérateur en Java avec Quarkus. Rejoignez-nous pour une session interactive où nous vous guiderons dans le développement d'un opérateur Kubernetes robuste.</p>
+                `,
+                speakers: ['horacio_gonzalez']
+            },
+            {
+                title: 'Planche apéro et Cocktail 🧀 🍷',
+                time: '21h',
+                length: '3h',
+                type: 'cocktail',
+                abstract: "<p>Et pour clôturer la soirée en beauté, restez discuter avec nous autour d'un verre et de délicieuses planches apéro 😋</p>",
+            },
+        ]
+    },
+    {
         id: '2024_11_19',
         title: "Paketo Buildpacks // Sous le capot d'une application JVM",
         date: new Date(2024, 10, 19), //month begin at 0
