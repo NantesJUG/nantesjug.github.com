@@ -28,8 +28,8 @@ var njEvents = [
         title: "🍸 // Crash investigation : au coeur d'une application de ecommerce // Démystifier la création d'opérateurs Kubernetes en Java avec Quarkus // 🧀 🍷",
         date: new Date(2024, 11, 12), //month begin at 0
         time: '19h00',
-        register: null, //"https://www.meetup.com/nantes-java-user-group/events/304303223",
-        place: "qlik",
+        register: "https://www.meetup.com/nantes-java-user-group/events/304559809",
+        place: "adresse_gare_sud",
         subjects: [
             {
                 title: 'Verre d\'accueil 🍸',
@@ -40,9 +40,9 @@ var njEvents = [
             },
             {
                 title: "Crash investigation : au coeur d'une application de ecommerce",
-                time: '19h00',
-                length: '0h45',
-                type: 'talk',
+                time: '19h30',
+                length: '0h30',
+                type: 'quickie',
                 abstract: `
                     <p>Dans cette présentation, je vous invite à me rejoindre <b>dans la peau d’un enquêteur</b>, explorant les subtilités de l’investigation dans une application de distribution de billets de trains.</p>
                     <p>Le contexte : l'application est basée sur des microservices en <b>Java</b>, bâtie avec <b>Spring Boot</b> et orchestrée par <b>Kubernetes</b>. En apparence, tout semble fonctionner, mais un problème récurrent vient troubler le tableau. De manière sporadique et imprévisible, <b>certains services plantent dès leur démarrage</b>. Pourquoi ? Comment ? Les indices initiaux sont ténus, et rien ne semble expliquer ces défaillances aléatoires.</p>
@@ -52,7 +52,7 @@ var njEvents = [
             },
             {
                 title: "Démystifier la création d'opérateurs Kubernetes en Java avec Quarkus",
-                time: '19h45',
+                time: '20h00',
                 length: '0h45',
                 type: 'talk',
                 abstract: `
