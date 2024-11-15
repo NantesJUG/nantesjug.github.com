@@ -1181,7 +1181,11 @@ var njSpeakers = [
   {
     id: "francois_kha",
     name: "François Kha",
-    bio: "<p>Développeur chez CBP, courtier de gestion en assurance à Nantes. François s'intéresse aux pratiques de déploiement continu.</p>",
+    bio: `
+    <p>Développeur depuis 2004, Jugger régulier depuis 2009, je fais du développement principalement sur JVM. Par le passé j'ai travaillé endossé des rôles de développeur, testeur, architecte et parfois même scrum master.</p>
+    <p>Actuellement je suis lead tech chez SNCF Connect & Tech.</p>
+    <p>Je suis curieux et je m'intéresse à beaucoup trop de choses pour être raisonnable.</p>
+    `,
     gravatar: "francois.kha@gmail.com",
     twitter: "fanchok",
   },

@@ -39,7 +39,7 @@ var njEvents = [
                 abstract: "<p>La fin de l'année approche, nous vous invitons donc à débuter cette dernière soirée de façon conviviale avec un verre de bienvenue.</p>",
             },
             {
-                title: "Crash investigation : au coeur d'une application de ecommerce",
+                title: "Crash investigation : debug en prod d'une application de ecommerce",
                 time: '19h30',
                 length: '0h30',
                 type: 'quickie',
