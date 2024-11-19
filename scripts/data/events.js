@@ -24,12 +24,12 @@
 // },
 var njEvents = [
     {
-        id: '2024_12_12',
+        id: '2024_12_17',
         title: "🍸 // Crash investigation : au coeur d'une application de ecommerce // Démystifier la création d'opérateurs Kubernetes en Java avec Quarkus // 🧀 🍷",
-        date: new Date(2024, 11, 12), //month begin at 0
+        date: new Date(2024, 11, 17), //month begin at 0
         time: '19h00',
         register: "https://www.meetup.com/nantes-java-user-group/events/304559809",
-        place: "",
+        place: "adresse_gare_sud",
         subjects: [
             {
                 title: 'Verre d\'accueil 🍸',
