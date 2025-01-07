@@ -24,6 +24,46 @@
 // },
 var njEvents = [
     {
+        id: '2025_01_21',
+        title: "Une identité pour les fédérer toutes // Conventions de l'architecture hexagonale",
+        date: new Date(2025, 0, 21), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "wescale",
+        subjects: [
+            {
+                title: "Une identité pour les fédérer toutes !",
+                time: '19h00',
+                length: '0h30',
+                type: 'quickie',
+                abstract: `
+                    <p>Dans un monde numérique où nos identités sont sollicitées à chaque clic, une question se pose : faut-il vraiment créer un compte à chaque fois que l’on accède à une nouvelle application ?</p>
+                    <p>De FranceConnect aux boutons "Se connecter avec…" que vous croisez partout, ces solutions simplifient nos vies numériques. Mais avez-vous déjà réfléchi à ce qui se passe en coulisses ? Pourquoi pouvez-vous naviguer entre les outils de votre entreprise sans vous réauthentifier ? Et surtout, comment tout cela reste-t-il sécurisé ?</p>
+                    <p>Dans ce talk, je vous propose de découvrir les principes de l’identité fédérée et du Single Sign-On (SSO), ces outils qui rendent votre navigation plus fluide. Nous parlerons des bases qui rendent ce système universel et fiable, tout en évoquant brièvement les protocoles qui le soutiennent, comme SAML et OIDC, pour satisfaire votre curiosité technique, sans jamais vous noyer dans les détails.</p>
+                    <p>Que vous soyez un utilisateur intrigué ou un développeur souhaitant explorer ces concepts, vous découvrirez un univers où simplicité et sécurité s’entrelacent pour créer des expériences numériques à la fois puissantes et élégantes.</p>
+                `,
+                speakers: ['sebastien_ferrer']
+            },
+            {
+                title: "Quand les conventions hexagonales ne suffisent plus, ArchUnit à la rescousse",
+                time: '19h45',
+                length: '0h45',
+                type: 'talk',
+                abstract: `
+                    <p>En architecture logicielle, on utilise de nombreuses conventions de design.</p>
+                    <p>Certaines peuvent être renforcées au niveau de l'outil de build ou du langage.</p>
+                    <p>Mais je remarque que le plupart restent de fragiles conventions.</p>
+                    <p>Cependant les développeurs sont faillibles et ces conventions sont bien vite enfreintes consciemment ou non.</p>
+                    <p>J'ai remarqué que le drift de design est souvent détecté trop tard. La dette technique s'est alors installé.</p>
+                    <p>J'apprécie l’architecture hexagonale, dont les interprétations et implémentations varient. Ce qui la rend d'autant plus sensible au drift.</p>
+                    <p>Pour éviter ça, j'ai pris l'habitude de renforcer les conventions de design de mes app hexagonales par des tests d'architecture.</p>
+                    <p>Je vous montre un exemple en Java avec ArchUnit.</p>
+                `,
+                speakers: ['antoine_salesse']
+            }
+        ]
+    },
+    {
         id: '2024_12_17',
         title: "🍸 // Crash investigation : au coeur d'une application de ecommerce // Démystifier la création d'opérateurs Kubernetes en Java avec Quarkus // 🧀 🍷",
         date: new Date(2024, 11, 17), //month begin at 0

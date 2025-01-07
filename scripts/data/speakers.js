@@ -17,6 +17,29 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "antoine_salesse",
+    name: "Antoine Salesse",
+    bio: `
+      <p>Antoine est un développeur logiciel passionné, désireux de comprendre l'univers par l'expérimentation, l'introspection, la lecture.</p>
+      <p>Compagnon de vie et père de deux enfants, il construit un environnement propice à l'autonomie et à l'émergence de comportements créatifs.</p>
+      <p>Entropie, Chaos, Contraintes, Systémique, Jeu. Ces concepts guident sa vie et ses décisions.</p>
+      <p>Java, Kotlin, Go, Scala, Python... Peu importe le langage tant que l'équipe et le produit sont stimulants.</p>
+      <p>Mais si c'est du Kotlin c'est mieux ;)</p>`,
+    photo: "png"
+  },
+  {
+    id: "sebastien_ferrer",
+    name: "Sébastien Ferrer",
+    bio: `
+      <p>Sébastien est ingénieur logiciel chez OVHcloud à Nantes, dans l'équipe SIA (Service Integration & Automation). Exerçant ce métier depuis maintenant plus de 12 ans, il a toujours aimé vulgariser et partager ses connaissances en public.</p>
+      <p>Ayant animé de nombreuses présentations illustrées par des démonstrations dans le domaine des Intelligences Artificielles lors de son précédent travail à Nokia, il anime actuellement des conférences autour de la cybersécurité et de la gestion d'incidents.</p>
+      <p>Les conférences qu'il effectue actuellement traitent de la confiance dans le monde numérique (la confiance dans le web), de la fédération d'identité, de la gestion d'incidents / troubleshooting et des choix de carrière dans le monde de la tech. Elles sont accessibles pour tout public.</p>
+      <p>Il est passionné par le théâtre, ayant joué 10 ans dans une troupe en région parisienne.</p>`,
+    photo: "png",
+    github: "sebferrer",
+    website: "https://blog.kimi.ovh/"
+  },
+  {
     id: "horacio_gonzalez",
     name: "Horacio Gonzalez",
     bio: `

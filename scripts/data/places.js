@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'wescale',
+    name: 'WeScale',
+    address: '1 All. Cassard',
+    city: '44000 Nantes',
+    maps: 'https://maps.app.goo.gl/s5vjxBbdCrTiU2QJ9',
+    capacity: 30
+  },
+  {
     id: 'sqli',
     name: 'SQLi',
     address: '1 Boulevard Berlin',
