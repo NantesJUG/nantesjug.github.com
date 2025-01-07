@@ -28,7 +28,7 @@ var njEvents = [
         title: "Une identité pour les fédérer toutes // Conventions de l'architecture hexagonale",
         date: new Date(2025, 0, 21), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/305474896",
         place: "wescale",
         subjects: [
             {
