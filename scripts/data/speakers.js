@@ -17,6 +17,24 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "pierre_gradot",
+    name: "Pierre Gradot",
+    bio: `
+      <p>La journée, je développe des logiciels. Après plus de 10 ans dans les systèmes embarqués, IoT et industriels, je travaille depuis fin 2023 sur un timeless system debugger (ça sert à faire du reverse engineering d’applications Windows, Linux, Android) en C++, Python et Rust.</p>
+      <p>La nuit, je fais du vélo sur toutes sortes de terrains et je joue de la guitare dans un groupe de black metal.</p>`,
+    photo: "jpg",
+    website: "https://dev.to/pgradot"
+  },
+  {
+    id: "aleth_gueguen",
+    name: "Aleth Gueguen",
+    bio: `
+      <p>Je suis développeuse indépendante depuis 2006. Je travaille avec des PME qui ont des besoins spécifiques pour du logiciel métier.</p>
+      <p>Quand je ne suis pas devant un clavier, je suis sur l'eau, à la barre de mon bateau.</p>`,
+    github: "planeth44",
+    website: "https://alethgueguen.com/"
+  },
+  {
     id: "antoine_salesse",
     name: "Antoine Salesse",
     bio: `

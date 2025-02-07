@@ -24,6 +24,43 @@
 // },
 var njEvents = [
     {
+        id: '2025_02_25',
+        title: "Vous saurez tout sur les type systems // Développer pour le mode hors-ligne avec le web natif",
+        date: new Date(2025, 1, 25), //month begin at 0
+        time: '19h00',
+        register: "", // https://www.meetup.com/nantes-java-user-group/events/306045925
+        place: "qlik",
+        subjects: [
+            {
+                title: "Vous saurez tout sur les type systems",
+                time: '19h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: `
+                    <p>Vous avez déjà entendu que JavaScript était un langage au typage dynamique mais faible ? Que la grande force de Rust réside dans son typage statique et fort ? On vous a déjà parlé du concept de duck typing en Python ? Ou encore l’inférence de type qui a bouleversé Java en version 10 avec le mot-clé var ?</p>
+                    <p></p>
+                    <p>Ces termes peuvent paraître complexes, mais pas de panique, c'est normal. Chaque langage a son propre type system et il existe de nombreux termes pour le décrire. Comprendre ces termes nous permet de mieux comprendre le fonctionnement du langage et sa philosophie.</p>
+                    <p>Ce talk démystifiera les termes les plus importants pour que vous ne soyez plus dérouté·e·s quand vous entendrez « trop bien ! un langage à typage manifeste, fort et statique ! »</p>
+                `,
+                speakers: ['pierre_gradot']
+            },
+            {
+                title: "Développer pour le mode hors-ligne avec le web natif",
+                time: '20h00',
+                length: '0h45',
+                type: 'talk',
+                abstract: `
+                    <p>On a beau vivre au 21e siècle, Internet partout tout le temps, en vrai ça n'existe pas.</p>
+                    <p>Et d'ailleurs est-ce bien souhaitable ?</p>
+                    <p>En revanche, ce qu'on veut c'est avoir accès à notre travail, nos fichiers même si on est au milieu de nulle part. Ou plutôt dans le métro :D</p>
+                    <p>Les API des navigateurs évoluent en permanence et nous fournissent tout ce dont on a besoin pour faire des applications autonomes où nos données sont accessibles tout le temps.</p>
+                    <p>Dans ce talk je vous montre l'architecture que j'utilise dans les applications que je met en prod.</p>
+                    <p>Et comment on peut gérer la synchronisation avec un serveur distant.</p>`,
+                speakers: ['aleth_gueguen']
+            }
+        ]
+    },
+    {
         id: '2025_01_21',
         title: "Une identité pour les fédérer toutes // Conventions de l'architecture hexagonale",
         date: new Date(2025, 0, 21), //month begin at 0
