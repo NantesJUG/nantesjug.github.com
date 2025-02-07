@@ -28,7 +28,7 @@ var njEvents = [
         title: "Vous saurez tout sur les type systems // Développer pour le mode hors-ligne avec le web natif",
         date: new Date(2025, 1, 25), //month begin at 0
         time: '19h00',
-        register: "", // https://www.meetup.com/nantes-java-user-group/events/306045925
+        register: "https://www.meetup.com/nantes-java-user-group/events/306045925",
         place: "qlik",
         subjects: [
             {
