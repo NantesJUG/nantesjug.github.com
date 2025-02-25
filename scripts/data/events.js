@@ -24,6 +24,48 @@
 // },
 var njEvents = [
     {
+        id: '2025_03_12',
+        title: "REX: Oxygen, le Design System de Doctolib // Mountain Quest: Du Camp de Base au Sommet - Une Aventure Product & Tech",
+        date: new Date(2025, 2, 12), //month begin at 0
+        time: '19h00',
+        register: null, //"https://www.meetup.com/nantes-java-user-group/events/306045925",
+        place: "doctolib",
+        subjects: [
+            {
+                title: "REX: Oxygen, le Design System de Doctolib",
+                time: '19h00',
+                length: '0h30',
+                type: 'quickie',
+                abstract: `
+                    <p>Chez Doctolib, on développe nos produits avec un Design System; c a d que nos designers et nos développeurs ont un langage commun pour imaginer et faire évoluer nos produits.</p>
+                    <p>Mais en fait, c'est quoi un Design System ? Et pourquoi chez Docto, il y a une équipe dédiée ?</p>
+                    <p>Une Intro et Rex de nos usages. Facile d'accès même pour les devs backs ;)</p>
+                `,
+                speakers: ['julien_tanay']
+            },
+            {
+                title: "Mountain Quest: Du Camp de Base au Sommet - Une Aventure Product & Tech",
+                time: '19h30',
+                length: '0h45',
+                type: 'talk',
+                abstract: `
+                    <p>Embarquez pour une expédition chez Doctolib, où le Product Manager (votre cartographe) et l'Engineering Manager (votre guide de montagne) unissent leurs forces pour mener l'équipe vers de nouveaux sommets. Découvrez comment nous avons construit des équipes autonomes qui allient vision stratégique et expertise tactique.</p>
+                    <p>Dans cette aventure, nous vous dévoilerons comment notre équipe :
+                    <ul>
+                    <li>Trace des voies ambitieuses tout en maîtrisant un terrain legacy technique</li>
+                    <li>Équipe ses membres avec les bons outils et le mindset nécessaire à la réussite</li>
+                    <li>Gravis les défis techniques avec agilité</li>
+                    <li>Cultive l'exploration et  la prise de risque maîtrisée</li>
+                    <li>Transforme les obstacles techniques en tremplins</li>
+                    </ul>
+                    </p>
+                    <p>À travers l'expérience de notre équipe plateforme, nous partagerons des stratégies éprouvées qui permettent aux équipes d'atteindre leurs sommets tout en gardant leur esprit d'innovation. De la gestion des clients internes aux exigences réglementaires, nous révélerons comment maintenir un esprit startup dans un environnement  complexe.</p>
+                    `,
+                speakers: ['julien_bideau', 'celine_forestier']
+            }
+        ]
+    },
+    {
         id: '2025_02_25',
         title: "Vous saurez tout sur les type systems // Développer pour le mode hors-ligne avec le web natif",
         date: new Date(2025, 1, 25), //month begin at 0

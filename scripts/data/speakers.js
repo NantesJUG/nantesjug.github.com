@@ -1752,10 +1752,35 @@ var njSpeakers = [
   {
     id: "julien_bideau",
     name: "Julien Bideau",
-    bio: "Développeur passionné chez Asys, j'adore découvrir de nouveaux langages, partager et apprendre au quotidien. J'aime chercher les solutions adéquates et améliorer continuellement nos process ! <br>Je travaille actuellement avec notre feature team sur la réécriture de notre legacy en microservices cloud ready",
+    bio: `
+      <p>Ex-dev passé du côté obscur du management chez Doctolib, je garde un pied dans la tech en dirigeant une équipe de développeur·ses talentueux·se. Mes 10 ans de code m'ont appris que la qualité n'est pas négociable : TDD, Clean Code et architecture réfléchie sont notre pain quotidien.</p>
+      <p>Fervent défenseur des bonnes pratiques de développement, j'interviens régulièrement au Nantes JUG et enseigne aussi le développement web à des étudiants en MASTER. Spécialisé backend et architecture logicielle, je reste convaincu que la meilleure ligne de code est souvent celle qu'on n'écrit pas.</p>
+      <p>Toujours partant pour débattre de DDD, de patterns d'architecture ou simplement partager des retours d'expérience autour d'un café !</p>
+      `,
     photo: "jpg",
     twitter: "JulienBideau",
     github: "JulienBideau",
+  },
+  {
+    id: "celine_forestier",
+    name: "Céline Forestier",
+    bio: `
+      <p>Product manager, j'ai 15 ans d'expérience dans une variété de secteurs comme les médias, l'hôtellerie, et la santé. Chez Doctolib, je me concentre sur le développement de solutions qui assurent notre conformité légale.</p>
+      <p>Je travaille à l'intersection de la faisabilité technique et des besoins des utilisateurs internes et externes. Mon rôle consiste entre autre à favoriser la collaboration entre les équipes Opérations, Business, Tech et Produit.</p>
+      <p>Spécialisée en UX design, je m'assure que les décisions sont fondées sur les besoins réels des utilisateurs tout en répondant aux objectifs de l'entreprise.</p>
+      `,
+  },
+  {
+    id: "julien_tanay",
+    name: "Julien	Tanay",
+    bio: `
+      <p>Staff SRE @ Doctolib, je travaille dans une équipe "plateforme", au service des tous les dev de l'organisation technique.</p>
+      <p>J'accompagne les équipes sur les problématiques de qualité de code, d'intégration et de livraison continue, et plus encore.</p>
+      `,
+    photo: "jpg",
+    twitter: "Djiit",
+    github: "Djiit",
+    website: "https://bsky.app/profile/djiit.dev",
   },
   {
     id: "jean_francois_james",
