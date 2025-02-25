@@ -28,7 +28,7 @@ var njEvents = [
         title: "REX: Oxygen, le Design System de Doctolib // Mountain Quest: Du Camp de Base au Sommet - Une Aventure Product & Tech",
         date: new Date(2025, 2, 12), //month begin at 0
         time: '19h00',
-        register: null, //"https://www.meetup.com/nantes-java-user-group/events/306045925",
+        register: "https://www.meetup.com/nantes-java-user-group/events/306401890",
         place: "doctolib",
         subjects: [
             {
