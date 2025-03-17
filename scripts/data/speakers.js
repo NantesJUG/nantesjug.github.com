@@ -17,6 +17,30 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'arnaud_jean',
+    name: 'Arnaud Jean',
+    bio: `
+      <p>Arnaud JEAN (aka: **John Wick**), Developer Advocate with a particular set of skills!</p>
+      <p>By day, he's crafting killer demos and slaying documentation dragons. By night, he's a regular on the conference circuit, delivering and assisting to insightful talks. Before going rogue as a Developer Advocate, Arnaud was an AWS Solutions Architect – a past that comes in handy more often than you'd think!</p>
+    `,
+    photo: 'jpg',
+    github: 'ajohn-wick'
+  },
+  {
+    id: 'tiffany_souterre',
+    name: 'Tiffany Souterre',
+    bio: `
+      <p>I'm Tiffany, Senior Developer Advocate in AI/ML at AWS 💻.</p>
+      <p>I previously worked as a Data/ML engineer and Developer Relations at Microsoft.</p>
+      <p>I'm a recurring speaker in the <a href="https://www.youtube.com/@Underscore_" target="_blank">Underscore</a> talk-show.</p>
+      <p>I love engaging with developers about technologies, innovations and help them use our tools.</p>
+      <p>My main focus are Artificial Intelligence 🤖, Cloud technologies ☁️ and Python 🐍 but I also love astronomy 🚀, genetic engineering 🧬, sports 🥋, animals 🐕, travels 🛫, gaming 🎮 and sharing a good meal with friends 🍲</p>
+`,
+    photo: 'jpg',
+    twitter: 'tiffanysouterre',
+    github: 'amagash'
+  },
+  {
     id: "pierre_gradot",
     name: "Pierre Gradot",
     bio: `
@@ -141,7 +165,7 @@ var njSpeakers = [
     id: "alexis_voisin",
     name: "Alexis Voisin",
     bio:
-      "<p>Développeur depuis 9 ans, principalement en Java, j'ai pris le lead sur plusieurs projets et mis en place des points d'échanges entre devs.</p>"+
+      "<p>Développeur depuis 9 ans, principalement en Java, j'ai pris le lead sur plusieurs projets et mis en place des points d'échanges entre devs.</p>" +
       "<p>Je cherche toujours à progresser techniquement et à partager mes connaissances.</p>",
     photo: "png",
     twitter: "",
@@ -152,9 +176,9 @@ var njSpeakers = [
     id: "ambre_person",
     name: "Ambre Person",
     bio:
-      "<p>🧰 Artisan du code @ Sopra Steria</p>"+
-      "<p>⚙️ Passionné d'ingénierie logicielle (Architecture, Craftsmanship, DevOps, Cloud, Management)</p>"+
-      "<p>🎯 Directeur technique de l'agence Services Publics Nantes</p>"+
+      "<p>🧰 Artisan du code @ Sopra Steria</p>" +
+      "<p>⚙️ Passionné d'ingénierie logicielle (Architecture, Craftsmanship, DevOps, Cloud, Management)</p>" +
+      "<p>🎯 Directeur technique de l'agence Services Publics Nantes</p>" +
       "<p>👨‍🏫 Formateur interne & enseignant en école d'ingénieurs (Craftsmanship, DevOps, Cloud)</p>",
     photo: "png",
     twitter: "",

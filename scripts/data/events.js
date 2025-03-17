@@ -24,6 +24,30 @@
 // },
 var njEvents = [
     {
+        id: '2025_04_29',
+        title: `Cats' Tail ou Comment créer son propre Jeu de Rôle avec l'Agentic AI`,
+        date: new Date(2025, 3, 29), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "qlik",
+        subjects: [
+            {
+                title: `Cats' Tail ou Comment créer son propre Jeu de Rôle avec l'Agentic AI`,
+                time: '19h00',
+                length: '1h30',
+                type: 'talk',
+                abstract: `
+                    <p>Vous êtes un Développeur ou une Développeuse, fan de Jeu de Rôle et aimez les chats ? Alors venez découvrir Cats' Tail, <b>un Jeu de Rôle transformant des concepts complexes d'IA en une expérience de jeu immersive et évolutive</b> !</p>
+                    <p></p>
+                    <p>Durant ce talk, vous découvrirez <b>comment mettre en oeuvre les techniques d'Agentic AI</b> afin de créer un Maître du Jeu (MJ) orchestrant plusieurs agents, chacuns spécialisé dans une tâche particulière.</p>
+                    <p></p>
+                    <p>En Bonus : Enrichir l'expérience en persistant les échanges entre joueurs et MJ dans une base de données afin de renforcer l'immersion des joueurs et joueuses :)</p>
+                    `,
+                speakers: ['arnaud_jean', 'tiffany_souterre']
+            }
+        ]
+    },
+    {
         id: '2025_03_12',
         title: "REX: Oxygen, le Design System de Doctolib // Mountain Quest: Du Camp de Base au Sommet - Une Aventure Product & Tech",
         date: new Date(2025, 2, 12), //month begin at 0
