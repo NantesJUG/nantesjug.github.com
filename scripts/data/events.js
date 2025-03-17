@@ -28,7 +28,7 @@ var njEvents = [
         title: `Cats' Tail ou Comment créer son propre Jeu de Rôle avec l'Agentic AI`,
         date: new Date(2025, 3, 29), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/306768959",
         place: "qlik",
         subjects: [
             {
