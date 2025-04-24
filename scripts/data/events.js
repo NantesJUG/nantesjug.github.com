@@ -24,6 +24,44 @@
 // },
 var njEvents = [
     {
+        id: '2025_05_15',
+        title: `Signals : "Nouvelle" Norme des Frameworks Web // C'est pas le réseau, ça ping Marty !`,
+        date: new Date(2025, 4, 15), //month begin at 0
+        time: '19h00',
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/307462842",
+        place: "kleegroup",
+        subjects: [
+            {
+                title: `Signals : "Nouvelle" Norme des Frameworks Web`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>Venez découvrir "Signals", concept clé du développement Web de demain, qui date pourtant de... 2010.</p>
+                    <p>Dans cette courte conférence à destination des développeurs Frontend, vous apprendrez que l'écosystème Web a bien mûri en 10, notamment en ce qui concerne la gestion de l'état de vos applications.</p>
+                    <p>Que vous soyez développeurs Angular, React, Vue, Svelte, ou tout simplement VanillaJS, vous êtes concerné par ce changement !</p>
+                    <p>L'objectif de Signals est de fournir une interface unique et commune à l'ensemble des frameworks Web, afin de gérer leurs variables réactives, tout en restant simple et performant.</p>
+                    <p>Cette présentation s'appuiera sur des portions de code, afin de démontrer l'intérêt de cette nouvelle notion et comment l'implémenter dans nos usages.</p>
+                    <p>"À l'aube d'une grande aventure", embarquerez-vous à bord de ce talk, à la recherche de l'expérience de développement idéale ?"</p>
+                    `,
+                speakers: ['damien_chazoule']
+            },
+            {
+                title: `C'est pas le réseau, ça ping Marty !`,
+                time: '19h30',
+                length: '1h00',
+                type: 'talk',
+                abstract: `
+                    <p>Vous ne comprenez pas pourquoi votre application est injoignable alors que ça ping ?</p>
+                    <p>Durant cette session, nous aborderons les fondamentaux du réseau, tels que la connectivité, le routage et le filtrage.</p>
+                    <p>Nous parlerons également des métriques de référence, comme la latence, la bande passante et les pertes de paquets.</p>
+                    <p>Enfin, nous reviendrons sur les problèmes réseaux fréquemment rencontrés par les développeurs.</p>
+                    `,
+                speakers: ['cynthia_treger', 'david_santiago']
+            }
+        ]
+    },
+    {
         id: '2025_04_29',
         title: `Cats' Tail ou Comment créer son propre Jeu de Rôle avec l'Agentic AI`,
         date: new Date(2025, 3, 29), //month begin at 0

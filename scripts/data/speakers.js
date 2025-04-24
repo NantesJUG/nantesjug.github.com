@@ -17,6 +17,42 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'cynthia_treger',
+    name: 'Cynthia Treger',
+    bio: `
+      <p>Chez Microsoft, je fais partie de l'équipe Global Black Belt, et je suis spécialisée Azure Networking.</p>
+      <p>J'accompagne les clients dans leur move to cloud en les aidant à surmonter les défis liés au réseau et à la sécurité réseau, et ce afin d'étendre leurs environnements on-premises vers Azure de manière efficace, sécurisée et résiliente.</p>
+    `,
+    photo: 'jpg',
+    github: 'cynthiatreger',
+    twitter: 'cynthiatreger',
+  },
+  {
+    id: 'david_santiago',
+    name: 'David Santiago',
+    bio: `
+      <p>Tech enthusiast specializing in Cloud Networking, infrastructure and automation.</p>
+      <p>Cloud Solution Architect @Microsoft.</p>
+    `,
+    photo: 'jpg',
+    github: 'davidsntg',
+    twitter: 'DawlysD',
+  },
+  {
+    id: 'damien_chazoule',
+    name: 'Damien Chazoule',
+    bio: `
+      <p>Développeur FullStack passionné par l'informatique depuis plus d'une décennie…</p>
+      <p>J'ai commencé à développer des applications mobiles en Java puis en Kotlin pour Android.</p>
+      <p>En découvrant NodeJS et le framework AngularJS (paix à son âme), je me suis trouvé une véritable passion pour le développement Web, mais surtout pour le langage JavaScript.</p>
+      <p>React, Vue, TypeScript, MongoDB, GraphQL, (S)CSS, etc… sont les technologies que j'apprécie de manipuler au quotidien.</p>
+      <p>Aujourd'hui, je conçois et maintiens des applications et sites Web, de A à Z (depuis les APIs jusqu'au rendu visuel). J'accorde également une attention particulière à l'UI/UX, que je considère comme la pierre angulaire d'un projet réussi !</p>
+      <p>L'art du développement et la curiosité pour la nouveauté, me poussent à partager mes connaissances avec mes pairs, au travers d'articles, de conférences ou encore la formation.</p>
+      <p>Conscient de l'aspect chronophage du code, j'aspire à l'avenir à gérer des projets informatiques de toutes tailles. En attendant, j'avance dans la vie la tête pleine d'idées nouvelles, le regard tourné vers le Web !</p>
+    `,
+    photo: 'jpg',
+  },
+  {
     id: 'arnaud_jean',
     name: 'Arnaud Jean',
     bio: `

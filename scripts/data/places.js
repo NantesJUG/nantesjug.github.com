@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
   {
+    id: 'kleegroup',
+    name: 'Klee Group',
+    address: '7 Mail Pablo Picasso',
+    city: '44000 Nantes',
+    maps: 'https://maps.app.goo.gl/2zybKqQckBmKz3B29',
+    capacity: 40
+  },
+  {
     id: 'doctolib',
     name: 'Doctolib',
     address: '17 Bd de Berlin',
