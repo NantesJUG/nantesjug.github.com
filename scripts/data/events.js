@@ -49,7 +49,7 @@ var njEvents = [
             {
                 title: `C'est pas le réseau, ça ping Marty !`,
                 time: '19h30',
-                length: '1h00',
+                length: '45 min',
                 type: 'talk',
                 abstract: `
                     <p>Vous ne comprenez pas pourquoi votre application est injoignable alors que ça ping ?</p>
