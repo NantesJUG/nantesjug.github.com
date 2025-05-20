@@ -24,6 +24,48 @@
 // },
 var njEvents = [
     {
+        id: '2025_06_17',
+        title: `Enter the Daggerverse ! // Suivez le lapin blanc et plongez dans la JVM`,
+        date: new Date(2025, 5, 17), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "adresse_gare_sud",
+        subjects: [
+            {
+                title: `Enter the Daggerverse !`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>Si je vous dis Dagger ? Cela ne vous parle peut-être pas. Si je vous dis... Docker ? Là, ça vous parle !</p>
+                    <p>Dagger, c'est le moteur de CI/CD développé par Solomon Hykes, le papa de Docker. Un OVNI dans l'univers des moteurs de CI/CD, à la fois une alternative et un complément à Jenkins, Circle, GitHub Actions. Mais quid du Daggerverse ?</p>
+                    <p>Laissez-nous vous embarquer dans ce nouvel univers, laissez nous vous faire tomber dans... le Daggerverse of madness !!</p>
+                    <p>Dans ce talk, vous :
+                        <ul>
+                            <li>prendrez en main Dagger avec le langage de votre choix : Typescript, Go ou Python (et qui sait, Java ?)</li>
+                            <li>découvrirez comment publier votre propre module Dagger dans... le Daggerverse !</li>
+                        </ul>
+                    </p>
+                    <p>Vous découvrirez même comment en évitant le push and pray, vous augmentez votre productivité, votre satisfaction et réduisez votre impact énergétique.</p>
+                    <p>Et vous serez à tout jamais séduit par Dagger et son univers à part entière.</p>
+                    `,
+                speakers: ['emeric_martineau', 'julien_haumont']
+            },
+            {
+                title: `Comme Alice, osez suivre le lapin blanc et plongez dans la JVM pour comprendre son fonctionnement`,
+                time: '19h30',
+                length: '1h',
+                type: 'talk',
+                abstract: `
+                    <p>Tout commence avec une mise à jour de Java 17 vers Java 21.0.1 qui fait planter un de nos benchmarks. Notre unique symptôme: une variable locale non null envoie une NullPointerException.</p>
+                    <p>Ensemble, on va remonter dans le temps pour refaire l'analyse de ce bug. Lors de ce voyage, on va plonger dans la JVM, comprendre son fonctionnement et creuser pour trouver la root-cause de ce bug corrigé en 21.0.3.</p>
+                    <p>A l'issu de cette présentation, vous comprendrez que c'était à votre portée. Sans le savoir, vous êtes déjà capable de compiler votre propre JDK pour diagnostiquer et corriger des bugs. Qui sait, vous deviendrez peut-être contributeur Java ?</p>
+                    `,
+                speakers: ['antoine_dessaigne']
+            }
+        ]
+    },
+    {
         id: '2025_05_15',
         title: `Signals : "Nouvelle" Norme des Frameworks Web // C'est pas le réseau, ça ping Marty !`,
         date: new Date(2025, 4, 15), //month begin at 0

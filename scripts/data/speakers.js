@@ -17,6 +17,25 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'antoine_dessaigne',
+    name: 'Antoine Dessaigne',
+    bio: `
+      <p>Développeur Java depuis une vingtaine d'année, je travaille depuis 2012 chez Axway sur un projet d'analytics d'abord comme développeur puis architecte avec un focus sur les performances depuis 5 ans.</p>
+    `,
+    photo: 'png'
+  },
+  {
+    id: 'julien_haumont',
+    name: 'Julien Haumont',
+    bio: `
+      <p>Geek, père, motard, métalleux, bricoleur du samedi, modéliste, joueur, badeux, j'ai trop de passions ! Mais ça ne me suffit pas ! J'ai toujours soif de découverte. Ma curiosité est sans fin :)</p>
+      <p>Dans ma vie précédente, j'étais un profil tout terrain (dev, QA, architecture, Scrum Master, pilote projet, Architecte) chez Sopra, habitué des projets d'envergures (plus 100 personnes).</p>
+      <p>Aujourd'hui, après avoir décidé de changer de "métier" et satisfaire ma curiosité, je suis un SRE accompli chez BlaBlaCar, spécialisé dans la CI/CD et possédant une forte expertise sur Flux, Helm, Jenkins, GitHub Actions, Renovate, etc</p>
+    `,
+    github: 'jhaumont',
+    twitter: 'j_haumont'
+  },
+  {
     id: 'cynthia_treger',
     name: 'Cynthia Treger',
     bio: `
@@ -1550,11 +1569,9 @@ var njSpeakers = [
     id: "emeric_martineau",
     name: "Emeric Martineau",
     bio:
-      "<p>Comment décrire quelqu'un qui a été hotliner, réparateur de PC et d'imprimantes, qui a tiré du câble réseau, qui a fait de l'administration réseau et système, fait du développement Delphi, Java (Web, Swing), qui s'intéresse au problématique de déploiement, d'automatisation...</br>" +
-      "Ah oui, le mot à la mode c'est DevOPS !</br>" +
-      "Alors va pour !</p>" +
-      "<p>Moi j'aime pas les cloisons. Les routes toutes droites.</p>" +
-      "<p>Et c'est pour ça qu'aujourd'hui je fais partie de l'équipe transverse de l'usine logicielle de Voyages-Sncf.com :-)</p>",
+      "<p>D'abord développeur temps-réel puis exploitant, passé par hotlineur, technicien de maintenance informatique, administrateur systèmes et réseaux et enfin développeur.</p>" +
+      "<p>Je m'intéresse à énormément de sujets que j'inter-connecte mentalement pour en ressortir des idées et des concepts farfelus et improbable.</p>" +
+      "<p>Je travaille actuellement au Crédit Agricole Technologies et Services dans l'équipe accompagnant les developpeurs vers plus d'automatisation (CI/CD) et que qualité (Sonar).</p>",
     photo: "jpg",
     twitter: "martineauemeric",
     github: "bubulemaster",
