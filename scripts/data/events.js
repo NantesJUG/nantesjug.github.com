@@ -25,7 +25,7 @@
 var njEvents = [
     {
         id: '2025_06_17',
-        title: `Enter the Daggerverse ! // Suivez le lapin blanc et plongez dans la JVM`,
+        title: `🍸 // Enter the Daggerverse ! // Suivez le lapin blanc et plongez dans la JVM // 🧀 🍷`,
         date: new Date(2025, 5, 17), //month begin at 0
         time: '19h00',
         register: "",
