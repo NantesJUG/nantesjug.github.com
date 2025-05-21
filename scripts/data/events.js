@@ -32,8 +32,15 @@ var njEvents = [
         place: "adresse_gare_sud",
         subjects: [
             {
-                title: `Enter the Daggerverse !`,
+                title: 'Verre d\'accueil 🍸',
                 time: '19h00',
+                length: '30 min',
+                type: 'hello',
+                abstract: "<p>C'est bientôt l'été ! Nous vous invitons donc à débuter cette dernière soirée de façon conviviale avec un verre de bienvenue.</p>",
+            },
+            {
+                title: `Enter the Daggerverse !`,
+                time: '19h30',
                 length: '30 min',
                 type: 'quickie',
                 abstract: `
@@ -53,7 +60,7 @@ var njEvents = [
             },
             {
                 title: `Comme Alice, osez suivre le lapin blanc et plongez dans la JVM pour comprendre son fonctionnement`,
-                time: '19h30',
+                time: '20h00',
                 length: '1h',
                 type: 'talk',
                 abstract: `
@@ -62,6 +69,13 @@ var njEvents = [
                     <p>A l'issu de cette présentation, vous comprendrez que c'était à votre portée. Sans le savoir, vous êtes déjà capable de compiler votre propre JDK pour diagnostiquer et corriger des bugs. Qui sait, vous deviendrez peut-être contributeur Java ?</p>
                     `,
                 speakers: ['antoine_dessaigne']
+            },
+            {
+                title: 'Planche apéro et Cocktail 🧀 🍷',
+                time: '21h',
+                length: '3h',
+                type: 'cocktail',
+                abstract: "<p>Et pour clôturer la soirée en beauté, restez discuter avec nous autour d'un verre et de délicieuses planches apéro 😋</p>",
             }
         ]
     },
