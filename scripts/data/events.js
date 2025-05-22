@@ -28,7 +28,7 @@ var njEvents = [
         title: `🍸 // Enter the Daggerverse ! // Suivez le lapin blanc et plongez dans la JVM // 🧀 🍷`,
         date: new Date(2025, 5, 17), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/307959282",
         place: "adresse_gare_sud",
         subjects: [
             {
