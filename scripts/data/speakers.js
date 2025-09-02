@@ -25,7 +25,9 @@ var njSpeakers = [
     <p>Tech ops</p>
     <p>18 ans d’expérience</p>
     <p>Fan de loutres et de couleurs</p>
-    `
+    `,
+    photo: "jpg",
+
   },
   {
     id: "jeremy_lejeune",
