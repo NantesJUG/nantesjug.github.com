@@ -25,7 +25,7 @@
 var njEvents = [
     {
         id: '2025_09_18',
-        title: `🦦 Comprendre l'Usine Logicielle // 📝 Event Sourcing avec Kotlin & Spring // 📝`,
+        title: `🦦 Comprendre l'Usine Logicielle // 📝 Event Sourcing avec Kotlin & Spring`,
         date: new Date(2025, 8, 18), //month begin at 0
         time: '19h00',
         register: "https://www.meetup.com/nantes-java-user-group/events/310831073/",
