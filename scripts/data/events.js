@@ -24,6 +24,46 @@
 // },
 var njEvents = [
     {
+        id: '2025_09_18',
+        title: `🦦 Comprendre l'Usine Logicielle // 📝 Event Sourcing avec Kotlin & Spring // 📝`,
+        date: new Date(2025, 8, 18), //month begin at 0
+        time: '19h00',
+        register: "https://www.meetup.com/nantes-java-user-group/events/310831073/",
+        place: "zenika",
+        subjects: [
+ 
+            {
+                title: `🦦 Une loutre pour comprendre l'Usine Logicielle`,
+                time: '19h10',
+                length: '15 min',
+                type: 'quickie',
+                abstract: 
+                `
+                <p>Suivez la visite de l'usine de loutres en bois 'WoOtter'.</p>
+                <p>Au fil d'une métaphore d'usine de produits mignons manufacturés, découvrez ou clarifiez votre vision de l'usine logicielle.</p>
+                <p>Un outil pour comprendre ou expliquer ce qu'est une usine logicielle à (presque) n'importe qui.</p>
+                `
+                ,
+                speakers: ['vincent_thiebault']
+            },
+
+            {
+                title: `📝  Si la facture électronique m'était comptée`,
+                time: '19h30',
+                length: '1h',
+                type: 'talk',
+                abstract: 
+                `
+                <p>La légende dit que de nombreuses factures ne seraient pas tracées. Afin de collecter plus précisément les taxes du royaume, l'argentier du roi va imposer au peuple la facturation électronique. Suivez nous dans les méandres et les pièges de la mise en place d'une architecture événementielle vouée à tracer les états de la facture, de son émission à son règlement... </p>
+                <p>Comment mettre à profit un langage intuitif, <b>Kotlin</b>, en adoptant le paradigme réactif de <b>Spring Webflux</b>, combiné à la puissance de <b>Kafka</b> pour implémenter un système événementiel basé sur les concepts d'<b>Event Sourcing</b> et <b>State Pattern</b> qui garantira l'historisation des factures électroniques et la résilience à travers les âges.</p>
+                `
+                ,
+                speakers: ['jeremy_lejeune','gregory_bevan','jerome_landreau']
+            }
+        ]
+    },
+
+    {
         id: '2025_06_17',
         title: `🍸 // Enter the Daggerverse ! // Suivez le lapin blanc et plongez dans la JVM // 🧀 🍷`,
         date: new Date(2025, 5, 17), //month begin at 0

@@ -17,6 +17,49 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "vincent_thiebault",
+    name: "Vincent Thiebault",
+    bio: `
+    <p>Architecte solution</p>
+    <p>Lead developer</p>
+    <p>Tech ops</p>
+    <p>18 ans d’expérience</p>
+    <p>Fan de loutres et de couleurs</p>
+    `
+  },
+  {
+    id: "jeremy_lejeune",
+    name: "Jérémy Lejeune",
+    bio: `
+    <p>Consultant et formateur chez Zenika depuis 2018, je travaille principalement en backend et m'intéresse aux problématiques de résilience et de déploiement et intégration continue pour améliorer l'expérience développeur.</p>
+    <p>Côté développement, mes langages de prédilection sont Kotlin et Java, pour implémenter des architectures réactives et/ou événementielles.</p>
+    <p>Côté déploiement, je travaille principalement sur Kubernetes, AWS ECS et Terraform pour faire de l'IaC.</p>
+    <p>J'anime aussi avec mes collègues de Zenika des ateliers Maker en école ou pour des clients et fais vivre notre FabLab (impression 3D, IoT).</p>
+    `,
+    photo: "png",
+    github: "yodur2potassium"
+  },
+  {
+    id: "gregory_bevan",
+    name: "Grégory Bévan",
+    bio: `
+    <p>Développeur passionné depuis plus de 20 ans, je suis consultant/formateur chez Zenika Nantes depuis 8 ans. J'aime mettre à profit mon expérience du monde de l'édition de logiciels Web.</p>
+    <p>En tant qu'architecte et développeur backend spécialisé en Java et Kotlin, j'apprécie tous les aspects de la construction logicielle. Je place la culture du craftsmanship au cœur de la production de logiciels de qualité. Mon désir constant d'apprendre et de me perfectionner m'amène également à explorer le développement front-end, l'intégration et le déploiement continu (CI/CD), ainsi que les solutions Cloud (AWS, CleverCloud).
+    </p>`,
+    photo: "png",
+    github: "GregoryBevan"
+  },
+  {
+    id : "jerome_landreau",
+    name: "Jérôme Landreau",
+    bio: `
+    <p>Développeur Java depuis 20 ans (déjà !), je suis tech lead back chez RCA.</p>
+    <p>J'explore les technologies back : Spring, Kafka et plus récemment Kotlin et la programmation réactive.</p>
+    <p>J'aime aussi travailler sur les sujets d'infrastructure: terraform, CI/CD et AWS.</p>
+    `
+
+  }
+  ,{
     id: 'antoine_dessaigne',
     name: 'Antoine Dessaigne',
     bio: `
