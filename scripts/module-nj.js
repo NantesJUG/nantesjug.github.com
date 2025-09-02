@@ -48,6 +48,9 @@ var nj = function () {
     getEventPlaceUrl : function(event){
       return typeof event !== 'undefined' && typeof event.place !== 'undefined' && event.place !== null ? '/images/places/map-' + event.place.id + '.png' : null;
     },
+    getEventThumbnailUrl : function(event){
+      return typeof event !== 'undefined' ? '/images/events/' + event.id + '.png' : null;
+    },
     getSpeakers: function () {
       return speakers;
     },

@@ -30,6 +30,7 @@ var njEvents = [
         time: '19h00',
         register: "https://www.meetup.com/nantes-java-user-group/events/310831073/",
         place: "zenika",
+        thumbnail: true,
         subjects: [
  
             {
