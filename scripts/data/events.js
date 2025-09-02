@@ -34,7 +34,7 @@ var njEvents = [
  
             {
                 title: `🦦 Une loutre pour comprendre l'Usine Logicielle`,
-                time: '19h10',
+                time: '19h00',
                 length: '15 min',
                 type: 'quickie',
                 abstract: 
