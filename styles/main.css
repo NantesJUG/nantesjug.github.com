@@ -8,8 +8,23 @@ body {
   background-position-y: 40px;
 }
 
+.equal-row {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping to next line */
+}
+
+.equal-row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;   /* stack image above text */
+  align-items: center;      /* center horizontally */
+  text-align: center;       /* center text inside */
+}
 .sponsors div {
   margin-bottom: 10px;
+}
+
+.sponsors div p {
+  margin-top: 10px;
 }
 
 .sponsors-page .sponsors div {
