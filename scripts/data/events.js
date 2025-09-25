@@ -24,6 +24,44 @@
 // },
 var njEvents = [
     {
+        id: '2025_10_09',
+        title: `??? // Le chaos engineering expliqué à mon neveu de 10 ans`,
+        date: new Date(2025, 9, 9), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "sfeir",
+        subjects: [
+ 
+            {
+                title: `À déterminer ...`,
+                time: '19h00',
+                length: '15 min',
+                type: 'quickie',
+                abstract: 
+                `
+                <p>
+                    Vous avez un sujet à proposer ?
+                    Proposez-le sur notre <a href="https://cfp.nantesjug.org/" target="_blank">CFP</a> !
+                </p>
+                `
+                ,
+                // speakers: ['vincent_thiebault']
+            },
+
+            {
+                title: `Le chaos engineering expliqué à mon neveu de 10 ans`,
+                time: '19h30',
+                length: '45 min',
+                type: 'talk',
+                abstract: 
+                `
+                <p>L'ingénierie du chaos expliquée de façon ludique et humoristique en mode vulgarisation technique, à l'aide de lego, de jenga et d'une application codée à la main par un non developpeur</p>
+                `,
+                speakers: ['mickael_dangleterre']
+            }
+        ]
+    },
+    {
         id: '2025_09_18',
         title: `🦦 Comprendre l'Usine Logicielle // 📝 Event Sourcing avec Kotlin & Spring`,
         date: new Date(2025, 8, 18), //month begin at 0

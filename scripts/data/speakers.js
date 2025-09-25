@@ -17,6 +17,14 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: "mickael_dangleterre",
+    name: "Mickaël Dangleterre",
+    website: 'http://www.ageekslab.com',
+    photo: "jpg",
+    twitter: 'Mikamakusa',
+    github: 'mikamakusa'
+  },
+  {
     id: "vincent_thiebault",
     name: "Vincent Thiebault",
     bio: `
