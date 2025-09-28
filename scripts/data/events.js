@@ -25,7 +25,7 @@
 var njEvents = [
     {
         id: '2025_10_09',
-        title: `DIY: ma base de connaissance en bash // Le chaos engineering expliqué à mon neveu de 10 ans`,
+        title: `DIY : ma base de connaissance en bash // Le chaos engineering expliqué à mon neveu de 10 ans`,
         date: new Date(2025, 9, 9), //month begin at 0
         time: '19h00',
         register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/311275374/",
@@ -33,7 +33,7 @@ var njEvents = [
         subjects: [
  
             {
-                title: `DIY: Ma base de connaissance en bash`,
+                title: `DIY : Ma base de connaissance en bash`,
                 time: '19h00',
                 length: '15 min',
                 type: 'quickie',
