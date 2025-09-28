@@ -847,8 +847,8 @@ var njSpeakers = [
     id: "manuel_boillod",
     name: "Manuel Boillod",
     bio:
-      "<p>Manuel Boillod est architecte Cloud </p>" +
-      "<p>Après de nombreuses années d'architecture logiciel et de développement dapplications, je me suis spécialisé dans les architectures et écosystèmes du Cloud Publique.</p>" +
+      "<p>Manuel Boillod est architecte Cloud</p>" +
+      "<p>Après de nombreuses années d'architecture logiciel et de développement d'applications, je me suis spécialisé dans les architectures et écosystèmes du Cloud Publique.</p>" +
       "<p>Désormais je m'épanouis à mettre en place les meilleurs pratiques d'ingénieurie logicielle (devops, gitops, infra as code, ...) et à accompagner les équipes sur leurs déploiements dans AWS, Azure et Kubernetes.</p>" +
       '<p>Manuel est également organisateur du <a href="http://nantesjug.org/" target="_blank">Nantes JUG</a> et aime échanger autour des projets et des technologies.</p>',
     photo: "jpg",

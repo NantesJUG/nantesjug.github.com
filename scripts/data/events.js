@@ -25,27 +25,25 @@
 var njEvents = [
     {
         id: '2025_10_09',
-        title: `??? // Le chaos engineering expliqué à mon neveu de 10 ans`,
+        title: `DIY: ma base de connaissance en bash // Le chaos engineering expliqué à mon neveu de 10 ans`,
         date: new Date(2025, 9, 9), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/311275374/",
         place: "sfeir",
         subjects: [
  
             {
-                title: `À déterminer ...`,
+                title: `DIY: Ma base de connaissance en bash`,
                 time: '19h00',
                 length: '15 min',
                 type: 'quickie',
                 abstract: 
                 `
-                <p>
-                    Vous avez un sujet à proposer ?
-                    Proposez-le sur notre <a href="https://cfp.nantesjug.org/" target="_blank">CFP</a> !
-                </p>
+                <p>Après avoir testé beaucoup d'outils pour gérer ma base de connaissances, sans réellement trouver mon bonheur, j'ai fini par créer mon propre outil en bash.</p>
+                <p>Venez découvrir le résultat final ainsi que l'envers du décor.</p>
                 `
                 ,
-                // speakers: ['vincent_thiebault']
+                speakers: ['manuel_boillod']
             },
 
             {
