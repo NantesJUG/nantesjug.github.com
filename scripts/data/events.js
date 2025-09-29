@@ -55,7 +55,7 @@ var njEvents = [
                 `
                 <p>L'ingénierie du chaos expliquée de façon ludique et humoristique en mode vulgarisation technique, à l'aide de lego, de jenga et d'une application codée à la main par un non developpeur</p>
                 `,
-                speakers: ['mickael_dangleterre']
+                speakers: ['michael_dangleterre']
             }
         ]
     },

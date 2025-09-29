@@ -17,8 +17,8 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
-    id: "mickael_dangleterre",
-    name: "Mickaël Dangleterre",
+    id: "michael_dangleterre",
+    name: "Michaël Dangleterre",
     website: 'http://www.ageekslab.com',
     photo: "jpg",
     twitter: 'Mikamakusa',
