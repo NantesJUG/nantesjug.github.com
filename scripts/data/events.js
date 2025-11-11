@@ -24,6 +24,47 @@
 // },
 var njEvents = [
     {
+        id: '2025_11_26',
+        title: `Quand l'IA fait le tri de manière industrialisée // Build an AI-Infused Chat Bot with LangChain4j (version 🇫🇷)`,
+        date: new Date(2025, 10, 26), //month begin at 0
+        time: '19h00',
+        register: "",//"https://www.meetup.com/fr-FR/nantes-java-user-group/events/311275374/",
+        place: "onepoint",
+        subjects: [
+            {
+                title: `Quand l'IA fait le tri de manière industrialisée`,
+                time: '19h00',
+                length: '45 min',
+                type: 'talk',
+                abstract: `
+                <p>L’IA fait le tri dans vos mails, dans vos agendas et aussi dans vos … colis et lettres. Avec plus de 50 millions d’objets triés par jour et des contraintes de temps de détections inférieures à 500ms, La Poste a réussi à industrialiser l’IA afin de réduire le tri manuel de 20% à 5%.</p>
+                <p> Pour réussir, La Poste en partenariat avec Thales, a développé une plateforme dédiée à la gestion des données et des modèles d'IA. Cette plateforme assure l’évolutivité, l’orchestration, et la performance des modèles de computer vision, déployés en Egde dans les centres de tri et en Datacenter. </p>
+                <p> Avec plus de 30 modèles d’IA, les défis comme reconnaitre une adresse destinataire sur un pli noir ou s’assurer que l’IA ne mélange pas les informations destinataire/expéditeur ont conduit l’équipe à créer des pipelines d'entrainement, d'évaluation et de déploiement des modèles. </p>
+                <p> Après 5 ans d'IA en production, ce talk sera l'occasion de partager les solutions mises en place pour répondre aux contraintes de performance, de résilience ou encore d'approvisionnement de GPU sur des infrastructures IAAS et PAAS.</p>
+                `,
+                speakers: ['guillaume_leblondel']
+            },
+            {
+                title: `Build an AI-Infused Chat Bot with LangChain4j (version 🇫🇷)`,
+                time: '19h30',
+                length: '45 min',
+                type: 'talk',
+                abstract:
+                    `
+                <p>
+                Add intelligent conversational AI in your Java application! 
+                </p>
+                <p>
+                This presentation demonstrates how to build a production-ready chatbot from scratch using LangChain4j, 
+                progressing from basic chat functionality to a sophisticated AI assistant with memory, content moderation, 
+                document retrieval (RAG), and business integration.
+                </p>
+                `,
+                speakers: ['antonio_goncalves']
+            }
+        ]
+    },
+    {
         id: '2025_10_09',
         title: `DIY : ma base de connaissance en bash // Le chaos engineering expliqué à mon neveu de 10 ans`,
         date: new Date(2025, 9, 9), //month begin at 0
@@ -31,14 +72,14 @@ var njEvents = [
         register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/311275374/",
         place: "sfeir",
         subjects: [
- 
+
             {
                 title: `DIY : Ma base de connaissance en bash`,
                 time: '19h00',
                 length: '15 min',
                 type: 'quickie',
-                abstract: 
-                `
+                abstract:
+                    `
                 <p>Après avoir testé beaucoup d'outils pour gérer ma base de connaissances, sans réellement trouver mon bonheur, j'ai fini par créer mon propre outil en bash.</p>
                 <p>Venez découvrir le résultat final ainsi que l'envers du décor.</p>
                 `
@@ -51,8 +92,8 @@ var njEvents = [
                 time: '19h30',
                 length: '45 min',
                 type: 'talk',
-                abstract: 
-                `
+                abstract:
+                    `
                 <p>L'ingénierie du chaos expliquée de façon ludique et humoristique en mode vulgarisation technique, à l'aide de lego, de jenga et d'une application codée à la main par un non developpeur</p>
                 `,
                 speakers: ['michael_dangleterre']
@@ -67,14 +108,14 @@ var njEvents = [
         register: "https://www.meetup.com/nantes-java-user-group/events/310831073/",
         place: "zenika",
         subjects: [
- 
+
             {
                 title: `🦦 Une loutre pour comprendre l'Usine Logicielle`,
                 time: '19h00',
                 length: '15 min',
                 type: 'quickie',
-                abstract: 
-                `
+                abstract:
+                    `
                 <p>Suivez la visite de l'usine de loutres en bois 'WoOtter'.</p>
                 <p>Au fil d'une métaphore d'usine de produits mignons manufacturés, découvrez ou clarifiez votre vision de l'usine logicielle.</p>
                 <p>Un outil pour comprendre ou expliquer ce qu'est une usine logicielle à (presque) n'importe qui.</p>
@@ -88,13 +129,13 @@ var njEvents = [
                 time: '19h30',
                 length: '1h',
                 type: 'talk',
-                abstract: 
-                `
+                abstract:
+                    `
                 <p>La légende dit que de nombreuses factures ne seraient pas tracées. Afin de collecter plus précisément les taxes du royaume, l'argentier du roi va imposer au peuple la facturation électronique. Suivez nous dans les méandres et les pièges de la mise en place d'une architecture événementielle vouée à tracer les états de la facture, de son émission à son règlement... </p>
                 <p>Comment mettre à profit un langage intuitif, <b>Kotlin</b>, en adoptant le paradigme réactif de <b>Spring Webflux</b>, combiné à la puissance de <b>Kafka</b> pour implémenter un système événementiel basé sur les concepts d'<b>Event Sourcing</b> et <b>State Pattern</b> qui garantira l'historisation des factures électroniques et la résilience à travers les âges.</p>
                 `
                 ,
-                speakers: ['jeremy_lejeune','gregory_bevan','jerome_landreau']
+                speakers: ['jeremy_lejeune', 'gregory_bevan', 'jerome_landreau']
             }
         ]
     },
@@ -397,11 +438,11 @@ var njEvents = [
                 time: '19h00',
                 length: '0h45',
                 type: 'talk',
-                abstract: "<p>Les Buildpacks existent depuis plus de 10 ans ! <br/>" + 
-                    "D'abord, ils étaient utilisés pour détecter et construire une application avant de la déployer sur certains PaaS (Platform as a Service). <br/>" + 
-                    "Ensuite, nous avons pu créer des images Docker (OCI) avec leur dernière génération, les Cloud Native Buildpacks (CNCF en incubation).  <br/>" + 
-                    "Sont-ils une bonne alternative au Dockerfile ?  <br/>" + 
-                    "Que sont les buildpacks Paketo ?  <br/>" + 
+                abstract: "<p>Les Buildpacks existent depuis plus de 10 ans ! <br/>" +
+                    "D'abord, ils étaient utilisés pour détecter et construire une application avant de la déployer sur certains PaaS (Platform as a Service). <br/>" +
+                    "Ensuite, nous avons pu créer des images Docker (OCI) avec leur dernière génération, les Cloud Native Buildpacks (CNCF en incubation).  <br/>" +
+                    "Sont-ils une bonne alternative au Dockerfile ?  <br/>" +
+                    "Que sont les buildpacks Paketo ?  <br/>" +
                     "Quelles communautés les soutiennent et comment ?",
                 speakers: ['anthony_dahanne']
             },
@@ -460,14 +501,14 @@ var njEvents = [
                 length: '0h45',
                 type: 'talk',
                 abstract: "<p>La recherche ne se contente plus de l'approche maintenant traditionnelle basée sur la fréquence des termes (TF/IDF ou BM25) mais plus sur la tendance actuelle du machine learning où les nouveaux modèles ont ouvert une nouvelle dimension pour la recherche.</p>" +
-                          "<p>Cette conférence donne un aperçu de :" +
-                          "<ul>" +
-                          "<li>La recherche 'Classique' et ses limitations</li>" +
-                          "<li>Qu'est qu'un modèle de machine learning et comment vous pouvez l'utiliser</li>" +
-                          "<li>Comment utiliser la recherche vectorielle ou la recherche hybride dans Elasticsearch</li>" +
-                          "<li>Comment ChatGPT d'OpenAI ou les 'large language models' (LLMs) similaires viennent jouer naturellement avec Elastic</li>" +
-                          "</ul></p>" +
-                          "<p>La démo principale montre comment générer des embeddings à partir de musiques puis comment trouver la musique qui s'approche le plus d'une musique que nous fredonnons 🎵 🎸 🎻.</p>",
+                    "<p>Cette conférence donne un aperçu de :" +
+                    "<ul>" +
+                    "<li>La recherche 'Classique' et ses limitations</li>" +
+                    "<li>Qu'est qu'un modèle de machine learning et comment vous pouvez l'utiliser</li>" +
+                    "<li>Comment utiliser la recherche vectorielle ou la recherche hybride dans Elasticsearch</li>" +
+                    "<li>Comment ChatGPT d'OpenAI ou les 'large language models' (LLMs) similaires viennent jouer naturellement avec Elastic</li>" +
+                    "</ul></p>" +
+                    "<p>La démo principale montre comment générer des embeddings à partir de musiques puis comment trouver la musique qui s'approche le plus d'une musique que nous fredonnons 🎵 🎸 🎻.</p>",
                 speakers: ['david_pilato']
             },
             {
@@ -476,7 +517,7 @@ var njEvents = [
                 length: '0h45',
                 type: 'talk',
                 abstract: "<p>Dans cette session sans slides, nous découvrirons par la pratique ce qu'apporte le nouveau language `ES|QL` pour aller fouiller dans nos données indexées dans Elasticsearch et ce, de façon interactive et visuelle.</p>" +
-                          "<p>`ES|QL` et surtout le nouveau moteur derrière l'API `_query` apportent à la fois une syntaxe simplifiée permettant d'affiner vos résultats, étape par étape et ajouter de nouvelles fonctionnalités comme par exemple l'enrichissement de données et la transformation à la volée, directement dans votre requête, mais également des performances inégalées.</p>",
+                    "<p>`ES|QL` et surtout le nouveau moteur derrière l'API `_query` apportent à la fois une syntaxe simplifiée permettant d'affiner vos résultats, étape par étape et ajouter de nouvelles fonctionnalités comme par exemple l'enrichissement de données et la transformation à la volée, directement dans votre requête, mais également des performances inégalées.</p>",
                 speakers: ['david_pilato']
             }
         ]
@@ -502,8 +543,8 @@ var njEvents = [
                 length: '0h45',
                 type: 'talk',
                 abstract: "<p>Après avoir développé une nouvelle fonctionnalité, on passe souvent par une phase de refactoring pour essayer de trouver une meilleure implémentation. Mais peut-être qu’on oublie parfois d’améliorer les tests ?</p>" +
-                          "<p>Une fois écrits, les tests serviront non seulement à détecter de potentiels bugs, mais aussi à documenter un comportement et à apporter de la confiance à l’équipe lors des développements suivants. Pour remplir ces fonctions cruciales, une suite de test doit être lisible, compréhensible, facile à enrichir, et exécutable rapidement.</p>" +
-                          "<p>Voyons comment tirer parti d’outils tels que JUnit 5, AssertJ ou Spring Test pour atteindre ces objectifs !</p>",
+                    "<p>Une fois écrits, les tests serviront non seulement à détecter de potentiels bugs, mais aussi à documenter un comportement et à apporter de la confiance à l’équipe lors des développements suivants. Pour remplir ces fonctions cruciales, une suite de test doit être lisible, compréhensible, facile à enrichir, et exécutable rapidement.</p>" +
+                    "<p>Voyons comment tirer parti d’outils tels que JUnit 5, AssertJ ou Spring Test pour atteindre ces objectifs !</p>",
                 speakers: ['juliette_de_rancourt']
             },
             {
@@ -512,12 +553,12 @@ var njEvents = [
                 length: '0h45',
                 type: 'talk',
                 abstract: "<p>Si vous faites vivres des applications web, les mettre à jour à la dernière version de Spring n'est pas juste une question de maintenance: c'est aussi le bon moment pour appuyer sur &quote;F5&quote; et recharger votre stack web. Vous pouvez faciliter la vie des développeurs et apporter de la valeur à vos utilisateurs. Avec Spring Boot 3.2, l'équipe Spring vous aide à faire évoluer vos applications selon vos besoins:</p><ul>" +
-                          "<li>Améliorer l'efficacité en production avec les Virtual Threads</li>" +
-                          "<li>Utiliser une API moderne de client HTTP (sans Reactive!) avec RestClient</li>" +
-                          "<li>S'aider des métriques et des traces pour résoudre les incidents en production</li>" +
-                          "<li>Mieux gérer les certificats TLS avec les bundles</li>" +
-                          "<li>Connecter l'application à d'autres systèmes grâce à Docker compose et Testcontainers</li>" +
-                          "<li>Améliorer les temps de démarrage avec CDS ou bien Checkpoint Restore</li>",
+                    "<li>Améliorer l'efficacité en production avec les Virtual Threads</li>" +
+                    "<li>Utiliser une API moderne de client HTTP (sans Reactive!) avec RestClient</li>" +
+                    "<li>S'aider des métriques et des traces pour résoudre les incidents en production</li>" +
+                    "<li>Mieux gérer les certificats TLS avec les bundles</li>" +
+                    "<li>Connecter l'application à d'autres systèmes grâce à Docker compose et Testcontainers</li>" +
+                    "<li>Améliorer les temps de démarrage avec CDS ou bien Checkpoint Restore</li>",
                 speakers: ['stephane_nicoll']
             },
             {

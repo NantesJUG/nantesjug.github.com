@@ -17,6 +17,33 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'antonio_goncalves',
+    name: 'Antonio Goncalves',
+    bio: `
+	  <p>
+    Antonio Goncalves is a Principal Software Engineer at Microsoft, living in Paris. He evolved in the Jakarta EE landscape for a while (Spring, Micronaut, Quarkus, etc.) and then moved on to AI. From distributed systems to microservices and functions, today he helps his customers to develop their intelligent applications running in the Cloud.
+    </p>
+	  <p>
+    Aside from developing, Antonio wrote a few books (LangChain4j, Quarkus and Java EE), talks at international conferences (Devoxx, JavaOne, GeeCon…), writes technical papers and articles, gives on-line courses (PluralSight, Udemy) and co-presents the Technical French podcast Les Cast Codeurs. He has co-created the Paris JUG, Voxxed Microservices, Devoxx France and Café IA. 
+    For all his work for the community he has been made Java Champion a few decades ago.
+    </p>
+    `,
+    photo: 'jpg',
+    website: 'https://www.linkedin.com/in/agoncal/'
+  },
+  {
+    id: 'guillaume_leblondel',
+    name: 'Guillaume Leblondel',
+    bio: `
+	  <p>Product Owner spécialisé en Intelligence Artificielle au sein de la Direction du Système d’Information et des Offres (DSI-O) de La Poste, 
+    je suis en charge de la gestion de projets innovants visant à améliorer l'efficacité opérationnelle et à offrir des solutions technologiques avancées pour améliorer nos systèmes logistiques.
+    </p>
+    `,
+    photo: 'png',
+    github: 'guileb',
+    website: 'https://www.linkedin.com/in/guillaume-leblondel-03a30765/'
+  },
+  {
     id: "michael_dangleterre",
     name: "Michaël Dangleterre",
     website: 'http://www.ageekslab.com',
@@ -59,7 +86,7 @@ var njSpeakers = [
     github: "GregoryBevan",
   },
   {
-    id : "jerome_landreau",
+    id: "jerome_landreau",
     name: "Jérôme Landreau",
     bio: `
     <p>Développeur Java depuis 20 ans (déjà !), je suis tech lead back chez RCA.</p>
@@ -68,7 +95,7 @@ var njSpeakers = [
     `,
     photo: "jpg",
   }
-  ,{
+  , {
     id: 'antoine_dessaigne',
     name: 'Antoine Dessaigne',
     bio: `
