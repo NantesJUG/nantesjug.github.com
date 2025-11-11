@@ -252,24 +252,24 @@ var njPlaces = [
   {
     id: 'onepoint',
     name: 'OnePoint',
-    address: '3 Rue Lavoisier, 44100 Nantes\n',
-    city: 'Nantes',
+    address: '3 Rue Lavoisier\n',
+    city: '44100 Nantes',
     maps: 'https://goo.gl/maps/2eEsbjSE1LMchnNg6',
     capacity: 300
   },
   {
     id: 'madeleine_icilundi',
     name: 'Madeleine _icilundi',
-    address: '7 rue Pelisson, 44100 Nantes\n',
-    city: 'Nantes',
+    address: '7 rue Pelisson\n',
+    city: '44100',
     maps: 'https://goo.gl/maps/PEvNTkGsjgbDiLvL8',
     capacity: 70
   },
   {
     id: 'les_brasses',
     name: 'Les Brassés',
-    address: '5 Mail Pablo Picasso, 44000 Nantes\n',
-    city: 'Nantes',
+    address: '5 Mail Pablo Picasso\n',
+    city: '44000 Nantes',
     maps: 'https://maps.app.goo.gl/tYMKzJC11ZpV8oAN7',
     capacity: 70
   },

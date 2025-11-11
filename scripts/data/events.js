@@ -25,10 +25,10 @@
 var njEvents = [
     {
         id: '2025_11_26',
-        title: `Quand l'IA fait le tri de manière industrialisée // Build an AI-Infused Chat Bot with LangChain4j (🇫🇷)`,
+        title: `Quand l'IA fait le tri de manière industrialisée // Construit un chatbot infusé à l'IA avec LangChain4j`,
         date: new Date(2025, 10, 26), //month begin at 0
         time: '19h00',
-        register: "",//"https://www.meetup.com/fr-FR/nantes-java-user-group/events/311275374/",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/311965158/",
         place: "onepoint",
         subjects: [
             {
@@ -45,12 +45,13 @@ var njEvents = [
                 speakers: ['guillaume_leblondel']
             },
             {
-                title: `Build an AI-Infused Chat Bot with LangChain4j (version 🇫🇷)`,
+                title: `Construit un chatbot infusé à l'IA avec LangChain4j`,
                 time: '19h30',
                 length: '45 min',
                 type: 'talk',
                 abstract:
-                    `
+                `
+                <p><i>(Présentation en 🇫🇷)</i></p>
                 <p>
                 Add intelligent conversational AI in your Java application! 
                 </p>
