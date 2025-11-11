@@ -39,7 +39,7 @@ var njSpeakers = [
     je suis en charge de la gestion de projets innovants visant à améliorer l'efficacité opérationnelle et à offrir des solutions technologiques avancées pour améliorer nos systèmes logistiques.
     </p>
     `,
-    photo: 'png',
+    photo: 'jpg',
     github: 'guileb',
     website: 'https://www.linkedin.com/in/guillaume-leblondel-03a30765/'
   },

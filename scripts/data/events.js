@@ -25,7 +25,7 @@
 var njEvents = [
     {
         id: '2025_11_26',
-        title: `Quand l'IA fait le tri de manière industrialisée // Build an AI-Infused Chat Bot with LangChain4j (version 🇫🇷)`,
+        title: `Quand l'IA fait le tri de manière industrialisée // Build an AI-Infused Chat Bot with LangChain4j (🇫🇷)`,
         date: new Date(2025, 10, 26), //month begin at 0
         time: '19h00',
         register: "",//"https://www.meetup.com/fr-FR/nantes-java-user-group/events/311275374/",
