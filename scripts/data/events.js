@@ -42,7 +42,7 @@ var njEvents = [
                 <p> Avec plus de 30 modèles d’IA, les défis comme reconnaitre une adresse destinataire sur un pli noir ou s’assurer que l’IA ne mélange pas les informations destinataire/expéditeur ont conduit l’équipe à créer des pipelines d'entrainement, d'évaluation et de déploiement des modèles. </p>
                 <p> Après 5 ans d'IA en production, ce talk sera l'occasion de partager les solutions mises en place pour répondre aux contraintes de performance, de résilience ou encore d'approvisionnement de GPU sur des infrastructures IAAS et PAAS.</p>
                 `,
-                speakers: ['guillaume_leblondel']
+                speakers: ['guillaume_leblondel', 'nicolas_payneau']
             },
             {
                 title: `Construit un chatbot infusé à l'IA avec LangChain4j`,
