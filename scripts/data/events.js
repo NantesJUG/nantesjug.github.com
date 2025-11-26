@@ -24,6 +24,42 @@
 // },
 var njEvents = [
     {
+        id: '2025_12_11',
+        title: `Soirée Lambda, Spring & Cursor AI`,
+        date: new Date(2025, 11, 11), //month begin at 0
+        time: '19h00',
+        register: "https://www.meetup.com/fr-fr/aws-nantes/events/311871294/",
+        place: "sqli",
+        subjects: [
+            {
+                title: `De l'idée à la réalité avec AWS Lambda et Spring : un REX projet Spring Boot natif`,
+                time: '19h00',
+                length: '45 min',
+                type: 'talk',
+                abstract: `
+                <p>Dernièrement, nous avons eu l'opportunité de réaliser un projet en Spring Boot native avec GraalVM dès sa mise en release. Le but étant de faire tourner le backend de notre projet en FaaS sur des lambdas AWS. Ce projet a été un succès client mais techniquement c'est une autre histoire.</p>
+                <p>Nous vous proposons une rétrospective technique de ce projet avec les principales problématiques que nous avons rencontrées, comme la reflection et les ressources de build, et la façon dont nous y avons répondu. Car cela peut aussi vous arriver si cette techno vous intéresse.</p>
+                `,
+                speakers: ['valentin_dubuisson']
+            },
+            {
+                title: `Cursor ou comment mixer Code & IA pour être plus productif !`,
+                time: '19h45',
+                length: '45 min',
+                type: 'talk',
+                abstract:
+                `
+                <p>Cursor AI s'est imposé comme compagnon de code avec un workflow de développement simple et intégré.</p>
+                <p>Au delà de nous aider à créer un projet depuis zéro en respectant les bonnes pratiques, ce nouvel IDE sait répondre à beaucoup de choses...</p>
+                <p>Disponible avec différents modèles, je montrerai quelques exemples de génération de code pertinente tout en partageant les bonnes pratiques autour de Cursor : Context Engineering, AGENTS.md, Plan Mode, Manipulation du navigateur, Serveur MCP.</p>
+                <p>Vous souhaitez générer des apps sans coder mais vous ne savez pas par où commencer ? Vous avez essayé et vous n'êtes pas convaincu ?</p>
+                <p>Venez assister à ce talk pour apprendre comment bien générer du code en utilisant l'IA !</p>
+                `,
+                speakers: ['julien_landure']
+            }
+        ]
+    },
+    {
         id: '2025_11_26',
         title: `Quand l'IA fait le tri de manière industrialisée // Construit un chatbot infusé à l'IA avec LangChain4j`,
         date: new Date(2025, 10, 26), //month begin at 0

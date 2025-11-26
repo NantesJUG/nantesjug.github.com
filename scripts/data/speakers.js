@@ -17,6 +17,15 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'valentin_dubuisson',
+    name: 'Valentin Dubuisson',
+    bio: `
+	  <p>Lead dev Angular / Spring Boot chez SQLI depuis 8 ans</p>
+    <p>Responsable de la communauté Angular chez SQLI</p>
+    `,
+    photo: 'jpg',
+  },
+  {
     id: 'antonio_goncalves',
     name: 'Antonio Goncalves',
     bio: `
@@ -1536,7 +1545,11 @@ var njSpeakers = [
   {
     id: "julien_landure",
     name: "Julien Landuré",
-    bio: "<p>CTO de Zenika Nantes, Julien navigue entre des missions de formation (AngularJS, AppEngine) et d'architecture. Issu de la génération Google, il a co-fondé en Janvier 2011 le GDG Nantes, participe depuis 5 ans au Google I/O et organise le DevFest Nantes.</p>",
+    bio: `
+	  <p>Fondateur de TechTown, Julien est aussi Google Developer Expert Cloud & Cursor Ambassador.</p>
+    <p>Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.</p>
+    <p>Il vient de créer une nouvelle conférence : TechReady dédiée au sujet IA & Cloud.</p>
+    `,
     gravatar: "julien.landure@gmail.com",
     twitter: "jlandure",
     github: "jlandure",
