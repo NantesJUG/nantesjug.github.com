@@ -27,7 +27,7 @@ var njPlaces = [
   {
     id: 'sqli',
     name: 'SQLi',
-    address: '1 Boulevard Berlin',
+    address: `26 boulevard de l'Estuaire`,
     city: '44000 Nantes',
     maps: 'https://maps.app.goo.gl/iAZJk6Pmj6roSa4s6',
     capacity: 50
