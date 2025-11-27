@@ -1550,7 +1550,7 @@ var njSpeakers = [
     <p>Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.</p>
     <p>Il vient de créer une nouvelle conférence : TechReady dédiée au sujet IA & Cloud.</p>
     `,
-    gravatar: "julien.landure@gmail.com",
+    photo: "jpg",
     twitter: "jlandure",
     github: "jlandure",
   },
