@@ -23,6 +23,39 @@
 //     docs: [{ name: "", url: "", type: "" }
 // },
 var njEvents = [
+        {
+        id: '2026_01_29',
+        title: `Sécuriser la CI // Pseudonymisation à l'échelle`,
+        date: new Date(2026, 0, 29), //month begin at 0
+        time: '19h00',
+        register: "https://www.meetup.com/fr-fr/aws-nantes/events/xxxxxxx/",
+        place: "sqli",
+        subjects: [
+            {
+                title: `Sécuriser vos Pipelines GitHub Actions : Meilleures Pratiques et Stratégies`,
+                time: '19h00',
+                length: '30 min',
+                type: 'talk',
+                abstract: `
+                <p>Dans un monde où les attaques de la chaîne d'approvisionnement logicielle sont de plus en plus fréquentes, sécuriser vos pipelines CI/CD est devenu une priorité absolue. Cette présentation se concentrera sur les meilleures pratiques et les stratégies avancées pour sécuriser vos pipelines GitHub Actions. Nous explorerons les vulnérabilités courantes, les menaces potentielles et les solutions concrètes pour les atténuer.</p>
+                `,
+                speakers: ['adrien_pessu']
+            },
+            {
+                title: `Pseudonymisation à l'échelle`,
+                time: '19h30',
+                length: '55 min',
+                type: 'talk',
+                abstract:
+                `
+                <p>Face à une pression réglementaire croissante sur la protection des données personnelles (RGPD, IA Act, DORA), l'équipe LINO partage son retour d’expérience sur la mise en œuvre d’un projet de pseudonymisation à l’échelle réalisé pour la Branche Grand Public et Numérique (BGPN) de La Poste, et couvrant 70 applications métiers.</p>
+                <p>Ce témoignage met en lumière les choix structurants, depuis la sélection de l’outil LINO jusqu'à la mise en œuvre progressive du projet. Il revient également sur les difficultés rencontrées : trouver un équilibre entre protection et utilité des données, pallier la perte de la connaissance applicative et garantir la cohérence inter-applicative. Enfin, il présente les leviers activés pour répondre efficacement à ces enjeux.</p>
+                <p>Cette présentation est animée le créateur de la solution LINO et le porteur de l'offre de service associée, qui ont participé à la conception et la mise en œuvre de ce projet qui a duré deux ans et qui a notamment contribué à l’obtention du label « Numérique Responsable » pour la BGPN.</p>
+                `,
+                speakers: ['julien_landure']
+            }
+        ]
+    },
     {
         id: '2025_12_11',
         title: `Soirée Lambda, Spring & Cursor AI`,

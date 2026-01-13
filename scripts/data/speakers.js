@@ -1617,7 +1617,7 @@ var njSpeakers = [
   {
     id: "adrien_pessu",
     name: "Adrien Pessu",
-    bio: "<p>Je suis passionné de développement, en particulier Kotlin, Angular, Java et Web. J’ai évolué pendant plusieurs années en société de services puis chez un éditeur logiciel, et je me suis lancé dans l’aventure freelance.</p>",
+    bio: "<p>Je suis Field Security Specialist chez GitHub.</p>",
     photo: "jpg",
     twitter: "adrienpessu",
     github: "adrienpessu",
@@ -1967,6 +1967,18 @@ var njSpeakers = [
     photo: "jpg",
     twitter: "nmor3l",
     github: "nmorel",
+  },
+  {
+    id: "yann_le_saint",
+    name: "Yann Le Saint",
+    bio: "Avec 36 ans d’expérience dans l’IT, Yann est un manager technique et architecte senior spécialisé dans la modernisation de systèmes d’information complexes. Chez CGI depuis 2019, il pilote des projets structurants pour de grands acteurs publics, est porteur de l’offre LINO depuis 2021 et pilote la Direction Technique France Ouest depuis 2024, animant 65 experts IT. Ancien Directeur Général d’IITER et Directeur Technique d’ODIMA, il est engagé dans l’innovation, avec récemment le go-to-market de la solution LINO. Ses travaux antérieurs ont été récompensés par le Prix de la compétitivité (Trophées « Loading the Future » 2013) et plusieurs titres de lauréat (Atlanpole, Réseau Entreprendre).",
+  },
+  {
+    id: "adrien_aury",
+    name: "Adrien Aury",
+    bio: "Ingénieur pragmatique et curieux, je m’intéresse particulièrement aux problématiques de données, de parsing et d’outillage pour les développeurs. J’ai travaillé sur des projets allant d’extensions VS Code en TypeScript à des outils en Go, en passant par des parsers basés sur des grammaires et des systèmes de transformation de données. Spécialiste de la protection des données, j'ai créé en 2020 la suite d'outils CGI LINO, dédiée à la protection des données personnelles et sensibles dans les environnements de développement, de test et de production. J’interviens notamment sur des problématiques d’anonymisation, de pseudonymisation, de masquage, de gouvernance et de conformité réglementaire, en particulier dans le cadre du RGPD. Je pilote également des équipes techniques, que ce soit dans le cadre de la R&D LINO ou pour des prestations auprès de nos clients.",
+    twitter: "",
+    github: "@adrienaury",
   },
 ];
 
