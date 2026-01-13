@@ -29,7 +29,7 @@ var njEvents = [
         date: new Date(2026, 0, 29), //month begin at 0
         time: '19h00',
         register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/312865339/",
-        place: "sqli",
+        place: "qlik",
         subjects: [
             {
                 title: `Sécuriser vos Pipelines GitHub Actions : Meilleures Pratiques et Stratégies`,
