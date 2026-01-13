@@ -2,7 +2,7 @@ Développement
 -------------
 
 Lancement du serveur :
-	./server.sh
+	`./server.sh`
 
 Aller sur la page :
 	localhost:8000/index.html
