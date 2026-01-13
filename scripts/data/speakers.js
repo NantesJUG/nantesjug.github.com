@@ -1978,7 +1978,7 @@ var njSpeakers = [
     id: "adrien_aury",
     name: "Adrien Aury",
     bio: "Ingénieur pragmatique et curieux, je m’intéresse particulièrement aux problématiques de données, de parsing et d’outillage pour les développeurs. J’ai travaillé sur des projets allant d’extensions VS Code en TypeScript à des outils en Go, en passant par des parsers basés sur des grammaires et des systèmes de transformation de données. Spécialiste de la protection des données, j'ai créé en 2020 la suite d'outils CGI LINO, dédiée à la protection des données personnelles et sensibles dans les environnements de développement, de test et de production. J’interviens notamment sur des problématiques d’anonymisation, de pseudonymisation, de masquage, de gouvernance et de conformité réglementaire, en particulier dans le cadre du RGPD. Je pilote également des équipes techniques, que ce soit dans le cadre de la R&D LINO ou pour des prestations auprès de nos clients.",
-    twitter: "",
+    photo: "jpg",
     github: "@adrienaury",
   },
 ];
