@@ -1972,6 +1972,7 @@ var njSpeakers = [
     id: "yann_le_saint",
     name: "Yann Le Saint",
     bio: "Avec 36 ans d’expérience dans l’IT, Yann est un manager technique et architecte senior spécialisé dans la modernisation de systèmes d’information complexes. Chez CGI depuis 2019, il pilote des projets structurants pour de grands acteurs publics, est porteur de l’offre LINO depuis 2021 et pilote la Direction Technique France Ouest depuis 2024, animant 65 experts IT. Ancien Directeur Général d’IITER et Directeur Technique d’ODIMA, il est engagé dans l’innovation, avec récemment le go-to-market de la solution LINO. Ses travaux antérieurs ont été récompensés par le Prix de la compétitivité (Trophées « Loading the Future » 2013) et plusieurs titres de lauréat (Atlanpole, Réseau Entreprendre).",
+    photo: "jpg",
   },
   {
     id: "adrien_aury",
