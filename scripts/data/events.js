@@ -28,7 +28,7 @@ var njEvents = [
         title: `Sécuriser la CI // Pseudonymisation à l'échelle`,
         date: new Date(2026, 0, 29), //month begin at 0
         time: '19h00',
-        register: "https://www.meetup.com/fr-fr/aws-nantes/events/xxxxxxx/",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/312865339/",
         place: "sqli",
         subjects: [
             {
