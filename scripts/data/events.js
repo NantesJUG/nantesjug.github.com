@@ -52,7 +52,7 @@ var njEvents = [
                 <p>Ce témoignage met en lumière les choix structurants, depuis la sélection de l’outil LINO jusqu'à la mise en œuvre progressive du projet. Il revient également sur les difficultés rencontrées : trouver un équilibre entre protection et utilité des données, pallier la perte de la connaissance applicative et garantir la cohérence inter-applicative. Enfin, il présente les leviers activés pour répondre efficacement à ces enjeux.</p>
                 <p>Cette présentation est animée le créateur de la solution LINO et le porteur de l'offre de service associée, qui ont participé à la conception et la mise en œuvre de ce projet qui a duré deux ans et qui a notamment contribué à l’obtention du label « Numérique Responsable » pour la BGPN.</p>
                 `,
-                speakers: ['julien_landure']
+                speakers: ['yann_le_saint', 'adrien_aury']
             }
         ]
     },
