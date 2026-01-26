@@ -17,6 +17,29 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'romain_guinand',
+    name: 'Romain Guinand',
+    bio: `
+        <p>Développeur web depuis plus de 10 ans, passionné par le frontend, l’architecture et<p> la performance, je m’intéresse autant au comment qu’au pourquoi.</p>
+        <p>J’aime explorer les limites des outils pour optimiser l’expérience développeur et partager des retours d’expérience concrets à travers des talks accessibles, techniques et sans bullshit.</p>
+        <p>Mon objectif : vous permettre de repartir avec des idées immédiatement applicables.</p>  `,
+    photo: 'jpg',    
+  },
+  {
+    id: 'quentin_aubert',
+    name: 'Quentin Aubert',
+    bio: `
+      <p>Développeur fullstack à la MAIF (Niort, France) sur une stack Scala / JavaScript.</p>
+      <p>Je travaille essentiellement sur les projets Open Source de la MAIF : Otoroshi et Daikoku (https://github.com/MAIF).</p>
+      <p>Vous trouverez la liste des talks que j'ai écrits et donnés sur un dépôt GitHub.</p>
+    `,
+    gravatar: 'quentino.vega@gmail.com',
+    twitter: 'quentinovega',
+    github: 'QuentinoVega',
+    website: 'https://github.com/MAIF',
+    photo: 'jpg',
+  },
+  {
     id: 'valentin_dubuisson',
     name: 'Valentin Dubuisson',
     bio: `
@@ -990,7 +1013,13 @@ var njSpeakers = [
   {
     id: "tugdual_grall",
     name: "Tugdual Grall",
-    bio: "Tug est Technical Account Manager chez <a href='https://redislabs.com'>RedisLabs</a> où il accompagne les clients dans leur déploiement de Redis; et travaille avec les différentes communautés de développeurs pour l'adoption de Redis et du NoSQL en général. Avant de rejoindre RedisLabs, Tug a travaillé chez Red Hat (Product Manager), MapR, MongoDB, Couchbase (Technical Evangelist) , eXo Platform (CTO) et Oracle (Product Manager/Developer OracleAS JavaEE).<br/><br/>Tug a participé à de nombreuses conférences DevoxxFR, FOSDEM, Google I/O, JavaOne et de nombreux meetups/groupes utilisateurs. Tugdual est co-fondateur du @NantesJUG. Lorsqu’il a le temps, il navigue en windsurf et code une application enregistrant ses performances <a href='https://pointeau-speed-challenge.com/'>https://pointeau-speed-challenge.com/</a> .",
+    bio: 
+    `
+    <p>GitHub Copilot Specialist</p>
+    <p>Avant de travailler chez GitHub, "Tug", était, DevRel chez Redis, Directeur du Product Management chez Red Hat, Technical Evangelist chez MapR, MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform JavaEE d'Oracle. Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.</p>
+    <p>Tug développe également le site windr.org grace auquel il partage ses eux passions : le Windsurf et le Code!</p>    
+    `
+    ,
     gravatar: "tugdual@gmail.com",
     twitter: "tgrall",
     github: "tgrall",

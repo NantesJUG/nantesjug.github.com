@@ -24,6 +24,51 @@
 // },
 var njEvents = [
         {
+        id: '2026_02_10',
+        title: `Un mot de passe ? Non merci // Devenez un expert du debug en JS`,
+        date: new Date(2026, 1, 10), //month begin at 0
+        time: '19h00',
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/313064896/",
+        place: "younup",
+        subjects: [
+            {
+            title: `Un mot de passe ? Non merci !`,
+            time: '19h00',
+            length: '30 min',
+            type: 'quickie',
+            abstract: `
+            <p>Les mots de passe, on en a tous marre. Entre les règles tordues, les resets toutes les deux semaines, et les tentatives de phishing, c’est plus de la sécu, c’est du sport.</p>
+            <p>Heureusement, les passkeys arrivent avec une promesse simple : plus de galère, plus de mot de passe. Basées sur WebAuthn (soutenues par Google, Apple, et Microsoft), elles pourraient bien changer notre manière d’authentifier les utilisateurs.</p>
+            <p>Dans ce quickie, on voit ensemble :</p>
+            <ul>
+                <li>Ce qu’est une passkey, concrètement</li>
+                <li>Pourquoi c’est plus sécurisé et plus simple</li>
+                <li>Un retour d'expérience sur l'intégration dans une application réelle</li>
+                <li>Une rapide démo du fonctionnement des passkeys</li>
+            </ul>
+            `,
+            speakers: ['quentin_aubert']
+            },
+            {
+            title: `Devenez un expert du debug en JS`,
+            time: '19h30',
+            length: '55 min',
+            type: 'talk',
+            abstract: `
+            <p>Vous parsemez votre code de console.log en espérant un miracle ?</p>
+            <p>Et si, au lieu de subir JavaScript, vous appreniez enfin à l'écouter ?</p>
+            <p>JavaScript n’est pas un moteur silencieux : à travers la console, la pile d’appels et les outils de profilage, il nous envoie constamment des signaux. Le tout est de savoir les décoder.</p>
+            <p>Dans cette session, nous allons briser le quatrième mur : le code de cette présentation devient notre propre laboratoire. Nous utiliserons les Chrome DevTools comme un véritable outil de précision.</p>
+            <p>Observer l'invisible : Maîtriser les différents types de breakpoints et les Live Expressions pour suivre l'état de vos données sans polluer votre code.</p>
+            <p>Oubliez les slides statiques. Ici, on travaille "à cœur ouvert" et on découvre ensemble comment devenir un expert du debug.</p>
+            <p>Préparez-vous à tendre l'oreille !</p>
+            `,
+            speakers: ['romain_guinand']
+            }
+
+        ]
+        },
+        {
         id: '2026_01_29',
         title: `Sécuriser la CI // Pseudonymisation à l'échelle`,
         date: new Date(2026, 0, 29), //month begin at 0
