@@ -24,6 +24,37 @@
 // },
 var njEvents = [
         {
+        id: '2026_03_17',
+        title: `La transactionalité expliquée // JooQ une alternative à JPA`,
+        date: new Date(2026, 2, 17), //month begin at 0
+        time: '19h00',
+        // register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/313064896/",
+        place: "kleegroup",
+        subjects: [
+            {
+            title: `La transactionalité expliquée`,
+            time: '19h00',
+            length: '30 min',
+            type: 'quickie',
+            abstract: `
+            <p></p>
+            `,
+            speakers: ['benjamin_cavy']
+            },
+            {
+            title: `JooQ une alternative à JPA`,
+            time: '19h30',
+            length: '55 min',
+            type: 'talk',
+            abstract: `
+            <p></p>
+            `,
+            speakers: ['thibault_duperron']
+            }
+
+        ]
+        },
+        {
         id: '2026_02_10',
         title: `Un mot de passe ? Non merci // Devenez un expert du debug en JS`,
         date: new Date(2026, 1, 10), //month begin at 0

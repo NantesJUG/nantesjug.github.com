@@ -17,6 +17,14 @@
 /*jshint unused: false */
 var njSpeakers = [
   {
+    id: 'benjamin_cavy',
+    name: 'Benjamin Cavy',
+    bio: `
+        <p></p>
+        `,
+    photo: 'jpg',    
+  },
+  {
     id: 'romain_guinand',
     name: 'Romain Guinand',
     bio: `
