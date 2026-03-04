@@ -20,9 +20,10 @@ var njSpeakers = [
     id: 'benjamin_cavy',
     name: 'Benjamin Cavy',
     bio: `
-        <p></p>
+        <p>Lead dev à la MAIF</p>
         `,
-    photo: 'jpg',    
+    photo: 'jpg',
+    github: 'ptitFicus'
   },
   {
     id: 'romain_guinand',
@@ -644,7 +645,16 @@ var njSpeakers = [
   {
     id: "thibault_duperron",
     name: "Thibault Duperron",
-    bio: "<p>Développeur backend surtout JVM (Kotlin, Scala, Java), fan du contract-first et des petits poneys.</p>",
+    bio: `<p><i>Technical Lead & Developer</i></p>
+
+<p>A passionate technical leader with over 14 years of experience specializing in building custom, scalable applications. His career is marked by key roles at major tech companies like Decathlon Digital and Talend.</p>
+
+    <ul>
+    <li>Core Expertise: Scalable system design, API architecture, and modern backend development practices.</li>
+    <li>Educator & Mentor: Dedicated to shaping the next generation of software engineers through his teaching role at the IUT de Nantes.</li>
+    <li>Open-Source Contributor: Actively gives back to the developer community with notable contributions to the OpenAPI Generator project.</li>
+    </ul>
+`,
     gravatar: "zomzog@gmail.com",
     twitter: "Zomzog",
     github: "Zomzog",

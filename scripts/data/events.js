@@ -28,28 +28,31 @@ var njEvents = [
         title: `La transactionalité expliquée // JooQ une alternative à JPA`,
         date: new Date(2026, 2, 17), //month begin at 0
         time: '19h00',
-        // register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/313064896/",
+        register: "https://www.meetup.com/fr-fr/nantes-java-user-group/events/313630199/",
         place: "kleegroup",
         subjects: [
             {
-            title: `La transactionalité expliquée`,
-            time: '19h00',
-            length: '30 min',
-            type: 'quickie',
-            abstract: `
-            <p></p>
-            `,
-            speakers: ['benjamin_cavy']
+                title: `La transactionalité expliquée`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>Les transactions sont un mécanisme structurant dans de nombreuses applications. Elles permettent en effet de garantir l'intégrité des données en permettant de traiter plusieurs opérations de manière atomique.</p>
+                    <p>Mais comment les transactions fonctionnent-elles sous le capot ?</p>
+                    <p>En nous appuyant sur l'exemple de Postgres, nous explorerons comment les mécanismes du WAL (Write-Ahead Logging) et MVCC (multi-version concurrency control) permettent de garantir cette atomicité, pour le cas unitaire, mais également lors de crash de la base.</p>
+                `,
+                speakers: ['benjamin_cavy']
             },
             {
-            title: `JooQ une alternative à JPA`,
-            time: '19h30',
-            length: '55 min',
-            type: 'talk',
-            abstract: `
-            <p></p>
-            `,
-            speakers: ['thibault_duperron']
+                title: `JooQ une alternative à JPA`,
+                time: '19h30',
+                length: '55 min',
+                type: 'talk',
+                abstract: `
+                    <p>Si vous pensez que l'on va parler d'un nouveau meuble d'une marque scandinave, vous vous êtes trompé d'endroit.</p>
+                    <p>Nous allons voir comment écrire du SQL type-safe en Java sans y laisser notre santé mentale. L'objectif ? Des requêtes aussi robustes qu'un serveur en prod, et aussi majestueuses qu'un petit poney à paillettes galopant dans une prairie de Clean Code. Fini le jeu des devinettes à base de concaténation de chaînes avec votre base de données !</p>
+                `,
+                speakers: ['thibault_duperron']
             }
 
         ]
