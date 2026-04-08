@@ -16,7 +16,36 @@
 
 /*jshint unused: false */
 var njSpeakers = [
-  {
+{
+    id: 'philippe_charriere',
+    name: 'Philippe Charrière',
+    bio: `
+      <p>Principal Solution Architect at Docker- Principal Solution Architect chez Docker- WebAssembly lover- GenAI on Raspberry Pi addict- Container-oriented</p>
+    `,
+    photo: 'jpg',
+},
+{
+    id: 'yann_thomas_le_moigne',
+    name: 'Yann-Thomas Le Moigne',
+    bio: `
+      <p>Passionné de software et de technologie. Depuis le BASIC des années 80, en passant par le développement embarqué (Motorola Assembly, C++), en incluant tout ce qui rend notre industrie si intéressante aujourd'hui.</p>
+      <p></p>
+      <p>Depuis mes débuts de consultant, formateur, mes 15 années de développeur freelance, jusqu'à mes fonctions actuelles de Scrum PO et Responsable de projets IT, j'aide les mondes distants à se connecter et se comprendre.</p>
+    `,
+    photo: 'jpg',
+},
+{
+    id: 'lilian_forget',
+    name: 'Lilian Forget',
+    bio: `
+      <p>Passionné de software et de technologie. Depuis le BASIC des années 80, en passant par le développement embarqué (Motorola Assembly, C++), en incluant tout ce qui rend notre industrie si intéressante aujourd'hui.</p>
+      <p></p>
+      <p>Depuis mes débuts de consultant, formateur, mes 15 années de développeur freelance, jusqu'à mes fonctions actuelles de Scrum PO et Responsable de projets IT, j'aide les mondes distants à se connecter et se comprendre.</p>
+    `,
+    photo: 'jpg',
+    github: 'lilfrgt',
+},
+{
     id: 'benjamin_cavy',
     name: 'Benjamin Cavy',
     bio: `
@@ -858,7 +887,7 @@ var njSpeakers = [
   {
     id: "guillaume_lours",
     name: "Guillaume Lours",
-    bio: "<p>Developpeur Senior à Saagie, touchant aussi bien au backend qu'au front. Co-fondateur des conferences Lean Kanban France et Codeurs en Seine Red Coat à Devoxx France.</p>",
+    bio: "<p>Staff Software engineer and tech lead of the Compose team @docker</p>",
     photo: "jpg",
     twitter: "glours",
   },
@@ -1230,9 +1259,8 @@ var njSpeakers = [
     id: "arnaud_bailly",
     name: "Arnaud Bailly",
     bio:
-      "<p>Après diverses péripéties, dont un passage en banque, la création d'une société d'édition de jeux de rôles, une thèse en informatique, diverses missions longues pour des SSII ou des éditeurs de logiciels, Arnaud travaille aujourd'hui en tant qu'indépendant au sein de la société Murex comme développeur/consultant/coach technique/homme à tout faire.</p>" +
-      "<p>Il se passionne pour tout ce qui a trait de près ou de loin au code, avec une dilection particulière pour l'univers Java côté serveur.</p>",
-    gravatar: "arnaud.oqube@gmail.com",
+      "<p>Arnaud has been developing software and helping team develop softwares for over three decades, in various technologies, contexts and roles. He is interested in everything software-related with a peculiar passion for strongly-typed functional programming. He is currently working in the Cardano ecosystem to help people and organisations embrace a more decentralised world.</p>",
+    photo: "jpg",
     twitter: "abailly",
   },
   {

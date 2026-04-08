@@ -24,6 +24,85 @@
 // },
 var njEvents = [
         {
+        id: '2026_05_5',
+        title: `La transactionalité expliquée // Docker - Compose & Dragon`,
+        date: new Date(2026, 4, 5), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "",
+        subjects: [
+            {
+                title: `La transactionalité expliquée`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>Les transactions sont un mécanisme structurant dans de nombreuses applications. Elles permettent en effet de garantir l'intégrité des données en permettant de traiter plusieurs opérations de manière atomique.</p>
+                    <p>Mais comment les transactions fonctionnent-elles sous le capot ?</p>
+                    <p>En nous appuyant sur l'exemple de Postgres, nous explorerons comment les mécanismes du WAL (Write-Ahead Logging) et MVCC (multi-version concurrency control) permettent de garantir cette atomicité, pour le cas unitaire, mais également lors de crash de la base.</p>
+                `,
+                speakers: ['benjamin_cavy']
+            },
+            {
+                title: `Compose & Dragons`,
+                time: '19h30',
+                length: '55 min',
+                type: 'talk',
+                abstract: `
+                    <p>Cette session présente la création d’un univers de RPG avec des agents IA autonomes, chacun dans son propre conteneur Docker.</p>
+                    <p>En utilisant les outils Docker et le Model Context Protocol, chaque personnage — PNJ, monstre ou maître du jeu — interagit via une mémoire partagée et des protocoles d’agents. </p>
+                    <p>Les participants découvriront des architectures IA multi-conteneurs évolutives, l’orchestration d’agents et la communication entre agents.</p></p>
+                `,
+                speakers: ['philippe_charriere', 'guillaume_lours']
+            }
+
+        ]
+        },
+        {
+        id: '2026_04_29',
+        title: `Soirée Git & Développement décentralisé`,
+        date: new Date(2026, 3, 29), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "onepoint",
+        subjects: [
+            {
+                title: `Gitflow c'est bien, Gitbutler c'est mieux !`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>Ah, GitFlow. Ce bon vieux workflow, pilier de nos stratégies de développement, mais aussi source de migraines collectives. Et si on vous disait qu’il y a du nouveau dans la façon de faire ?</p>
+                    <p>GitButler débarque, et il n’est pas là pour plier le linge mais pour révolutionner votre gestion de versions !</p>
+                    <p>Dans cette présentation à deux voix, un développeur et un manager s’associent pour vous raconter, avec humour et pragmatisme, pourquoi GitFlow a besoin d’un coup de jeune et comment GitButler change la donne. Moins de frictions, plus d’efficacité, et un workflow qui s’adapte enfin à vos vrais besoins.</p>
+                    <p>Au programme : un peu de théorie, et du live coding. On vous promet un moment instructif, qui vous donnera envie de repenser vos stratégies et d’enfiler, vous aussi, le costume de GitButler !</p>
+                    <p>PS : Si j'ai convaincu mon manager, pourquoi pas vous ?</p>
+                `,
+                speakers: ['yann_thomas_le_moigne', 'lilian_forget']
+            },
+            {
+                title: `Décentraliser le développement logiciel : Pourquoi ? Comment ?`,
+                time: '19h30',
+                length: '50 min',
+                type: 'talk',
+                abstract: `
+                    <p>Les technologies décentralisées ne manquent pas. Internet par exemple, conçu pendant la guerre froide et qui interconnecte au moyen de protocoles ouverts de multiples acteurs de manière complètement décentralisée dans un souci de résilience en cas de conflit de haute intensité ; ou Git, certainement l'outil plus utilisé dans le monde du développement logiciel pour la gestion de versions, a été développé pour gérer le développement du noyau Linux avec des centaines de contributeurs.</p>
+                    <p>Et pourtant les plate-formes propriétaires et centralisées sont devenues ultra-dominantes, que ce soit dans le monde du code source ouvert ou celui de l'entreprise, ce qui s'explique aisément pour des raisons de commodité (il est bien plus simple d'utiliser une plate-forme centralisée que de devoir configurer et gérer des outils décentralisés) et de coût (un outil centralisé évite des coûts d'infrastructure et de gestion). Mais la commodité a un revers, c'est la dépendance envers un prestataire qui a sa propre logique et se retrouve de facto contrôler des données et des processus potentiellement critiques.</p>
+                    <p>Cette session est un retour d'expérience sur quelques outils et processus mis en oeuvre dans notre équipe pour développer les projets dont elle est responsable de manière complètement décentralisée :
+                    <ul>
+                    <li>comment nous utilisons Radicle (https://radicle.xyz), une "forge" basée sur Git fonctionnant en pair-à-pair et complètement décentralisée, pour remplacer (en partie) GitHub ;</li>
+                    <li>comment nous développons des outils sur notre infrastructure de blockchain (Cardano) pour tracer les dépendances entre projets, les montées de version, et l'accès à des infrastructures mutualismes ;</li>
+                    <li>l'impact d'un mode de fonctionnement fortement décentralisé sur le fonctionnement de l'équipe et ses pratiques de développements, telles que le pair-programming, la revue de code, l'intégration continue ;</li>
+                    <li>les possibilités de financement participatif décentralisées offertes par des outils comme https://drips.network.</li>
+                    </ul>
+                    </p>
+                    <p>Il s'agira d'une présentation avec des morceaux de live coding. L'objectif de cette session est de partager mon expérience et ma prise de conscience de l'importance d'adopter des processus de développements plus résilient, autonomes, et potentiellement frugaux dans l'espoir que les participants aient envie d'expérimenter ces outils et pratiques dans leur propre environnement.</p>
+                `,
+                speakers: ['arnaud_bailly']
+            }
+        ]
+        },
+        {
         id: '2026_03_17',
         title: `La transactionalité expliquée // JooQ une alternative à JPA`,
         date: new Date(2026, 2, 17), //month begin at 0
