@@ -63,7 +63,7 @@ var njEvents = [
         title: `Soirée Git & Développement décentralisé`,
         date: new Date(2026, 3, 29), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/nantes-java-user-group/events/314176315/",
         place: "onepoint",
         subjects: [
             {
