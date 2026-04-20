@@ -29,7 +29,7 @@ var njEvents = [
         date: new Date(2026, 4, 5), //month begin at 0
         time: '19h00',
         register: "",
-        place: "",
+        place: "qlik",
         subjects: [
             {
                 title: `La transactionalité expliquée`,
