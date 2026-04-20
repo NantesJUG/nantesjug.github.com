@@ -25,14 +25,14 @@
 var njEvents = [
         {
         id: '2026_05_5',
-        title: `La transactionalité expliquée // Docker - Compose & Dragon`,
+        title: `La transactionnalité expliquée // Docker - Compose & Dragon`,
         date: new Date(2026, 4, 5), //month begin at 0
         time: '19h00',
         register: "",
         place: "qlik",
         subjects: [
             {
-                title: `La transactionalité expliquée`,
+                title: `La transactionnalité expliquée`,
                 time: '19h00',
                 length: '30 min',
                 type: 'quickie',
