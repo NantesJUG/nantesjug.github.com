@@ -28,7 +28,7 @@ var njEvents = [
         title: `La transactionnalité expliquée // Docker - Compose & Dragon`,
         date: new Date(2026, 4, 5), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/fr-FR/nantes-java-user-group/events/314379188/",
         place: "qlik",
         subjects: [
             {
