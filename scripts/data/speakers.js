@@ -1260,8 +1260,7 @@ var njSpeakers = [
     name: "Arnaud Bailly",
     bio:
       "<p>Arnaud has been developing software and helping team develop softwares for over three decades, in various technologies, contexts and roles. He is interested in everything software-related with a peculiar passion for strongly-typed functional programming. He is currently working in the Cardano ecosystem to help people and organisations embrace a more decentralised world.</p>",
-    photo: "jpg",
-    twitter: "abailly",
+    photo: "jpg"
   },
   {
     id: "jerome_leleu",
