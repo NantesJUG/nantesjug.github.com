@@ -889,7 +889,6 @@ var njSpeakers = [
     name: "Guillaume Lours",
     bio: "<p>Staff Software engineer and tech lead of the Compose team @docker</p>",
     photo: "jpg",
-    twitter: "glours",
   },
   {
     id: "jean_pascal_thiery",
