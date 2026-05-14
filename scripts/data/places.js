@@ -1,5 +1,13 @@
 /*jshint unused: false */
 var njPlaces = [
+    {
+    id: 'eklo',
+    name: 'Eklo Nantes',
+    address: '63 Bis Boulevard de la Prairie au Duc, 44200 - Nantes',
+    city: '44200 Nantes',
+    maps: 'https://maps.app.goo.gl/J9uWN6G5nGzYAUU18',
+    capacity: 50
+  },
   {
     id: 'younup',
     name: 'Younup',
