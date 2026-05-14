@@ -24,6 +24,37 @@
 // },
 var njEvents = [
         {
+        id: '2026_06_11',
+        title: `L'IA, copilote au quotidien // Spring Boot 4`,
+        date: new Date(2026, 5, 11), //month begin at 0
+        time: '19h00',
+        register: "",
+        place: "eklo",
+        subjects: [
+            {
+                title: `L'IA, copilote au quotidien`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>L'idée c'est de parler non pas de l'IA pour du vibe coding, mais plutôt faire un REX sur comment l'intégrer à son workflow de développement au quotidien. (Claude, Github Copilot, JetBrains AI)</p>
+                `,
+                speakers: ['axel_toubiou']
+            },
+            {
+                title: `Spring Boot 4`,
+                time: '19h30',
+                length: '55 min',
+                type: 'talk',
+                abstract: `
+                    <p></p>
+                `,
+                speakers: ['stephane_nicoll']
+            }
+
+        ]
+        },
+        {
         id: '2026_05_5',
         title: `La transactionnalité expliquée // Docker - Compose & Dragon`,
         date: new Date(2026, 4, 5), //month begin at 0
