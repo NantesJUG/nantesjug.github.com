@@ -366,9 +366,8 @@ var njSpeakers = [
     id: "stephane_nicoll",
     name: "Stéphane Nicoll",
     bio:
-      "<a href='https://spring.io/team/snicoll'>https://spring.io/team/snicoll</a>",
+      "<a href='https://spring.io/authors/snicoll'>https://spring.io/authors/snicoll</a>",
     photo: "png",
-    twitter: "snicoll",
     github: "snicoll",
     website: "https://snicoll.be",
   },

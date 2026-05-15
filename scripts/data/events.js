@@ -42,12 +42,13 @@ var njEvents = [
                 speakers: ['axel_toubiou']
             },
             {
-                title: `Spring Boot 4`,
+                title: `Spring Boot : Chapitre 4`,
                 time: '19h30',
                 length: '55 min',
                 type: 'talk',
                 abstract: `
-                    <p></p>
+                    <p>Spring Boot 4 est disponible. Même si la baseline reste toujours à Java 17, c’est l’occasion idéale de profiter des nouveautés du langage et du framework. Stéphane commencera par mettre à jour une application existante vers Spring Boot 4.</p>
+                    <p>En chemin, nous verrons comment éviter à l’avenir les NullPointerExceptions en production grâce aux null checks ajoutés dans les projets Spring avec JSpecify. Nous en profiterons aussi pour revoir l’organisation des dépendances : Spring Boot propose désormais des modules plus fins qui offrent davantage de souplesse. L’intégration de Jackson 3.0 simplifie la configuration et apporte des réglages plus modernes. Enfin, nous découvrirons comment utiliser un RestClient dans des scénarios asynchrones, sans avoir recours aux types réactifs.</p>
                 `,
                 speakers: ['stephane_nicoll']
             }
