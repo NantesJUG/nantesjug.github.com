@@ -20,8 +20,11 @@ var njSpeakers = [
     id: 'axel_toubiou',
     name: 'Axel Toubiou',
     bio: `
-      <p></p>
+	  <p>Développeur Fullstack Java - TypeScript, rédacteur d'un média tech</p>
     `,
+    photo: 'jpg',
+    twitter: 't0ubs0n',
+    github: 't0ubs0n',
 },
 {
     id: 'philippe_charriere',
@@ -365,8 +368,12 @@ var njSpeakers = [
   {
     id: "stephane_nicoll",
     name: "Stéphane Nicoll",
-    bio:
-      "<a href='https://spring.io/authors/snicoll'>https://spring.io/authors/snicoll</a>",
+    bio: `
+    <p>Stéphane is an experienced software engineer and open source contributor with a strong focus on Java enterprise development, software architecture, and technical leadership. Over the years, he has contributed to and led a wide range of initiatives, including the development of critical infrastructure in logistics and geospatial systems, as well as the design of enterprise frameworks widely adopted across the industry.</p>
+    <p>Stéphane is a core contributor to the Spring Framework and Spring Boot open source projects, and previously led Spring Initializr and start.spring.io, supporting developers worldwide in getting started with Spring. As a former member of the Apache Maven PMC, he has been actively involved in open source software governance and evolution for two decades.</p>
+    <p>As a member of the Spring team, Stéphane has had the privilege of working on various aspects of Spring Boot and Spring Framework, with a focus on understanding its inner workings and collaborating with the fantastic community of contributors.</p>
+    <p>Connect with Stéphane ("snicoll") on <a href="https://bsky.app/profile/snicoll.be">Bsky</a>, <a href="https://mastodon.online/@snicoll">Mastodon</a>, and <a href="https://github.com/snicoll">GitHub</a> to follow his ongoing journey in the world of Java development.</p>
+    `,
     photo: "png",
     github: "snicoll",
     website: "https://snicoll.be",

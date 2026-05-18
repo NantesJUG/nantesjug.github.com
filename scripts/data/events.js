@@ -37,7 +37,7 @@ var njEvents = [
                 length: '30 min',
                 type: 'quickie',
                 abstract: `
-                    <p>L'idée c'est de parler non pas de l'IA pour du vibe coding, mais plutôt faire un REX sur comment l'intégrer à son workflow de développement au quotidien. (Claude, Github Copilot, JetBrains AI)</p>
+                    <p>Retour d'expérience sur l'utilisation de l'IA au quotidien, dans le cadre des projets professionnels et personnels</p>
                 `,
                 speakers: ['axel_toubiou']
             },
@@ -48,7 +48,10 @@ var njEvents = [
                 type: 'talk',
                 abstract: `
                     <p>Spring Boot 4 est disponible. Même si la baseline reste toujours à Java 17, c’est l’occasion idéale de profiter des nouveautés du langage et du framework. Stéphane commencera par mettre à jour une application existante vers Spring Boot 4.</p>
-                    <p>En chemin, nous verrons comment éviter à l’avenir les NullPointerExceptions en production grâce aux null checks ajoutés dans les projets Spring avec JSpecify. Nous en profiterons aussi pour revoir l’organisation des dépendances : Spring Boot propose désormais des modules plus fins qui offrent davantage de souplesse. L’intégration de Jackson 3.0 simplifie la configuration et apporte des réglages plus modernes. Enfin, nous découvrirons comment utiliser un RestClient dans des scénarios asynchrones, sans avoir recours aux types réactifs.</p>
+                    <p>En chemin, nous verrons comment éviter à l’avenir les NullPointerExceptions en production grâce aux null checks ajoutés dans les projets Spring avec JSpecify.<br/> 
+                       Nous en profiterons aussi pour revoir l’organisation des dépendances : Spring Boot propose désormais des modules plus fins qui offrent davantage de souplesse. <br/>
+                       L’intégration de Jackson 3.0 simplifie la configuration et apporte des réglages plus modernes. <br/>
+                       Enfin, nous découvrirons comment utiliser un RestClient dans des scénarios asynchrones, sans avoir recours aux types réactifs.</p>
                 `,
                 speakers: ['stephane_nicoll']
             }
