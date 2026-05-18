@@ -23,17 +23,24 @@
 //     docs: [{ name: "", url: "", type: "" }
 // },
 var njEvents = [
-        {
+    {
         id: '2026_06_11',
         title: `L'IA, copilote au quotidien // Spring Boot 4`,
         date: new Date(2026, 5, 11), //month begin at 0
         time: '19h00',
-        register: "",
+        register: "https://www.meetup.com/nantes-java-user-group/events/314852645/",
         place: "eklo",
         subjects: [
             {
-                title: `L'IA, copilote au quotidien`,
+                title: 'Verre d\'accueil 🍸',
                 time: '19h00',
+                length: '30 min',
+                type: 'hello',
+                abstract: "<p>Pour cette dernière de la saison, nous vous proposons de commencer cette soirée de façon conviviale avec un verre de bienvenue.</p>",
+            },
+            {
+                title: `L'IA, copilote au quotidien`,
+                time: '19h30',
                 length: '30 min',
                 type: 'quickie',
                 abstract: `
@@ -43,7 +50,7 @@ var njEvents = [
             },
             {
                 title: `Spring Boot : Chapitre 4`,
-                time: '19h30',
+                time: '20h00',
                 length: '55 min',
                 type: 'talk',
                 abstract: `
@@ -54,11 +61,17 @@ var njEvents = [
                        Enfin, nous découvrirons comment utiliser un RestClient dans des scénarios asynchrones, sans avoir recours aux types réactifs.</p>
                 `,
                 speakers: ['stephane_nicoll']
+            },
+            {
+                title: 'Planche apéro et Cocktail 🧀 🍷',
+                time: '21h',
+                length: '3h',
+                type: 'cocktail',
+                abstract: "<p>Pour finir la soirée en beauté, venez échanger avec nous autour d'un verre et de savoureuses planches apéro 😋</p>",
             }
-
         ]
-        },
-        {
+    },
+    {
         id: '2026_05_5',
         title: `La transactionnalité expliquée // Docker - Compose & Dragon`,
         date: new Date(2026, 4, 5), //month begin at 0
@@ -92,8 +105,8 @@ var njEvents = [
             }
 
         ]
-        },
-        {
+    },
+    {
         id: '2026_04_29',
         title: `Soirée Git & Développement décentralisé`,
         date: new Date(2026, 3, 29), //month begin at 0
@@ -136,8 +149,8 @@ var njEvents = [
                 speakers: ['arnaud_bailly']
             }
         ]
-        },
-        {
+    },
+    {
         id: '2026_03_17',
         title: `La transactionalité expliquée // JooQ une alternative à JPA`,
         date: new Date(2026, 2, 17), //month begin at 0
@@ -170,8 +183,8 @@ var njEvents = [
             }
 
         ]
-        },
-        {
+    },
+    {
         id: '2026_02_10',
         title: `Un mot de passe ? Non merci // Devenez un expert du debug en JS`,
         date: new Date(2026, 1, 10), //month begin at 0
@@ -215,8 +228,8 @@ var njEvents = [
             }
 
         ]
-        },
-        {
+    },
+    {
         id: '2026_01_29',
         title: `Sécuriser la CI // Pseudonymisation à l'échelle`,
         date: new Date(2026, 0, 29), //month begin at 0
