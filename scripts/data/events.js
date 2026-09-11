@@ -28,7 +28,7 @@ var njEvents = [
         title: `Quand Javelit rencontre ADK // Ne dessinez plus vos architectures : codez-les !`,
         date: new Date(2026, 8, 29), //month begin at 0
         time: '19h00',
-        register: "", // "https://www.meetup.com/nantes-java-user-group/events/314852645/",
+        register: "https://www.meetup.com/nantes-java-user-group/events/316512366/",
         place: "onepoint",
         subjects: [
             {
@@ -45,7 +45,7 @@ var njEvents = [
             },
             {
                 title: `Ne dessinez plus vos architectures : codez-les !`,
-                time: '19h00',
+                time: '19h30',
                 length: '55 min',
                 type: 'talk',
                 abstract: `
