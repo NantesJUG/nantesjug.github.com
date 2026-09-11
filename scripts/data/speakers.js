@@ -17,6 +17,14 @@
 /*jshint unused: false */
 var njSpeakers = [
 {
+    id: 'alexis_scolan',
+    name: 'Alexis Scolan',
+    bio: `
+	    <p>Concepteur de systèmes adaptatifs et maintenables, j'exerce en tant qu'architecte technique dans le secteur public, pour optimiser le cycle de vie des applications et l'expérience utilisateur.</p>
+    `,
+    photo: 'jpg'
+},
+{
     id: 'axel_toubiou',
     name: 'Axel Toubiou',
     bio: `
@@ -1913,10 +1921,11 @@ var njSpeakers = [
     id: "jean_philippe_baconnais",
     name: "Jean-Philippe Baconnais",
     bio:
-      "<p>Développeur chez Zenika Nantes.</br>" +
+      "<p>Consultant & Directeur Technique @Zenika Nantes</br>" +
       "Plongé dans le développement avec l'éco-système Java, curieux de nature, j'aime découvrir et expérimenter de nouvelles technos back end ou front end et les partager autour de moi.</br>" +
-      "GitLab Heroes depuis l'été 2020 🦊 & Community Hero GitPod 🍑 depuis juin 2022.</br>" +
-      "Co orga des Human Talks Nantes</p>",
+      "#GitLabHeroes 🦊 | ⛅ Google Developer Expert Cloud & Cloud AI</br>" +
+      "Orga Meetup GitLab France</br></p>" +
+      "http://nantes.community",
     photo: "jpg",
     twitter: "jphi_baconnais",
     github: "jeanphibaconnais",

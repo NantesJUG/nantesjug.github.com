@@ -24,6 +24,45 @@
 // },
 var njEvents = [
     {
+        id: '2026_09_29',
+        title: `Quand Javelit rencontre ADK // Ne dessinez plus vos architectures : codez-les !`,
+        date: new Date(2026, 8, 29), //month begin at 0
+        time: '19h00',
+        register: "", // "https://www.meetup.com/nantes-java-user-group/events/314852645/",
+        place: "onepoint",
+        subjects: [
+            {
+                title: `Quand Javelit rencontre ADK ☕`,
+                time: '19h00',
+                length: '30 min',
+                type: 'quickie',
+                abstract: `
+                    <p>Créer un agent IA est devenu accessible grâce à des frameworks comme <b>ADK</b> (Agent Development Kit) ou cagent (Docker). Le véritable défi réside souvent dans son intégration dans une application "user friendly", surtout si le développement frontend n'est pas votre “tasse de thé”.</p>
+                    <p>C’est là que <b>Javelit</b> intervient. Cette librairie, basée sur Streamlit (https://streamlit.io/), permet de construire des interfaces utilisateurs en Java ☕.</p>
+                    <p>Dans ce “Tools in actions”, je vous montrerai comment ce binôme ADK / Javelit permet de créer des applications agentiques fonctionnelles et graphiquement très sympa (enfin vu de la part d’un Javaiste 😁).</p>
+                `,
+                speakers: ['jean_philippe_baconnais']
+            },
+            {
+                title: `Ne dessinez plus vos architectures : codez-les !`,
+                time: '19h00',
+                length: '55 min',
+                type: 'talk',
+                abstract: `
+                <p>Nous connaissons tous ce scénario : une architecture née sur un tableau blanc, figée dans un schéma statique puis lentement oubliée. Le code continue d'évoluer, mais la carte ne correspond plus au territoire. Ce fossé crée une dette de documentation que nous finissons par accepter comme une fatalité.</p>
+                <p></p>
+                <p>Pourtant, le Diagram-as-Code change la donne. En traitant les diagrammes comme du code source, nous gagnons la puissance du versionning (Git), l'analyse des changements (Diffs) et l'automatisation (CI/CD). Mieux encore, l'augmentation des outil de code par l'IA nous permet désormais de générer et maintenir ces modèles très aisément.</p>
+                <p></p>
+                <p>Dans cette session de Live Coding, nous dépasserons la théorie. Nous partirons d'un besoin métier brut (un ADR en Markdown) pour construire, itération après itération, une cartographie vivante avec LikeC4.</p>
+                <p>Nous verrons comment réconcilier la vision (le Pourquoi) et l'implémentation (le Comment) dans un modèle unique, navigable et interactif, intégré au cycle de vie du logiciel.</p>
+                <p></p>
+                <p>Fini les gribouillis obsolètes : compilons la documentation.</p>
+                `,
+                speakers: ['alexis_scolan']
+            },
+        ]
+    },
+    {
         id: '2026_06_11',
         title: `L'IA, copilote au quotidien // Spring Boot 4`,
         date: new Date(2026, 5, 11), //month begin at 0
