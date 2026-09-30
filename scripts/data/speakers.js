@@ -17,6 +17,15 @@
 /*jshint unused: false */
 var njSpeakers = [
 {
+    id: 'fanny_klauk',
+    name: 'Fanny Klauk',
+    bio: `
+	    <p>Accompagnatrice agile & DevOps, co-créatrice de <a href="https://www.tadx.fr/" target="_blank">TADx</a>, j'ai parcouru des kilomètres de lignes de développements, d'analyses fonctionnelles et d'architectures orientées données avant de revenir à mes premières amours : le travail d'équipe, dans un cadre motivant et bienveillant, autour de produits utiles et vivants.</p>
+      <p>C'est donc tout naturellement vers l'agilité et le DevOps que mes dernières missions se sont tournées. Depuis, je glane le meilleur pour alimenter les équipes que j'accompagne au quotidien : mindset DevOps et craftership, outils au service de la qualité et du déploiement, techniques de coaching et de design thinking pour capter les vrais besoins et l'amélioration continue des produits et des équipes.</p>
+    `,
+    photo: 'jpg'
+},
+{
     id: 'alexis_scolan',
     name: 'Alexis Scolan',
     bio: `

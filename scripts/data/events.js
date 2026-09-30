@@ -24,6 +24,53 @@
 // },
 var njEvents = [
     {
+        id: '2026_10_13',
+        title: `TechLeads : questionnez ! // De l'autocomplete à l'Autopilot`,
+        date: new Date(2026, 9, 13), //month begin at 0
+        time: '19h00',
+        register: "https://www.meetup.com/nantes-java-user-group/events/316779777/",
+        place: "qlik",
+        subjects: [
+            {
+                title: `TechLeads : arrêtez de répondre. Commencez à questionner !`,
+                time: '19h00',
+                length: '20 min',
+                type: 'quickie',
+                abstract: `
+                    <p>On attend du Techlead qu’il sache. On vient le voir pour chaque décision : relecture de code, décision d'architecture, arbitrage produit, debug complexe, médiation d'équipe… Et plus il est compétent, plus il est sollicité !</p>
+                    <p>Le paradoxe ? Sa valeur crée sa surcharge. Et si le rôle du TechLead n’était pas d’avoir les meilleures réponses… mais de poser les meilleures questions ?</p>
+                    <p>Le questionnement puissant est une compétence centrale en coaching mais quasiment absente de la culture technique.</p>
+                    <p>Alors permettez-moi de vous offrir cet angle nouveau qui pourrait vous permettre de :
+                    <ul>
+                        <li>réduire la charge cognitive du TechLead,</li>
+                        <li>faire émerger des solutions plus solides,</li>
+                        <li>responsabiliser sans imposer,</li>
+                        <li>et d'éviter les dépendances invisibles</li>
+                    </ul></p>
+                    <p>Un sujet pour celles et ceux qui veulent faire grandir leur impact sans s’épuiser.</p>
+                `,
+                speakers: ['fanny_klauk']
+            },
+            {
+                title: `De l'autocomplete à l'Autopilot : Comment l'IA a transformé ma vie de développeur`,
+                time: '19h30',
+                length: '45 min',
+                type: 'talk',
+                abstract: `
+                    <p>En 2021, Copilot m'aidait à terminer des lignes de code.<br/>
+                        En 2024, je discutais avec lui.<br/>
+                        En 2025, le <b>Context Engineering</b> a marqué un tournant décisif.</p>
+                    <p>Aujourd'hui, en 2026, je ne me contente plus de parler à l'IA — je lui <b>délègue</b>.</p>
+                    <p>GitHub Copilot, Copilot CLI, les Skills, les workflows agentiques, les nouveaux modèles… Je suis passé de la simple assistance à la délégation de pans entiers de mon travail, de la création de projets à l'ouverture et la revue de pull requests, le tout en langage naturel.</p>
+                    <p>Et je ne suis pas le seul : chez GitHub, nos propres équipes produits utilisent ces mêmes capacités pour livrer plus rapidement et repenser la manière dont les logiciels sont conçus.</p>
+                    <p>Ce changement dépasse le cadre des seuls développeurs. Product Managers, SREs, ingénieurs DevOps — ils deviennent tous des bâtisseurs. Il ne s'agit plus seulement d'écrire du code, mais d'exprimer une intention.</p>
+                    <p>Dans cette présentation, je vous montrerai ce qui a fondamentalement changé entre 2025 et 2026, et comment cette évolution m'a transformé : d'un développeur doté d'un excellent assistant à un véritable "<b>builder</b>" capable de piloter de nombreux projets et taches en parallèle.</p>
+                `,
+                speakers: ['tugdual_grall']
+            },
+        ]
+    },
+    {
         id: '2026_09_29',
         title: `Quand Javelit rencontre ADK // Ne dessinez plus vos architectures : codez-les !`,
         date: new Date(2026, 8, 29), //month begin at 0
