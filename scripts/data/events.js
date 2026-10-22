@@ -24,6 +24,59 @@
 // },
 var njEvents = [
     {
+        id: '2026_11_18',
+        title: `Auditer une application // Server-Sent Events`,
+        date: new Date(2026, 10, 18), //month begin at 0
+        time: '19h00',
+        // register: "https://www.meetup.com/nantes-java-user-group/events/316779777/",
+        place: "kanoma",
+        subjects: [
+            {
+                title: `Auditer une application sans stress`,
+                time: '19h00',
+                length: '45 min',
+                type: 'talk',
+                abstract: `
+                    <p>Votre boss vous demande en urgence d’auditer une application… dont vous ne connaissez absolument rien. Un nom qui ne vous parle pas, peu de contexte, et une pression bien réelle : bienvenue dans une situation que beaucoup d’architectes, tech leads et experts connaissent.</p>
+                    <p>Vous êtes débordé de taf, votre hémisphère droit vous dit de dire non, mais vous êtes un professionnel, alors vous finissez par dire OK à votre boss en demandant qu’on vous transmette a minima quelques éléments.</p>
+                    <p>Quelques minutes plus tard, vous recevez un mail avec quelques bribes d'information. Mais au lieu de clarifier, le contenu soulève encore plus de questions.</p>
+                    <p>Intrigué, vous demandez alors un approfondissement avec l’équipe… et là ...mauvaise surprise.
+                    Vous voici en conférence avec un panel hétéroclite : équipe dev, métier, exploitation, CP, PO, PM, DSI.
+                    Chacun a déjà sa théorie sur l’origine du problème et vous oriente dans sa propre direction.</p>
+                    <ul>
+                    <li>le métier qui sait “exactement” d’où vient le problème (et c’est toujours l’API)</li>
+                    <li>l'équipe dev qui rejette la faute à l'infra</li>
+                    <li>l’exploitation qui n’a “rien changé, promis”</li>
+                    <li>le PM qui pensait qu’elle avait été décommissionnée</li>
+                    <li>le DSI qui découvre la criticité de l’application</li>
+                    </ul>
+                    </p>
+                    <p>Pendant ce temps, vous essayez de garder l’air futé en prenant des notes. <br>
+                    Chacun a sa théorie. Chacun a raison. Et bien sûr, personne n’a la même définition du mot “incident”.</p>
+                    <p>Bref : vous voilà embarqué dans un audit express, dans le chaos total.</p>
+                    <p>Vous aussi vous avez vécu ça ? Moi aussi. Souvent.<br>
+                    Et maintenant, on fait quoi ?<p>
+                    <p>Dans ce talk, on verra comment garder la tête froide, reprendre le contrôle et mener un audit efficace malgré le chaos initial</p>
+                    <p>Vous repartirez avec une check‑list, un cadre d’analyse et des réflexes permettant de transformer une demande floue en un audit structuré pro… et peut‑être même un peu de zénitude pour vos prochains audits surprise.</p>
+                `,
+                speakers: ['arnaud_genre_grandpierre']
+            },
+            {
+                title: `Server-Sent Events : quand l'API murmure à l’oreille de votre navigateur`,
+                time: '19h45',
+                length: '45 min',
+                type: 'talk',
+                abstract: `
+                    <p>Vos utilisateurs en ont marre d’attendre...<br>
+                    Nos applications s’essoufflent sous le poids du polling et des loaders plus ou moins maîtrisés . Et si les Server-Sent Events (SSE) étaient la solution simple et légère que vous cherchez ?<br>
+                    Les SSE permettent de basculer d’un modèle où le navigateur demande à un système où le serveur murmure à son oreille. Ce changement de paradigme a de nombreux impacts sur l'architecture, le code, et même sur la conception de l’expérience utilisateur.</p>
+                    <p>Charline et Nicolas, Lead Tech Frontend et Backend, vous partagent leur retour d’expérience sur cette mise en place dans des cas d'usages réels. Dans des jeux multi-joueurs, ou dans des applications de gestion traditionnelles, ils vous montreront les cas d'usages concret, les gains et les pièges à éviter.</p>
+                    <p>Venez découvrir comment les SSE influencent votre code, de l'intégration aux frameworks Frontend, jusqu'à la séparation lecture/écriture côté backend. Vous verrez aussi comment cette approche fait évoluer la conception des échanges Front/Back et l'expérience utilisateur, tout en offrant de nouvelles possibilités...</p>
+                `,
+                speakers: ['charline_humeau', 'nicolas_giraud']
+            },
+        ]
+    },    {
         id: '2026_10_13',
         title: `TechLeads : questionnez ! // De l'autocomplete à l'Autopilot`,
         date: new Date(2026, 9, 13), //month begin at 0

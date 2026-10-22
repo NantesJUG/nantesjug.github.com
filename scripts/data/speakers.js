@@ -17,6 +17,25 @@
 /*jshint unused: false */
 var njSpeakers = [
 {
+    id: 'arnaud_genre_grandpierre',
+    name: 'Arnaud Genre-Grandpierre',
+    bio: `
+	    <p>Je suis Arnaud Genre-Grandpierre.</p>
+      <p>Je suis architecte depuis plus de 25 ans.</p>
+      <p>Je suis formateur à l'école onepoint. J'interviens sur des sujet d'agilisation du SI et IAM</p>
+    `,
+    photo: 'jpg'
+},
+{
+    id: 'charline_humeau',
+    name: 'Charline Humeau',
+    bio: `
+	    <p>Charline travaille depuis 7 ans chez onepoint. Son sujet du moment? L'accessibilité numérique ou comme le dit Tim Berners-Lee : "Mettre le Web et ses services à la disposition de tous les individus, quel que soit leur matériel ou logiciel, [...] leur langue maternelle, ou leurs aptitudes physiques ou mentales".</p>
+      <p>Au quotidien, elle concentre toutes ses compétences pour réaliser des applications Web modernes à forte valeur ajoutée et à large diffusion.</p>
+    `,
+    photo: 'jpg'
+},
+{
     id: 'fanny_klauk',
     name: 'Fanny Klauk',
     bio: `
@@ -1802,7 +1821,11 @@ var njSpeakers = [
   {
     id: "nicolas_giraud",
     name: "Nicolas Giraud",
-    bio: "<p></p>",
+    bio: `
+      <p>Développeur passionné, Nicolas évolue depuis près de 20 ans essentiellement sur des projets Java (EE).</p>
+      <p>Addict aux outils innovants et sensible aux pratiques agiles, c'est d'abord avec les notions de CD/CI qu'il aborde ces notions d'amélioration continue, puis plus récemment dans la mouvance DevOps, où il trouve refuge !</p>
+      <p>C'est finalement dans un rôle de Tech lead (alias "couteau suisse") qu'il intervient, et tente (parfois avec succès) de faciliter la vie de ses co-developpeurs dans l'esprit bienveillant du Software Crafter.</p>
+      `,
   },
   {
     id: "gautier_de_saint_martin_lacaze",

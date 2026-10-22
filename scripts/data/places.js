@@ -1,6 +1,14 @@
 /*jshint unused: false */
 var njPlaces = [
     {
+    id: 'kanoma',
+    name: 'Kanoma',
+    address: '1, rue Bayard',
+    city: '44100 Nantes',
+    maps: 'https://maps.app.goo.gl/C6S7nezz9XATRCcB7',
+    capacity: 30
+  },
+    {
     id: 'eklo',
     name: 'Eklo Nantes',
     address: '63 Bis Boulevard de la Prairie au Duc',
