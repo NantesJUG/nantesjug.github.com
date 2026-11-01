@@ -1826,6 +1826,7 @@ var njSpeakers = [
       <p>Addict aux outils innovants et sensible aux pratiques agiles, c'est d'abord avec les notions de CD/CI qu'il aborde ces notions d'amélioration continue, puis plus récemment dans la mouvance DevOps, où il trouve refuge !</p>
       <p>C'est finalement dans un rôle de Tech lead (alias "couteau suisse") qu'il intervient, et tente (parfois avec succès) de faciliter la vie de ses co-developpeurs dans l'esprit bienveillant du Software Crafter.</p>
       `,
+    photo: "jpg",
   },
   {
     id: "gautier_de_saint_martin_lacaze",
