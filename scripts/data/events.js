@@ -28,7 +28,7 @@ var njEvents = [
         title: `Auditer une application // Server-Sent Events`,
         date: new Date(2026, 10, 18), //month begin at 0
         time: '19h00',
-        // register: "https://www.meetup.com/nantes-java-user-group/events/316779777/",
+        register: "https://www.meetup.com/nantes-java-user-group/events/317244219",
         place: "kanoma",
         subjects: [
             {
